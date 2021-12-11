@@ -70,7 +70,13 @@
       ]
     },
     "readme": {
-      "$ref": "#/$defs/relPathOrWebUrl"
+      "$ref": "#/$defs/relPathOrWebUrl",
+      "examples": [
+        "README.md",
+        "README",
+        "README-JP.md",
+        "README-JP"
+      ]
     },
     "image": {
       "$ref": "#/$defs/relPathOrWebUrl"
