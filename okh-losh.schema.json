@@ -193,6 +193,30 @@
         },
         "required": [ "name", "source" ]
       }
+    },
+    "software": {
+      "description": "TODO",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "release": {
+            "description": "unambiguous refrence to the software release used for this version of the OSH module",
+            "$ref": "#/$defs/relPathOrWebUrl",
+            "examples": [
+              "https://github.com/arduino/ArduinoCore-mbed/releases/tag/1.3.2"
+            ]
+          },
+          "installation-guide": {
+            "description": "unambiguous refrence to the installation guide for the corresponding software release",
+            "$ref": "#/$defs/relPathOrWebUrl",
+            "examples": [
+              "https://github.com/arduino/ArduinoCore-mbed/blob/a2c06d768f5ebb6821ae6505b2032ee58f4ef70d/README.md"
+            ]
+          }
+        },
+        "required": [ "release" ]
+      }
     }
   },
   "$defs": {
