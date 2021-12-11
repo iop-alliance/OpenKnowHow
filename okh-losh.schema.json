@@ -158,6 +158,15 @@
         "Documentation/User_Guide/UserGuide.md"
       ]
     },
+    "source": {
+      "$ref": "#/$defs/source"
+    },
+    "export": {
+      "$ref": "#/$defs/export"
+    },
+    "auxiliary": {
+      "$ref": "#/$defs/auxiliary"
+    },
     "part": {
       "type": "array",
       "items": {
