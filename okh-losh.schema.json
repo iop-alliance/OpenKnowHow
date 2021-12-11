@@ -34,7 +34,7 @@
     "release": {
       "$ref": "#/$defs/relPathOrWebUrl"
     },
-    "spdxLicense": {
+    "license": {
       "$ref": "#/$defs/spdxLicenseExpression",
       "examples": [
         "GPL-3.0-or-later",
@@ -47,13 +47,6 @@
         "CC-BY-SA-4.0",
         "CC-BY-4.0",
         "Unlicense"
-      ]
-    },
-    "alternativeLicense": {
-      "type": "string",
-      "examples": [
-        "My own license",
-        "Some non-listed license"
       ]
     },
     "licensor": {
