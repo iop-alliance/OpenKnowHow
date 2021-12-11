@@ -153,7 +153,10 @@
       "$ref": "#/$defs/relPathOrWebUrl"
     },
     "user-manual": {
-      "$ref": "#/$defs/relPathOrWebUrl"
+      "$ref": "#/$defs/relPathOrWebUrl",
+      "examples": [
+        "Documentation/User_Guide/UserGuide.md"
+      ]
     },
     "part": {
       "type": "array",
