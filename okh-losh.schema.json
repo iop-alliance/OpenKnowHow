@@ -77,6 +77,15 @@
         "README-JP"
       ]
     },
+    "contribution-guide": {
+      "$ref": "#/$defs/relPathOrWebUrl",
+      "examples": [
+        "CONTRIBUTING.md",
+        "CONTRIB.md",
+        "CONTRIBUTING",
+        "CONTRIB"
+      ]
+    },
     "image": {
       "$ref": "#/$defs/image"
     },
