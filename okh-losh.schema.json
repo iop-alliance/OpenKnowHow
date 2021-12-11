@@ -82,7 +82,7 @@
       "$ref": "#/$defs/relPathOrWebUrl"
     },
     "documentation-language": {
-      "description": "Language the documentation is written in, as a BCP 47 language tag",
+      "description": "IETF BCP 47 language tag for the language in which the documentation is written",
       "$ref": "#/$defs/language"
     },
     "technology-readiness-level": {
