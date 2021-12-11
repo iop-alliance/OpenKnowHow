@@ -142,7 +142,12 @@
       ]
     },
     "bom": {
-      "$ref": "#/$defs/relPathOrWebUrl"
+      "$ref": "#/$defs/relPathOrWebUrl",
+      "examples": [
+        "sBoM.csv",
+        "BOM.csv",
+        "bom.csv"
+      ]
     },
     "manufacturing-instructions": {
       "$ref": "#/$defs/relPathOrWebUrl"
