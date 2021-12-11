@@ -102,8 +102,29 @@
     "function": {
       "type": "string",
       "examples": [
-        "TODO",
-        "TODO"
+        "A fully programmable, impeccably built, open source, split mechanical keyboard designed for extreme productivity and ergonomics.",
+        "A Handibot tool is a new kind of portable, digitally-controlled power tool for cutting, drilling, carving, and many other machining operations– the first Universal Digital Power Tool (UDPT) – or just, a Smart Tool. If you're familiar with industrial CNC (computer numerically controlled) equipment, think of the Handibot tool as a portable version of CNC. ",
+        "A tandem bicycle, with practically the same size, weight, and cost of a standard bicycle.",
+        "CARLA is a resistant bicycle trailer, which can be coupled with any regular bike and can transport easily 150 kg load. CARLA distinguishes itself for the outstanding agility and a very small turning circle. CARLA bicycle trailer is very well in tune with e-bikes for example, with a mid-motor.",
+        "FarmBot Genesis is top-of-the-line FarmBot model designed with the most features and flexibility. It is suitable for growing food with the highest level of precision, running complex experiments, and capable of being easily modified and extended to do more.",
+        "Flipper Zero is a multi tool device for geeks with a curious personality of a cyber-dolphin who really loves to hack. It can interact with digital systems in real life and grow while you are hacking. The idea of Flipper Zero is to combine all the phreaking hardware tools you'd need for hacking on the go.",
+        "GEK Gasifier comes as an assemble-yourself kit that provides stand-alone wood gas for a variety of end uses.",
+        " Inkplate 6 is a powerful, Wi-Fi enabled ESP32 based six-inch e-paper display – recycled from a Kindle e-reader.",
+        "KORUZA innovates the design of a free-space optical communication system reusing mass produced Small Form-factor Pluggable (SFP) electro-optical transceivers, combining the latest advances in low-cost 3D printing using the Fused Deposition Modelling (F DM) method with bare-minimum custom electronics design.",
+        "LittleRP is an Open Source Resin 3D Printer ",
+        "mechanical setup for the COSI Measure",
+        "MNT Reform is the radical, ultimate open hardware laptop, designed and assembled in Berlin.",
+        "OpenEVSE supplies open source charging station hardware and software solutions to manufactures and individuals. ",
+        "OpenROV is a DIY telerobotics community centered around underwater exploration & adventure.",
+        "Opentrons makes robots for biologists. The robots automate experiments that would otherwise be done by hand, allowing our users to spend more time pursuing answers to the 21st century’s most important questions, and less time pipetting.",
+        "The AXIOM Beta is an open source, open hardware, professional-grade digital film camera made by apertus°. It is designed to be modular e.g. interchangeable sensor front end etc. and supports recording at 4K resolution.",
+        "The Corne is a 40% split mechanical USB general purpose keyboard. It is made up of two halves with 3x6 column staggered keys and 3 thumb keys. It has full RGB backlighting, and is fully programmable using the popular Open Source QMK firmware. The basic design principles are, to have a minimal, ergonomically arranged set of keys that are all reachable by moving a finger by at most a distance of one key in diagonal.",
+        "The Corne keyboard is a split keyboard with 3x6 column staggered keys and 3 thumb keys, based on Helix. Crkbd stands for Corne Keyboard.",
+        "The Electric Eel Wheel is an affordable electric spinning wheel that is revolutionizing the fiber world!  The uptake is controlled with a unique scotch tension design and the yarn flows through a clever flyer assembly. It is an extremely light and portable design.",
+        "The goal of GliaX-Faceshield is to create a low cost, high quality, reusable face shield that can be quickly deployed.",
+        "The Lasersaur is a beautiful laser cutter with an outstanding price-performance ratio. We designed it to fill the need of makers, designers, architects and researchers who want a safe and highly-capable machine. Unlike others it's open source and comes fully loaded with knowledge to run, maintain, and modify.",
+        "The robot having functional characterisctics of animal such as Run, Walk, Crawl, Walk and run in different heights and take push ups operated autonomously and via android app.",
+        "This charge controller is a so-called maximum power point tracker (MPPT), which automatically adapts its input voltage to the connected solar panel to extracts as much power as possible. The MPPT function can only be achieved using a DC/DC converter, which is the core part of the charge controller PCB. It can be recognized by the large inductor and the large electrolytic input and output filter capacitors."
       ]
     },
     "cpc-patent-class": {
