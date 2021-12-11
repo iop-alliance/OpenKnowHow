@@ -99,6 +99,9 @@
       ],
       "default": "ODRL-1"
     },
+    "attestation": {
+      "$ref": "#/$defs/relPathOrWebUrl"
+    },
     "function": {
       "type": "string",
       "examples": [
