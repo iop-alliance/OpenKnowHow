@@ -15,8 +15,7 @@
       "ui-hidden": true
     },
     "name": {
-      "description": "Name of the thing",
-      "type": "string"
+      "$ref": "#/$defs/name"
     },
     "repo": {
       "$ref": "#/$defs/webUrl"
@@ -79,7 +78,7 @@
       ]
     },
     "image": {
-      "$ref": "#/$defs/relPathOrWebUrl"
+      "$ref": "#/$defs/image"
     },
     "documentation-language": {
       "description": "IETF BCP 47 language tag for the language in which the documentation is written",
@@ -140,15 +139,7 @@
       "$ref": "#/$defs/cpcId"
     },
     "tsdc": {
-      "description": "TODO",
-      "type": [ "array", "string" ],
-      "items": {
-        "type": "string"
-      },
-      "examples": [
-        "TODO",
-        "TODO"
-      ]
+      "$ref": "#/$defs/tsdc"
     },
     "bom": {
       "$ref": "#/$defs/relPathOrWebUrl",
@@ -171,35 +162,27 @@
       "type": "array",
       "items": {
         "type": "object",
-         "properties": {
-           "name": {
-             "type": "string"
-           },
-           "image": {
-             "$ref": "#/$defs/relPathOrWebUrl"
-           },
-           "tsdc": {
-             "type": ["array", "string"],
-             "items": {
-               "type": "string"
-             }
-           },
-           "source": {
-             "$ref": "#/$defs/relPathOrWebUrl"
-           },
-           "export": {
-             "oneOf": [
-               { "$ref": "#/$defs/relPathOrWebUrl" },
-               {
-                 "type": "array",
-                 "items": {
-                   "$ref": "#/$defs/relPathOrWebUrl"
-                 }
-               }
-             ]
-           }
-         },
-      "required": [ "name" ]
+        "properties": {
+          "name": {
+            "$ref": "#/$defs/name"
+          },
+          "image": {
+            "$ref": "#/$defs/image"
+          },
+          "tsdc": {
+            "$ref": "#/$defs/tsdc"
+          },
+          "source": {
+            "$ref": "#/$defs/source"
+          },
+          "export": {
+            "$ref": "#/$defs/export"
+          },
+          "auxiliary": {
+            "$ref": "#/$defs/auxiliary"
+          }
+        },
+        "required": [ "name", "source" ]
       }
     }
   },
@@ -301,6 +284,76 @@
       "description": "A valid SPDX license expression",
       "$comment": "TODO We would have to define this in an extra schema, generated -> do it in the SPDX-Identifiers-generater repo! -> NOPE -> already exists! see https://github.com/spdx/spdx-spec/issues/484#issuecomment-720817111    .. sounds like it needs to be improved, though -> .. ahh nope, it does not solve our issue, but checks SPDX documents for validity",
       "type": "string"
+    },
+    "name": {
+      "description": "working title of the OSH module",
+      "type": "string"
+    },
+    "image": {
+      "description": "relative or absolute path to one (!) representative image of the OSH mod",
+      "anyOf": [
+        {
+          "$ref": "#/$defs/relPathOrWebUrl"
+        },
+        {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/relPathOrWebUrl"
+          }
+        }
+      ]
+    },
+    "tsdc": {
+      "description": "identifier of the applying Technology-specific Documentation Criteria (TsDC) according to DIN SPEC 3105-1 - get it from here: <https://gitlab.com/OSEGermany/oh-tsdc/-/blob/master/oh-tsdc.ttl> - multiple inputs possible (with one entry each)",
+      "type": [ "array", "string" ],
+      "items": {
+        "type": "string"
+      },
+      "examples": [
+	"3DP",
+        "A63C",
+        "ASM",
+        "CNC",
+        "MEC",
+        "PCB",
+        "STD"
+      ]
+    },
+    "source": {
+      "description": "relative or absolute path to source file (e.g. native CAD file); multiple inputs possible (with one entry each)",
+      "type": "array",
+      "items": {
+        "type": "string",
+        "$comment": "TODO type should rather be ~ $ref:relPath"
+      },
+      "examples": [
+        "3D-parts/assembly.asm",
+        "pcb/main.pro",
+        "pcb/main.kicad_pcb",
+        "cad/part-x/model.fcstd"
+      ]
+    },
+    "export": {
+      "description": "relative or absolute path to export file (e.g. STEP export of 3D model or PDF export of drawing); multiple inputs possible (with one entry each)",
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/relPathOrWebUrl"
+      },
+      "examples": [
+        "3D-parts/assembly.stp",
+        "public/user-manual.pdf"
+      ]
+    },
+    "auxiliary": {
+      "description": "relative or absolute path to files that are neither source files nor their exports, but still useful in the repository (e.g. KiCAD library files); multiple inputs possible (with one entry each)",
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/relPathOrWebUrl"
+      },
+      "examples": [
+        "lib/lib1.lib",
+        ".mdlrc"
+      ]
     }
   },
   "required": [ "okhv", "name", "repo", "version", "licensor" ],
