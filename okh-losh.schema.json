@@ -18,9 +18,11 @@
       "$ref": "#/$defs/name"
     },
     "repo": {
+      "description": "reference to repository in which the technical documentation is developed",
       "$ref": "#/$defs/webUrl"
     },
     "version": {
+      "description": "version of the module, following the [semantic versioning-scheme v2.0.0](https://semver.org/#semantic-versioning-200)",
       "type": ["string", "number"],
       "examples": [
         "2.3.4",
@@ -31,9 +33,11 @@
       ]
     },
     "release": {
+      "description": "reference to release package of this version of the OSH module",
       "$ref": "#/$defs/relPathOrWebUrl"
     },
     "license": {
+      "description": "[SPDX ID](https://spdx.org/licenses/) of the license used - if no SPDX key is available yet, use URL to legal code of the license instead - NOTE: When no SPDX key is found by the crawler, metadata won't be uploaded to LOSH until the alternative license has been whitelisted by maintainers. At LOSH we need to make sure that all results are actually open source.",
       "$ref": "#/$defs/spdxLicenseExpression",
       "examples": [
         "GPL-3.0-or-later",
@@ -49,6 +53,7 @@
       ]
     },
     "licensor": {
+      "description": "licensor (mostly the originator) of the OSH module",
       "type": "string",
       "examples": [
         "John Doe <john.doe@email.com> - FSF",
@@ -59,6 +64,7 @@
       ]
     },
     "organisation": {
+      "description": "organisation of the licensor",
       "type": "string",
       "examples": [
         "Free Software Foundation",
@@ -69,6 +75,7 @@
       ]
     },
     "readme": {
+      "description": "relative or absolute path to the readme file",
       "$ref": "#/$defs/relPathOrWebUrl",
       "examples": [
         "README.md",
@@ -78,6 +85,7 @@
       ]
     },
     "contribution-guide": {
+      "description": "relative or absolute path to the contribution guide",
       "$ref": "#/$defs/relPathOrWebUrl",
       "examples": [
         "CONTRIBUTING.md",
@@ -94,6 +102,7 @@
       "$ref": "#/$defs/language"
     },
     "technology-readiness-level": {
+      "description": "OTRL-ID representing the development stage of the OSH module; get it from here: <https://github.com/OPEN-NEXT/LOSH/raw/master/OTRL.ttl>",
       "enum": [
         "OTRL-1",
         "OTRL-2",
@@ -104,6 +113,7 @@
       "default": "OTRL-1"
     },
     "documentation-readiness-level": {
+      "description": "ODRL-ID representing the development stage of the documentation; get it from here: <https://github.com/OPEN-NEXT/LOSH/raw/master/OTRL.ttl>",
       "enum": [
         "ODRL-1",
         "ODRL-2",
@@ -114,9 +124,11 @@
       "default": "ODRL-1"
     },
     "attestation": {
+      "description": "reference to a valid attestation that the documentation is complete and fully qualifies as open source hardware; issuing conformity assessment bodies according to DIN SPEC 3105-2: - [Open Hardware Observatory](https://en.oho.wiki/wiki/Request_certification_for_your_project) - [Open Source Ecology Germany](https://gitlab.opensourceecology.de/verein/projekte/cab/CAB) - [OSHWA certification programme](https://certification.oshwa.org/)",
       "$ref": "#/$defs/relPathOrWebUrl"
     },
     "function": {
+      "description": "functional description, e.g. what it actually does, what problem it solves, for whom, under which conditions etc. - so if you wish that someone finds & uses your okh specifically e.g. for COVID-19-crisis response, include relevant keywords in this field\\ optional: description of input, output and interfaces",
       "type": "string",
       "examples": [
         "A fully programmable, impeccably built, open source, split mechanical keyboard designed for extreme productivity and ergonomics.",
@@ -156,12 +168,14 @@
       ]
     },
     "cpc-patent-class": {
+      "description": "patent class identifier of the Cooperative Patent Classification that describes best the field of technology of the OSH module - get it from here: <https://worldwide.espacenet.com/classification>",
       "$ref": "#/$defs/cpcId"
     },
     "tsdc": {
       "$ref": "#/$defs/tsdc"
     },
     "bom": {
+      "description": "relative or absolute path to the bill of materials",
       "$ref": "#/$defs/relPathOrWebUrl",
       "examples": [
         "sBoM.csv",
@@ -170,6 +184,7 @@
       ]
     },
     "manufacturing-instructions": {
+      "description": "relative or absolute path to manufacturing instructions; multiple inputs possible (with one entry each)",
       "anyOf": [
         {
           "$ref": "#/$defs/relPathOrWebUrl"
@@ -186,6 +201,7 @@
       ]
     },
     "user-manual": {
+      "description": "relative or absolute path to user manual",
       "$ref": "#/$defs/relPathOrWebUrl",
       "examples": [
         "Documentation/User_Guide/UserGuide.md"
@@ -201,6 +217,7 @@
       "$ref": "#/$defs/auxiliary"
     },
     "part": {
+      "description": "TODO",
       "type": "array",
       "items": {
         "type": "object",
