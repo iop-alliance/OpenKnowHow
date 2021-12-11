@@ -170,7 +170,20 @@
       ]
     },
     "manufacturing-instructions": {
-      "$ref": "#/$defs/relPathOrWebUrl"
+      "anyOf": [
+        {
+          "$ref": "#/$defs/relPathOrWebUrl"
+        },
+        {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/relPathOrWebUrl"
+          }
+        }
+      ],
+      "examples": [
+        "Documentation/Assembly_Guide/AssemblyGuide.md"
+      ]
     },
     "user-manual": {
       "$ref": "#/$defs/relPathOrWebUrl",
