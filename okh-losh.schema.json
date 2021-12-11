@@ -135,6 +135,17 @@
         "This charge controller is a so-called maximum power point tracker (MPPT), which automatically adapts its input voltage to the connected solar panel to extracts as much power as possible. The MPPT function can only be achieved using a DC/DC converter, which is the core part of the charge controller PCB. It can be recognized by the large inductor and the large electrolytic input and output filter capacitors."
       ]
     },
+    "standard-compliance": {
+      "description": "document-number of the official standard the OSH module complies; multiple inputs possible (with one entry each)",
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "examples": [
+        "DIN EN 1335",
+        "ISO 1337"
+      ]
+    },
     "cpc-patent-class": {
       "$ref": "#/$defs/cpcId"
     },
