@@ -216,6 +216,17 @@
     "auxiliary": {
       "$ref": "#/$defs/auxiliary"
     },
+    "outer-dimensions":{
+      "outer-dimensions-mm":{
+        "$ref": "#/$defs/outer-dimensions"
+      },
+      "outer-dimensions-cm":{
+        "$ref": "#/$defs/outer-dimensions"
+      },
+      "outer-dimensions-m":{
+        "$ref": "#/$defs/outer-dimensions"
+      }
+    },
     "part": {
       "description": "physical component of this open source hardware module, for which technical documentation (design files etc.) is available under a free/open license",
       "type": "array",
@@ -239,9 +250,24 @@
           },
           "auxiliary": {
             "$ref": "#/$defs/auxiliary"
+          },
+          "outer-dimensions":{
+            "outer-dimensions-mm":{
+              "$ref": "#/$defs/outer-dimensions"
+            },
+            "outer-dimensions-cm":{
+              "$ref": "#/$defs/outer-dimensions"
+            },
+            "outer-dimensions-m":{
+              "$ref": "#/$defs/outer-dimensions"
+            }
           }
         },
-        "required": [ "name", "source" ]
+        "required": [ "name" ],
+        "anyOf": [
+          { "required": [ "source" ] },
+          { "required": [ "export" ] }
+        ]
       }
     },
     "software": {
@@ -437,6 +463,11 @@
         "lib/lib1.lib",
         ".mdlrc"
       ]
+    },
+    "outer-dimensions": {
+      "description": "openSCAD primitive describing shape and size of the module or part; the property extension (e.g. `-mm`) defines the dimension of measures",
+      "$comment": "see openSCAD documentation here for syntax <https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/Primitive_Solids>",
+      "type": "string"
     }
   },
   "required": [ "okhv", "name", "repo", "version", "licensor", "function" ],
