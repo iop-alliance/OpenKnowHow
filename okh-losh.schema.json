@@ -439,7 +439,7 @@
       ]
     }
   },
-  "required": [ "okhv", "name", "repo", "version", "licensor" ],
+  "required": [ "okhv", "name", "repo", "version", "licensor", "function" ],
   "anyOf": [
     { "required": [ "spdxLicense" ] },
     { "required": [ "alternativeLicense" ] }
