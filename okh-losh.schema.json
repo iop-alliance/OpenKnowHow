@@ -217,7 +217,7 @@
       "$ref": "#/$defs/auxiliary"
     },
     "part": {
-      "description": "TODO",
+      "description": "physical component of this open source hardware module, for which technical documentation (design files etc.) is available under a free/open license",
       "type": "array",
       "items": {
         "type": "object",
@@ -245,7 +245,7 @@
       }
     },
     "software": {
-      "description": "TODO",
+      "description": "associated software package used to operate this piece of open source hardware",
       "type": "array",
       "items": {
         "type": "object",
