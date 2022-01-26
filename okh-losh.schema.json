@@ -4,8 +4,6 @@
   "title": "Manifest",
   "description": "This is a JSON schema, which can validate a 'okh.toml' file, which holds a projects Open Know-How (Open Source Hardware) meta-data.",
   "$comment": "NOTE: The properies 'ui-hidden' and 'ui-recommended' used in this schema, are non-standardised, and currently unused. They could be used to create a form, and are here for consistency with <https://git.iostud.io/makernet/iop-cdb/-/blob/dev/server/assets/okh.okhdf>.",
-  "$comment": "SPDX-FileCopyrightText: 2021 Robin Vobruba <hoijui.quaero@gmail.com>",
-  "$comment": "SPDX-License-Identifier: AGPL-3.0-or-later",
   "type": "object",
   "properties": {
     "okhv": {
