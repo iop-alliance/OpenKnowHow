@@ -375,32 +375,36 @@
       "format": "uri",
       "pattern": "^https?://"
     },
+    "relPath": {
+      "type": "string",
+      "$comment": "A relative file-path to a dir or file below the root - as much as one can check for that with a regex",
+      "not": {
+        "anyOf": [
+          {
+            "$comment": "no protocol",
+            "pattern": "^[a-z]*:"
+          },
+          {
+            "$comment": "no URL-absolute path without protocol",
+            "pattern": "^//"
+          },
+          {
+            "$comment": "no parent-dir-references",
+            "pattern": "(?:.*/)?\\.\\.(?:/.*)?"
+          }
+        ]
+      }
+    },
     "relPathOrWebUrl": {
       "type": "string",
       "anyOf": [
         {
-          "$comment": "A full, absolute web URL",
+          "$comment": "A full web URL",
           "format": "uri",
           "pattern": "^https?://"
         },
         {
-          "$comment": "Not a URL, but a relative file-path to a dir or file below the root - as much as one can check for that with a regex",
-          "not": {
-            "anyOf": [
-              {
-                "$comment": "no protocol",
-                "pattern": "^[a-z]*:"
-              },
-              {
-                "$comment": "no URL-absolute path without protocol",
-                "pattern": "^//"
-              },
-              {
-                "$comment": "no parent-dir-references",
-                "pattern": "(?:.*/)?\\.\\.(?:/.*)?"
-              }
-            ]
-          }
+          "$ref": "#/$defs/relPath"
         }
       ]
     },
