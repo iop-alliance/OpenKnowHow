@@ -100,23 +100,23 @@
     },
     "technology-readiness-level": {
       "description": "OTRL-ID representing the development stage of the OSH module; get it from here: <https://github.com/OPEN-NEXT/LOSH/raw/master/OTRL.ttl>",
-      "enum": [
-        "OTRL-1",
-        "OTRL-2",
-        "OTRL-3",
-        "OTRL-4",
-        "OTRL-5"
+      "oneOf": [
+        {"const": "OTRL-1", "description": "product specifications/requirements"},
+        {"const": "OTRL-2", "description": "proof of concept"},
+        {"const": "OTRL-3", "description": "early prototype"},
+        {"const": "OTRL-4", "description": "minimum viable product"},
+        {"const": "OTRL-5", "description": "safe product"}
       ],
       "default": "OTRL-1"
     },
     "documentation-readiness-level": {
       "description": "ODRL-ID representing the development stage of the documentation; get it from here: <https://github.com/OPEN-NEXT/LOSH/raw/master/OTRL.ttl>",
-      "enum": [
-        "ODRL-1",
-        "ODRL-2",
-        "ODRL-3",
-        "ODRL-4",
-        "ODRL-5"
+      "oneOf": [
+        {"const": "ODRL-1", "description": "documentation started & accessible"},
+        {"const": "ODRL-2", "description": "minimal documentation"},
+        {"const": "ODRL-3", "description": "full documentation"},
+        {"const": "ODRL-3*", "description": "audited documentation"},
+        {"const": "ODRL-4", "description": "audited documentation including CE certification documents"}
       ],
       "default": "ODRL-1"
     },
