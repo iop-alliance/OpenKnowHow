@@ -425,7 +425,7 @@
     },
     "source": {
       "description": "relative or absolute path to source file (e.g. native CAD file); multiple inputs possible (with one entry each)",
-      "type": "array",
+      "type": [ "array", "string" ],
       "items": {
         "type": "string",
         "$comment": "TODO type should rather be ~ $ref:relPath"
@@ -439,7 +439,7 @@
     },
     "export": {
       "description": "relative or absolute path to export file (e.g. STEP export of 3D model or PDF export of drawing); multiple inputs possible (with one entry each)",
-      "type": "array",
+      "type": [ "array", "string" ],
       "items": {
         "$ref": "#/$defs/relPathOrWebUrl"
       },
