@@ -470,7 +470,7 @@
     "mass": {
       "type": "object",
       "properties": {
-        "value": { "type": "float" },
+        "value": { "type": "number" },
         "unit": { "enum" : [ "g", "kg" ]}
       }
     }
