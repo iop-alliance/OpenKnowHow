@@ -465,14 +465,16 @@
       "properties": {
         "openSCAD": { "type": "string" },
         "unit": { "enum" : [ "mm", "m", "cm" ]}
-      }
+      },
+      "required": [ "openSCAD", "unit" ]
     },
     "mass": {
       "type": "object",
       "properties": {
         "value": { "type": "number" },
         "unit": { "enum" : [ "g", "kg" ]}
-      }
+      },
+      "required": [ "value", "unit" ]
     }
   },
   "required": [ "okhv", "name", "repo", "version", "license", "licensor", "function" ]
