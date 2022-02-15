@@ -422,13 +422,14 @@
         "type": "string"
       },
       "examples": [
-        "3DP",
-        "A63C",
         "ASM",
-        "CNC",
         "MEC",
+        "CIR",
         "PCB",
-        "STD"
+        "WEL",
+        "3DP",
+        "LAS",
+        "CNC"
       ]
     },
     "source": {
