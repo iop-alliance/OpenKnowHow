@@ -102,7 +102,7 @@
           "items": {
            "$ref": "#/$defs/language"
           }
-	},
+        },
         { "$ref": "#/$defs/language" }
       ]
     },
@@ -422,7 +422,7 @@
         "type": "string"
       },
       "examples": [
-	"3DP",
+        "3DP",
         "A63C",
         "ASM",
         "CNC",
