@@ -119,22 +119,23 @@
     "technology-readiness-level": {
       "description": "OTRL-ID representing the development stage of the OSH module; get it from here: <https://github.com/OPEN-NEXT/LOSH/raw/master/OTRL.ttl>",
       "oneOf": [
-        {"const": "OTRL-1", "description": "product specifications/requirements"},
-        {"const": "OTRL-2", "description": "proof of concept"},
-        {"const": "OTRL-3", "description": "early prototype"},
-        {"const": "OTRL-4", "description": "minimum viable product"},
-        {"const": "OTRL-5", "description": "safe product"}
+        {"const": "OTRL-1", "title": "Ideation / needs identification", "description": "Product idea, needs and initial specifications are defined"},
+        {"const": "OTRL-2", "title": "Conception", "description": "Mature product concept has been formulated"},
+        {"const": "OTRL-3", "title": "Development", "description": "Product model is developed"},
+        {"const": "OTRL-4", "title": "Prototyping and testing", "description": "Full functional prototype is built and tested"},
+        {"const": "OTRL-5", "title": "Manufacturing development", "description": "Fairly reliable processes identified and characterised"},
+        {"const": "OTRL-6", "title": "Product qualification", "description": "Certificate marking conformity assessment or comparable"}
       ],
       "default": "OTRL-1"
     },
     "documentation-readiness-level": {
       "description": "ODRL-ID representing the development stage of the documentation; get it from here: <https://github.com/OPEN-NEXT/LOSH/raw/master/OTRL.ttl>",
       "oneOf": [
-        {"const": "ODRL-1", "description": "documentation started & accessible"},
-        {"const": "ODRL-2", "description": "minimal documentation"},
-        {"const": "ODRL-3", "description": "full documentation"},
-        {"const": "ODRL-3*", "description": "full documentation, audited"},
-        {"const": "ODRL-4", "description": "full documentation including CE certification documents"}
+        {"const": "ODRL-1", "title": "Documentation process commenced", "description": "Published information under free open source licence"},
+        {"const": "ODRL-2", "title": "Collaborative documentation in progress", "description": "Provision of documentation files and in editable formats enabling collaboration development"},
+        {"const": "ODRL-3", "title": "Full documentation published", "description": "Complete documentation as per DIN SPEC 3105-1"},
+        {"const": "ODRL-3*", "title": "Full documentation published & audited", "description": "Public evidence of documentation maturity"},
+        {"const": "ODRL-4", "title": "Full documentation for product qualification", "description": "Product qualification documents published enabling decentralised commercial distribution"}
       ],
       "default": "ODRL-1"
     },
