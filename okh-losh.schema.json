@@ -100,7 +100,7 @@
         {
           "type": "array",
           "items": {
-           "$ref": "#/$defs/language"
+            "$ref": "#/$defs/language"
           }
         },
         { "$ref": "#/$defs/language" }
