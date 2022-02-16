@@ -51,7 +51,17 @@
     },
     "licensor": {
       "description": "licensor (usually the originator) of the OSH module",
-      "type": "string",
+      "oneOf": [
+        {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        {
+          "type": "string"
+        }
+      ],
       "examples": [
         "John Doe <john.doe@email.com> - FSF",
         "Jane Doe <jane.doe@email.com> - FSF",
