@@ -83,7 +83,7 @@
     },
     "readme": {
       "description": "repo-relative path to the readme file",
-      "$ref": "#/$defs/relPath",
+      "$ref": "#/$defs/relPathOrWebUrl",
       "examples": [
         "README.md",
         "README",
