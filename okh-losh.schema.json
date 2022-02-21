@@ -401,7 +401,8 @@
         "de",
         "es",
         "zh"
-      ]
+      ],
+      "autocomplete": true
     },
     "spdxLicenseExpression": {
       "description": "A valid SPDX license expression",
@@ -441,7 +442,8 @@
         "3DP",
         "LAS",
         "CNC"
-      ]
+      ],
+      "autocomplete": true
     },
     "source": {
       "description": "relative or absolute path to source file (e.g. native CAD file);\\\nmultiple inputs possible (with one entry each)",
