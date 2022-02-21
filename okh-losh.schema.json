@@ -505,5 +505,63 @@
     "license",
     "licensor",
     "function"
-  ]
+  ],
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "tsdc": { "type": "array", "contains": { "const": "3DP" } }
+        },
+        "required": ["tsdc"]
+      },
+      "then": {
+        "properties": {
+          "printing-process": {
+            "enum": ["FDM", "SLA", "SLS", "MJF", "DMLS"]
+          },
+          "matrial": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "tsdc": { "type": "array", "contains": { "const": "PCB" } }
+        },
+        "required": ["tsdc"]
+      },
+      "then": {
+        "properties": {
+          "2d-size-mm": {
+            "type": "array",
+            "items": {
+              "type": "number"
+            },
+            "minItems": 2,
+            "maxItems": 2
+          },
+          "component-sides": {
+            "type": "number"
+          }
+        }
+      }
+    }
+  ],
+  "propertiesOrder": [
+    ".*",
+    "tsdc",
+    "printing-process",
+    "matrial",
+    "2d-size-mm",
+    "component-sides",
+    "bom"
+  ],
+  "errorMessage": {
+    "required": "This property is required",
+    "properties": {
+      "repo": "Not a valid repo"
+    }
+  }
 }
