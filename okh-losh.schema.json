@@ -497,5 +497,13 @@
       "required": [ "value", "unit" ]
     }
   },
-  "required": [ "okhv", "name", "repo", "version", "license", "licensor", "function" ]
+  "required": [
+    "okhv",
+    "name",
+    "repo",
+    "version",
+    "license",
+    "licensor",
+    "function"
+  ]
 }
