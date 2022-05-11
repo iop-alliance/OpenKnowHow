@@ -93,7 +93,7 @@
     },
     "contribution-guide": {
       "description": "repo-relative path to the contribution guide",
-      "$ref": "#/$defs/relPath",
+      "$ref": "#/$defs/relPathOrWebUrl",
       "examples": [
         "CONTRIBUTING.md",
         "CONTRIB.md",
