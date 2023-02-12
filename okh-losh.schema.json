@@ -140,8 +140,18 @@
       "default": "ODRL-1"
     },
     "attestation": {
-      "description": "reference to a valid attestation that the documentation is complete and fully qualifies as open source hardware;\\\nissuing conformity assessment bodies according to DIN SPEC 3105-2:\\\n- [Open Hardware Observatory](https://en.oho.wiki/wiki/Request_certification_for_your_project)\\\n- [Open Source Ecology Germany](https://gitlab.opensourceecology.de/verein/projekte/cab/CAB)\\\n- [OSHWA certification programme](https://certification.oshwa.org/)",
-      "$ref": "#/$defs/relPathOrWebUrl"
+      "description": "reference to one or multiple valid attestation(s) that the documentation is complete and fully qualifies as open source hardware;\\\nissuing conformity assessment bodies according to DIN SPEC 3105-2:\\\n- [Open Hardware Observatory](https://en.oho.wiki/wiki/Request_certification_for_your_project)\\\n- [Open Source Ecology Germany](https://gitlab.opensourceecology.de/verein/projekte/cab/CAB)\\\n- [OSHWA certification programme](https://certification.oshwa.org/)",
+      "anyOf": [
+        {
+          "$ref": "#/$defs/relPathOrWebUrl"
+        },
+        {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/relPathOrWebUrl"
+          }
+        }
+      ]
     },
     "function": {
       "description": "functional description, e.g. what it actually does, what problem it solves, for whom, under which conditions etc.\\\nSo if you wish that someone finds & uses your OSH specifically e.g. for COVID-19-crisis response, include relevant keywords in this field",
