@@ -119,7 +119,7 @@
     "technology-readiness-level": {
       "description": "OTRL-ID representing the development stage of the OSH module; get it from here: <https://github.com/OPEN-NEXT/LOSH/raw/master/OTRL.ttl>",
       "oneOf": [
-        {"const": "OTRL-1", "title": "Ideation / needs identification", "description": "Product idea, needs and initial specifications are defined"},
+        {"const": "OTRL-1", "title": "Ideation", "description": "Product idea; needs are identified and initial specifications are defined"},
         {"const": "OTRL-2", "title": "Conception", "description": "Mature product concept has been formulated"},
         {"const": "OTRL-3", "title": "Development", "description": "Product model is developed"},
         {"const": "OTRL-4", "title": "Prototyping and testing", "description": "Full functional prototype is built and tested"},
