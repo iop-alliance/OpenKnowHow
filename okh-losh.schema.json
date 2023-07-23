@@ -499,7 +499,7 @@
       ]
     },
     "outerDimensions": {
-      "description": "openSCAD primitive describing shape and size of the module or part.\\\nSee the openSCAD documentation here for syntax <https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/Primitive_Solids>",
+      "description": "OpenSCAD primitive describing shape and size of the module or part.\\\nSee the OpenSCAD documentation here for syntax <https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/Primitive_Solids>",
       "type": "object",
       "properties": {
         "openSCAD": { "type": "string" },
