@@ -201,13 +201,7 @@
       "$ref": "#/$defs/tsdc"
     },
     "bom": {
-      "description": "URL or repo-relative path to the bill of materials",
-      "$ref": "#/$defs/relPathOrWebUrl",
-      "examples": [
-        "sBoM.csv",
-        "BOM.csv",
-        "bom.csv"
-      ]
+      "$ref": "#/$defs/bom"
     },
     "manufacturing-instructions": {
       "description": "URL or repo-relative path to manufacturing instructions; multiple inputs possible (with one entry each)",
@@ -461,6 +455,15 @@
         "CNC"
       ],
       "autocomplete": true
+    },
+    "bom": {
+      "description": "URL or repo-relative path to the bill of materials",
+      "$ref": "#/$defs/relPathOrWebUrl",
+      "examples": [
+        "sBoM.csv",
+        "BOM.csv",
+        "bom.csv"
+      ]
     },
     "source": {
       "description": "relative or absolute path to source file (e.g. native CAD file);\\\nmultiple inputs possible (with one entry each)",
