@@ -8,7 +8,7 @@ SPDX-License-Identifier: CC0-1.0
 
 [![GitHub license](
     https://img.shields.io/github/license/OPEN-NEXT/LOSH-OKH-JSON-Schemas.svg?style=flat)](
-    ./LICENSE)
+    ./LICENSE.txt)
 [![REUSE status](
     https://api.reuse.software/badge/github.com/OPEN-NEXT/LOSH-OKH-JSON-Schemas)](
     https://api.reuse.software/info/github.com/OPEN-NEXT/LOSH-OKH-JSON-Schemas)
@@ -23,4 +23,3 @@ This repo contains two [JSON-Schema](https://json-schema.org)s:
 * [okh-v1.schema.json](okh-v1.schema.json)
 
 They are used at least in the [`okh-tool`](https://github.com/OPEN-NEXT/LOSH-OKH-tool).
-
