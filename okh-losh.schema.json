@@ -117,7 +117,7 @@
       ]
     },
     "technology-readiness-level": {
-      "description": "OTRL-ID representing the development stage of the OSH module; get it from here: <https://github.com/OPEN-NEXT/LOSH/raw/master/OTRL.ttl>",
+      "description": "OTRL-ID representing the development stage of the OSH module; get it from: <https://w3id.org/oseg/ont/otrl>",
       "oneOf": [
         {"const": "OTRL-1", "title": "Ideation", "description": "Product idea; needs are identified and initial specifications are defined"},
         {"const": "OTRL-2", "title": "Conception", "description": "Mature product concept has been formulated"},
@@ -129,7 +129,7 @@
       "default": "OTRL-1"
     },
     "documentation-readiness-level": {
-      "description": "ODRL-ID representing the development stage of the documentation; get it from here: <https://github.com/OPEN-NEXT/LOSH/raw/master/OTRL.ttl>",
+      "description": "ODRL-ID representing the development stage of the documentation; get it from: <https://w3id.org/oseg/ont/otrl>",
       "oneOf": [
         {"const": "ODRL-1", "title": "Documentation process commenced", "description": "Published information under free open source licence"},
         {"const": "ODRL-2", "title": "Collaborative documentation in progress", "description": "Provision of documentation files and in editable formats enabling collaboration development"},
@@ -439,7 +439,7 @@
       ]
     },
     "tsdc": {
-      "description": "identifier of the applying Technology-specific Documentation Criteria (TsDC) according to DIN SPEC 3105-1 - get it from here: <https://gitlab.com/OSEGermany/oh-tsdc/-/blob/master/oh-tsdc.ttl> - multiple inputs possible (with one entry each)",
+      "description": "identifier of the applying Technology-specific Documentation Criteria (TsDC) according to DIN SPEC 3105-1 - get it from: <https://w3id.org/oseg/ont/tsdc/core> - multiple inputs possible (with one entry each)",
       "type": [ "array", "string" ],
       "items": {
         "type": "string"
