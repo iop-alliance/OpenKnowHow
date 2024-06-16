@@ -427,11 +427,9 @@ general:
   - e.g. `hard soldering`
   - multiple inputs possible (with one entry each)
 - `outer-dimensions` \[class\]
-  - `openSCAD` \[OpenSCAD primitive\]
-    - OpenSCAD primitive describing shape and size of the module
-    - e.g. `cube(size = [400,350,150])`
-  - `unit` \[string\]
-    - e.g. `mm`
+  - `width` in mm \[float\]
+  - `depth` in mm \[float\]
+  - `height` in mm \[float\]
 
 #### PCB
 
@@ -507,17 +505,10 @@ general:
   - reference of material used for this part
   - e.g. `PLA`, `1.0715` (EN material number for free machining steel 11SMn30)
 - `outer-dimensions` \[class\]
-  - `openSCAD` \[OpenSCAD primitive\]
-    - OpenSCAD primitive describing shape and size of the module
-    - e.g. `cube(size = [400,350,150])`
-  - `unit` \[string\]
-    - e.g. `mm`
-- `mass` \[class\]
-  - `value` \[float\]
-    - mass of the part
-    - e.g. `120.5`
-  - `unit` \[string\]
-    - e.g. `g`
+  - `width` in mm \[float\]
+  - `depth` in mm \[float\]
+  - `height` in mm \[float\]
+- `mass` of the part in g \[float\]
 - `tsdc` \[TsDC-ID\] (multiple)
   - manufacturing process for which this part has been designed
     (= technology-specific documentation criteria applying for this part)

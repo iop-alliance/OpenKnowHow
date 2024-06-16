@@ -502,21 +502,18 @@
       ]
     },
     "outerDimensions": {
-      "description": "OpenSCAD primitive describing shape and size of the module or part.\\\nSee the OpenSCAD documentation here for syntax <https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/Primitive_Solids>",
+      "description": "Outer dimensions of the OSH module or part in mm, which completely encompass the product.",
       "type": "object",
       "properties": {
-        "openSCAD": { "type": "string" },
-        "unit": { "enum" : [ "mm", "m", "cm" ]}
+        "width": { "type": "float" },
+        "depth": { "type": "float" },
+        "height": { "type": "float" }
       },
-      "required": [ "openSCAD", "unit" ]
+      "required": [ "width", "depth", "height" ]
     },
     "mass": {
-      "type": "object",
-      "properties": {
-        "value": { "type": "number" },
-        "unit": { "enum" : [ "g", "kg" ]}
-      },
-      "required": [ "value", "unit" ]
+      "description": "Mass of the part in g.",
+      "type": "number"
     }
   },
   "required": [

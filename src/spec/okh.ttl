@@ -219,7 +219,9 @@ okh:Mass
   a owl:Class ;
   rdfs:label "mass"@en ;
   rdfs:comment "…of a module or a part"@en ;
-  vs:term_status "unstable" ;
+  vs:term_status "deprecated" ;
+  owl:deprecated "true"^^xsd:boolean ;
+  cc:deprecatedOn "2024-06-16"^^xsd:date ;
   .
 
 okh:ComponentReference
@@ -583,25 +585,29 @@ okh:material
 
 okh:hasOuterDimensions
   a owl:ObjectProperty ;
-  rdfs:label "outer dimensions using OpenSCAD primitives" ;
-  rdfs:comment "https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/Primitive_Solids" ;
+  rdfs:label "outer dimensions" ;
+  rdfs:comment "defined though widht, depth nad height in mm" ;
   schema:rangeIncludes okh:OuterDimensions ;
   rdfs:subPropertyOf okh:productionMetadata ;
   vs:term_status "unstable" ;
   .
 
 okh:hasMass
-  a owl:ObjectProperty ;
-  rdfs:label "mass of the component" ;
+  a owl:DatatypeProperty ;
+  rdfs:label "mass [g]"@en ;
+  rdfs:comment "mass of the component in g"@en ;
   rdfs:subPropertyOf okh:productionMetadata ;
   vs:term_status "unstable" ;
-  schema:rangeIncludes okh:Mass ;
+  schema:rangeIncludes xsd:float ;
   .
 
 okh:openSCAD
   a owl:DatatypeProperty ;
   rdfs:label "OpenSCAD code defining a shape" ;
-  vs:term_status "unstable" ;
+  vs:term_status "deprecated" ;
+  owl:deprecated "true"^^xsd:boolean ;
+  cc:deprecatedOn "2024-06-16"^^xsd:date ;
+  schema:supersededBy okh:width, okh:depth, okh:height;
   schema:domainIncludes okh:OuterDimensions ;
   schema:rangeIncludes xsd:string ;
   .
@@ -614,11 +620,40 @@ okh:openScad
   owl:sameAs okh:openSCAD ;
   .
 
+okh:width
+  a owl:DatatypeProperty ;
+  rdfs:label "width [mm]"@en ;
+  rdfs:comment "The outter width of the product"@en ; # TODO Define whether this incldues or excludes packaging
+  vs:term_status "unstable" ;
+  schema:domainIncludes okh:OuterDimensions ;
+  schema:rangeIncludes xsd:float ; # TODO ... or should it be int?
+  .
+
+okh:depth
+  a owl:DatatypeProperty ;
+  rdfs:label "depth [mm]"@en ;
+  rdfs:comment "The outter depth of the product"@en ; # TODO Define whether this incldues or excludes packaging
+  vs:term_status "unstable" ;
+  schema:domainIncludes okh:OuterDimensions ;
+  schema:rangeIncludes xsd:float ; # TODO ... or should it be int?
+  .
+
+okh:height
+  a owl:DatatypeProperty ;
+  rdfs:label "height [mm]"@en ;
+  rdfs:comment "The outter height of the product"@en ; # TODO Define whether this incldues or excludes packaging
+  vs:term_status "unstable" ;
+  schema:domainIncludes okh:OuterDimensions ;
+  schema:rangeIncludes xsd:float ; # TODO ... or should it be int?
+  .
+
 okh:unit
   a owl:DatatypeProperty ;
   rdfs:label "unit" ;
   rdfs:comment "mm, cm, m, g, kg" ;
-  vs:term_status "unstable" ;
+  vs:term_status "deprecated" ;
+  owl:deprecated "true"^^xsd:boolean ;
+  cc:deprecatedOn "2024-06-16"^^xsd:date ;
   schema:domainIncludes
     okh:Mass,
     okh:OuterDimensions ;
@@ -627,7 +662,10 @@ okh:unit
 okh:value
   a owl:DatatypeProperty ;
   rdfs:label "value" ;
-  vs:term_status "unstable" ;
+  vs:term_status "deprecated" ;
+  owl:deprecated "true"^^xsd:boolean ;
+  cc:deprecatedOn "2024-06-16"^^xsd:date ;
+  schema:supersededBy okh:hasMass;
   schema:domainIncludes okh:Mass ;
   .
 

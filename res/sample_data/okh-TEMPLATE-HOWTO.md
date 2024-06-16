@@ -73,8 +73,11 @@ tsdc = "MEC" # defines the manufacturing processes involved for this project; mu
 bom = "BoM.csv" # relative path from the root directory IF the manifest file is _in_ the project's repositoy; use an URL otherwise
 manufacturing-instructions = "/Documentation/Assembly_Guide/AssemblyGuide.md" # relative path from the root directory IF the manifest file is _in_ the project's repositoy; use an URL otherwise
 user-manual = "/Documentation/User_Guide/UserGuide.md" # relative path from the root directory IF the manifest file is _in_ the project's repositoy; use an URL otherwise
-outer-dimension-dim = "mm" # dimension of `outer-dimension` below (e.g. millimeter)
-outer-dimension = "cube(size = [400,350,150])" # OpenSCAD primitive describing the outer shape; cylinders and spheres also possible
+
+[outer-dimensions]
+width = "400"
+depth = "350"
+height = "150"
 
 [[part]] # section to link essential files for each self-designed component of this project
 name = "your-awesome-part"
@@ -88,8 +91,9 @@ export = [ # multiple entries possible; relative path from the root directory IF
 material = "PLA" # multiple entries possible
 
 [[part.outer-dimensions]]
-openSCAD = "cube(size = [120,100,3])" # OpenSCAD primitive describing the outer shape; cylinders and spheres also possible
-unit = "mm"
+width = "120"
+depth = "100"
+height = "3"
 
 [[software]]
 release = "https://github.com/arduino/ArduinoCore-mbed/releases/tag/1.3.2"
