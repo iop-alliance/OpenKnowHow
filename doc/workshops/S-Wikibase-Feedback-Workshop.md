@@ -1,33 +1,23 @@
 <!--
-SPDX-FileCopyrightText: 2021 - 2023 Robin Vobruba <hoijui.quaero@gmail.com>
 SPDX-FileCopyrightText: 2021 Martin Häuer <martin.haeuer@ose-germany.de>
+SPDX-FileCopyrightText: 2021 Robin Vobruba <hoijui.quaero@gmail.com>
 
 SPDX-License-Identifier: GPL-3.0-or-later
 -->
 
 ---
-title: Means of Verifications LOSH
+title: Wikibase Feedback Workshop | Fablab Berlin, OpnTec
 type: slide
 slideOptions:
   transition: slide
-slideShow: https://md.opensourceecology.de/p/eO8QJFQjh#/
+slideShow: https://md.opensourceecology.de/p/oc1FnxPaf#/
 ...
 
 These slides for the EU-H2020 Project "[OPEN_NEXT](https://opennext.eu/)" (no. 869984)
 are published under [GPLv3](https://www.gnu.org/licenses/gpl-3.0.en.html).
 
-Find the source in [the source repo](https://github.com/iop-alliance/OpenKnowHow/blob/master/res/illustrations/S-Means-of-Verification-LOSH.md).
-
----
-
-## Means of Verification
----
-
-**for**
-
-- T2.3 (Metadata Specification)
-- T3.3 (Wikibase Instance / LOSH)
-- T3.4 (Data Collection)
+Find the source in [the repo](
+https://github.com/iop-alliance/OpenKnowHow/blob/master/doc/workshops/S-Wikibase-Feedback-Workshop.md).
 
 ---
 
@@ -77,9 +67,18 @@ using
 
 ---
 
-Detail 1
+## Goals for today
 
-# Dataflow & Collection
+- reconciliation of
+  - usefulness
+  - expectations
+- feedback & input
+
+---
+
+Block 1
+
+# Dataflow
 ---
 
 ++aim:++ effortless & stable data collection
@@ -88,14 +87,16 @@ Detail 1
 
 shown [here](https://github.com/iop-alliance/OpenKnowHow/#technical-details)
 
+discuss [here](https://github.com/iop-alliance/OpenKnowHow/issues/91)
+
 ---
 
-Detail 2
+Block 2
 
 # Useability
 ---
 
-++aim:++ enable intuitive use for OSH developers
+++aim:++ being useful to you
 
 --
 
@@ -103,11 +104,13 @@ samples:
 [OKH](https://search.openknowhow.org/),
 [OHO](https://oho.wiki/)
 
+discuss [here](https://github.com/iop-alliance/OpenKnowHow/issues/92)
+
 ---
 
-Detail 3
+Block 3
 
-# Metadata
+# General Metadata
 ---
 
 ++aim:++ represent OSH
@@ -118,25 +121,28 @@ sample:
 [OHLOOM](https://gitlab.com/OSEGermany/ohloom),
 [Metadata](https://github.com/OPEN-NEXT/LOSH-list/blob/main/manifest_files/manually-created/okh-OHLOOM.toml)
 
+discuss [here](https://github.com/iop-alliance/OpenKnowHow/issues/93)
+
 ---
 
-Detail 4
+Block 4
 
-# Requirements
+# Production Metadata
 ---
 
-++aim:++ ensure that needs are real
+++aim:++ can I build this?
 
 --
 
-- Used:
-  [T3.1 User Stories](../requirements_sources/user-stories-t3-1.csv),
-  [OKHv1 field usage](../requirements_sources/okhv1_data-field-usage.csv),
-  [input from GOSH workshop](https://github.com/iop-alliance/OpenKnowHow/blob/7ead733786/Wikibase_Qs.md)
-- Coming: Production Metadata relevant to Makers (Workshop)
-- Validation in workshops
+draft [here](../requirements/MAKER-INPUT-production-metadata.md)
+
+discuss [here](https://github.com/iop-alliance/OpenKnowHow/issues/94)
 
 ---
 
-# Q&A
+Block 5
+
+# Free Comments
 ---
+
+discuss [here](https://github.com/iop-alliance/OpenKnowHow/issues/95)
