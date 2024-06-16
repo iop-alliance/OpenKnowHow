@@ -51,8 +51,9 @@
 :OuterDimensionsOHLOOM
   a okh:OuterDimensions ;
   rdfs:label "outer dimensions of OHLOOM" ;
-  okh:openSCAD "cube(size = [400,350,150])" ;
-  okh:unit "mm" ;
+  okh:width "400"^^xsd:boolean ;
+  okh:depth "350"^^xsd:boolean ;
+  okh:height "150"^^xsd:boolean ;
   .
 
 :fabricWidthMM
@@ -129,8 +130,9 @@
 :OuterDimensionsClampRing
   a okh:OuterDimensions ;
   rdfs:label "outer dimensions of Clamp Ring" ;
-  okh:openSCAD "cylinder(h=30, r=28)" ;
-  okh:unit "mm"
+  okh:width "56"^^xsd:boolean ;
+  okh:depth "56"^^xsd:boolean ;
+  okh:height "30"^^xsd:boolean ;
   .
 
 :ClampRing_image
@@ -180,8 +182,9 @@
 :OuterDimensionsCombModul
   a okh:OuterDimensions ;
   rdfs:label "outer dimensions of Comb Modul" ;
-  okh:openSCAD "cube(size = [120,100,3])" ;
-  okh:unit "mm"
+  okh:width "120"^^xsd:boolean ;
+  okh:depth "100"^^xsd:boolean ;
+  okh:height "3"^^xsd:boolean ;
   .
 
 :CombModul_image
@@ -230,8 +233,9 @@
 :OuterDimensionsPoleBase
   a okh:OuterDimensions ;
   rdfs:label "outer dimensions of Pole Base" ;
-  okh:openSCAD "cube(size = [125,110,100])" ;
-  okh:unit "mm"
+  okh:width "125"^^xsd:boolean ;
+  okh:depth "110"^^xsd:boolean ;
+  okh:height "100"^^xsd:boolean ;
   .
 
 :PoleBase_source
@@ -274,8 +278,9 @@
 :OuterDimensionsRatchetPawl
   a okh:OuterDimensions ;
   rdfs:label "outer dimensions of Ratchet Pawl" ;
-  okh:openSCAD "cube(size = [130,20,20])" ;
-  okh:unit "mm"
+  okh:width "130"^^xsd:boolean ;
+  okh:depth "20"^^xsd:boolean ;
+  okh:height "20"^^xsd:boolean ;
   .
 
 :RatchetPawl_image
@@ -325,8 +330,9 @@
 :OuterDimensionsRatchetWheel
   a okh:OuterDimensions ;
   rdfs:label "outer dimensions of Ratchet Wheel" ;
-  okh:openSCAD "cylinder(h=45, r=45)" ;
-  okh:unit "mm"
+  okh:width "90"^^xsd:boolean ;
+  okh:depth "90"^^xsd:boolean ;
+  okh:height "45"^^xsd:boolean ;
   .
 
 :RatchetWheel_image
