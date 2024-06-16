@@ -43,14 +43,14 @@ https://en.wikipedia.org/wiki/Technology_readiness_level)
 2. fidelity of the environment (to the intended operational environment)
    in which this functionality has been demonstrated
 
-([ref](https://apps.dtic.mil/dtic/tr/fulltext/u2/a443149.pdf))
+([ref](https://apps.dtic.mil/sti/pdfs/ADA443149.pdf))
 
 Regardless of the criticism,
 the TRL approach is chosen as it is well tested and simpler,
 thus easier to use.
 That stated, the authors found TRL more suitable for a stable,
 decentralised application in an open source environment than proposed alternatives
-(as e.g. [ref](https://apps.dtic.mil/dtic/tr/fulltext/u2/a443149.pdf)).
+(as e.g. [ref](https://apps.dtic.mil/sti/pdfs/ADA443149.pdf)).
 
 It is a special property of open source hardware
 that the technology is available for anyone.

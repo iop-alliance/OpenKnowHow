@@ -167,7 +167,7 @@ Or rather, how does this 'tool' look like?**
 
 **We want to organise open source hardware in a graph database.**
 
-There's a [long list](requirements_sources/LinkedData_Qs.md) of cool use cases of such a knowledge base.
+There's a [long list](res/requirements_sources/LinkedData_Qs.md) of cool use cases of such a knowledge base.
 Lots of information (including the technical documentation itself)
 could be stored as linked open data or simply linked together.
 
@@ -183,7 +183,7 @@ The future could bring e.g.:
 
 **How does the data-flow generally work?**
 
-![data-flow illustration](illustrations/dataflow-principle.svg)
+![data-flow illustration](res/illustrations/dataflow-principle.svg)
 
 ## Modules used
 
@@ -217,9 +217,9 @@ the CI will give back an error and no exports will be available.
 
 ### Crawler
 
-- the crawler that collects all the data \
-  <https://github.com/ahane/LOSH-krawler> (by ahane, konek.to)
-  will move to: <https://github.com/OPEN-NEXT/LOSH-krawler>
+the crawler that collects all the data:
+
+<https://github.com/OPEN-NEXT/LOSH-krawler>
 
 ### Frontend
 
@@ -231,7 +231,7 @@ the CI will give back an error and no exports will be available.
 
 - the importer to push the ontology from any git-based project
   to RDF; necessary to set up the LOSH system: \
-  <https://github.com/hoijui/LOSH-tools> (by hoijui, IPK)
+  <https://github.com/OPEN-NEXT/OKH-LOSH-Ontology-RDF2WB> (by hoijui, IPK)
 
 ## Want to contribute?
 

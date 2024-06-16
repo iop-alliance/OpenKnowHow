@@ -42,7 +42,7 @@ so we can share the requested minutes directly to you.
   - → use TOML only for starters & keep it simple
 - decision about file name & location convention ([issue 5](https://github.com/OPEN-NEXT/OSHI/issues/5))
   - → approved
-- Looking onto the [scope](Wikibase_Qs.md) and the first [draft](OSH_metadata.md)…
+- Looking onto the [scope](https://github.com/iop-alliance/OpenKnowHow/blob/7ead733786/Wikibase_Qs.md) and the first [draft](src/spec/okh.md)…
   does this all make sense? ([issue 2](https://github.com/OPEN-NEXT/OSHI/issues/2))
   - → formulate scope in a much easier way
     - who's the end user?
@@ -95,7 +95,7 @@ so we can share the requested minutes directly to you.
   - ✓ yes, yey
 - In a query, can we get the file format from a file link?
   - ✓ yes, yey
-- Looking onto the [scope](Wikibase_Qs.md) and the first [draft](OSH_metadata.md)…
+- Looking onto the [scope](https://github.com/iop-alliance/OpenKnowHow/blob/7ead733786/Wikibase_Qs.md) and the first [draft](src/spec/okh.md)…
   does this all make sense? ([issue 2](https://github.com/OPEN-NEXT/OSHI/issues/2))
 - ✓ yes, yey
 - cooperation with Wikimedia Deutschland
@@ -137,17 +137,17 @@ forgot to invite: Emilio (sorry, Emilio)
 - standards are the backbone of this structure
   - technical documentation: DIN SPEC 3105 & [TsDC](https://gitlab.com/OSEGermany/oh-tsdc/)
   - metadata: Open Know-How manifest v1.0 (+v2.0 (or hard fork) see below ↓)
-    - first draft for metadata (and its structure) of OSH [here](OSH%20metadata.md)
+    - first draft for metadata (and its structure) of OSH hereL <src/spec/okh.md>
     - will be pitched to Open Know-How working group
 - we will make use of
   - guidelines & standard modules for onthologies (thanks @Julieta! 🎉)
-  - [wbstack.com](wbstack.com) in order to test our onthology approaches
+  - <https://wbstack.com> in order to test our onthology approaches
 
 **ToDo:**
 
 - @Moe sends a short project description and mail addresses of the working group
   to @Julieta, so…
-- @Julieta creates an instance using [wbstack.com](wbstack.com))
+- @Julieta creates an instance using <https://wbstack.com>)
   where we all create accounts, and…
 - @Julieta connects us/@Moe to a group of smart people
   who designed guidelines & standard modules for onthologies

@@ -98,7 +98,7 @@ YAML files.\
 However, we strongly recommend the usage of `OKH-LOSH`,
 if you want to have your project included on LOSH.
 
-Data mapping specification: see [`data_mapping/data-mapping-OSHWA.md`](<data_mapping/data-mapping-OKHv1.md)
+Data mapping specification: <src/mapping/OKHv1.md>
 
 # General Requirements
 
@@ -122,7 +122,7 @@ Metadata will be collected by a [crawler](https://github.com/OPEN-NEXT/LOSH-Kraw
 using the API of supported platforms
 (find a [full list of supported platforms below](#supported-platforms)).\
 Hence, when data is published on a supported platform in compliance with this specification,
-it becomes automatically available on [LOSH](losh.ose-germany.de)
+it becomes automatically available on [LOSH](https://losh.ose-germany.de)
 and as Linked Open Data in RDF format [here](TODO).
 
 ## Supported Platforms
@@ -159,7 +159,7 @@ on [GitHub](#github), where it becomes available for the crawler.
 
 URL to platform: <http://appropedia.org/>
 
-Data mapping specification: see [`data_mapping/data-mapping-Appropedia.md`](data_mapping/data-mapping-Appropedia.md)
+Data mapping specification: <src/mapping/Appropedia.md>
 
 ### Wikifactory
 
@@ -167,7 +167,7 @@ Metadata is embedded by the platform and directly available for the crawler.
 
 URL to the platform: <https://wikifactory.com/>
 
-Data mapping specification: see crawler code [here](https://github.com/OPEN-NEXT/LOSH-krawler/blob/main/krawl/krawl/wfconvert.py)
+Data mapping specification: see [crawler code](https://github.com/OPEN-NEXT/LOSH-krawler/blob/main/krawl/fetcher/wikifactory.py)
 
 ### OSHWA Certified Projects List
 
@@ -175,7 +175,7 @@ Data mapping specification: see crawler code [here](https://github.com/OPEN-NEXT
 
 URL to platform: <https://certification.oshwa.org/list.html>
 
-Data mapping specification: see [`data_mapping/data-mapping-OSHWA.md`](data_mapping/data-mapping-OSHWA.md)
+Data mapping specification: <src/mapping/OSHWA.md>
 
 ## Manifest File
 
@@ -588,4 +588,4 @@ additionally (according to TsDC):
 # Further References
 
 Find a template for manifest files in the GitHub repository here: \
-[sample_data/okh-TEMPLATE.toml](sample_data/okh-TEMPLATE.toml)
+<../../res/sample_data/okh-TEMPLATE.toml>
