@@ -8,7 +8,7 @@ SPDX-License-Identifier: GPL-3.0-or-later
 
 ## general
 
-Following the [data flow illustration](illustrations/dataflow-principle.svg):
+Following the [data flow illustration](res/illustrations/dataflow-principle.svg):
 
 - Collector gets metadata from OSH platform APIs
   - this requires API-specific modules in the Collector software
@@ -36,7 +36,7 @@ Following the [data flow illustration](illustrations/dataflow-principle.svg):
   - consider that the ontology is updatable;
     please consider the maintenance effort
 - translates OKHv1 files into OKHv2
-  - find conversion table [here](changelog-OKHv1.md)
+  - find conversion table [in the changelog](https://github.com/iop-alliance/OpenKnowHow/blob/4af447caeb7fc07ec/changelog-OKHv1.md)
   - information loss is known and accepted
 - converts data (YAML/JSON, CSV) into a transmittable format
   (currently: JSON-LD according to the ontology in this repo);
