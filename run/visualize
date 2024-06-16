@@ -1,5 +1,5 @@
 #!/usr/bin/env sh
-# SPDX-FileCopyrightText: 2020 - 2023 Robin Vobruba <hoijui.quaero@gmail.com>
+# SPDX-FileCopyrightText: 2020 - 2024 Robin Vobruba <hoijui.quaero@gmail.com>
 # SPDX-License-Identifier: Unlicense
 
 # Exit immediately on each error and unset variable;
@@ -11,7 +11,7 @@ script_path="$(readlink -f "$0")"
 script_dir="$(dirname "$script_path")"
 script_name="$(basename "$script_path")"
 
-root_dir="$script_dir"
+root_dir="$script_dir/.."
 build_dir="$root_dir/build"
 publish_dir="$root_dir/public"
 tsdc_tools_dl_url="https://osegermany.gitlab.io/oh-tsdc-tools/tsdc-tools-latest-jar-with-dependencies.jar"
@@ -71,7 +71,7 @@ _print_help() {
 
 # read command-line args
 i=1
-while [ "$i" -lt "$#" ]
+while [ "$i" -le "$#" ]
 do
 	arg="$(eval "echo \$$i")"
 
@@ -181,7 +181,7 @@ then
 
 	echo "<h3>Turtle/RDF sources</h3>"
 	echo "<ul>"
-	for file in *.ttl
+	for file in $(find . -name "*.ttl")
 	do
 		echo "<li><a href=\"$file\">$file</a></li>"
 	done
@@ -189,7 +189,7 @@ then
 
 	echo "<h3>Markdown files laying out the structure</h3>"
 	echo "<ul>"
-	for file in *.md
+	for file in $(find . -name "*.md")
 	do
 		echo "<li><a href=\"$file\">$file</a></li>"
 	done
@@ -197,7 +197,7 @@ then
 
 	echo "<h3>GraphViz/DOT graps representing the structure</h3>"
 	echo "<ul>"
-	for file in *.dot
+	for file in $(find . -name "*.dot")
 	do
 		echo "<li><a href=\"$file\">$file</a></li>"
 	done
@@ -205,7 +205,7 @@ then
 
 	echo "<h3>PNG & SVG renders of the above graphs</h3>"
 	echo "<ul>"
-	for file in *.svg
+	for file in $(find . -name "*.svg")
 	do
 		file_png="${file%.svg}.png"
 		echo "<li>"

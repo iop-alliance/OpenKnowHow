@@ -45,7 +45,7 @@ jobs:
           pip install -r "${{ env.ONT_VIZ_REPO }}/requirements.txt"
 
       - name: Visualize our RDF
-        run: ./visualize
+        run: run/visualize
 
       - name: GitHub bug workaround
         # Without this, GitHub thinks this is supposed to be a submodule,
