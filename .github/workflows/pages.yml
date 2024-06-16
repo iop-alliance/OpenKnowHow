@@ -1,4 +1,4 @@
-# SPDX-FileCopyrightText: 2021 - 2023 Robin Vobruba <hoijui.quaero@gmail.com>
+# SPDX-FileCopyrightText: 2021 - 2024 Robin Vobruba <hoijui.quaero@gmail.com>
 #
 # SPDX-License-Identifier: Unlicense
 
@@ -19,13 +19,13 @@ jobs:
       ONT_VIZ_REPO: build/ontology-visualization
     steps:
       - name: Check out the repo
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Create build dir for repo checkout
         run: mkdir ${{ env.REPOS_DIR }}
 
       - name: Check out the ontology-visualization repo
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           repository: hoijui/ontology-visualization
           path: ${{ env.ONT_VIZ_REPO }}
