@@ -1,3 +1,10 @@
+---
+title: How to fill out the `okh-TEMPLATE.toml`
+date: 17.11.2021
+version: v0.1
+author: Martin Häuer
+...
+
 <!--
 SPDX-FileCopyrightText: 2021 - 2022 Martin Häuer <martin.haeuer@ose-germany.de>
 SPDX-FileCopyrightText: 2022 Robin Vobruba <hoijui.quaero@gmail.com>
@@ -5,12 +12,6 @@ SPDX-FileCopyrightText: 2022 Robin Vobruba <hoijui.quaero@gmail.com>
 SPDX-License-Identifier: GPL-3.0-or-later
 -->
 
----
-title: How to fill out the `okh-TEMPLATE.toml`
-date: 17.11.2021
-version: v0.1
-author: Martin Häuer
-...
 
 This guide is here to help you when creating a manifest file
 using [okh-TEMPLATE.toml](okh-TEMPLATE.toml).
