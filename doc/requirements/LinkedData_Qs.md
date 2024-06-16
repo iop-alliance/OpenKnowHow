@@ -248,7 +248,9 @@ I'll ask myself/the RDF store:
 
 EXAMPLE:
 
-[**This section is OUTDATED; simplified BoMs now may include subassemblies via appropriate pos. numbers which makes linking to ASM-specific metadata files obsolete**]
+**This section is OUTDATED;
+simplified BoMs now may include subassemblies via appropriate pos. numbers
+which makes linking to ASM-specific metadata files obsolete**
 
 | Pos. | Name         | Units | Type            | Reference                                                                           |
 |------|--------------|-------|-----------------|-------------------------------------------------------------------------------------|

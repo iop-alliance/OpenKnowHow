@@ -266,112 +266,112 @@ To summarize: an OSH module must bear reference of:
 
 ### for OSH modules only
 
-- **`okhv`** [string]
+- **`okhv`** \[string\]
   - version of the OKH standard used
   - = "OKH-LOSHv1.0" for all manifest files following this specification
   - = "OKHv1.0" for all manifest files following [OKHv1.0](https://standards.internetofproduction.org/pub/okh/release/1)
-- **`data-source`** [string]
+- **`data-source`** \[string\]
   - origin of metadata collected by the crawler (e.g. GitHub, Wikifactory)
   - NOTE: not an actual TOML key since this is set by the crawler directly in RDF
 
 ### for files only
 
-- `file-format` [MIME]
+- `file-format` \[MIME\]
   - from `file-path`
-- `perma-URL` [URL]
+- `perma-URL` \[URL\]
   - commit-specific URL generated from `file-path`
-- `last-requested` [timestamp]
+- `last-requested` \[timestamp\]
   - timestamp of last time the file access was requested under the `perma-URL`
-- `last-seen` [timestamp]
+- `last-seen` \[timestamp\]
   - timestamp of last time the file was successfully accessed under the `perma-URL`
 
 ## metadata fields for OSH modules
 
-- **`name`** [string]
+- **`name`** \[string\]
   - working title of the OSH module
-- **`repo`** [URL]
+- **`repo`** \[URL\]
   - reference to repository in which the technical documentation is developed
-- **`version`** [string]
+- **`version`** \[string\]
   - version of the module
   - optimally following the [semantic versioning scheme v2.0.0](https://semver.org/#semantic-versioning-200)
   - NOTE: If e.g. version tags (like `v1.0.2`) are not applicable, a commit hash (or equivalent) works too. Of course human-readable version tags are better than hashes, but ultimately unambiguous versioning is a minimum requirement.
-- `release` [URL]
+- `release` \[URL\]
   - reference to release package of this version of the OSH module
-- **`license`** [string]
+- **`license`** \[string\]
   - [SPDX ID](https://spdx.org/licenses/) of the license used
   - if no SPDX key is available yet, use URL to legal code of the license instead
   - NOTE: When no SPDX key is found by the crawler,
     metadata won't be uploaded to LOSH
     until the alternative license has been whitelisted by maintainers.
     At LOSH we need to make sure that all results are actually open source.
-- **`licensor`** [string]
+- **`licensor`** \[string\]
   - licensor (mostly the originator) of the OSH module
-- `organization` [string]
+- `organization` \[string\]
   - organization of the licensor
-- `readme` [file-path]
+- `readme` \[file-path\]
   - repo-relative path or URL to the README file
   - e.g. `README.md`
-- `contribution-guide` [file-path]
+- `contribution-guide` \[file-path\]
   - repo-relative path or URL to the contribution guide
   - e.g. `CONTRIBUTING.md`
-- `image` [file-path]
+- `image` \[file-path\]
   - repo-relative path or URL to one (!) representative image of the OSH module
-- **`documentation-language`** [string]
+- **`documentation-language`** \[string\]
   - IETF BCP 47 language tag for the language in which the documentation is written
-- `technology-readiness-level` [string]
+- `technology-readiness-level` \[string\]
   - OTRL-ID representing the development stage of the OSH module
   - get it from here: <https://github.com/iop-alliance/OpenKnowHow/raw/master/src/spec/otrl.ttl>
-- `documentation-readiness-level` [string]
+- `documentation-readiness-level` \[string\]
   - ODRL-ID representing the development stage of the documentation
   - get it from here: <https://github.com/iop-alliance/OpenKnowHow/raw/master/src/spec/otrl.ttl>
-- `attestation` [URL]
+- `attestation` \[URL\]
   - reference to a valid attestation that the documentation is complete
     and fully qualifies as open source hardware
   - issuing conformity assessment bodies according to DIN SPEC 3105-2:
     - [Open Hardware Observatory](https://en.oho.wiki/wiki/Request_certification_for_your_project)
     - [Open Source Ecology Germany](https://gitlab.opensourceecology.de/verein/projekte/cab/CAB)
   - [OSHWA certification programme](https://certification.oshwa.org/)
-- **`function`** [string]
+- **`function`** \[string\]
   - functional description, e.g. what it actually does,
     what problem it solves, for whom, under which conditions etc.
     so if you wish that someone finds & uses your OKH specifically,
     e.g. for COVID-19-crisis response, include relevant keywords in this field\
     optional: description of input, output and interfaces
-- `standard-compliance` [string]
+- `standard-compliance` \[string\]
   - document-number of the official standard the OSH module complies
   - e.g. `DIN EN 1335`
   - multiple inputs possible (with one entry each)
-- `cpc-patent-class` [CPC-ID]
+- `cpc-patent-class` \[CPC-ID\]
   - patent class identifier of the Cooperative Patent Classification
     that describes best the field of technology of the OSH module
   - get it from here: <https://worldwide.espacenet.com/classification>
   - e.g. `D03D 35/00`
-- `tsdc` [TsDC-ID]
+- `tsdc` \[TsDC-ID\]
   - identifier of the applying Technology-specific Documentation Criteria (TsDC)
     according to DIN SPEC 3105-1
   - get it from here: <https://gitlab.com/OSEGermany/oh-tsdc/-/blob/master/oh-tsdc.ttl>
   - e.g. `MEC`
   - multiple inputs possible (with one entry each)
-- `bom` [file-path]
+- `bom` \[file-path\]
   - repo-relative path or URL to the bill of materials
   - e.g. `bom.csv`
-- `manufacturing-instructions` [file-path]
+- `manufacturing-instructions` \[file-path\]
   - repo-relative path or URL to manufacturing instructions
   - e.g. `/Documentation/Assembly_Guide/AssemblyGuide.md`
   - multiple inputs possible (with one entry each)
-- `user-manual` [file-path]
+- `user-manual` \[file-path\]
   - repo-relative path or URL to user manual
   - e.g. `/Documentation/User_Guide/UserGuide.md`
-- `source` [file-path]
+- `source` \[file-path\]
   - repo-relative path or URL to source file (e.g. native CAD file)
   - e.g. `/3D-parts/assembly.asm`
   - multiple inputs possible (with one entry each)
-- `export` [file-path]
+- `export` \[file-path\]
   - repo-relative path or URL to export file
     (e.g. STEP export of 3D model or PDF export of drawing)
   - e.g. `/3D-parts/assembly.STP`
   - multiple inputs possible (with one entry each)
-- `auxiliary` [file-path]
+- `auxiliary` \[file-path\]
   - repo-relative path or URL to files that are neither source files
     nor their exports, but still useful in the repository (e.g. KiCAD library files)
   - e.g. `/lib/lib1.lib`
@@ -379,26 +379,26 @@ To summarize: an OSH module must bear reference of:
 
 ## metadata fields for parts
 
-- **`name`** [string]
+- **`name`** \[string\]
   - working title of the part
-- `image` [file-path]
+- `image` \[file-path\]
   - repo-relative path or URL to one (!) representative image of the OSH module
-- `tsdc` [TsDC-ID]
+- `tsdc` \[TsDC-ID\]
   - identifier of the applying Technology-specific Documentation Criteria (TsDC)
     according to DIN SPEC 3105-1
   - get it from here: <https://gitlab.com/OSEGermany/oh-tsdc/-/blob/master/oh-tsdc.ttl>
   - e.g. `3DP`
   - multiple inputs possible (with one entry each)
-- **`source`** [file-path]
+- **`source`** \[file-path\]
   - repo-relative path or URL to source file (e.g. native CAD file)
   - e.g. `/3D-parts/part1.scad`
   - multiple inputs possible (with one entry each)
-- `export` [file-path]
+- `export` \[file-path\]
   - repo-relative path or URL to export file
     (e.g. STEP export of 3D model or PDF export of drawing)
   - e.g. `/3D-parts/part1.STP`
   - multiple inputs possible (with one entry each)
-- `auxiliary` [file-path]
+- `auxiliary` \[file-path\]
   - repo-relative path or URL to files that are neither source files
     nor their exports, but still useful in the repository
     (e.g. KiCAD library files)
@@ -407,11 +407,11 @@ To summarize: an OSH module must bear reference of:
 
 ## software
 
-- **`release`** [URL]
+- **`release`** \[URL\]
   - unambiguous reference to the software release used for this version
     of the OSH module
   - e.g. `https://github.com/arduino/ArduinoCore-mbed/releases/tag/1.3.2`
-- `installation-guide` [URL]
+- `installation-guide` \[URL\]
   - unambiguous reference to the installation guide
     for the corresponding software release
   - e.g. `https://github.com/arduino/ArduinoCore-mbed/blob/a2c06d768f5ebb6821ae6505b2032ee58f4ef70d/README.md`
@@ -422,77 +422,77 @@ To summarize: an OSH module must bear reference of:
 
 general:
 
-- `joining-process` [string]
+- `joining-process` \[string\]
   - designation of the manufacturing process used to connect the parts to an assembly
   - e.g. `hard soldering`
   - multiple inputs possible (with one entry each)
-- `outer-dimensions` [class]
-  - `openSCAD` [OpenSCAD primitive]
+- `outer-dimensions` \[class\]
+  - `openSCAD` \[OpenSCAD primitive\]
     - OpenSCAD primitive describing shape and size of the module
     - e.g. `cube(size = [400,350,150])`
-  - `unit` [string]
+  - `unit` \[string\]
     - e.g. `mm`
 
 #### PCB
 
 `tsdc:PCB`
 
-- `2d-size-mm` [float , float]
+- `2d-size-mm` \[float , float\]
   - edge lenghts of the PCB in mm, separated by a comma
   - e.g. `425 , 425`
-- `board-thickness-mm` [float]
+- `board-thickness-mm` \[float\]
   - PCB thickness in mm
   - e.g. `1.57`
-- `copper-thickness-mm` [float]
+- `copper-thickness-mm` \[float\]
   - copper thickness in mm
   - for the case of multilayer PCB see below `multi-copper-thickness-mm`
   - e.g. `0.15`
-- `typical-trace-width-mm` [float]
+- `typical-trace-width-mm` \[float\]
   - typical trace width in mm used in the PCB design
   - not to confuse with `smallest-trace-width-mm`
   - e.g. `0.3`
-- `smallest-trace-width-mm` [float]
+- `smallest-trace-width-mm` \[float\]
   - smallest trace width in mm
   - e.g. `0.15`
-- `typical-space-copper-copper-mm` [float]
+- `typical-space-copper-copper-mm` \[float\]
   - typical distance between 2 copper areas (e.g. 2 traces) in mm
   - not to confuse with `smallest-space-copper-copper-mm`
   - e.g. `0.35`
-- `smallest-space-copper-copper-mm` [float]
+- `smallest-space-copper-copper-mm` \[float\]
   - smallest distance between 2 copper areas (e.g. 2 traces) in the PCB design
   - e.g. `0.15`
-- `smallest-via-diameter-mm` [float]
+- `smallest-via-diameter-mm` \[float\]
   - diameter of the smallest via on the PCB in mm
   - e.g. `0.45`
-- `component-sides` [integer]
+- `component-sides` \[integer\]
   - number of sides of the PCB with components (1 or 2)
   - e.g. `1`
-- `silkscreen-sides` [integer]
+- `silkscreen-sides` \[integer\]
   - number of sides of the PCB with silkscreen printing (0, 1 or 2)
   - e.g. `1`
-- `solder-mask-sides` [integer]
+- `solder-mask-sides` \[integer\]
   - number of sides of the PCB with solder stop mask (0, 1 or 2)
   - e.g. `1`
 
 In case of multilayer PCB:
 
-- layer-count [integer]
+- layer-count \[integer\]
   - number of layers of the PCB
   - e.g. `2`
-- `multi-copper-thickness-mm` [array of float entries]
+- `multi-copper-thickness-mm` \[float\[\]\]
   - copper thickness of all layers in mm
   - e.g. `0.15 , 0.15`
-- `multi-isolator-thickness-mm` [array of float entries]
+- `multi-isolator-thickness-mm` \[float\[\]\]
   - e.g. `0.23 , 0.23`
 
 #### Welding
 
 `tsdc:WEL`
 
-- `welding-process` [integer]
+- `welding-process` \[integer\]
   - welding process number according to ISO 4063 (e.g. from [here](https://en.wikipedia.org/wiki/List_of_welding_processes))
   - e.g. `111` for "classic" shielded metal arc welding
-- `welder-certification` [string]
+- `welder-certification` \[string\]
   - designation of the certification/qualification required for the welder
     according to ISO 9606
   - e.g. `EN ISO 9606-1 135 P FW FM1 S t10 PB ml`
@@ -503,22 +503,22 @@ In case of multilayer PCB:
 
 general:
 
-- `material` [string]
+- `material` \[string\]
   - reference of material used for this part
   - e.g. `PLA`, `1.0715` (EN material number for free machining steel 11SMn30)
-- `outer-dimensions` [class]
-  - `openSCAD` [OpenSCAD primitive]
+- `outer-dimensions` \[class\]
+  - `openSCAD` \[OpenSCAD primitive\]
     - OpenSCAD primitive describing shape and size of the module
     - e.g. `cube(size = [400,350,150])`
-  - `unit` [string]
+  - `unit` \[string\]
     - e.g. `mm`
-- `mass` [class]
-  - `value` [float]
+- `mass` \[class\]
+  - `value` \[float\]
     - mass of the part
     - e.g. `120.5`
-  - `unit` [string]
+  - `unit` \[string\]
     - e.g. `g`
-- `tsdc` [TsDC-ID] (multiple)
+- `tsdc` \[TsDC-ID\] (multiple)
   - manufacturing process for which this part has been designed
     (= technology-specific documentation criteria applying for this part)
 
@@ -528,34 +528,34 @@ additionally (according to TsDC):
 
 `tsdc:3DP`
 
-- `printing-process` [string]
+- `printing-process` \[string\]
   - possible values: FDM, SLA, SLS, MJF, DMLS
-- `material` [string]
+- `material` \[string\]
   - reference of material used for this part
   - e.g. `PLA`
-- `infill` [float]
+- `infill` \[float\]
   - print parameter: infill (in %)
-- `raft-brim` [bool]
+- `raft-brim` \[bool\]
   - 0 = design has no raft or brim
   - 1 = design includes raft or brim
-- `supports` [bool]
+- `supports` \[bool\]
   - 0 = design has no supports
   - 1 = design includes support(s)
-- `resolution-mm` [float]
+- `resolution-mm` \[float\]
   - print parameter: resolution/layer height in mm
-- `shell-thickness` [float]
+- `shell-thickness` \[float\]
   - shell thickness in mm
-- `top-bottom-thickness` [float]
+- `top-bottom-thickness` \[float\]
   - top/bottom thickness in mm
 
 #### CNC milling
 
 `tsdc:CNC`
 
-- `smallest-tolerance-class` [string]
+- `smallest-tolerance-class` \[string\]
   - smallest tolerance class of measures according to ISO 286
   - e.g. `IT9`
-- `smallest-inner-radius-mm` [float]
+- `smallest-inner-radius-mm` \[float\]
   - smallest inner radius of corners in mm
   - e.g. `0.5`
 
@@ -563,24 +563,24 @@ additionally (according to TsDC):
 
 `tsdc:LAS`
 
-- `engraving-depth-mm` [float]
+- `engraving-depth-mm` \[float\]
   - depth of engraving in mm in case the part has an engraving
   - e.g. `0.25`
-- `resolution-dpi` [integer]
+- `resolution-dpi` \[integer\]
   - resolution of engraving in DPI
   - e.g. `500`
-- `material` [string]
+- `material` \[string\]
   - reference of material used for this part
   - e.g. `acrylic glass`
-- `thickness-mm` [float]
+- `thickness-mm` \[float\]
   - thickness of the sheet material in mm the laser is supposed to cut through
   - e.g. `1.5`
 
 ## Post-Processing
 
-<!---FIXME TsDC-ID-->
+<!-- FIXME TsDC-ID -->
 
-- `surface-finishing-process` [string]
+- `surface-finishing-process` \[string\]
   - designation of the manufacturing process for surface finishing
     to meet required surface properties
   - e.g. `polishing`

@@ -52,28 +52,28 @@ Every peace of feedback is valuable and will be read :)
 
 ## CNC
 
-- material [string]
+- material \[string\]
 - outer dimensions
 - mass
-- smallest tolerance class [according to ISO 286]
-- smallest inner radius [mm]
-- sharp inner corners [bool]
+- smallest tolerance class \[according to ISO 286\]
+- smallest inner radius \[mm\]
+- sharp inner corners \[bool\]
   - comment: redundant; already included in smallest inner radius
-- number of axes [int]
+- number of axes \[int\]
   - comment: machine-specific → out of scope
-- number of planes of milling [int]
+- number of planes of milling \[int\]
   - comment: setup for production environment → out of scope
 
 ## 3DP
 
 - printing method (FDM, SLA, SLS, MJF, DMLS)
-- material [string]
-- material quantity [g]/  filament diameter and length [mm]
+- material \[string\]
+- material quantity \[g\]/  filament diameter and length \[mm\]
   - comment: included as mass since that's easier to export from CAD software
 - material specific requirements
   for ABS: enclosure, warm constant room temperature, air circulation, bed temperature
-  heating bed temperature [°]
-  extruder temperature [°]
+  heating bed temperature \[°\]
+  extruder temperature \[°\]
   filament brand
   - remove request +1
   - comment: setup for production environment → out of scope
@@ -82,25 +82,25 @@ Every peace of feedback is valuable and will be read :)
   - remove request +1
   - comment: setup for production environment → out of scope
 - print parameters
-  - infill [%]
-  - rafts [bool]
-  - supports [bool]
-  - resolution [mm] (layer thickness)
-  - optional print speed [mm/s]
+  - infill \[%\]
+  - rafts \[bool\]
+  - supports \[bool\]
+  - resolution \[mm\] (layer thickness)
+  - optional print speed \[mm/s\]
     - remove request +1
     - comment: setup for production environment → out of scope
-  - optional outer perimeter speed [mm/s]
+  - optional outer perimeter speed \[mm/s\]
     - remove request +1
     - comment: setup for production environment → out of scope
-  - optional infill speed [mm/s]
+  - optional infill speed \[mm/s\]
     - remove request +1
     - comment: setup for production environment → out of scope
-  - optional printer speed [mm/s]
+  - optional printer speed \[mm/s\]
     - remove request +1
     - comment: setup for production environment → out of scope
-  - optional shell thickness [mm]
-  - optional top/bottom thickness [mm]
-- extruder nozzle diameter [mm]
+  - optional shell thickness \[mm\]
+  - optional top/bottom thickness \[mm\]
+- extruder nozzle diameter \[mm\]
   - remove request +1
   - comment: setup for production environment → out of scope
 
@@ -116,40 +116,40 @@ Every peace of feedback is valuable and will be read :)
 
 ## PCB
 
-- size (2D) [mm , mm]
-- board-thickness [mm]
-- copper-thickness [mm]
-- typical-trace-width [mm]
-- smallest-trace-width [mm]
-- typical-space-copper-copper [mm]
-- smallest-space-copper-copper [mm]
-- smallest-via-diameter [mm]
-- component-sides [1 or 2]
-- silkscreen-printing-sides [0, 1 or 2]
-- solder-mask-sides [0, 1 or 2]
+- size (2D) \[mm, mm\]
+- board-thickness \[mm\]
+- copper-thickness \[mm\]
+- typical-trace-width \[mm\]
+- smallest-trace-width \[mm\]
+- typical-space-copper-copper \[mm\]
+- smallest-space-copper-copper \[mm\]
+- smallest-via-diameter \[mm\]
+- component-sides \[1 or 2\]
+- silkscreen-printing-sides \[0, 1 or 2\]
+- solder-mask-sides \[0, 1 or 2\]
 
 For multilayer-pcb:
-- layer-count [int]
-- copper-thickness [array of mm]
-- isolator-thickness [array of mm]
+- layer-count \[int\]
+- copper-thickness \[mm\[\]\]
+- isolator-thickness \[mm\[\]\]
 
 ## LASER CUTTER
 
-- engraving? [bool]
+- engraving? \[bool\]
   - comment: redundant when depth of engraving is given
-- depth of engraving [mm]
-- resolution of engraving [mm]
+- depth of engraving \[mm\]
+- resolution of engraving \[mm\]
   - comment: resolution seems to be given in DPI usually
-- material [string]
-- material thickness [mm]
-- required laser power [watt]
+- material \[string\]
+- material thickness \[mm\]
+- required laser power \[watt\]
   - remove request +1
 - outer dimensions
-- expected duration [s]
+- expected duration \[s\]
   - remove request +1
-- cutting length [mm]
+- cutting length \[mm\]
   - remove request +1
-- cutting speed [mm/s]
+- cutting speed \[mm/s\]
   - remove request +1
 
 ## Post-Processing

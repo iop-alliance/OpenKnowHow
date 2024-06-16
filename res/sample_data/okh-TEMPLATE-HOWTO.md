@@ -56,6 +56,8 @@ please remove them from the manifest file.
   - the organization behind the development of this hardware project
 - [readme](../../src/spec/okh.md#metadata-fields-for-osh-modules)
   - file path to the README
+
+```toml
 contribution-guide = "CONTRIBUTING.md" # relative path from the root directory IF the manifest file is _in_ the project's repositoy; use an URL otherwise
 image = "xxx.jpg" # relative path from the root directory IF the manifest file is _in_ the project's repositoy; use an URL otherwise
 documentation-language = "en-GB"
@@ -91,6 +93,7 @@ unit = "mm"
 [[software]]
 release = "https://github.com/arduino/ArduinoCore-mbed/releases/tag/1.3.2"
 installation-guide = "https://github.com/arduino/ArduinoCore-mbed/blob/a2c06d768f5ebb6821ae6505b2032ee58f4ef70d/README.md"
+```
 
 # General
 
