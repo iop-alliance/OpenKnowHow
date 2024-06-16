@@ -1,4 +1,4 @@
-# OKH-LOSH
+# Open Know-How (OKH)
 
 <!--
 SPDX-FileCopyrightText: 2021 - 2024 Robin Vobruba <hoijui.quaero@gmail.com>
@@ -21,8 +21,8 @@ SPDX-License-Identifier: CC0-1.0
     https://raw.githubusercontent.com/osegermany/tiny-files/master/res/media/img/badge-oseg.svg)](
     https://opensourceecology.de)
 
-LOSH: **_A Library of Open Source Hardware -
-technical documentation in an open graph database._**
+**_Open Source Hardware technical documentation
+in an open graph database._**
 
 - <https://losh.opennext.eu> -
   browse the collected data
@@ -44,10 +44,23 @@ as a new major version of the specification.
 
 ## Intro
 
-### Who is doing this?
+### History
 
-[OPEN!NEXT](https://opennext.eu/) is a collaboration
-between 19 industry and academic partners
+Since May 2024, OKH LOSH was adopted by its spiritual mother [IoPA] once again,
+as the now official successor to OKH v1. \
+This was a great social and political achievement,
+with lots os arguing from OSEG,
+ice- and ground-breaking by Sarah Hutton from IoPA,
+and a final floud of good will and courage by Nathan from IoPA.
+
+Since the end of _OPEN!NEXT_ (see next paragraph),
+[Open Source Ecology Germany e.V. (OSEG)][OSEG] maintained OKH LOSH -
+which was the most advanced and most active OKH version between 2020 and 2024.
+
+Until February 2022, the LOSH variety of the OKH standard -
+which was the most advanced and most active OKH version until 2024 -
+was an [OPEN!NEXT](https://opennext.eu/) project,
+which was a collaboration between 19 industry and academic partners
 across Europe.
 Funded by the [European Union](https://europa.eu/)'s
 [Horizon 2020](https://ec.europa.eu/programmes/horizon2020/) program,
