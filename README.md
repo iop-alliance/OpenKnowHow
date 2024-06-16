@@ -29,6 +29,21 @@ in an open graph database._**
 - <https://manifest.opennext.eu> -
   web-UI to create meta-data for a project
 
+The most important files in this repo,
+in decending order:
+
+1. <src/spec/okh.ttl> -
+    The main source file of this Specification
+2. <src/spec/otrl.ttl> -
+    The source file of the Open Technology&Documentation Readiness Levels Specification
+    (used by _okh.ttl_)
+3. <src/schema/okh.schema.json> -
+    The [JSON Schema] for the (TOML) manifests,
+    which are commonly used as the source files by the projects or project platforms
+    to store/transmit the projects data,
+    even though the _real_ data is always the RDF form
+   (which can be generated from these manifests).
+
 The work here is based on the [Open Know-How Specification v1.0.0](
 https://standards.internetofproduction.org/pub/okh/release/1),
 as released in 2019.
