@@ -1,0 +1,557 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://openknowhow.org/okh.schema.json",
+  "title": "Manifest",
+  "description": "This is a JSON schema, which can validate an 'okh.yml' file, which holds a projects Open Know-How (Open Source Hardware) meta-data. This schema is based on the specification in <https://barbal.co/the-open-know-how-manifest-specification-version-1-0/>",
+  "$comment": "NOTE: The properies 'ui-hidden' and 'ui-recommended' used in this schema, are non-standardised, and currently unused. They could be used to create a form, and are here for consistency with <https://git.iostud.io/makernet/iop-cdb/-/blob/dev/server/assets/okh.okhdf>.",
+  "type": "object",
+  "properties": {
+    "title": {
+      "description": "Name of the hardware",
+      "type": "string",
+      "examples": [
+        "My Cool Project",
+        "Ultimate Garden-Hose"
+      ]
+    },
+    "description": {
+      "description": "Description of the hardware",
+      "type": "string",
+      "examples": [
+        "A 3D printed hose for a standard garden.",
+        "A loom with only wooden and 3D printed parts."
+      ]
+    },
+    "intended-use": {
+      "description": "Intended use for the hardware",
+      "ui-recommended": true,
+      "type": "string",
+      "examples": [
+        "Allows computing under rough environmental conditions.",
+        "To produce electricity in windy areas, far from the grid."
+      ]
+    },
+    "keywords": {
+      "description": "Keywords for the product",
+      "ui-recommended": "at least 1",
+      "type": "array",
+      "items": {
+        "type": "string",
+        "examples": [
+          "garden-hose",
+          "free-floating",
+          "low-tech",
+          "renewable"
+        ]
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "project-link": {
+      "description": "Link to the project",
+      "$ref": "#/$defs/webUrl",
+      "examples": [
+        "TODO"
+      ]
+    },
+    "image": {
+      "description": "Link to an image",
+      "ui-recommended": true,
+      "$ref": "#/$defs/relPathOrWebUrl",
+      "examples": [
+        "TODO"
+      ]
+    },
+    "made": {
+      "description": "Someone has made this hardware",
+      "type": "boolean",
+      "default": false
+    },
+    "made-independently": {
+      "description": "Someone independent has made this hardware",
+      "type": "boolean",
+      "default": false
+    },
+    "license": {
+      "type": "object",
+      "properties": {
+        "hardware": {
+          "description": "The license under which the hardware is released",
+          "ui-recommended": true,
+          "$ref": "#/$defs/spdxLicenseExpression"
+        },
+        "documentation": {
+          "description": "The license under which the documentation is released",
+          "ui-recommended": true,
+          "$ref": "#/$defs/spdxLicenseExpression"
+        },
+        "software": {
+          "description": "The format should be an SPDX identifier. See https://spdx.org/licenses/",
+          "ui-recommended": true,
+          "$ref": "#/$defs/spdxLicenseExpression"
+        }
+      },
+      "anyOf": [
+        { "required": [ "hardware" ] },
+        { "required": [ "documentation" ] },
+        { "required": [ "software" ] }
+      ],
+      "additionalProperties": true
+    },
+    "licensor": {
+      "description": "Who granted the license?",
+      "$ref": "#/$defs/person",
+      "required": [ "name" ]
+    },
+    "okh-manifest-version": {
+      "description": "TODO",
+      "type": "string",
+      "const": "1.0.0",
+      "ui-hidden": true
+    },
+    "date-created": {
+      "description": "TODO",
+      "$ref": "#/$defs/date"
+    },
+    "date-updated": {
+      "$ref": "#/$defs/date",
+      "ui-hidden": true
+    },
+    "manifest-author": {
+      "description": "Author of this manifest file (you)",
+      "$ref": "#/$defs/person",
+      "required": ["name", "email"]
+    },
+    "manifest-language": {
+      "description": "Language of the original, as a BCP 47 language tag",
+      "$ref": "#/$defs/language"
+    },
+    "manifest-is-translation": {
+      "description": "If this manifest is a translation, fill in the following section",
+      "$ref": "#/$defs/translation"
+    },
+    "contact": {
+      "allOf": [{ "$ref": "#/$defs/person" }],
+      "properties": {
+        "social": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "platform": {
+                "type": "string",
+                "examples": [
+                  "ssb",
+                  "Telegram"
+                ]
+              },
+              "user-handle": {
+                "type": "string",
+                "examples": [
+                  "scoobiedoo",
+                  "JohnDoe",
+                  "JaneDoe",
+                  "MrNobody",
+                  "MsSomewhere_at_least"
+                ]
+              }
+            },
+            "additionalProperties": true
+          }
+        }
+      },
+      "additionalProperties": true
+    },
+    "contributors": {
+      "ui-recommended": true,
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/person",
+        "required": [ "name" ]
+      }
+    },
+    "version": {
+      "type": ["string", "number"],
+      "examples": [
+        "2.3.4",
+        "0.0.1-24-g6a8a3a7",
+        "v0.3.1",
+        "6a8a3a7",
+        61
+      ]
+    },
+    "development-stage": {
+      "type": "string",
+      "examples": [
+        "idea",
+        "prototype",
+        "product"
+      ]
+    },
+    "documentation-home": {
+      "$ref": "#/$defs/relPathOrWebUrl",
+      "examples": [
+        "TODO URL"
+      ]
+    },
+    "archive-download": {
+      "$ref": "#/$defs/relPathOrWebUrl",
+      "examples": [
+        "TODO URL"
+      ]
+    },
+    "design-files": {
+      "ui-recommended": true,
+      "$ref": "#/$defs/documents"
+    },
+    "documentation-language": {
+      "description": "Language the documentation is written in, as a BCP 47 language tag",
+      "$ref": "#/$defs/language"
+    },
+    "documentation-is-translation": {
+      "description": "If the documentation is a translation, fill in the following section",
+      "$ref": "#/$defs/translation"
+    },
+    "schematics": {
+      "ui-recommended": "where applicable",
+      "$ref": "#/$defs/documents"
+    },
+    "bom": {
+      "description": "Bill of Materials",
+      "ui-recommended": true,
+      "$ref": "#/$defs/relPathOrWebUrl",
+      "examples": [
+        "TODO URL"
+      ]
+    },
+    "tool-list": {
+      "description": "List of tools",
+      "ui-recommended": true,
+      "$ref": "#/$defs/relPathOrWebUrl",
+      "examples": [
+        "TODO URL"
+      ]
+    },
+    "making-instructions": {
+      "ui-recommended": true,
+      "$ref": "#/$defs/documents"
+    },
+    "manufacturing-files": {
+      "ui-recommended": "where applicable",
+      "$ref": "#/$defs/documents"
+    },
+    "risk-assessment": {
+      "ui-recommended": true,
+      "$ref": "#/$defs/documents"
+    },
+    "tool-settings": {
+      "ui-recommended": "where applicable",
+      "$ref": "#/$defs/documents"
+    },
+    "quality-instructions": {
+      "$ref": "#/$defs/documents"
+    },
+    "operating-instructions": {
+      "ui-recommended": true,
+      "$ref": "#/$defs/documents"
+    },
+    "maintenance-instructions": {
+      "ui-recommended": true,
+      "$ref": "#/$defs/documents"
+    },
+    "disposal-instructions": {
+      "ui-recommended": true,
+      "$ref": "#/$defs/documents"
+    },
+    "software": {
+      "ui-recommended": "where applicable",
+      "$ref": "#/$defs/documents"
+    },
+    "health-safety-notice": {
+      "type": "string",
+      "examples": [
+        "TODO"
+      ]
+    },
+    "standards-used": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "standard-title": {
+            "description": "Title of the standard used in developing the design or documentation",
+            "type": "string",
+            "examples": [
+              "DIN SPEC 3105-1",
+              "BCP 47 - International language tag",
+              "DIN A4 - European paper standard"
+            ]
+          },
+          "publisher": {
+            "description": "Publisher of the standard",
+            "type": "string",
+            "examples": [
+              "ISO",
+              "IANA",
+              "DIN",
+              "OSEG"
+            ]
+          },
+          "reference": {
+            "description": "Reference indentifier of the standard (e.g. 'ISO 9001')",
+            "type": "string",
+            "examples": [
+              "ISO 9001",
+              "ISO 1234",
+              "ISO 9876",
+              "DIN A4",
+              "DIN SPEC 3105-1"
+            ]
+          },
+          "certification": {
+            "description": "If certification has been granted confirming compliance with the standard",
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "certifier": {
+                  "description": "Individual or organisation granting the certification. Use 'Self' for self-certification",
+                  "type": "string",
+                  "examples": [
+                    "Self",
+                    "OrganizationX",
+                    "PersonY",
+                    "Big Corp. Inc."
+                  ]
+                },
+                "date-awarded": {
+                  "description": "Date certification was granted",
+                  "$ref": "#/$defs/date"
+                },
+                "link": {
+                  "description": "Link to evidence of certification (e.g. certificate). Use an an absolute path to an external resource or an absolute or relative path to evidence within the documentation.",
+                  "$ref": "#/$defs/webUrl",
+                  "examples": [
+                    "TODO"
+                  ]
+                }
+              },
+              "additionalProperties": true
+            }
+          }
+        },
+        "required": [ "standard-title" ],
+        "additionalProperties": true
+      }
+    },
+    "derivative-of": {
+      "description": "This project is a derivative of",
+      "$ref": "#/$defs/otherProject"
+    },
+    "variant-of": {
+      "description": "This project is a variant of",
+      "$ref": "#/$defs/otherProject"
+    },
+    "sub": {
+      "description": "This project uses the following sub-parts",
+      "$comment": "Deprecation warning: In newer versions, this is called 'sub-parts', not 'sub' anymore",
+      "deprecated": true,
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/otherProject"
+      }
+    },
+    "sub-parts": {
+      "description": "This project uses the following sub-parts",
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/otherProject"
+      }
+    }
+  },
+  "$defs": {
+    "webUrl": {
+      "type": "string",
+      "format": "uri",
+      "pattern": "^https?://"
+    },
+    "relPath": {
+      "type": "string",
+      "$comment": "A relative file-path to a dir or file below the root - as much as one can check for that with a regex",
+      "not": {
+        "anyOf": [
+          {
+            "$comment": "no protocol",
+            "pattern": "^[a-z]*:"
+          },
+          {
+            "$comment": "no URL-absolute path without protocol",
+            "pattern": "^//"
+          },
+          {
+            "$comment": "no parent-dir-references",
+            "pattern": "(?:.*/)?\\.\\.(?:/.*)?"
+          }
+        ]
+      }
+    },
+    "relPathOrWebUrl": {
+      "type": "string",
+      "anyOf": [
+        {
+          "$comment": "A full web URL",
+          "format": "uri",
+          "pattern": "^https?://"
+        },
+        {
+          "$ref": "#/$defs/relPath"
+        }
+      ]
+    },
+    "email": {
+      "type": "string",
+      "format": "email",
+      "examples": [
+        "jane.doe@email.com",
+        "john.doe@email.com",
+        "ester.something@good.org"
+      ]
+    },
+    "date": {
+      "type": "string",
+      "format": "date",
+      "examples": [
+        "2000-04-06",
+        "0001-0-0",
+        "1984-10-1"
+      ]
+    },
+    "language": {
+      "description": "Language as a BCP 47 language tag",
+      "type": "string",
+      "pattern": "^((?<grandfathered>(en-GB-oed|i-ami|i-bnn|i-default|i-enochian|i-hak|i-klingon|i-lux|i-mingo|i-navajo|i-pwn|i-tao|i-tay|i-tsu|sgn-BE-FR|sgn-BE-NL|sgn-CH-DE)|(art-lojban|cel-gaulish|no-bok|no-nyn|zh-guoyu|zh-hakka|zh-min|zh-min-nan|zh-xiang))|((?<language>([A-Za-z]{2,3}(-(?<extlang>[A-Za-z]{3}(-[A-Za-z]{3}){0,2}))?)|[A-Za-z]{4}|[A-Za-z]{5,8})(-(?<script>[A-Za-z]{4}))?(-(?<region>[A-Za-z]{2}|[0-9]{3}))?(-(?<variant>[A-Za-z0-9]{5,8}|[0-9][A-Za-z0-9]{3}))*(-(?<extension>[0-9A-WY-Za-wy-z](-[A-Za-z0-9]{2,8})+))*(-(?<privateUse>x(-[A-Za-z0-9]{1,8})+))?)|(?<privateUse>x(-[A-Za-z0-9]{1,8})+))$",
+      "examples": [
+        "en",
+        "de",
+        "es",
+        "zh"
+      ]
+    },
+    "spdxLicenseExpression": {
+      "description": "A valid SPDX license expression",
+      "$comment": "TODO We would have to define this in an extra schema, generated -> do it in the SPDX-Identifiers-generater repo!",
+      "type": "string"
+    },
+    "otherProject": {
+      "type": "object",
+      "properties": {
+        "title": {
+          "type": "string",
+          "examples": [
+            "TODO"
+          ]
+        },
+        "manifest": {
+          "$ref": "#/$defs/webUrl",
+          "examples": [
+            "TODO"
+          ]
+        },
+        "web": {
+          "$ref": "#/$defs/webUrl",
+          "examples": [
+            "TODO"
+          ]
+        }
+      },
+      "additionalProperties": true
+    },
+    "documents": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "path": {
+            "$ref": "#/$defs/relPathOrWebUrl",
+            "examples": [
+              "TODO"
+            ]
+          },
+          "title": {
+            "type": "string",
+            "examples": [
+              "TODO"
+            ]
+          }
+        },
+        "additionalProperties": true
+      }
+    },
+    "translation": {
+      "type": "object",
+      "properties": {
+        "title": {
+          "description": "Title of the original",
+          "type": "string",
+          "examples": [
+            "TODO"
+          ]
+        },
+        "manifest": {
+          "description": "OKH manifest location",
+          "type": "string",
+          "$ref": "#/$defs/webUrl",
+          "examples": [
+            "TODO"
+          ]
+        },
+        "web": {
+          "description": "Web presence location",
+          "$ref": "#/$defs/webUrl"
+        },
+        "lang": {
+          "description": "Language of the original, as a BCP 47 language tag",
+          "$ref": "#/$defs/language"
+        }
+      },
+      "required": [],
+      "additionalProperties": true
+    },
+    "person": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string",
+          "examples": [
+            "TODO"
+          ]
+        },
+        "affiliation": {
+          "type": "string",
+          "examples": [
+            "Free Software Foundation",
+            "Open Source Initiative",
+            "Open Source Hardware Association",
+            "Open Source Ecology",
+            "Open Source Ecology Germany"
+          ]
+        },
+        "email": {
+          "$ref": "#/$defs/email"
+        }
+      },
+      "anyOf": [
+        { "required": [ "name" ] },
+        { "required": [ "email" ] }
+      ],
+      "additionalProperties": true
+    }
+  },
+  "required": [ "title", "description", "license" ],
+  "anyOf": [
+    { "required": [ "project-link" ] },
+    { "required": [ "documentation-home" ] }
+  ],
+  "additionalProperties": true
+}
+
