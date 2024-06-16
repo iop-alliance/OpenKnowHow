@@ -252,3 +252,6 @@ CODE_OF_CONDUCT.md)
 "Human history, closely explored,
 boils down to the history of invention of better tools." \
 – Ernst Knapp: cultural geographer (1808-1896)
+
+[IoPA]: https://www.internetofproduction.org/
+[OSEG]: https://www.ose-germany.de/

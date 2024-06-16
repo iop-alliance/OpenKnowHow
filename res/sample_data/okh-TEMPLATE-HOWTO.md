@@ -53,7 +53,7 @@ please remove them from the manifest file.
 - **[licensor](../../src/spec/okh.md#metadata-fields-for-osh-modules)**
   - the official licensor of your hardware project;
     in most cases this will be the originator (may be you)
-- [organization]
+- [organization](../../src/spec/okh.md#metadata-fields-for-osh-modules)
   - the organization behind the development of this hardware project
 - [readme](../../src/spec/okh.md#metadata-fields-for-osh-modules)
   - file path to the README
