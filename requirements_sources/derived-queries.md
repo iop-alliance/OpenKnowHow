@@ -8,7 +8,7 @@ SPDX-License-Identifier: GPL-3.0-or-later
 # Description of standard queries
 
 **NOTE:** For details of the properties,
-see descriptions in the [ontology](../OKH-LOSH.ttl).
+see descriptions in the [ontology](../src/spec/okh.ttl).
 
 ## \[I\] information queries
 

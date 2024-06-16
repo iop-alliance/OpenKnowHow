@@ -56,7 +56,7 @@ The `schema:*` properties give us just that."""@en ;
   dcterms:license <https://www.gnu.org/licenses/gpl-3.0.txt> ;
   cc:license <https://www.gnu.org/licenses/gpl-3.0.txt> ;
   spdxt:ListedLicense "GPL-3.0-or-later" ;
-  dce:source "https://github.com/iop-alliance/OpenKnowHow/master/OKH-LOSH.ttl" ;
+  dce:source "https://github.com/iop-alliance/OpenKnowHow/master/src/spec/okh.ttl" ;
   .
 
 okh:Component

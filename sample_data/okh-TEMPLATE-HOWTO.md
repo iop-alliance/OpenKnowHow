@@ -32,35 +32,35 @@ Mandatory fields are bold.
 If some data fields are not applicable in your case,
 please remove them from the manifest file.
 
-- [okhv](../OKH-LOSH.md#for-osh-modules-only)
+- [okhv](../src/spec/okh.md#for-osh-modules-only)
   - automatically filled; NOT to be changed by you
-- **[name](../OKH-LOSH.md#metadata-fields-for-osh-modules)**
+- **[name](../src/spec/okh.md#metadata-fields-for-osh-modules)**
   - name or working title of your hardware project
-- **[repo](../OKH-LOSH.md#metadata-fields-for-osh-modules)**
+- **[repo](../src/spec/okh.md#metadata-fields-for-osh-modules)**
   - link to the repository of your hardware project
     (= where the documentation is developed)
-- **[version](../OKH-LOSH.md#metadata-fields-for-osh-modules)**
+- **[version](../src/spec/okh.md#metadata-fields-for-osh-modules)**
   - version of your hardware project;
     when you change this field,
     the crawler will recognise this as a new version
     and upload it to LOSH; **otherwise not**
-- [release](../OKH-LOSH.md#metadata-fields-for-osh-modules)
+- [release](../src/spec/okh.md#metadata-fields-for-osh-modules)
   - URL to the release package of this version of your hardware project
-- **[license](../OKH-LOSH.md#metadata-fields-for-osh-modules)**
+- **[license](../src/spec/okh.md#metadata-fields-for-osh-modules)**
   - SPDX-ID of the license you chose;
     get from here: <https://spdx.org/licenses/>; e.g. CERN-OHL-S-2.0
-- **[licensor](../OKH-LOSH.md#metadata-fields-for-osh-modules)**
+- **[licensor](../src/spec/okh.md#metadata-fields-for-osh-modules)**
   - the official licensor of your hardware project;
     in most cases this will be the originator (may be you)
 - [organization]
   - the organization behind the development of this hardware project
-- [readme](../OKH-LOSH.md#metadata-fields-for-osh-modules)
+- [readme](../src/spec/okh.md#metadata-fields-for-osh-modules)
   - file path to the README
 contribution-guide = "CONTRIBUTING.md" # relative path from the root directory IF the manifest file is _in_ the project's repositoy; use an URL otherwise
 image = "xxx.jpg" # relative path from the root directory IF the manifest file is _in_ the project's repositoy; use an URL otherwise
 documentation-language = "en-GB"
-technology-readiness-level = "OTRL-3" # choose OTRL level from here: <../OTRL.md#otrl>
-documentation-readiness-level = "ODRL-3" # choose OTRL level from here: <../OTRL.md#odrl>
+technology-readiness-level = "OTRL-3" # choose OTRL level from here: <../src/spec/otrl.md#otrl>
+documentation-readiness-level = "ODRL-3" # choose OTRL level from here: <../src/spec/otrl.md#odrl>
 attestation = "https://certification.oshwa.org/cl000001.html" # URL to a public proof that the module has been certified as open source hardware
 publication = "https://doi.org/10.1371/journal.pone.0193087" # Permalink (e.g.) DOI to a _scientific_ (that is: peer reviewed) publication that _contains_ the design files
 **function** = "xxx" # = a short description of what the hardware is & does / what problem it solves
@@ -94,11 +94,11 @@ installation-guide = "https://github.com/arduino/ArduinoCore-mbed/blob/a2c06d768
 
 # General
 
-- [manifest file name & location](../OKH-LOSH.md#location--naming-convention)
+- [manifest file name & location](../src/spec/okh.md#location--naming-convention)
   - name it `okh.toml`
   - place it directly into the root directory of the project,
     NOT in a subfolder or so
-- [file paths](../OKH-LOSH.md#file-path-conventions)
+- [file paths](../src/spec/okh.md#file-path-conventions)
   - use a relative path from the root directory
     IF the manifest file is _in_ the project's repositoy;
     use an URL otherwise
