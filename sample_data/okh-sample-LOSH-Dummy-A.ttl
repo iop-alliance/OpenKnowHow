@@ -3,7 +3,7 @@
 #
 # SPDX-License-Identifier: CC0-1.0
 
-@base             <https://github.com/OPEN-NEXT/OKH-LOSH/raw/master/sample_data/okh-sample-LOSH-Dummy-A.ttl> .
+@base             <https://github.com/iop-alliance/OpenKnowHow/raw/master/sample_data/okh-sample-LOSH-Dummy-A.ttl> .
 @prefix :         <#> .
 @prefix okh:      <https://w3id.org/oseg/ont/okh#> .
 @prefix obo:      <http://purl.obolibrary.org/obo/> .

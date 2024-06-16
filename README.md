@@ -1,7 +1,7 @@
 # OKH-LOSH
 
 <!--
-SPDX-FileCopyrightText: 2021 - 2023 Robin Vobruba <hoijui.quaero@gmail.com>
+SPDX-FileCopyrightText: 2021 - 2024 Robin Vobruba <hoijui.quaero@gmail.com>
 SPDX-FileCopyrightText: 2021 Martin Häuer <martin.haeuer@ose-germany.de>
 
 SPDX-License-Identifier: CC0-1.0
@@ -11,11 +11,11 @@ SPDX-License-Identifier: CC0-1.0
     https://zenodo.org/badge/259683880.svg)](
     https://zenodo.org/badge/latestdoi/259683880)
 [![License](
-    https://img.shields.io/github/license/OPEN-NEXT/OKH-LOSH.svg?style=flat)](
+    https://img.shields.io/github/license/iop-alliance/OpenKnowHow.svg?style=flat)](
     LICENSE)
 [![REUSE status](
-    https://api.reuse.software/badge/github.com/OPEN-NEXT/OKH-LOSH)](
-    https://api.reuse.software/info/github.com/OPEN-NEXT/OKH-LOSH)
+    https://api.reuse.software/badge/github.com/iop-alliance/OpenKnowHow)](
+    https://api.reuse.software/info/github.com/iop-alliance/OpenKnowHow)
 
 [![In cooperation with Open Source Ecology Germany](
     https://raw.githubusercontent.com/osegermany/tiny-files/master/res/media/img/badge-oseg.svg)](

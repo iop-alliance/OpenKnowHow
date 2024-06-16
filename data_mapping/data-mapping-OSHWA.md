@@ -21,7 +21,7 @@ making the metadata of certified projects available for the general public
 (plus you can apply for certification directly via this API).
 
 Source for the mapping: token from [here](https://certificationapi.oshwa.org/)
-(see [issue 9](https://github.com/OPEN-NEXT/LOSH/issues/9#issuecomment-733939646)
+(see [issue 9](https://github.com/iop-alliance/OpenKnowHow/issues/9#issuecomment-733939646)
 for details)
 
 # Data fields

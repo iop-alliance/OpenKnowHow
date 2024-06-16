@@ -3,7 +3,7 @@ Upstream-Name: Open Know-How - Library of Open Source Hardware version)
 Upstream-Contact:
     Martin Häuer (Open Source Ecology Germany e.V.) <martin.haeuer@ose-germany.de>
     Robin Vobruba (Open Source Ecology Germany e.V.) <hoijui.quaero@gmail.com>
-Source: https://github.com/OPEN-NEXT/OKH-LOSH
+Source: https://github.com/iop-alliance/OpenKnowHow
 
 Files: illustrations/*.svg
 Copyright:

@@ -134,7 +134,7 @@ and as Linked Open Data in RDF format [here](TODO).
 Data submission requires the use of a [Manifest File](#manifest-file).
 
 The Manifest File is directly available for the crawler via the GitLab-API.\
-(See [#24](https://github.com/OPEN-NEXT/LOSH/issues/24) for details.)
+(See [#24](https://github.com/iop-alliance/OpenKnowHow/issues/24) for details.)
 
 URL to platform: <https://gitlab.com/>
 
@@ -143,7 +143,7 @@ URL to platform: <https://gitlab.com/>
 Data submission requires the use of a [Manifest File](#manifest-file).
 
 The Manifest File is directly available for the crawler via the GitHub-API.\
-(See [#24](https://github.com/OPEN-NEXT/LOSH/issues/24) for details.)
+(See [#24](https://github.com/iop-alliance/OpenKnowHow/issues/24) for details.)
 
 URL to platform: <https://github.com/>
 
@@ -320,10 +320,10 @@ To summarize: an OSH module must bear reference of:
   - IETF BCP 47 language tag for the language in which the documentation is written
 - `technology-readiness-level` [string]
   - OTRL-ID representing the development stage of the OSH module
-  - get it from here: <https://github.com/OPEN-NEXT/LOSH/raw/master/OTRL.ttl>
+  - get it from here: <https://github.com/iop-alliance/OpenKnowHow/raw/master/OTRL.ttl>
 - `documentation-readiness-level` [string]
   - ODRL-ID representing the development stage of the documentation
-  - get it from here: <https://github.com/OPEN-NEXT/LOSH/raw/master/OTRL.ttl>
+  - get it from here: <https://github.com/iop-alliance/OpenKnowHow/raw/master/OTRL.ttl>
 - `attestation` [URL]
   - reference to a valid attestation that the documentation is complete
     and fully qualifies as open source hardware

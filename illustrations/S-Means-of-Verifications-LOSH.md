@@ -16,7 +16,7 @@ slideShow: https://md.opensourceecology.de/p/eO8QJFQjh#/
 These slides for the EU-H2020 Project "[OPEN_NEXT](https://opennext.eu/)" (no. 869984)
 are published under [GPLv3](https://www.gnu.org/licenses/gpl-3.0.en.html).
 
-Find the source [here](https://github.com/OPEN-NEXT/LOSH/blob/master/illustrations/S-Means-of-Verification.md).
+Find the source [here](https://github.com/iop-alliance/OpenKnowHow/blob/master/illustrations/S-Means-of-Verification.md).
 
 ---
 
@@ -74,7 +74,7 @@ using
 - no test deployment yet
 - will be accessible on [losh.ose-germany.de](losh.ose-germany.de)
 - see live status on
-    [github.com/OPEN-NEXT/LOSH/](https://github.com/OPEN-NEXT/LOSH/)
+    [github.com/iop-alliance/OpenKnowHow/](https://github.com/iop-alliance/OpenKnowHow/)
 
 ---
 
@@ -87,7 +87,7 @@ Detail 1
 
 --
 
-shown [here](https://github.com/OPEN-NEXT/LOSH/#technical-details)
+shown [here](https://github.com/iop-alliance/OpenKnowHow/#technical-details)
 
 ---
 
@@ -113,7 +113,7 @@ Detail 3
 
 --
 
-sample: [OHLOOM](https://gitlab.com/OSEGermany/ohloom), [Metadata](https://github.com/OPEN-NEXT/LOSH/blob/master/sample_data/okh-OHLOOM.toml)
+sample: [OHLOOM](https://gitlab.com/OSEGermany/ohloom), [Metadata](https://github.com/iop-alliance/OpenKnowHow/blob/master/sample_data/okh-OHLOOM.toml)
 
 ---
 
@@ -126,7 +126,7 @@ Detail 4
 
 --
 
-- Used: [T3.1 User Stories](https://github.com/OPEN-NEXT/LOSH/blob/master/requirements_sources/user-stories-t3-1.csv), [OKHv1 field usage](https://github.com/OPEN-NEXT/LOSH/blob/master/requirements_sources/okhv1_data-field-usage.csv), [input from GOSH workshop](https://github.com/OPEN-NEXT/LOSH/blob/master/requirements_sources/Wikibase_Qs.md)
+- Used: [T3.1 User Stories](https://github.com/iop-alliance/OpenKnowHow/blob/master/requirements_sources/user-stories-t3-1.csv), [OKHv1 field usage](https://github.com/iop-alliance/OpenKnowHow/blob/master/requirements_sources/okhv1_data-field-usage.csv), [input from GOSH workshop](https://github.com/iop-alliance/OpenKnowHow/blob/master/requirements_sources/Wikibase_Qs.md)
 - Coming: Production Metadata relevant to Makers (Workshop)
 - Validation in workshops
 

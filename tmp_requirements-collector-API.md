@@ -32,7 +32,7 @@ Following the [data flow illustration](illustrations/dataflow-principle.svg):
 ### Collector
 
 - framework for API-specific modules
-  - find the API selection in [#9](https://github.com/OPEN-NEXT/LOSH/issues/9)
+  - find the API selection in [#9](https://github.com/iop-alliance/OpenKnowHow/issues/9)
   - consider that the ontology is updatable;
     please consider the maintenance effort
 - translates OKHv1 files into OKHv2
@@ -60,7 +60,7 @@ optional:
 
 - checks whether links _inside_ the metadata files are dead
 - checks for typos in manually created metadata files
-- more submodules as listed in [#9](https://github.com/OPEN-NEXT/LOSH/issues/9)
+- more submodules as listed in [#9](https://github.com/iop-alliance/OpenKnowHow/issues/9)
 
 ### Wikibase-API
 

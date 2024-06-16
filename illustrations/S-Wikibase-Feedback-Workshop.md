@@ -16,7 +16,7 @@ slideShow: https://md.opensourceecology.de/p/oc1FnxPaf#/
 These slides for the EU-H2020 Project "[OPEN_NEXT](https://opennext.eu/)" (no. 869984)
 are published under [GPLv3](https://www.gnu.org/licenses/gpl-3.0.en.html).
 
-Find the source [here](https://github.com/OPEN-NEXT/LOSH/blob/master/illustrations/S-Wikibase-Feedback-Workshop.md).
+Find the source [here](https://github.com/iop-alliance/OpenKnowHow/blob/master/illustrations/S-Wikibase-Feedback-Workshop.md).
 
 ---
 
@@ -63,7 +63,7 @@ using
 - no test deployment yet
 - will be accessible on [losh.ose-germany.de](losh.ose-germany.de)
 - see live status on
-    [github.com/OPEN-NEXT/LOSH/](https://github.com/OPEN-NEXT/LOSH/)
+    [github.com/iop-alliance/OpenKnowHow/](https://github.com/iop-alliance/OpenKnowHow/)
 
 ---
 
@@ -85,9 +85,9 @@ Block 1
 
 --
 
-shown [here](https://github.com/OPEN-NEXT/LOSH/#technical-details)
+shown [here](https://github.com/iop-alliance/OpenKnowHow/#technical-details)
 
-discuss [here](https://github.com/OPEN-NEXT/LOSH/issues/91)
+discuss [here](https://github.com/iop-alliance/OpenKnowHow/issues/91)
 
 ---
 
@@ -102,7 +102,7 @@ Block 2
 
 samples: [OKH](https://search.openknowhow.org/), [OHO](https://oho.wiki/)
 
-discuss [here](https://github.com/OPEN-NEXT/LOSH/issues/92)
+discuss [here](https://github.com/iop-alliance/OpenKnowHow/issues/92)
 
 ---
 
@@ -115,9 +115,9 @@ Block 3
 
 --
 
-sample: [OHLOOM](https://gitlab.com/OSEGermany/ohloom), [Metadata](https://github.com/OPEN-NEXT/LOSH/blob/master/sample_data/okh-OHLOOM.toml)
+sample: [OHLOOM](https://gitlab.com/OSEGermany/ohloom), [Metadata](https://github.com/iop-alliance/OpenKnowHow/blob/master/sample_data/okh-OHLOOM.toml)
 
-discuss [here](https://github.com/OPEN-NEXT/LOSH/issues/93)
+discuss [here](https://github.com/iop-alliance/OpenKnowHow/issues/93)
 
 ---
 
@@ -130,9 +130,9 @@ Block 4
 
 --
 
-draft [here](https://github.com/OPEN-NEXT/LOSH/blob/master/production-metadata.md)
+draft [here](https://github.com/iop-alliance/OpenKnowHow/blob/master/production-metadata.md)
 
-discuss [here](https://github.com/OPEN-NEXT/LOSH/issues/94)
+discuss [here](https://github.com/iop-alliance/OpenKnowHow/issues/94)
 
 ---
 
@@ -141,4 +141,4 @@ Block 5
 # Free Comments
 ---
 
-discuss [here](https://github.com/OPEN-NEXT/LOSH/issues/95)
+discuss [here](https://github.com/iop-alliance/OpenKnowHow/issues/95)

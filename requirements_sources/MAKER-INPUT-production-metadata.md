@@ -14,7 +14,7 @@ SPDX-License-Identifier: GPL-3.0-or-later
 ---
 title: Specification for Production Metadata
 subtitle: Input from WP4/WP5 Partners
-history: https://github.com/OPEN-NEXT/OKH-LOSH/commits/36679600facd5b572f012e74cb359ac84eb2d113/MAKER-INPUT-production-metadata.md
+history: https://github.com/iop-alliance/OpenKnowHow/commits/36679600facd5b572f012e74cb359ac84eb2d113/MAKER-INPUT-production-metadata.md
 ...
 
 # Intro & Scope
