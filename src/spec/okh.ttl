@@ -853,28 +853,3 @@ okh:installationGuide
   vs:term_status "unstable" ;
   schema:domainIncludes okh:Software ;
   .
-
-### ----- source/export subproperties -----
-### (from TsDC)
-#
-#okh:rationale
-#  a owl:ObjectProperty ;
-#  rdfs:label "rationale" ;
-#  vs:term_status "unstable" ;
-#  schema:rangeIncludes
-#    okh:export,
-#    okh:source ;
-#  schema:domainIncludes okh:Component ;
-#  .
-#
-#okh:design
-#  a owl:ObjectProperty ;
-#  rdfs:label "design file" ;
-#  vs:term_status "unstable" ;
-#  schema:rangeIncludes
-#    okh:export,
-#    okh:source ;
-#  schema:domainIncludes
-#    okh:Module,
-#    okh:Part ;
-#  .
