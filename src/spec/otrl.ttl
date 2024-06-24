@@ -13,11 +13,6 @@
 @prefix vs:       <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
 @prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
 
-# SPDX-FileCopyrightText: 2020 - 2021 Martin Häuer <martin.haeuer@ose-germany.de>
-# SPDX-FileCopyrightText: 2020 - 2024 Robin Vobruba <hoijui.quaero@gmail.com>
-#
-# SPDX-License-Identifier: GPL-3.0-or-later
-
 <>
   a owl:Ontology ;
   vann:preferredNamespacePrefix "otrl" ;
@@ -27,6 +22,12 @@
   dcterms:title "Open Technology & Documentation Readiness Level (OTRL) ontology"@en ;
   dcterms:description "This can be used to assess an Open Source Hardware projects stage of technical development and its documentation."@en ;
   schema:comment "Descriptions (`rdfs:comment`) from NASA are used under public domain"@en ;
+  schema:comment '''
+# SPDX-FileCopyrightText: 2020 - 2021 Martin Häuer <martin.haeuer@ose-germany.de>
+# SPDX-FileCopyrightText: 2020 - 2024 Robin Vobruba <hoijui.quaero@gmail.com>
+#
+# SPDX-License-Identifier: GPL-3.0-or-later
+''' ;
   schema:comment '''Regarding the use of `schema:domainIncludes`
 and `schema:rangeIncludes` in this ontology:
 Looking at the definitions for the RDFS version
