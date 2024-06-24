@@ -18,11 +18,6 @@
 @prefix vs:       <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
 @prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
 
-# SPDX-FileCopyrightText: 2020 - 2021 Martin Häuer <martin.haeuer@ose-germany.de>
-# SPDX-FileCopyrightText: 2020 - 2024 Robin Vobruba <hoijui.quaero@gmail.com>
-#
-# SPDX-License-Identifier: GPL-3.0-or-later
-
 <>
   a owl:Ontology ;
   vann:preferredNamespacePrefix "okh" ;
@@ -31,6 +26,12 @@
   owl:versionIRI <https://w3id.org/oseg/ont/1.1.0/okh> ;
   dcterms:title "Open Know How (OKH) ontology"@en ;
   dcterms:description "Used for indexing, searching and comparing Open Source Hardware projects"@en ;
+  schema:comment """
+# SPDX-FileCopyrightText: 2020 - 2021 Martin Häuer <martin.haeuer@ose-germany.de>
+# SPDX-FileCopyrightText: 2020 - 2024 Robin Vobruba <hoijui.quaero@gmail.com>
+#
+# SPDX-License-Identifier: GPL-3.0-or-later
+""" ;
   schema:comment """Regarding the use of `schema:domainIncludes`
 and `schema:rangeIncludes` in this ontology:
 Looking at the definitions for the RDFS version
