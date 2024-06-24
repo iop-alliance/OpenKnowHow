@@ -27,7 +27,7 @@
   dcterms:title "Open Technology & Documentation Readiness Level (OTRL) ontology"@en ;
   dcterms:description "This can be used to assess an Open Source Hardware projects stage of technical development and its documentation."@en ;
   schema:comment "Descriptions (`rdfs:comment`) from NASA are used under public domain"@en ;
-  schema:comment """Regarding the use of `schema:domainIncludes`
+  schema:comment '''Regarding the use of `schema:domainIncludes`
 and `schema:rangeIncludes` in this ontology:
 Looking at the definitions for the RDFS version
 of the two, `rdfs:domain` and `rdfs:range`:
@@ -40,7 +40,7 @@ that *all of them* apply, simultaneously,
 not *one of them*.
 You may think of this as an `AND` coupling.
 We want the *one of them* meaning though (`OR`).
-The `schema:*` properties give us just that."""@en ;
+The `schema:*` properties give us just that.'''@en ;
   dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
   dce:creator "Martin Häuer <martin.haeuer@ose-germany.de>" ;
   dcterms:creator orcid:0000-0002-1611-7129 ;
