@@ -109,6 +109,7 @@ okh:Standard
   a owl:Class ;
   rdfs:label "technical standard"@en ;
   rdfs:comment "official standard used in the _design_ (not e.g. DIN SPEC 3105-1)"@en ;
+  rdfs:subClassOf dcterms:Standard ;
   vs:term_status "unstable" ;
   .
 
@@ -479,9 +480,9 @@ okh:cpcPatentClass
 
 okh:compliesWith
   a owl:ObjectProperty ;
-#  rdfs:subPropertyOf wdp:P5009 ;
   rdfs:label "complies with"@en ;
   rdfs:comment "links to a technical standard the subject-component complies with"@en ;
+  rdfs:subPropertyOf dcterms:conformsTo ;
   vs:term_status "unstable" ;
   schema:domainIncludes okh:Component ;
   schema:rangeIncludes okh:Standard ;
@@ -489,9 +490,9 @@ okh:compliesWith
 
 okh:standardID
   a owl:DatatypeProperty ;
-#  rdfs:subPropertyOf wdp:P5046 ;
   rdfs:label "document ID"@en ;
   rdfs:comment "document identifier for the technical standard"@en ;
+  rdfs:subPropertyOf dcterms:identifier ;
   vs:term_status "unstable" ;
   schema:rangeIncludes xsd:string ;
   schema:domainIncludes okh:Standard ;
