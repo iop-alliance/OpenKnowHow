@@ -163,7 +163,7 @@ okh:ContributionGuide
 
 okh:Image
   a owl:Class ;
-  rdfs:label "Image"@en ;
+  rdfs:label "image"@en ;
   rdfs:subClassOf okh:File ;
   vs:term_status "unstable" ;
   .
