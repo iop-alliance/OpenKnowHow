@@ -3,6 +3,7 @@
 @prefix cc:       <http://creativecommons.org/ns#> .
 @prefix dce:      <http://purl.org/dc/elements/1.1/> .
 @prefix dcterms:  <http://purl.org/dc/terms/> .
+@prefix foaf:     <http://xmlns.com/foaf/0.1/> .
 @prefix npg:      <http://ns.nature.com/terms/> .
 @prefix obo:      <http://purl.obolibrary.org/obo/> .
 @prefix orcid:    <https://orcid.org/> .
@@ -64,6 +65,7 @@ okh:Component
   a owl:Class ;
   rdfs:label "component"@en ;
   rdfs:comment "Either a module (MOSH) or Part (POSH); more component types may be added in the future"@en ;
+  rdfs:subClassOf spdxt:Package ;
   vs:term_status "unstable" ;
   .
 
@@ -134,6 +136,7 @@ okh:FileUrl
 
 okh:File
   a owl:Class ;
+  rdfs:subClassOf schema:CreativeWork ;
   rdfs:label "file"@en ;
   rdfs:comment "A file that forms part of the project, specified/located either by a URL (okh:url) or a repo-/project-relative path (okh:relativePath)."@en ;
   vs:term_status "unstable" ;
@@ -144,6 +147,7 @@ okh:ManifestFile
   rdfs:label "manifest file"@en ;
   rdfs:comment "file holding the metadata"@en ;
   rdfs:subClassOf okh:File ;
+  rdfs:subClassOf schema:TextDigitalDocument ;
   vs:term_status "unstable" ;
   .
 
@@ -151,6 +155,7 @@ okh:Readme
   a owl:Class ;
   rdfs:label "Readme"@en ;
   rdfs:subClassOf okh:File ;
+  rdfs:subClassOf schema:TextDigitalDocument ;
   vs:term_status "unstable" ;
   .
 
@@ -158,6 +163,7 @@ okh:ContributionGuide
   a owl:Class ;
   rdfs:label "contribution guide"@en ;
   rdfs:subClassOf okh:File ;
+  rdfs:subClassOf schema:TextDigitalDocument ;
   vs:term_status "unstable" ;
   .
 
@@ -165,6 +171,8 @@ okh:Image
   a owl:Class ;
   rdfs:label "image"@en ;
   rdfs:subClassOf okh:File ;
+  rdfs:subClassOf schema:ImageObject ;
+  rdfs:subClassOf foaf:Image ;
   vs:term_status "unstable" ;
   .
 
@@ -172,6 +180,7 @@ okh:BoM
   a owl:Class ;
   rdfs:label "Bill of Materials"@en ;
   rdfs:subClassOf okh:File ;
+  rdfs:subClassOf schema:SpreadsheetDigitalDocument ;
   vs:term_status "unstable" ;
   .
 
@@ -179,6 +188,7 @@ okh:SourceFile
   a owl:Class ;
   rdfs:label "source file"@en ;
   rdfs:subClassOf okh:File ;
+  rdfs:subClassOf schema:TextDigitalDocument ;
   vs:term_status "unstable" ;
   .
 
@@ -366,6 +376,7 @@ okh:documentationLanguage
 
 okh:licensor
   a owl:ObjectProperty ;
+  rdfs:subPropertyOf dcterms:rightsHolder ;
   rdfs:label "licensor"@en ;
   rdfs:comment "organization/individual behind the hardware design (holder of intellectual property)"@en ;
   rdfs:subPropertyOf schema:copyrightHolder ;
