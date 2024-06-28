@@ -701,7 +701,7 @@ okh:smallestToleranceClass
   a owl:ObjectProperty ;
   rdfs:label "smallest tolerance class"@en ;
   rdfs:comment "according to the ISO 286 standard"@en ;
-# fixme rdfs:subPropertyOf ;
+# TODO fixme link! with rdfs:subPropertyOf ;
   rdfs:subPropertyOf okh:productionMetadata ;
   vs:term_status "unstable" ;
   schema:domainIncludes okh:Part ;
