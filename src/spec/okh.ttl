@@ -597,6 +597,7 @@ okh:productionMetadata
 okh:manufacturingProcess
   a owl:DatatypeProperty ;
   rdfs:label "manufacturing process"@en ;
+  vaem:todo "TODO Needs more properties: comment, domain and range"@en ;
   rdfs:subPropertyOf okh:productionMetadata ;
   vs:term_status "unstable" ;
   .
@@ -782,6 +783,7 @@ okh:fileFormat
   a owl:ObjectProperty ;
   rdfs:label "file format"@en ;
   rdfs:subPropertyOf schema:encodingFormat ;
+  vaem:todo "TODO Further specify valid values here; maybe mime-types? maybe rdfs:subPropertyOf <https://www.semanticdesktop.org/ontologies/2007/01/19/nie/#mimeType>"@en ;
   vs:term_status "unstable" ;
   schema:domainIncludes okh:File ;
   .
