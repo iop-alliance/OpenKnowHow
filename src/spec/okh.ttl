@@ -15,6 +15,7 @@
 @prefix schema:   <http://schema.org/> .
 @prefix spdxt:    <http://spdx.org/rdf/terms#> .
 @prefix tsdc:     <https://w3id.org/oseg/ont/tsdc/core#> .
+@prefix vaem:     <http://www.linkedmodel.org/schema/vaem#> .
 @prefix vann:     <http://purl.org/vocab/vann/> .
 @prefix vs:       <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
 @prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
@@ -603,7 +604,7 @@ okh:manufacturingProcess
 okh:material
   a owl:DatatypeProperty ;
   rdfs:label "material"@en ;
-  rdfs:comment "TODO Define the range of this property"@en ;
+  vaem:todo "TODO Define the range of this property"@en ;
   rdfs:subPropertyOf okh:productionMetadata ;
   vs:term_status "unstable" ;
   .
@@ -649,28 +650,34 @@ okh:openScad
 okh:width
   a owl:DatatypeProperty ;
   rdfs:label "width [mm]"@en ;
-  rdfs:comment "The outter width of the product"@en ; # TODO Define whether this includes or excludes packaging
+  rdfs:comment "The outter width of the product"@en ;
+  vaem:todo "TODO Define in the comment, whether this includes or excludes packaging"@en ;
   vs:term_status "unstable" ;
   schema:domainIncludes okh:OuterDimensions ;
-  schema:rangeIncludes xsd:float ; # TODO ... or should it be int?
+  schema:rangeIncludes xsd:float ;
+  vaem:todo "TODO or should the range rather be int?"@en ;
   .
 
 okh:depth
   a owl:DatatypeProperty ;
   rdfs:label "depth [mm]"@en ;
-  rdfs:comment "The outter depth of the product"@en ; # TODO Define whether this includes or excludes packaging
+  rdfs:comment "The outter depth of the product"@en ;
+  vaem:todo "TODO Define in the comment, whether this includes or excludes packaging"@en ;
   vs:term_status "unstable" ;
   schema:domainIncludes okh:OuterDimensions ;
-  schema:rangeIncludes xsd:float ; # TODO ... or should it be int?
+  schema:rangeIncludes xsd:float ;
+  vaem:todo "TODO or should the range rather be int?"@en ;
   .
 
 okh:height
   a owl:DatatypeProperty ;
   rdfs:label "height [mm]"@en ;
-  rdfs:comment "The outter height of the product"@en ; # TODO Define whether this includes or excludes packaging
+  rdfs:comment "The outter height of the product"@en ;
+  vaem:todo "TODO Define in the comment, whether this includes or excludes packaging"@en ;
   vs:term_status "unstable" ;
   schema:domainIncludes okh:OuterDimensions ;
-  schema:rangeIncludes xsd:float ; # TODO ... or should it be int?
+  schema:rangeIncludes xsd:float ;
+  vaem:todo "TODO or should the range rather be int?"@en ;
   .
 
 okh:unit
@@ -701,7 +708,7 @@ okh:smallestToleranceClass
   a owl:ObjectProperty ;
   rdfs:label "smallest tolerance class"@en ;
   rdfs:comment "according to the ISO 286 standard"@en ;
-# TODO fixme link! with rdfs:subPropertyOf ;
+  vaem:todo "TODO FIXME link! with rdfs:subPropertyOf"@en ;
   rdfs:subPropertyOf okh:productionMetadata ;
   vs:term_status "unstable" ;
   schema:domainIncludes okh:Part ;
