@@ -368,7 +368,6 @@ okh:documentationLanguage
    denotes the language of the documentation for the component subject '''@en;
   rdfs:subPropertyOf schema:inLanguage ;
   vs:term_status "unstable" ;
-  owl:cardinality 1 ;
   schema:domainIncludes
     okh:Module,
     okh:Part ;
@@ -387,7 +386,6 @@ okh:licensor
     schema:Organization,
     schema:Person ;
   schema:domainIncludes okh:Module ;
-  owl:cardinality 1 ;
   .
 
 okh:organization
