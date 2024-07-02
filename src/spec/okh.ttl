@@ -782,7 +782,7 @@ okh:fileFormat
   a owl:ObjectProperty ;
   rdfs:label "file format"@en ;
   rdfs:subPropertyOf schema:encodingFormat ;
-  vaem:todo "TODO Further specify valid values here; maybe mime-types? maybe rdfs:subPropertyOf <https://www.semanticdesktop.org/ontologies/2007/01/19/nie/#mimeType>"@en ;
+  vaem:todo "TODO Further specify valid values here; maybe mime-types? maybe rdfs:subPropertyOf <https://www.semanticdesktop.org/ontologies/2007/01/19/nie/#mimeType>? Currently e.g. 'MD' or 'CSV' is used; see sample data."@en ;
   vs:term_status "unstable" ;
   schema:domainIncludes okh:File ;
   .
