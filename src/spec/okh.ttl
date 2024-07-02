@@ -147,7 +147,7 @@ okh:File
 okh:ManifestFile
   a owl:Class ;
   rdfs:label "manifest file"@en ;
-  rdfs:comment "file holding the metadata"@en ;
+  rdfs:comment "source file holding this projects OKH data in TOML format, from which RDF is generated"@en ;
   rdfs:subClassOf okh:File ;
   rdfs:subClassOf schema:TextDigitalDocument ;
   vs:term_status "unstable" ;
