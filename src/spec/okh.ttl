@@ -330,6 +330,7 @@ okh:dataSource
   a skos:Concept ;
   rdfs:label "metadata source"@en ;
   rdfs:comment "platform, where the crawler found the metadata (e.g. GitHub, Wikifactory)"@en ;
+  rdfs:seeAlso okh:repoHost ;
   rdfs:subPropertyOf schema:url ;
   vs:term_status "unstable" ;
   schema:domainIncludes okh:Module ;
@@ -342,6 +343,7 @@ okh:repoHost
   a skos:Concept ;
   rdfs:label "repository host"@en ;
   rdfs:comment "platform where the OSH documentation is located (e.g. GitLab, Wikifactory or any self-hosted website or wiki)"@en ;
+  rdfs:seeAlso okh:dataSource ;
   rdfs:subPropertyOf schema:url ;
   vs:term_status "unstable" ;
   schema:domainIncludes okh:Module ;
