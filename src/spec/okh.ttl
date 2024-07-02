@@ -720,6 +720,7 @@ okh:smallestToleranceClass
 okh:hasManifestFile
   a owl:ObjectProperty ;
   rdfs:label "has manifest file"@en ;
+  rdfs:comment "Links to the source TOML manifest file for (this) RDF data"@en ;
   vs:term_status "unstable" ;
   schema:rangeIncludes okh:ManifestFile ;
   schema:domainIncludes
