@@ -306,10 +306,10 @@ okh:uploadMethod
 okh:repo
   a owl:ObjectProperty ;
   rdfs:label "repository"@en ;
-  rdfs:comment '''
-    URL to the place where development happens (typically the repository)" ;
-    following this link people shall be able to contribute to the development
-    (reporting issues, suggesting changes, connecting to the team etc.)" '''@en;
+  rdfs:comment '''URL to the place where development happens
+(typically the repository).
+following this link, people should be able to contribute to the development
+(reporting issues, suggesting changes, connecting to the team etc.)'''@en;
   rdfs:subPropertyOf schema:codeRepository ;
   vs:term_status "unstable" ;
   schema:rangeIncludes okh:WebsiteUrl ;
