@@ -316,8 +316,8 @@ following this link, people should be able to contribute to the development
   rdfs:subPropertyOf schema:codeRepository ;
   vs:term_status "unstable" ;
   schema:rangeIncludes okh:WebsiteUrl ;
-  owl:cardinality 1 ;
   schema:domainIncludes okh:Module ;
+  owl:cardinality 1 ;
   .
 
 okh:repoSnapshot
