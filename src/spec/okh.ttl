@@ -159,6 +159,7 @@ okh:Readme
   a owl:Class ;
   rdfs:label "Readme"@en ;
   rdfs:subClassOf okh:File ;
+  rdfs:subClassOf dcterms:MethodOfInstruction ;
   rdfs:subClassOf schema:TextDigitalDocument ;
   vs:term_status "unstable" ;
   .
@@ -167,6 +168,7 @@ okh:ContributionGuide
   a owl:Class ;
   rdfs:label "contribution guide"@en ;
   rdfs:subClassOf okh:File ;
+  rdfs:subClassOf dcterms:MethodOfInstruction ;
   rdfs:subClassOf schema:TextDigitalDocument ;
   vs:term_status "unstable" ;
   .
@@ -216,6 +218,7 @@ okh:ManufacturingInstructions
   a owl:Class ;
   rdfs:label "manufacturing instructions"@en ;
   rdfs:comment "links to a manual/instructions of some kind, that explain how to manufacture a module or part."@en ;
+  rdfs:subClassOf dcterms:MethodOfInstruction ;
   rdfs:subClassOf okh:File ;
   vs:term_status "unstable" ;
   .
@@ -224,6 +227,7 @@ okh:UserManual
   a owl:Class ;
   rdfs:label "User Manual"@en ;
   rdfs:subClassOf okh:File ;
+  rdfs:subClassOf dcterms:MethodOfInstruction ;
   vs:term_status "unstable" ;
   .
 
@@ -237,6 +241,7 @@ okh:OuterDimensions
   This is commonly uised to calculate (or at least estimate)
   how many items of a manufactured module or part
   can be packed into storage space of known dimensions.'''@en ;
+  rdfs:subClassOf dcterms:SizeOrDuration ;
   vs:term_status "unstable" ;
   .
 
@@ -383,9 +388,11 @@ okh:licensor
   rdfs:subPropertyOf dcterms:rightsHolder ;
   rdfs:label "licensor"@en ;
   rdfs:comment "organization/individual behind the hardware design (holder of intellectual property)"@en ;
+  rdfs:subPropertyOf dcterms:rightsHolder ;
   rdfs:subPropertyOf schema:copyrightHolder ;
   vs:term_status "unstable" ;
   schema:rangeIncludes
+    dcterms:Agent,
     schema:Organization,
     schema:Person ;
   schema:domainIncludes okh:Module ;
@@ -618,6 +625,7 @@ okh:hasOuterDimensions
   rdfs:comment "defined through width, depth and height in mm"@en ;
   schema:rangeIncludes okh:OuterDimensions ;
   rdfs:subPropertyOf okh:productionMetadata ;
+  rdfs:subPropertyOf dcterms:format ;
   vs:term_status "unstable" ;
   .
 
@@ -721,6 +729,7 @@ okh:hasManifestFile
   a owl:ObjectProperty ;
   rdfs:label "has manifest file"@en ;
   rdfs:comment "Links to the source TOML manifest file for (this) RDF data"@en ;
+  rdfs:subPropertyOf dcterms:hasFormat ;
   vs:term_status "unstable" ;
   schema:rangeIncludes okh:ManifestFile ;
   schema:domainIncludes
@@ -786,6 +795,7 @@ okh:fileFormat
   a owl:ObjectProperty ;
   rdfs:label "file format"@en ;
   rdfs:subPropertyOf schema:encodingFormat ;
+  rdfs:subPropertyOf dcterms:format ;
   vaem:todo "TODO Further specify valid values here; maybe mime-types? maybe rdfs:subPropertyOf <https://www.semanticdesktop.org/ontologies/2007/01/19/nie/#mimeType>? Currently e.g. 'MD' or 'CSV' is used; see sample data."@en ;
   vs:term_status "unstable" ;
   schema:domainIncludes okh:File ;
@@ -836,6 +846,7 @@ okh:auxiliary
 okh:hasUserManual
   a owl:ObjectProperty ;
   rdfs:label "has user manual"@en ;
+  rdfs:subPropertyOf dcterms:instructionalMethod ;
   vs:term_status "unstable" ;
   schema:rangeIncludes okh:UserManual ;
   schema:domainIncludes okh:Module ;
@@ -844,6 +855,7 @@ okh:hasUserManual
 okh:hasManufacturingInstructions
   a owl:ObjectProperty ;
   rdfs:label "has manufacturing instructions"@en ;
+  rdfs:subPropertyOf dcterms:instructionalMethod ;
   vs:term_status "unstable" ;
   schema:rangeIncludes okh:ManufacturingInstructions ;
   schema:domainIncludes
