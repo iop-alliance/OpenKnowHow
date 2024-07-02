@@ -177,7 +177,7 @@ okh:Image
   rdfs:subClassOf okh:File ;
   rdfs:subClassOf schema:ImageObject ;
   rdfs:subClassOf foaf:Image ;
-  rdfs:subClassOf dctype:Image ;
+  rdfs:subClassOf dctype:StillImage ;
   vs:term_status "unstable" ;
   .
 
