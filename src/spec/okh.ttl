@@ -6,6 +6,7 @@
 @prefix foaf:     <http://xmlns.com/foaf/0.1/> .
 @prefix npg:      <http://ns.nature.com/terms/> .
 @prefix obo:      <http://purl.obolibrary.org/obo/> .
+@prefix okhmeta:  <https://w3id.org/oseg/ont/okhmeta> .
 @prefix osegprof: <https://w3id.org/oseg/ont/oseg-profiles#> .
 @prefix otrl:     <https://w3id.org/oseg/ont/otrl#> .
 @prefix owl:      <http://www.w3.org/2002/07/owl#> .
@@ -13,6 +14,7 @@
 @prefix rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs:     <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix schema:   <http://schema.org/> .
+@prefix skos:     <http://www.w3.org/2004/02/skos/core#> .
 @prefix spdxt:    <http://spdx.org/rdf/terms#> .
 @prefix tsdc:     <https://w3id.org/oseg/ont/tsdc/core#> .
 @prefix vaem:     <http://www.linkedmodel.org/schema/vaem#> .
@@ -66,35 +68,43 @@ The `schema:*` properties give us just that.'''@en ;
 
 okh:Component
   a owl:Class ;
+  a skos:Concept ;
   rdfs:label "component"@en ;
   rdfs:comment "Either a module (MOSH) or Part (POSH); more component types may be added in the future"@en ;
   rdfs:subClassOf spdxt:Package ;
   vs:term_status "unstable" ;
+  okhmeta:hasMetaTag okhmeta:PartsTag ;
   .
 
 okh:Module
   a owl:Class ;
+  a skos:Concept ;
   rdfs:label "module"@en ;
   rdfs:comment "Module of Open Source Hardware (MOSH)"@en ;
   rdfs:subClassOf okh:Component ;
   vs:term_status "unstable" ;
+  okhmeta:hasMetaTag okhmeta:PartsTag ;
   .
 
 okh:Part
   a owl:Class ;
+  a skos:Concept ;
   rdfs:label "part"@en ;
   rdfs:comment "Piece of Open Source Hardware (POSH)"@en ;
   rdfs:subClassOf okh:Component ;
   vs:term_status "unstable" ;
+  okhmeta:hasMetaTag okhmeta:PartsTag ;
   .
 
 okh:Software
   a owl:Class ;
+  a skos:Concept ;
   rdfs:label "software"@en ;
   rdfs:comment "Software (including firmware) needed to run & use the OSH"@en ;
   rdfs:subClassOf okh:Component ;
   rdfs:subClassOf dctype:Software ;
   vs:term_status "unstable" ;
+  okhmeta:hasMetaTag okhmeta:PartsTag ;
   .
 
 okh:Reference
@@ -105,18 +115,23 @@ okh:Reference
 
 okh:Publication
   a owl:Class ;
+  a skos:Concept ;
   rdfs:label "scientific publication"@en ;
   rdfs:comment "_scientific_ (that is: peer reviewed) publication that _contains_ the design files"@en;
   rdfs:subClassOf npg:Publication ;
   vs:term_status "unstable" ;
+  okhmeta:hasMetaTag okhmeta:QualityTag ;
+  okhmeta:hasMetaTag okhmeta:AcademicTag ;
   .
 
 okh:Standard
   a owl:Class ;
+  a skos:Concept ;
   rdfs:label "technical standard"@en ;
   rdfs:comment "official standard used in the _design_ (not e.g. DIN SPEC 3105-1)"@en ;
   rdfs:subClassOf dcterms:Standard ;
   vs:term_status "unstable" ;
+  okhmeta:hasMetaTag okhmeta:QualityTag ;
   .
 
 okh:WebsiteUrl
@@ -148,91 +163,115 @@ okh:File
 
 okh:ManifestFile
   a owl:Class ;
+  a skos:Concept ;
   rdfs:label "manifest file"@en ;
   rdfs:comment "source file holding this projects OKH data in TOML format, from which RDF is generated"@en ;
   rdfs:subClassOf okh:File ;
   rdfs:subClassOf schema:TextDigitalDocument ;
   vs:term_status "unstable" ;
+  okhmeta:hasMetaTag okhmeta:DataGatheringTag ;
   .
 
 okh:Readme
   a owl:Class ;
+  a skos:Concept ;
   rdfs:label "Readme"@en ;
   rdfs:subClassOf okh:File ;
   rdfs:subClassOf dcterms:MethodOfInstruction ;
   rdfs:subClassOf schema:TextDigitalDocument ;
   vs:term_status "unstable" ;
+  okhmeta:hasMetaTag okhmeta:DocmentationTag ;
   .
 
 okh:ContributionGuide
   a owl:Class ;
+  a skos:Concept ;
   rdfs:label "contribution guide"@en ;
   rdfs:subClassOf okh:File ;
   rdfs:subClassOf dcterms:MethodOfInstruction ;
   rdfs:subClassOf schema:TextDigitalDocument ;
   vs:term_status "unstable" ;
+  okhmeta:hasMetaTag okhmeta:DocmentationTag ;
+  okhmeta:hasMetaTag okhmeta:ExtendedInfoTag ;
   .
 
 okh:Image
   a owl:Class ;
+  a skos:Concept ;
   rdfs:label "image"@en ;
   rdfs:subClassOf okh:File ;
   rdfs:subClassOf schema:ImageObject ;
   rdfs:subClassOf foaf:Image ;
   rdfs:subClassOf dctype:StillImage ;
   vs:term_status "unstable" ;
+  okhmeta:hasMetaTag okhmeta:BasicTag ;
   .
 
 okh:BoM
   a owl:Class ;
+  a skos:Concept ;
   rdfs:label "Bill of Materials"@en ;
   rdfs:subClassOf okh:File ;
   rdfs:subClassOf schema:SpreadsheetDigitalDocument ;
   vs:term_status "unstable" ;
+  okhmeta:hasMetaTag okhmeta:DataTag ;
+  okhmeta:hasMetaTag okhmeta:PartsTag ;
   .
 
 okh:SourceFile
   a owl:Class ;
+  a skos:Concept ;
   rdfs:label "source file"@en ;
   rdfs:subClassOf okh:File ;
   rdfs:subClassOf schema:TextDigitalDocument ;
   vs:term_status "unstable" ;
+  okhmeta:hasMetaTag okhmeta:DataTag ;
   .
 
 okh:ExportFile
   a owl:Class ;
+  a skos:Concept ;
   rdfs:label "exported file"@en ;
   rdfs:subClassOf okh:File ;
   vs:term_status "unstable" ;
+  okhmeta:hasMetaTag okhmeta:DataTag ;
   .
 
 okh:AuxiliaryFile
   a owl:Class ;
+  a skos:Concept ;
   rdfs:label "auxiliary file"@en ;
   rdfs:comment "These are any files associated with the subject, which classify neither as source nor as export"@en ;
   rdfs:subClassOf okh:File ;
   vs:term_status "unstable" ;
+  okhmeta:hasMetaTag okhmeta:DataTag ;
   .
 
 okh:ManufacturingInstructions
   a owl:Class ;
+  a skos:Concept ;
   rdfs:label "manufacturing instructions"@en ;
   rdfs:comment "links to a manual/instructions of some kind, that explain how to manufacture a module or part."@en ;
   rdfs:subClassOf dcterms:MethodOfInstruction ;
   rdfs:subClassOf okh:File ;
   vs:term_status "unstable" ;
+  okhmeta:hasMetaTag okhmeta:DocumentationTag ;
+  okhmeta:hasMetaTag okhmeta:MakingTag ;
   .
 
 okh:UserManual
   a owl:Class ;
+  a skos:Concept ;
   rdfs:label "User Manual"@en ;
   rdfs:subClassOf okh:File ;
   rdfs:subClassOf dcterms:MethodOfInstruction ;
   vs:term_status "unstable" ;
+  okhmeta:hasMetaTag okhmeta:DocumentationTag ;
   .
 
 okh:OuterDimensions
   a owl:Class ;
+  a skos:Concept ;
   rdfs:label "outer dimensions"@en ;
   rdfs:comment '''
   … of a module or a part;
@@ -243,19 +282,25 @@ okh:OuterDimensions
   can be packed into storage space of known dimensions.'''@en ;
   rdfs:subClassOf dcterms:SizeOrDuration ;
   vs:term_status "unstable" ;
+  okhmeta:hasMetaTag okhmeta:PhysicalTag ;
+  okhmeta:hasMetaTag okhmeta:TransportationTag ;
   .
 
 okh:Mass
   a owl:Class ;
+  a skos:Concept ;
   rdfs:label "mass"@en ;
   rdfs:comment "… of a module or a part"@en ;
   vs:term_status "deprecated" ;
   owl:deprecated "true"^^xsd:boolean ;
   cc:deprecatedOn "2024-06-16"^^xsd:date ;
+  okhmeta:hasMetaTag okhmeta:PhysicalTag ;
+  okhmeta:hasMetaTag okhmeta:TransportationTag ;
   .
 
 okh:ComponentReference
   a owl:Class ;
+  a skos:Concept ;
   rdfs:subClassOf okh:Reference ;
   rdfs:label "component reference"@en ;
   rdfs:comment '''
@@ -267,6 +312,7 @@ okh:ComponentReference
   vs:term_status "deprecated" ;
   owl:deprecated "true"^^xsd:boolean ;
   cc:deprecatedOn "2023-08-19"^^xsd:date ;
+  okhmeta:hasMetaTag okhmeta:PartsTag ;
   .
 
 okh:okhv
@@ -281,38 +327,43 @@ okh:okhv
 
 okh:dataSource
   a owl:DatatypeProperty ;
+  a skos:Concept ;
   rdfs:label "metadata source"@en ;
   rdfs:comment "platform, where the crawler found the metadata (e.g. GitHub, Wikifactory)"@en ;
   rdfs:subPropertyOf schema:url ;
   vs:term_status "unstable" ;
   schema:domainIncludes okh:Module ;
   owl:cardinality 1 ;
+  okhmeta:hasMetaTag okhmeta:DataTag ;
   .
 
 okh:repoHost
   a owl:DatatypeProperty ;
+  a skos:Concept ;
   rdfs:label "repository host"@en ;
   rdfs:comment "platform where the OSH documentation is located (e.g. GitLab, Wikifactory or any self-hosted website or wiki)"@en ;
   rdfs:subPropertyOf schema:url ;
   vs:term_status "unstable" ;
   schema:domainIncludes okh:Module ;
   owl:cardinality 1 ;
+  okhmeta:hasMetaTag okhmeta:HistoryTag ;
   .
 
 okh:uploadMethod
   a owl:DatatypeProperty ;
+  a skos:Concept ;
   rdfs:label "upload method"@en ;
   rdfs:comment "e.g. auto (fully integrated platforms) or manifest file (for connected platforms)"@en ;
   vs:term_status "unstable" ;
   schema:rangeIncludes xsd:string ;
   schema:domainIncludes okh:Component ;
   owl:cardinality 1 ;
+  okhmeta:hasMetaTag okhmeta:DataGatheringTag ;
   .
-
-## ----- identification -----
 
 okh:repo
   a owl:ObjectProperty ;
+  a skos:Concept ;
   rdfs:label "repository"@en ;
   rdfs:comment '''URL to the place where development happens
 (typically the repository).
@@ -323,10 +374,14 @@ following this link, people should be able to contribute to the development
   schema:rangeIncludes okh:WebsiteUrl ;
   schema:domainIncludes okh:Module ;
   owl:cardinality 1 ;
+  okhmeta:hasMetaTag okhmeta:BasicTag ;
+  okhmeta:hasMetaTag okhmeta:HistoryTag ;
+  okhmeta:hasMetaTag okhmeta:IdentificationTag ;
   .
 
 okh:repoSnapshot
   a owl:ObjectProperty ;
+  a skos:Concept ;
   rdfs:label "respository snapshot"@en ;
   rdfs:comment "Repoistory snapshot (=specific version) URL"@en ;
   rdfs:subPropertyOf okh:repo ;
@@ -334,20 +389,25 @@ okh:repoSnapshot
   schema:rangeIncludes okh:WebsiteUrl ;
   owl:cardinality 1 ;
   schema:domainIncludes okh:Module ;
+  okhmeta:hasMetaTag okhmeta:HistoryTag ;
   .
 
 okh:version
   a owl:DatatypeProperty ;
+  a skos:Concept ;
   rdfs:label "version"@en ;
   rdfs:comment "version of this Component, preferably in the semantic versioning scheme (semver.org)"@en ;
   rdfs:subPropertyOf schema:version ;
   vs:term_status "unstable" ;
   schema:domainIncludes okh:Module ;
   owl:cardinality 1 ;
+  okhmeta:hasMetaTag okhmeta:HistoryTag ;
+  okhmeta:hasMetaTag okhmeta:IdentificationTag ;
   .
 
 okh:forkOf
   a owl:ObjectProperty ;
+  a skos:Concept ;
   rdfs:label "fork of"@en ;
   rdfs:comment "Indicates that thie project was split of (aka forked) from an other project at some ponit in the past"@en ;
   rdfs:subPropertyOf schema:isBasedOn ;
@@ -356,19 +416,25 @@ okh:forkOf
   schema:domainIncludes
     okh:Module,
     okh:Part ;
+  okhmeta:hasMetaTag okhmeta:HistoryTag ;
+  okhmeta:hasMetaTag okhmeta:IdentificationTag ;
   .
 
 okh:versionOf
   a owl:ObjectProperty ;
+  a skos:Concept ;
   rdfs:label "version of"@en ;
   rdfs:comment "connects specific versions of Modules with their versionless superclass"@en ;
   vs:term_status "unstable" ;
   schema:rangeIncludes okh:Module ;
   schema:domainIncludes okh:Module ;
+  okhmeta:hasMetaTag okhmeta:HistoryTag ;
+  okhmeta:hasMetaTag okhmeta:IdentificationTag ;
   .
 
 okh:documentationLanguage
   a owl:DatatypeProperty ;
+  a skos:Concept ;
   rdfs:label "documentation language"@en ;
   rdfs:comment '''
    IETF language tag
@@ -381,10 +447,9 @@ okh:documentationLanguage
     okh:Part ;
   .
 
-## ----- legal -----
-
 okh:licensor
   a owl:ObjectProperty ;
+  a skos:Concept ;
   rdfs:subPropertyOf dcterms:rightsHolder ;
   rdfs:label "licensor"@en ;
   rdfs:comment "organization/individual behind the hardware design (holder of intellectual property)"@en ;
@@ -396,29 +461,35 @@ okh:licensor
     schema:Organization,
     schema:Person ;
   schema:domainIncludes okh:Module ;
+  okhmeta:hasMetaTag okhmeta:LegalTag ;
   .
 
 okh:organization
   a owl:ObjectProperty ;
+  a skos:Concept ;
   rdfs:label "organization"@en ;
   rdfs:comment "organization representing (some) contributors of this project"@en ;
   vs:term_status "unstable" ;
   schema:rangeIncludes schema:Organization ;
   schema:domainIncludes okh:Module ;
+  okhmeta:hasMetaTag okhmeta:LegalTag ;
   .
 
 okh:spdxLicense
   a owl:ObjectProperty ;
+  a skos:Concept ;
   rdfs:label "SPDX license identifier"@en ;
   rdfs:comment "view complete list under https://spdx.org/licenses/"@en ;
   vs:term_status "unstable" ;
   schema:domainIncludes okh:Module ;
   schema:rangeIncludes spdxt:ListedLicense ; # aka SPDX license identifier for a single, atomar license
   owl:cardinality 1 ;
+  okhmeta:hasMetaTag okhmeta:LegalTag ;
   .
 
 okh:alternativeLicense
   a owl:ObjectProperty ;
+  a skos:Concept ;
   rdfs:label "non-SPDX license"@en ;
   rdfs:comment "URL to legal code of a license without SPDX identifier, hence OSHWA-compliance is to be checked manually"@en ;
 #  rdfs:subPropertyOf spdxt:License ;
@@ -426,12 +497,12 @@ okh:alternativeLicense
   schema:domainIncludes okh:Module ;
   schema:rangeIncludes okh:File ;
   owl:cardinality 1 ;
+  okhmeta:hasMetaTag okhmeta:LegalTag ;
   .
-
-## ----- informative -----
 
 # okh:contributorCount
 #   a owl:DatatypeProperty ;
+#   a skos:Concept ;
 #   rdfs:label "number of conributors participating in the project" ;
 #   vs:term_status "unstable" ;
 #   schema:domainIncludes okh:Module ;
@@ -442,85 +513,104 @@ okh:alternativeLicense
 
 okh:technologyReadinessLevel
   a owl:ObjectProperty ;
+  a skos:Concept ;
   rdfs:label "Technology Readiness Level (TRL)"@en ;
   rdfs:comment "… using the OTRL definitions; see the OTRL ontology"@en ;
   vs:term_status "unstable" ;
   owl:cardinality 1 ;
   schema:rangeIncludes otrl:OTRL ;
   schema:domainIncludes okh:Module ;
+  okhmeta:hasMetaTag okhmeta:DevelopmentTag ;
+  okhmeta:hasMetaTag okhmeta:QualityTag ;
   .
 
 okh:documentationReadinessLevel
   a owl:ObjectProperty ;
+  a skos:Concept ;
   rdfs:label "Documentation Readiness Level (DLR)"@en ;
   rdfs:comment "… using the ODRL definitions; see the OTRL ontology"@en ;
   vs:term_status "unstable" ;
   owl:cardinality 1 ;
   schema:rangeIncludes otrl:ODRL ;
   schema:domainIncludes okh:Module ;
+  okhmeta:hasMetaTag okhmeta:DevelopmentTag ;
+  okhmeta:hasMetaTag okhmeta:QualityTag ;
   .
 
 okh:attestation
   a owl:ObjectProperty ;
+  a skos:Concept ;
   rdfs:label "attestation"@en ;
   rdfs:comment "permanent URL to evidence of compliance (OSHWA, FSF, DIN SPEC 3105)"@en ;
   vs:term_status "unstable" ;
   schema:rangeIncludes okh:WebsiteUrl ;
   schema:domainIncludes okh:Module ;
+  okhmeta:hasMetaTag okhmeta:DevelopmentTag ;
+  okhmeta:hasMetaTag okhmeta:QualityTag ;
   .
 
 okh:hasPublication
   a owl:ObjectProperty ;
+  a skos:Concept ;
   rdfs:label "has Publication"@en ;
   rdfs:comment "design files of this OSH module have been peer reviewed in the linked to scientific publication"@en ;
   vs:term_status "unstable" ;
   rdfs:subPropertyOf npg:hasPublication;
   schema:domainIncludes okh:Module ;
+  okhmeta:hasMetaTag okhmeta:DevelopmentTag ;
   .
 
 # okh:certificate
 #   a owl:ObjectProperty ;
+#   a skos:Concept ;
 #   rdfs:label "certificate" ;
 #   rdfs:comment "official certificate, such as CE mark" ;
 # FIXME rdfs:subPropertyOf ;
 #   vs:term_status "unstable" ;
 #   schema:domainIncludes okh:Module ;
+#   okhmeta:hasMetaTag okhmeta:DevelopmentTag ;
 #   .
-
-## ----- basic description -----
 
 okh:cpcPatentClass
   a owl:ObjectProperty ;
+  a skos:Concept ;
   rdfs:label "patent class"@en ;
   rdfs:comment "International Patent Classification (IPC)"@en ;
   rdfs:subPropertyOf patent:classificationIPCInventive;
   vs:term_status "unstable" ;
   schema:domainIncludes okh:Module ;
   schema:rangeIncludes xsd:string ;
+  okhmeta:hasMetaTag okhmeta:BasicTag ;
+  okhmeta:hasMetaTag okhmeta:IdentificationTag ;
   .
 
 okh:compliesWith
   a owl:ObjectProperty ;
+  a skos:Concept ;
   rdfs:label "complies with"@en ;
   rdfs:comment "links to a technical standard the subject-component complies with"@en ;
   rdfs:subPropertyOf dcterms:conformsTo ;
   vs:term_status "unstable" ;
   schema:domainIncludes okh:Component ;
   schema:rangeIncludes okh:Standard ;
+  okhmeta:hasMetaTag okhmeta:QualityTag ;
   .
 
 okh:standardID
   a owl:DatatypeProperty ;
+  a skos:Concept ;
   rdfs:label "document ID"@en ;
   rdfs:comment "document identifier for the technical standard"@en ;
   rdfs:subPropertyOf dcterms:identifier ;
   vs:term_status "unstable" ;
   schema:rangeIncludes xsd:string ;
   schema:domainIncludes okh:Standard ;
+  okhmeta:hasMetaTag okhmeta:QualityTag ;
   .
 
 okh:function
   a owl:DatatypeProperty ;
+  a skos:Concept ;
   rdfs:label "functional description"@en ;
   rdfs:comment '''
     functional description, e.g. what it actually does, what problem it solves, for whom, under which conditions etc.
@@ -531,37 +621,45 @@ okh:function
   owl:cardinality 1 ;
   schema:domainIncludes okh:Module ;
   schema:rangeIncludes xsd:string ;
+  okhmeta:hasMetaTag okhmeta:BasicTag ;
   .
 
 okh:hasReadme
   a owl:ObjectProperty ;
+  a skos:Concept ;
   rdfs:label "has ReadMe"@en ;
   rdfs:comment "links to the corresponding ReadMe"@en ;
   vs:term_status "unstable" ;
   schema:rangeIncludes okh:Readme ;
   schema:domainIncludes okh:Module ;
+  okhmeta:hasMetaTag okhmeta:BasicTag ;
   .
 
 okh:hasContributionGuide
   a owl:ObjectProperty ;
+  a skos:Concept ;
   rdfs:label "has contribution guide"@en ;
   rdfs:comment "links to the corresponding Contribution Guide"@en ;
   vs:term_status "unstable" ;
   schema:rangeIncludes okh:ContributionGuide ;
   schema:domainIncludes okh:Module ;
+  okhmeta:hasMetaTag okhmeta:ExtendedInfoTag ;
   .
 
 okh:hasBoM
   a owl:ObjectProperty ;
+  a skos:Concept ;
   rdfs:label "has Bill of Materials"@en ;
   rdfs:comment "links to the corresponding Bill of Materials"@en ;
   vs:term_status "unstable" ;
   schema:rangeIncludes okh:BoM ;
   schema:domainIncludes okh:Module ;
+  okhmeta:hasMetaTag okhmeta:PartsTag ;
   .
 
 okh:hasComponent
   a owl:ObjectProperty ;
+  a skos:Concept ;
   rdfs:label "has Component"@en ;
   rdfs:comment "Links to sub-components of the Module. In the case of that sub-component being an external Module, it has to refer to a snapshot of the RDF object representing that OKH Module. Each sub-component should also appear in the BoM."@en ;
   vs:term_status "unstable" ;
@@ -570,20 +668,24 @@ okh:hasComponent
     okh:Module,
     okh:WebsiteUrl ;
   schema:domainIncludes okh:Module ;
+  okhmeta:hasMetaTag okhmeta:PartsTag ;
   .
 
 okh:hasImage
   a owl:ObjectProperty ;
+  a skos:Concept ;
   rdfs:label "has image"@en ;
   rdfs:comment "links to the corresponding Image"@en ;
   vs:term_status "unstable" ;
   rdfs:subPropertyOf schema:image ;
   schema:rangeIncludes okh:Image ;
   schema:domainIncludes okh:Component ;
+  okhmeta:hasMetaTag okhmeta:BasicTag ;
   .
 
 okh:functionalMetadata
   a owl:DatatypeProperty ;
+  a skos:Concept ;
   rdfs:label "functionality metadata"@en ;
   rdfs:comment "Metadata addressing functionality, such as dimensions, material, weight, RPM,… (not standardized)"@en ;
   rdfs:subPropertyOf schema:value ;
@@ -594,48 +696,59 @@ okh:functionalMetadata
 
 okh:productionMetadata
   a rdf:Property ;
+  a skos:Concept ;
   rdfs:label "production metadata"@en ;
   rdfs:comment "production-relevant metadata, such as material, manufacturing technology, outer dimensions, smallest tolerance, finest surface roughness"@en ;
+  vaem:todo "TODO This is somewhat superseeded by okhmeta:MakingTag" ;
   rdfs:subPropertyOf schema:value ;
   vs:term_status "unstable" ;
   schema:domainIncludes
     okh:Module,
     okh:Part ;
+  okhmeta:hasMetaTag okhmeta:MakingTag ;
   .
 
 okh:manufacturingProcess
   a owl:DatatypeProperty ;
+  a skos:Concept ;
   rdfs:label "manufacturing process"@en ;
   vaem:todo "TODO Needs more properties: comment, domain and range"@en ;
   rdfs:subPropertyOf okh:productionMetadata ;
   vs:term_status "unstable" ;
+  okhmeta:hasMetaTag okhmeta:MakingTag ;
   .
 
 okh:material
   a owl:DatatypeProperty ;
+  a skos:Concept ;
   rdfs:label "material"@en ;
   vaem:todo "TODO Define the range of this property"@en ;
   rdfs:subPropertyOf okh:productionMetadata ;
   vs:term_status "unstable" ;
+  okhmeta:hasMetaTag okhmeta:PhysicalTag ;
   .
 
 okh:hasOuterDimensions
   a owl:ObjectProperty ;
+  a skos:Concept ;
   rdfs:label "outer dimensions"@en ;
   rdfs:comment "defined through width, depth and height in mm"@en ;
   schema:rangeIncludes okh:OuterDimensions ;
   rdfs:subPropertyOf okh:productionMetadata ;
   rdfs:subPropertyOf dcterms:format ;
   vs:term_status "unstable" ;
+  okhmeta:hasMetaTag okhmeta:PhysicalTag ;
   .
 
 okh:hasMass
   a owl:DatatypeProperty ;
+  a skos:Concept ;
   rdfs:label "mass [g]"@en ;
   rdfs:comment "mass of the component in g"@en ;
   rdfs:subPropertyOf okh:productionMetadata ;
   vs:term_status "unstable" ;
   schema:rangeIncludes xsd:float ;
+  okhmeta:hasMetaTag okhmeta:PhysicalTag ;
   .
 
 okh:openSCAD
@@ -660,6 +773,7 @@ okh:openScad
 
 okh:width
   a owl:DatatypeProperty ;
+  a skos:Concept ;
   rdfs:label "width [mm]"@en ;
   rdfs:comment "The outter width of the product"@en ;
   vaem:todo "TODO Define in the comment, whether this includes or excludes packaging"@en ;
@@ -667,10 +781,12 @@ okh:width
   schema:domainIncludes okh:OuterDimensions ;
   schema:rangeIncludes xsd:float ;
   vaem:todo "TODO or should the range rather be int?"@en ;
+  okhmeta:hasMetaTag okhmeta:PhysicalTag ;
   .
 
 okh:depth
   a owl:DatatypeProperty ;
+  a skos:Concept ;
   rdfs:label "depth [mm]"@en ;
   rdfs:comment "The outter depth of the product"@en ;
   vaem:todo "TODO Define in the comment, whether this includes or excludes packaging"@en ;
@@ -678,10 +794,12 @@ okh:depth
   schema:domainIncludes okh:OuterDimensions ;
   schema:rangeIncludes xsd:float ;
   vaem:todo "TODO or should the range rather be int?"@en ;
+  okhmeta:hasMetaTag okhmeta:PhysicalTag ;
   .
 
 okh:height
   a owl:DatatypeProperty ;
+  a skos:Concept ;
   rdfs:label "height [mm]"@en ;
   rdfs:comment "The outter height of the product"@en ;
   vaem:todo "TODO Define in the comment, whether this includes or excludes packaging"@en ;
@@ -689,6 +807,7 @@ okh:height
   schema:domainIncludes okh:OuterDimensions ;
   schema:rangeIncludes xsd:float ;
   vaem:todo "TODO or should the range rather be int?"@en ;
+  okhmeta:hasMetaTag okhmeta:PhysicalTag ;
   .
 
 okh:unit
@@ -717,16 +836,20 @@ okh:value
 
 okh:smallestToleranceClass
   a owl:ObjectProperty ;
+  a skos:Concept ;
   rdfs:label "smallest tolerance class"@en ;
   rdfs:comment "according to the ISO 286 standard"@en ;
   vaem:todo "TODO FIXME link! with rdfs:subPropertyOf"@en ;
   rdfs:subPropertyOf okh:productionMetadata ;
   vs:term_status "unstable" ;
   schema:domainIncludes okh:Part ;
+  okhmeta:hasMetaTag okhmeta:PhysicalTag ;
+  okhmeta:hasMetaTag okhmeta:MakingTag ;
   .
 
 okh:hasManifestFile
   a owl:ObjectProperty ;
+  a skos:Concept ;
   rdfs:label "has manifest file"@en ;
   rdfs:comment "Links to the source TOML manifest file for (this) RDF data"@en ;
   rdfs:subPropertyOf dcterms:hasFormat ;
@@ -735,19 +858,23 @@ okh:hasManifestFile
   schema:domainIncludes
     okh:Module,
     okh:Part ;
+  okhmeta:hasMetaTag okhmeta:DataGatheringTag ;
   .
 
 okh:doi
   a owl:DatatypeProperty ;
+  a skos:Concept ;
   rdfs:label "DOI"@en ;
   rdfs:comment "The digital object identifier (DOI) associated with the publication"@en ;
   schema:domainIncludes okh:Publication ;
   rdfs:subPropertyOf npg:doi ;
   vs:term_status "unstable" ;
+  okhmeta:hasMetaTag okhmeta:AcademicTag ;
   .
 
 okh:relativePath
   a owl:ObjectProperty ;
+  a skos:Concept ;
   rdfs:label "Project-/Repo-relative file path"@en ;
   rdfs:comment "Starts directly with the first path element, *NOT* with '/' or './'"@en ;
   rdfs:subPropertyOf schema:url ;
@@ -759,15 +886,18 @@ okh:relativePath
   #      which does not allow for relative paths, only for absolute ones.
   #      (Searched with <https://lov.linkeddata.es/dataset/lov/terms>)
   schema:rangeIncludes xsd:string ;
+  okhmeta:hasMetaTag okhmeta:DataTag ;
   .
 
 okh:url
   a owl:ObjectProperty ;
+  a skos:Concept ;
   rdfs:label "file URL"@en ;
   rdfs:comment "Global file locator, using either the HTTP or the HTTPS protocol."@en ;
   rdfs:subPropertyOf schema:url ;
   vs:term_status "unstable" ;
   schema:domainIncludes okh:File ;
+  okhmeta:hasMetaTag okhmeta:DataTag ;
   .
 
 okh:fileUrl
@@ -793,12 +923,14 @@ okh:permaURL
 
 okh:fileFormat
   a owl:ObjectProperty ;
+  a skos:Concept ;
   rdfs:label "file format"@en ;
   rdfs:subPropertyOf schema:encodingFormat ;
   rdfs:subPropertyOf dcterms:format ;
   vaem:todo "TODO Further specify valid values here; maybe mime-types? maybe rdfs:subPropertyOf <https://www.semanticdesktop.org/ontologies/2007/01/19/nie/#mimeType>? Currently e.g. 'MD' or 'CSV' is used; see sample data."@en ;
   vs:term_status "unstable" ;
   schema:domainIncludes okh:File ;
+  okhmeta:hasMetaTag okhmeta:DataTag ;
   .
 
 okh:timestamp
@@ -812,6 +944,7 @@ okh:timestamp
 
 okh:source
   a owl:ObjectProperty ;
+  a skos:Concept ;
   rdfs:label "source file"@en ;
   rdfs:comment "relative link to a source file"@en ;
   vs:term_status "unstable" ;
@@ -819,10 +952,12 @@ okh:source
   schema:domainIncludes
     okh:Module,
     okh:Part ;
+  okhmeta:hasMetaTag okhmeta:DataTag ;
   .
 
 okh:export
   a owl:ObjectProperty ;
+  a skos:Concept ;
   rdfs:label "exported source file"@en ;
   rdfs:comment "URL to a (generated) exported source file"@en ;
   vs:term_status "unstable" ;
@@ -830,10 +965,12 @@ okh:export
   schema:domainIncludes
     okh:Module,
     okh:Part ;
+  okhmeta:hasMetaTag okhmeta:DataTag ;
   .
 
 okh:auxiliary
   a owl:ObjectProperty ;
+  a skos:Concept ;
   rdfs:label "has auxiliary file"@en ;
   rdfs:comment "reference to an auxiliary file"@en ;
   vs:term_status "unstable" ;
@@ -841,19 +978,23 @@ okh:auxiliary
   schema:domainIncludes
     okh:Module,
     okh:Part ;
+  okhmeta:hasMetaTag okhmeta:DataTag ;
   .
 
 okh:hasUserManual
   a owl:ObjectProperty ;
+  a skos:Concept ;
   rdfs:label "has user manual"@en ;
   rdfs:subPropertyOf dcterms:instructionalMethod ;
   vs:term_status "unstable" ;
   schema:rangeIncludes okh:UserManual ;
   schema:domainIncludes okh:Module ;
+  okhmeta:hasMetaTag okhmeta:DocmentationTag ;
   .
 
 okh:hasManufacturingInstructions
   a owl:ObjectProperty ;
+  a skos:Concept ;
   rdfs:label "has manufacturing instructions"@en ;
   rdfs:subPropertyOf dcterms:instructionalMethod ;
   vs:term_status "unstable" ;
@@ -861,15 +1002,19 @@ okh:hasManufacturingInstructions
   schema:domainIncludes
     okh:Module,
     okh:Part ;
+  okhmeta:hasMetaTag okhmeta:DocmentationTag ;
+  okhmeta:hasMetaTag okhmeta:MakingTag ;
   .
 
 okh:tsdc
   a owl:ObjectProperty ;
+  a skos:Concept ;
   rdfs:label "TsDC"@en ;
   rdfs:comment "Applicable Technology-specific Documentation Criteria, according to DIN SPEC 3105-1, e.g. `tsdc:3DP`"@en ;
   vs:term_status "unstable" ;
   schema:rangeIncludes tsdc:OHTsDC ;
   schema:domainIncludes okh:Component ;
+  okhmeta:hasMetaTag okhmeta:IdentificationTag ;
   .
 
 okh:relatedTsdc
@@ -880,10 +1025,9 @@ okh:relatedTsdc
   owl:sameAs okh:tsdc ;
   .
 
-# source, export
-
 okh:hasSoftware
   a owl:ObjectProperty ;
+  a skos:Concept ;
   rdfs:label "has software"@en ;
   vs:term_status "unstable" ;
   schema:rangeIncludes okh:Software ;
@@ -892,6 +1036,7 @@ okh:hasSoftware
 
 okh:release
   a owl:DatatypeProperty ;
+  a skos:Concept ;
   rdfs:label "release"@en ;
   rdfs:comment "URL to release"@en ;
 #  rdfs:subPropertyOf schema:url ;
@@ -903,6 +1048,7 @@ okh:release
 
 okh:installationGuide
   a owl:DatatypeProperty ;
+  a skos:Concept ;
   rdfs:label "installation guide"@en ;
   rdfs:comment "Instructions for how to install the subject-software"@en ;
   vaem:todo "TODO We should probably remove this, as this should be part of the softwares README, or be handled by some software-specific ontology instead"@en ;
