@@ -2,6 +2,7 @@
 @prefix okh:      <#> .
 @prefix cc:       <http://creativecommons.org/ns#> .
 @prefix dcterms:  <http://purl.org/dc/terms/> .
+@prefix dctype:   <http://purl.org/dc/dcmitype/> .
 @prefix foaf:     <http://xmlns.com/foaf/0.1/> .
 @prefix npg:      <http://ns.nature.com/terms/> .
 @prefix obo:      <http://purl.obolibrary.org/obo/> .
@@ -92,6 +93,7 @@ okh:Software
   rdfs:label "software"@en ;
   rdfs:comment "Software (including firmware) needed to run & use the OSH"@en ;
   rdfs:subClassOf okh:Component ;
+  rdfs:subClassOf dctype:Software ;
   vs:term_status "unstable" ;
   .
 
@@ -175,6 +177,7 @@ okh:Image
   rdfs:subClassOf okh:File ;
   rdfs:subClassOf schema:ImageObject ;
   rdfs:subClassOf foaf:Image ;
+  rdfs:subClassOf dctype:Image ;
   vs:term_status "unstable" ;
   .
 
