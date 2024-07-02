@@ -612,7 +612,7 @@ okh:material
 okh:hasOuterDimensions
   a owl:ObjectProperty ;
   rdfs:label "outer dimensions"@en ;
-  rdfs:comment "defined through widht, depth and height in mm"@en ;
+  rdfs:comment "defined through width, depth and height in mm"@en ;
   schema:rangeIncludes okh:OuterDimensions ;
   rdfs:subPropertyOf okh:productionMetadata ;
   vs:term_status "unstable" ;
