@@ -40,7 +40,7 @@
   okh:relatedTsDC tsdc:MEC ;
   okh:hasBoM :BoM ;
   okh:hasManifestFile :ManifestFile ;
-  :fabricWidthMM 400 ;
+  :fabricWidthMM "400"^^xsd:float ;
   # that's a custom field not defined in the okh ontology
   okh:hasOuterDimensions :OuterDimensionsOHLOOM ;
   okh:hasManufacturingInstructions :ManufacturingInstructions ;
@@ -51,9 +51,9 @@
 :OuterDimensionsOHLOOM
   a okh:OuterDimensions ;
   rdfs:label "outer dimensions of OHLOOM" ;
-  okh:width "400"^^xsd:boolean ;
-  okh:depth "350"^^xsd:boolean ;
-  okh:height "150"^^xsd:boolean ;
+  okh:width "400"^^xsd:float ;
+  okh:depth "350"^^xsd:float ;
+  okh:height "150"^^xsd:float ;
   .
 
 :fabricWidthMM
@@ -85,8 +85,8 @@
   okh:originalURL <https://gitlab.com/OSEGermany/ohloom/-/raw/master/README.md> ;
   # ↑ default repo URL (as resolved from the TOML)
   okh:fileFormat "MD" ;
-  okh:lastRequested "2021-03-26T15:15:46+00:00" ;
-  okh:lastSeen "2021-03-26T15:15:46+00:00" ;
+  okh:lastRequested "2021-03-26T15:15:46+00:00"^^xsd:dateTime ;
+  okh:lastSeen "2021-03-26T15:15:46+00:00"^^xsd:dateTime ;
   # ↑ or omitted when never seen
   .
 
@@ -130,9 +130,9 @@
 :OuterDimensionsClampRing
   a okh:OuterDimensions ;
   rdfs:label "outer dimensions of Clamp Ring" ;
-  okh:width "56"^^xsd:boolean ;
-  okh:depth "56"^^xsd:boolean ;
-  okh:height "30"^^xsd:boolean ;
+  okh:width "56"^^xsd:float ;
+  okh:depth "56"^^xsd:float ;
+  okh:height "30"^^xsd:float ;
   .
 
 :ClampRing_image
@@ -182,9 +182,9 @@
 :OuterDimensionsCombModul
   a okh:OuterDimensions ;
   rdfs:label "outer dimensions of Comb Modul" ;
-  okh:width "120"^^xsd:boolean ;
-  okh:depth "100"^^xsd:boolean ;
-  okh:height "3"^^xsd:boolean ;
+  okh:width "120"^^xsd:float ;
+  okh:depth "100"^^xsd:float ;
+  okh:height "3"^^xsd:float ;
   .
 
 :CombModul_image
@@ -233,9 +233,9 @@
 :OuterDimensionsPoleBase
   a okh:OuterDimensions ;
   rdfs:label "outer dimensions of Pole Base" ;
-  okh:width "125"^^xsd:boolean ;
-  okh:depth "110"^^xsd:boolean ;
-  okh:height "100"^^xsd:boolean ;
+  okh:width "125"^^xsd:float ;
+  okh:depth "110"^^xsd:float ;
+  okh:height "100"^^xsd:float ;
   .
 
 :PoleBase_source
@@ -278,9 +278,9 @@
 :OuterDimensionsRatchetPawl
   a okh:OuterDimensions ;
   rdfs:label "outer dimensions of Ratchet Pawl" ;
-  okh:width "130"^^xsd:boolean ;
-  okh:depth "20"^^xsd:boolean ;
-  okh:height "20"^^xsd:boolean ;
+  okh:width "130"^^xsd:float ;
+  okh:depth "20"^^xsd:float ;
+  okh:height "20"^^xsd:float ;
   .
 
 :RatchetPawl_image
@@ -330,9 +330,9 @@
 :OuterDimensionsRatchetWheel
   a okh:OuterDimensions ;
   rdfs:label "outer dimensions of Ratchet Wheel" ;
-  okh:width "90"^^xsd:boolean ;
-  okh:depth "90"^^xsd:boolean ;
-  okh:height "45"^^xsd:boolean ;
+  okh:width "90"^^xsd:float ;
+  okh:depth "90"^^xsd:float ;
+  okh:height "45"^^xsd:float ;
   .
 
 :RatchetWheel_image

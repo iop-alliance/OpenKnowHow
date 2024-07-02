@@ -37,7 +37,7 @@
   okh:relatedTsDC tsdc:MEC ;
   okh:hasBoM :BoM ;
   okh:hasManifestFile :ManifestFile ;
-  :rpm 666 ;
+  :rpm "666"^^xsd:float ;
   okh:hasOuterDimensions :OuterDimensionsLOSHdummyMOSHA ;
   okh:hasManufacturingInstructions :LOSHdummyMOSHA_manufacturingInstructions ;
   okh:hasComponent :ClampRing ;
@@ -50,9 +50,9 @@
 :OuterDimensionsLOSHdummyMOSHA
   a okh:OuterDimensions ;
   rdfs:label "outer dimensions of LOSH Dummy MOSH-A" ; # use rdfs:label of :LOSHdummyMOSHA
-  okh:width "300"^^xsd:boolean ;
-  okh:depth "300"^^xsd:boolean ;
-  okh:height "300"^^xsd:boolean ;
+  okh:width "300"^^xsd:float ;
+  okh:depth "300"^^xsd:float ;
+  okh:height "300"^^xsd:float ;
   .
 
 :PubStethoscope
@@ -121,9 +121,9 @@
 :OuterDimensionsClampRing
   a okh:OuterDimensions ;
   rdfs:label "outer dimensions of Clamp Ring" ;
-  okh:width "56"^^xsd:boolean ;
-  okh:depth "56"^^xsd:boolean ;
-  okh:height "30"^^xsd:boolean ;
+  okh:width "56"^^xsd:float ;
+  okh:depth "56"^^xsd:float ;
+  okh:height "30"^^xsd:float ;
   .
 
 :ClampRing_image
