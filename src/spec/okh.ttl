@@ -888,6 +888,7 @@ okh:release
 okh:installationGuide
   a owl:DatatypeProperty ;
   rdfs:label "installation guide"@en ;
+  rdfs:comment "Instructions for how to install the subject-software"@en ;
 #  rdfs:subPropertyOf schema:url ;
   vs:term_status "unstable" ;
   schema:domainIncludes okh:Software ;
