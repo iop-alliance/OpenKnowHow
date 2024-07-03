@@ -765,6 +765,7 @@ okh:openSCAD
   .
 
 okh:openScad
+  a owl:DatatypeProperty ;
   rdfs:label "OpemSCAD volume"@en ;
   vs:term_status "deprecated" ;
   owl:deprecated "true"^^xsd:boolean ;
@@ -1020,6 +1021,7 @@ okh:tsdc
   .
 
 okh:relatedTsdc
+  a owl:ObjectProperty ;
   vs:term_status "deprecated" ;
   owl:deprecated "true"^^xsd:boolean ;
   cc:deprecatedOn "2023-07-10"^^xsd:date ;
