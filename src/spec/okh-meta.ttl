@@ -55,13 +55,13 @@ The `schema:*` properties give us just that.'''@en ;
   dcterms:publisher osegprof:Iopa ;
   dcterms:issued "2024-07-01T09:03:49Z"^^xsd:dateTimeStamp ;
   dcterms:modified "2024-07-01T09:03:49Z"^^xsd:dateTimeStamp ;
-  dcterms:license <https://www.gnu.org/licenses/gpl-3.0.txt> ;
-  cc:license <https://www.gnu.org/licenses/gpl-3.0.txt> ;
+  dcterms:license "https://www.gnu.org/licenses/gpl-3.0.txt" ;
+  cc:license "https://www.gnu.org/licenses/gpl-3.0.txt" ;
   spdxt:ListedLicense "GPL-3.0-or-later" ;
-  dcterms:source <https://github.com/iop-alliance/OpenKnowHow/master/src/spec/okh-meta.ttl> ;
-  schema:codeRepository <https://github.com/iop-alliance/OpenKnowHow/> ;
+  dcterms:source "https://github.com/iop-alliance/OpenKnowHow/master/src/spec/okh-meta.ttl" ;
+  schema:codeRepository "https://github.com/iop-alliance/OpenKnowHow/" ;
   dcat:keyword "meta", "OKH", "tagging", "grouping" ;
-  dcat:contactPoint <https://github.com/iop-alliance/OpenKnowHow/> ;
+  dcat:contactPoint "https://github.com/iop-alliance/OpenKnowHow/" ;
   .
 
 okhmeta:Tag
