@@ -943,6 +943,7 @@ okh:timestamp
   vs:term_status "unstable" ;
   schema:domainIncludes okh:Module ;
   schema:rangeIncludes xsd:dateTimeStamp ;
+  okhmeta:hasMetaTag okhmeta:DataGatheringTag ;
   .
 
 okh:source
@@ -955,6 +956,7 @@ okh:source
   schema:domainIncludes
     okh:Module,
     okh:Part ;
+  okhmeta:hasMetaTag okhmeta:BasicTag ;
   okhmeta:hasMetaTag okhmeta:DataTag ;
   .
 
@@ -968,6 +970,7 @@ okh:export
   schema:domainIncludes
     okh:Module,
     okh:Part ;
+  okhmeta:hasMetaTag okhmeta:BasicTag ;
   okhmeta:hasMetaTag okhmeta:DataTag ;
   .
 
@@ -1018,6 +1021,7 @@ okh:tsdc
   schema:rangeIncludes tsdc:OHTsDC ;
   schema:domainIncludes okh:Component ;
   okhmeta:hasMetaTag okhmeta:IdentificationTag ;
+  okhmeta:hasMetaTag okhmeta:ExtendedInfoTag ;
   .
 
 okh:relatedTsdc
