@@ -180,7 +180,7 @@ okh:Readme
   rdfs:subClassOf dcterms:MethodOfInstruction ;
   rdfs:subClassOf schema:TextDigitalDocument ;
   vs:term_status "unstable" ;
-  okhmeta:hasMetaTag okhmeta:DocmentationTag ;
+  okhmeta:hasMetaTag okhmeta:DocumentationTag ;
   .
 
 okh:ContributionGuide
@@ -191,7 +191,7 @@ okh:ContributionGuide
   rdfs:subClassOf dcterms:MethodOfInstruction ;
   rdfs:subClassOf schema:TextDigitalDocument ;
   vs:term_status "unstable" ;
-  okhmeta:hasMetaTag okhmeta:DocmentationTag ;
+  okhmeta:hasMetaTag okhmeta:DocumentationTag ;
   okhmeta:hasMetaTag okhmeta:ExtendedInfoTag ;
   .
 
@@ -992,7 +992,7 @@ okh:hasUserManual
   vs:term_status "unstable" ;
   schema:rangeIncludes okh:UserManual ;
   schema:domainIncludes okh:Module ;
-  okhmeta:hasMetaTag okhmeta:DocmentationTag ;
+  okhmeta:hasMetaTag okhmeta:DocumentationTag ;
   .
 
 okh:hasManufacturingInstructions
@@ -1005,7 +1005,7 @@ okh:hasManufacturingInstructions
   schema:domainIncludes
     okh:Module,
     okh:Part ;
-  okhmeta:hasMetaTag okhmeta:DocmentationTag ;
+  okhmeta:hasMetaTag okhmeta:DocumentationTag ;
   okhmeta:hasMetaTag okhmeta:MakingTag ;
   .
 

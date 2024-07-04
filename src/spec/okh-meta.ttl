@@ -128,7 +128,7 @@ okhmeta:DevelopmentTag
   okhmeta:hasMetaTag okhmeta:MetaTag ;
   .
 
-okhmeta:DocmentationTag
+okhmeta:DocumentationTag
   a okhmeta:Tag ;
   rdfs:label "documentation"@en ;
   rdfs:comment "The annotated subject is a member of the documentation-part of a project"@en ;
