@@ -129,6 +129,7 @@ okh:Standard
   a skos:Concept ;
   rdfs:label "technical standard"@en ;
   rdfs:comment "official standard used in the _design_ (_not_ e.g. DIN SPEC 3105-1)"@en ;
+  vaem:todo "TODO We need a list of individuals of this class somewhere. It should already exist out there!" ;
   rdfs:subClassOf dcterms:Standard ;
   vs:term_status "unstable" ;
   okhmeta:hasMetaTag okhmeta:QualityTag ;
