@@ -128,7 +128,7 @@ okh:Standard
   a owl:Class ;
   a skos:Concept ;
   rdfs:label "technical standard"@en ;
-  rdfs:comment "official standard used in the _design_ (not e.g. DIN SPEC 3105-1)"@en ;
+  rdfs:comment "official standard used in the _design_ (_not_ e.g. DIN SPEC 3105-1)"@en ;
   rdfs:subClassOf dcterms:Standard ;
   vs:term_status "unstable" ;
   okhmeta:hasMetaTag okhmeta:QualityTag ;
