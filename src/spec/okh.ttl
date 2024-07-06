@@ -1,6 +1,7 @@
 @base             <https://w3id.org/oseg/ont/okh> .
 @prefix okh:      <#> .
 @prefix cc:       <http://creativecommons.org/ns#> .
+@prefix dcat:     <http://www.w3.org/ns/dcat#> .
 @prefix dcterms:  <http://purl.org/dc/terms/> .
 @prefix dctype:   <http://purl.org/dc/dcmitype/> .
 @prefix foaf:     <http://xmlns.com/foaf/0.1/> .
@@ -64,6 +65,8 @@ The `schema:*` properties give us just that.'''@en ;
   spdxt:ListedLicense "GPL-3.0-or-later" ;
   dcterms:source "https://github.com/iop-alliance/OpenKnowHow/master/src/spec/okh.ttl" ;
   schema:codeRepository "https://github.com/iop-alliance/OpenKnowHow/" ;
+  dcat:keyword "OKH", "hardware", "design", "open-source", "open-source-hardware", "project" ;
+  dcat:contactPoint "https://github.com/iop-alliance/OpenKnowHow/" ;
   .
 
 okh:Component
