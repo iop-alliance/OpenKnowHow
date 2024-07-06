@@ -42,10 +42,12 @@ You may think of this as an `AND` coupling.
 We want the *one of them* meaning though (`OR`).
 The `schema:*` properties give us just that.'''@en ;
   dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
+  dcterms:created "2021-02-22"^^xsd:date ;
   dcterms:creator osegprof:martinHaeuer ;
   schema:creator osegprof:martinHaeuer ;
   dcterms:creator osegprof:robinVobruba ;
   schema:creator osegprof:robinVobruba ;
+  dcterms:publisher osegprof:Iopa ;
   dcterms:issued "2021-08-24T16:32:33Z"^^xsd:dateTimeStamp ;
   dcterms:modified "2022-02-22T12:01:28Z"^^xsd:dateTimeStamp ;
   dcterms:license <https://www.gnu.org/licenses/gpl-3.0.txt> ;
