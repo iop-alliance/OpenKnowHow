@@ -456,6 +456,7 @@ e.g. "en-GB"'''@en;
   skos:example "de-DE" ;
   skos:example "de" ;
   skos:example "es" ;
+  okhmeta:hasMetaTag okhmeta:DocumentationTag ;
   .
 
 okh:licensor
