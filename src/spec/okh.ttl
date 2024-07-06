@@ -252,7 +252,7 @@ okh:ManufacturingInstructions
   a owl:Class ;
   a skos:Concept ;
   rdfs:label "manufacturing instructions"@en ;
-  rdfs:comment "links to a manual/instructions of some kind, that explain how to manufacture a module or part."@en ;
+  rdfs:comment "A file containing a manual/instructions of some kind, that explain how to manufacture the hardware."@en ;
   rdfs:subClassOf dcterms:MethodOfInstruction ;
   rdfs:subClassOf okh:File ;
   vs:term_status "unstable" ;
@@ -264,7 +264,7 @@ okh:ManufacturingInstructions
 okh:UserManual
   a owl:Class ;
   a skos:Concept ;
-  rdfs:label "User Manual"@en ;
+  rdfs:label "user manual"@en ;
   rdfs:subClassOf okh:File ;
   rdfs:subClassOf dcterms:MethodOfInstruction ;
   skos:example "doc/usr/main.md" ;
@@ -441,10 +441,10 @@ okh:documentationLanguage
   a owl:DatatypeProperty ;
   a skos:Concept ;
   rdfs:label "documentation language"@en ;
-  rdfs:comment '''
-   IETF language tag
-   following the BCP 47 standard e.g. en-GB
-   denotes the language of the documentation for the component subject '''@en;
+  rdfs:comment '''denotes the language of the documentation.
+The coincrete format is an IETF language tag
+following the BCP 47 standard;
+e.g. "en-GB"'''@en;
   rdfs:subPropertyOf schema:inLanguage ;
   vs:term_status "unstable" ;
   schema:domainIncludes
@@ -526,7 +526,7 @@ okh:technologyReadinessLevel
   a owl:ObjectProperty ;
   a skos:Concept ;
   rdfs:label "Technology Readiness Level (TRL)"@en ;
-  rdfs:comment "… using the OTRL definitions; see the OTRL ontology"@en ;
+  rdfs:comment "Indicates the development stage of the **hardware design** using the OTRL definitions; see the OTRL ontology."@en ;
   vs:term_status "unstable" ;
   owl:cardinality 1 ;
   schema:rangeIncludes otrl:OTRL ;
@@ -539,7 +539,7 @@ okh:documentationReadinessLevel
   a owl:ObjectProperty ;
   a skos:Concept ;
   rdfs:label "Documentation Readiness Level (DLR)"@en ;
-  rdfs:comment "… using the ODRL definitions; see the OTRL ontology"@en ;
+  rdfs:comment "Indicates the development stage of the **documentation** using the ODRL definitions; see the OTRL ontology."@en ;
   vs:term_status "unstable" ;
   owl:cardinality 1 ;
   schema:rangeIncludes otrl:ODRL ;
@@ -552,7 +552,23 @@ okh:attestation
   a owl:ObjectProperty ;
   a skos:Concept ;
   rdfs:label "attestation"@en ;
-  rdfs:comment "permanent URL to evidence of compliance (OSHWA, FSF, DIN SPEC 3105)"@en ;
+  rdfs:comment '''A permanent URL to a valid attestation;
+evidence of completeness and compliance to OSH principles,
+for example from OSHWA, FSF, or DIN SPEC 3105.
+
+Issuing conformity assessment bodies according to DIN SPEC 3105-2:
+
+- [Open Hardware Observatory](https://en.oho.wiki/wiki/Request_certification_for_your_project)
+- [Open Source Ecology Germany](https://gitlab.opensourceecology.de/verein/projekte/cab/CAB)
+
+OSHWA:
+
+- [OSHWA certification programme](https://certification.oshwa.org/)
+
+FSF (computing only):
+
+- [Hardware Devices that Support GNU/Linux](https://www.fsf.org/resources/hw)
+'''@en ;
   vs:term_status "unstable" ;
   schema:rangeIncludes okh:WebsiteUrl ;
   schema:domainIncludes okh:Module ;
@@ -586,7 +602,13 @@ okh:cpcPatentClass
   a owl:DatatypeProperty ;
   a skos:Concept ;
   rdfs:label "patent class"@en ;
-  rdfs:comment "International Patent Classification (IPC)"@en ;
+  rdfs:comment '''Cooperative Patent Classification identifier (CPC-ID)
+of the International Patent Classification (IPC)
+that describes best the field of technology of the OSH module.
+To find the meaning of one,
+or to find one fitting to your project,
+please use this resource:
+<https://worldwide.espacenet.com/classification>'''@en ;
   skos:example "D03D 35/00" ;
   rdfs:subPropertyOf patent:classificationIPCInventive;
   vs:term_status "unstable" ;
@@ -600,7 +622,7 @@ okh:compliesWith
   a owl:ObjectProperty ;
   a skos:Concept ;
   rdfs:label "complies with"@en ;
-  rdfs:comment "links to a technical standard the subject-component complies with"@en ;
+  rdfs:comment "Links to a standard the subject complies with"@en ;
   rdfs:subPropertyOf dcterms:conformsTo ;
   vs:term_status "unstable" ;
   schema:domainIncludes okh:Component ;
@@ -624,10 +646,17 @@ okh:function
   a owl:DatatypeProperty ;
   a skos:Concept ;
   rdfs:label "functional description"@en ;
-  rdfs:comment '''
-    functional description, e.g. what it actually does, what problem it solves, for whom, under which conditions etc.
-    so if you wish that someone finds & uses your okh specifically e.g. for COVID-19-crisis response, include relevant keywords in this field
-    optional: description of input, output and interfaces'''@en ;
+  rdfs:comment '''What does the hardware actually do,
+what problem does it solve,
+for whom,
+under which conditions etc.
+
+If you wish that someone finds & uses your OSH -
+specifically e.g. for solving a concrete medical issue -
+include relevant keywords in this field.
+
+Optional:
+description of input, output and interfaces'''@en ;
   rdfs:subPropertyOf obo:BFO_0000016 ; # aka function
   vs:term_status "unstable" ;
   owl:cardinality 1 ;
@@ -959,8 +988,8 @@ okh:timestamp
 okh:source
   a owl:ObjectProperty ;
   a skos:Concept ;
-  rdfs:label "source file"@en ;
-  rdfs:comment "relative link to a source file"@en ;
+  rdfs:label "has source file"@en ;
+  rdfs:comment "Links to a file that forms part of the sources of the project; meaning, these are the primary files the designers and other contributors of the project are working on."@en ;
   vs:term_status "unstable" ;
   schema:rangeIncludes okh:SourceFile ;
   schema:domainIncludes
@@ -979,8 +1008,8 @@ okh:source
 okh:export
   a owl:ObjectProperty ;
   a skos:Concept ;
-  rdfs:label "exported source file"@en ;
-  rdfs:comment "URL to a (generated) exported source file"@en ;
+  rdfs:label "has exported file"@en ;
+  rdfs:comment "Links to a file that was generated/exported from a source file of the project"@en ;
   vs:term_status "unstable" ;
   schema:rangeIncludes okh:ExportFile ;
   schema:domainIncludes
@@ -1003,7 +1032,7 @@ okh:auxiliary
   a owl:ObjectProperty ;
   a skos:Concept ;
   rdfs:label "has auxiliary file"@en ;
-  rdfs:comment "reference to an auxiliary file"@en ;
+  rdfs:comment "This links to files associated with the subject, which classify neither as source nor as export, but are still useful in the repository"@en ;
   vs:term_status "unstable" ;
   schema:rangeIncludes okh:AuxiliaryFile ;
   schema:domainIncludes
@@ -1044,8 +1073,8 @@ okh:hasManufacturingInstructions
 okh:tsdc
   a owl:ObjectProperty ;
   a skos:Concept ;
-  rdfs:label "TsDC"@en ;
-  rdfs:comment "Applicable Technology-specific Documentation Criteria, according to DIN SPEC 3105-1, e.g. `tsdc:3DP`"@en ;
+  rdfs:label "has related TsDC"@en ;
+  rdfs:comment "Applicable _**T**echnology-**s**pecific **D**ocumentation **C**riteria_, according to DIN SPEC 3105-1, e.g. `tsdc:3DP`"@en ;
   vs:term_status "unstable" ;
   schema:rangeIncludes tsdc:OHTsDC ;
   schema:domainIncludes okh:Component ;
