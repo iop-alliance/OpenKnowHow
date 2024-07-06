@@ -583,7 +583,7 @@ okh:hasPublication
 #   .
 
 okh:cpcPatentClass
-  a owl:ObjectProperty ;
+  a owl:DatatypeProperty ;
   a skos:Concept ;
   rdfs:label "patent class"@en ;
   rdfs:comment "International Patent Classification (IPC)"@en ;
