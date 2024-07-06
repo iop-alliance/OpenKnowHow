@@ -256,6 +256,7 @@ okh:ManufacturingInstructions
   rdfs:subClassOf dcterms:MethodOfInstruction ;
   rdfs:subClassOf okh:File ;
   vs:term_status "unstable" ;
+  skos:example "doc/assembly/main.md" ;
   okhmeta:hasMetaTag okhmeta:DocumentationTag ;
   okhmeta:hasMetaTag okhmeta:MakingTag ;
   .
@@ -266,6 +267,7 @@ okh:UserManual
   rdfs:label "User Manual"@en ;
   rdfs:subClassOf okh:File ;
   rdfs:subClassOf dcterms:MethodOfInstruction ;
+  skos:example "doc/usr/main.md" ;
   vs:term_status "unstable" ;
   okhmeta:hasMetaTag okhmeta:DocumentationTag ;
   .
@@ -448,6 +450,12 @@ okh:documentationLanguage
   schema:domainIncludes
     okh:Module,
     okh:Part ;
+  skos:example "en-GB" ;
+  skos:example "en-US" ;
+  skos:example "en" ;
+  skos:example "de-DE" ;
+  skos:example "de" ;
+  skos:example "es" ;
   .
 
 okh:licensor
@@ -579,6 +587,7 @@ okh:cpcPatentClass
   a skos:Concept ;
   rdfs:label "patent class"@en ;
   rdfs:comment "International Patent Classification (IPC)"@en ;
+  skos:example "D03D 35/00" ;
   rdfs:subPropertyOf patent:classificationIPCInventive;
   vs:term_status "unstable" ;
   schema:domainIncludes okh:Module ;
@@ -957,6 +966,12 @@ okh:source
   schema:domainIncludes
     okh:Module,
     okh:Part ;
+  skos:example "src/mech/3D-parts/part1.fcstd" ;
+  skos:example "src/mech/3D-parts/model2.fcstd" ;
+  skos:example "src/elec/converter/proj1.kicad_pro" ;
+  skos:example "https://repo-hosting-service.org/accounts/my_account/my_project/src/mech/3D-parts/part1.fcstd" ;
+  skos:example "https://my-orgs-server.org/projects/my_project/src/mech/3D-parts/model2.fcstd" ;
+  skos:example "https://my-projs-server.org/files/src/elec/converter/proj1.kicad_pro" ;
   okhmeta:hasMetaTag okhmeta:BasicTag ;
   okhmeta:hasMetaTag okhmeta:DataTag ;
   .
@@ -971,6 +986,15 @@ okh:export
   schema:domainIncludes
     okh:Module,
     okh:Part ;
+  skos:example "gen/mech/3D-parts/part1.stp" ;
+  skos:example "gen/mech/3D-parts/model2.stl" ;
+  skos:example "gen/mech/3D-parts/drawing.pdf" ;
+  skos:example "gen/mech/3D-parts/drawing.png" ;
+  skos:example "gen/elec/converter/schema.svg" ;
+  skos:example "gen/elec/converter/pcb.svg" ;
+  skos:example "https://file-hosting-service.org/accounts/my_project/gen/elec/converter/pcb.svg" ;
+  skos:example "https://my-orgs-server.org/projects/my_project/gen/mech/3D-parts/model2.stl" ;
+  skos:example "https://my-projs-server.org/files/gen/mech/3D-parts/part1.stp" ;
   okhmeta:hasMetaTag okhmeta:BasicTag ;
   okhmeta:hasMetaTag okhmeta:DataTag ;
   .
@@ -985,6 +1009,10 @@ okh:auxiliary
   schema:domainIncludes
     okh:Module,
     okh:Part ;
+  skos:example "res/media/img/project_logo.svg" ;
+  skos:example "res/txt/usage_stats.csv" ;
+  skos:example "kicad_libs/cool_3rd_party_parts.lib" ;
+  skos:example "https://file-hosting-service.org/accounts/my_project/res/media/img/project_logo.svg" ;
   okhmeta:hasMetaTag okhmeta:DataTag ;
   .
 
@@ -1021,6 +1049,9 @@ okh:tsdc
   vs:term_status "unstable" ;
   schema:rangeIncludes tsdc:OHTsDC ;
   schema:domainIncludes okh:Component ;
+  skos:example tsdc:3DP ;
+  skos:example tsdc:ASM ;
+  skos:example tsdc:CMP ;
   okhmeta:hasMetaTag okhmeta:IdentificationTag ;
   okhmeta:hasMetaTag okhmeta:ExtendedInfoTag ;
   .
