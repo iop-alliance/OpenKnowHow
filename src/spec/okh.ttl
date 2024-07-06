@@ -990,6 +990,8 @@ okh:source
   a skos:Concept ;
   rdfs:label "has source file"@en ;
   rdfs:comment "Links to a file that forms part of the sources of the project; meaning, these are the primary files the designers and other contributors of the project are working on."@en ;
+  rdfs:seeAlso okh:export ;
+  rdfs:seeAlso okh:auxiliary ;
   vs:term_status "unstable" ;
   schema:rangeIncludes okh:SourceFile ;
   schema:domainIncludes
@@ -1010,6 +1012,8 @@ okh:export
   a skos:Concept ;
   rdfs:label "has exported file"@en ;
   rdfs:comment "Links to a file that was generated/exported from a source file of the project"@en ;
+  rdfs:seeAlso okh:source ;
+  rdfs:seeAlso okh:auxiliary ;
   vs:term_status "unstable" ;
   schema:rangeIncludes okh:ExportFile ;
   schema:domainIncludes
@@ -1033,6 +1037,8 @@ okh:auxiliary
   a skos:Concept ;
   rdfs:label "has auxiliary file"@en ;
   rdfs:comment "This links to files associated with the subject, which classify neither as source nor as export, but are still useful in the repository"@en ;
+  rdfs:seeAlso okh:source ;
+  rdfs:seeAlso okh:export ;
   vs:term_status "unstable" ;
   schema:rangeIncludes okh:AuxiliaryFile ;
   schema:domainIncludes
