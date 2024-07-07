@@ -403,12 +403,72 @@ okh:organization
   okhmeta:hasMetaTag okhmeta:LegalTag ;
   .
 
+okh:licenseExpression
+  a owl:DatatypeProperty ;
+  a skos:Concept ;
+  rdfs:label "license expression"@en ;
+  rdfs:comment '''An SPDX license _expression_
+(see: <https://spdx.github.io/spdx-spec/v2-draft/SPDX-license-expressions/>),
+usually a single SPDX license ID
+(see complete list: <https://spdx.org/licenses/>),
+or a combination of those,
+combined with AND or OR.
+If your license is not SPDX registered (yet),
+use a custom string prefixed with "LicenseRef-",
+for example "LicenseRef-MyVeryOwnLicense-1.3";
+please use the "SPDX identifier" from
+<https://scancode-licensedb.aboutcode.org/>,
+if your license is there but not SPDX registered.
+Use "LicenseRef-NOASSERTION" if no license is specified,
+"LicenseRef-NONE" if no license is specified
+(which usually means: all rights reserved),
+or "LicenseRef-AllRightsReserved" or similar
+for projects clearly indicating that they are proprietary.'''@en ;
+  rdfs:comment "see <https://github.com/spdx/spdx-spec/issues/49> and <https://github.com/spdx/spdx-spec/issues/50>" ;
+  rdfs:comment "see <https://github.com/spdx/spdx-spec/issues/977>" ;
+  rdfs:subPropertyOf dcterms:license ;
+  skos:closeMatch schema:license ;
+  rdfs:seeAlso okh:license ;
+  vs:term_status "unstable" ;
+  schema:domainIncludes okh:Module ;
+  owl:cardinality 1 ;
+  okhmeta:hasMetaTag okhmeta:LegalTag ;
+  .
+
+okh:license
+  a owl:ObjectProperty ;
+  a skos:Concept ;
+  rdfs:label "license"@en ;
+  rdfs:comment '''An SPDX license expression,
+decoded into actual SPDX RDF/OWL,
+(see: <https://spdx.github.io/spdx-spec/v2-draft/SPDX-license-expressions/>).
+
+This is the RDF/OWL version of `okh:licenseExpression`,
+and necessarily needs to contain the same info,
+just in a different format.'''@en ;
+  rdfs:comment "see <https://github.com/spdx/spdx-spec/issues/49> an <https://github.com/spdx/spdx-spec/issues/50>" ;
+  rdfs:comment "see <https://github.com/spdx/spdx-spec/issues/977>" ;
+  vaem:todo "TODO For the crawler to be able to actually fill this with data, we need to be able to do 'SPDX Expression string' -> 'SPDX license RDF/OWL' conversion, which is the topic of this issue: <https://github.com/spdx/spdx-spec/issues/977>" ;
+  rdfs:subPropertyOf dcterms:license ;
+  rdfs:subPropertyOf spdxt:licenseDeclared ;
+  skos:closeMatch schema:license ;
+  rdfs:seeAlso okh:licenseExpression ;
+  vs:term_status "unstable" ;
+  schema:domainIncludes okh:Module ;
+  owl:cardinality 1 ;
+  okhmeta:hasMetaTag okhmeta:LegalTag ;
+  .
+
 okh:spdxLicense
   a owl:ObjectProperty ;
   a skos:Concept ;
   rdfs:label "SPDX license identifier"@en ;
   rdfs:comment "view complete list under https://spdx.org/licenses/"@en ;
-  vs:term_status "unstable" ;
+  skos:closeMatch schema:license ;
+  vs:term_status "deprecated" ;
+  owl:deprecated "true"^^xsd:boolean ;
+  cc:deprecatedOn "2024-06-25"^^xsd:date ;
+  schema:supersededBy okh:license ;
   schema:domainIncludes okh:Module ;
   schema:rangeIncludes spdxt:ListedLicense ; # aka SPDX license identifier for a single, atomar license
   owl:cardinality 1 ;
@@ -420,8 +480,11 @@ okh:alternativeLicense
   a skos:Concept ;
   rdfs:label "non-SPDX license"@en ;
   rdfs:comment "URL to legal code of a license without SPDX identifier, hence OSHWA-compliance is to be checked manually"@en ;
-#  rdfs:subPropertyOf spdxt:License ;
-  vs:term_status "unstable" ;
+  skos:closeMatch schema:license ;
+  vs:term_status "deprecated" ;
+  owl:deprecated "true"^^xsd:boolean ;
+  cc:deprecatedOn "2024-06-25"^^xsd:date ;
+  schema:supersededBy okh:license ;
   schema:domainIncludes okh:Module ;
   schema:rangeIncludes okh:File ;
   owl:cardinality 1 ;
