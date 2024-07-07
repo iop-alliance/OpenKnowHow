@@ -176,29 +176,6 @@ okh:ManifestFile
   okhmeta:hasMetaTag okhmeta:DataGatheringTag ;
   .
 
-okh:Readme
-  a owl:Class ;
-  a skos:Concept ;
-  rdfs:label "Readme"@en ;
-  rdfs:subClassOf okh:File ;
-  rdfs:subClassOf dcterms:MethodOfInstruction ;
-  rdfs:subClassOf schema:TextDigitalDocument ;
-  vs:term_status "unstable" ;
-  okhmeta:hasMetaTag okhmeta:DocumentationTag ;
-  .
-
-okh:ContributionGuide
-  a owl:Class ;
-  a skos:Concept ;
-  rdfs:label "contribution guide"@en ;
-  rdfs:subClassOf okh:File ;
-  rdfs:subClassOf dcterms:MethodOfInstruction ;
-  rdfs:subClassOf schema:TextDigitalDocument ;
-  vs:term_status "unstable" ;
-  okhmeta:hasMetaTag okhmeta:DocumentationTag ;
-  okhmeta:hasMetaTag okhmeta:ExtendedInfoTag ;
-  .
-
 okh:Image
   a owl:Class ;
   a skos:Concept ;
@@ -209,70 +186,6 @@ okh:Image
   rdfs:subClassOf dctype:StillImage ;
   vs:term_status "unstable" ;
   okhmeta:hasMetaTag okhmeta:BasicTag ;
-  .
-
-okh:BoM
-  a owl:Class ;
-  a skos:Concept ;
-  rdfs:label "Bill of Materials"@en ;
-  rdfs:subClassOf okh:File ;
-  rdfs:subClassOf schema:SpreadsheetDigitalDocument ;
-  vs:term_status "unstable" ;
-  okhmeta:hasMetaTag okhmeta:DataTag ;
-  okhmeta:hasMetaTag okhmeta:PartsTag ;
-  .
-
-okh:SourceFile
-  a owl:Class ;
-  a skos:Concept ;
-  rdfs:label "source file"@en ;
-  rdfs:subClassOf okh:File ;
-  rdfs:subClassOf schema:TextDigitalDocument ;
-  vs:term_status "unstable" ;
-  okhmeta:hasMetaTag okhmeta:DataTag ;
-  .
-
-okh:ExportFile
-  a owl:Class ;
-  a skos:Concept ;
-  rdfs:label "exported file"@en ;
-  rdfs:subClassOf okh:File ;
-  vs:term_status "unstable" ;
-  okhmeta:hasMetaTag okhmeta:DataTag ;
-  .
-
-okh:AuxiliaryFile
-  a owl:Class ;
-  a skos:Concept ;
-  rdfs:label "auxiliary file"@en ;
-  rdfs:comment "These are any files associated with the subject, which classify neither as source nor as export"@en ;
-  rdfs:subClassOf okh:File ;
-  vs:term_status "unstable" ;
-  okhmeta:hasMetaTag okhmeta:DataTag ;
-  .
-
-okh:ManufacturingInstructions
-  a owl:Class ;
-  a skos:Concept ;
-  rdfs:label "manufacturing instructions"@en ;
-  rdfs:comment "A file containing a manual/instructions of some kind, that explain how to manufacture the hardware."@en ;
-  rdfs:subClassOf dcterms:MethodOfInstruction ;
-  rdfs:subClassOf okh:File ;
-  vs:term_status "unstable" ;
-  skos:example "doc/assembly/main.md" ;
-  okhmeta:hasMetaTag okhmeta:DocumentationTag ;
-  okhmeta:hasMetaTag okhmeta:MakingTag ;
-  .
-
-okh:UserManual
-  a owl:Class ;
-  a skos:Concept ;
-  rdfs:label "user manual"@en ;
-  rdfs:subClassOf okh:File ;
-  rdfs:subClassOf dcterms:MethodOfInstruction ;
-  skos:example "doc/usr/main.md" ;
-  vs:term_status "unstable" ;
-  okhmeta:hasMetaTag okhmeta:DocumentationTag ;
   .
 
 okh:OuterDimensions
@@ -673,11 +586,16 @@ okh:hasReadme
   a owl:ObjectProperty ;
   a skos:Concept ;
   rdfs:label "has ReadMe"@en ;
-  rdfs:comment "links to the corresponding ReadMe"@en ;
+  rdfs:comment "links to the corresponding ReadMe, which is the (human) entry-point into the (sources of) an OSH project"@en ;
+  rdfs:subPropertyOf dcterms:instructionalMethod ;
   vs:term_status "unstable" ;
-  schema:rangeIncludes okh:Readme ;
+  schema:rangeIncludes okh:File ;
   schema:domainIncludes okh:Module ;
+  skos:example "README.md" ;
+  skos:example "README.txt" ;
+  skos:example "README" ;
   okhmeta:hasMetaTag okhmeta:BasicTag ;
+  okhmeta:hasMetaTag okhmeta:DocumentationTag ;
   .
 
 okh:hasContributionGuide
@@ -685,9 +603,11 @@ okh:hasContributionGuide
   a skos:Concept ;
   rdfs:label "has contribution guide"@en ;
   rdfs:comment "links to the corresponding Contribution Guide"@en ;
+  rdfs:subPropertyOf dcterms:instructionalMethod ;
   vs:term_status "unstable" ;
-  schema:rangeIncludes okh:ContributionGuide ;
+  schema:rangeIncludes okh:File ;
   schema:domainIncludes okh:Module ;
+  okhmeta:hasMetaTag okhmeta:DocumentationTag ;
   okhmeta:hasMetaTag okhmeta:ExtendedInfoTag ;
   .
 
@@ -695,10 +615,14 @@ okh:hasBoM
   a owl:ObjectProperty ;
   a skos:Concept ;
   rdfs:label "has Bill of Materials"@en ;
-  rdfs:comment "links to the corresponding Bill of Materials"@en ;
+  rdfs:comment "links to the corresponding Bill of Materials, which is a list or table of the parts required to build a component"@en ;
   vs:term_status "unstable" ;
-  schema:rangeIncludes okh:BoM ;
+  schema:rangeIncludes okh:File ;
   schema:domainIncludes okh:Module ;
+  skos:example "bom.csv" ;
+  skos:example "src/mech/bom.csv" ;
+  skos:example "src/elec/bom.csv" ;
+  okhmeta:hasMetaTag okhmeta:DataTag ;
   okhmeta:hasMetaTag okhmeta:PartsTag ;
   .
 
@@ -997,7 +921,7 @@ okh:source
   rdfs:seeAlso okh:export ;
   rdfs:seeAlso okh:auxiliary ;
   vs:term_status "unstable" ;
-  schema:rangeIncludes okh:SourceFile ;
+  schema:rangeIncludes okh:File ;
   schema:domainIncludes
     okh:Module,
     okh:Part ;
@@ -1019,7 +943,7 @@ okh:export
   rdfs:seeAlso okh:source ;
   rdfs:seeAlso okh:auxiliary ;
   vs:term_status "unstable" ;
-  schema:rangeIncludes okh:ExportFile ;
+  schema:rangeIncludes okh:File ;
   schema:domainIncludes
     okh:Module,
     okh:Part ;
@@ -1044,7 +968,7 @@ okh:auxiliary
   rdfs:seeAlso okh:source ;
   rdfs:seeAlso okh:export ;
   vs:term_status "unstable" ;
-  schema:rangeIncludes okh:AuxiliaryFile ;
+  schema:rangeIncludes okh:File ;
   schema:domainIncludes
     okh:Module,
     okh:Part ;
@@ -1061,8 +985,9 @@ okh:hasUserManual
   rdfs:label "has user manual"@en ;
   rdfs:subPropertyOf dcterms:instructionalMethod ;
   vs:term_status "unstable" ;
-  schema:rangeIncludes okh:UserManual ;
+  schema:rangeIncludes okh:File ;
   schema:domainIncludes okh:Module ;
+  skos:example "doc/usr/main.md" ;
   okhmeta:hasMetaTag okhmeta:DocumentationTag ;
   .
 
@@ -1070,12 +995,14 @@ okh:hasManufacturingInstructions
   a owl:ObjectProperty ;
   a skos:Concept ;
   rdfs:label "has manufacturing instructions"@en ;
+  rdfs:comment "Links to a file containing a manual/instructions of some kind, that explain how to manufacture the hardware."@en ;
   rdfs:subPropertyOf dcterms:instructionalMethod ;
   vs:term_status "unstable" ;
-  schema:rangeIncludes okh:ManufacturingInstructions ;
+  schema:rangeIncludes okh:File ;
   schema:domainIncludes
     okh:Module,
     okh:Part ;
+  skos:example "doc/assembly/main.md" ;
   okhmeta:hasMetaTag okhmeta:DocumentationTag ;
   okhmeta:hasMetaTag okhmeta:MakingTag ;
   .
