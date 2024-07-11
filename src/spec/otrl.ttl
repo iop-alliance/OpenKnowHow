@@ -1,6 +1,7 @@
 @base             <https://w3id.org/oseg/ont/otrl> .
 @prefix otrl:     <#> .
 @prefix cc:       <http://creativecommons.org/ns#> .
+@prefix dcat:     <http://www.w3.org/ns/dcat#> .
 @prefix dcterms:  <http://purl.org/dc/terms/> .
 @prefix osegprof: <https://w3id.org/oseg/ont/oseg-profiles#> .
 @prefix owl:      <http://www.w3.org/2002/07/owl#> .
@@ -57,6 +58,8 @@ The `schema:*` properties give us just that.'''@en ;
   spdxt:licenseDeclared spdxl:GPL-3.0-or-later ;
   dcterms:source "https://github.com/iop-alliance/OpenKnowHow/master/src/spec/otrl.ttl" ;
   schema:codeRepository "https://github.com/iop-alliance/OpenKnowHow/" ;
+  dcat:keyword "OTRL", "hardware", "design", "open-source", "open-source-hardware", "project", "category" ;
+  dcat:contactPoint "https://github.com/iop-alliance/OpenKnowHow/" ;
   .
 
 otrl:OTRL
