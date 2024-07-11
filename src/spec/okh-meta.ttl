@@ -69,7 +69,7 @@ The `schema:*` properties give us just that.'''@en ;
 okhmeta:Tag
   a owl:Class ;
   a skos:Concept ;
-  owl:subClassOf skos:Collection ;
+  rdfs:subClassOf skos:Collection ;
   rdfs:label "meta tag"@en ;
   rdfs:comment "see property okhmeta:hasMetaTag"@en ;
   vs:term_status "unstable" ;
@@ -79,7 +79,7 @@ okhmeta:Tag
 okhmeta:hasMetaTag
   a owl:ObjectProperty ;
   a skos:Concept ;
-  owl:subPropertyOf skos:member ;
+  rdfs:subPropertyOf skos:member ;
   rdfs:label "has meta tag"@en ;
   rdfs:comment '''Tags any part of the ontology with a meta-tag.
 This might be useful for arranging properties in a GUI,
