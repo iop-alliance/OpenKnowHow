@@ -10,6 +10,7 @@
 @prefix schema:   <http://schema.org/> .
 @prefix skos:     <http://www.w3.org/2004/02/skos/core#> .
 @prefix spdxt:    <http://spdx.org/rdf/terms#> .
+@prefix spdxl:    <https://spdx.org/licenses/> .
 @prefix vaem:     <http://www.linkedmodel.org/schema/vaem#> .
 @prefix vann:     <http://purl.org/vocab/vann/> .
 @prefix vs:       <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
@@ -17,6 +18,7 @@
 
 <>
   a owl:Ontology ;
+  a spdxt:File ;
   vann:preferredNamespacePrefix "okhmeta" ;
   vann:preferredNamespaceUri "https://w3id.org/oseg/ont/okh-meta#" ;
   owl:versionInfo "1.1.0" ;
@@ -57,7 +59,7 @@ The `schema:*` properties give us just that.'''@en ;
   dcterms:modified "2024-07-01T09:03:49Z"^^xsd:dateTimeStamp ;
   dcterms:license "https://www.gnu.org/licenses/gpl-3.0.txt" ;
   cc:license "https://www.gnu.org/licenses/gpl-3.0.txt" ;
-  spdxt:ListedLicense "GPL-3.0-or-later" ;
+  spdxt:licenseDeclared spdxl:GPL-3.0-or-later ;
   dcterms:source "https://github.com/iop-alliance/OpenKnowHow/master/src/spec/okh-meta.ttl" ;
   schema:codeRepository "https://github.com/iop-alliance/OpenKnowHow/" ;
   dcat:keyword "meta", "OKH", "tagging", "grouping" ;
