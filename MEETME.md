@@ -1,5 +1,5 @@
 <!--
-SPDX-FileCopyrightText: 2020 - 2021 Robin Vobruba <hoijui.quaero@gmail.com>
+SPDX-FileCopyrightText: 2020 - 2024 Robin Vobruba <hoijui.quaero@gmail.com>
 SPDX-FileCopyrightText: 2020 Martin Häuer <martin.haeuer@ose-germany.de>
 SPDX-FileCopyrightText: 2020 juli arancio <jarancio@protonmail.com>
 
@@ -10,40 +10,56 @@ SPDX-License-Identifier: GPL-3.0-or-later
 
 …of the OSHI working group
 
-## 14-09-2020 – "Welcome to the Next Steps" – Wikimedia, Wikifactory & Fraunhofer IPK
+## 14-09-2020 – "Welcome to the Next Steps" – 1
 
-These meeting minutes are omitted due to privacy policies of official project partners.
+### Attendees
+
+- Wikimedia
+- Wikifactory
+- Fraunhofer IPK
+
+These meeting minutes are omitted due to privacy policies of
+official project partners.
 Find them [here](https://tubcloud.tu-berlin.de/s/SdeJ4neMMzDJeNr/download?path=%2F02_Meetings%2F01_Work%20Package%20Meetings%2FWP3&files=%5BT3.3%5D%20running%20minutes.md).
-Please send a request to <assessmen@oho.wiki>
+Please send a request to <mailto:assessmen@oho.wiki>
 so we can share the requested minutes directly to you.
 
-## 03-09-2020 – "Welcome to the Next Steps" – Wikimedia, Wikifactory & Fraunhofer IPK
+## 03-09-2020 – "Welcome to the Next Steps" – 2
 
-These meeting minutes are omitted due to privacy policies of official project partners.
+### Attendees
+
+- Wikimedia
+- Wikifactory
+- Fraunhofer IPK
+
+These meeting minutes are omitted due to privacy policies
+of official project partners.
 Find them [here](https://tubcloud.tu-berlin.de/s/SdeJ4neMMzDJeNr/download?path=%2F02_Meetings%2F01_Work%20Package%20Meetings%2FWP3&files=%5BT3.3%5D%20running%20minutes.md).
-Please send a request to <assessmen@oho.wiki>
+Please send a request to <mailto:assessmen@oho.wiki>
 so we can share the requested minutes directly to you.
 
 ## 09-07-2020 – first metadata draft
 
-**Attendees:**
+### Attendees
 
 - Julieta
 - Emilio
 - Robin
 - Moe (minutes)
 
-**notes:**
+### Notes
 
 - Hello, arriving, small talk
 - Quick repetition of the scope
 - Update: I'll pitch this to OKH this Friday as v2.0 of that standard
-- decision about file formats ([issue 4](https://github.com/OPEN-NEXT/OSHI/issues/4))
+- decision about file formats (see [the issue](https://github.com/iop-alliance/OpenKnowHow/issues/140))
   - → use TOML only for starters & keep it simple
-- decision about file name & location convention ([issue 5](https://github.com/OPEN-NEXT/OSHI/issues/5))
+- decision about file name & location convention (see [the issue](https://github.com/iop-alliance/OpenKnowHow/issues/139))
   - → approved
-- Looking onto the [scope](https://github.com/iop-alliance/OpenKnowHow/blob/7ead733786/Wikibase_Qs.md) and the first [draft](src/spec/okh.md)…
-  does this all make sense? ([issue 2](https://github.com/OPEN-NEXT/OSHI/issues/2))
+- Looking onto the [scope](
+  https://github.com/iop-alliance/OpenKnowHow/blob/7ead733786/Wikibase_Qs.md)
+  and the first [draft](src/spec/okh.md) …
+  does this all make sense? (see [the issue](https://github.com/iop-alliance/OpenKnowHow/issues/142))
   - → formulate scope in a much easier way
     - who's the end user?
     - what's problem it solves?
@@ -70,12 +86,12 @@ so we can share the requested minutes directly to you.
 
 ## 25-06-2020 – first metadata draft
 
-**Attendees:**
+### Attendees
 
 - Robin
 - Moe (minutes)
 
-**Notes:**
+### Notes
 
 - ~~Where exactly is new, own vocabulary ontology necessary
   and where can I just use workarounds & templates for data input?~~
@@ -95,8 +111,10 @@ so we can share the requested minutes directly to you.
   - ✓ yes, yey
 - In a query, can we get the file format from a file link?
   - ✓ yes, yey
-- Looking onto the [scope](https://github.com/iop-alliance/OpenKnowHow/blob/7ead733786/Wikibase_Qs.md) and the first [draft](src/spec/okh.md)…
-  does this all make sense? ([issue 2](https://github.com/OPEN-NEXT/OSHI/issues/2))
+- Looking onto the [scope](
+  https://github.com/iop-alliance/OpenKnowHow/blob/7ead733786/Wikibase_Qs.md)
+  and the first [draft](src/spec/okh.md) …
+  does this all make sense? (see [the issue](https://github.com/iop-alliance/OpenKnowHow/issues/142))
 - ✓ yes, yey
 - cooperation with Wikimedia Deutschland
   - create initial test data set
@@ -104,7 +122,7 @@ so we can share the requested minutes directly to you.
 
 ## 30-04-2020 – little kickoff
 
-**Attendees:**
+### Attendees
 
 - Julieta
 - Robin
@@ -113,7 +131,7 @@ so we can share the requested minutes directly to you.
 
 forgot to invite: Emilio (sorry, Emilio)
 
-**Notes:**
+### Notes
 
 - first draft for DB structure
   - various specified DBs with own onthologies,
@@ -141,13 +159,13 @@ forgot to invite: Emilio (sorry, Emilio)
     - will be pitched to Open Know-How working group
 - we will make use of
   - guidelines & standard modules for onthologies (thanks @Julieta! 🎉)
-  - <https://wbstack.com> in order to test our onthology approaches
+  - <https://www.wbstack.com/> in order to test our onthology approaches
 
-**ToDo:**
+### TODOs
 
 - @Moe sends a short project description and mail addresses of the working group
   to @Julieta, so…
-- @Julieta creates an instance using <https://wbstack.com>)
+- @Julieta creates an instance using <https://www.wbstack.com/>)
   where we all create accounts, and…
 - @Julieta connects us/@Moe to a group of smart people
   who designed guidelines & standard modules for onthologies
