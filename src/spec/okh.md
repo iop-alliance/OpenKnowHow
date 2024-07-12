@@ -62,7 +62,7 @@ OKH-LOSH features the specification for representative metadata
 of open source hardware (OSH) modules.
 An OSH module can be any tangible object
 for which relevant technical documentation has been published
-under a license complying with terms stated by the [OSHWA definition](https://oshwa.org/definition);
+under a license complying with terms stated by the [OSHWA definition](https://www.oshwa.org/definition/);
 in most cases that will be an assembly of parts fulfilling a defined functions,
 whereby documentation is published on an online platform of choice (e.g. [GitLab.org](https://gitlab.org/)).
 Scope, content and limits of such OSH modules are defined by their developers.
@@ -84,10 +84,11 @@ This draft follows a Linked Open Data approach:
 - data processing is based on RDF (data from manifest files (TOML)
   and platform APIs (JSON) is translated into RDF by the crawler)
 - everything is published under free/open licenses:
-  - [generated RDF](TODO)
-  - [crawler](TODO)
-  - [LOSH website](TODO)
-  - [the specification](TODO) (which you are reading)
+  - [generated RDF](https://gitlab.opensourceecology.de/verein/projekte/losh-rdf)
+  - [crawler](https://github.com/OPEN-NEXT/LOSH-krawler)
+  - [LOSH website](https://github.com/OPEN-NEXT/LOSH-Frontend)
+  - [the specification](https://github.com/iop-alliance/OpenKnowHow)
+    (which you are reading)
 
 This draft aims to facilitate compliance with DIN SPEC 3105-1.
 
