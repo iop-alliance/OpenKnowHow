@@ -328,10 +328,10 @@ To summarize: an OSH module must bear reference of:
   - IETF BCP 47 language tag for the language in which the documentation is written
 - `technology-readiness-level` \[string\]
   - OTRL-ID representing the development stage of the OSH module
-  - get it from here: <https://github.com/iop-alliance/OpenKnowHow/raw/master/src/spec/otrl.ttl>
+  - get it from here: <https://raw.githubusercontent.com/iop-alliance/OpenKnowHow/master/src/spec/otrl.ttl>
 - `documentation-readiness-level` \[string\]
   - ODRL-ID representing the development stage of the documentation
-  - get it from here: <https://github.com/iop-alliance/OpenKnowHow/raw/master/src/spec/otrl.ttl>
+  - get it from here: <https://raw.githubusercontent.com/iop-alliance/OpenKnowHow/master/src/spec/otrl.ttl>
 - `attestation` \[URL\]
   - reference to a valid attestation that the documentation is complete
     and fully qualifies as open source hardware
