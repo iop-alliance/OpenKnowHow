@@ -1,0 +1,220 @@
+@base             <https://w3id.org/oseg/ont/okhmeta> .
+@prefix okhmeta:  <#> .
+@prefix cc:       <http://creativecommons.org/ns#> .
+@prefix dcat:     <http://www.w3.org/ns/dcat#> .
+@prefix dcterms:  <http://purl.org/dc/terms/> .
+@prefix osegprof: <https://w3id.org/oseg/ont/oseg-profiles#> .
+@prefix owl:      <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:     <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema:   <http://schema.org/> .
+@prefix skos:     <http://www.w3.org/2004/02/skos/core#> .
+@prefix spdxt:    <http://spdx.org/rdf/terms#> .
+@prefix spdxl:    <https://spdx.org/licenses/> .
+@prefix vaem:     <http://www.linkedmodel.org/schema/vaem#> .
+@prefix vann:     <http://purl.org/vocab/vann/> .
+@prefix vs:       <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
+
+<>
+  a owl:Ontology ;
+  a spdxt:File ;
+  vann:preferredNamespacePrefix "okhmeta" ;
+  vann:preferredNamespaceUri "https://w3id.org/oseg/ont/okh-meta#" ;
+  owl:versionInfo "1.1.0" ;
+  owl:versionIRI <https://w3id.org/oseg/ont/1.1.0/okh-meta> ;
+  dcterms:title "Open Know How (OKH) - Meta"@en ;
+  dcterms:description '''Used for tagging/grouping classes and properties in the OKH ontology.
+This hopefully allows to filter and visualize only (relevant) parts
+of the ontology/data,
+given specific scenarios.
+For example,
+one could only show the classes and properties tagged with "basic",
+when browsing multiple projects at a time.'''@en ;
+  schema:comment '''
+# SPDX-FileCopyrightText: 2024 Robin Vobruba <hoijui.quaero@gmail.com>
+#
+# SPDX-License-Identifier: GPL-3.0-or-later
+''' ;
+  schema:comment '''Regarding the use of `schema:domainIncludes`
+and `schema:rangeIncludes` in this ontology:
+Looking at the definitions for the RDFS version
+of the two, `rdfs:domain` and `rdfs:range`:
+* https://www.w3.org/TR/rdf-schema/#ch_domain
+* https://www.w3.org/TR/rdf-schema/#ch_range
+and as described in this StackOverflow answer:
+<https://stackoverflow.com/a/74782257/586229>,
+multiple objects for the two RDFS properties mean,
+that *all of them* apply, simultaneously,
+not *one of them*.
+You may think of this as an `AND` coupling.
+We want the *one of them* meaning though (`OR`).
+The `schema:*` properties give us just that.'''@en ;
+  dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
+  dcterms:created "2024-07-01"^^xsd:date ;
+  dcterms:creator osegprof:robinVobruba ;
+  schema:creator osegprof:robinVobruba ;
+  dcterms:publisher osegprof:Iopa ;
+  dcterms:issued "2024-07-01T09:03:49Z"^^xsd:dateTimeStamp ;
+  dcterms:modified "2024-07-01T09:03:49Z"^^xsd:dateTimeStamp ;
+  dcterms:license "https://www.gnu.org/licenses/gpl-3.0.txt" ;
+  cc:license "https://www.gnu.org/licenses/gpl-3.0.txt" ;
+  spdxt:licenseDeclared spdxl:GPL-3.0-or-later ;
+  dcterms:source "https://github.com/iop-alliance/OpenKnowHow/master/src/spec/okh-meta.ttl" ;
+  schema:codeRepository "https://github.com/iop-alliance/OpenKnowHow/" ;
+  dcat:keyword "meta", "OKH", "tagging", "grouping" ;
+  dcat:contactPoint "https://github.com/iop-alliance/OpenKnowHow/" ;
+  .
+
+okhmeta:Tag
+  a owl:Class ;
+  a skos:Concept ;
+  rdfs:subClassOf skos:Collection ;
+  rdfs:label "meta tag"@en ;
+  rdfs:comment "see property okhmeta:hasMetaTag"@en ;
+  vs:term_status "unstable" ;
+  okhmeta:hasMetaTag okhmeta:MetaTag ;
+  .
+
+okhmeta:hasMetaTag
+  a owl:ObjectProperty ;
+  a skos:Concept ;
+  rdfs:subPropertyOf skos:member ;
+  rdfs:label "has meta tag"@en ;
+  rdfs:comment '''Tags any part of the ontology with a meta-tag.
+This might be useful for arranging properties in a GUI,
+or for visualizing only parts of the ontology in a graph,
+among possibly other things.'''@en ;
+  vs:term_status "unstable" ;
+  schema:rangeIncludes okhmeta:MetaTag ;
+  okhmeta:hasMetaTag okhmeta:MetaTag ;
+  .
+
+okhmeta:AcademicTag
+  a okhmeta:Tag ;
+  rdfs:label "academic"@en ;
+  rdfs:comment "The annotated subject is primarily interesting in the academic context"@en ;
+  vs:term_status "unstable" ;
+  okhmeta:hasMetaTag okhmeta:MetaTag ;
+  .
+
+okhmeta:BasicTag
+  a okhmeta:Tag ;
+  rdfs:label "basic"@en ;
+  rdfs:comment "The annotated subject is a member of the basic-description-part of a project"@en ;
+  vs:term_status "unstable" ;
+  okhmeta:hasMetaTag okhmeta:MetaTag ;
+  .
+
+okhmeta:DataGatheringTag
+  a okhmeta:Tag ;
+  rdfs:label "data gathering"@en ;
+  rdfs:comment "The annotated subject deals with meta-data about the OKH data-gathering process"@en ;
+  vs:term_status "unstable" ;
+  okhmeta:hasMetaTag okhmeta:MetaTag ;
+  .
+
+okhmeta:DataTag
+  a okhmeta:Tag ;
+  rdfs:label "data"@en ;
+  rdfs:comment "The annotated subject is interesting when gathering data of the project"@en ;
+  vs:term_status "unstable" ;
+  okhmeta:hasMetaTag okhmeta:MetaTag ;
+  .
+
+okhmeta:DevelopmentTag
+  a okhmeta:Tag ;
+  rdfs:label "development"@en ;
+  rdfs:comment "The annotated subject is a member of the development-/design-part of a project"@en ;
+  vs:term_status "unstable" ;
+  okhmeta:hasMetaTag okhmeta:MetaTag ;
+  .
+
+okhmeta:DocumentationTag
+  a okhmeta:Tag ;
+  rdfs:label "documentation"@en ;
+  rdfs:comment "The annotated subject is a member of the documentation-part of a project"@en ;
+  vs:term_status "unstable" ;
+  okhmeta:hasMetaTag okhmeta:MetaTag ;
+  .
+
+okhmeta:ExtendedInfoTag
+  a okhmeta:Tag ;
+  rdfs:label "extended info"@en ;
+  rdfs:comment "The annotated subject deals with extended info about a project. This is somewhat the opposite of the 'basic' tag. The idea is, that there is thrid set of OKH parts, that lay inbetween these two extremes, and are not tagged with a specific, third tag."@en ;
+  vs:term_status "unstable" ;
+  okhmeta:hasMetaTag okhmeta:MetaTag ;
+  .
+
+okhmeta:HistoryTag
+  a okhmeta:Tag ;
+  rdfs:label "history info"@en ;
+  rdfs:comment "The annotated subject deals with the projects history."@en ;
+  vs:term_status "unstable" ;
+  okhmeta:hasMetaTag okhmeta:MetaTag ;
+  .
+
+okhmeta:IdentificationTag
+  a okhmeta:Tag ;
+  rdfs:label "identification"@en ;
+  rdfs:comment "The annotated subject can be used to identify the project (potentially in combination with other parts)."@en ;
+  vs:term_status "unstable" ;
+  okhmeta:hasMetaTag okhmeta:MetaTag ;
+  .
+
+okhmeta:LegalTag
+  a okhmeta:Tag ;
+  rdfs:label "legal"@en ;
+  rdfs:comment "The annotated subject deals with legal issues about the project. This will be things like the licensor(s), the license(s), and disclaimers."@en ;
+  vs:term_status "unstable" ;
+  okhmeta:hasMetaTag okhmeta:MetaTag ;
+  .
+
+okhmeta:MakingTag
+  a okhmeta:Tag ;
+  rdfs:label "making"@en ;
+  rdfs:comment "The annotated subject deals with the creation of the actual hardware. This includes (at least) manufacturing and assembly related issues, plus the documentation for these steps."@en ;
+  vs:term_status "unstable" ;
+  okhmeta:hasMetaTag okhmeta:MetaTag ;
+  .
+
+okhmeta:MetaTag
+  a okhmeta:Tag ;
+  rdfs:label "meta"@en ;
+  rdfs:comment "The annotated subject is a member of the meta-part of the ontology"@en ;
+  vs:term_status "unstable" ;
+  okhmeta:hasMetaTag okhmeta:MetaTag ;
+  .
+
+okhmeta:PartsTag
+  a okhmeta:Tag ;
+  rdfs:label "parts"@en ;
+  rdfs:comment "The annotated subject deals with sub-parts and the modular nature of a project."@en ;
+  vs:term_status "unstable" ;
+  okhmeta:hasMetaTag okhmeta:MetaTag ;
+  .
+
+okhmeta:PhysicalTag
+  a okhmeta:Tag ;
+  rdfs:label "physical"@en ;
+  rdfs:comment "The annotated subject deals with properties about the physical product(s) of the project."@en ;
+  vs:term_status "unstable" ;
+  okhmeta:hasMetaTag okhmeta:MetaTag ;
+  .
+
+okhmeta:QualityTag
+  a okhmeta:Tag ;
+  rdfs:label "quality"@en ;
+  rdfs:comment "The annotated subject deals with quality indication (and later also assurance), both of the documentation and the physical product(s) of the project."@en ;
+  vaem:todo "TODO Should this really be both about hte docu and the phsyical project?"@en ;
+  vs:term_status "unstable" ;
+  okhmeta:hasMetaTag okhmeta:MetaTag ;
+  .
+
+okhmeta:TransportationTag
+  a okhmeta:Tag ;
+  rdfs:label "transportation"@en ;
+  rdfs:comment "The annotated subject matters for transporting the physical product(s) of the project."@en ;
+  vs:term_status "unstable" ;
+  okhmeta:hasMetaTag okhmeta:MetaTag ;
+  .

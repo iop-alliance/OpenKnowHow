@@ -1,25 +1,22 @@
 @base             <https://w3id.org/oseg/ont/otrl> .
 @prefix otrl:     <#> .
 @prefix cc:       <http://creativecommons.org/ns#> .
-@prefix dce:      <http://purl.org/dc/elements/1.1/> .
+@prefix dcat:     <http://www.w3.org/ns/dcat#> .
 @prefix dcterms:  <http://purl.org/dc/terms/> .
-@prefix orcid:    <https://orcid.org/> .
+@prefix osegprof: <https://w3id.org/oseg/ont/oseg-profiles#> .
 @prefix owl:      <http://www.w3.org/2002/07/owl#> .
 @prefix rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs:     <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix schema:   <http://schema.org/> .
 @prefix spdxt:    <http://spdx.org/rdf/terms#> .
+@prefix spdxl:    <https://spdx.org/licenses/> .
 @prefix vann:     <http://purl.org/vocab/vann/> .
 @prefix vs:       <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
 @prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
 
-# SPDX-FileCopyrightText: 2020 - 2021 Martin Häuer <martin.haeuer@ose-germany.de>
-# SPDX-FileCopyrightText: 2020 - 2024 Robin Vobruba <hoijui.quaero@gmail.com>
-#
-# SPDX-License-Identifier: GPL-3.0-or-later
-
 <>
   a owl:Ontology ;
+  a spdxt:File ;
   vann:preferredNamespacePrefix "otrl" ;
   vann:preferredNamespaceUri "https://w3id.org/oseg/ont/otrl#" ;
   owl:versionInfo "1.1.0" ;
@@ -27,7 +24,13 @@
   dcterms:title "Open Technology & Documentation Readiness Level (OTRL) ontology"@en ;
   dcterms:description "This can be used to assess an Open Source Hardware projects stage of technical development and its documentation."@en ;
   schema:comment "Descriptions (`rdfs:comment`) from NASA are used under public domain"@en ;
-  schema:comment """Regarding the use of `schema:domainIncludes`
+  schema:comment '''
+# SPDX-FileCopyrightText: 2020 - 2021 Martin Häuer <martin.haeuer@ose-germany.de>
+# SPDX-FileCopyrightText: 2020 - 2024 Robin Vobruba <hoijui.quaero@gmail.com>
+#
+# SPDX-License-Identifier: GPL-3.0-or-later
+''' ;
+  schema:comment '''Regarding the use of `schema:domainIncludes`
 and `schema:rangeIncludes` in this ontology:
 Looking at the definitions for the RDFS version
 of the two, `rdfs:domain` and `rdfs:range`:
@@ -40,19 +43,23 @@ that *all of them* apply, simultaneously,
 not *one of them*.
 You may think of this as an `AND` coupling.
 We want the *one of them* meaning though (`OR`).
-The `schema:*` properties give us just that."""@en ;
+The `schema:*` properties give us just that.'''@en ;
   dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
-  dce:creator "Martin Häuer <martin.haeuer@ose-germany.de>" ;
-  dcterms:creator orcid:0000-0002-1611-7129 ;
-  dce:creator "Robin Vobruba <hoijui.quaero@gmail.com>" ;
-  dcterms:creator orcid:0009-0004-3559-6542 ;
-  dce:publisher "Robin Vobruba (Open Source Ecology Germany e.V.) <hoijui.quaero@gmail.com>" ;
-  dce:issued "2021-08-24 16:32:33" ;
-  dce:modified "2022-02-22 12:01:28" ;
-  dcterms:license <https://www.gnu.org/licenses/gpl-3.0.txt> ;
-  cc:license <https://www.gnu.org/licenses/gpl-3.0.txt> ;
-  spdxt:ListedLicense "GPL-3.0-or-later" ;
-  dce:source "https://github.com/iop-alliance/OpenKnowHow/master/src/spec/otrl.ttl" ;
+  dcterms:created "2021-02-22"^^xsd:date ;
+  dcterms:creator osegprof:martinHaeuer ;
+  schema:creator osegprof:martinHaeuer ;
+  dcterms:creator osegprof:robinVobruba ;
+  schema:creator osegprof:robinVobruba ;
+  dcterms:publisher osegprof:Iopa ;
+  dcterms:issued "2021-08-24T16:32:33Z"^^xsd:dateTimeStamp ;
+  dcterms:modified "2022-02-22T12:01:28Z"^^xsd:dateTimeStamp ;
+  dcterms:license "https://www.gnu.org/licenses/gpl-3.0.txt" ;
+  cc:license "https://www.gnu.org/licenses/gpl-3.0.txt" ;
+  spdxt:licenseDeclared spdxl:GPL-3.0-or-later ;
+  dcterms:source "https://github.com/iop-alliance/OpenKnowHow/master/src/spec/otrl.ttl" ;
+  schema:codeRepository "https://github.com/iop-alliance/OpenKnowHow/" ;
+  dcat:keyword "OTRL", "hardware", "design", "open-source", "open-source-hardware", "project", "category" ;
+  dcat:contactPoint "https://github.com/iop-alliance/OpenKnowHow/" ;
   .
 
 otrl:OTRL
