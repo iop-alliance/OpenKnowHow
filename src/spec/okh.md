@@ -295,7 +295,11 @@ To summarize: an OSH module must bear reference of:
 - **`version`** \[string\]
   - version of the module
   - optimally following the [semantic versioning scheme v2.0.0](https://semver.org/#semantic-versioning-200)
-  - NOTE: If e.g. version tags (like `v1.0.2`) are not applicable, a commit hash (or equivalent) works too. Of course human-readable version tags are better than hashes, but ultimately unambiguous versioning is a minimum requirement.
+  - NOTE: If e.g. version tags (like `v1.0.2`) are not applicable,
+    a commit hash (or equivalent) works too.
+    Of course human-readable version tags are better than hashes,
+    but ultimately,
+    unambiguous versioning is a minimum requirement.
 - `release` \[URL\]
   - reference to release package of this version of the OSH module
 - **`license`** \[string\]
