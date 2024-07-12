@@ -221,7 +221,7 @@ The file reference _never_ starts with a "`/`"
 
 Given the following folder structure:
 
-`/3DParts/ClampRing`
+`3DParts/ClampRing`
 
 manifest and source file of the POSH `Clamp Ring` are located in the same folder;
 the file reference would be simply:
@@ -230,9 +230,9 @@ the file reference would be simply:
 
 Given the alternative folder structure:
 
-`/3DParts/ClampRing/source`
+`3DParts/ClampRing/source`
 
-where manifest and other additional files are located in `/3DParts/ClampRing`
+where manifest and other additional files are located in `3DParts/ClampRing`
 whereby the source lies in in the subfolder `source`,
 the file reference would be:
 
@@ -245,7 +245,7 @@ The file reference _always_ starts with an "`/`"
 
 **EXAMPLE**
 
-`/3DParts/ClampRing/ClampRing.scad`
+`3DParts/ClampRing/ClampRing.scad`
 
 # Metadata Fields
 
@@ -357,24 +357,24 @@ To summarize: an OSH module must bear reference of:
   - e.g. `bom.csv`
 - `manufacturing-instructions` \[file-path\]
   - repo-relative path or URL to manufacturing instructions
-  - e.g. `/Documentation/Assembly_Guide/AssemblyGuide.md`
+  - e.g. `Documentation/Assembly_Guide/AssemblyGuide.md`
   - multiple inputs possible (with one entry each)
 - `user-manual` \[file-path\]
   - repo-relative path or URL to user manual
-  - e.g. `/Documentation/User_Guide/UserGuide.md`
+  - e.g. `Documentation/User_Guide/UserGuide.md`
 - `source` \[file-path\]
   - repo-relative path or URL to source file (e.g. native CAD file)
-  - e.g. `/3D-parts/assembly.asm`
+  - e.g. `3D-parts/assembly.asm`
   - multiple inputs possible (with one entry each)
 - `export` \[file-path\]
   - repo-relative path or URL to export file
     (e.g. STEP export of 3D model or PDF export of drawing)
-  - e.g. `/3D-parts/assembly.STP`
+  - e.g. `3D-parts/assembly.stp`
   - multiple inputs possible (with one entry each)
 - `auxiliary` \[file-path\]
   - repo-relative path or URL to files that are neither source files
     nor their exports, but still useful in the repository (e.g. KiCAD library files)
-  - e.g. `/lib/lib1.lib`
+  - e.g. `lib/lib1.lib`
   - multiple inputs possible (with one entry each)
 
 ## metadata fields for parts
@@ -391,18 +391,18 @@ To summarize: an OSH module must bear reference of:
   - multiple inputs possible (with one entry each)
 - **`source`** \[file-path\]
   - repo-relative path or URL to source file (e.g. native CAD file)
-  - e.g. `/3D-parts/part1.scad`
+  - e.g. `3D-parts/part1.scad`
   - multiple inputs possible (with one entry each)
 - `export` \[file-path\]
   - repo-relative path or URL to export file
     (e.g. STEP export of 3D model or PDF export of drawing)
-  - e.g. `/3D-parts/part1.STP`
+  - e.g. `3D-parts/part1.stp`
   - multiple inputs possible (with one entry each)
 - `auxiliary` \[file-path\]
   - repo-relative path or URL to files that are neither source files
     nor their exports, but still useful in the repository
     (e.g. KiCAD library files)
-  - e.g. `/lib/lib1.lib`
+  - e.g. `lib/lib1.lib`
   - multiple inputs possible (with one entry each)
 
 ## software
