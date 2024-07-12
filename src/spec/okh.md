@@ -218,7 +218,7 @@ A relative path starts from some directory
 the corresponding manifest file is located in.
 The file reference _never_ starts with a "`/`"
 
-**EXAMPLE**
+##### Example
 
 Given the following folder structure:
 
@@ -244,7 +244,7 @@ the file reference would be:
 An absolute path always starts from the root directory (= repository folder).
 The file reference _always_ starts with an "`/`"
 
-**EXAMPLE**
+##### Example
 
 `3DParts/ClampRing/ClampRing.scad`
 
