@@ -121,10 +121,13 @@ Yet, provision of metadata is fully based on manual input
 by contributors of the OSH project.
 Metadata will be collected by a [crawler](https://github.com/OPEN-NEXT/LOSH-Krawler)
 using the API of supported platforms
-(find a [full list of supported platforms below](#supported-platforms)).\
+(find a [full list of supported platforms below](#supported-platforms)).
+
+<!--
 Hence, when data is published on a supported platform in compliance with this specification,
 it becomes automatically available on [LOSH](https://losh.ose-germany.de)
 and as Linked Open Data in RDF format [here](TODO).
+-->
 
 ## Supported Platforms
 
