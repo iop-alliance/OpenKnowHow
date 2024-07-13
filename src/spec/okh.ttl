@@ -816,6 +816,7 @@ okh:width
   schema:domainIncludes okh:Dimensions ;
   schema:rangeIncludes xsd:float ;
   vaem:todo "TODO or should the range rather be int?"@en ;
+  owl:cardinality 1 ;
   okhmeta:hasMetaTag okhmeta:PhysicalTag ;
   .
 
@@ -829,6 +830,7 @@ okh:depth
   schema:domainIncludes okh:Dimensions ;
   schema:rangeIncludes xsd:float ;
   vaem:todo "TODO or should the range rather be int?"@en ;
+  owl:cardinality 1 ;
   okhmeta:hasMetaTag okhmeta:PhysicalTag ;
   .
 
@@ -842,6 +844,7 @@ okh:height
   schema:domainIncludes okh:Dimensions ;
   schema:rangeIncludes xsd:float ;
   vaem:todo "TODO or should the range rather be int?"@en ;
+  owl:cardinality 1 ;
   okhmeta:hasMetaTag okhmeta:PhysicalTag ;
   .
 
