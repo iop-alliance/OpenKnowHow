@@ -771,6 +771,7 @@ okh:hasOuterDimensions
   rdfs:subPropertyOf okh:productionMetadata ;
   rdfs:subPropertyOf dcterms:format ;
   vs:term_status "unstable" ;
+  vaem:todo "TODO Maybe remove this and add hasProduct (1-*) instead, each one being of type <https://schema.org/Product>, which has width, height and depth also." ;
   okhmeta:hasMetaTag okhmeta:PhysicalTag ;
   .
 
