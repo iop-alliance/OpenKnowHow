@@ -190,7 +190,7 @@ okh:Image
   okhmeta:hasMetaTag okhmeta:BasicTag ;
   .
 
-okh:OuterDimensions
+okh:Dimensions
   a owl:Class ;
   a skos:Concept ;
   rdfs:label "outer dimensions"@en ;
@@ -767,7 +767,7 @@ okh:hasOuterDimensions
   a skos:Concept ;
   rdfs:label "outer dimensions"@en ;
   rdfs:comment "defined through width, depth and height in mm"@en ;
-  schema:rangeIncludes okh:OuterDimensions ;
+  schema:rangeIncludes okh:Dimensions ;
   rdfs:subPropertyOf okh:productionMetadata ;
   rdfs:subPropertyOf dcterms:format ;
   vs:term_status "unstable" ;
@@ -792,7 +792,7 @@ okh:openSCAD
   owl:deprecated "true"^^xsd:boolean ;
   cc:deprecatedOn "2024-06-16"^^xsd:date ;
   schema:supersededBy okh:width, okh:depth, okh:height;
-  schema:domainIncludes okh:OuterDimensions ;
+  schema:domainIncludes okh:Dimensions ;
   schema:rangeIncludes xsd:string ;
   .
 
@@ -813,7 +813,7 @@ okh:width
   rdfs:comment "The outter width of the product"@en ;
   vaem:todo "TODO Define in the comment, whether this includes or excludes packaging"@en ;
   vs:term_status "unstable" ;
-  schema:domainIncludes okh:OuterDimensions ;
+  schema:domainIncludes okh:Dimensions ;
   schema:rangeIncludes xsd:float ;
   vaem:todo "TODO or should the range rather be int?"@en ;
   okhmeta:hasMetaTag okhmeta:PhysicalTag ;
@@ -826,7 +826,7 @@ okh:depth
   rdfs:comment "The outter depth of the product"@en ;
   vaem:todo "TODO Define in the comment, whether this includes or excludes packaging"@en ;
   vs:term_status "unstable" ;
-  schema:domainIncludes okh:OuterDimensions ;
+  schema:domainIncludes okh:Dimensions ;
   schema:rangeIncludes xsd:float ;
   vaem:todo "TODO or should the range rather be int?"@en ;
   okhmeta:hasMetaTag okhmeta:PhysicalTag ;
@@ -839,7 +839,7 @@ okh:height
   rdfs:comment "The outter height of the product"@en ;
   vaem:todo "TODO Define in the comment, whether this includes or excludes packaging"@en ;
   vs:term_status "unstable" ;
-  schema:domainIncludes okh:OuterDimensions ;
+  schema:domainIncludes okh:Dimensions ;
   schema:rangeIncludes xsd:float ;
   vaem:todo "TODO or should the range rather be int?"@en ;
   okhmeta:hasMetaTag okhmeta:PhysicalTag ;
@@ -855,7 +855,7 @@ okh:unit
   cc:deprecatedOn "2024-06-16"^^xsd:date ;
   schema:domainIncludes
     okh:Mass,
-    okh:OuterDimensions ;
+    okh:Dimensions ;
   .
 
 okh:value
