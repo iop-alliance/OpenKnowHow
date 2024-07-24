@@ -36,7 +36,7 @@
   okh:technologyReadinessLevel otrl:OTRL5 ;
   okh:documentationReadinessLevel otrl:ODRL4 ;
   okh:function "The Open Hardware Loom is a simple, hand-operated weaving loom made of wood, screws and 3D printed plastic parts for the most part. It is simple to make and operate." ;
-  okh:cpcPatentClass "D03D 35/00" ;
+  okh:cpcPatentClass "D03D 35/00"^^xsd:normalizedString ;
   okh:relatedTsDC tsdc:MEC ;
   okh:hasBoM :BoM ;
   okh:hasManifestFile :ManifestFile ;
@@ -65,24 +65,24 @@
 :ManifestFile
   a okh:ManifestFile ;
   rdfs:label "Manifest File of OHLOOM v1.0.0" ;
-  okh:okhv "OKH-LOSHv1.0" ;
-  okh:fileUrl "https://gitlab.com/OSEGermany/ohloom/-/raw/834222370f34ad2a07d0e41d09eb54378573b8c3/okh.toml" ;
+  okh:okhv "OKH-LOSHv1.0"^^xsd:normalizedString ;
+  okh:fileUrl "https://gitlab.com/OSEGermany/ohloom/-/raw/834222370f34ad2a07d0e41d09eb54378573b8c3/okh.toml"^^xsd:anyURI ;
   okh:fileFormat "TOML" ;
   .
 
 :Image
   a okh:Image ;
   rdfs:label "Image of OHLOOM v1.0.0" ;
-  okh:fileUrl "https://gitlab.com/OSEGermany/ohloom/-/raw/834222370f34ad2a07d0e41d09eb54378573b8c3/Documentation/User_Guide/User_Guide.jpg" ;
+  okh:fileUrl "https://gitlab.com/OSEGermany/ohloom/-/raw/834222370f34ad2a07d0e41d09eb54378573b8c3/Documentation/User_Guide/User_Guide.jpg"^^xsd:anyURI ;
   okh:fileFormat "JPG" ;
   .
 
 :Readme
   a okh:File ;
   rdfs:label "Readme of OHLOOM v1.0.0" ;
-  okh:permaURL "https://gitlab.com/OSEGermany/ohloom/-/raw/834222370f34ad2a07d0e41d09eb54378573b8c3/README.md" ;
+  okh:permaURL "https://gitlab.com/OSEGermany/ohloom/-/raw/834222370f34ad2a07d0e41d09eb54378573b8c3/README.md"^^xsd:anyURI ;
   # snap
-  okh:originalURL "https://gitlab.com/OSEGermany/ohloom/-/raw/master/README.md" ;
+  okh:originalURL "https://gitlab.com/OSEGermany/ohloom/-/raw/master/README.md"^^xsd:anyURI ;
   # ↑ default repo URL (as resolved from the TOML)
   okh:fileFormat "MD" ;
   okh:lastRequested "2021-03-26T15:15:46+00:00"^^xsd:dateTime ;
@@ -93,21 +93,21 @@
 :ManufacturingInstructions
   a okh:File ;
   rdfs:label "Manufacturing Instructions of OHLOOM v1.0.0" ;
-  okh:fileUrl "https://gitlab.com/OSEGermany/ohloom/-/raw/834222370f34ad2a07d0e41d09eb54378573b8c3/Documentation/Assembly_Guide/AssemblyGuide.md" ;
+  okh:fileUrl "https://gitlab.com/OSEGermany/ohloom/-/raw/834222370f34ad2a07d0e41d09eb54378573b8c3/Documentation/Assembly_Guide/AssemblyGuide.md"^^xsd:anyURI ;
   okh:fileFormat "MD" ;
   .
 
 :UserManual
   a okh:File ;
   rdfs:label "User Manual of OHLOOM v1.0.0" ;
-  okh:fileUrl "https://gitlab.com/OSEGermany/ohloom/-/raw/834222370f34ad2a07d0e41d09eb54378573b8c3/Documentation/User_Guide/UserGuide.md" ;
+  okh:fileUrl "https://gitlab.com/OSEGermany/ohloom/-/raw/834222370f34ad2a07d0e41d09eb54378573b8c3/Documentation/User_Guide/UserGuide.md"^^xsd:anyURI ;
   okh:fileFormat "MD" ;
   .
 
 :BoM
   a okh:File ;
   rdfs:label "Bill of Materials of OHLOOM v1.0.0" ;
-  okh:fileUrl "https://gitlab.com/OSEGermany/ohloom/-/raw/834222370f34ad2a07d0e41d09eb54378573b8c3/sBoM.csv" ;
+  okh:fileUrl "https://gitlab.com/OSEGermany/ohloom/-/raw/834222370f34ad2a07d0e41d09eb54378573b8c3/sBoM.csv"^^xsd:anyURI ;
   okh:fileFormat "CSV"
   .
 
@@ -138,28 +138,28 @@
 :ClampRing_image
   a okh:Image ;
   rdfs:label "Image of Clamp Ring of OHLOOM v1.0.0" ;
-  okh:fileUrl "https://gitlab.com/OSEGermany/ohloom/-/raw/834222370f34ad2a07d0e41d09eb54378573b8c3/Documentation/Assembly_Guide/Parts_Print_2.jpg" ;
+  okh:fileUrl "https://gitlab.com/OSEGermany/ohloom/-/raw/834222370f34ad2a07d0e41d09eb54378573b8c3/Documentation/Assembly_Guide/Parts_Print_2.jpg"^^xsd:anyURI ;
   okh:fileFormat "JPG" ;
   .
 
 :ClampRing_source
   a okh:File ;
   rdfs:label "Source File of Clamp Ring of OHLOOM v1.0.0" ;
-  okh:fileUrl "https://gitlab.com/OSEGermany/ohloom/-/raw/834222370f34ad2a07d0e41d09eb54378573b8c3/3DParts/ClampRing/ClampRing.scad" ;
+  okh:fileUrl "https://gitlab.com/OSEGermany/ohloom/-/raw/834222370f34ad2a07d0e41d09eb54378573b8c3/3DParts/ClampRing/ClampRing.scad"^^xsd:anyURI ;
   okh:fileFormat "SCAD" ;
   .
 
 :ClampRing_export1
   a okh:File ;
   rdfs:label "Export File of Clamp Ring of OHLOOM v1.0.0" ;
-  okh:fileUrl "https://gitlab.com/OSEGermany/ohloom/-/raw/834222370f34ad2a07d0e41d09eb54378573b8c3/3DParts/ClampRing/ClampRing.stl" ;
+  okh:fileUrl "https://gitlab.com/OSEGermany/ohloom/-/raw/834222370f34ad2a07d0e41d09eb54378573b8c3/3DParts/ClampRing/ClampRing.stl"^^xsd:anyURI ;
   okh:fileFormat "STL" ;
   .
 
 :ClampRing_export2
   a okh:File ;
   rdfs:label "Export File of Clamp Ring of OHLOOM v1.0.0" ;
-  okh:fileUrl "https://gitlab.com/OSEGermany/ohloom/-/raw/834222370f34ad2a07d0e41d09eb54378573b8c3/3DParts/ClampRing/ClampRing.pdf" ;
+  okh:fileUrl "https://gitlab.com/OSEGermany/ohloom/-/raw/834222370f34ad2a07d0e41d09eb54378573b8c3/3DParts/ClampRing/ClampRing.pdf"^^xsd:anyURI ;
   okh:fileFormat "PDF" ;
   .
 
@@ -190,28 +190,28 @@
 :CombModul_image
   a okh:Image ;
   rdfs:label "Image of Comb Modul of OHLOOM v1.0.0" ;
-  okh:fileUrl "https://gitlab.com/OSEGermany/ohloom/-/raw/834222370f34ad2a07d0e41d09eb54378573b8c3/Documentation/Assembly_Guide/Parts_Print_3.jpg" ;
+  okh:fileUrl "https://gitlab.com/OSEGermany/ohloom/-/raw/834222370f34ad2a07d0e41d09eb54378573b8c3/Documentation/Assembly_Guide/Parts_Print_3.jpg"^^xsd:anyURI ;
   okh:fileFormat "JPG" ;
   .
 
 :CombModul_source
   a okh:File ;
   rdfs:label "Source File of Comb Modul of OHLOOM v1.0.0" ;
-  okh:fileUrl "https://gitlab.com/OSEGermany/ohloom/-/raw/834222370f34ad2a07d0e41d09eb54378573b8c3//3DParts/CombModul/CombModul.scad" ;
+  okh:fileUrl "https://gitlab.com/OSEGermany/ohloom/-/raw/834222370f34ad2a07d0e41d09eb54378573b8c3//3DParts/CombModul/CombModul.scad"^^xsd:anyURI ;
   okh:fileFormat "SCAD" ;
   .
 
 :CombModul_export1
   a okh:File ;
   rdfs:label "Export File of Comb Modul of OHLOOM v1.0.0" ;
-  okh:fileUrl "https://gitlab.com/OSEGermany/ohloom/-/raw/834222370f34ad2a07d0e41d09eb54378573b8c3/3DParts/CombModul/CombModul.stl" ;
+  okh:fileUrl "https://gitlab.com/OSEGermany/ohloom/-/raw/834222370f34ad2a07d0e41d09eb54378573b8c3/3DParts/CombModul/CombModul.stl"^^xsd:anyURI ;
   okh:fileFormat "STL" ;
   .
 
 :CombModul_export2
   a okh:File ;
   rdfs:label "Export File of Comb Modul of OHLOOM v1.0.0" ;
-  okh:fileUrl "https://gitlab.com/OSEGermany/ohloom/-/raw/834222370f34ad2a07d0e41d09eb54378573b8c3/3DParts/CombModul/CombModul.pdf" ;
+  okh:fileUrl "https://gitlab.com/OSEGermany/ohloom/-/raw/834222370f34ad2a07d0e41d09eb54378573b8c3/3DParts/CombModul/CombModul.pdf"^^xsd:anyURI ;
   okh:fileFormat "PDF" ;
   .
 
@@ -241,21 +241,21 @@
 :PoleBase_source
   a okh:File ;
   rdfs:label "Source File of Pole Base of OHLOOM v1.0.0" ;
-  okh:fileUrl "https://gitlab.com/OSEGermany/ohloom/-/raw/834222370f34ad2a07d0e41d09eb54378573b8c3//3DParts/PoleBase/PoleBase.scad" ;
+  okh:fileUrl "https://gitlab.com/OSEGermany/ohloom/-/raw/834222370f34ad2a07d0e41d09eb54378573b8c3//3DParts/PoleBase/PoleBase.scad"^^xsd:anyURI ;
   okh:fileFormat "SCAD" ;
   .
 
 :PoleBase_export1
   a okh:File ;
   rdfs:label "Export File of Pole Base of OHLOOM v1.0.0" ;
-  okh:fileUrl "https://gitlab.com/OSEGermany/ohloom/-/raw/834222370f34ad2a07d0e41d09eb54378573b8c3/3DParts/PoleBase/PoleBase.stl" ;
+  okh:fileUrl "https://gitlab.com/OSEGermany/ohloom/-/raw/834222370f34ad2a07d0e41d09eb54378573b8c3/3DParts/PoleBase/PoleBase.stl"^^xsd:anyURI ;
   okh:fileFormat "STL" ;
   .
 
 :PoleBase_export2
   a okh:File ;
   rdfs:label "Export File of Pole Base of OHLOOM v1.0.0" ;
-  okh:fileUrl "https://gitlab.com/OSEGermany/ohloom/-/raw/834222370f34ad2a07d0e41d09eb54378573b8c3/3DParts/PoleBase/PoleBase.pdf" ;
+  okh:fileUrl "https://gitlab.com/OSEGermany/ohloom/-/raw/834222370f34ad2a07d0e41d09eb54378573b8c3/3DParts/PoleBase/PoleBase.pdf"^^xsd:anyURI ;
   okh:fileFormat "PDF" ;
   .
 
@@ -286,28 +286,28 @@
 :RatchetPawl_image
   a okh:Image ;
   rdfs:label "Image of Ratchet Pawl of OHLOOM v1.0.0" ;
-  okh:fileUrl "https://gitlab.com/OSEGermany/ohloom/-/raw/834222370f34ad2a07d0e41d09eb54378573b8c3/Documentation/Assembly_Guide/Parts_Print_4.jpg" ;
+  okh:fileUrl "https://gitlab.com/OSEGermany/ohloom/-/raw/834222370f34ad2a07d0e41d09eb54378573b8c3/Documentation/Assembly_Guide/Parts_Print_4.jpg"^^xsd:anyURI ;
   okh:fileFormat "JPG" ;
   .
 
 :RatchetPawl_source
   a okh:File ;
   rdfs:label "Source File of Ratchet Pawl of OHLOOM v1.0.0" ;
-  okh:fileUrl "https://gitlab.com/OSEGermany/ohloom/-/raw/834222370f34ad2a07d0e41d09eb54378573b8c3//3DParts/RatchetPawl/RatchetPawl.scad" ;
+  okh:fileUrl "https://gitlab.com/OSEGermany/ohloom/-/raw/834222370f34ad2a07d0e41d09eb54378573b8c3//3DParts/RatchetPawl/RatchetPawl.scad"^^xsd:anyURI ;
   okh:fileFormat "SCAD" ;
   .
 
 :RatchetPawl_export1
   a okh:File ;
   rdfs:label "Export File of Ratchet Pawl of OHLOOM v1.0.0" ;
-  okh:fileUrl "https://gitlab.com/OSEGermany/ohloom/-/raw/834222370f34ad2a07d0e41d09eb54378573b8c3/3DParts/RatchetPawl/RatchetPawl.stl" ;
+  okh:fileUrl "https://gitlab.com/OSEGermany/ohloom/-/raw/834222370f34ad2a07d0e41d09eb54378573b8c3/3DParts/RatchetPawl/RatchetPawl.stl"^^xsd:anyURI ;
   okh:fileFormat "STL" ;
   .
 
 :RatchetPawl_export2
   a okh:File ;
   rdfs:label "Export File of Ratchet Pawl of OHLOOM v1.0.0" ;
-  okh:fileUrl "https://gitlab.com/OSEGermany/ohloom/-/raw/834222370f34ad2a07d0e41d09eb54378573b8c3/3DParts/CombModul/CombModul.pdf" ;
+  okh:fileUrl "https://gitlab.com/OSEGermany/ohloom/-/raw/834222370f34ad2a07d0e41d09eb54378573b8c3/3DParts/CombModul/CombModul.pdf"^^xsd:anyURI ;
   okh:fileFormat "PDF" ;
   .
 
@@ -338,27 +338,27 @@
 :RatchetWheel_image
   a okh:Image ;
   rdfs:label "Image of Ratchet Wheel of OHLOOM v1.0.0" ;
-  okh:fileUrl "https://gitlab.com/OSEGermany/ohloom/-/raw/834222370f34ad2a07d0e41d09eb54378573b8c3/Documentation/Assembly_Guide/Parts_Print_1.jpg" ;
+  okh:fileUrl "https://gitlab.com/OSEGermany/ohloom/-/raw/834222370f34ad2a07d0e41d09eb54378573b8c3/Documentation/Assembly_Guide/Parts_Print_1.jpg"^^xsd:anyURI ;
   okh:fileFormat "JPG" ;
   .
 
 :RatchetWheel_source
   a okh:File ;
   rdfs:label "Source File of Ratchet Wheel of OHLOOM v1.0.0" ;
-  okh:fileUrl "https://gitlab.com/OSEGermany/ohloom/-/raw/834222370f34ad2a07d0e41d09eb54378573b8c3//3DParts/RatchetWheel/RatchetWheel.scad" ;
+  okh:fileUrl "https://gitlab.com/OSEGermany/ohloom/-/raw/834222370f34ad2a07d0e41d09eb54378573b8c3//3DParts/RatchetWheel/RatchetWheel.scad"^^xsd:anyURI ;
   okh:fileFormat "SCAD" ;
   .
 
 :RatchetWheel_export1
   a okh:File ;
   rdfs:label "Export File of Ratchet Wheel of OHLOOM v1.0.0" ;
-  okh:fileUrl "https://gitlab.com/OSEGermany/ohloom/-/raw/834222370f34ad2a07d0e41d09eb54378573b8c3/3DParts/RatchetWheel/RatchetWheel.stl" ;
+  okh:fileUrl "https://gitlab.com/OSEGermany/ohloom/-/raw/834222370f34ad2a07d0e41d09eb54378573b8c3/3DParts/RatchetWheel/RatchetWheel.stl"^^xsd:anyURI ;
   okh:fileFormat "STL" ;
   .
 
 :RatchetWheel_export2
   a okh:File ;
   rdfs:label "Export File of Ratchet Wheel of OHLOOM v1.0.0" ;
-  okh:fileUrl "https://gitlab.com/OSEGermany/ohloom/-/raw/834222370f34ad2a07d0e41d09eb54378573b8c3/3DParts/RatchetWheel/RatchetWheel.pdf" ;
+  okh:fileUrl "https://gitlab.com/OSEGermany/ohloom/-/raw/834222370f34ad2a07d0e41d09eb54378573b8c3/3DParts/RatchetWheel/RatchetWheel.pdf"^^xsd:anyURI ;
   okh:fileFormat "PDF" ;
 .

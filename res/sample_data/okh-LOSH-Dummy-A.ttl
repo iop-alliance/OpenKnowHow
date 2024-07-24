@@ -33,7 +33,7 @@
   okh:technologyReadinessLevel otrl:OTRL5 ;
   okh:documentationReadinessLevel otrl:ODRL4 ;
   okh:function "Doesn't do much, yet." ;
-  okh:cpcPatentClass "D03D 35/00" ;
+  okh:cpcPatentClass "D03D 35/00"^^xsd:normalizedString ;
   okh:relatedTsDC tsdc:MEC ;
   okh:hasBoM :BoM ;
   okh:hasManifestFile :ManifestFile ;
@@ -71,35 +71,35 @@
   a okh:ManifestFile ;
   rdfs:label "Manifest File of LOSHdummyMOSHA v1.0.1" ;
   okh:okhv "OKH-LOSHv1.0" ;
-  okh:fileUrl "https://github.com/OPEN-NEXT/LOSH-dummy-MOSH-A/blob/ae7f9c3cb4dade6f70e2a513bb5b4739ed1a9a5c/okh.toml" ;
+  okh:fileUrl "https://github.com/OPEN-NEXT/LOSH-dummy-MOSH-A/blob/ae7f9c3cb4dade6f70e2a513bb5b4739ed1a9a5c/okh.toml"^^xsd:anyURI ;
   okh:fileFormat "TOML" ;
   .
 
 :OHLOOM_image
   a okh:Image ;
   rdfs:label "Image of LOSHdummyMOSHA v1.0.1" ;
-  okh:fileUrl "https://github.com/OPEN-NEXT/LOSH-dummy-MOSH-A/blob/ae7f9c3cb4dade6f70e2a513bb5b4739ed1a9a5c/Documentation/ASM-image.png" ;
+  okh:fileUrl "https://github.com/OPEN-NEXT/LOSH-dummy-MOSH-A/blob/ae7f9c3cb4dade6f70e2a513bb5b4739ed1a9a5c/Documentation/ASM-image.png"^^xsd:anyURI ;
   okh:fileFormat "JPG" ;
   .
 
 :Readme
   a okh:File ;
   rdfs:label "Readme of LOSHdummyMOSHA v1.0.1" ;
-  okh:fileUrl "https://github.com/OPEN-NEXT/LOSH-dummy-MOSH-A/blob/ae7f9c3cb4dade6f70e2a513bb5b4739ed1a9a5c/README.md" ;
+  okh:fileUrl "https://github.com/OPEN-NEXT/LOSH-dummy-MOSH-A/blob/ae7f9c3cb4dade6f70e2a513bb5b4739ed1a9a5c/README.md"^^xsd:anyURI ;
   okh:fileFormat "MD" ;
   .
 
 :OHLOOM_manufacturingInstructions
   a okh:File ;
   rdfs:label "Manufacturing Instructions of LOSHdummyMOSHA v1.0.1" ;
-  okh:fileUrl "https://github.com/OPEN-NEXT/LOSH-dummy-MOSH-A/blob/ae7f9c3cb4dade6f70e2a513bb5b4739ed1a9a5c/Documentation/AssemblyGuide.md" ;
+  okh:fileUrl "https://github.com/OPEN-NEXT/LOSH-dummy-MOSH-A/blob/ae7f9c3cb4dade6f70e2a513bb5b4739ed1a9a5c/Documentation/AssemblyGuide.md"^^xsd:anyURI ;
   okh:fileFormat "MD" ;
   .
 
 :BoM
   a okh:File ;
   rdfs:label "Bill of Materials of LOSHdummyMOSHA v1.0.1" ;
-  okh:fileUrl "https://github.com/OPEN-NEXT/LOSH-dummy-MOSH-A/blob/ae7f9c3cb4dade6f70e2a513bb5b4739ed1a9a5c/sBoM.csv" ;
+  okh:fileUrl "https://github.com/OPEN-NEXT/LOSH-dummy-MOSH-A/blob/ae7f9c3cb4dade6f70e2a513bb5b4739ed1a9a5c/sBoM.csv"^^xsd:anyURI ;
   okh:fileFormat "CSV" ;
   .
 
@@ -130,28 +130,28 @@
 :ClampRing_image
   a okh:Image ;
   rdfs:label "Image of Clamp Ring of LOSHdummyMOSHA v1.0.1" ;
-  okh:fileUrl "https://github.com/OPEN-NEXT/LOSH-dummy-MOSH-A/blob/ae7f9c3cb4dade6f70e2a513bb5b4739ed1a9a5c/Documentation/part-pictures/Parts_Print_2.jpg" ;
+  okh:fileUrl "https://github.com/OPEN-NEXT/LOSH-dummy-MOSH-A/blob/ae7f9c3cb4dade6f70e2a513bb5b4739ed1a9a5c/Documentation/part-pictures/Parts_Print_2.jpg"^^xsd:anyURI ;
   okh:fileFormat "JPG" ;
   .
 
 :ClampRing_source
   a okh:File ;
   rdfs:label "Source File of Clamp Ring of LOSHdummyMOSHA v1.0.1" ;
-  okh:fileUrl "https://github.com/OPEN-NEXT/LOSH-dummy-MOSH-A/blob/ae7f9c3cb4dade6f70e2a513bb5b4739ed1a9a5c/3DParts/ClampRing/ClampRing.scad" ;
+  okh:fileUrl "https://github.com/OPEN-NEXT/LOSH-dummy-MOSH-A/blob/ae7f9c3cb4dade6f70e2a513bb5b4739ed1a9a5c/3DParts/ClampRing/ClampRing.scad"^^xsd:anyURI ;
   okh:fileFormat "SCAD" ;
   .
 
 :ClampRing_export1
   a okh:File ;
   rdfs:label "Export File of Clamp Ring of LOSHdummyMOSHA v1.0.1" ;
-  okh:fileUrl "https://github.com/OPEN-NEXT/LOSH-dummy-MOSH-A/blob/ae7f9c3cb4dade6f70e2a513bb5b4739ed1a9a5c/3DParts/ClampRing/ClampRing.stl" ;
+  okh:fileUrl "https://github.com/OPEN-NEXT/LOSH-dummy-MOSH-A/blob/ae7f9c3cb4dade6f70e2a513bb5b4739ed1a9a5c/3DParts/ClampRing/ClampRing.stl"^^xsd:anyURI ;
   okh:fileFormat "STL" ;
   .
 
 :ClampRing_export2
   a okh:File ;
   rdfs:label "Export File of Clamp Ring of LOSHdummyMOSHA v1.0.1" ;
-  okh:fileUrl "https://github.com/OPEN-NEXT/LOSH-dummy-MOSH-A/blob/ae7f9c3cb4dade6f70e2a513bb5b4739ed1a9a5c/3DParts/ClampRing/ClampRing.pdf" ;
+  okh:fileUrl "https://github.com/OPEN-NEXT/LOSH-dummy-MOSH-A/blob/ae7f9c3cb4dade6f70e2a513bb5b4739ed1a9a5c/3DParts/ClampRing/ClampRing.pdf"^^xsd:anyURI ;
   okh:fileFormat "PDF" ;
   .
 
@@ -159,5 +159,5 @@
   a okh:Software ;
   rdfs:label "Zettlr" ;
   okh:release "https://github.com/Zettlr/Zettlr/releases/tag/v1.8.7" ;
-  okh:installationGuide "https://github.com/Zettlr/Zettlr/blob/0e80c56063884f769349cb21f0712b12e97f9d4b/README.md" ;
+  okh:installationGuide "https://github.com/Zettlr/Zettlr/blob/0e80c56063884f769349cb21f0712b12e97f9d4b/README.md"^^xsd:anyURI ;
   .
