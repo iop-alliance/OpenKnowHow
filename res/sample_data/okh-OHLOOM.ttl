@@ -21,12 +21,12 @@
   a okh:Module ;
   rdfs:label "OHLOOM" ;
   okh:versionOf <https://github.com/iop-alliance/OpenKnowHow/raw/master/res/sample_data/okh-sample-OHLOOM.ttl> ;
-  okh:repo "https://gitlab.com/OSEGermany/ohloom" ;
+  okh:repo "https://gitlab.com/OSEGermany/ohloom"^^xsd:anyURI ;
   okh:dataSource "GitHub";
   okh:repoHost "GitLab";
   okh:version "0.10.0" ;
   # change tag to 1.0.0 in repo when CAB-review is done
-  okh:release "https://gitlab.com/OSEGermany/ohloom/-/tags/ohloom-0.10.0" ;
+  okh:release "https://gitlab.com/OSEGermany/ohloom/-/tags/ohloom-0.10.0"^^xsd:anyURI ;
   okh:license spdxl:CC-BY-SA-4.0 ;
   #okh:licenseExpression "CC-BY-SA-4.0"^^xsd:normalizedString ;
   okh:licensor "Jens Meisner" ;

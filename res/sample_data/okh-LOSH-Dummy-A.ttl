@@ -21,9 +21,9 @@
   a okh:Module ;
   rdfs:label "LOSH Dummy MOSH-A" ;
   okh:versionOf <https://github.com/OPEN-NEXT/LOSH-dummy-MOSH-A#LOSHdummyMOSHA> ;
-  okh:repo "https://github.com/OPEN-NEXT/LOSH-dummy-MOSH-A" ;
+  okh:repo "https://github.com/OPEN-NEXT/LOSH-dummy-MOSH-A"^^xsd:anyURI ;
   okh:version "1.0.2" ;
-  okh:release "https://github.com/OPEN-NEXT/LOSH-dummy-MOSH-A/releases/tag/1.0.1" ;
+  okh:release "https://github.com/OPEN-NEXT/LOSH-dummy-MOSH-A/releases/tag/1.0.1"^^xsd:anyURI ;
   okh:license spdxl:CERN-OHL-S-2.0 ;
   #okh:licenseExpression "CERN-OHL-S-2.0"^^xsd:normalizedString ;
   okh:licensor "Martin Häuer" ;
