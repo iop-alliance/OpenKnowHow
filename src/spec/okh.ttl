@@ -335,7 +335,7 @@ okh:forkOf
   rdfs:comment "Indicates that thie project was split of (aka forked) from an other project at some ponit in the past"@en ;
   rdfs:subPropertyOf schema:isBasedOn ;
   vs:term_status "unstable" ;
-  owl:cardinality 1 ;
+  owl:maxCardinality 1 ;
   schema:domainIncludes
     okh:Module,
     okh:Part ;
