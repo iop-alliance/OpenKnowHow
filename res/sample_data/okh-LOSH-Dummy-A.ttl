@@ -58,7 +58,7 @@
 
 :PubStethoscope
   a okh:Publication ;
-  okh:doi <https://doi.org/10.1371/journal.pone.0193087>;
+  okh:doi "https://doi.org/10.1371/journal.pone.0193087"^^xsd:anyURI;
   .
 
 :DIN5008
