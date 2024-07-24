@@ -102,7 +102,7 @@
 # [4. http://purl.org/dc/terms/SizeOrDuration](http://purl.org/dc/terms/SizeOrDuration)
 
 
-## [4.1. OuterDimensions](https://w3id.org/oseg/ont/okh#OuterDimensions)
+## [4.1. Dimensions](https://w3id.org/oseg/ont/okh#Dimensions)
 
 * [**okhmetahasMetaTag**](https://w3id.org/oseg/ont/okhmetahasMetaTag) [okhmetaTransportationTag](https://w3id.org/oseg/ont/okhmetaTransportationTag)
 * [**okhmetahasMetaTag**](https://w3id.org/oseg/ont/okhmetahasMetaTag) [okhmetaPhysicalTag](https://w3id.org/oseg/ont/okhmetaPhysicalTag)
