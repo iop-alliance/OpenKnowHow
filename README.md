@@ -42,7 +42,7 @@ in decending order:
     which are commonly used as the source files by the projects or project platforms
     to store/transmit the projects data,
     even though the _real_ data is always the RDF form
-   (which can be generated from these manifests).
+    (which can be generated from these manifests).
 
 The work here is based on the [Open Know-How Specification v1.0.0](
 https://standards.internetofproduction.org/pub/okh/release/1),
@@ -136,12 +136,12 @@ On git-based systems, every repository represents exactly one module
 **Who's the end-user you have in mind?**
 
 1. developers\
-  the whole thing here is first and foremost about **design reuse**
+    the whole thing here is first and foremost about **design reuse**
 2. manufacturers / service providers \
-  find OSH published under a free/open license
-  (we perform quality checks) so that you can modify, replicate and exploit OSH products
-  however you like e.g. for cases of decentralised (mass) production,
-  maintenance and service provision – or just for yourself.
+    find OSH published under a free/open license
+    (we perform quality checks) so that you can modify, replicate and exploit OSH products
+    however you like e.g. for cases of decentralised (mass) production,
+    maintenance and service provision – or just for yourself.
 
 **What's the problem this thing is solving?
 Or rather, how does this 'tool' look like?**
@@ -149,10 +149,10 @@ Or rather, how does this 'tool' look like?**
 1. It's a powerful filter for OSH. Find what you actually need.
 2. It's a knowledge base capable to
     1. answer complex questions like
-      "What development platforms are mainly used among OSH projects
-      that got certified by OSHWA or attested according to DIN SPEC 3105-2?";
+        "What development platforms are mainly used among OSH projects
+        that got certified by OSHWA or attested according to DIN SPEC 3105-2?";
     2. cross-link information
-      (e.g. ongoing research with OSH designs (e.g. in case of COVID-19)).
+        (e.g. ongoing research with OSH designs (e.g. in case of COVID-19)).
 
 **What are use cases of the ontology?**
 
