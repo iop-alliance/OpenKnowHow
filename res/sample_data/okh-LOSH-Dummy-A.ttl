@@ -13,6 +13,7 @@
 @prefix rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs:     <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix schema:   <http://schema.org/> .
+@prefix spdxl:    <https://spdx.org/licenses/> .
 @prefix tsdc:     <https://w3id.org/oseg/ont/tsdc/core#> .
 @prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
 
@@ -23,7 +24,8 @@
   okh:repo "https://github.com/OPEN-NEXT/LOSH-dummy-MOSH-A" ;
   okh:version "1.0.2" ;
   okh:release "https://github.com/OPEN-NEXT/LOSH-dummy-MOSH-A/releases/tag/1.0.1" ;
-  okh:spdxLicense "CERN-OHL-S-2.0" ;
+  okh:license spdxl:CERN-OHL-S-2.0 ;
+  #okh:licenseExpression "CERN-OHL-S-2.0"^^xsd:normalizedString ;
   okh:licensor "Martin Häuer" ;
   okh:organization "Fraunhofer IPK" ;
   okh:timestamp "Jan 27, 2021 6:06pm GMT+0100" ;
