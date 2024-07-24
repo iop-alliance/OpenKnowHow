@@ -38,7 +38,7 @@ in decending order:
     The source file of the Open Technology&Documentation Readiness Levels Specification
     (used by _okh.ttl_)
 3. <src/schema/okh.schema.json> -
-    The [JSON Schema] for the (TOML) manifests,
+    The [JSON Schema] for the ([TOML]) manifests,
     which are commonly used as the source files by the projects or project platforms
     to store/transmit the projects data,
     even though the _real_ data is always the RDF form
@@ -61,22 +61,34 @@ as a new major version of the specification.
 
 ### History
 
-Since May 2024, OKH LOSH was adopted by its spiritual mother [IoPA] once again,
+Since May 2024,
+OKH LOSH was adopted by its spiritual mother [IoPA]
+(formerly _MakerNet Alliance_) once again,
 as the now official successor to OKH v1. \
 This was a great social and political achievement,
-with lots os arguing from OSEG,
-ice- and ground-breaking by Sarah Hutton from IoPA,
-and a final floud of good will and courage by Nathan from IoPA.
+with lots of arguing by [Open Source Ecology Germany e.V. (OSEG)][OSEG],
+ice- and ground-breaking by Sarah Hutton from [IoPA],
+and a final flood of good will and courage by Nathan from [IoPA].
 
-Since the end of _OPEN!NEXT_ (see next paragraph),
-[Open Source Ecology Germany e.V. (OSEG)][OSEG] maintained OKH LOSH -
+Since February 2022,
+OKH LOSH was continued within the [INTERFACER] project.
+
+After March 2023,
+[OSEG] maintained OKH LOSH -
 which was the most advanced and most active OKH version between 2020 and 2024.
+Part of that work was done within the [DAPSI] project,
+while most of it was community work.
 
-Until February 2022, the LOSH variety of the OKH standard -
+From early 2020,
+the LOSH variety of the OKH standard -
 which was the most advanced and most active OKH version until 2024 -
-was an [OPEN!NEXT](https://opennext.eu/) project,
+was developed as an [OPEN!NEXT] project,
 which was a collaboration between 19 industry and academic partners
 across Europe.
+
+<details>
+<summary>more about OPEN!NEXT</summary>
+
 Funded by the [European Union](https://europa.eu/)'s
 [Horizon 2020](https://ec.europa.eu/programmes/horizon2020/) program,
 this project seeks to enable small and medium enterprises (SMEs)
@@ -95,7 +107,7 @@ When put in practice,
 these freedoms could potentially not only reduce proprietary vendor lock-in,
 planned obsolescence, or waste but also stimulate novel –
 even disruptive – business models.
-The SME partners in OPENNEXT are experimenting
+The SME partners in [OPEN!NEXT] are experimenting
 with producing open source hardware and even opening up the development process
 to wider community participation.
 They produce diverse products ranging from [desks](https://stykka.com/),
@@ -103,11 +115,33 @@ They produce diverse products ranging from [desks](https://stykka.com/),
 to a [digital scientific instrument platform](https://pslab.io/)
 (and [more](https://opennext.eu/project-team/#sme)).
 
-The work carried out in this repository is subject to WP3 of OPEN!NEXT
+The work carried out in this repository was subject to WP3 of [OPEN!NEXT]
 ("Supporting production engineering with ICT infrastructure")
 and lead by the [department of Information and Process Control
 at the Fraunhofer Institute for Production Systems and Design Technology](
 https://www.ipk.fraunhofer.de/en/about-us/organization/virtual-product-creation.html).
+
+</details>
+
+In mid 2019,
+the first draft of OKH has been crafted,
+and OKH v1 was released in the end of the same year
+by a consortium of 10 organizations:
+
+- [Appropedia]
+- [Careables](https://www.careables.org/)
+- [Docubricks](http://docubricks.com/)
+- [e-NABLE](https://enablingthefuture.org/)
+- [Humanitarian Makers](https://www.humanitarianmakers.org/)
+- _MakerNet Alliance_ (now [IoPA])
+- [Open Source Ecology Germany e.V.][OSEG]
+- [Open Source Hardware Association][OSHWA]
+- [Wevolver](https://www.wevolver.com/)
+- [WikiFactory](https://wikifactory.com/)
+
+lead by the _MakerNet Alliance_,
+under a grant from the [The Shuttleworth Foundation](
+https://www.shuttleworthfoundation.org/).
 
 ### tl;dr
 
@@ -222,6 +256,7 @@ Developed and published in this repository here :)
 
 Our CI automatically generates [exports from the TTL source](
 https://open-next.github.io/OKH-LOSH/).
+
 You can find:
 
 - Markdown files laying out the structure,
@@ -271,3 +306,10 @@ boils down to the history of invention of better tools." \
 
 [IoPA]: https://www.internetofproduction.org/
 [OSEG]: https://www.ose-germany.de/
+[OSHWA]: https://www.oshwa.org/
+[Appropedia]: https://www.appropedia.org/
+[DAPSI]: https://dapsi.ngi.eu/
+[OPEN!NEXT]: https://opennext.eu/
+[JSON Schema]: https://json-schema.org/
+[TOML]: https://toml.io/en/
+[INTERFACER]: https://www.interfacerproject.eu/
