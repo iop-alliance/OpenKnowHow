@@ -82,11 +82,11 @@ Funded by the [European Union](https://europa.eu/)'s
 this project seeks to enable small and medium enterprises (SMEs)
 to work with consumers, makers, and other communities in rethinking
 how products are designed and produced.
-[Open source hardware](https://www.oshwa.org/definition/)
+[Open Source Hardware](https://www.oshwa.org/definition/)
 is a key enabler of this goal
 where the design of a physical product is released with the freedoms
 for anyone to study, modify, share, and redistribute copies.
-These essential freedoms are based on those of [open source software](
+These essential freedoms are based on those of [Open Source Software](
 https://opensource.org/osd),
 which is itself derived from [free software](
 https://www.gnu.org/philosophy/free-sw.en.html)
