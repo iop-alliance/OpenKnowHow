@@ -278,7 +278,7 @@ okh:uploadMethod
   rdfs:label "upload method"@en ;
   rdfs:comment "e.g. auto (fully integrated platforms) or manifest file (for connected platforms)"@en ;
   vs:term_status "unstable" ;
-  schema:rangeIncludes xsd:string ;
+  schema:rangeIncludes xsd:normalizedString ;
   schema:domainIncludes okh:Component ;
   owl:cardinality 1 ;
   okhmeta:hasMetaTag okhmeta:DataGatheringTag ;
@@ -595,7 +595,7 @@ please use this resource:
   rdfs:subPropertyOf patent:classificationIPCInventive;
   vs:term_status "unstable" ;
   schema:domainIncludes okh:Module ;
-  schema:rangeIncludes xsd:string ;
+  schema:rangeIncludes xsd:normalizedString ;
   okhmeta:hasMetaTag okhmeta:BasicTag ;
   okhmeta:hasMetaTag okhmeta:IdentificationTag ;
   .
@@ -619,7 +619,7 @@ okh:standardID
   rdfs:comment "document identifier for the technical standard"@en ;
   rdfs:subPropertyOf dcterms:identifier ;
   vs:term_status "unstable" ;
-  schema:rangeIncludes xsd:string ;
+  schema:rangeIncludes xsd:normalizedString ;
   schema:domainIncludes okh:Standard ;
   okhmeta:hasMetaTag okhmeta:QualityTag ;
   .
@@ -924,7 +924,7 @@ okh:relativePath
   #      which links to this: <https://commons.apache.org/proper/commons-vfs/filesystems.html#Local_Files>,
   #      which does not allow for relative paths, only for absolute ones.
   #      (Searched with <https://lov.linkeddata.es/dataset/lov/terms>)
-  schema:rangeIncludes xsd:string ;
+  schema:rangeIncludes xsd:normalizedString ;
   okhmeta:hasMetaTag okhmeta:DataTag ;
   .
 
