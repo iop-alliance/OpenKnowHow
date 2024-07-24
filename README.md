@@ -251,7 +251,7 @@ the crawler that collects all the data:
 ## Want to contribute?
 
 'til we have a proper contribution guide,
-just join our group on [telegram](
+just join our group on [Telegram](
 https://t.me/joinchat/FiYCVhD-NPfpMr5PnZaiNQ)
 :)
 
