@@ -182,7 +182,8 @@ Or rather, how does this 'tool' look like?**
 
 **We want to organise open source hardware in a graph database.**
 
-There's a [long list](doc/requirements/LinkedData_Qs.md) of cool use cases of such a knowledge base.
+There's a long list of [cool use cases](doc/requirements/LinkedData_Qs.md)
+of such a knowledge base.
 Lots of information (including the technical documentation itself)
 could be stored as linked open data or simply linked together.
 
