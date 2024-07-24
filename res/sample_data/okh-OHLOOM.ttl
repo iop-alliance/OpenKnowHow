@@ -40,8 +40,8 @@
   okh:relatedTsDC tsdc:MEC ;
   okh:hasBoM :BoM ;
   okh:hasManifestFile :ManifestFile ;
+  # the following is a custom field, not defined in the OKH ontology
   :fabricWidthMM "400"^^xsd:float ;
-  # that's a custom field not defined in the okh ontology
   okh:hasOuterDimensions :OuterDimensionsOHLOOM ;
   okh:hasManufacturingInstructions :ManufacturingInstructions ;
   okh:hasUserManual :UserManual ;

@@ -37,6 +37,7 @@
   okh:relatedTsDC tsdc:MEC ;
   okh:hasBoM :BoM ;
   okh:hasManifestFile :ManifestFile ;
+  # the following is a custom field, not defined in the OKH ontology
   :rpm "666"^^xsd:float ;
   okh:hasOuterDimensions :OuterDimensionsLOSHdummyMOSHA ;
   okh:hasManufacturingInstructions :LOSHdummyMOSHA_manufacturingInstructions ;
