@@ -28,7 +28,7 @@
   a owl:Ontology ;
   a spdxt:File ;
   vann:preferredNamespacePrefix "okh" ;
-  vann:preferredNamespaceUri "https://w3id.org/oseg/ont/okh#" ;
+  vann:preferredNamespaceUri "https://w3id.org/oseg/ont/okh#"^^xsd:anyURI ;
   owl:versionInfo "1.1.0" ;
   owl:versionIRI <https://w3id.org/oseg/ont/1.1.0/okh> ;
   dcterms:title "Open Know How (OKH) ontology"@en ;
@@ -62,13 +62,13 @@ The `schema:*` properties give us just that.'''@en ;
   dcterms:publisher osegprof:Iopa ;
   dcterms:issued "2021-08-24T16:32:33Z"^^xsd:dateTimeStamp ;
   dcterms:modified "2022-02-22T12:01:28Z"^^xsd:dateTimeStamp ;
-  dcterms:license "https://www.gnu.org/licenses/gpl-3.0.txt" ;
-  cc:license "https://www.gnu.org/licenses/gpl-3.0.txt" ;
+  dcterms:license "https://www.gnu.org/licenses/gpl-3.0.txt"^^xsd:anyURI ;
+  cc:license "https://www.gnu.org/licenses/gpl-3.0.txt"^^xsd:anyURI ;
   spdxt:licenseDeclared spdxl:GPL-3.0-or-later ;
-  dcterms:source "https://github.com/iop-alliance/OpenKnowHow/master/src/spec/okh.ttl" ;
-  schema:codeRepository "https://github.com/iop-alliance/OpenKnowHow/" ;
+  dcterms:source "https://github.com/iop-alliance/OpenKnowHow/master/src/spec/okh.ttl"^^xsd:anyURI ;
+  schema:codeRepository "https://github.com/iop-alliance/OpenKnowHow/"^^xsd:anyURI ;
   dcat:keyword "OKH", "hardware", "design", "open-source", "open-source-hardware", "project" ;
-  dcat:contactPoint "https://github.com/iop-alliance/OpenKnowHow/" ;
+  dcat:contactPoint "https://github.com/iop-alliance/OpenKnowHow/"^^xsd:anyURI ;
   .
 
 okh:Component
@@ -278,7 +278,7 @@ okh:uploadMethod
   rdfs:label "upload method"@en ;
   rdfs:comment "e.g. auto (fully integrated platforms) or manifest file (for connected platforms)"@en ;
   vs:term_status "unstable" ;
-  schema:rangeIncludes xsd:string ;
+  schema:rangeIncludes xsd:normalizedString ;
   schema:domainIncludes okh:Component ;
   owl:cardinality 1 ;
   okhmeta:hasMetaTag okhmeta:DataGatheringTag ;
@@ -335,7 +335,7 @@ okh:forkOf
   rdfs:comment "Indicates that thie project was split of (aka forked) from an other project at some ponit in the past"@en ;
   rdfs:subPropertyOf schema:isBasedOn ;
   vs:term_status "unstable" ;
-  owl:cardinality 1 ;
+  owl:maxCardinality 1 ;
   schema:domainIncludes
     okh:Module,
     okh:Part ;
@@ -595,7 +595,7 @@ please use this resource:
   rdfs:subPropertyOf patent:classificationIPCInventive;
   vs:term_status "unstable" ;
   schema:domainIncludes okh:Module ;
-  schema:rangeIncludes xsd:string ;
+  schema:rangeIncludes xsd:normalizedString ;
   okhmeta:hasMetaTag okhmeta:BasicTag ;
   okhmeta:hasMetaTag okhmeta:IdentificationTag ;
   .
@@ -619,7 +619,7 @@ okh:standardID
   rdfs:comment "document identifier for the technical standard"@en ;
   rdfs:subPropertyOf dcterms:identifier ;
   vs:term_status "unstable" ;
-  schema:rangeIncludes xsd:string ;
+  schema:rangeIncludes xsd:normalizedString ;
   schema:domainIncludes okh:Standard ;
   okhmeta:hasMetaTag okhmeta:QualityTag ;
   .
@@ -924,7 +924,7 @@ okh:relativePath
   #      which links to this: <https://commons.apache.org/proper/commons-vfs/filesystems.html#Local_Files>,
   #      which does not allow for relative paths, only for absolute ones.
   #      (Searched with <https://lov.linkeddata.es/dataset/lov/terms>)
-  schema:rangeIncludes xsd:string ;
+  schema:rangeIncludes xsd:normalizedString ;
   okhmeta:hasMetaTag okhmeta:DataTag ;
   .
 
