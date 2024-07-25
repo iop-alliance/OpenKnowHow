@@ -32,12 +32,12 @@ in an open graph database._**
 The most important files in this repo,
 in descending order:
 
-1. <src/spec/okh.ttl> -
+1. [src/spec/okh.ttl](src/spec/okh.ttl) -
     The main source file of this Specification
-2. <src/spec/otrl.ttl> -
+2. [src/spec/otrl.ttl](src/spec/otrl.ttl) -
     The source file of the Open Technology&Documentation Readiness Levels Specification
     (used by _okh.ttl_)
-3. <src/schema/okh.schema.json> -
+3. [src/schema/okh.schema.json](src/schema/okh.schema.json) -
     The [JSON Schema] for the ([TOML]) manifests,
     which are commonly used as the source files by the projects or project platforms
     to store/transmit the projects data,
