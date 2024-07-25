@@ -30,7 +30,7 @@ in an open graph database._**
   web-UI to create meta-data for a project
 
 The most important files in this repo,
-in decending order:
+in descending order:
 
 1. <src/spec/okh.ttl> -
     The main source file of this Specification
@@ -188,7 +188,7 @@ Or rather, how does this 'tool' look like?**
     2. cross-link information
         (e.g. ongoing research with OSH designs (e.g. in case of COVID-19)).
 
-**What are use cases of the ontology?**
+**What are use-cases of the ontology?**
 
 - find the OSH that solves your problem
   (→ **linking OSH modules with functional categories**)
@@ -196,7 +196,7 @@ Or rather, how does this 'tool' look like?**
     file formats…
   - e.g. search for corona-related projects
 - provide portable metadata: OSH can be published on various platforms
-- facilitate packaging: essential files can be directly linked in the metadata so:
+- facilitate packaging: essential files can be directly linked in the metadata, so:
   - we can run periodic tests to see whether files are still online,
   - you can download those files directly from the LOSH front-end
 - RDF enables custom use cases
