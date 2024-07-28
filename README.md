@@ -236,7 +236,7 @@ The future could bring e.g.:
 
 ![data-flow illustration](res/media/img/dataflow-principle.svg)
 
-## Modules used
+## Ecosystem
 
 ### This standard
 
