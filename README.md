@@ -253,7 +253,8 @@ Developed and published in this repository here :)
   - The [Open Know-How Metadata Standard](https://standards.internetofproduction.org/pub/okh/release/1)
     gives a first approach to organise OSH through reasonable metadata.
 
-**Can I see the ontology structure somewhere?**
+<details>
+<summary>Can I see the ontology structure somewhere?</summary>
 
 Our CI automatically generates [exports from the TTL source](
 https://iop-alliance.github.io/OpenKnowHow/).
@@ -266,6 +267,8 @@ You can find:
 
 Note that when invalid TTL files are pushed,
 the CI will give back an error and no exports will be available.
+
+</details>
 
 ### Crawler
 
