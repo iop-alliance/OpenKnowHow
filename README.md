@@ -273,21 +273,23 @@ the CI will give back an error and no exports will be available.
 
 ### Crawler
 
-the crawler that collects all the data:
+The crawler that collects projects data from different platforms.
 
-<https://github.com/OPEN-NEXT/LOSH-krawler>
+- code: <https://github.com/OPEN-NEXT/LOSH-krawler>
+
+It is currently (July 2024) not run periodically.
 
 ### Frontend
 
-- the front-end of the LOSH system helps you to search the data
-  on our Wikibase instance \
-  <https://github.com/wmde/LOSH-Frontend/>
+For now,
+the old, outdated front-end of the OKH LOSH system
+is still the easiest way to get an idea
+about what will be possible with this system
+for end-users.
+It helps you to search the data on our Wikibase instance.
 
-### RDF2WB
-
-- the importer to push the ontology from any git-based project
-  to RDF; necessary to set up the LOSH system: \
-  <https://github.com/OPEN-NEXT/OKH-LOSH-Ontology-RDF2WB> (by hoijui, IPK)
+- code: <https://github.com/wmde/LOSH-Frontend/>
+- test-instance: <https://losh.opennext.eu/>
 
 ## Want to contribute?
 
