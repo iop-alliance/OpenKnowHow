@@ -256,7 +256,7 @@ Developed and published in this repository here :)
 **Can I see the ontology structure somewhere?**
 
 Our CI automatically generates [exports from the TTL source](
-https://open-next.github.io/OKH-LOSH/).
+https://iop-alliance.github.io/OpenKnowHow/).
 
 You can find:
 
