@@ -194,15 +194,16 @@ Or rather, how does this 'tool' look like?**
   (→ **linking OSH modules with functional categories**)
   - filter for license, certificate, functional categories,
     file formats…
-  - e.g. search for corona-related projects
+  - e.g. search for renewable energy related projects
 - provide portable metadata: OSH can be published on various platforms
 - facilitate packaging: essential files can be directly linked in the metadata, so:
   - we can run periodic tests to see whether files are still online,
-  - you can download those files directly from the LOSH front-end
+  - you can download those files directly from an OKH web front-end
 - RDF enables custom use cases
   (e.g. for researchers or other OSH platforms)
-  e.g. by writing custom queries or by linking to other data/knowledge bases,
-  such as Wikidata
+  e.g. by writing custom queries (SPARQL)
+  or by linking to other data/knowledge bases,
+  such as a public DB about plants
 
 **Who will use and maintain the ontology?**
 
