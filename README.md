@@ -238,20 +238,21 @@ The future could bring e.g.:
 
 ## Ecosystem
 
-### This standard
+### Standard
 
-Developed and published in this repository here :)
+The standard/meta-data specification
+is developed and published in this very repository. :)
 
-- technical details of the Wikibase instance:
-  <https://gitlab.opensourceecology.de/verein/koordination/it/tickets/-/issues/43>
-- open standards used:
-  - The [DIN SPEC 3105](https://gitlab.com/OSEGermany/OHS)
-    (to be published under CC BY-SA 4.0 in June 2020)
-    and the [OH-TsDC](https://gitlab.com/OSEGermany/oh-tsdc) define clear,
-    enforceable criteria for technical documentation of OSH
-    (+ a community-based assessment procedure in order to prove that)
-  - The [Open Know-How Metadata Standard](https://standards.internetofproduction.org/pub/okh/release/1)
-    gives a first approach to organise OSH through reasonable metadata.
+open standards used:
+
+- The [DIN SPEC 3105](https://gitlab.com/OSEGermany/OHS)
+  (published under CC-BY-SA-4.0 in June 2020)
+- and the [OH-TsDC](https://gitlab.com/OSEGermany/oh-tsdc) define clear,
+  enforceable criteria for technical documentation of OSH
+  (+ a community-based assessment procedure in order to prove that)
+
+Together,
+these form a first approach to organize OSH through reasonable metadata.
 
 <details>
 <summary>Can I see the ontology structure somewhere?</summary>
