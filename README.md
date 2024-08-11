@@ -182,12 +182,13 @@ Or rather, how does this 'tool' look like?**
 
 1. It's a powerful filter for OSH.
     Find what you actually need.
-2. It's a knowledge base capable to
-    1. answer complex questions like
+2. It's a knowledge base capable of
+    1. answering complex questions like
         "What development platforms are mainly used among OSH projects
-        that got certified by OSHWA or attested according to DIN SPEC 3105-2?";
-    2. cross-link information
-        (e.g. ongoing research with OSH designs (e.g. in case of COVID-19)).
+        that got certified by [OSHWA] or attested according to DIN SPEC 3105-2?";
+    2. cross-linking information
+        (e.g. ongoing research with OSH designs
+        related to sustainable agriculture).
 
 **What are use-cases of the ontology?**
 
