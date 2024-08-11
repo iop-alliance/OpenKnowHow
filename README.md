@@ -202,7 +202,7 @@ Or rather, how does this 'tool' look like?**
   - you can download those files directly from an OKH web front-end
 - RDF enables custom use cases
   (e.g. for researchers or other OSH platforms)
-  e.g. by writing custom queries (SPARQL)
+  e.g. by writing custom queries ([SPARQL])
   or by linking to other data/knowledge bases,
   such as a public DB about plants
 
@@ -321,3 +321,4 @@ boils down to the history of invention of better tools." \
 [TOML]: https://toml.io/en/
 [INTERFACER]: https://www.interfacerproject.eu/
 [Horizon 2020]: https://research-and-innovation.ec.europa.eu/funding/funding-opportunities/funding-programmes-and-open-calls/horizon-2020_en
+[SPARQL]: https://en.wikipedia.org/wiki/SPARQL
