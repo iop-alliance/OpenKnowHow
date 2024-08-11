@@ -172,14 +172,16 @@ On git-based systems, every repository represents exactly one module
     the whole thing here is first and foremost about **design reuse**
 2. manufacturers / service providers \
     find OSH published under a free/open license
-    (we perform quality checks) so that you can modify, replicate and exploit OSH products
-    however you like e.g. for cases of decentralised (mass) production,
+    (we perform quality checks) so that you can modify,
+    replicate and exploit OSH products
+    however you like e.g. for cases of decentralized (mass) production,
     maintenance and service provision – or just for yourself.
 
 **What's the problem this thing is solving?
 Or rather, how does this 'tool' look like?**
 
-1. It's a powerful filter for OSH. Find what you actually need.
+1. It's a powerful filter for OSH.
+    Find what you actually need.
 2. It's a knowledge base capable to
     1. answer complex questions like
         "What development platforms are mainly used among OSH projects
@@ -283,8 +285,7 @@ It is currently (July 2024) not run periodically.
 For now,
 the old, outdated front-end of the OKH LOSH system
 is still the easiest way to get an idea
-about what will be possible with this system
-for end-users.
+about what will be possible with this system for end-users.
 It helps you to search the data on our Wikibase instance.
 
 - code: <https://github.com/wmde/LOSH-Frontend/>
