@@ -19,7 +19,7 @@ SPDX-License-Identifier: CC0-1.0
 
 [![In cooperation with Open Source Ecology Germany](
     https://raw.githubusercontent.com/osegermany/tiny-files/master/res/media/img/badge-oseg.svg)](
-    https://opensourceecology.de)
+    https://www.ose-germany.de/die-bewegung/)
 
 **_Open Source Hardware technical documentation
 in an open graph database._**
@@ -89,8 +89,7 @@ across Europe.
 <details>
 <summary>more about OPEN!NEXT</summary>
 
-Funded by the [European Union](https://europa.eu/)'s
-[Horizon 2020](https://ec.europa.eu/programmes/horizon2020/) program,
+Funded by the [European Union](https://europa.eu/)'s [Horizon 2020] program,
 this project seeks to enable small and medium enterprises (SMEs)
 to work with consumers, makers, and other communities in rethinking
 how products are designed and produced.
@@ -110,7 +109,7 @@ even disruptive – business models.
 The SME partners in [OPEN!NEXT] are experimenting
 with producing open source hardware and even opening up the development process
 to wider community participation.
-They produce diverse products ranging from [desks](https://stykka.com/),
+They produce diverse products ranging from [desks](https://www.stykka.com/),
 [cargo bike modules](http://www.xyzcargo.com/),
 to a [digital scientific instrument platform](https://pslab.io/)
 (and [more](https://opennext.eu/project-team/#sme)).
@@ -245,7 +244,7 @@ is developed and published in this very repository. :)
 
 open standards used:
 
-- The [DIN SPEC 3105](https://gitlab.com/OSEGermany/OHS)
+- The [DIN SPEC 3105](https://gitlab.com/OSEGermany/OHS-3105)
   (published under CC-BY-SA-4.0 in June 2020)
 - and the [OH-TsDC](https://gitlab.com/OSEGermany/oh-tsdc) define clear,
   enforceable criteria for technical documentation of OSH
@@ -320,3 +319,4 @@ boils down to the history of invention of better tools." \
 [JSON Schema]: https://json-schema.org/
 [TOML]: https://toml.io/en/
 [INTERFACER]: https://www.interfacerproject.eu/
+[Horizon 2020]: https://research-and-innovation.ec.europa.eu/funding/funding-opportunities/funding-programmes-and-open-calls/horizon-2020_en
