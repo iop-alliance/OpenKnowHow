@@ -292,6 +292,10 @@ It helps you to search the data on our Wikibase instance.
 - code: <https://github.com/wmde/LOSH-Frontend/>
 - test-instance: <https://losh.opennext.eu/>
 
+If you are ready for a more hands-on approach of testing,
+you may also try to use a more up-to-date approach
+with our [RDF-DB tester].
+
 ## Want to contribute?
 
 'til we have a proper contribution guide,
@@ -323,3 +327,4 @@ boils down to the history of invention of better tools." \
 [INTERFACER]: https://www.interfacerproject.eu/
 [Horizon 2020]: https://research-and-innovation.ec.europa.eu/funding/funding-opportunities/funding-programmes-and-open-calls/horizon-2020_en
 [SPARQL]: https://en.wikipedia.org/wiki/SPARQL
+[RDF-DB tester]: https://github.com/OPEN-NEXT/LOSH-RDF-DB-tester/
