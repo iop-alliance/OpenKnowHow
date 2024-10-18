@@ -194,13 +194,12 @@ okh:Dimensions
   a owl:Class ;
   a skos:Concept ;
   rdfs:label "outer dimensions"@en ;
-  rdfs:comment '''
-  … of a module or a part;
-  This follows the same logic as the "bounding-box" in computer graphics,
-  but in the physical world.
-  This is commonly uised to calculate (or at least estimate)
-  how many items of a manufactured module or part
-  can be packed into storage space of known dimensions.'''@en ;
+  rdfs:comment '''… of a module or a part;
+This follows the same logic as the "bounding-box" in computer graphics,
+but in the physical world.
+This is commonly used to calculate (or at least estimate)
+how many items of a manufactured module or part
+can be packed into storage space of known dimensions.'''@en ;
   rdfs:subClassOf dcterms:SizeOrDuration ;
   vs:term_status "unstable" ;
   okhmeta:hasMetaTag okhmeta:PhysicalTag ;
@@ -224,12 +223,11 @@ okh:ComponentReference
   a skos:Concept ;
   rdfs:subClassOf okh:Reference ;
   rdfs:label "component reference"@en ;
-  rdfs:comment '''
-    others shall be able to identify/procure this component only by the given reference(s),
-    MOSH → URL to corresponding release
-    POSH → URL to containing folder
-    STD  → standard designation (preferably naming the _latest_ standard)
-    BUY  → unambiguous reference'''@en ;
+  rdfs:comment '''others shall be able to identify/procure this component only by the given reference(s),
+MOSH → URL to corresponding release
+POSH → URL to containing folder
+STD  → standard designation (preferably naming the _latest_ standard)
+BUY  → unambiguous reference'''@en ;
   vs:term_status "deprecated" ;
   owl:deprecated "true"^^xsd:boolean ;
   cc:deprecatedOn "2023-08-19"^^xsd:date ;
