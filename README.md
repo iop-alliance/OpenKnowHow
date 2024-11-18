@@ -156,7 +156,7 @@ the Internet of Open Hardware.
 
 ## Scope
 
-### tl;dr Q&A
+### Q&A
 
 **What is the domain that the ontology will cover?**
 
