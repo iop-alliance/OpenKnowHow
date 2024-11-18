@@ -69,12 +69,11 @@
 * [**deprecatedOn**](http://creativecommons.org/ns#deprecatedOn) 2023-08-19
 * [**deprecated**](http://www.w3.org/2002/07/owl#deprecated) true
 * [**term_status**](http://www.w3.org/2003/06/sw-vocab-status/ns#term_status) "deprecated"
-* [**comment**](http://www.w3.org/2000/01/rdf-schema#comment) "
-    others shall be able to identify/procure this component only by the given reference(s),
-    MOSH → URL to corresponding release
-    POSH → URL to containing folder
-    STD  → standard designation (preferably naming the _latest_ standard)
-    BUY  → unambiguous reference"
+* [**comment**](http://www.w3.org/2000/01/rdf-schema#comment) "others shall be able to identify/procure this component only by the given reference(s),
+MOSH → URL to corresponding release
+POSH → URL to containing folder
+STD  → standard designation (preferably naming the _latest_ standard)
+BUY  → unambiguous reference"
 * [**label**](http://www.w3.org/2000/01/rdf-schema#label) "component reference"
 * [**subClassOf**](http://www.w3.org/2000/01/rdf-schema#subClassOf) [Reference](https://w3id.org/oseg/ont/okh#Reference)
 * [**type**](http://www.w3.org/1999/02/22-rdf-syntax-ns#type) [Concept](http://www.w3.org/2004/02/skos/core#Concept)
@@ -108,13 +107,12 @@
 * [**okhmetahasMetaTag**](https://w3id.org/oseg/ont/okhmetahasMetaTag) [okhmetaPhysicalTag](https://w3id.org/oseg/ont/okhmetaPhysicalTag)
 * [**term_status**](http://www.w3.org/2003/06/sw-vocab-status/ns#term_status) "unstable"
 * [**subClassOf**](http://www.w3.org/2000/01/rdf-schema#subClassOf) [SizeOrDuration](http://purl.org/dc/terms/SizeOrDuration)
-* [**comment**](http://www.w3.org/2000/01/rdf-schema#comment) "
-  … of a module or a part;
-  This follows the same logic as the "bounding-box" in computer graphics,
-  but in the physical world.
-  This is commonly uised to calculate (or at least estimate)
-  how many items of a manufactured module or part
-  can be packed into storage space of known dimensions."
+* [**comment**](http://www.w3.org/2000/01/rdf-schema#comment) "… of a module or a part;
+This follows the same logic as the "bounding-box" in computer graphics,
+but in the physical world.
+This is commonly used to calculate (or at least estimate)
+how many items of a manufactured module or part
+can be packed into storage space of known dimensions."
 * [**label**](http://www.w3.org/2000/01/rdf-schema#label) "outer dimensions"
 * [**type**](http://www.w3.org/1999/02/22-rdf-syntax-ns#type) [Concept](http://www.w3.org/2004/02/skos/core#Concept)
 * [**type**](http://www.w3.org/1999/02/22-rdf-syntax-ns#type) [Class](http://www.w3.org/2002/07/owl#Class)

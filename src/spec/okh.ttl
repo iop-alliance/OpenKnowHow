@@ -194,13 +194,12 @@ okh:Dimensions
   a owl:Class ;
   a skos:Concept ;
   rdfs:label "outer dimensions"@en ;
-  rdfs:comment '''
-  … of a module or a part;
-  This follows the same logic as the "bounding-box" in computer graphics,
-  but in the physical world.
-  This is commonly uised to calculate (or at least estimate)
-  how many items of a manufactured module or part
-  can be packed into storage space of known dimensions.'''@en ;
+  rdfs:comment '''… of a module or a part;
+This follows the same logic as the "bounding-box" in computer graphics,
+but in the physical world.
+This is commonly used to calculate (or at least estimate)
+how many items of a manufactured module or part
+can be packed into storage space of known dimensions.'''@en ;
   rdfs:subClassOf dcterms:SizeOrDuration ;
   vs:term_status "unstable" ;
   okhmeta:hasMetaTag okhmeta:PhysicalTag ;
@@ -224,12 +223,11 @@ okh:ComponentReference
   a skos:Concept ;
   rdfs:subClassOf okh:Reference ;
   rdfs:label "component reference"@en ;
-  rdfs:comment '''
-    others shall be able to identify/procure this component only by the given reference(s),
-    MOSH → URL to corresponding release
-    POSH → URL to containing folder
-    STD  → standard designation (preferably naming the _latest_ standard)
-    BUY  → unambiguous reference'''@en ;
+  rdfs:comment '''others shall be able to identify/procure this component only by the given reference(s),
+MOSH → URL to corresponding release
+POSH → URL to containing folder
+STD  → standard designation (preferably naming the _latest_ standard)
+BUY  → unambiguous reference'''@en ;
   vs:term_status "deprecated" ;
   owl:deprecated "true"^^xsd:boolean ;
   cc:deprecatedOn "2023-08-19"^^xsd:date ;
@@ -305,8 +303,8 @@ reporting issues, suggesting changes, connecting to the team etc.'''@en;
 okh:repoSnapshot
   a owl:ObjectProperty ;
   a skos:Concept ;
-  rdfs:label "respository snapshot"@en ;
-  rdfs:comment "Repoistory snapshot (=specific version) URL"@en ;
+  rdfs:label "repository snapshot"@en ;
+  rdfs:comment "Repository snapshot (=specific version) URL"@en ;
   rdfs:subPropertyOf okh:repo ;
   vs:term_status "unstable" ;
   schema:rangeIncludes okh:WebsiteUrl ;
@@ -332,7 +330,7 @@ okh:forkOf
   a owl:ObjectProperty ;
   a skos:Concept ;
   rdfs:label "fork of"@en ;
-  rdfs:comment "Indicates that thie project was split of (aka forked) from an other project at some ponit in the past"@en ;
+  rdfs:comment "Indicates that this project was split of (aka forked) from an other project at some point in the past"@en ;
   rdfs:subPropertyOf schema:isBasedOn ;
   vs:term_status "unstable" ;
   owl:maxCardinality 1 ;
@@ -360,7 +358,7 @@ okh:documentationLanguage
   a skos:Concept ;
   rdfs:label "documentation language"@en ;
   rdfs:comment '''denotes the language of the documentation.
-The coincrete format is an IETF language tag
+The concrete format is an IETF language tag
 following the BCP 47 standard;
 e.g. "en-GB"'''@en;
   rdfs:subPropertyOf schema:inLanguage ;
@@ -733,7 +731,7 @@ okh:productionMetadata
   a skos:Concept ;
   rdfs:label "production metadata"@en ;
   rdfs:comment "production-relevant metadata, such as material, manufacturing technology, outer dimensions, smallest tolerance, finest surface roughness"@en ;
-  vaem:todo "TODO This is somewhat superseeded by okhmeta:MakingTag" ;
+  vaem:todo "TODO This is somewhat superseded by okhmeta:MakingTag" ;
   rdfs:subPropertyOf schema:value ;
   vs:term_status "unstable" ;
   schema:domainIncludes
@@ -799,7 +797,7 @@ okh:openSCAD
 
 okh:openScad
   a owl:DatatypeProperty ;
-  rdfs:label "OpemSCAD volume"@en ;
+  rdfs:label "OpenSCAD volume"@en ;
   vs:term_status "deprecated" ;
   owl:deprecated "true"^^xsd:boolean ;
   cc:deprecatedOn "2023-07-06"^^xsd:date ;
@@ -811,7 +809,7 @@ okh:width
   a owl:DatatypeProperty ;
   a skos:Concept ;
   rdfs:label "width [mm]"@en ;
-  rdfs:comment "The outter width of the product"@en ;
+  rdfs:comment "The outer width of the product"@en ;
   vaem:todo "TODO Define in the comment, whether this includes or excludes packaging"@en ;
   vs:term_status "unstable" ;
   schema:domainIncludes okh:Dimensions ;
@@ -825,7 +823,7 @@ okh:depth
   a owl:DatatypeProperty ;
   a skos:Concept ;
   rdfs:label "depth [mm]"@en ;
-  rdfs:comment "The outter depth of the product"@en ;
+  rdfs:comment "The outer depth of the product"@en ;
   vaem:todo "TODO Define in the comment, whether this includes or excludes packaging"@en ;
   vs:term_status "unstable" ;
   schema:domainIncludes okh:Dimensions ;
@@ -839,7 +837,7 @@ okh:height
   a owl:DatatypeProperty ;
   a skos:Concept ;
   rdfs:label "height [mm]"@en ;
-  rdfs:comment "The outter height of the product"@en ;
+  rdfs:comment "The outer height of the product"@en ;
   vaem:todo "TODO Define in the comment, whether this includes or excludes packaging"@en ;
   vs:term_status "unstable" ;
   schema:domainIncludes okh:Dimensions ;
@@ -853,7 +851,7 @@ okh:unit
   a owl:DatatypeProperty ;
   rdfs:label "unit"@en ;
   rdfs:comment "mm, cm, m, g, kg"@en ;
-  rdfs:comment "the unit of meassurement associated with a property (additionally requried okh:value)"@en ;
+  rdfs:comment "the unit of measurement associated with a property (additionally required okh:value)"@en ;
   vs:term_status "deprecated" ;
   owl:deprecated "true"^^xsd:boolean ;
   cc:deprecatedOn "2024-06-16"^^xsd:date ;
@@ -865,7 +863,7 @@ okh:unit
 okh:value
   a owl:DatatypeProperty ;
   rdfs:label "value"@en ;
-  rdfs:comment "the nummerical value associated with a property (additionally requried okh:unit)"@en ;
+  rdfs:comment "the numerical value associated with a property (additionally required okh:unit)"@en ;
   vs:term_status "deprecated" ;
   owl:deprecated "true"^^xsd:boolean ;
   cc:deprecatedOn "2024-06-16"^^xsd:date ;
@@ -953,7 +951,7 @@ okh:fileUrl
 okh:permaURL
   a owl:ObjectProperty ;
   rdfs:label "Permanent file URL"@en ;
-  rdfs:comment "It was not 'permanent', but rather 'frozen in time', and it was also used in the karwler, but badly. Things simply should not be done that way, but rather with a separate manifest file, where either everything is frozen, or nothing is, and the manifest file (internally) itsself being marked accordingly."@en ;
+  rdfs:comment "It was not 'permanent', but rather 'frozen in time', and it was also used in the Krawler, but badly. Things simply should not be done that way, but rather with a separate manifest file, where either everything is frozen, or nothing is, and the manifest file (internally) itsself being marked accordingly."@en ;
   schema:domainIncludes okh:File ;
   vs:term_status "deprecated" ;
   owl:deprecated "true"^^xsd:boolean ;
