@@ -165,54 +165,54 @@
   okh:fileFormat "PDF" ;
   .
 
-:CombModul
+:CombModule
   a okh:Part ;
-  rdfs:label "Comb Modul of OHLOOM v1.0.0" ;
+  rdfs:label "Comb Module of OHLOOM v1.0.0" ;
   okh:spdxLicense "CC-BY-SA-4.0" ;
   okh:licensor "Jens Meisner" ;
-  okh:image :CombModul_image ;
+  okh:image :CombModule_image ;
   okh:documentationLanguage "en-GB" ;
   okh:relatedTsDC tsdc:3DP ;
   okh:hasManifestFile :ManifestFile ;
-  okh:source :CombModul_source ;
-  okh:export :CombModul_export1 , :CombModul_export2 ;
+  okh:source :CombModule_source ;
+  okh:export :CombModule_export1 , :CombModule_export2 ;
   okh:manufacturingProcess "3D printed" ;
   okh:material "PLA" ;
-  okh:hasOuterDimensions :OuterDimensionsCombModul
+  okh:hasOuterDimensions :OuterDimensionsCombModule
   .
 
-:OuterDimensionsCombModul
+:OuterDimensionsCombModule
   a okh:Dimensions ;
-  rdfs:label "outer dimensions of Comb Modul" ;
+  rdfs:label "outer dimensions of Comb Module" ;
   okh:width "120"^^xsd:float ;
   okh:depth "100"^^xsd:float ;
   okh:height "3"^^xsd:float ;
   .
 
-:CombModul_image
+:CombModule_image
   a okh:Image ;
-  rdfs:label "Image of Comb Modul of OHLOOM v1.0.0" ;
+  rdfs:label "Image of Comb Module of OHLOOM v1.0.0" ;
   okh:fileUrl "https://gitlab.com/OSEGermany/ohloom/-/raw/834222370f34ad2a07d0e41d09eb54378573b8c3/Documentation/Assembly_Guide/Parts_Print_3.jpg"^^xsd:anyURI ;
   okh:fileFormat "JPG" ;
   .
 
-:CombModul_source
+:CombModule_source
   a okh:File ;
-  rdfs:label "Source File of Comb Modul of OHLOOM v1.0.0" ;
+  rdfs:label "Source File of Comb Module of OHLOOM v1.0.0" ;
   okh:fileUrl "https://gitlab.com/OSEGermany/ohloom/-/raw/834222370f34ad2a07d0e41d09eb54378573b8c3//3DParts/CombModul/CombModul.scad"^^xsd:anyURI ;
   okh:fileFormat "SCAD" ;
   .
 
-:CombModul_export1
+:CombModule_export1
   a okh:File ;
-  rdfs:label "Export File of Comb Modul of OHLOOM v1.0.0" ;
+  rdfs:label "Export File of Comb Module of OHLOOM v1.0.0" ;
   okh:fileUrl "https://gitlab.com/OSEGermany/ohloom/-/raw/834222370f34ad2a07d0e41d09eb54378573b8c3/3DParts/CombModul/CombModul.stl"^^xsd:anyURI ;
   okh:fileFormat "STL" ;
   .
 
-:CombModul_export2
+:CombModule_export2
   a okh:File ;
-  rdfs:label "Export File of Comb Modul of OHLOOM v1.0.0" ;
+  rdfs:label "Export File of Comb Module of OHLOOM v1.0.0" ;
   okh:fileUrl "https://gitlab.com/OSEGermany/ohloom/-/raw/834222370f34ad2a07d0e41d09eb54378573b8c3/3DParts/CombModul/CombModul.pdf"^^xsd:anyURI ;
   okh:fileFormat "PDF" ;
   .
@@ -318,7 +318,7 @@
   rdfs:label "Ratchet Wheel of OHLOOM v1.0.0" ;
   okh:spdxLicense "CC-BY-SA-4.0" ;
   okh:licensor "Jens Meisner" ;
-  okh:image :CombModul_image ;
+  okh:image :CombModule_image ;
   okh:documentationLanguage "en-GB" ;
   okh:relatedTsDC tsdc:3DP ;
   okh:hasManifestFile :ManifestFile ;

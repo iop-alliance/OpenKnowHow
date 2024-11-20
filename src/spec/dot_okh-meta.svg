@@ -15,514 +15,514 @@
 <ellipse fill="none" stroke="#e377c2" cx="564.52" cy="-712.26" rx="76.24" ry="16.03"/>
 <text text-anchor="middle" x="564.52" y="-708.56" font-family="Times,serif" font-size="14.00">okhmeta:Tag</text>
 </g>
-<!-- https://w3id.org/oseg/ont/okhmeta#MetaTag -->
-<g id="node2" class="node">
-<title>https://w3id.org/oseg/ont/okhmeta#MetaTag</title>
-<ellipse fill="none" stroke="#e377c2" cx="990.33" cy="-712.26" rx="102.56" ry="16.03"/>
-<text text-anchor="middle" x="990.33" y="-708.56" font-family="Times,serif" font-size="14.00">okhmeta:MetaTag</text>
-</g>
-<!-- https://w3id.org/oseg/ont/okhmeta#Tag&#45;&gt;https://w3id.org/oseg/ont/okhmeta#MetaTag -->
-<g id="edge20" class="edge">
-<title>https://w3id.org/oseg/ont/okhmeta#Tag&#45;&gt;https://w3id.org/oseg/ont/okhmeta#MetaTag</title>
-<path fill="none" stroke="black" d="M641.29,-712.26C706.9,-712.26 802.69,-712.26 877.18,-712.26"/>
-<polygon fill="black" stroke="black" points="877.54,-715.76 887.54,-712.26 877.54,-708.76 877.54,-715.76"/>
-<text text-anchor="middle" x="782.73" y="-716.06" font-family="Times,serif" font-size="14.00">okhmeta:hasMetaTag</text>
-</g>
 <!-- http://www.w3.org/2004/02/skos/core#Collection -->
-<g id="node5" class="node">
+<g id="node3" class="node">
 <title>http://www.w3.org/2004/02/skos/core#Collection</title>
 <ellipse fill="none" stroke="#e377c2" cx="990.33" cy="-1223.26" rx="87.86" ry="16.03"/>
 <text text-anchor="middle" x="990.33" y="-1219.56" font-family="Times,serif" font-size="14.00">skos:Collection</text>
 </g>
 <!-- https://w3id.org/oseg/ont/okhmeta#Tag&#45;&gt;http://www.w3.org/2004/02/skos/core#Collection -->
-<g id="edge37" class="edge">
+<g id="edge31" class="edge">
 <title>https://w3id.org/oseg/ont/okhmeta#Tag&#45;&gt;http://www.w3.org/2004/02/skos/core#Collection</title>
 <path fill="none" stroke="black" d="M578.91,-728.4C640.38,-802.52 895.8,-1110.49 969.4,-1199.23"/>
 <polygon fill="black" stroke="black" points="966.87,-1201.66 975.95,-1207.12 972.26,-1197.19 966.87,-1201.66"/>
 </g>
+<!-- https://w3id.org/oseg/ont/okhmeta#MetaTag -->
+<g id="node4" class="node">
+<title>https://w3id.org/oseg/ont/okhmeta#MetaTag</title>
+<ellipse fill="none" stroke="#e377c2" cx="990.33" cy="-712.26" rx="102.56" ry="16.03"/>
+<text text-anchor="middle" x="990.33" y="-708.56" font-family="Times,serif" font-size="14.00">okhmeta:MetaTag</text>
+</g>
+<!-- https://w3id.org/oseg/ont/okhmeta#Tag&#45;&gt;https://w3id.org/oseg/ont/okhmeta#MetaTag -->
+<g id="edge33" class="edge">
+<title>https://w3id.org/oseg/ont/okhmeta#Tag&#45;&gt;https://w3id.org/oseg/ont/okhmeta#MetaTag</title>
+<path fill="none" stroke="black" d="M628.57,-721.17C651.83,-724.04 678.43,-726.85 702.73,-728.26 773.72,-732.39 791.76,-732.73 862.73,-728.26 876.25,-727.41 890.54,-726.05 904.45,-724.48"/>
+<polygon fill="black" stroke="black" points="904.98,-727.94 914.5,-723.3 904.16,-720.99 904.98,-727.94"/>
+<text text-anchor="middle" x="782.73" y="-736.06" font-family="Times,serif" font-size="14.00">okhmeta:hasMetaTag</text>
+</g>
 <!-- http://www.w3.org/2004/02/skos/core#Concept -->
-<g id="node6" class="node">
+<g id="node7" class="node">
 <title>http://www.w3.org/2004/02/skos/core#Concept</title>
 <ellipse fill="none" stroke="#1f77b4" cx="990.33" cy="-396.26" rx="78.48" ry="16.03"/>
 <text text-anchor="middle" x="990.33" y="-392.56" font-family="Times,serif" font-size="14.00">skos:Concept</text>
 </g>
 <!-- https://w3id.org/oseg/ont/okhmeta#Tag&#45;&gt;http://www.w3.org/2004/02/skos/core#Concept -->
-<g id="edge38" class="edge">
+<g id="edge39" class="edge">
 <title>https://w3id.org/oseg/ont/okhmeta#Tag&#45;&gt;http://www.w3.org/2004/02/skos/core#Concept</title>
 <path fill="none" stroke="black" d="M605.14,-698.46C629.09,-689.29 659.71,-676.04 684.73,-660.26 801.59,-586.55 919.38,-469.51 967.15,-419.82"/>
 <polygon fill="black" stroke="black" points="969.83,-422.08 974.21,-412.44 964.77,-417.25 969.83,-422.08"/>
 <text text-anchor="middle" x="782.73" y="-653.06" font-family="Times,serif" font-size="14.00">a</text>
 </g>
+<!-- http://www.w3.org/2002/07/owl#ObjectProperty -->
+<g id="node2" class="node">
+<title>http://www.w3.org/2002/07/owl#ObjectProperty</title>
+<ellipse fill="none" stroke="#1f77b4" cx="990.33" cy="-67.26" rx="109.7" ry="16.03"/>
+<text text-anchor="middle" x="990.33" y="-63.56" font-family="Times,serif" font-size="14.00">owl:ObjectProperty</text>
+</g>
 <!-- https://w3id.org/oseg/ont/okhmeta#MetaTag&#45;&gt;https://w3id.org/oseg/ont/okhmeta#Tag -->
 <g id="edge42" class="edge">
 <title>https://w3id.org/oseg/ont/okhmeta#MetaTag&#45;&gt;https://w3id.org/oseg/ont/okhmeta#Tag</title>
-<path fill="none" stroke="black" d="M914.5,-723.3C897.52,-725.37 879.54,-727.21 862.73,-728.26 791.76,-732.73 773.72,-732.39 702.73,-728.26 681.85,-727.05 659.27,-724.81 638.57,-722.37"/>
-<polygon fill="black" stroke="black" points="638.92,-718.89 628.57,-721.17 638.08,-725.84 638.92,-718.89"/>
-<text text-anchor="middle" x="782.73" y="-736.06" font-family="Times,serif" font-size="14.00">a</text>
+<path fill="none" stroke="black" d="M888.79,-709.66C879.98,-709.5 871.2,-709.36 862.73,-709.26 791.63,-708.42 773.84,-708.49 702.73,-709.26 685.9,-709.45 667.91,-709.76 650.69,-710.11"/>
+<polygon fill="black" stroke="black" points="650.57,-706.61 640.65,-710.32 650.72,-713.61 650.57,-706.61"/>
+<text text-anchor="middle" x="782.73" y="-713.06" font-family="Times,serif" font-size="14.00">a</text>
 </g>
 <!-- https://w3id.org/oseg/ont/okhmeta#MetaTag&#45;&gt;https://w3id.org/oseg/ont/okhmeta#MetaTag -->
-<g id="edge3" class="edge">
+<g id="edge10" class="edge">
 <title>https://w3id.org/oseg/ont/okhmeta#MetaTag&#45;&gt;https://w3id.org/oseg/ont/okhmeta#MetaTag</title>
 <path fill="none" stroke="black" d="M954.43,-727.77C945.78,-737.38 957.74,-746.53 990.33,-746.53 1010.7,-746.53 1023.02,-742.95 1027.27,-737.93"/>
 <polygon fill="black" stroke="black" points="1030.73,-737.36 1026.23,-727.77 1023.77,-738.07 1030.73,-737.36"/>
 <text text-anchor="middle" x="990.33" y="-750.33" font-family="Times,serif" font-size="14.00">okhmeta:hasMetaTag</text>
 </g>
-<!-- http://www.w3.org/2002/07/owl#Ontology -->
-<g id="node3" class="node">
-<title>http://www.w3.org/2002/07/owl#Ontology</title>
-<ellipse fill="none" stroke="#1f77b4" cx="564.52" cy="-1616.26" rx="77.56" ry="16.03"/>
-<text text-anchor="middle" x="564.52" y="-1612.56" font-family="Times,serif" font-size="14.00">owl:Ontology</text>
-</g>
-<!-- http://www.w3.org/2002/07/owl#ObjectProperty -->
-<g id="node4" class="node">
-<title>http://www.w3.org/2002/07/owl#ObjectProperty</title>
-<ellipse fill="none" stroke="#1f77b4" cx="990.33" cy="-67.26" rx="109.7" ry="16.03"/>
-<text text-anchor="middle" x="990.33" y="-63.56" font-family="Times,serif" font-size="14.00">owl:ObjectProperty</text>
-</g>
 <!-- http://spdx.org/rdf/terms#File -->
-<g id="node7" class="node">
+<g id="node5" class="node">
 <title>http://spdx.org/rdf/terms#File</title>
-<ellipse fill="none" stroke="#1f77b4" cx="564.52" cy="-1565.26" rx="62.45" ry="16.03"/>
-<text text-anchor="middle" x="564.52" y="-1561.56" font-family="Times,serif" font-size="14.00">spdxt:File</text>
+<ellipse fill="none" stroke="#1f77b4" cx="564.52" cy="-1616.26" rx="62.45" ry="16.03"/>
+<text text-anchor="middle" x="564.52" y="-1612.56" font-family="Times,serif" font-size="14.00">spdxt:File</text>
 </g>
-<!-- https://w3id.org/oseg/ont/oseg&#45;profiles#robinVobruba -->
+<!-- http://www.w3.org/2002/07/owl#Ontology -->
+<g id="node6" class="node">
+<title>http://www.w3.org/2002/07/owl#Ontology</title>
+<ellipse fill="none" stroke="#1f77b4" cx="564.52" cy="-1565.26" rx="77.56" ry="16.03"/>
+<text text-anchor="middle" x="564.52" y="-1561.56" font-family="Times,serif" font-size="14.00">owl:Ontology</text>
+</g>
+<!-- https://w3id.org/oseg/ont/okhmeta#PhysicalTag -->
 <g id="node8" class="node">
-<title>https://w3id.org/oseg/ont/oseg&#45;profiles#robinVobruba</title>
-<ellipse fill="none" stroke="#e377c2" cx="564.52" cy="-1514.26" rx="113.69" ry="16.03"/>
-<text text-anchor="middle" x="564.52" y="-1510.56" font-family="Times,serif" font-size="14.00">osegprof:robinVob...</text>
+<title>https://w3id.org/oseg/ont/okhmeta#PhysicalTag</title>
+<ellipse fill="none" stroke="#e377c2" cx="125.16" cy="-418.26" rx="118.17" ry="16.03"/>
+<text text-anchor="middle" x="125.16" y="-414.56" font-family="Times,serif" font-size="14.00">okhmeta:PhysicalTag</text>
+</g>
+<!-- https://w3id.org/oseg/ont/okhmeta#PhysicalTag&#45;&gt;https://w3id.org/oseg/ont/okhmeta#Tag -->
+<g id="edge30" class="edge">
+<title>https://w3id.org/oseg/ont/okhmeta#PhysicalTag&#45;&gt;https://w3id.org/oseg/ont/okhmeta#Tag</title>
+<path fill="none" stroke="black" d="M185.11,-432.37C206.47,-438.85 230.25,-447.7 250.32,-459.26 259.59,-464.61 258.56,-470.87 268.32,-475.26 300.56,-489.79 401.46,-469.11 426.32,-494.26 452.4,-520.65 422.34,-630.36 444.32,-660.26 457.47,-678.17 478.13,-689.99 498.58,-697.76"/>
+<polygon fill="black" stroke="black" points="497.65,-701.15 508.25,-701.16 499.97,-694.54 497.65,-701.15"/>
+<text text-anchor="middle" x="347.32" y="-498.06" font-family="Times,serif" font-size="14.00">a</text>
+</g>
+<!-- https://w3id.org/oseg/ont/okhmeta#PhysicalTag&#45;&gt;https://w3id.org/oseg/ont/okhmeta#MetaTag -->
+<g id="edge44" class="edge">
+<title>https://w3id.org/oseg/ont/okhmeta#PhysicalTag&#45;&gt;https://w3id.org/oseg/ont/okhmeta#MetaTag</title>
+<path fill="none" stroke="black" d="M167.92,-403.08C192.9,-393.05 224.66,-378.58 250.32,-361.26 259.44,-355.11 258.29,-348.79 268.32,-344.26 388.73,-289.95 763.75,-263.78 862.73,-351.26 886.8,-372.54 871.1,-390.62 880.73,-421.26 911.96,-520.65 957.9,-635.76 978.57,-686.26"/>
+<polygon fill="black" stroke="black" points="975.43,-687.83 982.47,-695.75 981.91,-685.17 975.43,-687.83"/>
+<text text-anchor="middle" x="564.52" y="-308.06" font-family="Times,serif" font-size="14.00">okhmeta:hasMetaTag</text>
+</g>
+<!-- https://w3id.org/oseg/ont/okhmeta#AcademicTag -->
+<g id="node9" class="node">
+<title>https://w3id.org/oseg/ont/okhmeta#AcademicTag</title>
+<ellipse fill="none" stroke="#e377c2" cx="125.16" cy="-336.26" rx="124.4" ry="16.03"/>
+<text text-anchor="middle" x="125.16" y="-332.56" font-family="Times,serif" font-size="14.00">okhmeta:AcademicTag</text>
+</g>
+<!-- https://w3id.org/oseg/ont/okhmeta#AcademicTag&#45;&gt;https://w3id.org/oseg/ont/okhmeta#Tag -->
+<g id="edge1" class="edge">
+<title>https://w3id.org/oseg/ont/okhmeta#AcademicTag&#45;&gt;https://w3id.org/oseg/ont/okhmeta#Tag</title>
+<path fill="none" stroke="black" d="M179.86,-350.94C204,-359.84 231.27,-373.4 250.32,-393.26 264.94,-408.51 251.51,-424.46 268.32,-437.26 324.58,-480.13 377.1,-405.47 426.32,-456.26 457.98,-488.95 417.73,-623.32 444.32,-660.26 457.29,-678.3 477.91,-690.15 498.38,-697.91"/>
+<polygon fill="black" stroke="black" points="497.46,-701.3 508.06,-701.3 499.77,-694.69 497.46,-701.3"/>
+<text text-anchor="middle" x="347.32" y="-460.06" font-family="Times,serif" font-size="14.00">a</text>
+</g>
+<!-- https://w3id.org/oseg/ont/okhmeta#AcademicTag&#45;&gt;https://w3id.org/oseg/ont/okhmeta#MetaTag -->
+<g id="edge22" class="edge">
+<title>https://w3id.org/oseg/ont/okhmeta#AcademicTag&#45;&gt;https://w3id.org/oseg/ont/okhmeta#MetaTag</title>
+<path fill="none" stroke="black" d="M183.7,-321.86C209.48,-315.68 240.33,-308.65 268.32,-303.26 398.04,-278.29 767.88,-204.32 862.73,-296.26 882.88,-315.8 873.79,-394.07 880.73,-421.26 906.52,-522.2 955.23,-636.52 977.59,-686.54"/>
+<polygon fill="black" stroke="black" points="974.52,-688.25 981.81,-695.93 980.9,-685.38 974.52,-688.25"/>
+<text text-anchor="middle" x="564.52" y="-275.06" font-family="Times,serif" font-size="14.00">okhmeta:hasMetaTag</text>
+</g>
+<!-- https://w3id.org/oseg/ont/okhmeta#DocumentationTag -->
+<g id="node10" class="node">
+<title>https://w3id.org/oseg/ont/okhmeta#DocumentationTag</title>
+<ellipse fill="none" stroke="#e377c2" cx="125.16" cy="-223.26" rx="125.32" ry="16.03"/>
+<text text-anchor="middle" x="125.16" y="-219.56" font-family="Times,serif" font-size="14.00">okhmeta:Documenta...</text>
+</g>
+<!-- https://w3id.org/oseg/ont/okhmeta#DocumentationTag&#45;&gt;https://w3id.org/oseg/ont/okhmeta#Tag -->
+<g id="edge32" class="edge">
+<title>https://w3id.org/oseg/ont/okhmeta#DocumentationTag&#45;&gt;https://w3id.org/oseg/ont/okhmeta#Tag</title>
+<path fill="none" stroke="black" d="M172.46,-238.33C241.3,-263.44 368.71,-320.94 426.32,-418.26 453.78,-464.67 413.12,-616.28 444.32,-660.26 457.11,-678.31 477.58,-690.16 497.97,-697.91"/>
+<polygon fill="black" stroke="black" points="497.02,-701.29 507.62,-701.3 499.34,-694.68 497.02,-701.29"/>
+<text text-anchor="middle" x="347.32" y="-422.06" font-family="Times,serif" font-size="14.00">a</text>
+</g>
+<!-- https://w3id.org/oseg/ont/okhmeta#DocumentationTag&#45;&gt;https://w3id.org/oseg/ont/okhmeta#MetaTag -->
+<g id="edge21" class="edge">
+<title>https://w3id.org/oseg/ont/okhmeta#DocumentationTag&#45;&gt;https://w3id.org/oseg/ont/okhmeta#MetaTag</title>
+<path fill="none" stroke="black" d="M245.37,-218.71C442.68,-212.41 819.79,-206.16 862.73,-248.26 890.33,-275.33 871.9,-383.63 880.73,-421.26 904.53,-522.69 954.26,-636.76 977.23,-686.62"/>
+<polygon fill="black" stroke="black" points="974.19,-688.39 981.58,-695.99 980.54,-685.45 974.19,-688.39"/>
+<text text-anchor="middle" x="564.52" y="-222.06" font-family="Times,serif" font-size="14.00">okhmeta:hasMetaTag</text>
 </g>
 <!-- https://w3id.org/oseg/ont/okhmeta -->
-<g id="node9" class="node">
+<g id="node11" class="node">
 <title>https://w3id.org/oseg/ont/okhmeta</title>
 <ellipse fill="none" stroke="#e377c2" cx="125.16" cy="-1470.26" rx="76.24" ry="16.03"/>
 <text text-anchor="middle" x="125.16" y="-1466.56" font-family="Times,serif" font-size="14.00">ns1:okhmeta</text>
 </g>
-<!-- https://w3id.org/oseg/ont/okhmeta&#45;&gt;http://www.w3.org/2002/07/owl#Ontology -->
+<!-- https://w3id.org/oseg/ont/okhmeta&#45;&gt;http://spdx.org/rdf/terms#File -->
 <g id="edge2" class="edge">
-<title>https://w3id.org/oseg/ont/okhmeta&#45;&gt;http://www.w3.org/2002/07/owl#Ontology</title>
-<path fill="none" stroke="black" d="M141.44,-1486.35C165.74,-1510.81 215.83,-1556.76 268.32,-1578.26 334.76,-1605.49 416.05,-1614.35 476.5,-1616.77"/>
-<polygon fill="black" stroke="black" points="476.66,-1620.28 486.77,-1617.13 476.9,-1613.28 476.66,-1620.28"/>
+<title>https://w3id.org/oseg/ont/okhmeta&#45;&gt;http://spdx.org/rdf/terms#File</title>
+<path fill="none" stroke="black" d="M141.44,-1486.35C165.74,-1510.81 215.83,-1556.76 268.32,-1578.26 340.64,-1607.9 430.55,-1615.78 492.02,-1617.27"/>
+<polygon fill="black" stroke="black" points="492.33,-1620.77 502.39,-1617.46 492.46,-1613.77 492.33,-1620.77"/>
 <text text-anchor="middle" x="347.32" y="-1617.06" font-family="Times,serif" font-size="14.00">a</text>
 </g>
-<!-- https://w3id.org/oseg/ont/okhmeta&#45;&gt;http://spdx.org/rdf/terms#File -->
-<g id="edge41" class="edge">
-<title>https://w3id.org/oseg/ont/okhmeta&#45;&gt;http://spdx.org/rdf/terms#File</title>
-<path fill="none" stroke="black" d="M152.98,-1485.47C180.87,-1500.52 226.25,-1522.9 268.32,-1534.26 342.98,-1554.43 431.55,-1561.61 492.07,-1564.09"/>
-<polygon fill="black" stroke="black" points="492.15,-1567.6 502.28,-1564.48 492.42,-1560.6 492.15,-1567.6"/>
+<!-- https://w3id.org/oseg/ont/okhmeta&#45;&gt;http://www.w3.org/2002/07/owl#Ontology -->
+<g id="edge13" class="edge">
+<title>https://w3id.org/oseg/ont/okhmeta&#45;&gt;http://www.w3.org/2002/07/owl#Ontology</title>
+<path fill="none" stroke="black" d="M152.98,-1485.47C180.87,-1500.52 226.25,-1522.9 268.32,-1534.26 336.86,-1552.78 417.13,-1560.34 476.66,-1563.38"/>
+<polygon fill="black" stroke="black" points="476.62,-1566.88 486.77,-1563.87 476.95,-1559.89 476.62,-1566.88"/>
 <text text-anchor="middle" x="347.32" y="-1563.06" font-family="Times,serif" font-size="14.00">a</text>
 </g>
+<!-- https://w3id.org/oseg/ont/oseg&#45;profiles#robinVobruba -->
+<g id="node12" class="node">
+<title>https://w3id.org/oseg/ont/oseg&#45;profiles#robinVobruba</title>
+<ellipse fill="none" stroke="#e377c2" cx="564.52" cy="-1514.26" rx="113.69" ry="16.03"/>
+<text text-anchor="middle" x="564.52" y="-1510.56" font-family="Times,serif" font-size="14.00">osegprof:robinVob...</text>
+</g>
 <!-- https://w3id.org/oseg/ont/okhmeta&#45;&gt;https://w3id.org/oseg/ont/oseg&#45;profiles#robinVobruba -->
-<g id="edge1" class="edge">
+<g id="edge20" class="edge">
 <title>https://w3id.org/oseg/ont/okhmeta&#45;&gt;https://w3id.org/oseg/ont/oseg&#45;profiles#robinVobruba</title>
 <path fill="none" stroke="black" d="M169.88,-1483.57C197.76,-1491.41 234.82,-1500.68 268.32,-1505.26 324.87,-1513 388.06,-1515.71 441.43,-1516.3"/>
 <polygon fill="black" stroke="black" points="441.59,-1519.8 451.62,-1516.39 441.65,-1512.8 441.59,-1519.8"/>
-<text text-anchor="middle" x="347.32" y="-1519.06" font-family="Times,serif" font-size="14.00">dcterms:creator</text>
+<text text-anchor="middle" x="347.32" y="-1519.06" font-family="Times,serif" font-size="14.00">schema:creator</text>
 </g>
 <!-- https://w3id.org/oseg/ont/okhmeta&#45;&gt;https://w3id.org/oseg/ont/oseg&#45;profiles#robinVobruba -->
-<g id="edge32" class="edge">
+<g id="edge34" class="edge">
 <title>https://w3id.org/oseg/ont/okhmeta&#45;&gt;https://w3id.org/oseg/ont/oseg&#45;profiles#robinVobruba</title>
 <path fill="none" stroke="black" d="M201.68,-1471.2C262.55,-1472.7 350.22,-1476.53 426.32,-1486.26 448.9,-1489.15 473.33,-1493.68 495.22,-1498.25"/>
 <polygon fill="black" stroke="black" points="494.58,-1501.69 505.09,-1500.35 496.03,-1494.85 494.58,-1501.69"/>
-<text text-anchor="middle" x="347.32" y="-1490.06" font-family="Times,serif" font-size="14.00">schema:creator</text>
-</g>
-<!-- https://w3id.org/oseg/ont/1.1.0/okh&#45;meta -->
-<g id="node13" class="node">
-<title>https://w3id.org/oseg/ont/1.1.0/okh&#45;meta</title>
-<ellipse fill="none" stroke="#e377c2" cx="564.52" cy="-1463.26" rx="79.81" ry="16.03"/>
-<text text-anchor="middle" x="564.52" y="-1459.56" font-family="Times,serif" font-size="14.00">ns2:okh&#45;meta</text>
-</g>
-<!-- https://w3id.org/oseg/ont/okhmeta&#45;&gt;https://w3id.org/oseg/ont/1.1.0/okh&#45;meta -->
-<g id="edge5" class="edge">
-<title>https://w3id.org/oseg/ont/okhmeta&#45;&gt;https://w3id.org/oseg/ont/1.1.0/okh&#45;meta</title>
-<path fill="none" stroke="black" d="M187.57,-1460.77C212.56,-1457.36 241.75,-1453.94 268.32,-1452.26 338.4,-1447.84 356.15,-1449.46 426.32,-1452.26 444.25,-1452.98 463.46,-1454.22 481.67,-1455.62"/>
-<polygon fill="black" stroke="black" points="481.42,-1459.11 491.67,-1456.41 481.97,-1452.14 481.42,-1459.11"/>
-<text text-anchor="middle" x="347.32" y="-1456.06" font-family="Times,serif" font-size="14.00">owl:versionIRI</text>
-</g>
-<!-- https://spdx.org/licenses/GPL&#45;3.0&#45;or&#45;later -->
-<g id="node18" class="node">
-<title>https://spdx.org/licenses/GPL&#45;3.0&#45;or&#45;later</title>
-<ellipse fill="none" stroke="#e377c2" cx="564.52" cy="-1412.26" rx="108.79" ry="16.03"/>
-<text text-anchor="middle" x="564.52" y="-1408.56" font-family="Times,serif" font-size="14.00">spdxl:GPL&#45;3.0&#45;or&#45;...</text>
-</g>
-<!-- https://w3id.org/oseg/ont/okhmeta&#45;&gt;https://spdx.org/licenses/GPL&#45;3.0&#45;or&#45;later -->
-<g id="edge12" class="edge">
-<title>https://w3id.org/oseg/ont/okhmeta&#45;&gt;https://spdx.org/licenses/GPL&#45;3.0&#45;or&#45;later</title>
-<path fill="none" stroke="black" d="M166.38,-1456.46C194.57,-1447.41 233.3,-1436.19 268.32,-1430.26 326.22,-1420.47 391.32,-1415.83 445.62,-1413.7"/>
-<polygon fill="black" stroke="black" points="445.76,-1417.2 455.62,-1413.33 445.5,-1410.2 445.76,-1417.2"/>
-<text text-anchor="middle" x="347.32" y="-1434.06" font-family="Times,serif" font-size="14.00">spdxt:licenseDeclared</text>
+<text text-anchor="middle" x="347.32" y="-1490.06" font-family="Times,serif" font-size="14.00">dcterms:creator</text>
 </g>
 <!-- http://id.loc.gov/vocabulary/iso639&#45;1/en -->
-<g id="node25" class="node">
+<g id="node15" class="node">
 <title>http://id.loc.gov/vocabulary/iso639&#45;1/en</title>
-<ellipse fill="none" stroke="#e377c2" cx="564.52" cy="-1361.26" rx="45.01" ry="16.03"/>
-<text text-anchor="middle" x="564.52" y="-1357.56" font-family="Times,serif" font-size="14.00">ns3:en</text>
+<ellipse fill="none" stroke="#e377c2" cx="564.52" cy="-1463.26" rx="45.01" ry="16.03"/>
+<text text-anchor="middle" x="564.52" y="-1459.56" font-family="Times,serif" font-size="14.00">ns2:en</text>
 </g>
 <!-- https://w3id.org/oseg/ont/okhmeta&#45;&gt;http://id.loc.gov/vocabulary/iso639&#45;1/en -->
-<g id="edge23" class="edge">
+<g id="edge36" class="edge">
 <title>https://w3id.org/oseg/ont/okhmeta&#45;&gt;http://id.loc.gov/vocabulary/iso639&#45;1/en</title>
-<path fill="none" stroke="black" d="M149.13,-1454.68C176.3,-1437.09 223.53,-1409.12 268.32,-1395.26 349.73,-1370.07 449,-1363.23 509.18,-1361.55"/>
-<polygon fill="black" stroke="black" points="509.3,-1365.05 519.22,-1361.31 509.13,-1358.05 509.3,-1365.05"/>
-<text text-anchor="middle" x="347.32" y="-1399.06" font-family="Times,serif" font-size="14.00">dcterms:language</text>
+<path fill="none" stroke="black" d="M187.57,-1460.77C212.56,-1457.36 241.75,-1453.94 268.32,-1452.26 338.4,-1447.84 356.15,-1449.46 426.32,-1452.26 454.12,-1453.38 485.02,-1455.75 510.45,-1458.01"/>
+<polygon fill="black" stroke="black" points="510.35,-1461.52 520.63,-1458.94 510.98,-1454.55 510.35,-1461.52"/>
+<text text-anchor="middle" x="347.32" y="-1456.06" font-family="Times,serif" font-size="14.00">dcterms:language</text>
+</g>
+<!-- https://w3id.org/oseg/ont/1.1.0/okh&#45;meta -->
+<g id="node18" class="node">
+<title>https://w3id.org/oseg/ont/1.1.0/okh&#45;meta</title>
+<ellipse fill="none" stroke="#e377c2" cx="564.52" cy="-1412.26" rx="79.81" ry="16.03"/>
+<text text-anchor="middle" x="564.52" y="-1408.56" font-family="Times,serif" font-size="14.00">ns3:okh&#45;meta</text>
+</g>
+<!-- https://w3id.org/oseg/ont/okhmeta&#45;&gt;https://w3id.org/oseg/ont/1.1.0/okh&#45;meta -->
+<g id="edge37" class="edge">
+<title>https://w3id.org/oseg/ont/okhmeta&#45;&gt;https://w3id.org/oseg/ont/1.1.0/okh&#45;meta</title>
+<path fill="none" stroke="black" d="M166.38,-1456.46C194.57,-1447.41 233.3,-1436.19 268.32,-1430.26 336.87,-1418.67 415.5,-1414.3 474.37,-1412.76"/>
+<polygon fill="black" stroke="black" points="474.46,-1416.26 484.38,-1412.52 474.3,-1409.26 474.46,-1416.26"/>
+<text text-anchor="middle" x="347.32" y="-1434.06" font-family="Times,serif" font-size="14.00">owl:versionIRI</text>
+</g>
+<!-- https://spdx.org/licenses/GPL&#45;3.0&#45;or&#45;later -->
+<g id="node20" class="node">
+<title>https://spdx.org/licenses/GPL&#45;3.0&#45;or&#45;later</title>
+<ellipse fill="none" stroke="#e377c2" cx="564.52" cy="-1361.26" rx="108.79" ry="16.03"/>
+<text text-anchor="middle" x="564.52" y="-1357.56" font-family="Times,serif" font-size="14.00">spdxl:GPL&#45;3.0&#45;or&#45;...</text>
+</g>
+<!-- https://w3id.org/oseg/ont/okhmeta&#45;&gt;https://spdx.org/licenses/GPL&#45;3.0&#45;or&#45;later -->
+<g id="edge15" class="edge">
+<title>https://w3id.org/oseg/ont/okhmeta&#45;&gt;https://spdx.org/licenses/GPL&#45;3.0&#45;or&#45;later</title>
+<path fill="none" stroke="black" d="M149.13,-1454.68C176.3,-1437.09 223.53,-1409.12 268.32,-1395.26 325.62,-1377.53 391.76,-1368.9 446.89,-1364.75"/>
+<polygon fill="black" stroke="black" points="447.33,-1368.23 457.06,-1364.02 446.83,-1361.24 447.33,-1368.23"/>
+<text text-anchor="middle" x="347.32" y="-1399.06" font-family="Times,serif" font-size="14.00">spdxt:licenseDeclared</text>
 </g>
 <!-- https://w3id.org/oseg/ont/oseg&#45;profiles#Iopa -->
-<g id="node27" class="node">
+<g id="node22" class="node">
 <title>https://w3id.org/oseg/ont/oseg&#45;profiles#Iopa</title>
 <ellipse fill="none" stroke="#e377c2" cx="564.52" cy="-1310.26" rx="80.72" ry="16.03"/>
 <text text-anchor="middle" x="564.52" y="-1306.56" font-family="Times,serif" font-size="14.00">osegprof:Iopa</text>
 </g>
 <!-- https://w3id.org/oseg/ont/okhmeta&#45;&gt;https://w3id.org/oseg/ont/oseg&#45;profiles#Iopa -->
-<g id="edge24" class="edge">
+<g id="edge18" class="edge">
 <title>https://w3id.org/oseg/ont/okhmeta&#45;&gt;https://w3id.org/oseg/ont/oseg&#45;profiles#Iopa</title>
 <path fill="none" stroke="black" d="M139.06,-1454.12C161.87,-1426.86 212.27,-1372.22 268.32,-1347.26 333.33,-1318.31 413.87,-1309.81 474.39,-1308.12"/>
 <polygon fill="black" stroke="black" points="474.77,-1311.62 484.69,-1307.9 474.62,-1304.62 474.77,-1311.62"/>
 <text text-anchor="middle" x="347.32" y="-1351.06" font-family="Times,serif" font-size="14.00">dcterms:publisher</text>
 </g>
-<!-- https://w3id.org/oseg/ont/okhmeta#PartsTag -->
-<g id="node10" class="node">
-<title>https://w3id.org/oseg/ont/okhmeta#PartsTag</title>
-<ellipse fill="none" stroke="#e377c2" cx="125.16" cy="-484.26" rx="103.48" ry="16.03"/>
-<text text-anchor="middle" x="125.16" y="-480.56" font-family="Times,serif" font-size="14.00">okhmeta:PartsTag</text>
+<!-- https://w3id.org/oseg/ont/okhmeta#DataTag -->
+<g id="node13" class="node">
+<title>https://w3id.org/oseg/ont/okhmeta#DataTag</title>
+<ellipse fill="none" stroke="#e377c2" cx="125.16" cy="-713.26" rx="100.32" ry="16.03"/>
+<text text-anchor="middle" x="125.16" y="-709.56" font-family="Times,serif" font-size="14.00">okhmeta:DataTag</text>
 </g>
-<!-- https://w3id.org/oseg/ont/okhmeta#PartsTag&#45;&gt;https://w3id.org/oseg/ont/okhmeta#Tag -->
-<g id="edge29" class="edge">
-<title>https://w3id.org/oseg/ont/okhmeta#PartsTag&#45;&gt;https://w3id.org/oseg/ont/okhmeta#Tag</title>
-<path fill="none" stroke="black" d="M187.27,-497.35C212.34,-502.55 241.67,-508.44 268.32,-513.26 303.3,-519.6 401.31,-513 426.32,-538.26 464.87,-577.22 411.02,-616.73 444.32,-660.26 457.88,-677.99 478.74,-689.78 499.24,-697.58"/>
-<polygon fill="black" stroke="black" points="498.33,-700.97 508.92,-700.99 500.65,-694.36 498.33,-700.97"/>
-<text text-anchor="middle" x="347.32" y="-542.06" font-family="Times,serif" font-size="14.00">a</text>
-</g>
-<!-- https://w3id.org/oseg/ont/okhmeta#PartsTag&#45;&gt;https://w3id.org/oseg/ont/okhmeta#MetaTag -->
+<!-- https://w3id.org/oseg/ont/okhmeta#DataTag&#45;&gt;https://w3id.org/oseg/ont/okhmeta#Tag -->
 <g id="edge35" class="edge">
-<title>https://w3id.org/oseg/ont/okhmeta#PartsTag&#45;&gt;https://w3id.org/oseg/ont/okhmeta#MetaTag</title>
-<path fill="none" stroke="black" d="M200.62,-473.01C219.05,-466.94 237.24,-457.6 250.32,-443.26 274.29,-416.97 241.31,-388.42 268.32,-365.26 300.63,-337.55 662.89,-348.85 684.73,-352.26 766.81,-365.08 801.53,-353.1 862.73,-409.26 946.57,-486.19 976.63,-627.33 985.81,-685.81"/>
-<polygon fill="black" stroke="black" points="982.36,-686.35 987.29,-695.73 989.28,-685.32 982.36,-686.35"/>
-<text text-anchor="middle" x="564.52" y="-356.06" font-family="Times,serif" font-size="14.00">okhmeta:hasMetaTag</text>
-</g>
-<!-- https://w3id.org/oseg/ont/okhmeta#LegalTag -->
-<g id="node11" class="node">
-<title>https://w3id.org/oseg/ont/okhmeta#LegalTag</title>
-<ellipse fill="none" stroke="#e377c2" cx="125.16" cy="-336.26" rx="103.89" ry="16.03"/>
-<text text-anchor="middle" x="125.16" y="-332.56" font-family="Times,serif" font-size="14.00">okhmeta:LegalTag</text>
-</g>
-<!-- https://w3id.org/oseg/ont/okhmeta#LegalTag&#45;&gt;https://w3id.org/oseg/ont/okhmeta#Tag -->
-<g id="edge30" class="edge">
-<title>https://w3id.org/oseg/ont/okhmeta#LegalTag&#45;&gt;https://w3id.org/oseg/ont/okhmeta#Tag</title>
-<path fill="none" stroke="black" d="M178.3,-350.37C202.82,-359.26 230.86,-372.98 250.32,-393.26 264.94,-408.51 251.51,-424.46 268.32,-437.26 324.58,-480.13 377.1,-405.47 426.32,-456.26 457.98,-488.95 417.73,-623.32 444.32,-660.26 457.29,-678.3 477.91,-690.15 498.38,-697.91"/>
-<polygon fill="black" stroke="black" points="497.46,-701.3 508.06,-701.3 499.77,-694.69 497.46,-701.3"/>
-<text text-anchor="middle" x="347.32" y="-460.06" font-family="Times,serif" font-size="14.00">a</text>
-</g>
-<!-- https://w3id.org/oseg/ont/okhmeta#LegalTag&#45;&gt;https://w3id.org/oseg/ont/okhmeta#MetaTag -->
-<g id="edge21" class="edge">
-<title>https://w3id.org/oseg/ont/okhmeta#LegalTag&#45;&gt;https://w3id.org/oseg/ont/okhmeta#MetaTag</title>
-<path fill="none" stroke="black" d="M180.97,-322.52C207.29,-316.18 239.33,-308.84 268.32,-303.26 398.04,-278.29 767.88,-204.32 862.73,-296.26 882.88,-315.8 873.79,-394.07 880.73,-421.26 906.52,-522.2 955.23,-636.52 977.59,-686.54"/>
-<polygon fill="black" stroke="black" points="974.52,-688.25 981.81,-695.93 980.9,-685.38 974.52,-688.25"/>
-<text text-anchor="middle" x="564.52" y="-275.06" font-family="Times,serif" font-size="14.00">okhmeta:hasMetaTag</text>
-</g>
-<!-- https://w3id.org/oseg/ont/okhmeta#MakingTag -->
-<g id="node12" class="node">
-<title>https://w3id.org/oseg/ont/okhmeta#MakingTag</title>
-<ellipse fill="none" stroke="#e377c2" cx="125.16" cy="-1131.26" rx="113.69" ry="16.03"/>
-<text text-anchor="middle" x="125.16" y="-1127.56" font-family="Times,serif" font-size="14.00">okhmeta:MakingTag</text>
-</g>
-<!-- https://w3id.org/oseg/ont/okhmeta#MakingTag&#45;&gt;https://w3id.org/oseg/ont/okhmeta#Tag -->
-<g id="edge31" class="edge">
-<title>https://w3id.org/oseg/ont/okhmeta#MakingTag&#45;&gt;https://w3id.org/oseg/ont/okhmeta#Tag</title>
-<path fill="none" stroke="black" d="M212.64,-1120.68C227.07,-1115.19 240.52,-1107.11 250.32,-1095.26 277.63,-1062.24 238.8,-934.33 268.32,-903.26 317.2,-851.82 364.57,-915.23 426.32,-880.26 486.13,-846.39 530.4,-775.41 550.89,-737.46"/>
-<polygon fill="black" stroke="black" points="554.01,-739.05 555.58,-728.57 547.82,-735.78 554.01,-739.05"/>
-<text text-anchor="middle" x="347.32" y="-907.06" font-family="Times,serif" font-size="14.00">a</text>
-</g>
-<!-- https://w3id.org/oseg/ont/okhmeta#MakingTag&#45;&gt;https://w3id.org/oseg/ont/okhmeta#MetaTag -->
-<g id="edge36" class="edge">
-<title>https://w3id.org/oseg/ont/okhmeta#MakingTag&#45;&gt;https://w3id.org/oseg/ont/okhmeta#MetaTag</title>
-<path fill="none" stroke="black" d="M239.05,-1132.08C422.78,-1130.95 774.86,-1117.71 862.73,-1035.26 951.2,-952.26 978.82,-799.93 986.59,-738.74"/>
-<polygon fill="black" stroke="black" points="990.07,-739.08 987.78,-728.74 983.12,-738.25 990.07,-739.08"/>
-<text text-anchor="middle" x="564.52" y="-1130.06" font-family="Times,serif" font-size="14.00">okhmeta:hasMetaTag</text>
-</g>
-<!-- https://w3id.org/oseg/ont/okhmeta#BasicTag -->
-<g id="node14" class="node">
-<title>https://w3id.org/oseg/ont/okhmeta#BasicTag</title>
-<ellipse fill="none" stroke="#e377c2" cx="125.16" cy="-223.26" rx="103.48" ry="16.03"/>
-<text text-anchor="middle" x="125.16" y="-219.56" font-family="Times,serif" font-size="14.00">okhmeta:BasicTag</text>
-</g>
-<!-- https://w3id.org/oseg/ont/okhmeta#BasicTag&#45;&gt;https://w3id.org/oseg/ont/okhmeta#Tag -->
-<g id="edge7" class="edge">
-<title>https://w3id.org/oseg/ont/okhmeta#BasicTag&#45;&gt;https://w3id.org/oseg/ont/okhmeta#Tag</title>
-<path fill="none" stroke="black" d="M171.33,-237.92C239.9,-262.81 368.39,-320.4 426.32,-418.26 453.78,-464.67 413.12,-616.28 444.32,-660.26 457.11,-678.31 477.58,-690.16 497.97,-697.91"/>
-<polygon fill="black" stroke="black" points="497.02,-701.29 507.62,-701.3 499.34,-694.68 497.02,-701.29"/>
-<text text-anchor="middle" x="347.32" y="-422.06" font-family="Times,serif" font-size="14.00">a</text>
-</g>
-<!-- https://w3id.org/oseg/ont/okhmeta#BasicTag&#45;&gt;https://w3id.org/oseg/ont/okhmeta#MetaTag -->
-<g id="edge25" class="edge">
-<title>https://w3id.org/oseg/ont/okhmeta#BasicTag&#45;&gt;https://w3id.org/oseg/ont/okhmeta#MetaTag</title>
-<path fill="none" stroke="black" d="M225.57,-219.36C416.21,-212.9 818.31,-204.7 862.73,-248.26 890.33,-275.33 871.9,-383.63 880.73,-421.26 904.53,-522.69 954.26,-636.76 977.23,-686.62"/>
-<polygon fill="black" stroke="black" points="974.19,-688.39 981.58,-695.99 980.54,-685.45 974.19,-688.39"/>
-<text text-anchor="middle" x="564.52" y="-222.06" font-family="Times,serif" font-size="14.00">okhmeta:hasMetaTag</text>
-</g>
-<!-- https://w3id.org/oseg/ont/okhmeta#IdentificationTag -->
-<g id="node15" class="node">
-<title>https://w3id.org/oseg/ont/okhmeta#IdentificationTag</title>
-<ellipse fill="none" stroke="#e377c2" cx="125.16" cy="-713.26" rx="109.7" ry="16.03"/>
-<text text-anchor="middle" x="125.16" y="-709.56" font-family="Times,serif" font-size="14.00">okhmeta:Identific...</text>
-</g>
-<!-- https://w3id.org/oseg/ont/okhmeta#IdentificationTag&#45;&gt;https://w3id.org/oseg/ont/okhmeta#Tag -->
-<g id="edge8" class="edge">
-<title>https://w3id.org/oseg/ont/okhmeta#IdentificationTag&#45;&gt;https://w3id.org/oseg/ont/okhmeta#Tag</title>
-<path fill="none" stroke="black" d="M234.83,-713.01C309.95,-712.84 408.47,-712.62 478,-712.46"/>
-<polygon fill="black" stroke="black" points="478.05,-715.96 488.04,-712.44 478.03,-708.96 478.05,-715.96"/>
+<title>https://w3id.org/oseg/ont/okhmeta#DataTag&#45;&gt;https://w3id.org/oseg/ont/okhmeta#Tag</title>
+<path fill="none" stroke="black" d="M225.68,-713.04C301.6,-712.86 405.11,-712.63 477.48,-712.46"/>
+<polygon fill="black" stroke="black" points="477.93,-715.96 487.92,-712.44 477.91,-708.96 477.93,-715.96"/>
 <text text-anchor="middle" x="347.32" y="-717.06" font-family="Times,serif" font-size="14.00">a</text>
 </g>
-<!-- https://w3id.org/oseg/ont/okhmeta#IdentificationTag&#45;&gt;https://w3id.org/oseg/ont/okhmeta#MetaTag -->
-<g id="edge46" class="edge">
-<title>https://w3id.org/oseg/ont/okhmeta#IdentificationTag&#45;&gt;https://w3id.org/oseg/ont/okhmeta#MetaTag</title>
-<path fill="none" stroke="black" d="M208.95,-723.8C224.81,-729.54 239.75,-738.21 250.32,-751.26 279.1,-786.8 234.59,-925.37 268.32,-956.26 294.21,-979.98 397.59,-976.45 426.32,-956.26 445.64,-942.68 427.59,-922.93 444.32,-906.26 462.54,-888.11 800.65,-774.76 934.98,-730.21"/>
+<!-- https://w3id.org/oseg/ont/okhmeta#DataTag&#45;&gt;https://w3id.org/oseg/ont/okhmeta#MetaTag -->
+<g id="edge24" class="edge">
+<title>https://w3id.org/oseg/ont/okhmeta#DataTag&#45;&gt;https://w3id.org/oseg/ont/okhmeta#MetaTag</title>
+<path fill="none" stroke="black" d="M206.39,-722.9C223.2,-728.62 239.18,-737.51 250.32,-751.26 279.1,-786.8 234.59,-925.37 268.32,-956.26 294.21,-979.98 397.59,-976.45 426.32,-956.26 445.64,-942.68 427.59,-922.93 444.32,-906.26 462.54,-888.11 800.65,-774.76 934.98,-730.21"/>
 <polygon fill="black" stroke="black" points="936.28,-733.47 944.67,-727 934.08,-726.83 936.28,-733.47"/>
 <text text-anchor="middle" x="564.52" y="-910.06" font-family="Times,serif" font-size="14.00">okhmeta:hasMetaTag</text>
 </g>
-<!-- https://w3id.org/oseg/ont/okhmeta#AcademicTag -->
+<!-- https://w3id.org/oseg/ont/okhmeta#ExtendedInfoTag -->
+<g id="node14" class="node">
+<title>https://w3id.org/oseg/ont/okhmeta#ExtendedInfoTag</title>
+<ellipse fill="none" stroke="#e377c2" cx="125.16" cy="-1187.26" rx="120.42" ry="16.03"/>
+<text text-anchor="middle" x="125.16" y="-1183.56" font-family="Times,serif" font-size="14.00">okhmeta:ExtendedI...</text>
+</g>
+<!-- https://w3id.org/oseg/ont/okhmeta#ExtendedInfoTag&#45;&gt;https://w3id.org/oseg/ont/okhmeta#Tag -->
+<g id="edge4" class="edge">
+<title>https://w3id.org/oseg/ont/okhmeta#ExtendedInfoTag&#45;&gt;https://w3id.org/oseg/ont/okhmeta#Tag</title>
+<path fill="none" stroke="black" d="M208.04,-1175.35C222.89,-1170.87 237.66,-1164.72 250.32,-1156.26 359.68,-1083.14 363.5,-1033.86 426.32,-918.26 437.19,-898.24 433.34,-890.23 444.32,-870.26 472.61,-818.79 516.26,-765.62 542.15,-735.96"/>
+<polygon fill="black" stroke="black" points="544.97,-738.05 548.96,-728.24 539.72,-733.43 544.97,-738.05"/>
+<text text-anchor="middle" x="347.32" y="-1148.06" font-family="Times,serif" font-size="14.00">a</text>
+</g>
+<!-- https://w3id.org/oseg/ont/okhmeta#ExtendedInfoTag&#45;&gt;https://w3id.org/oseg/ont/okhmeta#MetaTag -->
+<g id="edge14" class="edge">
+<title>https://w3id.org/oseg/ont/okhmeta#ExtendedInfoTag&#45;&gt;https://w3id.org/oseg/ont/okhmeta#MetaTag</title>
+<path fill="none" stroke="black" d="M245.42,-1186.68C431.72,-1183.09 779.17,-1164.76 862.73,-1079.26 959.12,-980.64 982.31,-805.22 987.73,-738.77"/>
+<polygon fill="black" stroke="black" points="991.23,-738.95 988.48,-728.72 984.25,-738.43 991.23,-738.95"/>
+<text text-anchor="middle" x="564.52" y="-1182.06" font-family="Times,serif" font-size="14.00">okhmeta:hasMetaTag</text>
+</g>
+<!-- https://w3id.org/oseg/ont/okhmeta#QualityTag -->
 <g id="node16" class="node">
-<title>https://w3id.org/oseg/ont/okhmeta#AcademicTag</title>
-<ellipse fill="none" stroke="#e377c2" cx="125.16" cy="-1241.26" rx="124.4" ry="16.03"/>
-<text text-anchor="middle" x="125.16" y="-1237.56" font-family="Times,serif" font-size="14.00">okhmeta:AcademicTag</text>
+<title>https://w3id.org/oseg/ont/okhmeta#QualityTag</title>
+<ellipse fill="none" stroke="#e377c2" cx="125.16" cy="-484.26" rx="113.27" ry="16.03"/>
+<text text-anchor="middle" x="125.16" y="-480.56" font-family="Times,serif" font-size="14.00">okhmeta:QualityTag</text>
 </g>
-<!-- https://w3id.org/oseg/ont/okhmeta#AcademicTag&#45;&gt;https://w3id.org/oseg/ont/okhmeta#Tag -->
-<g id="edge33" class="edge">
-<title>https://w3id.org/oseg/ont/okhmeta#AcademicTag&#45;&gt;https://w3id.org/oseg/ont/okhmeta#Tag</title>
-<path fill="none" stroke="black" d="M214.93,-1229.92C293.54,-1217.87 399.81,-1196.02 426.32,-1163.26 467.35,-1112.55 421.71,-931.46 444.32,-870.26 464.54,-815.52 510.39,-763.88 538.97,-735.31"/>
-<polygon fill="black" stroke="black" points="541.51,-737.73 546.19,-728.22 536.6,-732.73 541.51,-737.73"/>
-<text text-anchor="middle" x="347.32" y="-1225.06" font-family="Times,serif" font-size="14.00">a</text>
+<!-- https://w3id.org/oseg/ont/okhmeta#QualityTag&#45;&gt;https://w3id.org/oseg/ont/okhmeta#Tag -->
+<g id="edge5" class="edge">
+<title>https://w3id.org/oseg/ont/okhmeta#QualityTag&#45;&gt;https://w3id.org/oseg/ont/okhmeta#Tag</title>
+<path fill="none" stroke="black" d="M189.03,-497.71C213.7,-502.83 242.29,-508.55 268.32,-513.26 303.3,-519.6 401.31,-513 426.32,-538.26 464.87,-577.22 411.02,-616.73 444.32,-660.26 457.88,-677.99 478.74,-689.78 499.24,-697.58"/>
+<polygon fill="black" stroke="black" points="498.33,-700.97 508.92,-700.99 500.65,-694.36 498.33,-700.97"/>
+<text text-anchor="middle" x="347.32" y="-542.06" font-family="Times,serif" font-size="14.00">a</text>
 </g>
-<!-- https://w3id.org/oseg/ont/okhmeta#AcademicTag&#45;&gt;https://w3id.org/oseg/ont/okhmeta#MetaTag -->
-<g id="edge27" class="edge">
-<title>https://w3id.org/oseg/ont/okhmeta#AcademicTag&#45;&gt;https://w3id.org/oseg/ont/okhmeta#MetaTag</title>
-<path fill="none" stroke="black" d="M245.76,-1245.28C300.83,-1246 366.99,-1245.27 426.32,-1240.26 626.08,-1223.42 726.96,-1273.76 862.73,-1126.26 968.31,-1011.57 985.91,-810.98 988.79,-738.96"/>
-<polygon fill="black" stroke="black" points="992.3,-738.64 989.14,-728.53 985.31,-738.41 992.3,-738.64"/>
-<text text-anchor="middle" x="564.52" y="-1243.06" font-family="Times,serif" font-size="14.00">okhmeta:hasMetaTag</text>
-</g>
-<!-- https://w3id.org/oseg/ont/okhmeta#HistoryTag -->
-<g id="node17" class="node">
-<title>https://w3id.org/oseg/ont/okhmeta#HistoryTag</title>
-<ellipse fill="none" stroke="#e377c2" cx="125.16" cy="-418.26" rx="113.69" ry="16.03"/>
-<text text-anchor="middle" x="125.16" y="-414.56" font-family="Times,serif" font-size="14.00">okhmeta:HistoryTag</text>
-</g>
-<!-- https://w3id.org/oseg/ont/okhmeta#HistoryTag&#45;&gt;https://w3id.org/oseg/ont/okhmeta#Tag -->
-<g id="edge11" class="edge">
-<title>https://w3id.org/oseg/ont/okhmeta#HistoryTag&#45;&gt;https://w3id.org/oseg/ont/okhmeta#Tag</title>
-<path fill="none" stroke="black" d="M184.48,-432.18C206,-438.67 230.06,-447.59 250.32,-459.26 259.59,-464.61 258.56,-470.87 268.32,-475.26 300.56,-489.79 401.46,-469.11 426.32,-494.26 452.4,-520.65 422.34,-630.36 444.32,-660.26 457.47,-678.17 478.13,-689.99 498.58,-697.76"/>
-<polygon fill="black" stroke="black" points="497.65,-701.15 508.25,-701.16 499.97,-694.54 497.65,-701.15"/>
-<text text-anchor="middle" x="347.32" y="-498.06" font-family="Times,serif" font-size="14.00">a</text>
-</g>
-<!-- https://w3id.org/oseg/ont/okhmeta#HistoryTag&#45;&gt;https://w3id.org/oseg/ont/okhmeta#MetaTag -->
-<g id="edge17" class="edge">
-<title>https://w3id.org/oseg/ont/okhmeta#HistoryTag&#45;&gt;https://w3id.org/oseg/ont/okhmeta#MetaTag</title>
-<path fill="none" stroke="black" d="M167.92,-403.08C192.9,-393.05 224.66,-378.58 250.32,-361.26 259.44,-355.11 258.29,-348.79 268.32,-344.26 388.73,-289.95 763.75,-263.78 862.73,-351.26 886.8,-372.54 871.1,-390.62 880.73,-421.26 911.96,-520.65 957.9,-635.76 978.57,-686.26"/>
-<polygon fill="black" stroke="black" points="975.43,-687.83 982.47,-695.75 981.91,-685.17 975.43,-687.83"/>
-<text text-anchor="middle" x="564.52" y="-308.06" font-family="Times,serif" font-size="14.00">okhmeta:hasMetaTag</text>
-</g>
-<!-- https://w3id.org/oseg/ont/okhmeta#TransportationTag -->
-<g id="node19" class="node">
-<title>https://w3id.org/oseg/ont/okhmeta#TransportationTag</title>
-<ellipse fill="none" stroke="#e377c2" cx="125.16" cy="-776.26" rx="118.17" ry="16.03"/>
-<text text-anchor="middle" x="125.16" y="-772.56" font-family="Times,serif" font-size="14.00">okhmeta:Transport...</text>
-</g>
-<!-- https://w3id.org/oseg/ont/okhmeta#TransportationTag&#45;&gt;https://w3id.org/oseg/ont/okhmeta#Tag -->
-<g id="edge13" class="edge">
-<title>https://w3id.org/oseg/ont/okhmeta#TransportationTag&#45;&gt;https://w3id.org/oseg/ont/okhmeta#Tag</title>
-<path fill="none" stroke="black" d="M196.56,-763.27C219.41,-759.22 244.91,-754.87 268.32,-751.26 342.58,-739.83 427.67,-728.81 487.36,-721.42"/>
-<polygon fill="black" stroke="black" points="487.96,-724.87 497.46,-720.17 487.1,-717.92 487.96,-724.87"/>
-<text text-anchor="middle" x="347.32" y="-755.06" font-family="Times,serif" font-size="14.00">a</text>
-</g>
-<!-- https://w3id.org/oseg/ont/okhmeta#TransportationTag&#45;&gt;https://w3id.org/oseg/ont/okhmeta#MetaTag -->
-<g id="edge19" class="edge">
-<title>https://w3id.org/oseg/ont/okhmeta#TransportationTag&#45;&gt;https://w3id.org/oseg/ont/okhmeta#MetaTag</title>
-<path fill="none" stroke="black" d="M153.72,-792.12C182.62,-810.28 227.03,-842.82 250.32,-883.26 271.98,-920.88 234.91,-951.54 268.32,-979.26 322.35,-1024.11 362.86,-1009.33 426.32,-979.26 437.73,-973.85 433.33,-963.51 444.32,-957.26 538.25,-903.87 584.2,-960.84 684.73,-921.26 800.34,-875.76 915.4,-779.45 964.54,-735.28"/>
-<polygon fill="black" stroke="black" points="967.07,-737.71 972.13,-728.4 962.37,-732.53 967.07,-737.71"/>
-<text text-anchor="middle" x="564.52" y="-961.06" font-family="Times,serif" font-size="14.00">okhmeta:hasMetaTag</text>
+<!-- https://w3id.org/oseg/ont/okhmeta#QualityTag&#45;&gt;https://w3id.org/oseg/ont/okhmeta#MetaTag -->
+<g id="edge8" class="edge">
+<title>https://w3id.org/oseg/ont/okhmeta#QualityTag&#45;&gt;https://w3id.org/oseg/ont/okhmeta#MetaTag</title>
+<path fill="none" stroke="black" d="M202.56,-472.36C220.32,-466.28 237.7,-457.1 250.32,-443.26 274.29,-416.97 241.31,-388.42 268.32,-365.26 300.63,-337.55 662.89,-348.85 684.73,-352.26 766.81,-365.08 801.53,-353.1 862.73,-409.26 946.57,-486.19 976.63,-627.33 985.81,-685.81"/>
+<polygon fill="black" stroke="black" points="982.36,-686.35 987.29,-695.73 989.28,-685.32 982.36,-686.35"/>
+<text text-anchor="middle" x="564.52" y="-356.06" font-family="Times,serif" font-size="14.00">okhmeta:hasMetaTag</text>
 </g>
 <!-- https://w3id.org/oseg/ont/okhmeta#hasMetaTag -->
-<g id="node20" class="node">
+<g id="node17" class="node">
 <title>https://w3id.org/oseg/ont/okhmeta#hasMetaTag</title>
 <ellipse fill="none" stroke="#e377c2" cx="564.52" cy="-105.26" rx="120.42" ry="16.03"/>
 <text text-anchor="middle" x="564.52" y="-101.56" font-family="Times,serif" font-size="14.00">okhmeta:hasMetaTag</text>
 </g>
-<!-- https://w3id.org/oseg/ont/okhmeta#hasMetaTag&#45;&gt;https://w3id.org/oseg/ont/okhmeta#MetaTag -->
-<g id="edge6" class="edge">
-<title>https://w3id.org/oseg/ont/okhmeta#hasMetaTag&#45;&gt;https://w3id.org/oseg/ont/okhmeta#MetaTag</title>
-<path fill="none" stroke="black" d="M598.9,-120.93C626.24,-133.14 666.23,-149.6 702.73,-159.26 737.46,-168.46 838.2,-156.02 862.73,-182.26 880.92,-201.72 875.02,-395.25 880.73,-421.26 903.12,-523.23 953.76,-637.39 977.11,-686.99"/>
-<polygon fill="black" stroke="black" points="973.95,-688.5 981.4,-696.03 980.27,-685.5 973.95,-688.5"/>
-<text text-anchor="middle" x="782.73" y="-186.06" font-family="Times,serif" font-size="14.00">schema:rangeIncludes</text>
-</g>
-<!-- https://w3id.org/oseg/ont/okhmeta#hasMetaTag&#45;&gt;https://w3id.org/oseg/ont/okhmeta#MetaTag -->
-<g id="edge9" class="edge">
-<title>https://w3id.org/oseg/ont/okhmeta#hasMetaTag&#45;&gt;https://w3id.org/oseg/ont/okhmeta#MetaTag</title>
-<path fill="none" stroke="black" d="M656.22,-115.86C743.55,-126.07 862.51,-140.02 862.73,-140.26 884.26,-162.97 874.19,-390.67 880.73,-421.26 902.55,-523.35 953.48,-637.45 977.01,-687.02"/>
-<polygon fill="black" stroke="black" points="973.86,-688.54 981.33,-696.05 980.17,-685.51 973.86,-688.54"/>
-<text text-anchor="middle" x="782.73" y="-144.06" font-family="Times,serif" font-size="14.00">okhmeta:hasMetaTag</text>
-</g>
 <!-- https://w3id.org/oseg/ont/okhmeta#hasMetaTag&#45;&gt;http://www.w3.org/2002/07/owl#ObjectProperty -->
-<g id="edge15" class="edge">
+<g id="edge6" class="edge">
 <title>https://w3id.org/oseg/ont/okhmeta#hasMetaTag&#45;&gt;http://www.w3.org/2002/07/owl#ObjectProperty</title>
 <path fill="none" stroke="black" d="M610.03,-90.11C636.59,-81.86 671.19,-72.5 702.73,-68.26 760.3,-60.54 824.95,-59.65 878.26,-60.97"/>
 <polygon fill="black" stroke="black" points="878.33,-64.47 888.42,-61.25 878.53,-57.47 878.33,-64.47"/>
 <text text-anchor="middle" x="782.73" y="-72.06" font-family="Times,serif" font-size="14.00">a</text>
 </g>
+<!-- https://w3id.org/oseg/ont/okhmeta#hasMetaTag&#45;&gt;https://w3id.org/oseg/ont/okhmeta#MetaTag -->
+<g id="edge28" class="edge">
+<title>https://w3id.org/oseg/ont/okhmeta#hasMetaTag&#45;&gt;https://w3id.org/oseg/ont/okhmeta#MetaTag</title>
+<path fill="none" stroke="black" d="M598.9,-120.93C626.24,-133.14 666.23,-149.6 702.73,-159.26 737.46,-168.46 838.2,-156.02 862.73,-182.26 880.92,-201.72 875.02,-395.25 880.73,-421.26 903.12,-523.23 953.76,-637.39 977.11,-686.99"/>
+<polygon fill="black" stroke="black" points="973.95,-688.5 981.4,-696.03 980.27,-685.5 973.95,-688.5"/>
+<text text-anchor="middle" x="782.73" y="-186.06" font-family="Times,serif" font-size="14.00">okhmeta:hasMetaTag</text>
+</g>
+<!-- https://w3id.org/oseg/ont/okhmeta#hasMetaTag&#45;&gt;https://w3id.org/oseg/ont/okhmeta#MetaTag -->
+<g id="edge38" class="edge">
+<title>https://w3id.org/oseg/ont/okhmeta#hasMetaTag&#45;&gt;https://w3id.org/oseg/ont/okhmeta#MetaTag</title>
+<path fill="none" stroke="black" d="M656.22,-115.86C743.55,-126.07 862.51,-140.02 862.73,-140.26 884.26,-162.97 874.19,-390.67 880.73,-421.26 902.55,-523.35 953.48,-637.45 977.01,-687.02"/>
+<polygon fill="black" stroke="black" points="973.86,-688.54 981.33,-696.05 980.17,-685.51 973.86,-688.54"/>
+<text text-anchor="middle" x="782.73" y="-144.06" font-family="Times,serif" font-size="14.00">schema:rangeIncludes</text>
+</g>
 <!-- https://w3id.org/oseg/ont/okhmeta#hasMetaTag&#45;&gt;http://www.w3.org/2004/02/skos/core#Concept -->
-<g id="edge40" class="edge">
+<g id="edge27" class="edge">
 <title>https://w3id.org/oseg/ont/okhmeta#hasMetaTag&#45;&gt;http://www.w3.org/2004/02/skos/core#Concept</title>
 <path fill="none" stroke="black" d="M657.33,-94.9C731.97,-88.39 830.07,-84.8 862.73,-106.26 954.8,-166.75 980.31,-310.4 987.04,-369.83"/>
 <polygon fill="black" stroke="black" points="983.58,-370.32 988.1,-379.9 990.54,-369.6 983.58,-370.32"/>
 <text text-anchor="middle" x="782.73" y="-110.06" font-family="Times,serif" font-size="14.00">a</text>
 </g>
 <!-- http://www.w3.org/2004/02/skos/core#member -->
-<g id="node22" class="node">
+<g id="node23" class="node">
 <title>http://www.w3.org/2004/02/skos/core#member</title>
 <ellipse fill="none" stroke="#e377c2" cx="990.33" cy="-16.26" rx="79.39" ry="16.03"/>
 <text text-anchor="middle" x="990.33" y="-12.56" font-family="Times,serif" font-size="14.00">skos:member</text>
 </g>
 <!-- https://w3id.org/oseg/ont/okhmeta#hasMetaTag&#45;&gt;http://www.w3.org/2004/02/skos/core#member -->
-<g id="edge44" class="edge">
+<g id="edge19" class="edge">
 <title>https://w3id.org/oseg/ont/okhmeta#hasMetaTag&#45;&gt;http://www.w3.org/2004/02/skos/core#member</title>
 <path fill="none" stroke="black" d="M592.86,-89.32C619.83,-74.43 662.71,-52.93 702.73,-42.26 767.63,-24.97 843.4,-18.67 900.73,-16.58"/>
 <polygon fill="black" stroke="black" points="900.97,-20.08 910.85,-16.25 900.74,-13.08 900.97,-20.08"/>
 <text text-anchor="middle" x="782.73" y="-46.06" font-family="Times,serif" font-size="14.00">subPropertyOf</text>
 </g>
-<!-- https://w3id.org/oseg/ont/okhmeta#ExtendedInfoTag -->
-<g id="node21" class="node">
-<title>https://w3id.org/oseg/ont/okhmeta#ExtendedInfoTag</title>
-<ellipse fill="none" stroke="#e377c2" cx="125.16" cy="-999.26" rx="120.42" ry="16.03"/>
-<text text-anchor="middle" x="125.16" y="-995.56" font-family="Times,serif" font-size="14.00">okhmeta:ExtendedI...</text>
+<!-- https://w3id.org/oseg/ont/okhmeta#IdentificationTag -->
+<g id="node19" class="node">
+<title>https://w3id.org/oseg/ont/okhmeta#IdentificationTag</title>
+<ellipse fill="none" stroke="#e377c2" cx="125.16" cy="-651.26" rx="109.7" ry="16.03"/>
+<text text-anchor="middle" x="125.16" y="-647.56" font-family="Times,serif" font-size="14.00">okhmeta:Identific...</text>
 </g>
-<!-- https://w3id.org/oseg/ont/okhmeta#ExtendedInfoTag&#45;&gt;https://w3id.org/oseg/ont/okhmeta#Tag -->
-<g id="edge43" class="edge">
-<title>https://w3id.org/oseg/ont/okhmeta#ExtendedInfoTag&#45;&gt;https://w3id.org/oseg/ont/okhmeta#Tag</title>
-<path fill="none" stroke="black" d="M176.39,-984.54C202.44,-974.32 232.46,-958.01 250.32,-933.26 278.28,-894.52 234.13,-860.65 268.32,-827.26 319.08,-777.68 360.09,-829.77 426.32,-804.26 468.82,-787.89 511.39,-756.43 537.59,-734.9"/>
-<polygon fill="black" stroke="black" points="540.07,-737.38 545.5,-728.29 535.58,-732.01 540.07,-737.38"/>
-<text text-anchor="middle" x="347.32" y="-831.06" font-family="Times,serif" font-size="14.00">a</text>
-</g>
-<!-- https://w3id.org/oseg/ont/okhmeta#ExtendedInfoTag&#45;&gt;https://w3id.org/oseg/ont/okhmeta#MetaTag -->
-<g id="edge4" class="edge">
-<title>https://w3id.org/oseg/ont/okhmeta#ExtendedInfoTag&#45;&gt;https://w3id.org/oseg/ont/okhmeta#MetaTag</title>
-<path fill="none" stroke="black" d="M181.43,-1013.72C207.57,-1019.84 239.34,-1026.24 268.32,-1029.26 335.59,-1036.28 676.96,-1025.12 684.73,-1023.26 770,-1002.9 798.76,-998.2 862.73,-938.26 924.98,-879.95 964.48,-784 980.77,-738.18"/>
-<polygon fill="black" stroke="black" points="984.1,-739.28 984.07,-728.69 977.48,-736.98 984.1,-739.28"/>
-<text text-anchor="middle" x="564.52" y="-1035.06" font-family="Times,serif" font-size="14.00">okhmeta:hasMetaTag</text>
-</g>
-<!-- https://w3id.org/oseg/ont/okhmeta#DocumentationTag -->
-<g id="node23" class="node">
-<title>https://w3id.org/oseg/ont/okhmeta#DocumentationTag</title>
-<ellipse fill="none" stroke="#e377c2" cx="125.16" cy="-1070.26" rx="125.32" ry="16.03"/>
-<text text-anchor="middle" x="125.16" y="-1066.56" font-family="Times,serif" font-size="14.00">okhmeta:Documenta...</text>
-</g>
-<!-- https://w3id.org/oseg/ont/okhmeta#DocumentationTag&#45;&gt;https://w3id.org/oseg/ont/okhmeta#Tag -->
-<g id="edge18" class="edge">
-<title>https://w3id.org/oseg/ont/okhmeta#DocumentationTag&#45;&gt;https://w3id.org/oseg/ont/okhmeta#Tag</title>
-<path fill="none" stroke="black" d="M200.92,-1057.18C219.7,-1050.36 237.99,-1040.01 250.32,-1024.26 294.16,-968.27 218.83,-916.35 268.32,-865.26 317.69,-814.29 362.46,-873.22 426.32,-842.26 477.33,-817.53 521.97,-766.98 545.62,-736.71"/>
-<polygon fill="black" stroke="black" points="548.41,-738.82 551.72,-728.76 542.86,-734.56 548.41,-738.82"/>
-<text text-anchor="middle" x="347.32" y="-869.06" font-family="Times,serif" font-size="14.00">a</text>
-</g>
-<!-- https://w3id.org/oseg/ont/okhmeta#DocumentationTag&#45;&gt;https://w3id.org/oseg/ont/okhmeta#MetaTag -->
-<g id="edge34" class="edge">
-<title>https://w3id.org/oseg/ont/okhmeta#DocumentationTag&#45;&gt;https://w3id.org/oseg/ont/okhmeta#MetaTag</title>
-<path fill="none" stroke="black" d="M246.86,-1074.1C432.11,-1077.36 774.42,-1072.09 862.73,-993.26 941.51,-922.95 974.06,-794.06 984.85,-738.69"/>
-<polygon fill="black" stroke="black" points="988.33,-739.1 986.72,-728.63 981.45,-737.82 988.33,-739.1"/>
-<text text-anchor="middle" x="564.52" y="-1077.06" font-family="Times,serif" font-size="14.00">okhmeta:hasMetaTag</text>
-</g>
-<!-- https://w3id.org/oseg/ont/okhmeta#DataTag -->
-<g id="node24" class="node">
-<title>https://w3id.org/oseg/ont/okhmeta#DataTag</title>
-<ellipse fill="none" stroke="#e377c2" cx="125.16" cy="-543.26" rx="100.32" ry="16.03"/>
-<text text-anchor="middle" x="125.16" y="-539.56" font-family="Times,serif" font-size="14.00">okhmeta:DataTag</text>
-</g>
-<!-- https://w3id.org/oseg/ont/okhmeta#DataTag&#45;&gt;https://w3id.org/oseg/ont/okhmeta#Tag -->
-<g id="edge45" class="edge">
-<title>https://w3id.org/oseg/ont/okhmeta#DataTag&#45;&gt;https://w3id.org/oseg/ont/okhmeta#Tag</title>
-<path fill="none" stroke="black" d="M216.32,-550.14C293.19,-557.8 395.93,-572.88 426.32,-600.26 447,-618.9 425.84,-639.43 444.32,-660.26 459.52,-677.4 481.39,-689.13 502.27,-697.03"/>
-<polygon fill="black" stroke="black" points="501.16,-700.35 511.76,-700.4 503.5,-693.76 501.16,-700.35"/>
-<text text-anchor="middle" x="347.32" y="-604.06" font-family="Times,serif" font-size="14.00">a</text>
-</g>
-<!-- https://w3id.org/oseg/ont/okhmeta#DataTag&#45;&gt;https://w3id.org/oseg/ont/okhmeta#MetaTag -->
-<g id="edge10" class="edge">
-<title>https://w3id.org/oseg/ont/okhmeta#DataTag&#45;&gt;https://w3id.org/oseg/ont/okhmeta#MetaTag</title>
-<path fill="none" stroke="black" d="M209.87,-534.51C225.19,-529.29 239.67,-521.33 250.32,-509.26 287.46,-467.19 225.89,-421.02 268.32,-384.26 305.77,-351.82 626.6,-377.95 684.73,-402.26 827.08,-461.81 936.38,-624.04 974.6,-686.9"/>
-<polygon fill="black" stroke="black" points="971.77,-689 979.91,-695.77 977.77,-685.4 971.77,-689"/>
-<text text-anchor="middle" x="564.52" y="-406.06" font-family="Times,serif" font-size="14.00">okhmeta:hasMetaTag</text>
-</g>
-<!-- https://w3id.org/oseg/ont/okhmeta#PhysicalTag -->
-<g id="node26" class="node">
-<title>https://w3id.org/oseg/ont/okhmeta#PhysicalTag</title>
-<ellipse fill="none" stroke="#e377c2" cx="125.16" cy="-651.26" rx="118.17" ry="16.03"/>
-<text text-anchor="middle" x="125.16" y="-647.56" font-family="Times,serif" font-size="14.00">okhmeta:PhysicalTag</text>
-</g>
-<!-- https://w3id.org/oseg/ont/okhmeta#PhysicalTag&#45;&gt;https://w3id.org/oseg/ont/okhmeta#Tag -->
-<g id="edge22" class="edge">
-<title>https://w3id.org/oseg/ont/okhmeta#PhysicalTag&#45;&gt;https://w3id.org/oseg/ont/okhmeta#Tag</title>
-<path fill="none" stroke="black" d="M208.68,-662.77C289.7,-674.07 412.15,-691.15 489.94,-702"/>
-<polygon fill="black" stroke="black" points="489.76,-705.51 500.14,-703.42 490.72,-698.58 489.76,-705.51"/>
+<!-- https://w3id.org/oseg/ont/okhmeta#IdentificationTag&#45;&gt;https://w3id.org/oseg/ont/okhmeta#Tag -->
+<g id="edge9" class="edge">
+<title>https://w3id.org/oseg/ont/okhmeta#IdentificationTag&#45;&gt;https://w3id.org/oseg/ont/okhmeta#Tag</title>
+<path fill="none" stroke="black" d="M205.62,-662.35C286.58,-673.64 411.12,-691.01 489.91,-702"/>
+<polygon fill="black" stroke="black" points="489.85,-705.52 500.23,-703.44 490.81,-698.59 489.85,-705.52"/>
 <text text-anchor="middle" x="347.32" y="-697.06" font-family="Times,serif" font-size="14.00">a</text>
 </g>
-<!-- https://w3id.org/oseg/ont/okhmeta#PhysicalTag&#45;&gt;https://w3id.org/oseg/ont/okhmeta#MetaTag -->
-<g id="edge39" class="edge">
-<title>https://w3id.org/oseg/ont/okhmeta#PhysicalTag&#45;&gt;https://w3id.org/oseg/ont/okhmeta#MetaTag</title>
-<path fill="none" stroke="black" d="M237.67,-646.23C413.51,-639.24 747.07,-630.1 862.73,-655.26 895.1,-662.31 929.21,-678.22 953.85,-691.44"/>
+<!-- https://w3id.org/oseg/ont/okhmeta#IdentificationTag&#45;&gt;https://w3id.org/oseg/ont/okhmeta#MetaTag -->
+<g id="edge29" class="edge">
+<title>https://w3id.org/oseg/ont/okhmeta#IdentificationTag&#45;&gt;https://w3id.org/oseg/ont/okhmeta#MetaTag</title>
+<path fill="none" stroke="black" d="M230.29,-646.52C404,-639.5 745.43,-629.74 862.73,-655.26 895.1,-662.31 929.21,-678.22 953.85,-691.44"/>
 <polygon fill="black" stroke="black" points="952.36,-694.62 962.81,-696.36 955.73,-688.48 952.36,-694.62"/>
 <text text-anchor="middle" x="564.52" y="-644.06" font-family="Times,serif" font-size="14.00">okhmeta:hasMetaTag</text>
 </g>
+<!-- https://w3id.org/oseg/ont/okhmeta#PartsTag -->
+<g id="node21" class="node">
+<title>https://w3id.org/oseg/ont/okhmeta#PartsTag</title>
+<ellipse fill="none" stroke="#e377c2" cx="125.16" cy="-1131.26" rx="103.48" ry="16.03"/>
+<text text-anchor="middle" x="125.16" y="-1127.56" font-family="Times,serif" font-size="14.00">okhmeta:PartsTag</text>
+</g>
+<!-- https://w3id.org/oseg/ont/okhmeta#PartsTag&#45;&gt;https://w3id.org/oseg/ont/okhmeta#Tag -->
+<g id="edge17" class="edge">
+<title>https://w3id.org/oseg/ont/okhmeta#PartsTag&#45;&gt;https://w3id.org/oseg/ont/okhmeta#Tag</title>
+<path fill="none" stroke="black" d="M209.46,-1121.84C225.09,-1116.35 239.8,-1107.97 250.32,-1095.26 277.63,-1062.24 238.8,-934.33 268.32,-903.26 317.2,-851.82 364.57,-915.23 426.32,-880.26 486.13,-846.39 530.4,-775.41 550.89,-737.46"/>
+<polygon fill="black" stroke="black" points="554.01,-739.05 555.58,-728.57 547.82,-735.78 554.01,-739.05"/>
+<text text-anchor="middle" x="347.32" y="-907.06" font-family="Times,serif" font-size="14.00">a</text>
+</g>
+<!-- https://w3id.org/oseg/ont/okhmeta#PartsTag&#45;&gt;https://w3id.org/oseg/ont/okhmeta#MetaTag -->
+<g id="edge3" class="edge">
+<title>https://w3id.org/oseg/ont/okhmeta#PartsTag&#45;&gt;https://w3id.org/oseg/ont/okhmeta#MetaTag</title>
+<path fill="none" stroke="black" d="M228.55,-1132.13C409.02,-1131.43 773.16,-1119.31 862.73,-1035.26 951.2,-952.26 978.82,-799.93 986.59,-738.74"/>
+<polygon fill="black" stroke="black" points="990.07,-739.08 987.78,-728.74 983.12,-738.25 990.07,-739.08"/>
+<text text-anchor="middle" x="564.52" y="-1130.06" font-family="Times,serif" font-size="14.00">okhmeta:hasMetaTag</text>
+</g>
+<!-- https://w3id.org/oseg/ont/okhmeta#MakingTag -->
+<g id="node24" class="node">
+<title>https://w3id.org/oseg/ont/okhmeta#MakingTag</title>
+<ellipse fill="none" stroke="#e377c2" cx="125.16" cy="-1241.26" rx="113.69" ry="16.03"/>
+<text text-anchor="middle" x="125.16" y="-1237.56" font-family="Times,serif" font-size="14.00">okhmeta:MakingTag</text>
+</g>
+<!-- https://w3id.org/oseg/ont/okhmeta#MakingTag&#45;&gt;https://w3id.org/oseg/ont/okhmeta#Tag -->
+<g id="edge41" class="edge">
+<title>https://w3id.org/oseg/ont/okhmeta#MakingTag&#45;&gt;https://w3id.org/oseg/ont/okhmeta#Tag</title>
+<path fill="none" stroke="black" d="M210.81,-1230.54C289.78,-1218.64 399.35,-1196.59 426.32,-1163.26 467.35,-1112.55 421.71,-931.46 444.32,-870.26 464.54,-815.52 510.39,-763.88 538.97,-735.31"/>
+<polygon fill="black" stroke="black" points="541.51,-737.73 546.19,-728.22 536.6,-732.73 541.51,-737.73"/>
+<text text-anchor="middle" x="347.32" y="-1225.06" font-family="Times,serif" font-size="14.00">a</text>
+</g>
+<!-- https://w3id.org/oseg/ont/okhmeta#MakingTag&#45;&gt;https://w3id.org/oseg/ont/okhmeta#MetaTag -->
+<g id="edge45" class="edge">
+<title>https://w3id.org/oseg/ont/okhmeta#MakingTag&#45;&gt;https://w3id.org/oseg/ont/okhmeta#MetaTag</title>
+<path fill="none" stroke="black" d="M235.76,-1245.14C292.7,-1246.08 363.35,-1245.57 426.32,-1240.26 626.08,-1223.42 726.96,-1273.76 862.73,-1126.26 968.31,-1011.57 985.91,-810.98 988.79,-738.96"/>
+<polygon fill="black" stroke="black" points="992.3,-738.64 989.14,-728.53 985.31,-738.41 992.3,-738.64"/>
+<text text-anchor="middle" x="564.52" y="-1243.06" font-family="Times,serif" font-size="14.00">okhmeta:hasMetaTag</text>
+</g>
+<!-- https://w3id.org/oseg/ont/okhmeta#DataGatheringTag -->
+<g id="node25" class="node">
+<title>https://w3id.org/oseg/ont/okhmeta#DataGatheringTag</title>
+<ellipse fill="none" stroke="#e377c2" cx="125.16" cy="-776.26" rx="122.16" ry="16.03"/>
+<text text-anchor="middle" x="125.16" y="-772.56" font-family="Times,serif" font-size="14.00">okhmeta:DataGathe...</text>
+</g>
+<!-- https://w3id.org/oseg/ont/okhmeta#DataGatheringTag&#45;&gt;https://w3id.org/oseg/ont/okhmeta#Tag -->
+<g id="edge43" class="edge">
+<title>https://w3id.org/oseg/ont/okhmeta#DataGatheringTag&#45;&gt;https://w3id.org/oseg/ont/okhmeta#Tag</title>
+<path fill="none" stroke="black" d="M197.65,-763.08C220.22,-759.08 245.28,-754.81 268.32,-751.26 342.58,-739.83 427.67,-728.81 487.36,-721.42"/>
+<polygon fill="black" stroke="black" points="487.96,-724.87 497.46,-720.17 487.1,-717.92 487.96,-724.87"/>
+<text text-anchor="middle" x="347.32" y="-755.06" font-family="Times,serif" font-size="14.00">a</text>
+</g>
+<!-- https://w3id.org/oseg/ont/okhmeta#DataGatheringTag&#45;&gt;https://w3id.org/oseg/ont/okhmeta#MetaTag -->
+<g id="edge11" class="edge">
+<title>https://w3id.org/oseg/ont/okhmeta#DataGatheringTag&#45;&gt;https://w3id.org/oseg/ont/okhmeta#MetaTag</title>
+<path fill="none" stroke="black" d="M153.72,-792.12C182.62,-810.28 227.03,-842.82 250.32,-883.26 271.98,-920.88 234.91,-951.54 268.32,-979.26 322.35,-1024.11 362.86,-1009.33 426.32,-979.26 437.73,-973.85 433.33,-963.51 444.32,-957.26 538.25,-903.87 584.2,-960.84 684.73,-921.26 800.34,-875.76 915.4,-779.45 964.54,-735.28"/>
+<polygon fill="black" stroke="black" points="967.07,-737.71 972.13,-728.4 962.37,-732.53 967.07,-737.71"/>
+<text text-anchor="middle" x="564.52" y="-961.06" font-family="Times,serif" font-size="14.00">okhmeta:hasMetaTag</text>
+</g>
+<!-- https://w3id.org/oseg/ont/okhmeta#BasicTag -->
+<g id="node26" class="node">
+<title>https://w3id.org/oseg/ont/okhmeta#BasicTag</title>
+<ellipse fill="none" stroke="#e377c2" cx="125.16" cy="-999.26" rx="103.48" ry="16.03"/>
+<text text-anchor="middle" x="125.16" y="-995.56" font-family="Times,serif" font-size="14.00">okhmeta:BasicTag</text>
+</g>
+<!-- https://w3id.org/oseg/ont/okhmeta#BasicTag&#45;&gt;https://w3id.org/oseg/ont/okhmeta#Tag -->
+<g id="edge23" class="edge">
+<title>https://w3id.org/oseg/ont/okhmeta#BasicTag&#45;&gt;https://w3id.org/oseg/ont/okhmeta#Tag</title>
+<path fill="none" stroke="black" d="M175.14,-985.03C201.47,-974.84 232.17,-958.4 250.32,-933.26 278.28,-894.52 234.13,-860.65 268.32,-827.26 319.08,-777.68 360.09,-829.77 426.32,-804.26 468.82,-787.89 511.39,-756.43 537.59,-734.9"/>
+<polygon fill="black" stroke="black" points="540.07,-737.38 545.5,-728.29 535.58,-732.01 540.07,-737.38"/>
+<text text-anchor="middle" x="347.32" y="-831.06" font-family="Times,serif" font-size="14.00">a</text>
+</g>
+<!-- https://w3id.org/oseg/ont/okhmeta#BasicTag&#45;&gt;https://w3id.org/oseg/ont/okhmeta#MetaTag -->
+<g id="edge7" class="edge">
+<title>https://w3id.org/oseg/ont/okhmeta#BasicTag&#45;&gt;https://w3id.org/oseg/ont/okhmeta#MetaTag</title>
+<path fill="none" stroke="black" d="M179.07,-1013.17C205.65,-1019.45 238.46,-1026.15 268.32,-1029.26 335.59,-1036.28 676.96,-1025.12 684.73,-1023.26 770,-1002.9 798.76,-998.2 862.73,-938.26 924.98,-879.95 964.48,-784 980.77,-738.18"/>
+<polygon fill="black" stroke="black" points="984.1,-739.28 984.07,-728.69 977.48,-736.98 984.1,-739.28"/>
+<text text-anchor="middle" x="564.52" y="-1035.06" font-family="Times,serif" font-size="14.00">okhmeta:hasMetaTag</text>
+</g>
 <!-- https://w3id.org/oseg/ont/okhmeta#DevelopmentTag -->
-<g id="node28" class="node">
+<g id="node27" class="node">
 <title>https://w3id.org/oseg/ont/okhmeta#DevelopmentTag</title>
-<ellipse fill="none" stroke="#e377c2" cx="125.16" cy="-598.26" rx="124.4" ry="16.03"/>
-<text text-anchor="middle" x="125.16" y="-594.56" font-family="Times,serif" font-size="14.00">okhmeta:Developme...</text>
+<ellipse fill="none" stroke="#e377c2" cx="125.16" cy="-1070.26" rx="124.4" ry="16.03"/>
+<text text-anchor="middle" x="125.16" y="-1066.56" font-family="Times,serif" font-size="14.00">okhmeta:Developme...</text>
 </g>
 <!-- https://w3id.org/oseg/ont/okhmeta#DevelopmentTag&#45;&gt;https://w3id.org/oseg/ont/okhmeta#Tag -->
-<g id="edge47" class="edge">
+<g id="edge46" class="edge">
 <title>https://w3id.org/oseg/ont/okhmeta#DevelopmentTag&#45;&gt;https://w3id.org/oseg/ont/okhmeta#Tag</title>
-<path fill="none" stroke="black" d="M214.36,-609.61C274.81,-618.62 356.39,-633.23 426.32,-654.26 444.8,-659.82 488.37,-678.62 521.5,-693.32"/>
-<polygon fill="black" stroke="black" points="520.41,-696.67 530.97,-697.54 523.26,-690.28 520.41,-696.67"/>
-<text text-anchor="middle" x="347.32" y="-658.06" font-family="Times,serif" font-size="14.00">a</text>
+<path fill="none" stroke="black" d="M200.6,-1057.29C219.49,-1050.48 237.91,-1040.1 250.32,-1024.26 294.16,-968.27 218.83,-916.35 268.32,-865.26 317.69,-814.29 362.46,-873.22 426.32,-842.26 477.33,-817.53 521.97,-766.98 545.62,-736.71"/>
+<polygon fill="black" stroke="black" points="548.41,-738.82 551.72,-728.76 542.86,-734.56 548.41,-738.82"/>
+<text text-anchor="middle" x="347.32" y="-869.06" font-family="Times,serif" font-size="14.00">a</text>
 </g>
 <!-- https://w3id.org/oseg/ont/okhmeta#DevelopmentTag&#45;&gt;https://w3id.org/oseg/ont/okhmeta#MetaTag -->
-<g id="edge14" class="edge">
+<g id="edge47" class="edge">
 <title>https://w3id.org/oseg/ont/okhmeta#DevelopmentTag&#45;&gt;https://w3id.org/oseg/ont/okhmeta#MetaTag</title>
-<path fill="none" stroke="black" d="M222.53,-587.98C233.06,-583.31 242.7,-576.93 250.32,-568.26 274.81,-540.39 240.7,-427.05 268.32,-402.26 294.45,-378.81 394.06,-388.39 426.32,-402.26 437,-406.86 435.02,-414.27 444.32,-421.26 611.62,-547 679.64,-535.89 862.73,-637.26 894.18,-654.68 929.31,-675.61 954.57,-690.93"/>
-<polygon fill="black" stroke="black" points="953.04,-694.1 963.4,-696.3 956.68,-688.11 953.04,-694.1"/>
-<text text-anchor="middle" x="564.52" y="-558.06" font-family="Times,serif" font-size="14.00">okhmeta:hasMetaTag</text>
+<path fill="none" stroke="black" d="M246.48,-1074.1C431.65,-1077.36 774.36,-1072.14 862.73,-993.26 941.51,-922.95 974.06,-794.06 984.85,-738.69"/>
+<polygon fill="black" stroke="black" points="988.33,-739.1 986.72,-728.63 981.45,-737.82 988.33,-739.1"/>
+<text text-anchor="middle" x="564.52" y="-1077.06" font-family="Times,serif" font-size="14.00">okhmeta:hasMetaTag</text>
 </g>
-<!-- https://w3id.org/oseg/ont/okhmeta#QualityTag -->
-<g id="node29" class="node">
-<title>https://w3id.org/oseg/ont/okhmeta#QualityTag</title>
-<ellipse fill="none" stroke="#e377c2" cx="125.16" cy="-908.26" rx="113.27" ry="16.03"/>
-<text text-anchor="middle" x="125.16" y="-904.56" font-family="Times,serif" font-size="14.00">okhmeta:QualityTag</text>
+<!-- https://w3id.org/oseg/ont/okhmeta#HistoryTag -->
+<g id="node28" class="node">
+<title>https://w3id.org/oseg/ont/okhmeta#HistoryTag</title>
+<ellipse fill="none" stroke="#e377c2" cx="125.16" cy="-908.26" rx="113.69" ry="16.03"/>
+<text text-anchor="middle" x="125.16" y="-904.56" font-family="Times,serif" font-size="14.00">okhmeta:HistoryTag</text>
 </g>
-<!-- https://w3id.org/oseg/ont/okhmeta#QualityTag&#45;&gt;https://w3id.org/oseg/ont/okhmeta#Tag -->
-<g id="edge26" class="edge">
-<title>https://w3id.org/oseg/ont/okhmeta#QualityTag&#45;&gt;https://w3id.org/oseg/ont/okhmeta#Tag</title>
+<!-- https://w3id.org/oseg/ont/okhmeta#HistoryTag&#45;&gt;https://w3id.org/oseg/ont/okhmeta#Tag -->
+<g id="edge25" class="edge">
+<title>https://w3id.org/oseg/ont/okhmeta#HistoryTag&#45;&gt;https://w3id.org/oseg/ont/okhmeta#Tag</title>
 <path fill="none" stroke="black" d="M144.36,-892.07C179.39,-861.03 254.03,-795.66 268.32,-789.26 333.09,-760.28 357.73,-784.49 426.32,-766.26 459.59,-757.42 495.77,-742.97 522.62,-731.24"/>
 <polygon fill="black" stroke="black" points="524.34,-734.3 532.07,-727.05 521.51,-727.9 524.34,-734.3"/>
 <text text-anchor="middle" x="347.32" y="-793.06" font-family="Times,serif" font-size="14.00">a</text>
 </g>
-<!-- https://w3id.org/oseg/ont/okhmeta#QualityTag&#45;&gt;https://w3id.org/oseg/ont/okhmeta#MetaTag -->
-<g id="edge28" class="edge">
-<title>https://w3id.org/oseg/ont/okhmeta#QualityTag&#45;&gt;https://w3id.org/oseg/ont/okhmeta#MetaTag</title>
+<!-- https://w3id.org/oseg/ont/okhmeta#HistoryTag&#45;&gt;https://w3id.org/oseg/ont/okhmeta#MetaTag -->
+<g id="edge16" class="edge">
+<title>https://w3id.org/oseg/ont/okhmeta#HistoryTag&#45;&gt;https://w3id.org/oseg/ont/okhmeta#MetaTag</title>
 <path fill="none" stroke="black" d="M167.93,-923.37C193.99,-934.4 226.91,-951.41 250.32,-974.26 261.99,-985.66 254.23,-998.03 268.32,-1006.26 328.93,-1041.71 356.24,-1010.85 426.32,-1006.26 541.91,-998.69 574.2,-1006.93 684.73,-972.26 769.7,-945.61 794.68,-937.7 862.73,-880.26 912.69,-838.1 954.68,-772.76 975.42,-737.27"/>
 <polygon fill="black" stroke="black" points="978.51,-738.92 980.46,-728.51 972.44,-735.43 978.51,-738.92"/>
 <text text-anchor="middle" x="564.52" y="-1009.06" font-family="Times,serif" font-size="14.00">okhmeta:hasMetaTag</text>
 </g>
-<!-- https://w3id.org/oseg/ont/okhmeta#DataGatheringTag -->
+<!-- https://w3id.org/oseg/ont/okhmeta#LegalTag -->
+<g id="node29" class="node">
+<title>https://w3id.org/oseg/ont/okhmeta#LegalTag</title>
+<ellipse fill="none" stroke="#e377c2" cx="125.16" cy="-543.26" rx="103.89" ry="16.03"/>
+<text text-anchor="middle" x="125.16" y="-539.56" font-family="Times,serif" font-size="14.00">okhmeta:LegalTag</text>
+</g>
+<!-- https://w3id.org/oseg/ont/okhmeta#LegalTag&#45;&gt;https://w3id.org/oseg/ont/okhmeta#Tag -->
+<g id="edge26" class="edge">
+<title>https://w3id.org/oseg/ont/okhmeta#LegalTag&#45;&gt;https://w3id.org/oseg/ont/okhmeta#Tag</title>
+<path fill="none" stroke="black" d="M218.94,-550.4C295.51,-558.14 396.27,-573.19 426.32,-600.26 447,-618.9 425.84,-639.43 444.32,-660.26 459.52,-677.4 481.39,-689.13 502.27,-697.03"/>
+<polygon fill="black" stroke="black" points="501.16,-700.35 511.76,-700.4 503.5,-693.76 501.16,-700.35"/>
+<text text-anchor="middle" x="347.32" y="-604.06" font-family="Times,serif" font-size="14.00">a</text>
+</g>
+<!-- https://w3id.org/oseg/ont/okhmeta#LegalTag&#45;&gt;https://w3id.org/oseg/ont/okhmeta#MetaTag -->
+<g id="edge12" class="edge">
+<title>https://w3id.org/oseg/ont/okhmeta#LegalTag&#45;&gt;https://w3id.org/oseg/ont/okhmeta#MetaTag</title>
+<path fill="none" stroke="black" d="M211.15,-534.07C225.99,-528.85 239.96,-520.99 250.32,-509.26 287.46,-467.19 225.89,-421.02 268.32,-384.26 305.77,-351.82 626.6,-377.95 684.73,-402.26 827.08,-461.81 936.38,-624.04 974.6,-686.9"/>
+<polygon fill="black" stroke="black" points="971.77,-689 979.91,-695.77 977.77,-685.4 971.77,-689"/>
+<text text-anchor="middle" x="564.52" y="-406.06" font-family="Times,serif" font-size="14.00">okhmeta:hasMetaTag</text>
+</g>
+<!-- https://w3id.org/oseg/ont/okhmeta#TransportationTag -->
 <g id="node30" class="node">
-<title>https://w3id.org/oseg/ont/okhmeta#DataGatheringTag</title>
-<ellipse fill="none" stroke="#e377c2" cx="125.16" cy="-1187.26" rx="122.16" ry="16.03"/>
-<text text-anchor="middle" x="125.16" y="-1183.56" font-family="Times,serif" font-size="14.00">okhmeta:DataGathe...</text>
+<title>https://w3id.org/oseg/ont/okhmeta#TransportationTag</title>
+<ellipse fill="none" stroke="#e377c2" cx="125.16" cy="-598.26" rx="118.17" ry="16.03"/>
+<text text-anchor="middle" x="125.16" y="-594.56" font-family="Times,serif" font-size="14.00">okhmeta:Transport...</text>
 </g>
-<!-- https://w3id.org/oseg/ont/okhmeta#DataGatheringTag&#45;&gt;https://w3id.org/oseg/ont/okhmeta#Tag -->
+<!-- https://w3id.org/oseg/ont/okhmeta#TransportationTag&#45;&gt;https://w3id.org/oseg/ont/okhmeta#Tag -->
 <g id="edge48" class="edge">
-<title>https://w3id.org/oseg/ont/okhmeta#DataGatheringTag&#45;&gt;https://w3id.org/oseg/ont/okhmeta#Tag</title>
-<path fill="none" stroke="black" d="M208.37,-1175.25C223.11,-1170.78 237.76,-1164.66 250.32,-1156.26 359.68,-1083.14 363.5,-1033.86 426.32,-918.26 437.19,-898.24 433.34,-890.23 444.32,-870.26 472.61,-818.79 516.26,-765.62 542.15,-735.96"/>
-<polygon fill="black" stroke="black" points="544.97,-738.05 548.96,-728.24 539.72,-733.43 544.97,-738.05"/>
-<text text-anchor="middle" x="347.32" y="-1148.06" font-family="Times,serif" font-size="14.00">a</text>
+<title>https://w3id.org/oseg/ont/okhmeta#TransportationTag&#45;&gt;https://w3id.org/oseg/ont/okhmeta#Tag</title>
+<path fill="none" stroke="black" d="M212.4,-609.31C273.03,-618.3 355.63,-633 426.32,-654.26 444.8,-659.82 488.37,-678.62 521.5,-693.32"/>
+<polygon fill="black" stroke="black" points="520.41,-696.67 530.97,-697.54 523.26,-690.28 520.41,-696.67"/>
+<text text-anchor="middle" x="347.32" y="-658.06" font-family="Times,serif" font-size="14.00">a</text>
 </g>
-<!-- https://w3id.org/oseg/ont/okhmeta#DataGatheringTag&#45;&gt;https://w3id.org/oseg/ont/okhmeta#MetaTag -->
-<g id="edge16" class="edge">
-<title>https://w3id.org/oseg/ont/okhmeta#DataGatheringTag&#45;&gt;https://w3id.org/oseg/ont/okhmeta#MetaTag</title>
-<path fill="none" stroke="black" d="M247.69,-1186.63C434.53,-1182.94 779.51,-1164.41 862.73,-1079.26 959.12,-980.64 982.31,-805.22 987.73,-738.77"/>
-<polygon fill="black" stroke="black" points="991.23,-738.95 988.48,-728.72 984.25,-738.43 991.23,-738.95"/>
-<text text-anchor="middle" x="564.52" y="-1182.06" font-family="Times,serif" font-size="14.00">okhmeta:hasMetaTag</text>
+<!-- https://w3id.org/oseg/ont/okhmeta#TransportationTag&#45;&gt;https://w3id.org/oseg/ont/okhmeta#MetaTag -->
+<g id="edge40" class="edge">
+<title>https://w3id.org/oseg/ont/okhmeta#TransportationTag&#45;&gt;https://w3id.org/oseg/ont/okhmeta#MetaTag</title>
+<path fill="none" stroke="black" d="M221,-588.64C232.13,-583.92 242.34,-577.34 250.32,-568.26 274.81,-540.39 240.7,-427.05 268.32,-402.26 294.45,-378.81 394.06,-388.39 426.32,-402.26 437,-406.86 435.02,-414.27 444.32,-421.26 611.62,-547 679.64,-535.89 862.73,-637.26 894.18,-654.68 929.31,-675.61 954.57,-690.93"/>
+<polygon fill="black" stroke="black" points="953.04,-694.1 963.4,-696.3 956.68,-688.11 953.04,-694.1"/>
+<text text-anchor="middle" x="564.52" y="-558.06" font-family="Times,serif" font-size="14.00">okhmeta:hasMetaTag</text>
 </g>
 </g>
 </svg>
