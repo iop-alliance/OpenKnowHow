@@ -141,7 +141,7 @@ okhmeta:DocumentationTag
 okhmeta:ExtendedInfoTag
   a okhmeta:Tag ;
   rdfs:label "extended info"@en ;
-  rdfs:comment "The annotated subject deals with extended info about a project. This is somewhat the opposite of the 'basic' tag. The idea is, that there is thrid set of OKH parts, that lay inbetween these two extremes, and are not tagged with a specific, third tag."@en ;
+  rdfs:comment "The annotated subject deals with extended info about a project. This is somewhat the opposite of the 'basic' tag. The idea is, that there is third set of OKH parts, that lay inbetween these two extremes, and are not tagged with a specific, third tag."@en ;
   vs:term_status "unstable" ;
   okhmeta:hasMetaTag okhmeta:MetaTag ;
   .
@@ -206,7 +206,7 @@ okhmeta:QualityTag
   a okhmeta:Tag ;
   rdfs:label "quality"@en ;
   rdfs:comment "The annotated subject deals with quality indication (and later also assurance), both of the documentation and the physical product(s) of the project."@en ;
-  vaem:todo "TODO Should this really be both about hte docu and the phsyical project?"@en ;
+  vaem:todo "TODO Should this really be both about the docu and the physical project?"@en ;
   vs:term_status "unstable" ;
   okhmeta:hasMetaTag okhmeta:MetaTag ;
   .
