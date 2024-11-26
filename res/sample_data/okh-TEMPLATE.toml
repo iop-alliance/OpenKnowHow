@@ -6,25 +6,30 @@ okhv = "OKH-LOSHv1.0" # NOT to be changed
 name = "your-awesome-OSH"
 repo = "https://gitlab.com/YOU/your-awesome-project/"
 version = "1.0.0"
-release = "https://gitlab.com/YOU/your-awesome-project/-/releases/vX.X.X"
-license = "the-SPDX-ID"
-licensor = "xxx"
+# This needs to be a valid SPDX [License Expression](https://spdx.github.io/spdx-spec/v2-draft/SPDX-license-expressions/). Usually that is a single SPDX license ID, foudn in the "Identifier" column in this table: https://spdx.org/licenses/
+license = "AGPL-3.0-or-later"
+licensor = "Joel Doe <joel.doe@example.com>"
+function = "This thng can clean, fly to the moon, keep you warm when its freezing, transplant an organ on its own, ..."
+documentation-language = "en-GB"
 organization = "xxx"
+release = "https://gitlab.com/YOU/your-awesome-project/-/releases/1.0.0"
 readme = "README.md"
 contribution-guide = "CONTRIBUTING.md"
-image = "xxx.jpg"
-documentation-language = "en-GB"
+# logo
+image = "imgs/xxx.jpg"
+# product-photo
+image = "imgs/yyy.jpg"
 technology-readiness-level = "OTRL-3"
 documentation-readiness-level = "ODRL-3"
 attestation = "https://certification.oshwa.org/cl000001.html"
 publication = "https://doi.org/10.1371/journal.pone.0193087"
-function = "xxx"
 standard-compliance = "DIN EN 1335"
+# A Cooperative Patent Classification-ID, describing this projects hardware; You may want to search for it here: <https://worldwide.espacenet.com/classification>
 cpc-patent-class = "D03D 35/00"
 tsdc = "MEC"
 bom = "BoM.csv"
-manufacturing-instructions = "/Documentation/Assembly_Guide/AssemblyGuide.md"
-user-manual = "/Documentation/User_Guide/UserGuide.md"
+manufacturing-instructions = "Documentation/Assembly_Guide/AssemblyGuide.md"
+user-manual = "Documentation/User_Guide/UserGuide.md"
 mass= 50330.0
 
 [outer-dimensions]
