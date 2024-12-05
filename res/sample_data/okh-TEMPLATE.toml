@@ -15,10 +15,12 @@ organization = "xxx"
 release = "https://gitlab.com/YOU/your-awesome-project/-/releases/1.0.0"
 readme = "README.md"
 contribution-guide = "CONTRIBUTING.md"
-# logo
-image = "imgs/xxx.jpg"
-# product-photo
-image = "imgs/yyy.jpg"
+image = [
+  # logo
+  "imgs/xxx.jpg",
+  # product-photo
+  "imgs/yyy.jpg"
+]
 technology-readiness-level = "OTRL-3"
 documentation-readiness-level = "ODRL-3"
 attestation = "https://certification.oshwa.org/cl000001.html"
