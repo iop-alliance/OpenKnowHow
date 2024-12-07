@@ -2,6 +2,11 @@
 #
 # SPDX-License-Identifier: CC0-1.0
 
+# NOTE
+# - If a value is not available, unknown or unclear,
+#   leave it out by either deleting the line or commenting it out;
+#   do **not** use placeholder values like "N/A" or "xxx.jpg"!
+
 okhv = "OKH-LOSHv1.0" # NOT to be changed
 name = "your-awesome-OSH"
 repo = "https://gitlab.com/YOU/your-awesome-project/"
@@ -32,9 +37,11 @@ tsdc = "MEC"
 bom = "BoM.csv"
 manufacturing-instructions = "Documentation/Assembly_Guide/AssemblyGuide.md"
 user-manual = "Documentation/User_Guide/UserGuide.md"
+# Any mass always has to be in g (gramms)
 mass= 50330.0
 
 [outer-dimensions]
+# Any dimension value always has to be in [mm] (milli-meters)
 width = "400"
 depth = "350"
 height = "150"
