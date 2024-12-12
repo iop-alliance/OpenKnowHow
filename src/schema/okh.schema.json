@@ -3,7 +3,7 @@
   "$id": "https://raw.githubusercontent.com/OPEN-NEXT/OKH-LOSH/master/okh-losh.schema.json",
   "title": "Manifest",
   "description": "This is a JSON schema, which can validate a 'okh.toml' file, which holds a projects Open Know-How (Open Source Hardware) meta-data.",
-  "$comment": "NOTE: The properies 'ui-hidden' and 'ui-recommended' used in this schema, are non-standardised, and currently unused. They could be used to create a form, and are here for consistency with <https://git.iostud.io/makernet/iop-cdb/-/blob/dev/server/assets/okh.okhdf>.",
+  "$comment": "NOTE: The properties 'ui-hidden' and 'ui-recommended' used in this schema, are non-standardized, and currently unused. They could be used to create a form, and are here for consistency with <https://git.iostud.io/makernet/iop-cdb/-/blob/dev/server/assets/okh.okhdf>.",
   "type": "object",
   "properties": {
     "okhv": {
@@ -70,8 +70,8 @@
         "Pru Ner <abc@email.com> - GNU"
       ]
     },
-    "organisation": {
-      "description": "organisation of the licensor",
+    "organization": {
+      "description": "organization of the licensor",
       "type": "string",
       "examples": [
         "Free Software Foundation",
@@ -173,12 +173,12 @@
         "OpenROV is a DIY telerobotics community centered around underwater exploration & adventure.",
         "Opentrons makes robots for biologists. The robots automate experiments that would otherwise be done by hand, allowing our users to spend more time pursuing answers to the 21st century's most important questions, and less time pipetting.",
         "The AXIOM Beta is an open source, open hardware, professional-grade digital film camera made by apertus°. It is designed to be modular e.g. interchangeable sensor front end etc. and supports recording at 4K resolution.",
-        "The Corne is a 40% split mechanical USB general purpose keyboard. It is made up of two halves with 3x6 column staggered keys and 3 thumb keys. It has full RGB backlighting, and is fully programmable using the popular Open Source QMK firmware. The basic design principles are, to have a minimal, ergonomically arranged set of keys that are all reachable by moving a finger by at most a distance of one key in diagonal.",
+        "The Corne is a 40% split mechanical USB general purpose keyboard. It is made up of two halves with 3x6 column staggered keys and 3 thumb keys. It has full RGB back-lighting, and is fully programmable using the popular Open Source QMK firmware. The basic design principles are, to have a minimal, ergonomically arranged set of keys that are all reachable by moving a finger by at most a distance of one key in diagonal.",
         "The Corne keyboard is a split keyboard with 3x6 column staggered keys and 3 thumb keys, based on Helix. Crkbd stands for Corne Keyboard.",
         "The Electric Eel Wheel is an affordable electric spinning wheel that is revolutionizing the fiber world!  The uptake is controlled with a unique scotch tension design and the yarn flows through a clever flyer assembly. It is an extremely light and portable design.",
         "The goal of GliaX-Faceshield is to create a low cost, high quality, reusable face shield that can be quickly deployed.",
         "The Lasersaur is a beautiful laser cutter with an outstanding price-performance ratio. We designed it to fill the need of makers, designers, architects and researchers who want a safe and highly-capable machine. Unlike others it's open source and comes fully loaded with knowledge to run, maintain, and modify.",
-        "The robot having functional characterisctics of animal such as Run, Walk, Crawl, Walk and run in different heights and take push ups operated autonomously and via android app.",
+        "The robot having functional characteristics of animal such as Run, Walk, Crawl, Walk and run in different heights and take push ups operated autonomously and via android app.",
         "This charge controller is a so-called maximum power point tracker (MPPT), which automatically adapts its input voltage to the connected solar panel to extracts as much power as possible. The MPPT function can only be achieved using a DC/DC converter, which is the core part of the charge controller PCB. It can be recognized by the large inductor and the large electrolytic input and output filter capacitors."
       ]
     },
@@ -298,7 +298,7 @@
             ]
           },
           "installation-guide": {
-            "description": "unambiguous refrence to the installation guide for the corresponding software release",
+            "description": "unambiguous reference to the installation guide for the corresponding software release",
             "$ref": "#/$defs/relPathOrWebUrl",
             "examples": [
               "https://github.com/arduino/ArduinoCore-mbed/blob/a2c06d768f5ebb6821ae6505b2032ee58f4ef70d/README.md"
@@ -417,11 +417,11 @@
     },
     "spdxLicenseExpression": {
       "description": "A valid SPDX license expression",
-      "$comment": "TODO We would have to define this in an extra schema, generated -> do it in the SPDX-Identifiers-generater repo! -> NOPE -> already exists! see https://github.com/spdx/spdx-spec/issues/484#issuecomment-720817111    .. sounds like it needs to be improved, though -> .. ahh nope, it does not solve our issue, but checks SPDX documents for validity",
+      "$comment": "TODO We would have to define this in an extra schema, generated -> do it in the SPDX-Identifiers-generator repo! -> NOPE -> already exists! see https://github.com/spdx/spdx-spec/issues/484#issuecomment-720817111    .. sounds like it needs to be improved, though -> .. ahh nope, it does not solve our issue, but checks SPDX documents for validity",
       "type": "string"
     },
     "name": {
-      "description": "working title of the OSH module",
+      "description": "working title of the OSH Module or Part",
       "type": "string"
     },
     "image": {
@@ -538,7 +538,7 @@
           "printing-process": {
             "enum": ["FDM", "SLA", "SLS", "MJF", "DMLS"]
           },
-          "matrial": {
+          "material": {
             "type": "string"
           }
         }
@@ -572,7 +572,7 @@
     ".*",
     "tsdc",
     "printing-process",
-    "matrial",
+    "material",
     "2d-size-mm",
     "component-sides",
     "bom"
