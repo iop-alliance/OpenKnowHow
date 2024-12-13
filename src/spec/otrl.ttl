@@ -101,8 +101,7 @@ otrl:exitCriteria
   .
 
 otrl:OTRL1
-  a owl:Class ;
-  rdfs:subClassOf otrl:OTRL ;
+  a otrl:OTRL ;
   rdfs:label "OTRL-1"@en ;
   rdfs:comment "Ideation"@en ;
   otrl:goal "Product idea; needs are identified and initial specifications are defined."@en ;
@@ -111,8 +110,7 @@ otrl:OTRL1
   .
 
 otrl:OTRL2
-  a owl:Class ;
-  rdfs:subClassOf otrl:OTRL ;
+  a otrl:OTRL ;
   rdfs:label "OTRL-2"@en ;
   rdfs:comment "Conception"@en ;
   otrl:goal "Mature product concept has been formulated"@en ;
@@ -121,8 +119,7 @@ otrl:OTRL2
   .
 
 otrl:OTRL3
-  a owl:Class ;
-  rdfs:subClassOf otrl:OTRL ;
+  a otrl:OTRL ;
   rdfs:label "OTRL-3"@en ;
   rdfs:comment "Development"@en ;
   otrl:goal "Product model is developed"@en ;
@@ -131,8 +128,7 @@ otrl:OTRL3
   .
 
 otrl:OTRL4
-  a owl:Class ;
-  rdfs:subClassOf otrl:OTRL ;
+  a otrl:OTRL ;
   rdfs:label "OTRL-4"@en ;
   rdfs:comment "Prototyping and testing"@en ;
   otrl:goal "Full functional prototype is built and tested"@en ;
@@ -141,8 +137,7 @@ otrl:OTRL4
   .
 
 otrl:OTRL5
-  a owl:Class ;
-  rdfs:subClassOf otrl:OTRL ;
+  a otrl:OTRL ;
   rdfs:label "OTRL-5"@en ;
   rdfs:comment "Manufacturing development"@en ;
   otrl:goal "Fairly reliable processes identified and characterized"@en ;
@@ -150,8 +145,7 @@ otrl:OTRL5
   .
 
 otrl:OTRL6
-  a owl:Class ;
-  rdfs:subClassOf otrl:OTRL ;
+  a otrl:OTRL ;
   rdfs:label "OTRL-6"@en ;
   rdfs:comment "Product qualification"@en ;
   otrl:goal "Certificate marking conformity assessment or comparable"@en ;
@@ -159,8 +153,7 @@ otrl:OTRL6
   .
 
 otrl:ODRL1
-  a owl:Class ;
-  rdfs:subClassOf otrl:ODRL ;
+  a otrl:ODRL ;
   rdfs:label "ODRL-1"@en ;
   rdfs:comment "Documentation process commenced"@en ;
   otrl:goal "Published information under free open source license"@en ;
@@ -169,8 +162,7 @@ otrl:ODRL1
   .
 
 otrl:ODRL2
-  a owl:Class ;
-  rdfs:subClassOf otrl:ODRL ;
+  a otrl:ODRL ;
   rdfs:label "ODRL-2"@en ;
   rdfs:comment "Collaborative documentation in progress"@en ;
   otrl:goal "Provision of documentation files and in editable formats enabling collaboration development"@en ;
@@ -179,8 +171,7 @@ otrl:ODRL2
   .
 
 otrl:ODRL3
-  a owl:Class ;
-  rdfs:subClassOf otrl:ODRL ;
+  a otrl:ODRL ;
   rdfs:label "ODRL-3"@en ;
   rdfs:comment "Full documentation published"@en ;
   otrl:goal "Complete documentation as per DIN SPEC 3105-1"@en ;
@@ -189,8 +180,7 @@ otrl:ODRL3
   .
 
 otrl:ODRL3Star
-  a owl:Class ;
-  rdfs:subClassOf otrl:ODRL ;
+  a otrl:ODRL ;
   rdfs:label "ODRL-3*"@en ;
   rdfs:comment "Full documentation published & audited"@en ;
   otrl:goal "Public evidence of documentation maturity"@en ;
@@ -199,8 +189,7 @@ otrl:ODRL3Star
   .
 
 otrl:ODRL4
-  a owl:Class ;
-  rdfs:subClassOf otrl:ODRL ;
+  a otrl:ODRL ;
   rdfs:label "ODRL-4"@en ;
   rdfs:comment "Full documentation for product qualification"@en ;
   otrl:goal "Product qualification documents published enabling decentralized commercial distribution"@en ;
