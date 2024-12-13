@@ -38,7 +38,7 @@ in descending order:
     The source file of the Open Technology&Documentation Readiness Levels Specification
     (used by _okh.ttl_)
 3. [src/schema/okh.schema.json](src/schema/okh.schema.json) -
-    The [JSON Schema] for the ([TOML]) manifests,
+    The [JSON-Schema] for the ([TOML]) manifests,
     which are commonly used as the source files by the projects or project platforms
     to store/transmit the projects data,
     even though the _real_ data is always the RDF form
@@ -324,16 +324,16 @@ CODE_OF_CONDUCT.md)
 boils down to the history of invention of better tools." \
 – Ernst Knapp: cultural geographer (1808-1896)
 
-[IoPA]: https://www.internetofproduction.org/
-[OSEG]: https://www.ose-germany.de/
-[OSHWA]: https://www.oshwa.org/
 [Appropedia]: https://www.appropedia.org/
 [DAPSI]: https://dapsi.ngi.eu/
-[OPEN!NEXT]: https://opennext.eu/
-[JSON Schema]: https://json-schema.org/
-[TOML]: https://toml.io/en/
-[INTERFACER]: https://www.interfacerproject.eu/
 [Horizon 2020]: https://research-and-innovation.ec.europa.eu/funding/funding-opportunities/funding-programmes-and-open-calls/horizon-2020_en
-[SPARQL]: https://en.wikipedia.org/wiki/SPARQL
-[RDF-DB tester]: https://github.com/OPEN-NEXT/LOSH-RDF-DB-tester/
+[INTERFACER]: https://www.interfacerproject.eu/
+[IoPA]: https://www.internetofproduction.org/
+[JSON-Schema]: https://json-schema.org/
 [OKHv1]: https://standards.internetofproduction.org/pub/okh/release/1
+[OPEN!NEXT]: https://opennext.eu/
+[OSEG]: https://www.ose-germany.de/
+[OSHWA]: https://www.oshwa.org/
+[RDF-DB tester]: https://github.com/OPEN-NEXT/LOSH-RDF-DB-tester/
+[SPARQL]: https://en.wikipedia.org/wiki/SPARQL
+[TOML]: https://toml.io/en/
