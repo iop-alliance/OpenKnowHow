@@ -145,7 +145,7 @@ otrl:OTRL5
   rdfs:subClassOf otrl:OTRL ;
   rdfs:label "OTRL-5"@en ;
   rdfs:comment "Manufacturing development"@en ;
-  otrl:goal "Fairly reliable processes identified and characterised"@en ;
+  otrl:goal "Fairly reliable processes identified and characterized"@en ;
   vs:term_status "unstable" ;
   .
 
@@ -163,7 +163,7 @@ otrl:ODRL1
   rdfs:subClassOf otrl:ODRL ;
   rdfs:label "ODRL-1"@en ;
   rdfs:comment "Documentation process commenced"@en ;
-  otrl:goal "Published information under free open source licence"@en ;
+  otrl:goal "Published information under free open source license"@en ;
   vs:term_status "unstable" ;
   otrl:exitCriteria "(OSHWA-compliant) free/open license applied on published material"@en ;
   .
@@ -203,7 +203,7 @@ otrl:ODRL4
   rdfs:subClassOf otrl:ODRL ;
   rdfs:label "ODRL-4"@en ;
   rdfs:comment "Full documentation for product qualification"@en ;
-  otrl:goal "Product qualification documents published enabling decentralised commercial distribution"@en ;
+  otrl:goal "Product qualification documents published enabling decentralized commercial distribution"@en ;
   vs:term_status "unstable" ;
   .
 
