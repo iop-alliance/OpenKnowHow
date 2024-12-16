@@ -1126,6 +1126,8 @@ okh:installationGuide
   rdfs:comment "Instructions for how to install the subject-software"@en ;
   vaem:todo "TODO We should probably remove this, as this should be part of the software packages README, or be handled by some software-specific ontology instead"@en ;
 #  rdfs:subPropertyOf schema:url ;
-  vs:term_status "unstable" ;
+  vs:term_status "deprecated" ;
+  owl:deprecated "true"^^xsd:boolean ;
+  cc:deprecatedOn "2024-12-15"^^xsd:date ;
   schema:domainIncludes okh:Software ;
   .
