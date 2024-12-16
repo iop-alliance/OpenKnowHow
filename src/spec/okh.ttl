@@ -115,7 +115,9 @@ okh:Software
 okh:Reference
   a owl:Class ;
   rdfs:label "unambiguous reference"@en ;
-  vs:term_status "unstable" ;
+  vs:term_status "deprecated" ;
+  owl:deprecated "true"^^xsd:boolean ;
+  cc:deprecatedOn "2024-12-15"^^xsd:date ;
   .
 
 okh:Publication
