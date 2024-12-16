@@ -81,7 +81,7 @@ otrl:goal
   rdfs:label "goal"@en ;
   rdfs:comment "Goal or purpose of this OTRL/ODRL"@en ;
   vs:term_status "unstable" ;
-  rdfs:range schema:Text ;
+  rdfs:range rdf:langString ;
   owl:cardinality 1 ;
   schema:domainIncludes
     otrl:OTRL,
@@ -93,7 +93,7 @@ otrl:exitCriteria
   rdfs:label "exit criteria"@en ;
   rdfs:comment "Criteria to exit this OTRL/ODRL for the next higher one; inspired by: https://www.nasa.gov/pdf/458490main_TRL_Definitions.pdf"@en ;
   vs:term_status "unstable" ;
-  rdfs:range schema:Text ;
+  rdfs:range rdf:langString ;
   owl:cardinality 1 ;
   schema:domainIncludes
     otrl:OTRL,
