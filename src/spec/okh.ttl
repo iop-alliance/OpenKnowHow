@@ -334,9 +334,7 @@ okh:forkOf
   rdfs:subPropertyOf schema:isBasedOn ;
   vs:term_status "unstable" ;
   owl:maxCardinality 1 ;
-  schema:domainIncludes
-    okh:Module,
-    okh:Part ;
+  schema:domainIncludes okh:Component ;
   okhmeta:hasMetaTag okhmeta:HistoryTag ;
   okhmeta:hasMetaTag okhmeta:IdentificationTag ;
   .
@@ -696,8 +694,7 @@ okh:hasComponent
   rdfs:comment "Links to sub-components of the Module. In the case of that sub-component being an external Module, it has to refer to a snapshot of the RDF object representing that OKH Module. Each sub-component should also appear in the BoM."@en ;
   vs:term_status "unstable" ;
   schema:rangeIncludes
-    okh:Part,
-    okh:Module,
+    okh:Component,
     okh:WebsiteUrl ;
   schema:domainIncludes okh:Module ;
   okhmeta:hasMetaTag okhmeta:PartsTag ;
@@ -989,9 +986,7 @@ okh:source
   rdfs:seeAlso okh:auxiliary ;
   vs:term_status "unstable" ;
   schema:rangeIncludes okh:File ;
-  schema:domainIncludes
-    okh:Module,
-    okh:Part ;
+  schema:domainIncludes okh:Component ;
   skos:example "src/mech/3D-parts/part1.fcstd" ;
   skos:example "src/mech/3D-parts/model2.fcstd" ;
   skos:example "src/elec/converter/proj1.kicad_pro" ;
@@ -1011,9 +1006,7 @@ okh:export
   rdfs:seeAlso okh:auxiliary ;
   vs:term_status "unstable" ;
   schema:rangeIncludes okh:File ;
-  schema:domainIncludes
-    okh:Module,
-    okh:Part ;
+  schema:domainIncludes okh:Component ;
   skos:example "gen/mech/3D-parts/part1.stp" ;
   skos:example "gen/mech/3D-parts/model2.stl" ;
   skos:example "gen/mech/3D-parts/drawing.pdf" ;
@@ -1036,9 +1029,7 @@ okh:auxiliary
   rdfs:seeAlso okh:export ;
   vs:term_status "unstable" ;
   schema:rangeIncludes okh:File ;
-  schema:domainIncludes
-    okh:Module,
-    okh:Part ;
+  schema:domainIncludes okh:Component ;
   skos:example "res/media/img/project_logo.svg" ;
   skos:example "res/txt/usage_stats.csv" ;
   skos:example "kicad_libs/cool_3rd_party_parts.lib" ;
