@@ -68,7 +68,7 @@ The `schema:*` properties give us just that.'''@en ;
   dcterms:source "https://github.com/iop-alliance/OpenKnowHow/master/src/spec/okh.ttl"^^xsd:anyURI ;
   schema:codeRepository "https://github.com/iop-alliance/OpenKnowHow/"^^xsd:anyURI ;
   dcat:keyword "OKH", "hardware", "design", "open-source", "open-source-hardware", "project" ;
-  dcat:contactPoint "https://github.com/iop-alliance/OpenKnowHow/"^^xsd:anyURI ;
+  dcat:contactPoint "https://github.com/iop-alliance/OpenKnowHow/issues/"^^xsd:anyURI ;
   .
 
 okh:Component
