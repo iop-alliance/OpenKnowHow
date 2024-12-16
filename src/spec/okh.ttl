@@ -321,7 +321,6 @@ okh:repoSnapshot
   a skos:Concept ;
   rdfs:label "repository snapshot"@en ;
   rdfs:comment "Repository snapshot (=specific version) URL"@en ;
-  rdfs:subPropertyOf okh:repo ;
   vs:term_status "unstable" ;
   schema:rangeIncludes okh:HttpUrl ;
   owl:cardinality 1 ;
