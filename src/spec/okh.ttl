@@ -319,7 +319,7 @@ okh:version
   a owl:DatatypeProperty ;
   a skos:Concept ;
   rdfs:label "version"@en ;
-  rdfs:comment "version of this Component, preferably in the semantic versioning scheme (semver.org)"@en ;
+  rdfs:comment "version of this Module, preferably in the semantic versioning scheme (semver.org)"@en ;
   rdfs:subPropertyOf schema:version ;
   vs:term_status "unstable" ;
   schema:domainIncludes okh:Module ;
