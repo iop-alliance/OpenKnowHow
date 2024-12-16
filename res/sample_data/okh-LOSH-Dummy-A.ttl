@@ -34,7 +34,7 @@
   okh:documentationLanguage "en-GB" ;
   okh:technologyReadinessLevel otrl:OTRL5 ;
   okh:documentationReadinessLevel otrl:ODRL4 ;
-  okh:function "Doesn't do much, yet." ;
+  okh:function "Doesn't do much, yet"@en ;
   okh:cpcPatentClass "D03D 35/00"^^xsd:normalizedString ;
   okh:relatedTsDC tsdc:MEC ;
   okh:hasBoM :BoM ;
@@ -66,7 +66,7 @@
 :DIN5008
   a okh:Standard ;
   rdfs:label "DIN 5008:2020-03" ;
-  okh:standardID "DIN 5008:2020-03" ;
+  okh:standardID "DIN 5008:2020-03"^^xsd:normalizedString ;
   .
 
 :ManifestFile
@@ -123,7 +123,7 @@
 
 :OuterDimensionsClampRing
   a okh:Dimensions ;
-  rdfs:label "outer dimensions of Clamp Ring" ;
+  rdfs:label "outer dimensions of Clamp Ring"@en ;
   okh:width "56"^^xsd:float ;
   okh:depth "56"^^xsd:float ;
   okh:height "30"^^xsd:float ;
