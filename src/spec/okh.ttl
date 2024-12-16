@@ -6,6 +6,7 @@
 @prefix dctype:   <http://purl.org/dc/dcmitype/> .
 @prefix foaf:     <http://xmlns.com/foaf/0.1/> .
 #@prefix isoprops: <http://w3id.org/isoprops#> .
+@prefix mime:     <http://www.iana.org/assignments/media-types/> .
 @prefix npg:      <http://ns.nature.com/terms/> .
 @prefix obo:      <http://purl.obolibrary.org/obo/> .
 @prefix okhmeta:  <http://w3id.org/oseg/ont/okhmeta> .
@@ -971,9 +972,16 @@ okh:fileFormat
   a owl:ObjectProperty ;
   a skos:Concept ;
   rdfs:label "file format"@en ;
-  rdfs:subPropertyOf schema:encodingFormat ;
-  rdfs:subPropertyOf dcterms:format ;
-  vaem:todo "TODO Further specify valid values here; maybe mime-types? maybe rdfs:subPropertyOf <https://www.semanticdesktop.org/ontologies/2007/01/19/nie/#mimeType>? Currently e.g. 'MD' or 'CSV' is used; see sample data. dcterms:format suggests MIME-types, indeed; e.g. 'application/rdf+xml'."@en ;
+  rdfs:comment "The format/file-type for a file."@en ;
+  rdfs:subPropertyOf dcat:mediaType ;
+  skos:editorialNote "2024-12-15 If dcterms:format would be used instead of dcat:mediaType, it would be advised to use MIME-types as well (as strings), indeed; e.g. 'application/rdf+xml'"@en ;
+  rdfs:seeAlso "https://www.iana.org/assignments/media-types/media-types.xhtml"^^xsd:anyURI ;
+  skos:example <http://www.iana.org/assignments/media-types/text/turtle> ;
+  skos:example <http://www.iana.org/assignments/media-types/application/rdf+xml> ;
+  skos:example mime:application\/rdf\+xml ;
+  skos:example mime:image\/jpeg ;
+  skos:example mime:model\/stl ;
+  skos:example mime:text\/markdown ;
   vs:term_status "unstable" ;
   schema:domainIncludes okh:File ;
   okhmeta:hasMetaTag okhmeta:DataTag ;
