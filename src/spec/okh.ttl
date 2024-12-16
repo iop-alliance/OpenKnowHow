@@ -444,7 +444,6 @@ for projects clearly indicating that they are proprietary.'''@en ;
   rdfs:seeAlso okh:license ;
   vs:term_status "unstable" ;
   schema:domainIncludes okh:Module ;
-  owl:cardinality 1 ;
   okhmeta:hasMetaTag okhmeta:LegalTag ;
   .
 
@@ -484,7 +483,6 @@ okh:spdxLicense
   schema:supersededBy okh:license ;
   schema:domainIncludes okh:Module ;
   schema:rangeIncludes spdx:ListedLicense ; # aka SPDX license identifier for a single, atomar license
-  owl:cardinality 1 ;
   okhmeta:hasMetaTag okhmeta:LegalTag ;
   .
 
