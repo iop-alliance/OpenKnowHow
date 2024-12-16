@@ -511,8 +511,6 @@ okh:alternativeLicense
 #   schema:rangeIncludes xsd:int ;
 #   .
 
-## ----- development stage -----
-
 okh:technologyReadinessLevel
   a owl:ObjectProperty ;
   a skos:Concept ;
