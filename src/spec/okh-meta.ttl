@@ -157,7 +157,7 @@ okhmeta:HistoryTag
 okhmeta:IdentificationTag
   a okhmeta:Tag ;
   rdfs:label "identification"@en ;
-  rdfs:comment "The annotated subject can be used to identify the project (potentially in combination with other parts)."@en ;
+  rdfs:comment "The annotated subject can be used to identify the project (potentially in combination with other identity narrowing subjects)."@en ;
   vs:term_status "unstable" ;
   okhmeta:hasMetaTag okhmeta:MetaTag ;
   .
