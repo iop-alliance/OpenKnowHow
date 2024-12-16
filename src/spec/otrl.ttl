@@ -142,6 +142,7 @@ otrl:OTRL5
   rdfs:comment "Manufacturing development"@en ;
   otrl:goal "Fairly reliable processes identified and characterized"@en ;
   vs:term_status "unstable" ;
+  otrl:exitCriteria "TODO"@en ; # TODO
   .
 
 otrl:OTRL6
@@ -150,6 +151,7 @@ otrl:OTRL6
   rdfs:comment "Product qualification"@en ;
   otrl:goal "Certificate marking conformity assessment or comparable"@en ;
   vs:term_status "unstable" ;
+  otrl:exitCriteria "TODO"@en ; # TODO
   .
 
 otrl:ODRL1
@@ -194,6 +196,7 @@ otrl:ODRL4
   rdfs:comment "Full documentation for product qualification"@en ;
   otrl:goal "Product qualification documents published enabling decentralized commercial distribution"@en ;
   vs:term_status "unstable" ;
+  otrl:exitCriteria "TODO"@en ; # TODO
   .
 
 otrl:Otrl
