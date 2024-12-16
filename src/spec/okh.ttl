@@ -722,7 +722,6 @@ okh:functionalMetadata
   rdfs:comment "Metadata addressing functionality, such as dimensions, material, weight, RPM,… (not standardized)"@en ;
   rdfs:subPropertyOf schema:value ;
   vs:term_status "unstable" ;
-  schema:rangeIncludes schema:StructuredValue ;
   schema:domainIncludes okh:Module ;
   .
 
