@@ -1117,11 +1117,11 @@ okh:release
   a skos:Concept ;
   rdfs:label "release"@en ;
   rdfs:comment "URL to release"@en ;
-#  rdfs:subPropertyOf schema:url ;
   vs:term_status "unstable" ;
   schema:domainIncludes
     okh:Module,
     okh:Software ;
+  schema:rangeIncludes okh:HttpUrl ;
   .
 
 okh:installationGuide
