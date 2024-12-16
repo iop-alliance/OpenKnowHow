@@ -29,6 +29,7 @@
 <>
   a owl:Ontology ;
   a spdx:SpdxItem ;
+  a dcterms:Standard ;
   vann:preferredNamespacePrefix "okh" ;
   vann:preferredNamespaceUri "http://w3id.org/oseg/ont/okh#"^^xsd:anyURI ;
   owl:versionInfo "1.1.0" ;
