@@ -204,7 +204,6 @@ otrl:Otrl
   owl:deprecated "true"^^xsd:boolean ;
   cc:deprecatedOn "2022-12-30"^^xsd:date ;
   schema:supersededBy otrl:OTRL ;
-  owl:sameAs otrl:OTRL ;
   .
 
 otrl:Odrl
@@ -212,7 +211,6 @@ otrl:Odrl
   owl:deprecated "true"^^xsd:boolean ;
   cc:deprecatedOn "2022-12-30"^^xsd:date ;
   schema:supersededBy otrl:ODRL ;
-  owl:sameAs otrl:ODRL ;
   .
 
 otrl:Otrl1
@@ -220,7 +218,6 @@ otrl:Otrl1
   owl:deprecated "true"^^xsd:boolean ;
   cc:deprecatedOn "2022-12-30"^^xsd:date ;
   schema:supersededBy otrl:OTRL1 ;
-  owl:sameAs otrl:OTRL1 ;
   .
 
 otrl:Otrl2
@@ -228,7 +225,6 @@ otrl:Otrl2
   owl:deprecated "true"^^xsd:boolean ;
   cc:deprecatedOn "2022-12-30"^^xsd:date ;
   schema:supersededBy otrl:OTRL2 ;
-  owl:sameAs otrl:OTRL2 ;
   .
 
 otrl:Otrl3
@@ -236,7 +232,6 @@ otrl:Otrl3
   owl:deprecated "true"^^xsd:boolean ;
   cc:deprecatedOn "2022-12-30"^^xsd:date ;
   schema:supersededBy otrl:OTRL3 ;
-  owl:sameAs otrl:OTRL3 ;
   .
 
 otrl:Otrl4
@@ -244,7 +239,6 @@ otrl:Otrl4
   owl:deprecated "true"^^xsd:boolean ;
   cc:deprecatedOn "2022-12-30"^^xsd:date ;
   schema:supersededBy otrl:OTRL4 ;
-  owl:sameAs otrl:OTRL4 ;
   .
 
 otrl:Otrl5
@@ -252,7 +246,6 @@ otrl:Otrl5
   owl:deprecated "true"^^xsd:boolean ;
   cc:deprecatedOn "2022-12-30"^^xsd:date ;
   schema:supersededBy otrl:OTRL5 ;
-  owl:sameAs otrl:OTRL5 ;
   .
 
 otrl:Otrl6
@@ -260,7 +253,6 @@ otrl:Otrl6
   owl:deprecated "true"^^xsd:boolean ;
   cc:deprecatedOn "2022-12-30"^^xsd:date ;
   schema:supersededBy otrl:OTRL6 ;
-  owl:sameAs otrl:OTRL6 ;
   .
 
 otrl:Odrl1
@@ -268,7 +260,6 @@ otrl:Odrl1
   owl:deprecated "true"^^xsd:boolean ;
   cc:deprecatedOn "2022-12-30"^^xsd:date ;
   schema:supersededBy otrl:ODRL1 ;
-  owl:sameAs otrl:ODRL1 ;
   .
 
 otrl:Odrl2
@@ -276,7 +267,6 @@ otrl:Odrl2
   owl:deprecated "true"^^xsd:boolean ;
   cc:deprecatedOn "2022-12-30"^^xsd:date ;
   schema:supersededBy otrl:ODRL2 ;
-  owl:sameAs otrl:ODRL2 ;
   .
 
 otrl:Odrl3
@@ -284,7 +274,6 @@ otrl:Odrl3
   owl:deprecated "true"^^xsd:boolean ;
   cc:deprecatedOn "2022-12-30"^^xsd:date ;
   schema:supersededBy otrl:ODRL3 ;
-  owl:sameAs otrl:ODRL3 ;
   .
 
 otrl:Odrl3Star
@@ -292,7 +281,6 @@ otrl:Odrl3Star
   owl:deprecated "true"^^xsd:boolean ;
   cc:deprecatedOn "2022-12-30"^^xsd:date ;
   schema:supersededBy otrl:ODRL3Star ;
-  owl:sameAs otrl:ODRL3Star ;
   .
 
 otrl:Odrl4
@@ -300,7 +288,6 @@ otrl:Odrl4
   owl:deprecated "true"^^xsd:boolean ;
   cc:deprecatedOn "2022-12-30"^^xsd:date ;
   schema:supersededBy otrl:ODRL4 ;
-  owl:sameAs otrl:ODRL4 ;
   .
 
 otrl:Odrl5
@@ -308,5 +295,4 @@ otrl:Odrl5
   owl:deprecated "true"^^xsd:boolean ;
   cc:deprecatedOn "2022-01-10"^^xsd:date ;
   schema:supersededBy otrl:Odrl4 ;
-  owl:sameAs otrl:Odrl4 ;
   .
