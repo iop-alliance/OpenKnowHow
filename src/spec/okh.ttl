@@ -650,7 +650,7 @@ description of input, output and interfaces'''@en ;
   vs:term_status "unstable" ;
   owl:cardinality 1 ;
   schema:domainIncludes okh:Module ;
-  schema:rangeIncludes xsd:string ;
+  schema:rangeIncludes rdf:langString ;
   okhmeta:hasMetaTag okhmeta:BasicTag ;
   .
 
