@@ -106,7 +106,7 @@ otrl:OTRL1
   rdfs:comment "Ideation"@en ;
   otrl:goal "Product idea; needs are identified and initial specifications are defined."@en ;
   vs:term_status "unstable" ;
-  otrl:exitCriteria "ToDo."@en ;
+  otrl:exitCriteria "TODO"@en ; # TODO
   .
 
 otrl:OTRL2
@@ -115,7 +115,7 @@ otrl:OTRL2
   rdfs:comment "Conception"@en ;
   otrl:goal "Mature product concept has been formulated"@en ;
   vs:term_status "unstable" ;
-  otrl:exitCriteria "ToDo."@en ;
+  otrl:exitCriteria "TODO"@en ; # TODO
   .
 
 otrl:OTRL3
@@ -124,7 +124,7 @@ otrl:OTRL3
   rdfs:comment "Development"@en ;
   otrl:goal "Product model is developed"@en ;
   vs:term_status "unstable" ;
-  otrl:exitCriteria "ToDo."@en ;
+  otrl:exitCriteria "TODO"@en ; # TODO
   .
 
 otrl:OTRL4
@@ -133,7 +133,7 @@ otrl:OTRL4
   rdfs:comment "Prototyping and testing"@en ;
   otrl:goal "Full functional prototype is built and tested"@en ;
   vs:term_status "unstable" ;
-  otrl:exitCriteria "ToDo."@en ;
+  otrl:exitCriteria "TODO"@en ; # TODO
   .
 
 otrl:OTRL5
@@ -167,7 +167,7 @@ otrl:ODRL2
   rdfs:comment "Collaborative documentation in progress"@en ;
   otrl:goal "Provision of documentation files and in editable formats enabling collaboration development"@en ;
   vs:term_status "unstable" ;
-  otrl:exitCriteria "ToDo."@en ;
+  otrl:exitCriteria "TODO"@en ; # TODO
   .
 
 otrl:ODRL3
