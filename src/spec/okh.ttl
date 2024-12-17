@@ -382,6 +382,7 @@ okh:forkOf
   vs:term_status "unstable" ;
   owl:maxCardinality 1 ;
   schema:domainIncludes okh:Component ;
+  schema:rangeIncludes okh:Component ;
   okhmeta:hasMetaTag okhmeta:HistoryTag ;
   okhmeta:hasMetaTag okhmeta:IdentificationTag ;
   .
