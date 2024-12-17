@@ -23,6 +23,7 @@
 @prefix tsdc:     <http://w3id.org/oseg/ont/tsdc/core#> .
 @prefix vaem:     <http://www.linkedmodel.org/schema/vaem#> .
 @prefix vann:     <http://purl.org/vocab/vann/> .
+@prefix void:     <http://rdfs.org/ns/void#> .
 @prefix vs:       <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
 @prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
 
@@ -74,6 +75,18 @@ The `schema:*` properties give us just that.'''@en ;
   dcat:contactPoint "https://github.com/iop-alliance/OpenKnowHow/issues/"^^xsd:anyURI ;
   .
 
+okh:Dataset
+  a owl:Class ;
+  a skos:Concept ;
+  rdfs:subClassOf dcat:Dataset ;
+  rdfs:subClassOf void:Dataset ;
+  rdfs:subClassOf spdx:SpdxItem ;
+  rdfs:label "Dataset"@en ;
+  rdfs:comment "A collection of data, published or curated by a single source; See `dcat:Dataset` for more info (and translations)."@en ;
+  vs:term_status "unstable" ;
+  okhmeta:hasMetaTag okhmeta:DataGatheringTag ;
+  .
+
 okh:Component
   a owl:Class ;
   a skos:Concept ;
@@ -113,6 +126,22 @@ okh:Software
   rdfs:subClassOf dctype:Software ;
   vs:term_status "unstable" ;
   okhmeta:hasMetaTag okhmeta:PartsTag ;
+  .
+
+okh:DataProvider
+  a owl:Class ;
+  rdfs:subClassOf dcat:DataService ;
+  rdfs:label "Data Provider"@en ;
+  rdfs:comment "A platform or other system that hosts projects, or at least their (OKH) meta data, for example 'GitHub.com' or 'Appropedia.org'. Individuals can be found e.g. in the `okhkrawl` ontology."@en ;
+  vs:term_status "unstable" ;
+  .
+
+okh:DataSourcingProcedure
+  a owl:Class ;
+  # rdfs:subClassOf dcat:DataService ; # TODO Find one that fits
+  rdfs:label "Data Sourcing Procedure"@en ;
+  rdfs:comment "Rough categorization of how the OKH data gets from the project to the Indexing Server. Individuals can be found e.g. in the `okhkrawl` ontology."@en ;
+  vs:term_status "unstable" ;
   .
 
 okh:Reference
@@ -257,44 +286,46 @@ okh:okhv
   rdfs:comment "version of OKH specification the metadata is following (different version → different data fields)"@en ;
   rdfs:subPropertyOf schema:version ;
   vs:term_status "unstable" ;
-  schema:domainIncludes okh:ManifestFile ;
+  schema:domainIncludes okh:Dataset ;
   owl:cardinality 1 ;
   .
 
-okh:dataSource
-  a owl:DatatypeProperty ;
+okh:dataProvider
+  a owl:ObjectProperty ;
   a skos:Concept ;
   rdfs:label "metadata source"@en ;
-  rdfs:comment "platform, where the crawler found the metadata (e.g. GitHub, Wikifactory)"@en ;
+  rdfs:comment "Platform or other system that provides the data, for example 'GitHub.com' or 'Appropedia.org'. Individuals can be found e.g. in the `okhkrawl` ontology."@en ;
   rdfs:seeAlso okh:repoHost ;
-  rdfs:subPropertyOf schema:url ;
+  rdfs:subPropertyOf dcat:accessService ;
   vs:term_status "unstable" ;
-  schema:domainIncludes okh:Module ;
+  schema:domainIncludes okh:Dataset ;
+  schema:rangeIncludes okh:DataProvider ;
   owl:cardinality 1 ;
   okhmeta:hasMetaTag okhmeta:DataTag ;
   .
 
 okh:repoHost
-  a owl:DatatypeProperty ;
+  a owl:ObjectProperty ;
   a skos:Concept ;
   rdfs:label "repository host"@en ;
-  rdfs:comment "platform where the OSH documentation is located (e.g. GitLab, Wikifactory or any self-hosted website or wiki)"@en ;
-  rdfs:seeAlso okh:dataSource ;
+  rdfs:comment "URL of either the platform or project where the OSH documentation is located"@en ;
+  rdfs:seeAlso okh:dataProvider ;
   rdfs:subPropertyOf schema:url ;
   vs:term_status "unstable" ;
   schema:domainIncludes okh:Module ;
+  schema:rangeIncludes okh:DataProvider ;
   owl:cardinality 1 ;
   okhmeta:hasMetaTag okhmeta:HistoryTag ;
   .
 
-okh:uploadMethod
-  a owl:DatatypeProperty ;
+okh:dataSourcingProcedure
+  a owl:ObjectProperty ;
   a skos:Concept ;
   rdfs:label "upload method"@en ;
   rdfs:comment "e.g. auto (fully integrated platforms) or manifest file (for connected platforms)"@en ;
   vs:term_status "unstable" ;
-  schema:rangeIncludes xsd:normalizedString ;
-  schema:domainIncludes okh:Component ;
+  schema:domainIncludes okh:Dataset ;
+  schema:rangeIncludes okh:DataSourcingProcedure ;
   owl:cardinality 1 ;
   okhmeta:hasMetaTag okhmeta:DataGatheringTag ;
   .
@@ -899,10 +930,8 @@ okh:hasManifestFile
   rdfs:comment "Links to the source TOML manifest file for (this) RDF data"@en ;
   rdfs:subPropertyOf dcterms:hasFormat ;
   vs:term_status "unstable" ;
+  schema:domainIncludes okh:Dataset ;
   schema:rangeIncludes okh:ManifestFile ;
-  schema:domainIncludes
-    okh:Module,
-    okh:Part ;
   okhmeta:hasMetaTag okhmeta:DataGatheringTag ;
   .
 
@@ -992,7 +1021,7 @@ okh:created
   rdfs:comment "Date and time of the creation of this meta-data, following ISO 8601; see: <https://www.w3.org/TR/xmlschema11-2/#dateTimeStamp>"@en ;
   rdfs:subPropertyOf dcterms:created ;
   vs:term_status "unstable" ;
-  schema:domainIncludes okh:Module ;
+  schema:domainIncludes okh:Dataset ;
   schema:rangeIncludes okh:TimeStamp ;
   okhmeta:hasMetaTag okhmeta:DataGatheringTag ;
   .
