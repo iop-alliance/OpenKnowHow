@@ -270,7 +270,7 @@ BUY  → unambiguous reference'''@en ;
   okhmeta:hasMetaTag okhmeta:PartsTag ;
   .
 
-okh:TimeStamp
+okh:TimeStamp # TODO Check
   a rdfs:Datatype ;
   owl:onDatatype xsd:dateTimeStamp ;
   owl:equivalentClass xsd:dateTimeStamp ;
@@ -296,6 +296,7 @@ okh:dataProvider
   rdfs:label "metadata source"@en ;
   rdfs:comment "Platform or other system that provides the data, for example 'GitHub.com' or 'Appropedia.org'. Individuals can be found e.g. in the `okhkrawl` ontology."@en ;
   rdfs:seeAlso okh:repoHost ;
+  # rdfs:subPropertyOf schema:url ;
   rdfs:subPropertyOf dcat:accessService ;
   vs:term_status "unstable" ;
   schema:domainIncludes okh:Dataset ;
@@ -970,6 +971,7 @@ okh:url # TODO Use with okh:HttpUrl as range, and remove "rdfs:subPropertyOf sch
   rdfs:label "file URL"@en ;
   rdfs:comment "Global file locator, using either the HTTP or the HTTPS protocol."@en ;
   rdfs:subPropertyOf schema:url ;
+  rdfs:subPropertyOf dcat:downloadURL ;
   vs:term_status "unstable" ;
   schema:domainIncludes okh:File ;
   okhmeta:hasMetaTag okhmeta:DataTag ;
