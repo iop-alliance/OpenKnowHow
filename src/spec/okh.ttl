@@ -143,8 +143,10 @@ okh:Standard
   okhmeta:hasMetaTag okhmeta:QualityTag ;
   .
 
-okh:WebsiteUrl
-  a owl:Class ;
+okh:HttpUrl
+  a rdfs:Datatype ;
+  rdfs:subClassOf xsd:anyURI ;
+  # rdfs:subClassOf schema:URL ;
   rdfs:label "website URL"@en ;
   rdfs:subClassOf okh:Reference ;
   rdfs:subClassOf schema:URL ;
@@ -296,7 +298,7 @@ okh:uploadMethod
   .
 
 okh:repo
-  a owl:ObjectProperty ;
+  a owl:DatatypeProperty ;
   a skos:Concept ;
   rdfs:label "repository"@en ;
   rdfs:comment '''URL to the (human browsable) place where development happens;
@@ -305,7 +307,7 @@ Following this link, people should be able to contribute to the development:
 reporting issues, suggesting changes, connecting to the team etc.'''@en;
   rdfs:subPropertyOf schema:codeRepository ;
   vs:term_status "unstable" ;
-  schema:rangeIncludes okh:WebsiteUrl ;
+  schema:rangeIncludes okh:HttpUrl ;
   schema:domainIncludes okh:Module ;
   owl:cardinality 1 ;
   okhmeta:hasMetaTag okhmeta:BasicTag ;
@@ -314,13 +316,13 @@ reporting issues, suggesting changes, connecting to the team etc.'''@en;
   .
 
 okh:repoSnapshot
-  a owl:ObjectProperty ;
+  a owl:DatatypeProperty ;
   a skos:Concept ;
   rdfs:label "repository snapshot"@en ;
   rdfs:comment "Repository snapshot (=specific version) URL"@en ;
   rdfs:subPropertyOf okh:repo ;
   vs:term_status "unstable" ;
-  schema:rangeIncludes okh:WebsiteUrl ;
+  schema:rangeIncludes okh:HttpUrl ;
   owl:cardinality 1 ;
   schema:domainIncludes okh:Module ;
   okhmeta:hasMetaTag okhmeta:HistoryTag ;
@@ -538,7 +540,7 @@ okh:documentationReadinessLevel
   .
 
 okh:attestation
-  a owl:ObjectProperty ;
+  a owl:DatatypeProperty ;
   a skos:Concept ;
   rdfs:label "attestation"@en ;
   rdfs:comment '''A permanent URL to a valid attestation;
@@ -559,7 +561,7 @@ FSF (computing only):
 - [Hardware Devices that Support GNU/Linux](https://www.fsf.org/resources/hw)
 '''@en ;
   vs:term_status "unstable" ;
-  schema:rangeIncludes okh:WebsiteUrl ;
+  schema:rangeIncludes okh:HttpUrl ;
   schema:domainIncludes okh:Module ;
   okhmeta:hasMetaTag okhmeta:DevelopmentTag ;
   okhmeta:hasMetaTag okhmeta:QualityTag ;
@@ -705,8 +707,8 @@ okh:hasComponent
   rdfs:comment "Links to sub-components of the Module. In the case of that sub-component being an external Module, it has to refer to a snapshot of the RDF object representing that OKH Module. Each sub-component should also appear in the BoM."@en ;
   vs:term_status "unstable" ;
   schema:rangeIncludes
-    okh:Component,
-    okh:WebsiteUrl ;
+    okh:Component, # TODO These two are an issue for the SHACL generator, because one is a class and the other a datatype, so it would have to be both OWL property types, but the SHACL generator (owl2shacl) can not handle that one (yet)
+    okh:HttpUrl ;
   schema:domainIncludes okh:Module ;
   okhmeta:hasMetaTag okhmeta:PartsTag ;
   .
@@ -933,7 +935,7 @@ okh:relativePath
   okhmeta:hasMetaTag okhmeta:DataTag ;
   .
 
-okh:url
+okh:url # TODO Use with okh:HttpUrl as range, and remove "rdfs:subPropertyOf schema:url, dcat:downloadURL"
   a owl:ObjectProperty ;
   a skos:Concept ;
   rdfs:label "file URL"@en ;
