@@ -280,6 +280,19 @@ okh:TimeStamp # TODO Check
   vs:term_status "unstable" ;
   .
 
+okh:name
+  a owl:DatatypeProperty ;
+  rdfs:label "name"@en ;
+  rdfs:comment "Working title of the OSH component"@en ;
+  rdfs:subPropertyOf dcterms:title ;
+  rdfs:subPropertyOf rdfs:label ;
+  vs:term_status "unstable" ;
+  schema:domainIncludes okh:Component ;
+  owl:cardinality 1 ;
+  okhmeta:hasMetaTag okhmeta:BasicTag ;
+  okhmeta:hasMetaTag okhmeta:RequiredTag ;
+  .
+
 okh:okhv
   a owl:DatatypeProperty ;
   rdfs:label "OKH version"@en ;
