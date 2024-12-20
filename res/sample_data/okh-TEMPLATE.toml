@@ -14,7 +14,7 @@ version = "1.0.0"
 # This needs to be a valid SPDX [License Expression](https://spdx.github.io/spdx-spec/v2-draft/SPDX-license-expressions/). Usually that is a single SPDX license ID, foudn in the "Identifier" column in this table: https://spdx.org/licenses/
 license = "AGPL-3.0-or-later"
 licensor = "Joel Doe <joel.doe@example.com>"
-function = "This thng can clean, fly to the moon, keep you warm when its freezing, transplant an organ on its own, ..."
+function = "This thing can clean, fly to the moon, keep you warm when its freezing, transplant an organ on its own, ..."
 documentation-language = "en-GB"
 organization = "xxx"
 release = "https://gitlab.com/YOU/your-awesome-project/-/releases/1.0.0"
@@ -37,11 +37,11 @@ tsdc = "MEC"
 bom = "BoM.csv"
 manufacturing-instructions = "Documentation/Assembly_Guide/AssemblyGuide.md"
 user-manual = "Documentation/User_Guide/UserGuide.md"
-# Any mass always has to be in g (gramms)
+# Any mass always has to be in g (grams)
 mass= 50330.0
 
 [outer-dimensions]
-# Any dimension value always has to be in [mm] (milli-meters)
+# Any dimension value always has to be in [mm] (millimeters)
 width = "400"
 depth = "350"
 height = "150"
