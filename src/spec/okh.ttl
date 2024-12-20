@@ -853,6 +853,7 @@ okh:hasImage
   a skos:Concept ;
   rdfs:label "has image"@en ;
   rdfs:comment "links to the corresponding Image"@en ;
+  # rdfs:subPropertyOf foaf:depiction ; # NOTE This would probably be wrong, or at least misleading, because a project logo or a technical drawing of a part would fit for `okh:hasImage`, but not `foaf:depiction`
   vs:term_status "unstable" ;
   rdfs:subPropertyOf schema:image ;
   schema:rangeIncludes okh:Image ;
