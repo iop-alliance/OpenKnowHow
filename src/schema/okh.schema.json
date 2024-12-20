@@ -101,6 +101,7 @@
       "$ref": "#/$defs/relPathOrWebUrl",
       "examples": [
         "README.md",
+        "README.txt",
         "README",
         "README-JP.md",
         "README-JP"
