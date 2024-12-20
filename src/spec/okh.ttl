@@ -460,8 +460,9 @@ okh:licensor
   rdfs:subPropertyOf schema:copyrightHolder ;
   vs:term_status "unstable" ;
   schema:rangeIncludes
-    dcterms:Agent,
-    schema:Organization,
+    dcterms:Agent ,
+    foaf:Person ,
+    schema:Organization ,
     schema:Person ;
   schema:domainIncludes okh:Module ;
   skos:example
