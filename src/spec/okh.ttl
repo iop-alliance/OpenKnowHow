@@ -1,24 +1,25 @@
-@base             <https://w3id.org/oseg/ont/okh> .
+@base             <http://w3id.org/oseg/ont/okh> .
 @prefix okh:      <#> .
 @prefix cc:       <http://creativecommons.org/ns#> .
 @prefix dcat:     <http://www.w3.org/ns/dcat#> .
 @prefix dcterms:  <http://purl.org/dc/terms/> .
 @prefix dctype:   <http://purl.org/dc/dcmitype/> .
 @prefix foaf:     <http://xmlns.com/foaf/0.1/> .
+#@prefix isoprops: <http://w3id.org/isoprops#> .
 @prefix npg:      <http://ns.nature.com/terms/> .
 @prefix obo:      <http://purl.obolibrary.org/obo/> .
-@prefix okhmeta:  <https://w3id.org/oseg/ont/okhmeta> .
-@prefix osegprof: <https://w3id.org/oseg/ont/oseg-profiles#> .
-@prefix otrl:     <https://w3id.org/oseg/ont/otrl#> .
+@prefix okhmeta:  <http://w3id.org/oseg/ont/okhmeta> .
+@prefix osegprof: <http://w3id.org/oseg/ont/oseg-profiles#> .
+@prefix otrl:     <http://w3id.org/oseg/ont/otrl#> .
 @prefix owl:      <http://www.w3.org/2002/07/owl#> .
 @prefix patent:   <http://data.epo.org/linked-data/def/patent/> .
 @prefix rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs:     <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix schema:   <http://schema.org/> .
 @prefix skos:     <http://www.w3.org/2004/02/skos/core#> .
-@prefix spdxl:    <https://spdx.org/licenses/> .
+@prefix spdxl:    <http://spdx.org/licenses/> .
 @prefix spdxt:    <http://spdx.org/rdf/terms#> .
-@prefix tsdc:     <https://w3id.org/oseg/ont/tsdc/core#> .
+@prefix tsdc:     <http://w3id.org/oseg/ont/tsdc/core#> .
 @prefix vaem:     <http://www.linkedmodel.org/schema/vaem#> .
 @prefix vann:     <http://purl.org/vocab/vann/> .
 @prefix vs:       <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
@@ -28,9 +29,9 @@
   a owl:Ontology ;
   a spdxt:File ;
   vann:preferredNamespacePrefix "okh" ;
-  vann:preferredNamespaceUri "https://w3id.org/oseg/ont/okh#"^^xsd:anyURI ;
+  vann:preferredNamespaceUri "http://w3id.org/oseg/ont/okh#"^^xsd:anyURI ;
   owl:versionInfo "1.1.0" ;
-  owl:versionIRI <https://w3id.org/oseg/ont/1.1.0/okh> ;
+  owl:versionIRI <http://w3id.org/oseg/ont/1.1.0/okh> ;
   dcterms:title "Open Know How (OKH) ontology"@en ;
   dcterms:description "Used for indexing, searching and comparing Open Source Hardware projects"@en ;
   schema:comment '''

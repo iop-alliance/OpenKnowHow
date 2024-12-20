@@ -3,18 +3,18 @@
 #
 # SPDX-License-Identifier: CC0-1.0
 
-@base             <https://github.com/iop-alliance/OpenKnowHow/raw/master/res/sample_data/okh-sample-LOSH-Dummy-A.ttl> .
+@base             <http://github.com/iop-alliance/OpenKnowHow/raw/master/res/sample_data/okh-sample-LOSH-Dummy-A.ttl> .
 @prefix :         <#> .
 @prefix epo:      <http://data.epo.org/linked-data/def/patent/> .
 @prefix obo:      <http://purl.obolibrary.org/obo/> .
-@prefix okh:      <https://w3id.org/oseg/ont/okh#> .
-@prefix otrl:     <https://w3id.org/oseg/ont/otrl#> .
+@prefix okh:      <http://w3id.org/oseg/ont/okh#> .
+@prefix otrl:     <http://w3id.org/oseg/ont/otrl#> .
 @prefix owl:      <http://www.w3.org/2002/07/owl#> .
 @prefix rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs:     <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix schema:   <http://schema.org/> .
-@prefix spdxl:    <https://spdx.org/licenses/> .
-@prefix tsdc:     <https://w3id.org/oseg/ont/tsdc/core#> .
+@prefix spdxl:    <http://spdx.org/licenses/> .
+@prefix tsdc:     <http://w3id.org/oseg/ont/tsdc/core#> .
 @prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
 
 :LOSHdummyMOSHA

@@ -1,15 +1,15 @@
-@base             <https://w3id.org/oseg/ont/otrl> .
+@base             <http://w3id.org/oseg/ont/otrl> .
 @prefix otrl:     <#> .
 @prefix cc:       <http://creativecommons.org/ns#> .
 @prefix dcat:     <http://www.w3.org/ns/dcat#> .
 @prefix dcterms:  <http://purl.org/dc/terms/> .
-@prefix osegprof: <https://w3id.org/oseg/ont/oseg-profiles#> .
+@prefix osegprof: <http://w3id.org/oseg/ont/oseg-profiles#> .
 @prefix owl:      <http://www.w3.org/2002/07/owl#> .
 @prefix rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs:     <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix schema:   <http://schema.org/> .
 @prefix spdxt:    <http://spdx.org/rdf/terms#> .
-@prefix spdxl:    <https://spdx.org/licenses/> .
+@prefix spdxl:    <http://spdx.org/licenses/> .
 @prefix vann:     <http://purl.org/vocab/vann/> .
 @prefix vs:       <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
 @prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
@@ -18,9 +18,9 @@
   a owl:Ontology ;
   a spdxt:File ;
   vann:preferredNamespacePrefix "otrl" ;
-  vann:preferredNamespaceUri "https://w3id.org/oseg/ont/otrl#" ;
+  vann:preferredNamespaceUri "http://w3id.org/oseg/ont/otrl#"^^xsd:anyURI ;
   owl:versionInfo "1.1.0" ;
-  owl:versionIRI <https://w3id.org/oseg/ont/1.1.0/otrl> ;
+  owl:versionIRI <http://w3id.org/oseg/ont/1.1.0/otrl> ;
   dcterms:title "Open Technology & Documentation Readiness Level (OTRL) ontology"@en ;
   dcterms:description "This can be used to assess an Open Source Hardware projects stage of technical development and its documentation."@en ;
   schema:comment "Descriptions (`rdfs:comment`) from NASA are used under public domain"@en ;
