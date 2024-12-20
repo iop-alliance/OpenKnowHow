@@ -283,7 +283,7 @@ okh:TimeStamp # TODO Check
 okh:okhv
   a owl:DatatypeProperty ;
   rdfs:label "OKH version"@en ;
-  rdfs:comment "version of OKH specification the metadata is following (different version → different data fields)"@en ;
+  rdfs:comment "version of OKH specification the OSH projects metadata follows (different version → different data fields in this file)"@en ;
   rdfs:subPropertyOf schema:version ;
   vs:term_status "unstable" ;
   schema:domainIncludes okh:Dataset ;
@@ -294,7 +294,7 @@ okh:dataProvider
   a owl:ObjectProperty ;
   a skos:Concept ;
   rdfs:label "metadata source"@en ;
-  rdfs:comment "Platform or other system that provides the data, for example 'GitHub.com' or 'Appropedia.org'. Individuals can be found e.g. in the `okhkrawl` ontology."@en ;
+  rdfs:comment "Provider of the OKH meta-data.. RDF Individuals can be found e.g. in the `okhkrawl` ontology."@en ;
   rdfs:seeAlso okh:repoHost ;
   # rdfs:subPropertyOf schema:url ;
   rdfs:subPropertyOf dcat:accessService ;
@@ -309,7 +309,7 @@ okh:repoHost
   a owl:ObjectProperty ;
   a skos:Concept ;
   rdfs:label "repository host"@en ;
-  rdfs:comment "URL of either the platform or project where the OSH documentation is located"@en ;
+  rdfs:comment "Hosting provider of the main project data (vs meta-data), like 3D models and PCB designs. RDF Individuals can be found e.g. in the `okhkrawl` ontology."@en ;
   rdfs:seeAlso okh:dataProvider ;
   rdfs:subPropertyOf schema:url ;
   vs:term_status "unstable" ;
@@ -323,7 +323,7 @@ okh:dataSourcingProcedure
   a owl:ObjectProperty ;
   a skos:Concept ;
   rdfs:label "upload method"@en ;
-  rdfs:comment "e.g. auto (fully integrated platforms) or manifest file (for connected platforms)"@en ;
+  rdfs:comment "Describe show the OKH met-data finds its way into the final RDF file or triple DB. RDF Individuals can be found e.g. in the `okhkrawl` ontology."@en ;
   vs:term_status "unstable" ;
   schema:domainIncludes okh:Dataset ;
   schema:rangeIncludes okh:DataSourcingProcedure ;
@@ -365,7 +365,7 @@ okh:version
   a owl:DatatypeProperty ;
   a skos:Concept ;
   rdfs:label "version"@en ;
-  rdfs:comment "version of this Module, preferably in the semantic versioning scheme (semver.org)"@en ;
+  rdfs:comment "version of this Module, preferably following the [semantic versioning-scheme v2.0.0](https://semver.org/#semantic-versioning-200)"@en ;
   rdfs:subPropertyOf schema:version ;
   skos:example
         "2.3.4",
@@ -488,7 +488,7 @@ okh:organization
   a owl:ObjectProperty ;
   a skos:Concept ;
   rdfs:label "organization"@en ;
-  rdfs:comment "organization representing (some) contributors of this project"@en ;
+  rdfs:comment "organization of the licensor or that represents (some of) the contributors of to project"@en ;
   vs:term_status "unstable" ;
   schema:rangeIncludes schema:Organization ;
   schema:domainIncludes okh:Module ;
@@ -762,7 +762,7 @@ okh:hasReadme
   a owl:ObjectProperty ;
   a skos:Concept ;
   rdfs:label "has ReadMe"@en ;
-  rdfs:comment "links to the corresponding ReadMe, which is the (human) entry-point into the (sources of) an OSH project"@en ;
+  rdfs:comment "repo-relative path (or absolute HTTP(S) URL) to to the corresponding ReadMe, which is the (human) entry-point into (the sources of) an OSH project"@en ;
   rdfs:subPropertyOf dcterms:instructionalMethod ;
   vs:term_status "unstable" ;
   schema:rangeIncludes okh:File ;
