@@ -436,6 +436,36 @@ okh:licensor
     schema:Organization,
     schema:Person ;
   schema:domainIncludes okh:Module ;
+  skos:example
+    osegprof:martinHaeuer ,
+    osegprof:robinVobruba ,
+    [
+      a schema:Person ;
+      schema:givenName "John" ;
+      schema:familyName "Doe" ;
+      schema:email "john.doe@email.com" ;
+    ] ,
+    [
+      a schema:Person ;
+      schema:givenName "Jane" ;
+      schema:familyName "Doe" ;
+      schema:email "jane.doe@email.com" ;
+      schema:affiliation [
+        a schema:Organization ;
+        schema:name "FSF" ;
+        schema:legalName "Free Software Foundation, Inc." ;
+        schema:url <https://www.fsf.org> ;
+      ] ;
+    ] ,
+    [
+      a foaf:Person ;
+      foaf:mbox <mailto:jane.doe@email.com> ;
+      foaf:member osegprof:osegAssociation ;
+      foaf:name "Jane Doe" ;
+      foaf:nick "jd" ;
+      foaf:topic_interest "Open Source Hardware" ;
+      foaf:topic_interest "Art" ;
+    ] ;
   okhmeta:hasMetaTag okhmeta:LegalTag ;
   .
 
