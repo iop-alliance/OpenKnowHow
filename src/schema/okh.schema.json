@@ -25,9 +25,18 @@
       "type": ["string", "number"],
       "examples": [
         "2.3.4",
+        "1.0.0-alpha",
+        "1.0.0-alpha.1",
+        "1.0.0-alpha.beta",
+        "1.0.0-beta",
+        "1.0.0-beta.2",
+        "1.0.0-beta.11",
+        "1.0.0-rc.1",
+        "1.0.0",
         "0.0.1-24-g6a8a3a7",
         "v0.3.1",
         "6a8a3a7",
+        "baf0e65d8d93e1b64e883dfd2ffc5b838a22ca25",
         61
       ]
     },
