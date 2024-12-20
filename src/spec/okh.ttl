@@ -55,7 +55,7 @@ You may think of this as an `AND` coupling.
 We want the *one of them* meaning though (`OR`).
 The `schema:*` properties give us just that.'''@en ;
   dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
-  dcterms:created "2020-10-02"^^xsd:date ;
+  dcterms:created "2020-10-02Z"^^xsd:date ;
   dcterms:creator osegprof:martinHaeuer ;
   schema:creator osegprof:martinHaeuer ;
   dcterms:creator osegprof:robinVobruba ;
