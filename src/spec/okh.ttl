@@ -530,8 +530,15 @@ Use "LicenseRef-NOASSERTION" if no license is specified,
 (which usually means: all rights reserved),
 or "LicenseRef-AllRightsReserved" or similar
 for projects clearly indicating that they are proprietary."""@en ;
-  rdfs:comment "see <https://github.com/spdx/spdx-spec/issues/49> and <https://github.com/spdx/spdx-spec/issues/50>" ;
-  rdfs:comment "see <https://github.com/spdx/spdx-spec/issues/977>" ;
+  skos:editorialNote """
+  - 'NONE' -
+    <https://github.com/spdx/spdx-spec/issues/49>
+  - 'NOASSERTION' -
+    <https://github.com/spdx/spdx-spec/issues/50>
+  - Convert an SPDX license expression into valid OWL/RDF -
+    <https://github.com/spdx/spdx-spec/issues/977>
+  """ ;
+  skos:note "NOTE: When no SPDX key is found by the crawler, metadata might not be indexed n the server until the alternative license has been whitelisted by maintainers. At OKH we need to make sure that all results are actually open source." ;
   skos:example
         "GPL-3.0-or-later",
         "AGPL-3.0-or-later",
@@ -566,8 +573,6 @@ decoded into actual SPDX RDF/OWL,
 This is the RDF/OWL version of `okh:licenseExpression`,
 and necessarily needs to contain the same info,
 just in a different format."""@en ;
-  rdfs:comment "see <https://github.com/spdx/spdx-spec/issues/49> an <https://github.com/spdx/spdx-spec/issues/50>" ;
-  rdfs:comment "see <https://github.com/spdx/spdx-spec/issues/977>" ;
   skos:example
         spdxl:GPL-3.0-or-later,
         spdxl:AGPL-3.0-or-later,
