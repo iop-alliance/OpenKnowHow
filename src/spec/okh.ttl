@@ -981,6 +981,7 @@ okh:fileFormat
 
 okh:created
   a owl:ObjectProperty ;
+  a skos:Concept ;
   rdfs:label "data creation time-stamp"@en ;
   rdfs:comment "Date and time of the creation of this meta-data, following ISO 8601; see: <https://www.w3.org/TR/xmlschema11-2/#dateTimeStamp>"@en ;
   vs:term_status "unstable" ;
