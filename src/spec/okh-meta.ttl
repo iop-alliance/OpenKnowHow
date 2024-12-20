@@ -1,16 +1,16 @@
-@base             <https://w3id.org/oseg/ont/okhmeta> .
+@base             <http://w3id.org/oseg/ont/okhmeta> .
 @prefix okhmeta:  <#> .
 @prefix cc:       <http://creativecommons.org/ns#> .
 @prefix dcat:     <http://www.w3.org/ns/dcat#> .
 @prefix dcterms:  <http://purl.org/dc/terms/> .
-@prefix osegprof: <https://w3id.org/oseg/ont/oseg-profiles#> .
+@prefix osegprof: <http://w3id.org/oseg/ont/oseg-profiles#> .
 @prefix owl:      <http://www.w3.org/2002/07/owl#> .
 @prefix rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs:     <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix schema:   <http://schema.org/> .
 @prefix skos:     <http://www.w3.org/2004/02/skos/core#> .
-@prefix spdxt:    <http://spdx.org/rdf/terms#> .
-@prefix spdxl:    <https://spdx.org/licenses/> .
+@prefix spdxl:    <http://spdx.org/licenses/> .
+@prefix spdx:     <http://spdx.org/rdf/terms#> .
 @prefix vaem:     <http://www.linkedmodel.org/schema/vaem#> .
 @prefix vann:     <http://purl.org/vocab/vann/> .
 @prefix vs:       <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
@@ -18,11 +18,11 @@
 
 <>
   a owl:Ontology ;
-  a spdxt:File ;
+  a spdx:SpdxItem ;
   vann:preferredNamespacePrefix "okhmeta" ;
-  vann:preferredNamespaceUri "https://w3id.org/oseg/ont/okh-meta#" ;
+  vann:preferredNamespaceUri "http://w3id.org/oseg/ont/okh-meta#" ;
   owl:versionInfo "1.1.0" ;
-  owl:versionIRI <https://w3id.org/oseg/ont/1.1.0/okh-meta> ;
+  owl:versionIRI <http://w3id.org/oseg/ont/1.1.0/okh-meta> ;
   dcterms:title "Open Know How (OKH) - Meta"@en ;
   dcterms:description '''Used for tagging/grouping classes and properties in the OKH ontology.
 This hopefully allows to filter and visualize only (relevant) parts
@@ -59,7 +59,7 @@ The `schema:*` properties give us just that.'''@en ;
   dcterms:modified "2024-07-01T09:03:49Z"^^xsd:dateTimeStamp ;
   dcterms:license "https://www.gnu.org/licenses/gpl-3.0.txt" ;
   cc:license "https://www.gnu.org/licenses/gpl-3.0.txt" ;
-  spdxt:licenseDeclared spdxl:GPL-3.0-or-later ;
+  spdx:licenseDeclared spdxl:GPL-3.0-or-later ;
   dcterms:source "https://github.com/iop-alliance/OpenKnowHow/master/src/spec/okh-meta.ttl" ;
   schema:codeRepository "https://github.com/iop-alliance/OpenKnowHow/" ;
   dcat:keyword "meta", "OKH", "tagging", "grouping" ;
@@ -157,7 +157,7 @@ okhmeta:HistoryTag
 okhmeta:IdentificationTag
   a okhmeta:Tag ;
   rdfs:label "identification"@en ;
-  rdfs:comment "The annotated subject can be used to identify the project (potentially in combination with other parts)."@en ;
+  rdfs:comment "The annotated subject can be used to identify the project (potentially in combination with other identity narrowing subjects)."@en ;
   vs:term_status "unstable" ;
   okhmeta:hasMetaTag okhmeta:MetaTag ;
   .
