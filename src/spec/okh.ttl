@@ -9,6 +9,7 @@
 @prefix mime:     <http://www.iana.org/assignments/media-types/> .
 @prefix npg:      <http://ns.nature.com/terms/> .
 @prefix obo:      <http://purl.obolibrary.org/obo/> .
+@prefix okhkrawl: <http://w3id.org/oseg/ont/okh-krawler#> .
 @prefix okhmeta:  <http://w3id.org/oseg/ont/okhmeta> .
 @prefix osegprof: <http://w3id.org/oseg/ont/oseg-profiles#> .
 @prefix otrl:     <http://w3id.org/oseg/ont/otrl#> .
@@ -314,6 +315,8 @@ okh:dataProvider
   vs:term_status "unstable" ;
   schema:domainIncludes okh:Dataset ;
   schema:rangeIncludes okh:DataProvider ;
+  skos:example okhkrawl:dataProviderGithub ;
+  skos:example okhkrawl:dataProviderAppropedia ;
   owl:cardinality 1 ;
   okhmeta:hasMetaTag okhmeta:DataTag ;
   .
@@ -328,6 +331,8 @@ okh:repoHost
   vs:term_status "unstable" ;
   schema:domainIncludes okh:Module ;
   schema:rangeIncludes okh:DataProvider ;
+  skos:example okhkrawl:dataProviderGitlab ;
+  skos:example okhkrawl:dataProviderThingiverse ;
   owl:cardinality 1 ;
   okhmeta:hasMetaTag okhmeta:HistoryTag ;
   .
@@ -340,6 +345,10 @@ okh:dataSourcingProcedure
   vs:term_status "unstable" ;
   schema:domainIncludes okh:Dataset ;
   schema:rangeIncludes okh:DataSourcingProcedure ;
+  skos:example okhkrawl:dataSourcingProcedureApi ;
+  skos:example okhkrawl:dataSourcingProcedureDirect ;
+  skos:example okhkrawl:dataSourcingProcedureGeneratedManifest ;
+  skos:example okhkrawl:dataSourcingProcedureManifest ;
   owl:cardinality 1 ;
   okhmeta:hasMetaTag okhmeta:DataGatheringTag ;
   .
