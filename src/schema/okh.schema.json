@@ -7,20 +7,21 @@
   "type": "object",
   "properties": {
     "okhv": {
-      "description": "The version of the standard this manifest follows",
+      "description": "version of OKH specification the OSH projects metadata follows (different version → different data fields in this file)",
       "type": "string",
       "const": "OKH-LOSHv1.0",
       "ui-hidden": true
     },
     "name": {
+      "description": "Working title of the OSH component",
       "$ref": "#/$defs/name"
     },
     "repo": {
-      "description": "URL to the repository in which the technical documentation is developed",
+      "description": "URL to the (human browsable) place where development happens;\ntypically a (git) repository or Wiki page.\nFollowing this link, people should be able to contribute to the development:\nreporting issues, suggesting changes, connecting to the team etc.",
       "$ref": "#/$defs/webUrl"
     },
     "version": {
-      "description": "version of the module, following the [semantic versioning-scheme v2.0.0](https://semver.org/#semantic-versioning-200)",
+      "description": "version of this Module, preferably following the [semantic versioning-scheme v2.0.0](https://semver.org/#semantic-versioning-200)",
       "type": ["string", "number"],
       "examples": [
         "2.3.4",
@@ -35,7 +36,7 @@
       "$ref": "#/$defs/relPathOrWebUrl"
     },
     "license": {
-      "description": "[SPDX ID](https://spdx.org/licenses/) of the license used - if no SPDX key is available yet, use URL to legal code of the license instead - NOTE: When no SPDX key is found by the crawler, metadata won't be uploaded to LOSH until the alternative license has been whitelisted by maintainers. At LOSH we need to make sure that all results are actually open source.",
+      "description": "An SPDX license _expression\n(see: <https://spdx.github.io/spdx-spec/v2-draft/SPDX-license-expressions/>),\nusually a single SPDX license ID\n(see complete list: <https://spdx.org/licenses/>),\nor a combination of those,\ncombined with AND or OR.\nIf your license is not SPDX registered (yet),\nuse a custom string prefixed with 'LicenseRef-',\nfor example 'LicenseRef-MyVeryOwnLicense-1.3';\nplease use the 'SPDX identifier' from\n<https://scancode-licensedb.aboutcode.org/>,\nif your license is there but not SPDX registered.\nUse 'LicenseRef-NOASSERTION' if no license is specified,\n'LicenseRef-NONE' if no license is specified\n(which usually means: all rights reserved),\nor 'LicenseRef-AllRightsReserved' or similar\nfor projects clearly indicating that they are proprietary.",
       "$ref": "#/$defs/spdxLicenseExpression",
       "examples": [
         "GPL-3.0-or-later",
@@ -50,7 +51,7 @@
       ]
     },
     "licensor": {
-      "description": "licensor (usually the originator) of the OSH module",
+      "description": "organization/individual behind the hardware design (holder of intellectual property)",
       "oneOf": [
         {
           "type": "array",
@@ -71,7 +72,7 @@
       ]
     },
     "organization": {
-      "description": "organization of the licensor",
+      "description": "organization of the licensor or that represents (some of) the contributors of to project",
       "type": "string",
       "examples": [
         "Free Software Foundation",
@@ -82,7 +83,7 @@
       ]
     },
     "readme": {
-      "description": "repo-relative path to the readme file",
+      "description": "repo-relative path (or absolute HTTP(S) URL) to to the corresponding ReadMe, which is the (human) entry-point into (the sources of) an OSH project",
       "$ref": "#/$defs/relPathOrWebUrl",
       "examples": [
         "README.md",
