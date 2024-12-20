@@ -984,6 +984,7 @@ okh:created
   a skos:Concept ;
   rdfs:label "data creation time-stamp"@en ;
   rdfs:comment "Date and time of the creation of this meta-data, following ISO 8601; see: <https://www.w3.org/TR/xmlschema11-2/#dateTimeStamp>"@en ;
+  rdfs:subPropertyOf dcterms:created ;
   vs:term_status "unstable" ;
   schema:domainIncludes okh:Module ;
   schema:rangeIncludes okh:TimeStamp ;
