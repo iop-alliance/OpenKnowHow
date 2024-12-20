@@ -349,7 +349,7 @@ okh:repo
   a skos:Concept ;
   rdfs:label "repository"@en ;
   rdfs:comment """URL to the (human browsable) place where development happens;
-typically the repository.
+typically a (git) repository or Wiki page.
 Following this link, people should be able to contribute to the development:
 reporting issues, suggesting changes, connecting to the team etc."""@en;
   rdfs:subPropertyOf schema:codeRepository ;
