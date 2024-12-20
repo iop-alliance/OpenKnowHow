@@ -473,6 +473,21 @@ or "LicenseRef-AllRightsReserved" or similar
 for projects clearly indicating that they are proprietary.'''@en ;
   rdfs:comment "see <https://github.com/spdx/spdx-spec/issues/49> and <https://github.com/spdx/spdx-spec/issues/50>" ;
   rdfs:comment "see <https://github.com/spdx/spdx-spec/issues/977>" ;
+  skos:example
+        "GPL-3.0-or-later",
+        "AGPL-3.0-or-later",
+        "GPL-3.0-only",
+        "AGPL-3.0-only",
+        "0BSD",
+        "CC0-1.0",
+        "CC-BY-SA-4.0",
+        "CC-BY-4.0",
+        "Unlicense",
+        "LicenseRef-NOASSERTION",
+        "LicenseRef-NONE",
+        "LicenseRef-AllRightsReserved",
+        "LicenseRef-RandomNonSpdxRegisteredLicense",
+        "LicenseRef-MyVeryOwnLicense" ;
   rdfs:subPropertyOf dcterms:license ;
   skos:closeMatch schema:license ;
   rdfs:seeAlso okh:license ;
