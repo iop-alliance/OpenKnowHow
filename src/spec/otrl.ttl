@@ -8,7 +8,7 @@
 @prefix rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs:     <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix schema:   <http://schema.org/> .
-@prefix spdxt:    <http://spdx.org/rdf/terms#> .
+@prefix spdx:     <http://spdx.org/rdf/terms#> .
 @prefix spdxl:    <http://spdx.org/licenses/> .
 @prefix vann:     <http://purl.org/vocab/vann/> .
 @prefix vs:       <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
@@ -16,7 +16,7 @@
 
 <>
   a owl:Ontology ;
-  a spdxt:File ;
+  a spdx:SpdxItem ;
   vann:preferredNamespacePrefix "otrl" ;
   vann:preferredNamespaceUri "http://w3id.org/oseg/ont/otrl#"^^xsd:anyURI ;
   owl:versionInfo "1.1.0" ;
@@ -55,7 +55,7 @@ The `schema:*` properties give us just that.'''@en ;
   dcterms:modified "2022-02-22T12:01:28Z"^^xsd:dateTimeStamp ;
   dcterms:license "https://www.gnu.org/licenses/gpl-3.0.txt" ;
   cc:license "https://www.gnu.org/licenses/gpl-3.0.txt" ;
-  spdxt:licenseDeclared spdxl:GPL-3.0-or-later ;
+  spdx:licenseDeclared spdxl:GPL-3.0-or-later ;
   dcterms:source "https://github.com/iop-alliance/OpenKnowHow/master/src/spec/otrl.ttl" ;
   schema:codeRepository "https://github.com/iop-alliance/OpenKnowHow/" ;
   dcat:keyword "OTRL", "hardware", "design", "open-source", "open-source-hardware", "project", "category" ;

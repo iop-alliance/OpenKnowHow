@@ -18,7 +18,7 @@
 @prefix schema:   <http://schema.org/> .
 @prefix skos:     <http://www.w3.org/2004/02/skos/core#> .
 @prefix spdxl:    <http://spdx.org/licenses/> .
-@prefix spdxt:    <http://spdx.org/rdf/terms#> .
+@prefix spdx:     <http://spdx.org/rdf/terms#> .
 @prefix tsdc:     <http://w3id.org/oseg/ont/tsdc/core#> .
 @prefix vaem:     <http://www.linkedmodel.org/schema/vaem#> .
 @prefix vann:     <http://purl.org/vocab/vann/> .
@@ -27,7 +27,7 @@
 
 <>
   a owl:Ontology ;
-  a spdxt:File ;
+  a spdx:SpdxItem ;
   vann:preferredNamespacePrefix "okh" ;
   vann:preferredNamespaceUri "http://w3id.org/oseg/ont/okh#"^^xsd:anyURI ;
   owl:versionInfo "1.1.0" ;
@@ -65,7 +65,7 @@ The `schema:*` properties give us just that.'''@en ;
   dcterms:modified "2022-02-22T12:01:28Z"^^xsd:dateTimeStamp ;
   dcterms:license "https://www.gnu.org/licenses/gpl-3.0.txt"^^xsd:anyURI ;
   cc:license "https://www.gnu.org/licenses/gpl-3.0.txt"^^xsd:anyURI ;
-  spdxt:licenseDeclared spdxl:GPL-3.0-or-later ;
+  spdx:licenseDeclared spdxl:GPL-3.0-or-later ;
   dcterms:source "https://github.com/iop-alliance/OpenKnowHow/master/src/spec/okh.ttl"^^xsd:anyURI ;
   schema:codeRepository "https://github.com/iop-alliance/OpenKnowHow/"^^xsd:anyURI ;
   dcat:keyword "OKH", "hardware", "design", "open-source", "open-source-hardware", "project" ;
@@ -77,7 +77,7 @@ okh:Component
   a skos:Concept ;
   rdfs:label "component"@en ;
   rdfs:comment "Either a module (MOSH) or Part (POSH); more component types may be added in the future"@en ;
-  rdfs:subClassOf spdxt:Package ;
+  # rdfs:subClassOf doap:Project ;
   vs:term_status "unstable" ;
   okhmeta:hasMetaTag okhmeta:PartsTag ;
   .
@@ -451,7 +451,7 @@ just in a different format.'''@en ;
   rdfs:comment "see <https://github.com/spdx/spdx-spec/issues/977>" ;
   vaem:todo "TODO For the crawler to be able to actually fill this with data, we need to be able to do 'SPDX Expression string' -> 'SPDX license RDF/OWL' conversion, which is the topic of this issue: <https://github.com/spdx/spdx-spec/issues/977>" ;
   rdfs:subPropertyOf dcterms:license ;
-  rdfs:subPropertyOf spdxt:licenseDeclared ;
+  rdfs:subPropertyOf spdx:licenseDeclared ;
   skos:closeMatch schema:license ;
   rdfs:seeAlso okh:licenseExpression ;
   vs:term_status "unstable" ;
@@ -471,7 +471,7 @@ okh:spdxLicense
   cc:deprecatedOn "2024-06-25"^^xsd:date ;
   schema:supersededBy okh:license ;
   schema:domainIncludes okh:Module ;
-  schema:rangeIncludes spdxt:ListedLicense ; # aka SPDX license identifier for a single, atomar license
+  schema:rangeIncludes spdx:ListedLicense ; # aka SPDX license identifier for a single, atomar license
   owl:cardinality 1 ;
   okhmeta:hasMetaTag okhmeta:LegalTag ;
   .
