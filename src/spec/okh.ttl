@@ -237,6 +237,16 @@ BUY  → unambiguous reference'''@en ;
   okhmeta:hasMetaTag okhmeta:PartsTag ;
   .
 
+okh:TimeStamp
+  a rdfs:Datatype ;
+  owl:onDatatype xsd:dateTimeStamp ;
+  owl:equivalentClass xsd:dateTimeStamp ;
+  rdfs:label "time-stamp"@en ;
+  rdfs:comment "Date and time, always including time-zone, maximum accuracy is in seconds"@en ;
+  rdfs:comment "following ISO 8601; see: <https://www.w3.org/TR/xmlschema11-2/#dateTimeStamp>"@en ;
+  vs:term_status "unstable" ;
+  .
+
 okh:okhv
   a owl:DatatypeProperty ;
   rdfs:label "OKH version"@en ;
@@ -975,7 +985,7 @@ okh:created
   rdfs:comment "Date and time of the creation of this meta-data, following ISO 8601; see: <https://www.w3.org/TR/xmlschema11-2/#dateTimeStamp>"@en ;
   vs:term_status "unstable" ;
   schema:domainIncludes okh:Module ;
-  schema:rangeIncludes xsd:dateTimeStamp ;
+  schema:rangeIncludes okh:TimeStamp ;
   okhmeta:hasMetaTag okhmeta:DataGatheringTag ;
   .
 
