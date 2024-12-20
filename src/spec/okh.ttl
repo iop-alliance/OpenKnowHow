@@ -971,8 +971,8 @@ okh:fileFormat
 
 okh:timestamp
   a owl:ObjectProperty ;
-  rdfs:label "timestamp"@en ;
-  rdfs:comment "following ISO 8601; see: <https://www.w3.org/TR/xmlschema11-2/#dateTimeStamp>"@en ;
+  rdfs:label "data creation time-stamp"@en ;
+  rdfs:comment "Date and time of the creation of this meta-data, following ISO 8601; see: <https://www.w3.org/TR/xmlschema11-2/#dateTimeStamp>"@en ;
   vs:term_status "unstable" ;
   schema:domainIncludes okh:Module ;
   schema:rangeIncludes xsd:dateTimeStamp ;
