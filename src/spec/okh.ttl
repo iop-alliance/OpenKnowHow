@@ -494,6 +494,16 @@ and necessarily needs to contain the same info,
 just in a different format.'''@en ;
   rdfs:comment "see <https://github.com/spdx/spdx-spec/issues/49> an <https://github.com/spdx/spdx-spec/issues/50>" ;
   rdfs:comment "see <https://github.com/spdx/spdx-spec/issues/977>" ;
+  skos:example
+        spdxl:GPL-3.0-or-later,
+        spdxl:AGPL-3.0-or-later,
+        spdxl:GPL-3.0-only,
+        spdxl:AGPL-3.0-only,
+        spdxl:0BSD,
+        spdxl:CC0-1.0,
+        spdxl:CC-BY-SA-4.0,
+        spdxl:CC-BY-4.0,
+        spdxl:Unlicense ;
   vaem:todo "TODO For the crawler to be able to actually fill this with data, we need to be able to do 'SPDX Expression string' -> 'SPDX license RDF/OWL' conversion, which is the topic of this issue: <https://github.com/spdx/spdx-spec/issues/977>" ;
   rdfs:subPropertyOf dcterms:license ;
   rdfs:subPropertyOf spdx:licenseDeclared ;
