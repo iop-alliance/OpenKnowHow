@@ -56,7 +56,12 @@
         "CC0-1.0",
         "CC-BY-SA-4.0",
         "CC-BY-4.0",
-        "Unlicense"
+        "Unlicense",
+        "LicenseRef-NOASSERTION",
+        "LicenseRef-NONE",
+        "LicenseRef-AllRightsReserved",
+        "LicenseRef-RandomNonSpdxRegisteredLicense",
+        "LicenseRef-MyVeryOwnLicense"
       ]
     },
     "licensor": {
