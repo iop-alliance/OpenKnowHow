@@ -700,6 +700,8 @@ okh:hasReadme
   skos:example "README.md" ;
   skos:example "README.txt" ;
   skos:example "README" ;
+  skos:example "README-JP.md" ;
+  skos:example "README-JP" ;
   okhmeta:hasMetaTag okhmeta:BasicTag ;
   okhmeta:hasMetaTag okhmeta:DocumentationTag ;
   .
