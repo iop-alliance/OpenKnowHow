@@ -335,10 +335,10 @@ okh:repo
   a owl:DatatypeProperty ;
   a skos:Concept ;
   rdfs:label "repository"@en ;
-  rdfs:comment '''URL to the (human browsable) place where development happens;
+  rdfs:comment """URL to the (human browsable) place where development happens;
 typically the repository.
 Following this link, people should be able to contribute to the development:
-reporting issues, suggesting changes, connecting to the team etc.'''@en;
+reporting issues, suggesting changes, connecting to the team etc."""@en;
   rdfs:subPropertyOf schema:codeRepository ;
   vs:term_status "unstable" ;
   schema:rangeIncludes okh:HttpUrl ;
@@ -499,7 +499,7 @@ okh:licenseExpression
   a owl:DatatypeProperty ;
   a skos:Concept ;
   rdfs:label "license expression"@en ;
-  rdfs:comment '''An SPDX license _expression_
+  rdfs:comment """An SPDX license _expression_
 (see: <https://spdx.github.io/spdx-spec/v2-draft/SPDX-license-expressions/>),
 usually a single SPDX license ID
 (see complete list: <https://spdx.org/licenses/>),
@@ -515,7 +515,7 @@ Use "LicenseRef-NOASSERTION" if no license is specified,
 "LicenseRef-NONE" if no license is specified
 (which usually means: all rights reserved),
 or "LicenseRef-AllRightsReserved" or similar
-for projects clearly indicating that they are proprietary.'''@en ;
+for projects clearly indicating that they are proprietary."""@en ;
   rdfs:comment "see <https://github.com/spdx/spdx-spec/issues/49> and <https://github.com/spdx/spdx-spec/issues/50>" ;
   rdfs:comment "see <https://github.com/spdx/spdx-spec/issues/977>" ;
   skos:example
@@ -545,13 +545,13 @@ okh:license
   a owl:ObjectProperty ;
   a skos:Concept ;
   rdfs:label "license"@en ;
-  rdfs:comment '''An SPDX license expression,
+  rdfs:comment """An SPDX license expression,
 decoded into actual SPDX RDF/OWL,
 (see: <https://spdx.github.io/spdx-spec/v2-draft/SPDX-license-expressions/>).
 
 This is the RDF/OWL version of `okh:licenseExpression`,
 and necessarily needs to contain the same info,
-just in a different format.'''@en ;
+just in a different format."""@en ;
   rdfs:comment "see <https://github.com/spdx/spdx-spec/issues/49> an <https://github.com/spdx/spdx-spec/issues/50>" ;
   rdfs:comment "see <https://github.com/spdx/spdx-spec/issues/977>" ;
   skos:example
