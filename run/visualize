@@ -181,7 +181,7 @@ then
 
 	echo "<h3>Turtle/RDF sources</h3>"
 	echo "<ul>"
-	for file in $(find . -name "*.ttl")
+	find . -type f -name "*.ttl" | while read -r file
 	do
 		echo "<li><a href=\"$file\">$file</a></li>"
 	done
@@ -189,7 +189,7 @@ then
 
 	echo "<h3>Markdown files laying out the structure</h3>"
 	echo "<ul>"
-	for file in $(find . -name "*.md")
+	find . -type f -name "*.md" | while read -r file
 	do
 		echo "<li><a href=\"$file\">$file</a></li>"
 	done
@@ -197,7 +197,7 @@ then
 
 	echo "<h3>GraphViz/DOT graphs representing the structure</h3>"
 	echo "<ul>"
-	for file in $(find . -name "*.dot")
+	find . -type f -name "*.dot" | while read -r file
 	do
 		echo "<li><a href=\"$file\">$file</a></li>"
 	done
@@ -205,7 +205,7 @@ then
 
 	echo "<h3>PNG & SVG renders of the above graphs</h3>"
 	echo "<ul>"
-	for file in $(find . -name "*.svg")
+	find . -type f -name "*.svg" | while read -r file
 	do
 		file_png="${file%.svg}.png"
 		echo "<li>"
