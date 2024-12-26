@@ -77,11 +77,11 @@
         }
       ],
       "examples": [
-        "John Doe <john.doe@email.com> - FSF",
-        "Jane Doe <jane.doe@email.com> - FSF",
-        "Michael Mueller <mm@email.com> - OSI",
-        "Jinz Jixxer <jj@email.com> - OSI",
-        "Pru Ner <abc@email.com> - GNU"
+        "John Doe <john.doe@email.com>",
+        "Jane Doe (FSF) <jane.doe@email.com>",
+        "Michael Mueller <mm@email.com>",
+        "Jinz Jixxer (OSI) <jj@email.com>",
+        "Pru Ner (GNU) <abc@email.com>"
       ]
     },
     "organization": {
