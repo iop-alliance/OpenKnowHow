@@ -38,7 +38,13 @@ jobs:
 
       - name: Install our Python requirements
         run: |
+          # For Ontology (RDF) visualization (as visual graphs)
           pip install -r "${{ env.ONT_VIZ_REPO }}/requirements.txt"
+          # For JSON-Schema to Markdown & HTML conversion
+          run/gen_schema_doc --install-requirements
+
+      - name: Document our JSON-Schemas
+        run: run/gen_schema_doc
 
       - name: Visualize our RDF
         run: run/visualize

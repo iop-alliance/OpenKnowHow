@@ -1,0 +1,96 @@
+#!/usr/bin/env sh
+# SPDX-FileCopyrightText: 2024 Robin Vobruba <hoijui.quaero@gmail.com>
+# SPDX-License-Identifier: Unlicense
+
+# Exit immediately on each error and unset variable;
+# see: https://vaneyckt.io/posts/safer_bash_scripts_with_set_euxo_pipefail/
+#set -Eeuo pipefail
+set -eu
+
+script_path="$(readlink -f "$0")"
+script_dir="$(dirname "$script_path")"
+script_name="$(basename "$script_path")"
+
+root_dir="$script_dir/.."
+src_dir="$root_dir/src"
+publish_dir="$root_dir/public"
+gen_cmd="generate-schema-doc"
+
+_install_requirements() {
+	# Installs wget, JDK, Python
+	if ! which "$gen_cmd" > /dev/null
+	then
+		pip_or_pipx="pip"
+		if which pipx > /dev/null
+		then
+			pip_or_pipx="pipx"
+		fi
+		"$pip_or_pipx" install json-schema-for-humans
+	fi
+}
+
+_print_help() {
+
+	echo "$script_name - Creates Markdown and HTML documentation"
+	echo " for JSON-Schemas (all in the repo)."
+	echo
+	echo "Usage:"
+	echo "  $script_name [OPTIONS]"
+	echo "Options:"
+	echo "  -h, --help"
+	echo "     Show this help message and exit"
+	echo "  -s, --install-requirements"
+	echo "     Installs all the requirements for this script to run successfully,"
+	echo "     and then exits"
+	echo "Examples:"
+	echo "  $script_name"
+	echo "  $script_name --help"
+}
+
+# read command-line args
+i=1
+while [ "$i" -le "$#" ]
+do
+	arg="$(eval "echo \$$i")"
+
+	case "$arg" in
+		-h|--help)
+			shift "$i"
+			_print_help
+			exit 0
+			;;
+		-s|--install-requirements)
+			shift "$i"
+			_install_requirements
+			exit 0
+			;;
+		*) # non-/unknown option
+			i=$((i + 1))
+			;;
+	esac
+done
+
+if [ ! -f "$gen_cmd" ]
+then
+	_install_requirements
+fi
+
+mkdir -p "$publish_dir"
+
+for schema in "$src_dir/schema/"**.schema.json
+do
+	echo "Documenting JSON-Schema '$(basename "$schema")' in ..."
+	for format in md html
+	do
+		output_file="$publish_dir/$(basename "$$schema").$format"
+		echo "    $format in '$output_file' ..."
+		"$gen_cmd" \
+			--expand-buttons \
+			--copy-css \
+			--copy-js \
+			--link-to-reused-ref \
+			"$schema" \
+			"$output_file"
+	done
+done
+echo "done."

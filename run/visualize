@@ -179,6 +179,14 @@ then
 	echo "<body>"
 	echo "<h1>Sources & Generated output</h1>"
 
+	echo "<h3>Various output (HTML files)</h3>"
+	echo "<ul>"
+	find . -type f -name "*.html" | while read -r file
+	do
+		echo "<li><a href=\"$file\">$file</a></li>"
+	done
+	echo "</ul>"
+
 	echo "<h3>Turtle/RDF sources</h3>"
 	echo "<ul>"
 	find . -type f -name "*.ttl" | while read -r file
