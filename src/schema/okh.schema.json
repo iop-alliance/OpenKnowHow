@@ -326,6 +326,7 @@
   },
   "$defs": {
     "webUrl": {
+      "$comment": "A full web URL",
       "type": "string",
       "format": "uri",
       "pattern": "^https?://"
@@ -354,9 +355,7 @@
       "type": "string",
       "anyOf": [
         {
-          "$comment": "A full web URL",
-          "format": "uri",
-          "pattern": "^https?://"
+          "$ref": "#/$defs/webUrl"
         },
         {
           "$ref": "#/$defs/relPath"
