@@ -52,28 +52,36 @@ is to change the OKHv1 specification to make it applicable to
 [Linked](https://en.wikipedia.org/wiki/Linked_data)
 [Open](https://en.wikipedia.org/wiki/Open_data) data,
 and rework data fields after latest research results.
-This fork [was proposed](
-https://community.internetofproduction.org/t/proposal-loshv1-as-the-base-for-merging-the-different-standards/129/7)
-to the maintainers of the Open Know-How Specification
-as a new major version of the specification.
 
 ## Intro
 
 ### History
 
-Since May 2024,
-OKH LOSH was adopted by its spiritual mother [IoPA]
-(formerly _MakerNet Alliance_) once again,
+In May 2024,
+OKH LOSH was re-incorporated by its spiritual mother -
+the [Internet of Production Alliance][IoPA] (formerly _MakerNet Alliance_) -
+once again,
 as the now official successor to OKH v1. \
 This was a great social and political achievement,
 with lots of arguing by [Open Source Ecology Germany e.V. (OSEG)][OSEG],
 ice- and ground-breaking by Sarah Hutton from [IoPA],
 and a final flood of good will and courage by Nathan from [IoPA].
 
+<details>
+<summary>LOSH adoption proposal</summary>
+
+In August 2022,
+this fork [was proposed](
+https://community.internetofproduction.org/t/proposal-loshv1-as-the-base-for-merging-the-different-standards/129/7)
+to the maintainers of the Open Know-How Specification
+as the new official version of the specification.
+
 Since February 2022,
 OKH LOSH was continued within the [INTERFACER] project.
 
-After March 2023,
+</details>
+
+After March 2022,
 [OSEG] maintained OKH LOSH -
 which was the most advanced and most active OKH version between 2020 and 2024.
 Part of that work was done within the [DAPSI] project,
@@ -124,7 +132,7 @@ https://www.ipk.fraunhofer.de/en/about-us/organization/virtual-product-creation.
 
 In mid 2019,
 the first draft of OKH has been crafted,
-and OKH v1 was released in the end of the same year
+and [OKH v1 was released][OKHv1] in the end of the same year
 by a consortium of 10 organizations:
 
 - [Appropedia]
@@ -328,3 +336,4 @@ boils down to the history of invention of better tools." \
 [Horizon 2020]: https://research-and-innovation.ec.europa.eu/funding/funding-opportunities/funding-programmes-and-open-calls/horizon-2020_en
 [SPARQL]: https://en.wikipedia.org/wiki/SPARQL
 [RDF-DB tester]: https://github.com/OPEN-NEXT/LOSH-RDF-DB-tester/
+[OKHv1]: https://standards.internetofproduction.org/pub/okh/release/1
