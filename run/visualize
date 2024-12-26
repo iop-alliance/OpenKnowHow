@@ -195,7 +195,7 @@ then
 	done
 	echo "</ul>"
 
-	echo "<h3>GraphViz/DOT graps representing the structure</h3>"
+	echo "<h3>GraphViz/DOT graphs representing the structure</h3>"
 	echo "<ul>"
 	for file in $(find . -name "*.dot")
 	do
