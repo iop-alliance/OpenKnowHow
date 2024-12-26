@@ -3,7 +3,7 @@
   "$id": "https://openknowhow.org/okh.schema.json",
   "title": "Manifest",
   "description": "This is a JSON schema, which can validate an 'okh.yml' file, which holds a projects Open Know-How (Open Source Hardware) meta-data. This schema is based on the specification in <https://barbal.co/the-open-know-how-manifest-specification-version-1-0/>",
-  "$comment": "NOTE: The properies 'ui-hidden' and 'ui-recommended' used in this schema, are non-standardised, and currently unused. They could be used to create a form, and are here for consistency with <https://git.iostud.io/makernet/iop-cdb/-/blob/dev/server/assets/okh.okhdf>.",
+  "$comment": "NOTE: The properties 'ui-hidden' and 'ui-recommended' used in this schema, are non-standardised, and currently unused. They could be used to create a form, and are here for consistency with <https://git.iostud.io/makernet/iop-cdb/-/blob/dev/server/assets/okh.okhdf>.",
   "type": "object",
   "properties": {
     "title": {
@@ -298,7 +298,7 @@
             ]
           },
           "reference": {
-            "description": "Reference indentifier of the standard (e.g. 'ISO 9001')",
+            "description": "Reference identifier of the standard (e.g. 'ISO 9001')",
             "type": "string",
             "examples": [
               "ISO 9001",
@@ -439,7 +439,7 @@
     },
     "spdxLicenseExpression": {
       "description": "A valid SPDX license expression",
-      "$comment": "TODO We would have to define this in an extra schema, generated -> do it in the SPDX-Identifiers-generater repo!",
+      "$comment": "TODO We would have to define this in an extra schema, generated -> do it in the SPDX-Identifiers-generator repo!",
       "type": "string"
     },
     "otherProject": {
