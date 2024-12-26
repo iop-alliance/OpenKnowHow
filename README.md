@@ -24,10 +24,12 @@ based on [Linked Open Data][LOD].**
     https://raw.githubusercontent.com/osegermany/tiny-files/master/res/media/img/badge-oseg.svg)](
     https://www.ose-germany.de/die-bewegung/)
 
-- <https://losh.opennext.eu> -
-  browse the collected data
-- <https://manifest.opennext.eu> -
-  web-UI to create meta-data for a project
+- ~<https://losh.opennext.eu> -~
+  ~browse the collected data~
+- ~<https://manifest.opennext.eu> -~
+  ~web-UI to create meta-data for a project~
+
+(_the above two links are deprecated_)
 
 The most important files in this repo,
 in descending order:
