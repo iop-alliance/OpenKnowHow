@@ -8,7 +8,6 @@
   "properties": {
     "okhv": {
       "description": "version of OKH specification the OSH projects metadata follows (different version → different data fields in this file)",
-      "type": "string",
       "const": "OKH-LOSHv1.0",
       "ui-hidden": true
     },
