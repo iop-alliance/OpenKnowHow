@@ -95,8 +95,7 @@
         { "required": [ "hardware" ] },
         { "required": [ "documentation" ] },
         { "required": [ "software" ] }
-      ],
-      "additionalProperties": true
+      ]
     },
     "licensor": {
       "description": "Who granted the license?",
@@ -105,7 +104,6 @@
     },
     "okh-manifest-version": {
       "description": "TODO",
-      "type": "string",
       "const": "1.0.0",
       "ui-hidden": true
     },
@@ -155,12 +153,10 @@
                   "MsSomewhere_at_least"
                 ]
               }
-            },
-            "additionalProperties": true
+            }
           }
         }
-      },
-      "additionalProperties": true
+      }
     },
     "contributors": {
       "ui-recommended": true,
@@ -335,13 +331,11 @@
                     "TODO"
                   ]
                 }
-              },
-              "additionalProperties": true
+              }
             }
           }
         },
-        "required": [ "standard-title" ],
-        "additionalProperties": true
+        "required": [ "standard-title" ]
       }
     },
     "derivative-of": {
@@ -551,7 +545,6 @@
   "anyOf": [
     { "required": [ "project-link" ] },
     { "required": [ "documentation-home" ] }
-  ],
-  "additionalProperties": true
+  ]
 }
 
