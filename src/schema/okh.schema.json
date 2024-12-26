@@ -2,7 +2,7 @@
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://raw.githubusercontent.com/OPEN-NEXT/OKH-LOSH/master/okh-losh.schema.json",
   "title": "Manifest",
-  "description": "This is a JSON schema, which can validate a 'okh.toml' file, which holds a projects Open Know-How (Open Source Hardware) meta-data.",
+  "description": "This is a JSON-Schema which can validate an 'okh.toml' file, which holds an Open Source Hardware (OSH) projects Open Know-How (OKH) meta-data.",
   "$comment": "NOTE: The properties 'ui-hidden' and 'ui-recommended' used in this schema, are non-standardized, and currently unused. They could be used to create a form, and are here for consistency with <https://git.iostud.io/makernet/iop-cdb/-/blob/dev/server/assets/okh.okhdf>.",
   "type": "object",
   "properties": {
