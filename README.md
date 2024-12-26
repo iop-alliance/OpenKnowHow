@@ -44,15 +44,6 @@ in descending order:
     even though the _real_ data is always the RDF form
     (which can be generated from these manifests).
 
-The work here is based on the [Open Know-How Specification v1.0.0](
-https://standards.internetofproduction.org/pub/okh/release/1),
-as released in 2019.
-The goal of the adaptations in this repo,
-is to change the OKHv1 specification to make it applicable to
-[Linked](https://en.wikipedia.org/wiki/Linked_data)
-[Open](https://en.wikipedia.org/wiki/Open_data) data,
-and rework data fields after latest research results.
-
 ## Intro
 
 ### History
@@ -93,10 +84,15 @@ while most of it was community work.
 
 From early 2020,
 the LOSH variety of the OKH standard -
-which was the most advanced and most active OKH version until 2024 -
+which came to be the most advanced and most active OKH version until 2024 -
 was developed as an [OPEN!NEXT] project,
 which was a collaboration between 19 industry and academic partners
 across Europe.
+The goal of the LOSH adaptations,
+was to change the OKHv1 specification to make it applicable to
+[Linked](https://en.wikipedia.org/wiki/Linked_data)
+[Open](https://en.wikipedia.org/wiki/Open_data) data,
+and rework data fields after latest research findings.
 
 <details>
 <summary>more about OPEN!NEXT</summary>
