@@ -24,6 +24,14 @@ based on [Linked Open Data][LOD].**
     https://raw.githubusercontent.com/osegermany/tiny-files/master/res/media/img/badge-oseg.svg)](
     https://www.ose-germany.de/die-bewegung/)
 
+---
+
+**NOTE:**
+This project is under heavy development till at least June 2025.
+Stay tuned!
+
+---
+
 - ~<https://losh.opennext.eu> -~
   ~browse the collected data~
 - ~<https://manifest.opennext.eu> -~
