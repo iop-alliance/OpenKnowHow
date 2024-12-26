@@ -38,10 +38,6 @@ jobs:
 
       - name: Install our Python requirements
         run: |
-          pwd
-          ls
-          ls ${{ env.REPOS_DIR }}
-          ls ${{ env.ONT_VIZ_REPO }}
           pip install -r "${{ env.ONT_VIZ_REPO }}/requirements.txt"
 
       - name: Visualize our RDF
