@@ -316,70 +316,70 @@ To summarize: an OSH module must bear reference of:
   - licensor (mostly the originator) of the OSH module
 - `organization` \[string\]
   - organization of the licensor
-- `readme` \[file-path\]
+- `readme` \[file-path\] <!-- INCORPORATED into TTL => Do not change here anymore! -->
   - repo-relative path or URL to the README file
   - e.g. `README.md`
-- `contribution-guide` \[file-path\]
+- `contribution-guide` \[file-path\] <!-- INCORPORATED into TTL => Do not change here anymore! -->
   - repo-relative path or URL to the contribution guide
   - e.g. `CONTRIBUTING.md`
-- `image` \[file-path\]
+- `image` \[file-path\] <!-- INCORPORATED into TTL => Do not change here anymore! -->
   - repo-relative path or URL to one (!) representative image of the OSH module
-- **`documentation-language`** \[string\]
+- **`documentation-language`** \[string\] <!-- INCORPORATED into TTL => Do not change here anymore! -->
   - IETF BCP 47 language tag for the language in which the documentation is written
-- `technology-readiness-level` \[string\]
+- `technology-readiness-level` \[string\] <!-- INCORPORATED into TTL => Do not change here anymore! -->
   - OTRL-ID representing the development stage of the OSH module
   - get it from here: <https://raw.githubusercontent.com/iop-alliance/OpenKnowHow/master/src/spec/otrl.ttl>
-- `documentation-readiness-level` \[string\]
+- `documentation-readiness-level` \[string\] <!-- INCORPORATED into TTL => Do not change here anymore! -->
   - ODRL-ID representing the development stage of the documentation
   - get it from here: <https://raw.githubusercontent.com/iop-alliance/OpenKnowHow/master/src/spec/otrl.ttl>
-- `attestation` \[URL\]
+- `attestation` \[URL\] <!-- INCORPORATED into TTL => Do not change here anymore! -->
   - reference to a valid attestation that the documentation is complete
     and fully qualifies as open source hardware
   - issuing conformity assessment bodies according to DIN SPEC 3105-2:
     - [Open Hardware Observatory](https://en.oho.wiki/wiki/Request_certification_for_your_project)
     - [Open Source Ecology Germany](https://gitlab.opensourceecology.de/verein/projekte/cab/CAB)
   - [OSHWA certification programme](https://certification.oshwa.org/)
-- **`function`** \[string\]
+- **`function`** \[string\] <!-- INCORPORATED into TTL => Do not change here anymore! -->
   - functional description, e.g. what it actually does,
     what problem it solves, for whom, under which conditions etc.
     so if you wish that someone finds & uses your OKH specifically,
     e.g. for COVID-19-crisis response, include relevant keywords in this field\
     optional: description of input, output and interfaces
-- `standard-compliance` \[string\]
+- `standard-compliance` \[string\] <!-- INCORPORATED into TTL => Do not change here anymore! -->
   - document-number of the official standard the OSH module complies
   - e.g. `DIN EN 1335`
   - multiple inputs possible (with one entry each)
-- `cpc-patent-class` \[CPC-ID\]
+- `cpc-patent-class` \[CPC-ID\] <!-- INCORPORATED into TTL => Do not change here anymore! -->
   - patent class identifier of the Cooperative Patent Classification
     that describes best the field of technology of the OSH module
   - get it from here: <https://worldwide.espacenet.com/classification>
   - e.g. `D03D 35/00`
-- `tsdc` \[TsDC-ID\]
+- `tsdc` \[TsDC-ID\] <!-- INCORPORATED into TTL => Do not change here anymore! -->
   - identifier of the applying Technology-specific Documentation Criteria (TsDC)
     according to DIN SPEC 3105-1
   - get it from here: <https://gitlab.com/OSEGermany/oh-tsdc/-/blob/master/oh-tsdc.ttl>
   - e.g. `MEC`
   - multiple inputs possible (with one entry each)
-- `bom` \[file-path\]
+- `bom` \[file-path\] <!-- INCORPORATED into TTL => Do not change here anymore! -->
   - repo-relative path or URL to the bill of materials
   - e.g. `bom.csv`
-- `manufacturing-instructions` \[file-path\]
+- `manufacturing-instructions` \[file-path\] <!-- INCORPORATED into TTL => Do not change here anymore! -->
   - repo-relative path or URL to manufacturing instructions
   - e.g. `Documentation/Assembly_Guide/AssemblyGuide.md`
   - multiple inputs possible (with one entry each)
-- `user-manual` \[file-path\]
+- `user-manual` \[file-path\] <!-- INCORPORATED into TTL => Do not change here anymore! -->
   - repo-relative path or URL to user manual
   - e.g. `Documentation/User_Guide/UserGuide.md`
-- `source` \[file-path\]
+- `source` \[file-path\] <!-- INCORPORATED into TTL => Do not change here anymore! -->
   - repo-relative path or URL to source file (e.g. native CAD file)
   - e.g. `3D-parts/assembly.asm`
   - multiple inputs possible (with one entry each)
-- `export` \[file-path\]
+- `export` \[file-path\] <!-- INCORPORATED into TTL => Do not change here anymore! -->
   - repo-relative path or URL to export file
     (e.g. STEP export of 3D model or PDF export of drawing)
   - e.g. `3D-parts/assembly.stp`
   - multiple inputs possible (with one entry each)
-- `auxiliary` \[file-path\]
+- `auxiliary` \[file-path\] <!-- INCORPORATED into TTL => Do not change here anymore! -->
   - repo-relative path or URL to files that are neither source files
     nor their exports, but still useful in the repository (e.g. KiCAD library files)
   - e.g. `lib/lib1.lib`
@@ -387,26 +387,26 @@ To summarize: an OSH module must bear reference of:
 
 ## metadata fields for parts
 
-- **`name`** \[string\]
+- **`name`** \[string\] <!-- INCORPORATED into TTL => Do not change here anymore! -->
   - working title of the part
-- `image` \[file-path\]
+- `image` \[file-path\] <!-- INCORPORATED into TTL => Do not change here anymore! -->
   - repo-relative path or URL to one (!) representative image of the OSH module
-- `tsdc` \[TsDC-ID\]
+- `tsdc` \[TsDC-ID\] <!-- INCORPORATED into TTL => Do not change here anymore! -->
   - identifier of the applying Technology-specific Documentation Criteria (TsDC)
     according to DIN SPEC 3105-1
   - get it from here: <https://gitlab.com/OSEGermany/oh-tsdc/-/blob/master/oh-tsdc.ttl>
   - e.g. `3DP`
   - multiple inputs possible (with one entry each)
-- **`source`** \[file-path\]
+- **`source`** \[file-path\] <!-- INCORPORATED into TTL => Do not change here anymore! -->
   - repo-relative path or URL to source file (e.g. native CAD file)
   - e.g. `3D-parts/part1.scad`
   - multiple inputs possible (with one entry each)
-- `export` \[file-path\]
+- `export` \[file-path\] <!-- INCORPORATED into TTL => Do not change here anymore! -->
   - repo-relative path or URL to export file
     (e.g. STEP export of 3D model or PDF export of drawing)
   - e.g. `3D-parts/part1.stp`
   - multiple inputs possible (with one entry each)
-- `auxiliary` \[file-path\]
+- `auxiliary` \[file-path\] <!-- INCORPORATED into TTL => Do not change here anymore! -->
   - repo-relative path or URL to files that are neither source files
     nor their exports, but still useful in the repository
     (e.g. KiCAD library files)
