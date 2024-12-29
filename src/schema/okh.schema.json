@@ -706,6 +706,10 @@
     "organization": {
       "description": "An organization such as a school, NGO, corporation, club, etc.",
       "properties": {
+        "email": {
+          "description": "E-Mail of the organization",
+          "$ref": "#/$defs/email"
+        },
         "name": {
           "description": "Name of the organization",
           "type": "string"
@@ -746,6 +750,10 @@
         "name": {
           "description": "Full name of the person",
           "type": "string"
+        },
+        "url": {
+          "description": "Home-page of the person",
+          "$ref": "#/$defs/webUrl"
         }
       }
     },
