@@ -381,6 +381,7 @@
     "standard-compliance": {
       "description": "document-number of the official standard the OSH module complies;\\\nmultiple inputs possible (with one entry each)",
       "examples": [
+        "DIN SPEC 3105",
         "DIN EN 1335",
         "ISO 1337"
       ],
