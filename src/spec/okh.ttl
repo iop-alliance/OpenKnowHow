@@ -215,7 +215,7 @@ okh:File
   vs:term_status "unstable" ;
   .
 
-okh:ManifestFile
+okh:ManifestFile # TODO MAYBE! Remove this and use okh:File directly
   a owl:Class ;
   a skos:Concept ;
   rdfs:label "manifest file"@en ;
@@ -226,7 +226,7 @@ okh:ManifestFile
   okhmeta:hasMetaTag okhmeta:DataGatheringTag ;
   .
 
-okh:Image
+okh:Image # TODO MAYBE! Remove this and use okh:File directly
   a owl:Class ;
   a skos:Concept ;
   rdfs:label "image"@en ;
