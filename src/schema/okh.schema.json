@@ -271,7 +271,17 @@
         "Open Source Ecology",
         "Open Source Ecology Germany"
       ],
-      "type": "string"
+      "oneOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      ]
     },
     "outer-dimensions": {
       "$ref": "#/$defs/outerDimensions"
