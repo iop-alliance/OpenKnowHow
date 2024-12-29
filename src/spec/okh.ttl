@@ -722,7 +722,7 @@ okh:hasPublication
   a owl:ObjectProperty ;
   a skos:Concept ;
   rdfs:label "has Publication"@en ;
-  rdfs:comment "design files of this OSH module have been peer reviewed in the linked to scientific publication"@en ;
+  rdfs:comment "design files of this OSH module have been peer reviewed in the linked-to scientific publication"@en ;
   vs:term_status "unstable" ;
   rdfs:subPropertyOf npg:hasPublication;
   schema:domainIncludes okh:Module ;
