@@ -219,7 +219,16 @@
         "Jane Doe (FSF) <jane.doe@email.com>",
         "Michael Mueller <mm@email.com>",
         "Jinz Jixxer (OSI) <jj@email.com>",
-        "Pru Ner (GNU) <abc@email.com>"
+        "Pru Ner (GNU) <abc@email.com>",
+        {
+          "email": "john.doe@email.com",
+          "name": "John Doe"
+        },
+        {
+          "email": "jane.doe@email.com",
+          "memberOf": "FSF",
+          "name": "Jane Doe"
+        }
       ],
       "oneOf": [
         {
@@ -278,7 +287,25 @@
         "Open Source Initiative",
         "Open Source Hardware Association",
         "Open Source Ecology",
-        "Open Source Ecology Germany"
+        "Open Source Ecology Germany",
+        [
+          "Free Software Foundation",
+          "Open Source Initiative"
+        ],
+        {
+          "name": "Free Software Foundation",
+          "url": "https://www.fsf.org"
+        },
+        [
+          {
+            "name": "Free Software Foundation",
+            "url": "https://www.fsf.org"
+          },
+          {
+            "name": "Open Source Ecology Germany",
+            "url": "https://ose-germany.de"
+          }
+        ]
       ],
       "oneOf": [
         {
