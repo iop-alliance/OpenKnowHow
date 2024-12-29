@@ -248,6 +248,84 @@ The future could bring e.g.:
 
 ## Ecosystem
 
+TODO Overall narrative
+
+At the core of the OKH ecosystem, we have [the standard](#standard).
+It defines the structure of mandatory and optional fields
+that can be used to describe a hardware design project,
+and how those fields are supposed to be encoded (e.g. file-format).
+
+Around it,
+we have many software tools,
+generally following the [UNIX philosophy].
+They help in converting the standard into different formats,
+tailored either to humans ([Markdown], HTML, PDF)
+or one program ([SHACL] (tbd))
+or the other ([JSON-Schema] (tbd)).
+This allows different groups of people to interact with the standard
+in a way that is natural and optimal to them,
+and thus broadens the community and the mindset that influences the standard.
+An other of these tools takes the data of individual hardware projects
+encoded in one version of the standard,
+and [converts it to a newer one](
+https://github.com/OPEN-NEXT/LOSH-OKH-tool#conversion).
+
+The goal is to have as little custom tools as possible,
+and rather rely on standard formats and workflows.
+For example:
+We currently have [a tool to validate our RDF data](
+https://github.com/OPEN-NEXT/LOSH-OKH-tool#validation).
+Once our [SHACL] generation works well though,
+we will be able to use "off the shelf" [SHACL] validators instead,
+apart from the other use cases that [SHACL] will make available. \
+Validation in different formats allows anyone
+at any point in the process to analyze the data.
+That includes hardware project owners
+that assemble (some of) their data manually,
+standard developers/contributors that want to test a change
+against a collection of HW projects,
+people that write tools that convert to the standards format,
+HW project hosting providers that generate the data from their internal DB
+and data aggregation sites of any kind.
+To enhance data integrity as much as possible is essential
+to come up with a usable data set to search in.
+To do it at any point in the process fosters a [fail-fast] workflow,
+which optimally results in HW project maintainers
+to see issues early after every change -
+when they still know what they changed -
+which optimally equips them to solve the issue,
+together with the validation tools error report.
+We figured this to be the optimal way
+to giveHW project owners the power
+to ensure they can be found.
+In more traditional systems,
+if their data is invalid,
+they would either be completely silently ignored
+and not enter the DB of all things,
+or at best they would get info on some centralized web interface about the issue,
+if they happen to check it.
+If the error happens to lay on the data aggregators side
+or in the specification (standard),
+they might not have a way to right it,
+if they are lucky enough to even understand what is going wrong.
+
+TODO More!
+
+- Test (has to be run locally): [RDF-DB tester]
+  This fetches the crawled data, starts a DB,
+  enters the data into the DB,
+  and then allows to query that data by code ([SPARQL] querries)
+  or through a web interface (also [SPARQL] querries)
+  with syntax highlighting and showing the results in a nice table format.
+  Crawled data (from 2022):
+  <https://gitlab.opensourceecology.de/verein/projekte/losh-rdf/-/tree/main/RDF>
+- Crawler:
+  <https://github.com/OPEN-NEXT/LOSH-krawler>
+- Tool to Generate a Report including Data Statistics:
+  <https://github.com/OPEN-NEXT/LOSH-Reporter>
+- browsing/searching web-interface for the crawled data:
+  <https://losh.opennext.eu>
+
 ### Standard
 
 The standard/meta-data specification
@@ -326,14 +404,18 @@ boils down to the history of invention of better tools." \
 
 [Appropedia]: https://www.appropedia.org/
 [DAPSI]: https://dapsi.ngi.eu/
+[fail-fast]: https://en.wikipedia.org/wiki/Fail-fast_system
 [Horizon 2020]: https://research-and-innovation.ec.europa.eu/funding/funding-opportunities/funding-programmes-and-open-calls/horizon-2020_en
 [INTERFACER]: https://www.interfacerproject.eu/
 [IoPA]: https://www.internetofproduction.org/
 [JSON-Schema]: https://json-schema.org/
+[Markdown]: https://en.wikipedia.org/wiki/Markdown
 [OKHv1]: https://standards.internetofproduction.org/pub/okh/release/1
 [OPEN!NEXT]: https://opennext.eu/
 [OSEG]: https://www.ose-germany.de/
 [OSHWA]: https://www.oshwa.org/
 [RDF-DB tester]: https://github.com/OPEN-NEXT/LOSH-RDF-DB-tester/
+[SHACL]: https://en.wikipedia.org/wiki/SHACL
 [SPARQL]: https://en.wikipedia.org/wiki/SPARQL
 [TOML]: https://toml.io/en/
+[UNIX philosophy]: https://cscie2x.dce.harvard.edu/hw/ch01s06.html
