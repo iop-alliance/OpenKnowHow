@@ -93,6 +93,7 @@ okh:Component
   a skos:Concept ;
   rdfs:label "component"@en ;
   rdfs:comment "Either a module (MOSH) or Part (POSH); more component types may be added in the future"@en ;
+  # rdfs:subClassOf schema:CreativeWork ; # NOTE Probably better suited for the OSH Ontology
   # rdfs:subClassOf doap:Project ;
   vs:term_status "unstable" ;
   okhmeta:hasMetaTag okhmeta:PartsTag ;
@@ -463,6 +464,7 @@ okh:licensor
   a owl:ObjectProperty ;
   a skos:Concept ;
   rdfs:subPropertyOf dcterms:rightsHolder ;
+  # rdfs:subPropertyOf schema:copyrightHolder ; # NOTE Probably better suited for the OSH Ontology
   rdfs:label "licensor"@en ;
   rdfs:comment "organization/individual behind the hardware design (holder of intellectual property)"@en ;
   rdfs:subPropertyOf dcterms:rightsHolder ;
@@ -837,6 +839,7 @@ okh:hasComponent
   a skos:Concept ;
   rdfs:label "has Component"@en ;
   rdfs:comment "Links to sub-components of the Module. In the case of that sub-component being an external Module, it has to refer to a snapshot of the RDF object representing that OKH Module. Each sub-component should also appear in the BoM."@en ;
+  # rdfs:subPropertyOf schema:hasPart ; # NOTE Probably better suited for the OSH Ontology
   vs:term_status "unstable" ;
   schema:rangeIncludes
     okh:Component, # TODO These two are an issue for the SHACL generator, because one is a class and the other a datatype, so it would have to be both OWL property types, but the SHACL generator (owl2shacl) can not handle that one (yet)
