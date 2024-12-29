@@ -4,6 +4,7 @@
 @prefix dcat:     <http://www.w3.org/ns/dcat#> .
 @prefix dcterms:  <http://purl.org/dc/terms/> .
 @prefix dctype:   <http://purl.org/dc/dcmitype/> .
+#@prefix doap:     <http://usefulinc.com/ns/doap#> .
 @prefix foaf:     <http://xmlns.com/foaf/0.1/> .
 #@prefix isoprops: <http://w3id.org/isoprops#> .
 @prefix mime:     <http://www.iana.org/assignments/media-types/> .
@@ -205,7 +206,10 @@ okh:FileUrl
 
 okh:File
   a owl:Class ;
+  #rdfs:subClassOf schema:DigitalDocument ; commented out, because this does not include images, for example
+  #rdfs:subClassOf schema:MediaObject ;
   rdfs:subClassOf schema:CreativeWork ;
+  # rdfs:subClassOf foaf:Document ;
   rdfs:label "file"@en ;
   rdfs:comment "A file that forms part of the project, specified/located either by a URL (okh:url) or a repo-/project-relative path (okh:relativePath)."@en ;
   vs:term_status "unstable" ;
@@ -369,6 +373,7 @@ typically a (git) repository or Wiki page.
 Following this link, people should be able to contribute to the development:
 reporting issues, suggesting changes, connecting to the team etc."""@en;
   rdfs:subPropertyOf schema:codeRepository ;
+  # rdfs:subPropertyOf doap:repository ;
   vs:term_status "unstable" ;
   schema:rangeIncludes okh:HttpUrl ;
   schema:domainIncludes okh:Module ;
@@ -616,6 +621,7 @@ okh:spdxLicense
   a skos:Concept ;
   rdfs:label "SPDX license identifier"@en ;
   rdfs:comment "view complete list under https://spdx.org/licenses/"@en ;
+  # rdfs:subPropertyOf doap:license ;
   skos:closeMatch schema:license ;
   vs:term_status "deprecated" ;
   owl:deprecated "true"^^xsd:boolean ;
@@ -860,6 +866,7 @@ okh:hasImage
   rdfs:label "has image"@en ;
   rdfs:comment "links to the corresponding Image"@en ;
   # rdfs:subPropertyOf foaf:depiction ; # NOTE This would probably be wrong, or at least misleading, because a project logo or a technical drawing of a part would fit for `okh:hasImage`, but not `foaf:depiction`
+  # Somehow related: `foaf:logo`, `doap:screenshot`
   vs:term_status "unstable" ;
   rdfs:subPropertyOf schema:image ;
   schema:rangeIncludes okh:Image ;
@@ -1138,6 +1145,8 @@ okh:created
   schema:rangeIncludes okh:TimeStamp ;
   okhmeta:hasMetaTag okhmeta:DataGatheringTag ;
   .
+  # okh:lastRequested "2021-03-26T15:15:46+00:00" ;
+  # okh:lastSeen "2021-03-26T15:15:46+00:00" ;
 
 okh:source
   a owl:ObjectProperty ;
