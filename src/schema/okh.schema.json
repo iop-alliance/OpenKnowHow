@@ -467,10 +467,17 @@
         "lib/lib1.lib",
         ".mdlrc"
       ],
-      "type": "array",
-      "items": {
-        "$ref": "#/$defs/relPathOrWebUrl"
-      }
+      "anyOf": [
+        {
+          "$ref": "#/$defs/relPathOrWebUrl"
+        },
+        {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/relPathOrWebUrl"
+          }
+        }
+      ]
     },
     "bom": {
       "description": "URL or repo-relative path to the bill of materials",
