@@ -647,8 +647,7 @@
         "string"
       ],
       "items": {
-        "$comment": "TODO type should rather be ~ $ref:relPath",
-        "type": "string"
+        "$ref": "#/$defs/relPathOrWebUrl"
       }
     },
     "spdxLicenseExpression": {
