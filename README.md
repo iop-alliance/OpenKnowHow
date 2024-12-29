@@ -57,6 +57,10 @@ and rework data fields after latest research results.
 
 ### History
 
+From October 2024 till June 2025 (9 months),
+we are funded by [NGI Search],
+as the _Open Hardware Search_ project.
+
 In May 2024,
 OKH LOSH was re-incorporated by its spiritual mother -
 the [Internet of Production Alliance][IoPA] (formerly _MakerNet Alliance_) -
@@ -410,6 +414,7 @@ boils down to the history of invention of better tools." \
 [IoPA]: https://www.internetofproduction.org/
 [JSON-Schema]: https://json-schema.org/
 [Markdown]: https://en.wikipedia.org/wiki/Markdown
+[NGI Search]: https://www.ngisearch.eu/
 [OKHv1]: https://standards.internetofproduction.org/pub/okh/release/1
 [OPEN!NEXT]: https://opennext.eu/
 [OSEG]: https://www.ose-germany.de/
