@@ -220,6 +220,10 @@
         "Michael Mueller <mm@email.com>",
         "Jinz Jixxer (OSI) <jj@email.com>",
         "Pru Ner (GNU) <abc@email.com>",
+        [
+          "John Doe <john.doe@email.com>",
+          "Jane Doe (FSF) <jane.doe@email.com>"
+        ],
         {
           "email": "john.doe@email.com",
           "name": "John Doe"
@@ -228,7 +232,18 @@
           "email": "jane.doe@email.com",
           "memberOf": "FSF",
           "name": "Jane Doe"
-        }
+        },
+        [
+          {
+            "email": "john.doe@email.com",
+            "name": "John Doe"
+          },
+          {
+            "email": "jane.doe@email.com",
+            "memberOf": "FSF",
+            "name": "Jane Doe"
+          }
+        ]
       ],
       "oneOf": [
         {
@@ -438,7 +453,11 @@
       "examples": [
         "DIN SPEC 3105",
         "DIN EN 1335",
-        "ISO 1337"
+        "ISO 1337",
+        [
+          "DIN SPEC 3105",
+          "ISO 1337"
+        ]
       ],
       "type": "array",
       "items": {
@@ -531,7 +550,11 @@
       "description": "relative or absolute path to files that are neither source files nor their exports, but still useful in the repository (e.g. KiCAD library files);\\\nmultiple inputs possible (with one entry each)",
       "examples": [
         "lib/lib1.lib",
-        ".mdlrc"
+        ".mdlrc",
+        [
+          "lib/lib1.lib",
+          ".mdlrc"
+        ]
       ],
       "anyOf": [
         {
@@ -586,7 +609,11 @@
         "H02J 1/123",
         "H02J 1/1234",
         "H02J 1/12345",
-        "H02J 1/123456"
+        "H02J 1/123456",
+        [
+          "D03D 35/00",
+          "D03D 5/00"
+        ]
       ],
       "anyOf": [
         {
@@ -624,7 +651,11 @@
       "description": "relative or absolute path to export file (e.g. STEP export of 3D model or PDF export of drawing);\\\nmultiple inputs possible (with one entry each)",
       "examples": [
         "3D-parts/assembly.stp",
-        "public/user-manual.pdf"
+        "public/user-manual.pdf",
+        [
+          "3D-parts/assembly.stp",
+          "public/user-manual.pdf"
+        ]
       ],
       "anyOf": [
         {
@@ -755,7 +786,11 @@
         "3D-parts/assembly.asm",
         "pcb/main.pro",
         "pcb/main.kicad_pcb",
-        "cad/part-x/model.fcstd"
+        "cad/part-x/model.fcstd",
+        [
+          "pcb/main.kicad_pcb",
+          "cad/part-x/model.fcstd"
+        ]
       ],
       "anyOf": [
         {
@@ -784,7 +819,12 @@
         "WEL",
         "3DP",
         "LAS",
-        "CNC"
+        "CNC",
+        [
+          "ASM",
+          "MEC",
+          "CIR"
+        ]
       ],
       "type": [
         "array",
