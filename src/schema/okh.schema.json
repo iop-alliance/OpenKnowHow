@@ -576,7 +576,7 @@
       "autocomplete": true
     },
     "mass": {
-      "description": "Mass of the part in g.",
+      "description": "Mass of the part in g (grams).",
       "type": "number"
     },
     "name": {
@@ -584,7 +584,7 @@
       "type": "string"
     },
     "outerDimensions": {
-      "description": "Outer dimensions of the OSH module or part in mm, which completely encompass the product.",
+      "description": "Outer dimensions of the OSH module or part in mm (millimeters), which completely encompass the product.",
       "type": "object",
       "required": [
         "width",
