@@ -654,13 +654,17 @@
         "pcb/main.kicad_pcb",
         "cad/part-x/model.fcstd"
       ],
-      "type": [
-        "array",
-        "string"
-      ],
-      "items": {
-        "$ref": "#/$defs/relPathOrWebUrl"
-      }
+      "anyOf": [
+        {
+          "$ref": "#/$defs/relPathOrWebUrl"
+        },
+        {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/relPathOrWebUrl"
+          }
+        }
+      ]
     },
     "spdxLicenseExpression": {
       "description": "A valid SPDX license expression",
