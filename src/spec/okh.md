@@ -47,6 +47,31 @@ https://community.internetofproduction.org/t/proposal-loshv1-as-the-base-for-mer
 to the maintainers of the Open Know-How Specification
 as a new major version of the specification.
 
+## Terms used in this standard
+
+### TODO
+
+Something like a screw or resistor,
+which does not fit into either of the two following categories.
+
+### Part
+
+A single piece of hardware that first needs to be created,
+e.g. a single, 3D-printed piece of plastic,
+or a laser-cut play-wood plate.
+
+### Module
+
+A thing that is made up of Part's.
+A piece of hardware that might either be a finnished machine,
+or 
+and might be part of different designs.
+
+### Component
+
+A super-category of things, including both Parts and Modules (and probably TODO?).
+Everything that might be an entry in a BoM falls under this category of things.
+
 **NOTE:** When we talk about "OSH module" we mean the content of a repository.
 Open source hardware (OSH) aims to be modular.
 Hence it makes a lot of sense to publish each module in an individual repository
