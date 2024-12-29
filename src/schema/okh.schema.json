@@ -549,13 +549,17 @@
         "3D-parts/assembly.stp",
         "public/user-manual.pdf"
       ],
-      "type": [
-        "array",
-        "string"
-      ],
-      "items": {
-        "$ref": "#/$defs/relPathOrWebUrl"
-      }
+      "anyOf": [
+        {
+          "$ref": "#/$defs/relPathOrWebUrl"
+        },
+        {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/relPathOrWebUrl"
+          }
+        }
+      ]
     },
     "image": {
       "description": "relative or absolute path to one (!) representative image of the OSH module",
