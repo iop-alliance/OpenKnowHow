@@ -230,6 +230,15 @@
         },
         {
           "type": "string"
+        },
+        {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/agent"
+          }
+        },
+        {
+          "$ref": "#/$defs/agent"
         }
       ]
     },
@@ -279,6 +288,15 @@
           "type": "array",
           "items": {
             "type": "string"
+          }
+        },
+        {
+          "$ref": "#/$defs/organization"
+        },
+        {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/organization"
           }
         }
       ]
@@ -471,6 +489,17 @@
     }
   },
   "$defs": {
+    "agent": {
+      "description": "A person or organization",
+      "anyOf": [
+        {
+          "$ref": "#/$defs/person"
+        },
+        {
+          "$ref": "#/$defs/organization"
+        }
+      ]
+    },
     "auxiliary": {
       "description": "relative or absolute path to files that are neither source files nor their exports, but still useful in the repository (e.g. KiCAD library files);\\\nmultiple inputs possible (with one entry each)",
       "examples": [
@@ -605,6 +634,19 @@
       "description": "working title of the OSH Module or Part",
       "type": "string"
     },
+    "organization": {
+      "description": "An organization such as a school, NGO, corporation, club, etc.",
+      "properties": {
+        "name": {
+          "description": "Name of the organization",
+          "type": "string"
+        },
+        "url": {
+          "description": "Home-page of the organization",
+          "$ref": "#/$defs/webUrl"
+        }
+      }
+    },
     "outerDimensions": {
       "description": "Outer dimensions of the OSH module or part in mm (millimeters), which completely encompass the product.",
       "type": "object",
@@ -622,6 +664,19 @@
         },
         "width": {
           "type": "float"
+        }
+      }
+    },
+    "person": {
+      "description": "A person (alive, dead, undead, or fictional)",
+      "properties": {
+        "email": {
+          "description": "E-Mail of the person",
+          "$ref": "#/$defs/email"
+        },
+        "name": {
+          "description": "Full name of the person",
+          "type": "string"
         }
       }
     },
