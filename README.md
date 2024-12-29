@@ -7,6 +7,9 @@ SPDX-FileCopyrightText: 2021 Martin Häuer <martin.haeuer@ose-germany.de>
 SPDX-License-Identifier: CC0-1.0
 -->
 
+**[Open Source Hardware][OSH] technical documentation standard,
+based on [Linked Open Data][LOD].**
+
 [![DOI](
     https://zenodo.org/badge/259683880.svg)](
     https://zenodo.org/badge/latestdoi/259683880)
@@ -20,9 +23,6 @@ SPDX-License-Identifier: CC0-1.0
 [![In cooperation with Open Source Ecology Germany](
     https://raw.githubusercontent.com/osegermany/tiny-files/master/res/media/img/badge-oseg.svg)](
     https://www.ose-germany.de/die-bewegung/)
-
-**_Open Source Hardware technical documentation
-in an open graph database._**
 
 - <https://losh.opennext.eu> -
   browse the collected data
@@ -413,11 +413,13 @@ boils down to the history of invention of better tools." \
 [INTERFACER]: https://www.interfacerproject.eu/
 [IoPA]: https://www.internetofproduction.org/
 [JSON-Schema]: https://json-schema.org/
+[LOD]: https://de.wikipedia.org/wiki/Linked_Open_Data
 [Markdown]: https://en.wikipedia.org/wiki/Markdown
 [NGI Search]: https://www.ngisearch.eu/
 [OKHv1]: https://standards.internetofproduction.org/pub/okh/release/1
 [OPEN!NEXT]: https://opennext.eu/
 [OSEG]: https://www.ose-germany.de/
+[OSH]: https://en.wikipedia.org/wiki/Open-source_hardware
 [OSHWA]: https://www.oshwa.org/
 [RDF-DB tester]: https://github.com/OPEN-NEXT/LOSH-RDF-DB-tester/
 [SHACL]: https://en.wikipedia.org/wiki/SHACL
