@@ -159,14 +159,6 @@ okh:DataSourcingProcedure
   vs:term_status "unstable" ;
   .
 
-okh:Reference
-  a owl:Class ;
-  rdfs:label "unambiguous reference"@en ;
-  vs:term_status "deprecated" ;
-  owl:deprecated "true"^^xsd:boolean ;
-  cc:deprecatedOn "2024-12-15"^^xsd:date ;
-  .
-
 okh:Publication
   a owl:Class ;
   a skos:Concept ;
@@ -198,17 +190,6 @@ okh:HttpUrl
   rdfs:subClassOf schema:URL ;
   sh:pattern "^https?:.*" ;
   vs:term_status "unstable" ;
-  .
-
-okh:FileUrl
-  a owl:Class ;
-  rdfs:label "permanent URL to file"@en ;
-  rdfs:subClassOf okh:ComponentReference ;
-  rdfs:subClassOf schema:URL ;
-  vs:term_status "deprecated" ;
-  owl:deprecated "true"^^xsd:boolean ;
-  cc:deprecatedOn "2023-07-11"^^xsd:date ;
-  schema:supersededBy okh:File ;
   .
 
 okh:File
@@ -259,34 +240,6 @@ can be packed into storage space of known dimensions.'''@en ;
   vs:term_status "unstable" ;
   okhmeta:hasMetaTag okhmeta:PhysicalTag ;
   okhmeta:hasMetaTag okhmeta:TransportationTag ;
-  .
-
-okh:Mass
-  a owl:Class ;
-  a skos:Concept ;
-  rdfs:label "mass"@en ;
-  rdfs:comment "… of a module or a part"@en ;
-  vs:term_status "deprecated" ;
-  owl:deprecated "true"^^xsd:boolean ;
-  cc:deprecatedOn "2024-06-16"^^xsd:date ;
-  okhmeta:hasMetaTag okhmeta:PhysicalTag ;
-  okhmeta:hasMetaTag okhmeta:TransportationTag ;
-  .
-
-okh:ComponentReference
-  a owl:Class ;
-  a skos:Concept ;
-  rdfs:subClassOf okh:Reference ;
-  rdfs:label "component reference"@en ;
-  rdfs:comment '''others shall be able to identify/procure this component only by the given reference(s),
-MOSH → URL to corresponding release
-POSH → URL to containing folder
-STD  → standard designation (preferably naming the _latest_ standard)
-BUY  → unambiguous reference'''@en ;
-  vs:term_status "deprecated" ;
-  owl:deprecated "true"^^xsd:boolean ;
-  cc:deprecatedOn "2023-08-19"^^xsd:date ;
-  okhmeta:hasMetaTag okhmeta:PartsTag ;
   .
 
 okh:TimeStamp # TODO Check
@@ -623,38 +576,6 @@ just in a different format."""@en ;
   okhmeta:hasMetaTag okhmeta:LegalTag ;
   .
 
-okh:spdxLicense
-  a owl:ObjectProperty ;
-  a skos:Concept ;
-  rdfs:label "SPDX license identifier"@en ;
-  rdfs:comment "view complete list under https://spdx.org/licenses/"@en ;
-  # rdfs:subPropertyOf doap:license ;
-  skos:closeMatch schema:license ;
-  vs:term_status "deprecated" ;
-  owl:deprecated "true"^^xsd:boolean ;
-  cc:deprecatedOn "2024-06-25"^^xsd:date ;
-  schema:supersededBy okh:license ;
-  schema:domainIncludes okh:Module ;
-  schema:rangeIncludes spdx:ListedLicense ; # aka SPDX license identifier for a single, atomar license
-  okhmeta:hasMetaTag okhmeta:LegalTag ;
-  .
-
-okh:alternativeLicense
-  a owl:ObjectProperty ;
-  a skos:Concept ;
-  rdfs:label "non-SPDX license"@en ;
-  rdfs:comment "URL to legal code of a license without SPDX identifier, hence OSHWA-compliance is to be checked manually"@en ;
-  skos:closeMatch schema:license ;
-  vs:term_status "deprecated" ;
-  owl:deprecated "true"^^xsd:boolean ;
-  cc:deprecatedOn "2024-06-25"^^xsd:date ;
-  schema:supersededBy okh:license ;
-  schema:domainIncludes okh:Module ;
-  schema:rangeIncludes okh:File ;
-  owl:cardinality 1 ;
-  okhmeta:hasMetaTag okhmeta:LegalTag ;
-  .
-
 # okh:contributorCount
 #   a owl:DatatypeProperty ;
 #   a skos:Concept ;
@@ -949,27 +870,6 @@ okh:hasMass
   okhmeta:hasMetaTag okhmeta:PhysicalTag ;
   .
 
-okh:openSCAD
-  a owl:DatatypeProperty ;
-  rdfs:label "OpenSCAD code defining a shape"@en ;
-  vs:term_status "deprecated" ;
-  owl:deprecated "true"^^xsd:boolean ;
-  cc:deprecatedOn "2024-06-16"^^xsd:date ;
-  schema:supersededBy okh:width, okh:depth, okh:height;
-  schema:domainIncludes okh:Dimensions ;
-  schema:rangeIncludes xsd:string ;
-  .
-
-okh:openScad
-  a owl:DatatypeProperty ;
-  rdfs:label "OpenSCAD volume"@en ;
-  vs:term_status "deprecated" ;
-  owl:deprecated "true"^^xsd:boolean ;
-  cc:deprecatedOn "2023-07-06"^^xsd:date ;
-  schema:supersededBy okh:openSCAD ;
-  owl:sameAs okh:openSCAD ;
-  .
-
 okh:width
   a owl:DatatypeProperty ;
   a skos:Concept ;
@@ -1013,30 +913,6 @@ okh:height
   owl:cardinality 1 ;
   sh:minExclusive 0 ;
   okhmeta:hasMetaTag okhmeta:PhysicalTag ;
-  .
-
-okh:unit
-  a owl:DatatypeProperty ;
-  rdfs:label "unit"@en ;
-  rdfs:comment "mm, cm, m, g, kg"@en ;
-  rdfs:comment "the unit of measurement associated with a property (additionally required okh:value)"@en ;
-  vs:term_status "deprecated" ;
-  owl:deprecated "true"^^xsd:boolean ;
-  cc:deprecatedOn "2024-06-16"^^xsd:date ;
-  schema:domainIncludes
-    okh:Mass,
-    okh:Dimensions ;
-  .
-
-okh:value
-  a owl:DatatypeProperty ;
-  rdfs:label "value"@en ;
-  rdfs:comment "the numerical value associated with a property (additionally required okh:unit)"@en ;
-  vs:term_status "deprecated" ;
-  owl:deprecated "true"^^xsd:boolean ;
-  cc:deprecatedOn "2024-06-16"^^xsd:date ;
-  schema:supersededBy okh:hasMass;
-  schema:domainIncludes okh:Mass ;
   .
 
 okh:smallestToleranceClass
@@ -1102,27 +978,6 @@ okh:url # TODO Use with okh:HttpUrl as range, and remove "rdfs:subPropertyOf sch
   vs:term_status "unstable" ;
   schema:domainIncludes okh:File ;
   okhmeta:hasMetaTag okhmeta:DataTag ;
-  .
-
-okh:fileUrl
-  a owl:ObjectProperty ;
-  rdfs:label "file URL"@en ;
-  rdfs:subPropertyOf schema:url ;
-  schema:domainIncludes okh:File ;
-  vs:term_status "deprecated" ;
-  owl:deprecated "true"^^xsd:boolean ;
-  cc:deprecatedOn "2023-07-11"^^xsd:date ;
-  schema:supersededBy okh:url ;
-  .
-
-okh:permaURL
-  a owl:ObjectProperty ;
-  rdfs:label "Permanent file URL"@en ;
-  rdfs:comment "It was not 'permanent', but rather 'frozen in time', and it was also used in the Krawler, but badly. Things simply should not be done that way, but rather with a separate manifest file, where either everything is frozen, or nothing is, and the manifest file (internally) itself being marked accordingly."@en ;
-  schema:domainIncludes okh:File ;
-  vs:term_status "deprecated" ;
-  owl:deprecated "true"^^xsd:boolean ;
-  cc:deprecatedOn "2023-07-11"^^xsd:date ;
   .
 
 okh:fileFormat
@@ -1261,15 +1116,6 @@ okh:tsdc
   okhmeta:hasMetaTag okhmeta:ExtendedInfoTag ;
   .
 
-okh:relatedTsdc
-  a owl:ObjectProperty ;
-  vs:term_status "deprecated" ;
-  owl:deprecated "true"^^xsd:boolean ;
-  cc:deprecatedOn "2023-07-10"^^xsd:date ;
-  schema:supersededBy okh:tsdc ;
-  owl:sameAs okh:tsdc ;
-  .
-
 okh:hasSoftware
   a owl:ObjectProperty ;
   a skos:Concept ;
@@ -1291,15 +1137,3 @@ okh:release
   schema:rangeIncludes okh:HttpUrl ;
   .
 
-okh:installationGuide
-  a owl:DatatypeProperty ;
-  a skos:Concept ;
-  rdfs:label "installation guide"@en ;
-  rdfs:comment "Instructions for how to install the subject-software"@en ;
-  vaem:todo "TODO We should probably remove this, as this should be part of the software packages README, or be handled by some software-specific ontology instead"@en ;
-#  rdfs:subPropertyOf schema:url ;
-  vs:term_status "deprecated" ;
-  owl:deprecated "true"^^xsd:boolean ;
-  cc:deprecatedOn "2024-12-15"^^xsd:date ;
-  schema:domainIncludes okh:Software ;
-  .
