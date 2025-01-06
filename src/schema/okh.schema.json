@@ -697,7 +697,8 @@
     },
     "mass": {
       "description": "Mass of the part in g (grams).",
-      "type": "number"
+      "type": "number",
+      "exclusiveMinimum": 0
     },
     "name": {
       "description": "working title of the OSH Module or Part",
@@ -730,13 +731,16 @@
       ],
       "properties": {
         "depth": {
-          "type": "number"
+          "type": "number",
+          "exclusiveMinimum": 0
         },
         "height": {
-          "type": "number"
+          "type": "number",
+          "exclusiveMinimum": 0
         },
         "width": {
-          "type": "number"
+          "type": "number",
+          "exclusiveMinimum": 0
         }
       }
     },
