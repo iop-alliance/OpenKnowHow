@@ -730,13 +730,13 @@
       ],
       "properties": {
         "depth": {
-          "type": "float"
+          "type": "number"
         },
         "height": {
-          "type": "float"
+          "type": "number"
         },
         "width": {
-          "type": "float"
+          "type": "number"
         }
       }
     },
