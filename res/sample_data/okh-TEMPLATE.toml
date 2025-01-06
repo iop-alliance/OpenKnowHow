@@ -11,7 +11,6 @@
 okhv = "OKH-LOSHv1.0" # NOT to be changed
 name = "your-awesome-OSH"
 repo = "https://gitlab.com/YOU/your-awesome-project/"
-version = "1.0.0"
 # An SPDX license _expression_
 # (see: <https://spdx.github.io/spdx-spec/v2-draft/SPDX-license-expressions/>),
 # usually a single SPDX license ID
@@ -38,6 +37,7 @@ license = "AGPL-3.0-or-later"
 licensor = "Joel Doe <joel.doe@example.com>"
 function = "This thing can clean, fly to the moon, keep you warm when its freezing, transplant an organ on its own, ..."
 documentation-language = "en-GB"
+version = "1.0.0"
 organization = "xxx"
 release = "https://gitlab.com/YOU/your-awesome-project/-/releases/1.0.0"
 readme = "README.md"
