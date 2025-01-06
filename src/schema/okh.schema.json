@@ -114,7 +114,7 @@
     },
     "documentation-language": {
       "description": "IETF BCP 47 language tag for the language in which the documentation is written",
-      "oneOf": [
+      "anyOf": [
         {
           "type": "array",
           "items": {
@@ -245,7 +245,7 @@
           }
         ]
       ],
-      "oneOf": [
+      "anyOf": [
         {
           "type": "array",
           "items": {
@@ -322,7 +322,7 @@
           }
         ]
       ],
-      "oneOf": [
+      "anyOf": [
         {
           "type": "string"
         },
