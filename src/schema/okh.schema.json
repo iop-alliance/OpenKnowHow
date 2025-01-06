@@ -132,7 +132,7 @@
       "oneOf": [
         {
           "title": "Documentation process commenced",
-          "description": "Published information under free open source licence",
+          "description": "Published information under free open source license",
           "const": "ODRL-1"
         },
         {
@@ -152,7 +152,7 @@
         },
         {
           "title": "Full documentation for product qualification",
-          "description": "Product qualification documents published enabling decentralised commercial distribution",
+          "description": "Product qualification documents published enabling decentralized commercial distribution",
           "const": "ODRL-4"
         }
       ]
@@ -490,7 +490,7 @@
         },
         {
           "title": "Manufacturing development",
-          "description": "Fairly reliable processes identified and characterised",
+          "description": "Fairly reliable processes identified and characterized",
           "const": "OTRL-5"
         },
         {
