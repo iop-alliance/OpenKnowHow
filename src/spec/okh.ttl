@@ -507,9 +507,9 @@ for example "LicenseRef-MyVeryOwnLicense-1.3";
 please use the "SPDX identifier" from
 <https://scancode-licensedb.aboutcode.org/>,
 if your license is there but not SPDX registered.
-Use "LicenseRef-NOASSERTION" if no license is specified,
+Use "LicenseRef-NOASSERTION" or
 "LicenseRef-NONE" if no license is specified
-(which usually means: all rights reserved),
+(which usually means: "All Rights Reserved"),
 or "LicenseRef-AllRightsReserved" or similar
 for projects clearly indicating that they are proprietary."""@en ;
   skos:editorialNote """

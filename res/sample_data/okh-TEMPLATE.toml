@@ -1,4 +1,5 @@
 # SPDX-FileCopyrightText: 2021 Martin Häuer <martin.haeuer@ose-germany.de>
+# SPDX-FileCopyrightText: 2021 - 2024 Robin Vobruba <hoijui.quaero@gmail.com>
 #
 # SPDX-License-Identifier: CC0-1.0
 
@@ -11,7 +12,28 @@ okhv = "OKH-LOSHv1.0" # NOT to be changed
 name = "your-awesome-OSH"
 repo = "https://gitlab.com/YOU/your-awesome-project/"
 version = "1.0.0"
-# This needs to be a valid SPDX [License Expression](https://spdx.github.io/spdx-spec/v2-draft/SPDX-license-expressions/). Usually that is a single SPDX license ID, foudn in the "Identifier" column in this table: https://spdx.org/licenses/
+# An SPDX license _expression_
+# (see: <https://spdx.github.io/spdx-spec/v2-draft/SPDX-license-expressions/>),
+# usually a single SPDX license ID
+# (see complete list: <https://spdx.org/licenses/>),
+# or a combination of those,
+# combined with AND or OR.
+# If your license is not SPDX registered (yet),
+# use a custom string prefixed with 'LicenseRef-',
+# for example 'LicenseRef-MyVeryOwnLicense-1.3';
+# please use the 'SPDX identifier' from
+# <https://scancode-licensedb.aboutcode.org/>,
+# if your license is there but not SPDX registered.
+# Use 'LicenseRef-NOASSERTION'
+# or 'LicenseRef-NONE' if no license is specified
+# (which usually means: "All Rights Reserved"),
+# or 'LicenseRef-AllRightsReserved' or similar,
+# for projects clearly indicating that they are proprietary.
+#
+# NOTE: When no SPDX key is found by the crawler,
+# metadata might not be indexed on the server
+# until the alternative license has been white-listed by maintainers.
+# At OKH, we need to make sure that all results are actually open source.
 license = "AGPL-3.0-or-later"
 licensor = "Joel Doe <joel.doe@example.com>"
 function = "This thing can clean, fly to the moon, keep you warm when its freezing, transplant an organ on its own, ..."
