@@ -53,7 +53,10 @@ documentation-readiness-level = "ODRL-3"
 attestation = "https://certification.oshwa.org/cl000001.html"
 publication = "https://doi.org/10.1371/journal.pone.0193087"
 standard-compliance = "DIN EN 1335"
-# A Cooperative Patent Classification-ID, describing this projects hardware; You may want to search for it here: <https://worldwide.espacenet.com/classification>
+# A Cooperative Patent Classification-ID,
+# describing this projects hardware;
+# You may want to search for it here:
+# <https://worldwide.espacenet.com/classification>
 cpc-patent-class = "D03D 35/00"
 tsdc = "MEC"
 bom = "BoM.csv"
