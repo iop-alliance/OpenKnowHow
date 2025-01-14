@@ -186,7 +186,6 @@ okh:HttpUrl
   rdfs:subClassOf xsd:anyURI ;
   # rdfs:subClassOf schema:URL ;
   rdfs:label "website URL"@en ;
-  rdfs:subClassOf okh:Reference ;
   rdfs:subClassOf schema:URL ;
   sh:pattern "^https?:.*" ;
   vs:term_status "unstable" ;
