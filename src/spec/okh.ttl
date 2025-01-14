@@ -214,7 +214,7 @@ okh:ManifestFile # TODO MAYBE! Remove this and use okh:File directly
   okhmeta:hasMetaTag okhmeta:DataGatheringTag ;
   .
 
-okh:Image # TODO MAYBE! Remove this and use okh:File directly
+okh:Image
   a owl:Class ;
   a skos:Concept ;
   rdfs:label "image"@en ;
