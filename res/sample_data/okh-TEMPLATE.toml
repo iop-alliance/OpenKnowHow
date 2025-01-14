@@ -67,6 +67,9 @@ mass= 50330.0
 
 [outer-dimensions]
 # Any dimension value always has to be in [mm] (millimeters)
+# NOTE We need all three of these values.
+#      If you don't have them, take a rough estimate,
+#      or remove or comment out the whole `[outer-dimensions]` section.
 width = 400
 depth = 350.8
 height = 150
