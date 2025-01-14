@@ -443,6 +443,7 @@ okh:licensor
   vs:term_status "unstable" ;
   schema:rangeIncludes
     dcterms:Agent ,
+    foaf:Organization ,
     foaf:Person ,
     schema:Organization ,
     schema:Person ;
