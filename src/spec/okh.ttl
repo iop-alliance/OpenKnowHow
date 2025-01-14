@@ -272,6 +272,31 @@ okh:okhv
   rdfs:subPropertyOf schema:version ;
   vs:term_status "unstable" ;
   schema:domainIncludes okh:Dataset ;
+  .
+
+okh:okhvOriginal
+  a owl:DatatypeProperty ;
+  rdfs:label "original OKH version"@en ;
+  rdfs:comment """The version of OKH specification
+the original OSH projects metadata follows;
+whats actually stored locally
+might have been converted to a later version."""@en ;
+  rdfs:subPropertyOf okh:okhv ;
+  rdfs:seeAlso okh:okhvStored ;
+  vs:term_status "unstable" ;
+  owl:cardinality 1 ;
+  .
+
+okh:okhvPresent
+  a owl:DatatypeProperty ;
+  rdfs:label "present OKH version"@en ;
+  rdfs:comment """The version of OKH specification
+the locally present OSH project metadata follows;
+what was originally specified
+might have been an earlier version."""@en ;
+  rdfs:subPropertyOf okh:okhv ;
+  rdfs:seeAlso okh:okhvOrig ;
+  vs:term_status "unstable" ;
   owl:cardinality 1 ;
   .
 
