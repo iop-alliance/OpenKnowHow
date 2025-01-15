@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
    version="1.2"
-   width="210mm"
-   height="297mm"
-   viewBox="0 0 21000 29700"
+   width="190.255mm"
+   height="275.53192mm"
+   viewBox="0 0 19025.5 27553.192"
    preserveAspectRatio="xMidYMid"
    fill-rule="evenodd"
    stroke-width="28.222"
@@ -12,11 +12,17 @@
    id="svg1185"
    sodipodi:docname="dataflow-principle.svg"
    inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   inkscape:export-filename="dataflow-principle_ex.svg"
+   inkscape:export-xdpi="300.23"
+   inkscape:export-ydpi="300.23"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns:ooo="http://xml.openoffice.org/svg/export"><sodipodi:namedview
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"><title
+   id="title2382">OKH Data-Flow Principle</title><sodipodi:namedview
    id="namedview1187"
    pagecolor="#ffffff"
    bordercolor="#666666"
@@ -27,9 +33,9 @@
    inkscape:deskcolor="#d1d1d1"
    inkscape:document-units="mm"
    showgrid="false"
-   inkscape:zoom="0.84096521"
-   inkscape:cx="576.12372"
-   inkscape:cy="420.35033"
+   inkscape:zoom="0.5946522"
+   inkscape:cx="-27.747312"
+   inkscape:cy="575.96692"
    inkscape:window-width="1918"
    inkscape:window-height="1078"
    inkscape:window-x="0"
@@ -39,1553 +45,200 @@
  <defs
    class="ClipPathGroup"
    id="defs8"><marker
-   style="overflow:visible"
-   id="Arrow2"
-   refX="0"
-   refY="0"
-   orient="auto-start-reverse"
-   inkscape:stockid="Arrow2"
-   markerWidth="8.8247509"
-   markerHeight="6.4180002"
-   viewBox="0 0 7.7 5.6"
-   inkscape:isstock="true"
-   inkscape:collect="always"
-   preserveAspectRatio="xMidYMid"
-   markerUnits="strokeWidth"><path
-     transform="scale(0.7)"
-     d="M -2,-4 9,0 -2,4 c 2,-2.33 2,-5.66 0,-8 z"
-     style="fill:context-stroke;fill-rule:evenodd;stroke:none"
-     id="arrow2L" /></marker>
-  
-  <clipPath
-   id="presentation_clip_path_shrink"
-   clipPathUnits="userSpaceOnUse">
-   <rect
-   x="21"
-   y="29"
-   width="20958"
-   height="29641"
-   id="rect5" />
-  </clipPath>
- 
-  
- 
-   
-  
-    
-   
-     
-    
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-     <clipPath
-   clipPathUnits="userSpaceOnUse"
-   id="clipPath4606"><g
-     id="g4612"
-     style="stroke-width:28.222"><g
-       id="g4610"
-       style="stroke-width:28.222"><rect
-         x="0"
-         y="0"
-         width="21000"
-         height="29700"
-         id="rect4608"
-         style="stroke-width:28.222" /></g></g></clipPath><clipPath
-   clipPathUnits="userSpaceOnUse"
-   id="clipPath4614"><g
-     id="g4620"
-     style="stroke-width:28.222"><g
-       id="g4618"
-       style="stroke-width:28.222"><rect
-         x="0"
-         y="0"
-         width="21000"
-         height="29700"
-         id="rect4616"
-         style="stroke-width:28.222" /></g></g></clipPath><clipPath
-   clipPathUnits="userSpaceOnUse"
-   id="clipPath4622"><g
-     id="g4628"
-     style="stroke-width:28.222"><g
-       id="g4626"
-       style="stroke-width:28.222"><rect
-         x="0"
-         y="0"
-         width="21000"
-         height="29700"
-         id="rect4624"
-         style="stroke-width:28.222" /></g></g></clipPath><clipPath
-   clipPathUnits="userSpaceOnUse"
-   id="clipPath4718"><g
-     id="g4724"
-     style="stroke-width:28.222"><g
-       id="g4722"
-       style="stroke-width:28.222"><rect
-         x="0"
-         y="0"
-         width="21000"
-         height="29700"
-         id="rect4720"
-         style="stroke-width:28.222" /></g></g></clipPath><clipPath
-   clipPathUnits="userSpaceOnUse"
-   id="clipPath4726"><g
-     id="g4732"
-     style="stroke-width:28.222"><g
-       id="g4730"
-       style="stroke-width:28.222"><rect
-         x="0"
-         y="0"
-         width="21000"
-         height="29700"
-         id="rect4728"
-         style="stroke-width:28.222" /></g></g></clipPath><clipPath
-   clipPathUnits="userSpaceOnUse"
-   id="clipPath5014"><g
-     id="g5020"
-     style="stroke-width:28.222"><g
-       id="g5018"
-       style="stroke-width:28.222"><rect
-         x="0"
-         y="0"
-         width="21000"
-         height="29700"
-         id="rect5016"
-         style="stroke-width:28.222" /></g></g></clipPath>
-       
-      
-        
-        
-       
-       
-      
-        
-        <defs
-   id="defs1129">
-         <clipPath
-   id="clip_path_10"
-   clipPathUnits="userSpaceOnUse">
-          <path
-   d="m 8383,20618 h 1755 v 1902 H 8383 Z"
-   id="path1126" />
-         </clipPath>
-        </defs>
-        
-       <clipPath
-   clipPathUnits="userSpaceOnUse"
-   id="clipPath5192"><g
-     id="g5202"
-     style="stroke-width:28.222"><g
-       id="g5200"
+     style="overflow:visible"
+     id="Arrow2"
+     refX="0"
+     refY="0"
+     orient="auto-start-reverse"
+     inkscape:stockid="Arrow2"
+     markerWidth="8.8247509"
+     markerHeight="6.4180002"
+     viewBox="0 0 7.7 5.6"
+     inkscape:isstock="true"
+     inkscape:collect="always"
+     preserveAspectRatio="xMidYMid"
+     markerUnits="strokeWidth"><path
+       transform="scale(0.7)"
+       d="M -2,-4 9,0 -2,4 c 2,-2.33 2,-5.66 0,-8 z"
+       style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+       id="arrow2L" /></marker><clipPath
+     clipPathUnits="userSpaceOnUse"
+     id="clipPath7477"><g
+       id="g7487"
        style="stroke-width:28.222"><g
-         id="g5198"
+         id="g7485"
          style="stroke-width:28.222"><g
-           id="g5196"
-           style="stroke-width:28.222"><rect
-             x="0"
-             y="0"
-             width="21000"
-             height="29700"
-             id="rect5194"
-             style="stroke-width:28.222" /></g></g></g></g></clipPath>
-       
-      <clipPath
-   clipPathUnits="userSpaceOnUse"
-   id="clipPath5216"><g
-     id="g5224"
-     style="stroke-width:28.222"><g
-       id="g5222"
-       style="stroke-width:28.222"><g
-         id="g5220"
-         style="stroke-width:28.222"><rect
-           x="0"
-           y="0"
-           width="21000"
-           height="29700"
-           id="rect5218"
-           style="stroke-width:28.222" /></g></g></g></clipPath>
-       
-      
-        
-        
-        <defs
-   id="defs1089">
-         <clipPath
-   id="clip_path_9"
-   clipPathUnits="userSpaceOnUse">
-          <path
-   d="m 9866,18650 h 1269 V 17306 H 9866 Z"
-   id="path1086" />
-         </clipPath>
-        </defs>
-        
-       <clipPath
-   clipPathUnits="userSpaceOnUse"
-   id="clipPath5270"><g
-     id="g5280"
-     style="stroke-width:28.222"><g
-       id="g5278"
-       style="stroke-width:28.222"><g
-         id="g5276"
-         style="stroke-width:28.222"><g
-           id="g5274"
-           style="stroke-width:28.222"><rect
-             x="0"
-             y="0"
-             width="21000"
-             height="29700"
-             id="rect5272"
-             style="stroke-width:28.222" /></g></g></g></g></clipPath>
-       
-      
-       
-      <clipPath
-   clipPathUnits="userSpaceOnUse"
-   id="clipPath5324"><g
-     id="g5332"
-     style="stroke-width:28.222"><g
-       id="g5330"
-       style="stroke-width:28.222"><g
-         id="g5328"
-         style="stroke-width:28.222"><rect
-           x="0"
-           y="0"
-           width="21000"
-           height="29700"
-           id="rect5326"
-           style="stroke-width:28.222" /></g></g></g></clipPath>
-       
-      
-       
-      <clipPath
-   clipPathUnits="userSpaceOnUse"
-   id="clipPath5367"><g
-     id="g5375"
-     style="stroke-width:28.222"><g
-       id="g5373"
-       style="stroke-width:28.222"><g
-         id="g5371"
-         style="stroke-width:28.222"><rect
-           x="0"
-           y="0"
-           width="21000"
-           height="29700"
-           id="rect5369"
-           style="stroke-width:28.222" /></g></g></g></clipPath>
-       
-      <clipPath
-   clipPathUnits="userSpaceOnUse"
-   id="clipPath5389"><g
-     id="g5397"
-     style="stroke-width:28.222"><g
-       id="g5395"
-       style="stroke-width:28.222"><g
-         id="g5393"
-         style="stroke-width:28.222"><rect
-           x="0"
-           y="0"
-           width="21000"
-           height="29700"
-           id="rect5391"
-           style="stroke-width:28.222" /></g></g></g></clipPath>
-       
-      <clipPath
-   clipPathUnits="userSpaceOnUse"
-   id="clipPath5411"><g
-     id="g5419"
-     style="stroke-width:28.222"><g
-       id="g5417"
-       style="stroke-width:28.222"><g
-         id="g5415"
-         style="stroke-width:28.222"><rect
-           x="0"
-           y="0"
-           width="21000"
-           height="29700"
-           id="rect5413"
-           style="stroke-width:28.222" /></g></g></g></clipPath>
-       
-      
-       
-      
-        
-        
-       <clipPath
-   clipPathUnits="userSpaceOnUse"
-   id="clipPath5473"><g
-     id="g5483"
-     style="stroke-width:28.222"><g
-       id="g5481"
-       style="stroke-width:28.222"><g
-         id="g5479"
-         style="stroke-width:28.222"><g
-           id="g5477"
-           style="stroke-width:28.222"><rect
-             x="0"
-             y="0"
-             width="21000"
-             height="29700"
-             id="rect5475"
-             style="stroke-width:28.222" /></g></g></g></g></clipPath>
-        
-        
-       <clipPath
-   clipPathUnits="userSpaceOnUse"
-   id="clipPath5496"><g
-     id="g5506"
-     style="stroke-width:28.222"><g
-       id="g5504"
-       style="stroke-width:28.222"><g
-         id="g5502"
-         style="stroke-width:28.222"><g
-           id="g5500"
-           style="stroke-width:28.222"><rect
-             x="0"
-             y="0"
-             width="21000"
-             height="29700"
-             id="rect5498"
-             style="stroke-width:28.222" /></g></g></g></g></clipPath>
-        
-       
-         
-         
-        
-         
-         <defs
-   id="defs982">
-          
-         </defs>
-         
-        
-         
-        
-          
-          
-         
-         
-        
-          
-          
-         
-         
-        
-          
-          
-          
-          
-         
-          
-         <clipPath
-   clipPathUnits="userSpaceOnUse"
-   id="clipPath5565"><g
-     id="g5569"
-     style="stroke-width:28.222"><path
-       d="m 4059,24773 h 1629 v 2816 H 4059 Z"
-       id="path5567"
-       style="stroke-width:28.222" /></g></clipPath>
-        
-           
-          
-       
-        
-       
-         
-         <defs
-   id="defs926">
-          
-         </defs>
-         
-        
-          
-         <clipPath
-   clipPathUnits="userSpaceOnUse"
-   id="clipPath5588"><g
-     id="g5592"
-     style="stroke-width:28.222"><path
-       d="m 4047,13735 h 1507 v 2816 H 4047 Z"
-       id="path5590"
-       style="stroke-width:28.222" /></g></clipPath>
-        
-       
-         
-         <defs
-   id="defs912">
-          
-         </defs>
-         
-        
-          
-         <clipPath
-   clipPathUnits="userSpaceOnUse"
-   id="clipPath5610"><g
-     id="g5614"
-     style="stroke-width:28.222"><path
-       d="m 3846,12795 h 1908 v 755 H 3846 Z"
-       id="path5612"
-       style="stroke-width:28.222" /></g></clipPath>
-        
-       
-         
-         
-        
-       
-      
-        
-        
-       <clipPath
-   clipPathUnits="userSpaceOnUse"
-   id="clipPath5656"><g
-     id="g5666"
-     style="stroke-width:28.222"><g
-       id="g5664"
-       style="stroke-width:28.222"><g
-         id="g5662"
-         style="stroke-width:28.222"><g
-           id="g5660"
-           style="stroke-width:28.222"><rect
-             x="0"
-             y="0"
-             width="21000"
-             height="29700"
-             id="rect5658"
-             style="stroke-width:28.222" /></g></g></g></g></clipPath>
-       
-      
-        
-        
-       <clipPath
-   clipPathUnits="userSpaceOnUse"
-   id="clipPath5701"><g
-     id="g5711"
-     style="stroke-width:28.222"><g
-       id="g5709"
-       style="stroke-width:28.222"><g
-         id="g5707"
-         style="stroke-width:28.222"><g
-           id="g5705"
-           style="stroke-width:28.222"><rect
-             x="0"
-             y="0"
-             width="21000"
-             height="29700"
-             id="rect5703"
-             style="stroke-width:28.222" /></g></g></g></g></clipPath><clipPath
-   clipPathUnits="userSpaceOnUse"
-   id="clipPath5713"><g
-     id="g5723"
-     style="stroke-width:28.222"><g
-       id="g5721"
-       style="stroke-width:28.222"><g
-         id="g5719"
-         style="stroke-width:28.222"><g
-           id="g5717"
-           style="stroke-width:28.222"><rect
-             x="0"
-             y="0"
-             width="21000"
-             height="29700"
-             id="rect5715"
-             style="stroke-width:28.222" /></g></g></g></g></clipPath>
-       
-      <clipPath
-   clipPathUnits="userSpaceOnUse"
-   id="clipPath5737"><g
-     id="g5745"
-     style="stroke-width:28.222"><g
-       id="g5743"
-       style="stroke-width:28.222"><g
-         id="g5741"
-         style="stroke-width:28.222"><rect
-           x="0"
-           y="0"
-           width="21000"
-           height="29700"
-           id="rect5739"
-           style="stroke-width:28.222" /></g></g></g></clipPath>
-       
-      <clipPath
-   clipPathUnits="userSpaceOnUse"
-   id="clipPath5759"><g
-     id="g5767"
-     style="stroke-width:28.222"><g
-       id="g5765"
-       style="stroke-width:28.222"><g
-         id="g5763"
-         style="stroke-width:28.222"><rect
-           x="0"
-           y="0"
-           width="21000"
-           height="29700"
-           id="rect5761"
-           style="stroke-width:28.222" /></g></g></g></clipPath>
-       
-       
-      
-        
-        <defs
-   id="defs851">
-         <clipPath
-   id="clip_path_5"
-   clipPathUnits="userSpaceOnUse">
-          <path
-   d="m 7636,24377 h 5729 v 3621 H 7636 Z"
-   id="path848" />
-         </clipPath>
-        </defs>
-        
-       <clipPath
-   clipPathUnits="userSpaceOnUse"
-   id="clipPath5847"><g
-     id="g5857"
-     style="stroke-width:28.222"><g
-       id="g5855"
-       style="stroke-width:28.222"><g
-         id="g5853"
-         style="stroke-width:28.222"><g
-           id="g5851"
-           style="stroke-width:28.222"><rect
-             x="0"
-             y="0"
-             width="21000"
-             height="29700"
-             id="rect5849"
-             style="stroke-width:28.222" /></g></g></g></g></clipPath>
-       
-      
-        
-        
-       
-       
-      
-        
-        
-       
-       
-      <clipPath
-   clipPathUnits="userSpaceOnUse"
-   id="clipPath6824"><g
-     id="g6832"
-     style="stroke-width:28.222"><g
-       id="g6830"
-       style="stroke-width:28.222"><g
-         id="g6828"
-         style="stroke-width:28.222"><rect
-           x="0"
-           y="0"
-           width="21000"
-           height="29700"
-           id="rect6826"
-           style="stroke-width:28.222" /></g></g></g></clipPath>
-       
-      
-        
-        
-       <clipPath
-   clipPathUnits="userSpaceOnUse"
-   id="clipPath6866"><g
-     id="g6876"
-     style="stroke-width:28.222"><g
-       id="g6874"
-       style="stroke-width:28.222"><g
-         id="g6872"
-         style="stroke-width:28.222"><g
-           id="g6870"
-           style="stroke-width:28.222"><rect
-             x="0"
-             y="0"
-             width="21000"
-             height="29700"
-             id="rect6868"
-             style="stroke-width:28.222" /></g></g></g></g></clipPath>
-       
-      <clipPath
-   clipPathUnits="userSpaceOnUse"
-   id="clipPath6894"><g
-     id="g6902"
-     style="stroke-width:28.222"><g
-       id="g6900"
-       style="stroke-width:28.222"><g
-         id="g6898"
-         style="stroke-width:28.222"><rect
-           x="0"
-           y="0"
-           width="21000"
-           height="29700"
-           id="rect6896"
-           style="stroke-width:28.222" /></g></g></g></clipPath>
-       
-      
-        
-        <defs
-   id="defs752">
-         <clipPath
-   id="clip_path_4"
-   clipPathUnits="userSpaceOnUse">
-          <path
-   d="M 4101,4185 H 5567 V 6082 H 4101 Z"
-   id="path749" />
-         </clipPath>
-        </defs>
-        
-       
-         
-        <clipPath
-   clipPathUnits="userSpaceOnUse"
-   id="clipPath6983"><g
-     id="g6995"
-     style="stroke-width:28.222"><g
-       id="g6993"
-       style="stroke-width:28.222"><g
-         id="g6991"
-         style="stroke-width:28.222"><g
-           id="g6989"
+           id="g7483"
            style="stroke-width:28.222"><g
-             id="g6987"
+             id="g7481"
              style="stroke-width:28.222"><rect
                x="0"
                y="0"
                width="21000"
                height="29700"
-               id="rect6985"
-               style="stroke-width:28.222" /></g></g></g></g></g></clipPath>
-       
-      
-        
-        
-       
-       
-      <clipPath
-   clipPathUnits="userSpaceOnUse"
-   id="clipPath7053"><g
-     id="g7061"
-     style="stroke-width:28.222"><g
-       id="g7059"
+               id="rect7479"
+               style="stroke-width:28.222" /></g></g></g></g></clipPath><clipPath
+     clipPathUnits="userSpaceOnUse"
+     id="clipPath7521"><g
+       id="g7531"
        style="stroke-width:28.222"><g
-         id="g7057"
-         style="stroke-width:28.222"><rect
-           x="0"
-           y="0"
-           width="21000"
-           height="29700"
-           id="rect7055"
-           style="stroke-width:28.222" /></g></g></g></clipPath>
-       
-      <clipPath
-   clipPathUnits="userSpaceOnUse"
-   id="clipPath7079"><g
-     id="g7087"
-     style="stroke-width:28.222"><g
-       id="g7085"
-       style="stroke-width:28.222"><g
-         id="g7083"
-         style="stroke-width:28.222"><rect
-           x="0"
-           y="0"
-           width="21000"
-           height="29700"
-           id="rect7081"
-           style="stroke-width:28.222" /></g></g></g></clipPath>
-       
-      
-        
-        <defs
-   id="defs693">
-         <clipPath
-   id="clip_path_3"
-   clipPathUnits="userSpaceOnUse">
-          <path
-   d="m 9781,11093 h 1466 v 1897 H 9781 Z"
-   id="path690" />
-         </clipPath>
-        </defs>
-        
-       
-         
-        <clipPath
-   clipPathUnits="userSpaceOnUse"
-   id="clipPath7171"><g
-     id="g7183"
-     style="stroke-width:28.222"><g
-       id="g7181"
-       style="stroke-width:28.222"><g
-         id="g7179"
+         id="g7529"
          style="stroke-width:28.222"><g
-           id="g7177"
+           id="g7527"
            style="stroke-width:28.222"><g
-             id="g7175"
+             id="g7525"
              style="stroke-width:28.222"><rect
                x="0"
                y="0"
                width="21000"
                height="29700"
-               id="rect7173"
-               style="stroke-width:28.222" /></g></g></g></g></g></clipPath>
-       
-      
-        
-        
-       <clipPath
-   clipPathUnits="userSpaceOnUse"
-   id="clipPath7217"><g
-     id="g7227"
-     style="stroke-width:28.222"><g
-       id="g7225"
-       style="stroke-width:28.222"><g
-         id="g7223"
-         style="stroke-width:28.222"><g
-           id="g7221"
-           style="stroke-width:28.222"><rect
-             x="0"
-             y="0"
-             width="21000"
-             height="29700"
-             id="rect7219"
-             style="stroke-width:28.222" /></g></g></g></g></clipPath>
-       
-      <clipPath
-   clipPathUnits="userSpaceOnUse"
-   id="clipPath7241"><g
-     id="g7249"
-     style="stroke-width:28.222"><g
-       id="g7247"
-       style="stroke-width:28.222"><g
-         id="g7245"
-         style="stroke-width:28.222"><rect
-           x="0"
-           y="0"
-           width="21000"
-           height="29700"
-           id="rect7243"
-           style="stroke-width:28.222" /></g></g></g></clipPath>
-       
-      
-        
-        
-       
-       
-      <clipPath
-   clipPathUnits="userSpaceOnUse"
-   id="clipPath7311"><g
-     id="g7319"
-     style="stroke-width:28.222"><g
-       id="g7317"
-       style="stroke-width:28.222"><g
-         id="g7315"
-         style="stroke-width:28.222"><rect
-           x="0"
-           y="0"
-           width="21000"
-           height="29700"
-           id="rect7313"
-           style="stroke-width:28.222" /></g></g></g></clipPath>
-       
-      
-        
-        
-       
-       
-      
-        
-        
-       
-       
-      <clipPath
-   clipPathUnits="userSpaceOnUse"
-   id="clipPath7435"><g
-     id="g7443"
-     style="stroke-width:28.222"><g
-       id="g7441"
-       style="stroke-width:28.222"><g
-         id="g7439"
-         style="stroke-width:28.222"><rect
-           x="0"
-           y="0"
-           width="21000"
-           height="29700"
-           id="rect7437"
-           style="stroke-width:28.222" /></g></g></g></clipPath>
-       
-      
-        
-        
-       <clipPath
-   clipPathUnits="userSpaceOnUse"
-   id="clipPath7477"><g
-     id="g7487"
-     style="stroke-width:28.222"><g
-       id="g7485"
-       style="stroke-width:28.222"><g
-         id="g7483"
-         style="stroke-width:28.222"><g
-           id="g7481"
-           style="stroke-width:28.222"><rect
-             x="0"
-             y="0"
-             width="21000"
-             height="29700"
-             id="rect7479"
-             style="stroke-width:28.222" /></g></g></g></g></clipPath>
-       
-      
-        
-        
-       <clipPath
-   clipPathUnits="userSpaceOnUse"
-   id="clipPath7521"><g
-     id="g7531"
-     style="stroke-width:28.222"><g
-       id="g7529"
-       style="stroke-width:28.222"><g
-         id="g7527"
-         style="stroke-width:28.222"><g
-           id="g7525"
-           style="stroke-width:28.222"><rect
-             x="0"
-             y="0"
-             width="21000"
-             height="29700"
-             id="rect7523"
-             style="stroke-width:28.222" /></g></g></g></g></clipPath>
-       
-      <clipPath
-   clipPathUnits="userSpaceOnUse"
-   id="clipPath7545"><g
-     id="g7553"
-     style="stroke-width:28.222"><g
-       id="g7551"
-       style="stroke-width:28.222"><g
-         id="g7549"
-         style="stroke-width:28.222"><rect
-           x="0"
-           y="0"
-           width="21000"
-           height="29700"
-           id="rect7547"
-           style="stroke-width:28.222" /></g></g></g></clipPath>
-       
-      <clipPath
-   clipPathUnits="userSpaceOnUse"
-   id="clipPath7567"><g
-     id="g7575"
-     style="stroke-width:28.222"><g
-       id="g7573"
-       style="stroke-width:28.222"><g
-         id="g7571"
-         style="stroke-width:28.222"><rect
-           x="0"
-           y="0"
-           width="21000"
-           height="29700"
-           id="rect7569"
-           style="stroke-width:28.222" /></g></g></g></clipPath>
-       
-      
-        
-        
-       <clipPath
-   clipPathUnits="userSpaceOnUse"
-   id="clipPath7609"><g
-     id="g7619"
-     style="stroke-width:28.222"><g
-       id="g7617"
-       style="stroke-width:28.222"><g
-         id="g7615"
-         style="stroke-width:28.222"><g
-           id="g7613"
-           style="stroke-width:28.222"><rect
-             x="0"
-             y="0"
-             width="21000"
-             height="29700"
-             id="rect7611"
-             style="stroke-width:28.222" /></g></g></g></g></clipPath>
-       
-      
-        
-        
-       
-       
-      
-        
-        
-       <clipPath
-   clipPathUnits="userSpaceOnUse"
-   id="clipPath7700"><g
-     id="g7710"
-     style="stroke-width:28.222"><g
-       id="g7708"
-       style="stroke-width:28.222"><g
-         id="g7706"
-         style="stroke-width:28.222"><g
-           id="g7704"
-           style="stroke-width:28.222"><rect
-             x="0"
-             y="0"
-             width="21000"
-             height="29700"
-             id="rect7702"
-             style="stroke-width:28.222" /></g></g></g></g></clipPath>
-       
-      
-        
-        
-       
-       
-      
-        
-        
-       <clipPath
-   clipPathUnits="userSpaceOnUse"
-   id="clipPath7789"><g
-     id="g7799"
-     style="stroke-width:28.222"><g
-       id="g7797"
-       style="stroke-width:28.222"><g
-         id="g7795"
-         style="stroke-width:28.222"><g
-           id="g7793"
-           style="stroke-width:28.222"><rect
-             x="0"
-             y="0"
-             width="21000"
-             height="29700"
-             id="rect7791"
-             style="stroke-width:28.222" /></g></g></g></g></clipPath>
-       
-      
-        
-        
-       <clipPath
-   clipPathUnits="userSpaceOnUse"
-   id="clipPath7840"><g
-     id="g7850"
-     style="stroke-width:28.222"><g
-       id="g7848"
-       style="stroke-width:28.222"><g
-         id="g7846"
-         style="stroke-width:28.222"><g
-           id="g7844"
-           style="stroke-width:28.222"><rect
-             x="0"
-             y="0"
-             width="21000"
-             height="29700"
-             id="rect7842"
-             style="stroke-width:28.222" /></g></g></g></g></clipPath>
-       
-      
-        
-        
-       <clipPath
-   clipPathUnits="userSpaceOnUse"
-   id="clipPath7891"><g
-     id="g7901"
-     style="stroke-width:28.222"><g
-       id="g7899"
-       style="stroke-width:28.222"><g
-         id="g7897"
-         style="stroke-width:28.222"><g
-           id="g7895"
-           style="stroke-width:28.222"><rect
-             x="0"
-             y="0"
-             width="21000"
-             height="29700"
-             id="rect7893"
-             style="stroke-width:28.222" /></g></g></g></g></clipPath>
-       
-      
-        
-        
-       <clipPath
-   clipPathUnits="userSpaceOnUse"
-   id="clipPath7942"><g
-     id="g7952"
-     style="stroke-width:28.222"><g
-       id="g7950"
-       style="stroke-width:28.222"><g
-         id="g7948"
-         style="stroke-width:28.222"><g
-           id="g7946"
-           style="stroke-width:28.222"><rect
-             x="0"
-             y="0"
-             width="21000"
-             height="29700"
-             id="rect7944"
-             style="stroke-width:28.222" /></g></g></g></g></clipPath>
-       
-      
-        
-        
-       <clipPath
-   clipPathUnits="userSpaceOnUse"
-   id="clipPath7993"><g
-     id="g8003"
-     style="stroke-width:28.222"><g
-       id="g8001"
-       style="stroke-width:28.222"><g
-         id="g7999"
-         style="stroke-width:28.222"><g
-           id="g7997"
-           style="stroke-width:28.222"><rect
-             x="0"
-             y="0"
-             width="21000"
-             height="29700"
-             id="rect7995"
-             style="stroke-width:28.222" /></g></g></g></g></clipPath>
-        
-       
-        
-       
-         
-         
-        
-        
-       
-         
-         
-        
-       
-      
-        
-        
-       <clipPath
-   clipPathUnits="userSpaceOnUse"
-   id="clipPath8083"><g
-     id="g8093"
-     style="stroke-width:28.222"><g
-       id="g8091"
-       style="stroke-width:28.222"><g
-         id="g8089"
-         style="stroke-width:28.222"><g
-           id="g8087"
-           style="stroke-width:28.222"><rect
-             x="0"
-             y="0"
-             width="21000"
-             height="29700"
-             id="rect8085"
-             style="stroke-width:28.222" /></g></g></g></g></clipPath><clipPath
-   clipPathUnits="userSpaceOnUse"
-   id="clipPath8095"><g
-     id="g8105"
-     style="stroke-width:28.222"><g
-       id="g8103"
-       style="stroke-width:28.222"><g
-         id="g8101"
-         style="stroke-width:28.222"><g
-           id="g8099"
-           style="stroke-width:28.222"><rect
-             x="0"
-             y="0"
-             width="21000"
-             height="29700"
-             id="rect8097"
-             style="stroke-width:28.222" /></g></g></g></g></clipPath>
-       
-      
-        
-        
-       <clipPath
-   clipPathUnits="userSpaceOnUse"
-   id="clipPath8146"><g
-     id="g8156"
-     style="stroke-width:28.222"><g
-       id="g8154"
-       style="stroke-width:28.222"><g
-         id="g8152"
-         style="stroke-width:28.222"><g
-           id="g8150"
-           style="stroke-width:28.222"><rect
-             x="0"
-             y="0"
-             width="21000"
-             height="29700"
-             id="rect8148"
-             style="stroke-width:28.222" /></g></g></g></g></clipPath>
-       
-      
-        
-        
-       <clipPath
-   clipPathUnits="userSpaceOnUse"
-   id="clipPath8197"><g
-     id="g8207"
-     style="stroke-width:28.222"><g
-       id="g8205"
-       style="stroke-width:28.222"><g
-         id="g8203"
-         style="stroke-width:28.222"><g
-           id="g8201"
-           style="stroke-width:28.222"><rect
-             x="0"
-             y="0"
-             width="21000"
-             height="29700"
-             id="rect8199"
-             style="stroke-width:28.222" /></g></g></g></g></clipPath>
-       
-      
-        
-        
-       <clipPath
-   clipPathUnits="userSpaceOnUse"
-   id="clipPath8242"><g
-     id="g8252"
-     style="stroke-width:28.222"><g
-       id="g8250"
-       style="stroke-width:28.222"><g
-         id="g8248"
-         style="stroke-width:28.222"><g
-           id="g8246"
-           style="stroke-width:28.222"><rect
-             x="0"
-             y="0"
-             width="21000"
-             height="29700"
-             id="rect8244"
-             style="stroke-width:28.222" /></g></g></g></g></clipPath><clipPath
-   clipPathUnits="userSpaceOnUse"
-   id="clipPath8254"><g
-     id="g8264"
-     style="stroke-width:28.222"><g
-       id="g8262"
-       style="stroke-width:28.222"><g
-         id="g8260"
-         style="stroke-width:28.222"><g
-           id="g8258"
-           style="stroke-width:28.222"><rect
-             x="0"
-             y="0"
-             width="21000"
-             height="29700"
-             id="rect8256"
-             style="stroke-width:28.222" /></g></g></g></g></clipPath>
-       
-       
-      
-        
-        <defs
-   id="defs340">
-         <clipPath
-   id="clip_path_2"
-   clipPathUnits="userSpaceOnUse">
-          <path
-   d="M 1000,4319 H 2853 V 6139 H 1000 Z"
-   id="path337" />
-         </clipPath>
-        </defs>
-        
-       
-         
-        <clipPath
-   clipPathUnits="userSpaceOnUse"
-   id="clipPath8331"><g
-     id="g8343"
-     style="stroke-width:28.222"><g
-       id="g8341"
-       style="stroke-width:28.222"><g
-         id="g8339"
-         style="stroke-width:28.222"><g
-           id="g8337"
-           style="stroke-width:28.222"><g
-             id="g8335"
-             style="stroke-width:28.222"><rect
-               x="0"
-               y="0"
-               width="21000"
-               height="29700"
-               id="rect8333"
-               style="stroke-width:28.222" /></g></g></g></g></g></clipPath>
-       
-      
-        
-        <defs
-   id="defs324">
-         <clipPath
-   id="clip_path_1"
-   clipPathUnits="userSpaceOnUse">
-          <path
-   d="m 9767,14093 h 1466 v 1897 H 9767 Z"
-   id="path321" />
-         </clipPath>
-        </defs>
-        
-       
-         
-        <clipPath
-   clipPathUnits="userSpaceOnUse"
-   id="clipPath8410"><g
-     id="g8422"
-     style="stroke-width:28.222"><g
-       id="g8420"
-       style="stroke-width:28.222"><g
-         id="g8418"
-         style="stroke-width:28.222"><g
-           id="g8416"
-           style="stroke-width:28.222"><g
-             id="g8414"
-             style="stroke-width:28.222"><rect
-               x="0"
-               y="0"
-               width="21000"
-               height="29700"
-               id="rect8412"
-               style="stroke-width:28.222" /></g></g></g></g></g></clipPath>
-       
-      
-        
-        
-       <clipPath
-   clipPathUnits="userSpaceOnUse"
-   id="clipPath8514"><g
-     id="g8524"
-     style="stroke-width:28.222"><g
-       id="g8522"
-       style="stroke-width:28.222"><g
-         id="g8520"
-         style="stroke-width:28.222"><g
-           id="g8518"
-           style="stroke-width:28.222"><rect
-             x="0"
-             y="0"
-             width="21000"
-             height="29700"
-             id="rect8516"
-             style="stroke-width:28.222" /></g></g></g></g></clipPath>
-       
-      
-        
-        
-       <clipPath
-   clipPathUnits="userSpaceOnUse"
-   id="clipPath8575"><g
-     id="g8585"
-     style="stroke-width:28.222"><g
-       id="g8583"
-       style="stroke-width:28.222"><g
-         id="g8581"
-         style="stroke-width:28.222"><g
-           id="g8579"
-           style="stroke-width:28.222"><rect
-             x="0"
-             y="0"
-             width="21000"
-             height="29700"
-             id="rect8577"
-             style="stroke-width:28.222" /></g></g></g></g></clipPath>
-       
-      
-        
-        
-       <clipPath
-   clipPathUnits="userSpaceOnUse"
-   id="clipPath8626"><g
-     id="g8636"
-     style="stroke-width:28.222"><g
-       id="g8634"
-       style="stroke-width:28.222"><g
-         id="g8632"
-         style="stroke-width:28.222"><g
-           id="g8630"
-           style="stroke-width:28.222"><rect
-             x="0"
-             y="0"
-             width="21000"
-             height="29700"
-             id="rect8628"
-             style="stroke-width:28.222" /></g></g></g></g></clipPath>
-       
-      
-        
-        
-       <clipPath
-   clipPathUnits="userSpaceOnUse"
-   id="clipPath8677"><g
-     id="g8687"
-     style="stroke-width:28.222"><g
-       id="g8685"
-       style="stroke-width:28.222"><g
-         id="g8683"
-         style="stroke-width:28.222"><g
-           id="g8681"
-           style="stroke-width:28.222"><rect
-             x="0"
-             y="0"
-             width="21000"
-             height="29700"
-             id="rect8679"
-             style="stroke-width:28.222" /></g></g></g></g></clipPath>
-       
-      
-        
-        
-       <clipPath
-   clipPathUnits="userSpaceOnUse"
-   id="clipPath8728"><g
-     id="g8738"
-     style="stroke-width:28.222"><g
-       id="g8736"
-       style="stroke-width:28.222"><g
-         id="g8734"
-         style="stroke-width:28.222"><g
-           id="g8732"
-           style="stroke-width:28.222"><rect
-             x="0"
-             y="0"
-             width="21000"
-             height="29700"
-             id="rect8730"
-             style="stroke-width:28.222" /></g></g></g></g></clipPath>
-       
-      
-        
-        
-       <clipPath
-   clipPathUnits="userSpaceOnUse"
-   id="clipPath8893"><g
-     id="g8903"
-     style="stroke-width:28.222"><g
-       id="g8901"
-       style="stroke-width:28.222"><g
-         id="g8899"
-         style="stroke-width:28.222"><g
-           id="g8897"
-           style="stroke-width:28.222"><rect
-             x="0"
-             y="0"
-             width="21000"
-             height="29700"
-             id="rect8895"
-             style="stroke-width:28.222" /></g></g></g></g></clipPath>
-        
-        
-       
-        
-        
-       <clipPath
-   clipPathUnits="userSpaceOnUse"
-   id="clipPath8936"><g
-     id="g8946"
-     style="stroke-width:28.222"><g
-       id="g8944"
-       style="stroke-width:28.222"><g
-         id="g8942"
-         style="stroke-width:28.222"><g
-           id="g8940"
-           style="stroke-width:28.222"><rect
-             x="0"
-             y="0"
-             width="21000"
-             height="29700"
-             id="rect8938"
-             style="stroke-width:28.222" /></g></g></g></g></clipPath><marker
-   style="overflow:visible"
-   id="Arrow2-3"
-   refX="0"
-   refY="0"
-   orient="auto-start-reverse"
-   inkscape:stockid="Arrow2"
-   markerWidth="8.8247509"
-   markerHeight="6.4180002"
-   viewBox="0 0 7.7 5.6"
-   inkscape:isstock="true"
-   inkscape:collect="always"
-   preserveAspectRatio="xMidYMid"
-   markerUnits="strokeWidth"><path
-     transform="scale(0.7)"
-     d="M -2,-4 9,0 -2,4 c 2,-2.33 2,-5.66 0,-8 z"
-     style="fill:context-stroke;fill-rule:evenodd;stroke:none"
-     id="arrow2L-6" /></marker><marker
-   style="overflow:visible"
-   id="Arrow2-5"
-   refX="0"
-   refY="0"
-   orient="auto-start-reverse"
-   inkscape:stockid="Arrow2"
-   markerWidth="8.8247509"
-   markerHeight="6.4180002"
-   viewBox="0 0 7.7 5.6"
-   inkscape:isstock="true"
-   inkscape:collect="always"
-   preserveAspectRatio="xMidYMid"
-   markerUnits="strokeWidth"><path
-     transform="scale(0.7)"
-     d="M -2,-4 9,0 -2,4 c 2,-2.33 2,-5.66 0,-8 z"
-     style="fill:context-stroke;fill-rule:evenodd;stroke:none"
-     id="arrow2L-3" /></marker><marker
-   style="overflow:visible"
-   id="Arrow2-6"
-   refX="0"
-   refY="0"
-   orient="auto-start-reverse"
-   inkscape:stockid="Arrow2"
-   markerWidth="8.8247509"
-   markerHeight="6.4180002"
-   viewBox="0 0 7.7 5.6"
-   inkscape:isstock="true"
-   inkscape:collect="always"
-   preserveAspectRatio="xMidYMid"
-   markerUnits="strokeWidth"><path
-     transform="scale(0.7)"
-     d="M -2,-4 9,0 -2,4 c 2,-2.33 2,-5.66 0,-8 z"
-     style="fill:context-stroke;fill-rule:evenodd;stroke:none"
-     id="arrow2L-2" /></marker><marker
-   style="overflow:visible"
-   id="Arrow2-3-2"
-   refX="0"
-   refY="0"
-   orient="auto-start-reverse"
-   inkscape:stockid="Arrow2"
-   markerWidth="8.8247509"
-   markerHeight="6.4180002"
-   viewBox="0 0 7.7 5.6"
-   inkscape:isstock="true"
-   inkscape:collect="always"
-   preserveAspectRatio="xMidYMid"
-   markerUnits="strokeWidth"><path
-     transform="scale(0.7)"
-     d="M -2,-4 9,0 -2,4 c 2,-2.33 2,-5.66 0,-8 z"
-     style="fill:context-stroke;fill-rule:evenodd;stroke:none"
-     id="arrow2L-6-6" /></marker><marker
-   style="overflow:visible"
-   id="Arrow2-3-2-8"
-   refX="0"
-   refY="0"
-   orient="auto-start-reverse"
-   inkscape:stockid="Arrow2"
-   markerWidth="8.8247509"
-   markerHeight="6.4180002"
-   viewBox="0 0 7.7 5.6"
-   inkscape:isstock="true"
-   inkscape:collect="always"
-   preserveAspectRatio="xMidYMid"
-   markerUnits="strokeWidth"><path
-     transform="scale(0.7)"
-     d="M -2,-4 9,0 -2,4 c 2,-2.33 2,-5.66 0,-8 z"
-     style="fill:context-stroke;fill-rule:evenodd;stroke:none"
-     id="arrow2L-6-6-7" /></marker><marker
-   style="overflow:visible"
-   id="Arrow2-3-2-2"
-   refX="0"
-   refY="0"
-   orient="auto-start-reverse"
-   inkscape:stockid="Arrow2"
-   markerWidth="8.8247509"
-   markerHeight="6.4180002"
-   viewBox="0 0 7.7 5.6"
-   inkscape:isstock="true"
-   inkscape:collect="always"
-   preserveAspectRatio="xMidYMid"
-   markerUnits="strokeWidth"><path
-     transform="scale(0.7)"
-     d="M -2,-4 9,0 -2,4 c 2,-2.33 2,-5.66 0,-8 z"
-     style="fill:context-stroke;fill-rule:evenodd;stroke:none"
-     id="arrow2L-6-6-0" /></marker><marker
-   style="overflow:visible"
-   id="Arrow2-3-2-2-9"
-   refX="0"
-   refY="0"
-   orient="auto-start-reverse"
-   inkscape:stockid="Arrow2"
-   markerWidth="8.8247509"
-   markerHeight="6.4180002"
-   viewBox="0 0 7.7 5.6"
-   inkscape:isstock="true"
-   inkscape:collect="always"
-   preserveAspectRatio="xMidYMid"
-   markerUnits="strokeWidth"><path
-     transform="scale(0.7)"
-     d="M -2,-4 9,0 -2,4 c 2,-2.33 2,-5.66 0,-8 z"
-     style="fill:context-stroke;fill-rule:evenodd;stroke:none"
-     id="arrow2L-6-6-0-2" /></marker><marker
-   style="overflow:visible"
-   id="Arrow2-3-2-2-3"
-   refX="0"
-   refY="0"
-   orient="auto-start-reverse"
-   inkscape:stockid="Arrow2"
-   markerWidth="8.8247509"
-   markerHeight="6.4180002"
-   viewBox="0 0 7.7 5.6"
-   inkscape:isstock="true"
-   inkscape:collect="always"
-   preserveAspectRatio="xMidYMid"
-   markerUnits="strokeWidth"><path
-     transform="scale(0.7)"
-     d="M -2,-4 9,0 -2,4 c 2,-2.33 2,-5.66 0,-8 z"
-     style="fill:context-stroke;fill-rule:evenodd;stroke:none"
-     id="arrow2L-6-6-0-7" /></marker></defs>
+               id="rect7523"
+               style="stroke-width:28.222" /></g></g></g></g></clipPath><marker
+     style="overflow:visible"
+     id="Arrow2-3"
+     refX="0"
+     refY="0"
+     orient="auto-start-reverse"
+     inkscape:stockid="Arrow2"
+     markerWidth="8.8247509"
+     markerHeight="6.4180002"
+     viewBox="0 0 7.7 5.6"
+     inkscape:isstock="true"
+     inkscape:collect="always"
+     preserveAspectRatio="xMidYMid"
+     markerUnits="strokeWidth"><path
+       transform="scale(0.7)"
+       d="M -2,-4 9,0 -2,4 c 2,-2.33 2,-5.66 0,-8 z"
+       style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+       id="arrow2L-6" /></marker><marker
+     style="overflow:visible"
+     id="Arrow2-5"
+     refX="0"
+     refY="0"
+     orient="auto-start-reverse"
+     inkscape:stockid="Arrow2"
+     markerWidth="8.8247509"
+     markerHeight="6.4180002"
+     viewBox="0 0 7.7 5.6"
+     inkscape:isstock="true"
+     inkscape:collect="always"
+     preserveAspectRatio="xMidYMid"
+     markerUnits="strokeWidth"><path
+       transform="scale(0.7)"
+       d="M -2,-4 9,0 -2,4 c 2,-2.33 2,-5.66 0,-8 z"
+       style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+       id="arrow2L-3" /></marker><marker
+     style="overflow:visible"
+     id="Arrow2-6"
+     refX="0"
+     refY="0"
+     orient="auto-start-reverse"
+     inkscape:stockid="Arrow2"
+     markerWidth="8.8247509"
+     markerHeight="6.4180002"
+     viewBox="0 0 7.7 5.6"
+     inkscape:isstock="true"
+     inkscape:collect="always"
+     preserveAspectRatio="xMidYMid"
+     markerUnits="strokeWidth"><path
+       transform="scale(0.7)"
+       d="M -2,-4 9,0 -2,4 c 2,-2.33 2,-5.66 0,-8 z"
+       style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+       id="arrow2L-2" /></marker><marker
+     style="overflow:visible"
+     id="Arrow2-3-2"
+     refX="0"
+     refY="0"
+     orient="auto-start-reverse"
+     inkscape:stockid="Arrow2"
+     markerWidth="8.8247509"
+     markerHeight="6.4180002"
+     viewBox="0 0 7.7 5.6"
+     inkscape:isstock="true"
+     inkscape:collect="always"
+     preserveAspectRatio="xMidYMid"
+     markerUnits="strokeWidth"><path
+       transform="scale(0.7)"
+       d="M -2,-4 9,0 -2,4 c 2,-2.33 2,-5.66 0,-8 z"
+       style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+       id="arrow2L-6-6" /></marker><marker
+     style="overflow:visible"
+     id="Arrow2-3-2-8"
+     refX="0"
+     refY="0"
+     orient="auto-start-reverse"
+     inkscape:stockid="Arrow2"
+     markerWidth="8.8247509"
+     markerHeight="6.4180002"
+     viewBox="0 0 7.7 5.6"
+     inkscape:isstock="true"
+     inkscape:collect="always"
+     preserveAspectRatio="xMidYMid"
+     markerUnits="strokeWidth"><path
+       transform="scale(0.7)"
+       d="M -2,-4 9,0 -2,4 c 2,-2.33 2,-5.66 0,-8 z"
+       style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+       id="arrow2L-6-6-7" /></marker><marker
+     style="overflow:visible"
+     id="Arrow2-3-2-2"
+     refX="0"
+     refY="0"
+     orient="auto-start-reverse"
+     inkscape:stockid="Arrow2"
+     markerWidth="8.8247509"
+     markerHeight="6.4180002"
+     viewBox="0 0 7.7 5.6"
+     inkscape:isstock="true"
+     inkscape:collect="always"
+     preserveAspectRatio="xMidYMid"
+     markerUnits="strokeWidth"><path
+       transform="scale(0.7)"
+       d="M -2,-4 9,0 -2,4 c 2,-2.33 2,-5.66 0,-8 z"
+       style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+       id="arrow2L-6-6-0" /></marker><marker
+     style="overflow:visible"
+     id="Arrow2-3-2-2-9"
+     refX="0"
+     refY="0"
+     orient="auto-start-reverse"
+     inkscape:stockid="Arrow2"
+     markerWidth="8.8247509"
+     markerHeight="6.4180002"
+     viewBox="0 0 7.7 5.6"
+     inkscape:isstock="true"
+     inkscape:collect="always"
+     preserveAspectRatio="xMidYMid"
+     markerUnits="strokeWidth"><path
+       transform="scale(0.7)"
+       d="M -2,-4 9,0 -2,4 c 2,-2.33 2,-5.66 0,-8 z"
+       style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+       id="arrow2L-6-6-0-2" /></marker><marker
+     style="overflow:visible"
+     id="Arrow2-3-2-2-3"
+     refX="0"
+     refY="0"
+     orient="auto-start-reverse"
+     inkscape:stockid="Arrow2"
+     markerWidth="8.8247509"
+     markerHeight="6.4180002"
+     viewBox="0 0 7.7 5.6"
+     inkscape:isstock="true"
+     inkscape:collect="always"
+     preserveAspectRatio="xMidYMid"
+     markerUnits="strokeWidth"><path
+       transform="scale(0.7)"
+       d="M -2,-4 9,0 -2,4 c 2,-2.33 2,-5.66 0,-8 z"
+       style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+       id="arrow2L-6-6-0-7" /></marker></defs>
  <defs
-   id="defs113">
-  <font
-   id="EmbeddedFont_1"
-   horiz-adv-x="2048">
+   id="defs113"><font
+     id="EmbeddedFont_1"
+     horiz-adv-x="2048"
+     horiz-origin-x="0"
+     horiz-origin-y="0"
+     vert-origin-x="512"
+     vert-origin-y="768"
+     vert-adv-y="1024">
    <font-face
    font-family="Cantarell embedded"
    units-per-em="2048"
@@ -1842,13 +495,16 @@
    unicode=" "
    horiz-adv-x="635"
    id="glyph110" />
-  </font>
- </defs>
+  </font></defs>
  <defs
-   id="defs148">
-  <font
-   id="EmbeddedFont_2"
-   horiz-adv-x="2048">
+   id="defs148"><font
+     id="EmbeddedFont_2"
+     horiz-adv-x="2048"
+     horiz-origin-x="0"
+     horiz-origin-y="0"
+     vert-origin-x="512"
+     vert-origin-y="768"
+     vert-adv-y="1024">
    <font-face
    font-family="Cantarell embedded"
    units-per-em="2048"
@@ -1930,13 +586,16 @@
    unicode=" "
    horiz-adv-x="714"
    id="glyph145" />
-  </font>
- </defs>
+  </font></defs>
  <defs
-   id="defs201">
-  <font
-   id="EmbeddedFont_3"
-   horiz-adv-x="2048">
+   id="defs201"><font
+     id="EmbeddedFont_3"
+     horiz-adv-x="2048"
+     horiz-origin-x="0"
+     horiz-origin-y="0"
+     vert-origin-x="512"
+     vert-origin-y="768"
+     vert-adv-y="1024">
    <font-face
    font-family="OCRA embedded"
    units-per-em="2048"
@@ -2063,110 +722,36 @@
    unicode=" "
    horiz-adv-x="1455"
    id="glyph198" />
-  </font>
- </defs>
+  </font></defs>
  <defs
    class="TextShapeIndex"
-   id="defs205">
-  <g
-   ooo:slide="id1"
-   ooo:id-list="id3 id4 id5 id6 id7 id8 id9 id10 id11 id12 id13 id14 id15 id16 id17 id18 id19 id20 id21 id22 id23 id24 id25 id26 id27 id28 id29 id30 id31 id32 id33 id34 id35 id36 id37 id38 id39 id40 id41 id42 id43 id44 id45 id46 id47 id48 id49 id50 id51 id52 id53 id54 id55 id56 id57 id58 id59 id60 id61 id62 id63 id64 id65 id66 id67 id68 id69 id70 id71 id72 id73 id74 id75"
-   id="g203" />
- </defs>
+   id="defs205" />
  <defs
    class="EmbeddedBulletChars"
-   id="defs237">
-  <g
-   id="bullet-char-template-57356"
-   transform="scale(0.00048828125,-0.00048828125)">
-   <path
-   d="M 580,1141 L 1163,571 580,0 -4,571 580,1141 Z"
-   id="path207" />
-  </g>
-  <g
-   id="bullet-char-template-57354"
-   transform="scale(0.00048828125,-0.00048828125)">
-   <path
-   d="M 8,1128 L 1137,1128 1137,0 8,0 8,1128 Z"
-   id="path210" />
-  </g>
-  <g
-   id="bullet-char-template-10146"
-   transform="scale(0.00048828125,-0.00048828125)">
-   <path
-   d="M 174,0 L 602,739 174,1481 1456,739 174,0 Z M 1358,739 L 309,1346 659,739 1358,739 Z"
-   id="path213" />
-  </g>
-  <g
-   id="bullet-char-template-10132"
-   transform="scale(0.00048828125,-0.00048828125)">
-   <path
-   d="M 2015,739 L 1276,0 717,0 1260,543 174,543 174,936 1260,936 717,1481 1274,1481 2015,739 Z"
-   id="path216" />
-  </g>
-  <g
-   id="bullet-char-template-10007"
-   transform="scale(0.00048828125,-0.00048828125)">
-   <path
-   d="M 0,-2 C -7,14 -16,27 -25,37 L 356,567 C 262,823 215,952 215,954 215,979 228,992 255,992 264,992 276,990 289,987 310,991 331,999 354,1012 L 381,999 492,748 772,1049 836,1024 860,1049 C 881,1039 901,1025 922,1006 886,937 835,863 770,784 769,783 710,716 594,584 L 774,223 C 774,196 753,168 711,139 L 727,119 C 717,90 699,76 672,76 641,76 570,178 457,381 L 164,-76 C 142,-110 111,-127 72,-127 30,-127 9,-110 8,-76 1,-67 -2,-52 -2,-32 -2,-23 -1,-13 0,-2 Z"
-   id="path219" />
-  </g>
-  <g
-   id="bullet-char-template-10004"
-   transform="scale(0.00048828125,-0.00048828125)">
-   <path
-   d="M 285,-33 C 182,-33 111,30 74,156 52,228 41,333 41,471 41,549 55,616 82,672 116,743 169,778 240,778 293,778 328,747 346,684 L 369,508 C 377,444 397,411 428,410 L 1163,1116 C 1174,1127 1196,1133 1229,1133 1271,1133 1292,1118 1292,1087 L 1292,965 C 1292,929 1282,901 1262,881 L 442,47 C 390,-6 338,-33 285,-33 Z"
-   id="path222" />
-  </g>
-  <g
-   id="bullet-char-template-9679"
-   transform="scale(0.00048828125,-0.00048828125)">
-   <path
-   d="M 813,0 C 632,0 489,54 383,161 276,268 223,411 223,592 223,773 276,916 383,1023 489,1130 632,1184 813,1184 992,1184 1136,1130 1245,1023 1353,916 1407,772 1407,592 1407,412 1353,268 1245,161 1136,54 992,0 813,0 Z"
-   id="path225" />
-  </g>
-  <g
-   id="bullet-char-template-8226"
-   transform="scale(0.00048828125,-0.00048828125)">
-   <path
-   d="M 346,457 C 273,457 209,483 155,535 101,586 74,649 74,723 74,796 101,859 155,911 209,963 273,989 346,989 419,989 480,963 531,910 582,859 608,796 608,723 608,648 583,586 532,535 482,483 420,457 346,457 Z"
-   id="path228" />
-  </g>
-  <g
-   id="bullet-char-template-8211"
-   transform="scale(0.00048828125,-0.00048828125)">
-   <path
-   d="M -4,459 L 1135,459 1135,606 -4,606 -4,459 Z"
-   id="path231" />
-  </g>
-  <g
-   id="bullet-char-template-61548"
-   transform="scale(0.00048828125,-0.00048828125)">
-   <path
-   d="M 173,740 C 173,903 231,1043 346,1159 462,1274 601,1332 765,1332 928,1332 1067,1274 1183,1159 1299,1043 1357,903 1357,740 1357,577 1299,437 1183,322 1067,206 928,148 765,148 601,148 462,206 346,322 231,437 173,577 173,740 Z"
-   id="path234" />
-  </g>
- </defs>
+   id="defs237" />
  
  <text
    class="SVGTextShape"
-   id="text301"><tspan
+   id="text301"
+   x="-1000"
+   y="-1230.5488"
+   clip-path="none"><tspan
      class="TextParagraph"
      font-family="Cantarell"
      font-size="635px"
      font-weight="400"
      id="tspan293"><tspan
        class="TextPosition"
-       x="15572"
-       y="10119"
+       x="14572"
+       y="8888.4512"
        id="tspan287"><tspan
          fill="#000000"
          stroke="none"
          style="white-space:pre"
          id="tspan285">Crawler</tspan></tspan><tspan
        class="TextPosition"
-       x="15572"
-       y="10662"
+       x="14572"
+       y="9431.4512"
        id="tspan291"><tspan
          font-size="423px"
          fill="#000000"
@@ -2179,8 +764,8 @@
      font-weight="400"
      id="tspan299"><tspan
        class="TextPosition"
-       x="15572"
-       y="11158"
+       x="14572"
+       y="9927.4512"
        id="tspan297"><tspan
          fill="#000000"
          stroke="none"
@@ -2189,15 +774,17 @@
    class="SVGTextShape"
    id="text314"
    inkscape:label="attribution"
-   y="264.58334"><tspan
+   y="-965.96545"
+   x="-1000"
+   clip-path="none"><tspan
      class="TextParagraph"
      font-family="Cantarell"
      font-size="282px"
      font-weight="400"
      id="tspan312"><tspan
        class="TextPosition"
-       x="12678"
-       y="28757.58"
+       x="11678"
+       y="27527.031"
        id="tspan310"><tspan
          fill="#000000"
          stroke="none"
@@ -2207,10 +794,13 @@
    stroke="none"
    d="m 1627,5152 c 13,22 32,41 54,54 23,13 48,20 74,20 0,0 0,0 0,0 h 6 c 24,-1 47,-8 68,-20 22,-13 41,-32 54,-54 10,-18 17,-38 19,-59 0,-1 1,-1 1,-2 3,-5 7,-9 12,-12 5,-3 11,-5 16,-5 0,0 1,0 1,0 5,0 11,2 16,5 5,3 9,7 12,12 0,1 1,1 1,2 2,21 9,40 19,58 13,23 32,42 55,55 22,13 47,19 73,20 0,0 0,0 0,0 26,0 52,-7 74,-20 22,-13 41,-32 54,-54 6,-11 11,-22 14,-34 0,-1 1,-2 1,-2 1,-2 2,-3 4,-4 1,-1 2,-1 4,-1 h 24 v -66 h -24 c 0,0 0,0 0,0 -2,0 -3,0 -4,-1 -2,-1 -3,-2 -4,-3 0,-1 0,-1 0,-2 -4,-12 -9,-23 -15,-34 -13,-22 -31,-41 -54,-54 -22,-13 -48,-20 -74,-20 -25,0 -51,7 -73,20 -23,13 -41,32 -54,54 -1,2 -2,4 -4,6 -14,-7 -29,-10 -45,-10 0,0 0,0 0,0 -16,0 -32,3 -46,10 -1,-2 -2,-4 -3,-6 -13,-22 -32,-41 -54,-54 -22,-13 -48,-20 -74,-20 -26,0 -51,7 -74,20 -22,13 -41,32 -54,54 -6,11 -10,22 -14,34 0,1 0,1 -1,2 -1,1 -2,3 -3,4 -1,0 -3,1 -5,1 h -24 v 66 h 25 c 0,0 0,0 0,0 1,0 3,0 4,1 1,1 2,2 3,3 0,0 1,1 1,1 3,13 8,24 14,35 z m 481,-157 c 15,0 29,4 42,12 12,7 23,17 30,30 7,13 11,27 11,41 0,15 -4,29 -11,42 -7,13 -18,23 -30,30 -13,8 -27,11 -42,11 -14,0 -29,-3 -41,-11 -13,-7 -23,-17 -31,-30 -7,-13 -11,-27 -11,-42 0,0 0,0 0,0 0,-15 4,-29 11,-41 8,-13 18,-23 31,-31 12,-7 27,-11 41,-11 z m -311,11 c 12,8 23,18 30,31 7,12 11,27 11,41 0,15 -4,29 -11,42 -7,12 -18,23 -30,30 -13,7 -27,11 -42,11 -14,0 -29,-4 -41,-11 -13,-7 -23,-18 -31,-30 -7,-13 -11,-27 -11,-42 0,0 0,0 0,0 0,-15 4,-29 11,-41 8,-13 18,-23 31,-31 12,-7 27,-11 41,-11 1,0 1,0 1,0 14,0 28,4 41,11 z m 993,1133 c 11,0 21,-3 31,-9 10,-5 18,-13 23,-23 6,-10 9,-21 9,-32 0,0 0,0 0,0 0,-325 -410,-455 -586,-496 -1,0 -1,0 -1,0 -1,-1 -2,-1 -2,-2 -1,-1 -1,-2 -1,-3 v -70 c 14,-18 27,-38 39,-58 22,-37 39,-77 51,-119 46,-46 66,-117 77,-157 18,-63 36,-154 -13,-220 l -2,-3 c 24,-115 53,-386 -153,-523 8,-8 14,-16 19,-26 12,-19 17,-41 17,-63 0,-1 0,-3 0,-4 v 0 c 0,-2 0,-3 -1,-5 -1,-1 -2,-2 -3,-3 0,-1 -1,-1 -2,-2 -2,-1 -4,-1 -6,-1 0,0 0,0 0,0 -3,0 -261,29 -385,3 -128,-26 -268,71 -296,170 -25,3 -48,11 -70,23 -20,12 -38,28 -53,46 -56,69 -73,180 -51,328 2,19 4,38 7,57 l -2,3 c -49,65 -31,157 -13,220 11,39 31,111 77,156 12,43 30,84 52,122 11,20 24,39 38,57 v 69 c 0,0 0,0 0,0 0,1 0,2 -1,2 0,1 -1,2 -1,2 -1,0 -1,1 -2,1 -176,40 -586,170 -586,496 0,0 0,0 0,0 0,11 3,22 9,32 5,10 13,18 23,23 9,6 20,9 31,9 z m -864,-311 c -1,0 -3,0 -5,0 -59,0 -117,-15 -169,-45 -40,-24 -75,-55 -103,-93 0,0 1,0 2,-1 20,-11 36,-28 48,-48 4,-7 8,-15 10,-22 7,4 13,8 20,11 23,14 47,25 73,34 40,14 82,21 124,21 43,0 85,-7 125,-21 24,-9 47,-20 69,-32 8,-5 15,-10 23,-15 3,9 6,16 11,24 11,20 28,37 48,48 1,1 1,1 1,1 -27,38 -62,69 -103,93 -51,30 -110,45 -169,45 -2,0 -3,0 -5,0 z m -399,-809 c 2,-2 5,-4 8,-6 4,-2 8,-3 13,-3 0,0 1,0 2,0 h 5 c 0,0 1,0 1,0 2,0 4,-1 6,-2 2,-1 3,-3 4,-4 1,-2 2,-4 2,-6 0,-1 14,-174 117,-236 51,-31 117,-30 195,3 160,69 280,65 352,48 83,61 59,159 54,178 v 3 c -1,1 -1,2 -1,4 0,2 1,4 2,6 0,0 0,1 1,1 1,1 2,2 3,3 2,1 4,2 6,2 1,0 1,0 1,0 2,-1 4,-1 6,-1 5,0 10,1 15,4 2,2 5,4 7,6 8,10 17,39 -6,120 -29,102 -52,112 -59,113 -2,0 -4,1 -5,2 -2,1 -3,2 -4,4 -1,1 -2,3 -2,4 -17,110 -104,246 -238,294 -27,10 -56,15 -86,15 -29,0 -58,-5 -85,-15 -140,-49 -221,-187 -238,-294 0,-1 0,-3 -1,-4 -1,-2 -3,-3 -5,-5 -1,0 -3,-1 -5,-1 -6,0 -30,-10 -59,-113 -23,-80 -13,-109 -6,-120 z"
    id="path342"
-   clip-path="url(#clipPath8331)"
-   inkscape:label="project_maintainer" /><g
+   clip-path="none"
+   inkscape:label="project_maintainer"
+   transform="translate(-1000,-1230.5488)" /><g
    id="g8988"
-   inkscape:label="suported_hosters"><text
+   inkscape:label="suported_hosters"
+   transform="translate(-1000,-1230.5488)"
+   clip-path="none"><text
      class="SVGTextShape"
      id="text364"
      inkscape:label="suported_hosters_label"><tspan
@@ -2233,17 +823,19 @@
      stroke-linejoin="round"
      d="M 8151,3960 H 20000"
      id="path384"
-     clip-path="url(#clipPath8083)"
+     clip-path="none"
      inkscape:label="suported_hosters_line" /></g><g
    id="g9033"
-   inkscape:label="apis"><path
+   inkscape:label="apis"
+   transform="translate(-1000,-1230.5488)"
+   clip-path="none"><path
      fill="none"
      stroke="#000000"
      stroke-width="53"
      stroke-linejoin="round"
      d="m 8128,6804 c 0,140 162,279 325,279 h 5285 c 163,0 325,139 325,278 0,-139 163,-278 326,-278 h 5285 c 163,0 325,-139 325,-279"
      id="path351"
-     clip-path="url(#clipPath8242)"
+     clip-path="none"
      inkscape:label="bracket_apis" /><text
      class="SVGTextShape"
      id="text377"
@@ -2264,7 +856,7 @@
      id="tspan371" /></tspan></tspan></text><g
      class="Group"
      id="g428"
-     clip-path="url(#clipPath5014)"
+     clip-path="none"
      inkscape:label="git_forges">
        
        <g
@@ -2424,7 +1016,9 @@
            style="white-space:pre"
            id="tspan497">…</tspan></tspan></tspan></text></g><g
    id="g8957"
-   inkscape:label="own_environments"><text
+   inkscape:label="own_environments"
+   transform="translate(-1000,-1230.5488)"
+   clip-path="none"><text
      class="SVGTextShape"
      id="text531"
      inkscape:label="own_environments_label"><tspan
@@ -2447,12 +1041,13 @@
      stroke-linejoin="round"
      d="M 1000,3960 H 6880"
      id="path538"
-     clip-path="url(#clipPath7609)"
+     clip-path="none"
      transform="translate(317.50001)"
      inkscape:label="own_environments_line" /></g><g
    id="id26"
-   clip-path="url(#clipPath7567)"
-   inkscape:label="arrow_x">
+   clip-path="none"
+   inkscape:label="arrow_x"
+   transform="translate(-1000,-1230.5488)">
         
         <path
    fill="none"
@@ -2468,7 +1063,9 @@
    id="path547" />
        </g><g
    id="g8967"
-   inkscape:label="title"><text
+   inkscape:label="title"
+   transform="translate(-1000,-1230.5488)"
+   clip-path="none"><text
      class="SVGTextShape"
      id="text518"
      inkscape:label="title_label"><tspan
@@ -2511,15 +1108,18 @@
        transform="matrix(1.6019001,0,0,1,-8688.1265,0)" /></g></g><text
    class="SVGTextShape"
    id="text614"
-   inkscape:label="t_discover_and_exploit"><tspan
+   inkscape:label="t_discover_and_exploit"
+   x="-1000"
+   y="-1230.5488"
+   clip-path="none"><tspan
      class="TextParagraph"
      font-family="Cantarell"
      font-size="635px"
      font-weight="400"
      id="tspan590"><tspan
        class="TextPosition"
-       x="1250"
-       y="9633"
+       x="250"
+       y="8402.4512"
        id="tspan588"><tspan
          fill="#000000"
          stroke="none"
@@ -2531,8 +1131,8 @@
      font-weight="400"
      id="tspan596"><tspan
        class="TextPosition"
-       x="1250"
-       y="10370"
+       x="250"
+       y="9139.4512"
        id="tspan594"><tspan
          fill="#000000"
          stroke="none"
@@ -2544,16 +1144,16 @@
      font-weight="400"
      id="tspan606"><tspan
        class="TextPosition"
-       x="1250"
-       y="10913"
+       x="250"
+       y="9682.4512"
        id="tspan600"><tspan
          fill="#000000"
          stroke="none"
          style="white-space:pre"
          id="tspan598">complex questions,</tspan></tspan><tspan
        class="TextPosition"
-       x="1250"
-       y="11409"
+       x="250"
+       y="10178.451"
        id="tspan604"><tspan
          fill="#000000"
          stroke="none"
@@ -2565,8 +1165,8 @@
      font-weight="400"
      id="tspan612"><tspan
        class="TextPosition"
-       x="1250"
-       y="11905"
+       x="250"
+       y="10674.451"
        id="tspan610"><tspan
          fill="#000000"
          stroke="none"
@@ -2574,38 +1174,42 @@
          id="tspan608">etc.</tspan></tspan></tspan></text><text
    class="SVGTextShape"
    id="text631"
-   inkscape:label="t_various_file_formats"><tspan
+   inkscape:label="t_various_file_formats"
+   x="-1000"
+   y="-1230.5488"
+   clip-path="none"><tspan
      class="TextParagraph"
      font-family="OCRA, monospace"
      font-size="282px"
      font-weight="400"
      id="tspan629"><tspan
        class="TextPosition"
-       x="14296"
-       y="8079"
+       x="13296"
+       y="6848.4512"
        id="tspan623"><tspan
          fill="#000000"
          stroke="none"
          style="white-space:pre"
          id="tspan621">various file formats</tspan></tspan><tspan
        class="TextPosition"
-       x="14296"
-       y="8435"
+       x="13296"
+       y="7204.4512"
        id="tspan627"><tspan
          fill="#000000"
          stroke="none"
          style="white-space:pre"
          id="tspan625">(mostly .json)</tspan></tspan></tspan></text><g
    id="id33"
-   clip-path="url(#clipPath7311)"
-   inkscape:label="rdf">
+   clip-path="none"
+   inkscape:label="rdf"
+   transform="translate(-1000,-1230.5488)">
         
         <path
    fill="#000000"
    stroke="none"
    d="m 9832,14093 c -37,0 -65,36 -65,65 v 1767 c 0,34 31,65 65,65 h 1336 c 34,0 65,-31 65,-65 v -1379 c 0,-17 -7,-34 -19,-46 l -388,-388 c -12,-12 -29,-19 -46,-19 z m 64,129 h 820 v 324 c 0,34 30,64 64,64 h 324 v 1251 H 9896 Z m 949,91 168,168 h -168 z m -776,513 c -36,0 -65,29 -65,65 0,35 29,64 65,64 h 690 c 35,0 64,-29 64,-64 0,-36 -29,-65 -64,-65 z m 0,345 c -36,0 -65,29 -65,65 0,35 29,64 65,64 h 862 c 36,0 65,-29 65,-64 0,-36 -29,-65 -65,-65 z m 0,345 c -36,0 -65,29 -65,64 0,36 29,65 65,65 h 862 c 36,0 65,-29 65,-65 0,-35 -29,-64 -65,-64 z"
    id="path326"
-   clip-path="url(#clipPath8410)" /><path
+   clip-path="none" /><path
    fill="#ffffff"
    stroke="none"
    d="m 11180,16213 h -684 v -676 h 1367 v 676 z"
@@ -2635,15 +1239,18 @@
          id="tspan642">.rdf</tspan></tspan></tspan></text>
        </g><text
    class="SVGTextShape"
-   id="text667"><tspan
+   id="text667"
+   x="-1000"
+   y="-1230.5488"
+   clip-path="none"><tspan
      class="TextParagraph"
      font-family="Cantarell"
      font-size="423px"
      font-weight="400"
      id="tspan659"><tspan
        class="TextPosition"
-       x="15572"
-       y="16157"
+       x="14572"
+       y="14926.451"
        id="tspan657"><tspan
          fill="#000000"
          stroke="none"
@@ -2655,8 +1262,8 @@
      font-weight="400"
      id="tspan665"><tspan
        class="TextPosition"
-       x="15572"
-       y="16653"
+       x="14572"
+       y="15422.451"
        id="tspan663"><tspan
          fill="#000000"
          stroke="none"
@@ -2668,18 +1275,20 @@
    stroke-linejoin="round"
    d="M 11382,17909 H 8730 v -7289 h 5303 v 7289 z"
    id="path683"
-   clip-path="url(#clipPath7217)"
-   inkscape:label="crawler_big_box" /><g
+   clip-path="none"
+   inkscape:label="crawler_big_box"
+   transform="translate(-1000,-1230.5488)" /><g
    id="id38"
-   clip-path="url(#clipPath7079)"
-   inkscape:label="toml2">
+   clip-path="none"
+   inkscape:label="toml2"
+   transform="translate(-1000,-1230.5488)">
         
         <path
    fill="#000000"
    stroke="none"
    d="m 9846,11093 c -37,0 -65,36 -65,65 v 1767 c 0,34 31,65 65,65 h 1336 c 34,0 65,-31 65,-65 v -1379 c 0,-17 -7,-34 -19,-46 l -388,-388 c -12,-12 -29,-19 -46,-19 z m 64,129 h 820 v 324 c 0,34 30,64 64,64 h 324 v 1251 H 9910 Z m 949,91 168,168 h -168 z m -776,513 c -36,0 -65,29 -65,65 0,35 29,64 65,64 h 690 c 35,0 64,-29 64,-64 0,-36 -29,-65 -64,-65 z m 0,345 c -36,0 -65,29 -65,65 0,35 29,64 65,64 h 862 c 36,0 65,-29 65,-64 0,-36 -29,-65 -65,-65 z m 0,345 c -36,0 -65,29 -65,64 0,36 29,65 65,65 h 862 c 36,0 65,-29 65,-65 0,-35 -29,-64 -65,-64 z"
    id="path695"
-   clip-path="url(#clipPath7171)" /><path
+   clip-path="none" /><path
    fill="#ffffff"
    stroke="none"
    d="m 11295,13214 h -785 v -676 h 1570 v 676 z"
@@ -2709,15 +1318,18 @@
          id="tspan708">.toml</tspan></tspan></tspan></text>
        </g><text
    class="SVGTextShape"
-   id="text742"><tspan
+   id="text742"
+   x="-1000"
+   y="-1230.5488"
+   clip-path="none"><tspan
      class="TextParagraph"
      font-family="Cantarell"
      font-size="423px"
      font-weight="400"
      id="tspan734"><tspan
        class="TextPosition"
-       x="15572"
-       y="14762"
+       x="14572"
+       y="13531.451"
        id="tspan732"><tspan
          fill="#000000"
          stroke="none"
@@ -2729,15 +1341,17 @@
      font-weight="400"
      id="tspan740"><tspan
        class="TextPosition"
-       x="15572"
-       y="15258"
+       x="14572"
+       y="14027.451"
        id="tspan738"><tspan
          fill="#000000"
          stroke="none"
          style="white-space:pre"
          id="tspan736">of data</tspan></tspan></tspan></text><g
    id="g9047"
-   inkscape:label="toml"><text
+   inkscape:label="toml"
+   transform="translate(-1000,-1230.5488)"
+   clip-path="none"><text
      class="SVGTextShape"
      id="text278"
      inkscape:label="tokh_toml_label"
@@ -2756,7 +1370,7 @@
            style="white-space:pre"
            id="tspan272">OKH</tspan></tspan></tspan></text><g
      id="id42"
-     clip-path="url(#clipPath6894)"
+     clip-path="none"
      inkscape:label="toml_symbol">
         
         <path
@@ -2764,7 +1378,7 @@
    stroke="none"
    d="m 4166,4185 c -37,0 -65,36 -65,65 v 1767 c 0,34 31,65 65,65 h 1336 c 34,0 65,-31 65,-65 V 4638 c 0,-17 -7,-34 -19,-46 l -388,-388 c -12,-12 -29,-19 -46,-19 z m 64,129 h 820 v 324 c 0,34 30,64 64,64 h 324 V 5953 H 4230 Z m 949,91 168,168 h -168 z m -776,513 c -36,0 -65,29 -65,65 0,35 29,64 65,64 h 690 c 35,0 64,-29 64,-64 0,-36 -29,-65 -64,-65 z m 0,345 c -36,0 -65,29 -65,65 0,35 29,64 65,64 h 862 c 36,0 65,-29 65,-64 0,-36 -29,-65 -65,-65 z m 0,345 c -36,0 -65,29 -65,64 0,36 29,65 65,65 h 862 c 36,0 65,-29 65,-65 0,-35 -29,-64 -65,-64 z"
    id="path754"
-   clip-path="url(#clipPath6983)" /><path
+   clip-path="none" /><path
    fill="#ffffff"
    stroke="none"
    d="m 5615,6305 h -785 v -676 h 1570 v 676 z"
@@ -2800,11 +1414,13 @@
    stroke-linejoin="round"
    d="m 12080,12876 3242,2000"
    id="path780"
-   clip-path="url(#clipPath6866)"
-   inkscape:label="line_x" /><g
+   clip-path="none"
+   inkscape:label="line_x"
+   transform="translate(-1000,-1230.5488)" /><g
    id="id44"
-   clip-path="url(#clipPath6824)"
-   inkscape:label="transporter">
+   clip-path="none"
+   inkscape:label="transporter"
+   transform="translate(-1000,-1230.5488)">
         
         <path
    fill="#ffffff"
@@ -2821,15 +1437,18 @@
        </g><text
    class="SVGTextShape"
    id="text839"
-   inkscape:label="t_find_and_filter"><tspan
+   inkscape:label="t_find_and_filter"
+   x="-1000"
+   y="-1230.5488"
+   clip-path="none"><tspan
      class="TextParagraph"
      font-family="Cantarell"
      font-size="635px"
      font-weight="400"
      id="tspan813"><tspan
        class="TextPosition"
-       x="1250"
-       y="20681"
+       x="250"
+       y="19450.451"
        id="tspan811"><tspan
          fill="#000000"
          stroke="none"
@@ -2841,8 +1460,8 @@
      font-weight="400"
      id="tspan819"><tspan
        class="TextPosition"
-       x="1250"
-       y="21418"
+       x="250"
+       y="20187.451"
        id="tspan817"><tspan
          fill="#000000"
          stroke="none"
@@ -2854,8 +1473,8 @@
      font-weight="400"
      id="tspan825"><tspan
        class="TextPosition"
-       x="1250"
-       y="21961"
+       x="250"
+       y="20730.451"
        id="tspan823"><tspan
          fill="#000000"
          stroke="none"
@@ -2867,8 +1486,8 @@
      font-weight="400"
      id="tspan831"><tspan
        class="TextPosition"
-       x="1250"
-       y="22457"
+       x="250"
+       y="21226.451"
        id="tspan829"><tspan
          fill="#000000"
          stroke="none"
@@ -2880,16 +1499,17 @@
      font-weight="400"
      id="tspan837"><tspan
        class="TextPosition"
-       x="1250"
-       y="22953"
+       x="250"
+       y="21722.451"
        id="tspan835"><tspan
          fill="#000000"
          stroke="none"
          style="white-space:pre"
          id="tspan833">etc.</tspan></tspan></tspan></text><g
-   clip-path="url(#clipPath5847)"
+   clip-path="none"
    id="g857"
-   inkscape:label="nb">
+   inkscape:label="nb"
+   transform="translate(-1000,-1230.5488)">
          <path
    fill="#000000"
    stroke="none"
@@ -2920,7 +1540,7 @@
    inkscape:label="nb_screen" />
         <g
    id="id48"
-   clip-path="url(#clipPath5759)"
+   clip-path="none"
    inkscape:label="search_field">
         
         <path
@@ -2935,7 +1555,9 @@
    id="path866" />
        </g></g><g
    id="g8981"
-   inkscape:label="backend"><text
+   inkscape:label="backend"
+   transform="translate(-1000,-1230.5488)"
+   clip-path="none"><text
      class="SVGTextShape"
      id="text252"
      inkscape:label="backend_label"><tspan
@@ -2958,10 +1580,13 @@
      stroke-linejoin="round"
      d="m 14651,19087 c 116,0 233,208 233,416 v 1227 c 0,209 117,417 234,417 -117,0 -234,208 -234,417 v 1227 c 0,208 -117,417 -233,417"
      id="path882"
-     clip-path="url(#clipPath5701)"
+     clip-path="none"
      inkscape:label="backend_bracket" /></g><g
    id="g8974"
-   inkscape:label="frontend"><text
+   inkscape:label="frontend"
+   transform="translate(-1000,-1230.5488)"
+   mask="none"
+   clip-path="none"><text
      class="SVGTextShape"
      id="text265"
      inkscape:label="frontend_label"><tspan
@@ -2984,13 +1609,14 @@
      stroke-linejoin="round"
      d="m 14652,24724 c 116,0 233,131 233,263 v 773 c 0,132 117,264 234,264 -117,0 -234,131 -234,263 v 773 c 0,132 -117,264 -233,264"
      id="path889"
-     clip-path="url(#clipPath5656)"
-     inkscape:label="frontend_bracket" /></g><g
+     clip-path="none"
+     inkscape:label="frontend_bracket"
+     mask="none" /></g><g
    class="Group"
    id="g935"
-   clip-path="url(#clipPath4726)"
+   clip-path="none"
    inkscape:label="researcher"
-   transform="translate(-1111.2501,529.16669)">
+   transform="translate(-2111.2501,-701.38214)">
        <text
    class="SVGTextShape"
    id="text902"
@@ -3014,7 +1640,7 @@
    stroke="none"
    d="m 5688,13039 h -62 c -4,0 -8,-2 -10,-7 -55,-139 -191,-237 -350,-237 -132,0 -248,68 -316,171 -3,6 -10,7 -15,4 -82,-56 -188,-55 -270,0 -5,3 -12,2 -15,-4 -68,-103 -184,-171 -316,-171 -159,0 -295,98 -350,237 -2,5 -6,7 -10,7 h -62 c -88,0 -88,134 0,134 h 36 c 5,0 8,3 9,8 4,205 171,369 377,369 226,0 407,-200 373,-432 -1,-3 0,-6 2,-8 44,-65 138,-65 182,0 2,2 3,5 2,8 -34,233 147,432 373,432 206,0 373,-164 377,-369 1,-5 4,-8 9,-8 h 36 c 88,0 88,-134 0,-134 z m -1354,378 c -135,0 -244,-110 -244,-244 0,-135 109,-245 244,-245 134,0 244,110 244,245 0,134 -110,244 -244,244 z m 932,0 c -134,0 -244,-110 -244,-244 0,-135 110,-245 244,-245 135,0 244,110 244,245 0,134 -109,244 -244,244 z"
    id="path914"
-   clip-path="url(#clipPath5610)"
+   clip-path="none"
    inkscape:label="researcher_glasses" />
            
           
@@ -3024,14 +1650,15 @@
    d="m 5221,13771 c -35,-18 -67,-26 -93,-30 -11,-4 -24,-6 -36,-6 h -583 c -12,0 -25,2 -36,6 -26,4 -58,12 -93,30 -81,40 -168,128 -229,284 -62,157 -104,384 -104,726 0,88 3,184 9,289 4,64 57,114 120,114 3,0 5,0 7,0 67,-4 118,-62 114,-128 -6,-101 -9,-192 -9,-275 0,-366 53,-571 105,-679 v 496 286 1480 c 0,103 83,187 186,187 103,0 187,-84 187,-187 v -1363 h 69 v 1363 c 0,103 84,187 187,187 103,0 186,-84 186,-187 v -1480 -286 -495 c 9,18 18,39 27,64 42,118 78,312 78,614 0,83 -3,174 -9,275 -4,66 47,124 114,127 2,1 4,1 7,1 63,0 116,-50 120,-114 6,-105 9,-201 9,-289 -1,-456 -73,-708 -172,-860 -50,-75 -108,-124 -161,-150 z"
    id="path928"
    inkscape:label="researcher_body"
-   clip-path="url(#clipPath5588)" />
+   clip-path="none" />
            
           
       </g><g
    class="Group"
    id="g991"
-   clip-path="url(#clipPath4718)"
-   inkscape:label="user">
+   clip-path="none"
+   inkscape:label="user"
+   transform="translate(-1000,-1230.5488)">
        
        <text
    class="SVGTextShape"
@@ -3051,12 +1678,11 @@
          style="white-space:pre"
          id="tspan966">User</tspan></tspan></tspan></text>
        <path
-   fill="#000000"
-   stroke="none"
-   d="m 5328,24809 c -38,-18 -73,-26 -100,-30 -13,-4 -26,-6 -40,-6 h -629 c -14,0 -27,2 -40,6 -27,4 -62,12 -100,30 -87,40 -182,128 -248,284 -67,157 -112,384 -112,726 0,88 3,184 10,289 4,64 61,114 130,114 2,0 5,0 7,0 72,-4 127,-62 123,-128 -7,-101 -9,-192 -9,-275 -1,-366 57,-571 113,-679 v 496 286 1480 c 0,103 90,187 201,187 112,0 202,-84 202,-187 v -1363 h 75 v 1363 c 0,103 90,187 202,187 111,0 201,-84 201,-187 v -1480 -286 -495 c 10,18 19,39 29,64 46,118 84,312 84,614 0,83 -2,174 -9,275 -4,66 51,124 123,127 2,1 5,1 7,1 69,0 126,-50 130,-114 7,-105 10,-201 10,-289 -1,-456 -79,-708 -186,-860 -54,-75 -116,-124 -174,-150 z"
-   id="path984"
-   clip-path="url(#clipPath5565)"
-   inkscape:label="user_body" /><g
+   id="path8755"
+   clip-path="none"
+   inkscape:label="user_body"
+   d="M 4559.0075 24772.987 C 4545.0075 24772.987 4532.0099 24774.982 4519.0099 24778.982 C 4492.01 24782.982 4457.016 24791.006 4419.0161 24809.006 C 4332.0161 24849.006 4237.0208 24937.02 4171.0209 25093.019 C 4104.0209 25250.019 4058.9864 25477.022 4058.9864 25819.022 C 4058.9864 25907.022 4062.0116 26002.996 4069.0116 26107.996 C 4073.0116 26171.996 4129.9779 26221.994 4198.9778 26221.994 L 4206.0058 26221.994 C 4278.0057 26217.994 4332.9957 26159.992 4328.9957 26093.992 C 4321.9957 25992.992 4320.004 25902.022 4320.004 25819.022 C 4319.004 25453.022 4377.0204 25247.993 4433.0204 25139.993 L 4433.0204 25635.984 L 4433.0204 25922.013 L 4433.0204 27402.026 C 4433.0204 27505.026 4522.9901 27588.991 4633.99 27588.991 C 4745.9899 27588.991 4835.9932 27505.026 4835.9932 27402.026 L 4835.9932 26039.008 L 4910.9757 26039.008 L 4910.9757 27402.026 C 4910.9757 27505.026 5000.979 27588.991 5112.9788 27588.991 C 5223.9787 27588.991 5314.0002 27505.026 5314.0002 27402.026 L 5314.0002 25922.013 L 5314.0002 25635.984 L 5314.0002 25140.975 C 5324.0002 25158.975 5332.9907 25180.002 5342.9906 25205.002 C 5388.9906 25323.002 5427.0165 25517.022 5427.0165 25819.022 C 5427.0165 25902.022 5425.0248 25992.992 5418.0248 26093.992 C 5414.0248 26159.992 5469.0148 26218.013 5541.0147 26221.013 C 5543.0147 26222.013 5545.9911 26221.994 5547.991 26221.994 C 5616.991 26221.994 5674.009 26171.996 5678.009 26107.996 C 5685.0089 26002.996 5687.9825 25907.022 5687.9825 25819.022 C 5686.9825 25363.022 5608.9989 25111.022 5501.999 24959.023 C 5447.9991 24884.023 5386.0044 24835.006 5328.0045 24809.006 C 5290.0045 24791.006 5255.0106 24782.982 5228.0106 24778.982 C 5215.0106 24774.982 5202.013 24772.987 5188.013 24772.987 L 4559.0075 24772.987 z "
+   mask="none" /><g
    class="Group"
    id="g962"
    inkscape:label="user_brille">
@@ -3091,24 +1717,27 @@
    stroke-linejoin="round"
    d="m 2646,12048 900,900"
    id="path995"
-   clip-path="url(#clipPath5473)"
-   transform="translate(-211.66667,52.916663)" /><path
+   clip-path="none"
+   transform="translate(-1211.6667,-1177.6322)" /><path
    fill="none"
    stroke="#000000"
    stroke-width="50"
    stroke-linejoin="round"
    d="m 2646,23048 900,900"
    id="path1002"
-   clip-path="url(#clipPath5496)" /><path
+   clip-path="none"
+   transform="translate(-1000,-1230.5488)" /><path
    fill="none"
    stroke="#000000"
    stroke-width="18"
    stroke-linejoin="round"
    d="m 15322,16271 h -500 l -2432,-396 h -527"
    id="path1036"
-   clip-path="url(#clipPath8936)" /><g
+   clip-path="none"
+   transform="translate(-1000,-1230.5488)" /><g
    id="id66"
-   clip-path="url(#clipPath5324)">
+   clip-path="none"
+   transform="translate(-1000,-1230.5488)">
         
         <path
    fill="none"
@@ -3127,15 +1756,18 @@
    inkscape:connector-curvature="0"
    sodipodi:nodetypes="cc" /></g><text
    class="SVGTextShape"
-   id="text1070"><tspan
+   id="text1070"
+   x="-1000"
+   y="-1230.5488"
+   clip-path="none"><tspan
      class="TextParagraph"
      font-family="Cantarell"
      font-size="423px"
      font-weight="400"
      id="tspan1056"><tspan
        class="TextPosition"
-       x="15572"
-       y="12256"
+       x="14572"
+       y="11025.451"
        id="tspan1054"><tspan
          fill="#000000"
          stroke="none"
@@ -3147,8 +1779,8 @@
      font-weight="400"
      id="tspan1062"><tspan
        class="TextPosition"
-       x="15572"
-       y="12752"
+       x="14572"
+       y="11521.451"
        id="tspan1060"><tspan
          fill="#000000"
          stroke="none"
@@ -3160,8 +1792,8 @@
      font-weight="400"
      id="tspan1068"><tspan
        class="TextPosition"
-       x="15572"
-       y="13248"
+       x="14572"
+       y="12017.451"
        id="tspan1066"><tspan
          fill="#000000"
          stroke="none"
@@ -3173,11 +1805,13 @@
    stroke-linejoin="round"
    d="m 11377,9790 v 0 l 3445,2834 h 500"
    id="path1077"
-   clip-path="url(#clipPath8893)" /><g
-   clip-path="url(#clipPath5270)"
+   clip-path="none"
+   transform="translate(-1000,-1230.5488)" /><g
+   clip-path="none"
    id="g1093"
-   style="stroke-width:8.20000003;stroke-dasharray:none"
-   inkscape:label="arrow_y">
+   style="stroke-width:8.2;stroke-dasharray:none"
+   inkscape:label="arrow_y"
+   transform="translate(-1000,-1230.5488)">
          
         <path
    fill="#ffffff"
@@ -3189,13 +1823,15 @@
    stroke="none"
    d="M 11135,17306 H 9866 v 635 h 106 v -529 h 1057 v 529 h 106 z m -174,884 -460,460 -461,-460 75,-75 333,333 v -825 h 105 v 825 l 333,-333 z"
    id="path1091"
-   style="display:inline;stroke-width:0;stroke-dasharray:none;stroke:none;stroke-opacity:1" /></g>
+   style="display:inline;stroke:none;stroke-width:0;stroke-dasharray:none;stroke-opacity:1" /></g>
    
   <g
    id="g8859"
-   inkscape:label="database"><g
+   inkscape:label="database"
+   transform="translate(-1000,-1230.5488)"
+   clip-path="none"><g
      id="id70"
-     clip-path="url(#clipPath5216)"
+     clip-path="none"
      inkscape:label="database_symbol">
         
         <path
@@ -3218,7 +1854,7 @@
    d="m 7541,19617 c 0,404 1320,731 2950,731 1630,0 2950,-327 2950,-731"
    id="path1104" />
        </g><g
-     clip-path="url(#clipPath5192)"
+     clip-path="none"
      id="g1153"
      inkscape:label="database_logo">
          <path
@@ -3308,43 +1944,53 @@
            id="tspan1166">Base</tspan></tspan></tspan></text></g>
 <path
    style="display:inline;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:50;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2)"
-   d="m 4896.8235,15961.533 2527.3556,2490.602"
+   d="M 3896.8234,14730.984 6424.179,17221.586"
    id="path1743"
    inkscape:connector-type="polyline"
-   inkscape:connector-curvature="0" /><path
+   inkscape:connector-curvature="0"
+   clip-path="none" /><path
    style="display:inline;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:50;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2-6)"
-   d="m 10475.875,23269.991 -5.111,740.597"
+   d="m 9475.8753,22039.442 -5.1113,740.597"
    id="path1743-9"
    inkscape:connector-type="polyline"
    inkscape:connector-curvature="0"
-   inkscape:connection-start="#g8859" /><path
+   inkscape:connection-start="#g8859"
+   clip-path="none" /><path
    style="display:inline;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:50;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2-5)"
-   d="m 6260.0522,25726.243 825.717,10.363"
+   d="m 5260.0521,24495.694 825.717,10.363"
    id="path1743-5"
    inkscape:connector-type="polyline"
-   inkscape:connector-curvature="0" /><path
+   inkscape:connector-curvature="0"
+   clip-path="none" /><path
    style="display:inline;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:50;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2-3)"
-   d="m 4882.4238,15157.151 2940.5523,-269.198"
+   d="M 3882.4237,13926.602 6822.976,13657.404"
    id="path1743-7"
    inkscape:connector-type="polyline"
-   inkscape:connector-curvature="0" /><path
+   inkscape:connector-curvature="0"
+   clip-path="none" /><path
    style="display:inline;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:50;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2-3-2)"
-   d="m 10496.337,15835.26 -1.035,1115.952"
+   d="m 9496.3368,14604.711 -1.035,1115.952"
    id="path1743-7-1"
    inkscape:connector-type="polyline"
-   inkscape:connector-curvature="0" /><path
+   inkscape:connector-curvature="0"
+   clip-path="none" /><path
    style="display:inline;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:50;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2-3-2-8)"
-   d="m 10511.45,12624.94 -1.035,1115.952"
+   d="m 9511.4498,11394.391 -1.035,1115.952"
    id="path1743-7-1-9"
    inkscape:connector-type="polyline"
-   inkscape:connector-curvature="0" /><path
+   inkscape:connector-curvature="0"
+   clip-path="none" /><path
    style="display:inline;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:50;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2-3-2-2)"
-   d="m 14062.988,7352.1559 8.787,1706.2385"
+   d="m 13062.988,6121.607 8.787,1706.2384"
    id="path1743-7-1-2"
    inkscape:connector-type="polyline"
-   inkscape:connector-curvature="0" /><path
+   inkscape:connector-curvature="0"
+   clip-path="none" /><path
    style="display:inline;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:50;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2-3-2-2-9)"
-   d="m 5827.75,5339.5164 1774.1904,-1.5775"
+   d="M 4827.7499,4108.9675 6601.9403,4107.39"
    id="path1743-7-1-2-2"
    inkscape:connector-type="polyline"
-   inkscape:connector-curvature="0" /></svg>
+   inkscape:connector-curvature="0"
+   clip-path="none" /><metadata
+   id="metadata2380"><rdf:RDF><cc:Work
+       rdf:about=""><dc:title>OKH Data-Flow Principle</dc:title></cc:Work></rdf:RDF></metadata></svg>
