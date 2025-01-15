@@ -27,9 +27,9 @@
    inkscape:deskcolor="#d1d1d1"
    inkscape:document-units="mm"
    showgrid="false"
-   inkscape:zoom="1.1893044"
-   inkscape:cx="201.37822"
-   inkscape:cy="979.14377"
+   inkscape:zoom="0.84096521"
+   inkscape:cx="576.12372"
+   inkscape:cy="420.35033"
    inkscape:window-width="1918"
    inkscape:window-height="1078"
    inkscape:window-x="0"
@@ -38,7 +38,24 @@
    inkscape:current-layer="svg1185" />
  <defs
    class="ClipPathGroup"
-   id="defs8">
+   id="defs8"><marker
+   style="overflow:visible"
+   id="Arrow2"
+   refX="0"
+   refY="0"
+   orient="auto-start-reverse"
+   inkscape:stockid="Arrow2"
+   markerWidth="8.8247509"
+   markerHeight="6.4180002"
+   viewBox="0 0 7.7 5.6"
+   inkscape:isstock="true"
+   inkscape:collect="always"
+   preserveAspectRatio="xMidYMid"
+   markerUnits="strokeWidth"><path
+     transform="scale(0.7)"
+     d="M -2,-4 9,0 -2,4 c 2,-2.33 2,-5.66 0,-8 z"
+     style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+     id="arrow2L" /></marker>
   
   <clipPath
    id="presentation_clip_path_shrink"
@@ -1427,7 +1444,143 @@
              width="21000"
              height="29700"
              id="rect8938"
-             style="stroke-width:28.222" /></g></g></g></g></clipPath></defs>
+             style="stroke-width:28.222" /></g></g></g></g></clipPath><marker
+   style="overflow:visible"
+   id="Arrow2-3"
+   refX="0"
+   refY="0"
+   orient="auto-start-reverse"
+   inkscape:stockid="Arrow2"
+   markerWidth="8.8247509"
+   markerHeight="6.4180002"
+   viewBox="0 0 7.7 5.6"
+   inkscape:isstock="true"
+   inkscape:collect="always"
+   preserveAspectRatio="xMidYMid"
+   markerUnits="strokeWidth"><path
+     transform="scale(0.7)"
+     d="M -2,-4 9,0 -2,4 c 2,-2.33 2,-5.66 0,-8 z"
+     style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+     id="arrow2L-6" /></marker><marker
+   style="overflow:visible"
+   id="Arrow2-5"
+   refX="0"
+   refY="0"
+   orient="auto-start-reverse"
+   inkscape:stockid="Arrow2"
+   markerWidth="8.8247509"
+   markerHeight="6.4180002"
+   viewBox="0 0 7.7 5.6"
+   inkscape:isstock="true"
+   inkscape:collect="always"
+   preserveAspectRatio="xMidYMid"
+   markerUnits="strokeWidth"><path
+     transform="scale(0.7)"
+     d="M -2,-4 9,0 -2,4 c 2,-2.33 2,-5.66 0,-8 z"
+     style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+     id="arrow2L-3" /></marker><marker
+   style="overflow:visible"
+   id="Arrow2-6"
+   refX="0"
+   refY="0"
+   orient="auto-start-reverse"
+   inkscape:stockid="Arrow2"
+   markerWidth="8.8247509"
+   markerHeight="6.4180002"
+   viewBox="0 0 7.7 5.6"
+   inkscape:isstock="true"
+   inkscape:collect="always"
+   preserveAspectRatio="xMidYMid"
+   markerUnits="strokeWidth"><path
+     transform="scale(0.7)"
+     d="M -2,-4 9,0 -2,4 c 2,-2.33 2,-5.66 0,-8 z"
+     style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+     id="arrow2L-2" /></marker><marker
+   style="overflow:visible"
+   id="Arrow2-3-2"
+   refX="0"
+   refY="0"
+   orient="auto-start-reverse"
+   inkscape:stockid="Arrow2"
+   markerWidth="8.8247509"
+   markerHeight="6.4180002"
+   viewBox="0 0 7.7 5.6"
+   inkscape:isstock="true"
+   inkscape:collect="always"
+   preserveAspectRatio="xMidYMid"
+   markerUnits="strokeWidth"><path
+     transform="scale(0.7)"
+     d="M -2,-4 9,0 -2,4 c 2,-2.33 2,-5.66 0,-8 z"
+     style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+     id="arrow2L-6-6" /></marker><marker
+   style="overflow:visible"
+   id="Arrow2-3-2-8"
+   refX="0"
+   refY="0"
+   orient="auto-start-reverse"
+   inkscape:stockid="Arrow2"
+   markerWidth="8.8247509"
+   markerHeight="6.4180002"
+   viewBox="0 0 7.7 5.6"
+   inkscape:isstock="true"
+   inkscape:collect="always"
+   preserveAspectRatio="xMidYMid"
+   markerUnits="strokeWidth"><path
+     transform="scale(0.7)"
+     d="M -2,-4 9,0 -2,4 c 2,-2.33 2,-5.66 0,-8 z"
+     style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+     id="arrow2L-6-6-7" /></marker><marker
+   style="overflow:visible"
+   id="Arrow2-3-2-2"
+   refX="0"
+   refY="0"
+   orient="auto-start-reverse"
+   inkscape:stockid="Arrow2"
+   markerWidth="8.8247509"
+   markerHeight="6.4180002"
+   viewBox="0 0 7.7 5.6"
+   inkscape:isstock="true"
+   inkscape:collect="always"
+   preserveAspectRatio="xMidYMid"
+   markerUnits="strokeWidth"><path
+     transform="scale(0.7)"
+     d="M -2,-4 9,0 -2,4 c 2,-2.33 2,-5.66 0,-8 z"
+     style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+     id="arrow2L-6-6-0" /></marker><marker
+   style="overflow:visible"
+   id="Arrow2-3-2-2-9"
+   refX="0"
+   refY="0"
+   orient="auto-start-reverse"
+   inkscape:stockid="Arrow2"
+   markerWidth="8.8247509"
+   markerHeight="6.4180002"
+   viewBox="0 0 7.7 5.6"
+   inkscape:isstock="true"
+   inkscape:collect="always"
+   preserveAspectRatio="xMidYMid"
+   markerUnits="strokeWidth"><path
+     transform="scale(0.7)"
+     d="M -2,-4 9,0 -2,4 c 2,-2.33 2,-5.66 0,-8 z"
+     style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+     id="arrow2L-6-6-0-2" /></marker><marker
+   style="overflow:visible"
+   id="Arrow2-3-2-2-3"
+   refX="0"
+   refY="0"
+   orient="auto-start-reverse"
+   inkscape:stockid="Arrow2"
+   markerWidth="8.8247509"
+   markerHeight="6.4180002"
+   viewBox="0 0 7.7 5.6"
+   inkscape:isstock="true"
+   inkscape:collect="always"
+   preserveAspectRatio="xMidYMid"
+   markerUnits="strokeWidth"><path
+     transform="scale(0.7)"
+     d="M -2,-4 9,0 -2,4 c 2,-2.33 2,-5.66 0,-8 z"
+     style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+     id="arrow2L-6-6-0-7" /></marker></defs>
  <defs
    id="defs113">
   <font
@@ -2093,20 +2246,22 @@
      clip-path="url(#clipPath8242)"
      inkscape:label="bracket_apis" /><text
      class="SVGTextShape"
-     id="text377"><tspan
+     id="text377"
+     x="12364.418"
+     y="5537.0342"><tspan
        class="TextParagraph"
        font-family="Cantarell"
        font-size="635px"
        font-weight="400"
-       id="tspan375"><tspan
-         class="TextPosition"
-         x="12554"
-         y="5593"
-         id="tspan373"><tspan
-           fill="#000000"
-           stroke="none"
-           style="white-space:pre"
-           id="tspan371">Wikifactory</tspan></tspan></tspan></text><g
+       id="tspan375">Appropedia<tspan
+   class="TextPosition"
+   x="24918.418"
+   y="11130.034"
+   id="tspan373"><tspan
+     fill="#000000"
+     stroke="none"
+     style="white-space:pre"
+     id="tspan371" /></tspan></tspan></text><g
      class="Group"
      id="g428"
      clip-path="url(#clipPath5014)"
@@ -2175,14 +2330,15 @@
        
       </g><text
      class="SVGTextShape"
-     id="text438"><tspan
+     id="text438"
+     x="-73.818207"><tspan
        class="TextParagraph"
        font-family="Cantarell"
        font-size="635px"
        font-weight="400"
        id="tspan436"><tspan
          class="TextPosition"
-         x="16437"
+         x="16363.182"
          y="5593"
          id="tspan434"><tspan
            fill="#000000"
@@ -2190,14 +2346,15 @@
            style="white-space:pre"
            id="tspan432">OSHWA</tspan></tspan></tspan></text><text
      class="SVGTextShape"
-     id="text451"><tspan
+     id="text451"
+     x="19.667818"><tspan
        class="TextParagraph"
        font-family="OCRA, monospace"
        font-size="423px"
        font-weight="400"
        id="tspan449"><tspan
          class="TextPosition"
-         x="8515"
+         x="8534.668"
          y="6773"
          id="tspan447"><tspan
            fill="#000000"
@@ -2205,14 +2362,15 @@
            style="white-space:pre"
            id="tspan445">API</tspan></tspan></tspan></text><text
      class="SVGTextShape"
-     id="text464"><tspan
+     id="text464"
+     x="-23.332182"><tspan
        class="TextParagraph"
        font-family="OCRA, monospace"
        font-size="423px"
        font-weight="400"
        id="tspan462"><tspan
          class="TextPosition"
-         x="10641"
+         x="10617.668"
          y="6773"
          id="tspan460"><tspan
            fill="#000000"
@@ -2309,23 +2467,6 @@
    d="m 3545,5436 -22,30 390,-140 -390,-139 21,28 17,33 11,37 5,39 -4,40 -11,38 z"
    id="path547" />
        </g><g
-   id="id27"
-   clip-path="url(#clipPath7545)"
-   inkscape:label="arrow_x">
-        
-        <path
-   fill="none"
-   stroke="#000000"
-   stroke-width="53"
-   stroke-linejoin="round"
-   d="M 5810,5326 H 7581"
-   id="path554" />
-        <path
-   fill="#000000"
-   stroke="none"
-   d="m 7584,5436 -22,30 390,-140 -390,-139 21,28 17,33 11,37 5,39 -4,40 -11,38 z"
-   id="path556" />
-       </g><g
    id="g8967"
    inkscape:label="title"><text
      class="SVGTextShape"
@@ -2367,24 +2508,7 @@
        d="m 11367,1880 v 650 h 3041 v 517"
        id="path570"
        clip-path="url(#clipPath7477)"
-       transform="matrix(1.6019001,0,0,1,-8688.1265,0)" /></g></g><g
-   id="id30"
-   clip-path="url(#clipPath7435)"
-   inkscape:label="arrow_x">
-        
-        <path
-   fill="none"
-   stroke="#000000"
-   stroke-width="53"
-   stroke-linejoin="round"
-   d="m 14063,7361 1,1534"
-   id="path577" />
-        <path
-   fill="#000000"
-   stroke="none"
-   d="m 13914,8899 -40,-29 191,529 188,-530 -38,29 -46,23 -49,15 -54,6 -54,-4 -51,-16 z"
-   id="path579" />
-       </g><text
+       transform="matrix(1.6019001,0,0,1,-8688.1265,0)" /></g></g><text
    class="SVGTextShape"
    id="text614"
    inkscape:label="t_discover_and_exploit"><tspan
@@ -2537,24 +2661,7 @@
          fill="#000000"
          stroke="none"
          style="white-space:pre"
-         id="tspan661">linked-data format</tspan></tspan></tspan></text><g
-   id="id35"
-   clip-path="url(#clipPath7241)"
-   inkscape:label="arrow_x">
-        
-        <path
-   fill="none"
-   stroke="#000000"
-   stroke-width="53"
-   stroke-linejoin="round"
-   d="m 10500,15990 1,812"
-   id="path674" />
-        <path
-   fill="#000000"
-   stroke="none"
-   d="m 10351,16806 -40,-29 191,529 188,-530 -38,29 -46,23 -49,15 -54,6 -54,-4 -51,-16 z"
-   id="path676" />
-       </g><path
+         id="tspan661">linked-data format</tspan></tspan></tspan></text><path
    fill="none"
    stroke="#000000"
    stroke-width="53"
@@ -2600,23 +2707,6 @@
          stroke="none"
          style="white-space:pre"
          id="tspan708">.toml</tspan></tspan></tspan></text>
-       </g><g
-   id="id39"
-   clip-path="url(#clipPath7053)"
-   inkscape:label="arrow_x">
-        
-        <path
-   fill="none"
-   stroke="#000000"
-   stroke-width="53"
-   stroke-linejoin="round"
-   d="m 10514,12990 -8,599"
-   id="path721" />
-        <path
-   fill="#000000"
-   stroke="none"
-   d="m 10356,13592 -39,-31 184,532 195,-527 -38,28 -46,22 -50,15 -54,5 -54,-5 -51,-16 z"
-   id="path723" />
        </g><text
    class="SVGTextShape"
    id="text742"><tspan
@@ -2650,20 +2740,21 @@
    inkscape:label="toml"><text
      class="SVGTextShape"
      id="text278"
-     inkscape:label="tokh_toml_label"><tspan
+     inkscape:label="tokh_toml_label"
+     x="938.47485"><tspan
        class="TextParagraph"
        font-family="Cantarell"
        font-size="635px"
        font-weight="400"
        id="tspan276"><tspan
          class="TextPosition"
-         x="3212"
+         x="4150.4756"
          y="7131"
          id="tspan274"><tspan
            fill="#000000"
            stroke="none"
            style="white-space:pre"
-           id="tspan272">OKH-LOSH</tspan></tspan></tspan></text><g
+           id="tspan272">OKH</tspan></tspan></tspan></text><g
      id="id42"
      clip-path="url(#clipPath6894)"
      inkscape:label="toml_symbol">
@@ -2843,23 +2934,6 @@
    d="M 12041,26007 H 8963 l -67,67 v 533 l 67,67 h 3078 l 67,-67 v -533 z m -3095,-71 h 3108 17 l 8,8 88,88 8,12 v 13 567 13 l -8,12 -88,83 -8,13 h -17 -3108 -12 l -13,-13 -88,-83 -8,-12 v -13 -567 -13 l 8,-12 88,-88 13,-8 z"
    id="path866" />
        </g></g><g
-   id="id49"
-   clip-path="url(#clipPath5737)"
-   inkscape:label="arrox_x">
-        
-        <path
-   fill="none"
-   stroke="#000000"
-   stroke-width="50"
-   stroke-linejoin="round"
-   d="m 10500,23208 v 794"
-   id="path873" />
-        <path
-   fill="#000000"
-   stroke="none"
-   d="m 10389,24005 -29,-22 140,391 140,-391 -28,21 -34,17 -37,11 -39,4 -40,-3 -38,-11 z"
-   id="path875" />
-       </g><g
    id="g8981"
    inkscape:label="backend"><text
      class="SVGTextShape"
@@ -2915,18 +2989,20 @@
    class="Group"
    id="g935"
    clip-path="url(#clipPath4726)"
-   inkscape:label="researcher">
+   inkscape:label="researcher"
+   transform="translate(-1111.2501,529.16669)">
        <text
    class="SVGTextShape"
    id="text902"
-   inkscape:label="researcher_label"><tspan
+   inkscape:label="researcher_label"
+   x="-232.87769"><tspan
      class="TextParagraph"
      font-family="Cantarell"
      font-size="635px"
      font-weight="400"
      id="tspan900"><tspan
        class="TextPosition"
-       x="3220"
+       x="2987.1223"
        y="17383"
        id="tspan898"><tspan
          fill="#000000"
@@ -3015,62 +3091,15 @@
    stroke-linejoin="round"
    d="m 2646,12048 900,900"
    id="path995"
-   clip-path="url(#clipPath5473)" /><path
+   clip-path="url(#clipPath5473)"
+   transform="translate(-211.66667,52.916663)" /><path
    fill="none"
    stroke="#000000"
    stroke-width="50"
    stroke-linejoin="round"
    d="m 2646,23048 900,900"
    id="path1002"
-   clip-path="url(#clipPath5496)" /><g
-   id="id62"
-   clip-path="url(#clipPath5411)">
-        
-        <path
-   fill="none"
-   stroke="#000000"
-   stroke-width="50"
-   stroke-linejoin="round"
-   d="m 6309,14923 h 801"
-   id="path1009" />
-        <path
-   fill="#000000"
-   stroke="none"
-   d="m 7114,15042 -24,31 419,-150 -419,-150 22,30 18,36 13,40 4,42 -3,43 -12,41 z"
-   id="path1011" />
-       </g><g
-   id="id63"
-   clip-path="url(#clipPath5389)">
-        
-        <path
-   fill="none"
-   stroke="#000000"
-   stroke-width="50"
-   stroke-linejoin="round"
-   d="m 6305,14908 421,784"
-   id="path1018" />
-        <path
-   fill="#000000"
-   stroke="none"
-   d="m 6623,15752 -38,-6 330,298 -66,-440 -16,34 -23,33 -29,29 -36,24 -39,18 -41,8 z"
-   id="path1020" />
-       </g><g
-   id="id64"
-   clip-path="url(#clipPath5367)">
-        
-        <path
-   fill="none"
-   stroke="#000000"
-   stroke-width="50"
-   stroke-linejoin="round"
-   d="m 6273,25712 h 801"
-   id="path1027" />
-        <path
-   fill="#000000"
-   stroke="none"
-   d="m 7078,25831 -24,31 419,-150 -419,-150 22,30 18,36 13,40 4,42 -3,43 -12,41 z"
-   id="path1029" />
-       </g><path
+   clip-path="url(#clipPath5496)" /><path
    fill="none"
    stroke="#000000"
    stroke-width="18"
@@ -3086,14 +3115,17 @@
    stroke="#000000"
    stroke-width="53"
    stroke-linejoin="round"
-   d="m 6881,5326 v 2704 h 4501 v 2187"
-   id="path1043" />
-        <path
-   fill="#000000"
-   stroke="none"
-   d="m 11262,10220 -32,-24 152,425 152,-425 -31,23 -36,18 -40,13 -43,4 -44,-3 -41,-12 z"
-   id="path1045" />
-       </g><text
+   d="m 6881,5326 v 2704 h 4501"
+   id="path1043"
+   sodipodi:nodetypes="ccc" />
+        
+       <path
+   style="display:inline;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:50;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2-3-2-2-3)"
+   d="m 11356.927,8003.2875 -4.946,2236.8415"
+   id="path1743-7-1-2-5"
+   inkscape:connector-type="polyline"
+   inkscape:connector-curvature="0"
+   sodipodi:nodetypes="cc" /></g><text
    class="SVGTextShape"
    id="text1070"><tspan
      class="TextParagraph"
@@ -3274,4 +3306,45 @@
            stroke="none"
            style="white-space:pre"
            id="tspan1166">Base</tspan></tspan></tspan></text></g>
-</svg>
+<path
+   style="display:inline;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:50;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2)"
+   d="m 4896.8235,15961.533 2527.3556,2490.602"
+   id="path1743"
+   inkscape:connector-type="polyline"
+   inkscape:connector-curvature="0" /><path
+   style="display:inline;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:50;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2-6)"
+   d="m 10475.875,23269.991 -5.111,740.597"
+   id="path1743-9"
+   inkscape:connector-type="polyline"
+   inkscape:connector-curvature="0"
+   inkscape:connection-start="#g8859" /><path
+   style="display:inline;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:50;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2-5)"
+   d="m 6260.0522,25726.243 825.717,10.363"
+   id="path1743-5"
+   inkscape:connector-type="polyline"
+   inkscape:connector-curvature="0" /><path
+   style="display:inline;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:50;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2-3)"
+   d="m 4882.4238,15157.151 2940.5523,-269.198"
+   id="path1743-7"
+   inkscape:connector-type="polyline"
+   inkscape:connector-curvature="0" /><path
+   style="display:inline;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:50;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2-3-2)"
+   d="m 10496.337,15835.26 -1.035,1115.952"
+   id="path1743-7-1"
+   inkscape:connector-type="polyline"
+   inkscape:connector-curvature="0" /><path
+   style="display:inline;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:50;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2-3-2-8)"
+   d="m 10511.45,12624.94 -1.035,1115.952"
+   id="path1743-7-1-9"
+   inkscape:connector-type="polyline"
+   inkscape:connector-curvature="0" /><path
+   style="display:inline;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:50;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2-3-2-2)"
+   d="m 14062.988,7352.1559 8.787,1706.2385"
+   id="path1743-7-1-2"
+   inkscape:connector-type="polyline"
+   inkscape:connector-curvature="0" /><path
+   style="display:inline;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:50;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2-3-2-2-9)"
+   d="m 5827.75,5339.5164 1774.1904,-1.5775"
+   id="path1743-7-1-2-2"
+   inkscape:connector-type="polyline"
+   inkscape:connector-curvature="0" /></svg>
