@@ -1,7 +1,7 @@
 # Open Know-How (OKH)
 
 <!--
-SPDX-FileCopyrightText: 2021 - 2024 Robin Vobruba <hoijui.quaero@gmail.com>
+SPDX-FileCopyrightText: 2021 - 2025 Robin Vobruba <hoijui.quaero@gmail.com>
 SPDX-FileCopyrightText: 2021 Martin Häuer <martin.haeuer@ose-germany.de>
 
 SPDX-License-Identifier: CC0-1.0
@@ -72,6 +72,7 @@ with lots of arguing by [Open Source Ecology Germany e.V. (OSEG)][OSEG],
 ice- and ground-breaking by Sarah Hutton from [IoPA],
 and a final flood of good will and courage by Nathan from [IoPA].
 
+<!-- markdownlint-disable MD033 -->
 <details>
 <summary>LOSH adoption proposal</summary>
 
@@ -122,8 +123,8 @@ https://www.gnu.org/philosophy/free-sw.en.html)
 where the word free refers to freedom, _not_ free-of-charge.
 When put in practice,
 these freedoms could potentially not only reduce proprietary vendor lock-in,
-planned obsolescence, or waste but also stimulate novel –
-even disruptive – business models.
+planned obsolescence, or waste but also stimulate novel -
+even disruptive - business models.
 The SME partners in [OPEN!NEXT] are experimenting
 with producing open source hardware and even opening up the development process
 to wider community participation.
@@ -169,7 +170,7 @@ Standards are the backbone for this approach.
 
 ### short & crisp
 
-We are aiming to build the (real) Internet of Things –
+We are aiming to build the (real) Internet of Things -
 the Internet of Open Hardware.
 
 ## Scope
@@ -239,20 +240,22 @@ Or rather, how does this 'tool' look like?**
 
 There's a long list of [cool use cases](doc/requirements/LinkedData_Qs.md)
 of such a knowledge base.
-Lots of information (including the technical documentation itself)
-could be stored as linked open data or simply linked together.
+Lots of information
+(including the technical documentation itself)
+could be stored as linked open data
+or simply linked together.
 
-The future could bring e.g.:
+The future could bring:
 
 - automated quality & completeness checks for the technical documentation
 - unambiguous reference of all parts
   (e.g. to a library of standard components or to other OSH)
-- automated matchmaking to manufacturers based on production metadata
-- automated matchmaking with suitable finding opportunities
+- automated match-making to manufacturers based on production metadata
+- automated match-making with suitable finding opportunities
 
 ## Technical details
 
-**How does the data-flow generally work?**
+### Data-Flow
 
 ![data-flow illustration](res/media/img/dataflow-principle.svg)
 
@@ -324,8 +327,8 @@ TODO More!
 - Test (has to be run locally): [RDF-DB tester]
   This fetches the crawled data, starts a DB,
   enters the data into the DB,
-  and then allows to query that data by code ([SPARQL] querries)
-  or through a web interface (also [SPARQL] querries)
+  and then allows to query that data by code ([SPARQL] queries)
+  or through a web interface (also [SPARQL] queries)
   with syntax highlighting and showing the results in a nice table format.
   Crawled data (from 2022):
   <https://gitlab.opensourceecology.de/verein/projekte/losh-rdf/-/tree/main/RDF>
@@ -361,7 +364,7 @@ https://iop-alliance.github.io/OpenKnowHow/).
 You can find:
 
 - Markdown files laying out the structure,
-- GraphViz/DOT graps/diagrams representing the structure,
+- GraphViz/DOT graphs/diagrams representing the structure,
 - PNG & SVG renders of the graphs/diagrams
 
 Note that when invalid TTL files are pushed,
@@ -383,7 +386,7 @@ For now,
 the old, outdated front-end of the OKH LOSH system
 is still the easiest way to get an idea
 about what will be possible with this system for end-users.
-It helps you to search the data on our Wikibase instance.
+It helps you to search the data on our WikiBase instance.
 
 - code: <https://github.com/wmde/LOSH-Frontend/>
 - test-instance: <https://losh.opennext.eu/>
@@ -408,9 +411,11 @@ CODE_OF_CONDUCT.md)
 
 ## Why are we doing this?
 
-"Human history, closely explored,
-boils down to the history of invention of better tools." \
-– Ernst Knapp: cultural geographer (1808-1896)
+> Human history, closely explored,
+> boils down to the history of invention of better tools.
+
+by Ernst Knapp:
+cultural geographer (1808-1896)
 
 [Appropedia]: https://www.appropedia.org/
 [DAPSI]: https://dapsi.ngi.eu/
