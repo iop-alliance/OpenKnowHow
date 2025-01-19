@@ -177,62 +177,73 @@ the Internet of Open Hardware.
 
 ### Q&A
 
-**What is the domain that the ontology will cover?**
+#### What is the domain that the ontology will cover?
 
-Open source hardware modules. \
-A "module" is defined here as an assembly with a defined purpose.
-The scope/size of a module is defined by every project individually.
-On git-based systems, every repository represents exactly one module
-(except otherwise noted).
+Open Source Hardware documentation-/design-projects. \
+These are assemblies with a defined purpose.
+This is not limited to the fields of electronics and mechanical machines,
+like a tractor or a coffee machine,
+but extends to clothing,
+simple things like pots, tables and chairs,
+and even chemical mixtures.
+In short, "hardware" here really refers to a physical object:
+An inanimate, three-dimensional object or substance.
 
-**Who's the end-user you have in mind?**
+On git-based systems,
+we recommend that one repository represents one project.
 
-1. developers\
-    the whole thing here is first and foremost about **design reuse**
-2. manufacturers / service providers \
+#### Who's the end-user you have in mind?
+
+1. Project developers, \
+    as the whole thing here is first and foremost about **design reuse**
+2. Manufacturers and other service providers \
     find OSH published under a free/open license
-    (we perform quality checks) so that you can modify,
-    replicate and exploit OSH products
-    however you like e.g. for cases of decentralized (mass) production,
-    maintenance and service provision – or just for yourself.
+    (we perform quality checks).
+    This way, anyone can modify, replicate and exploit OSH products however they like,
+    e.g. for cases of decentralized (mass-)production,
+    maintenance and service provision -
+    or just for themselves.
 
-**What's the problem this thing is solving?
-Or rather, how does this 'tool' look like?**
+#### What's the problem this thing is solving?
 
 1. It's a powerful filter for OSH.
     Find what you actually need.
 2. It's a knowledge base capable of
     1. answering complex questions like
         "What development platforms are mainly used among OSH projects
-        that got certified by [OSHWA] or attested according to DIN SPEC 3105-2?";
+        that got certified by [OSHWA]
+        or attested according to DIN SPEC 3105-2?";
     2. cross-linking information
         (e.g. ongoing research with OSH designs
         related to sustainable agriculture).
 
-**What are use-cases of the ontology?**
+#### What are use-cases of the ontology?
 
 - find the OSH that solves your problem
   (→ **linking OSH modules with functional categories**)
   - filter for license, certificate, functional categories,
     file formats…
   - e.g. search for renewable energy related projects
-- provide portable metadata: OSH can be published on various platforms
-- facilitate packaging: essential files can be directly linked in the metadata, so:
+- provide portable metadata:
+  OSH can be published on various platforms
+- facilitate packaging:
+  essential files can be directly linked in the metadata,
+  so:
   - we can run periodic tests to see whether files are still online,
   - you can download those files directly from an OKH web front-end
 - RDF enables custom use cases
   (e.g. for researchers or other OSH platforms)
-  e.g. by writing custom queries ([SPARQL])
+  for example by writing custom queries ([SPARQL])
   or by linking to other data/knowledge bases,
-  such as a public DB about plants
+  such as a public DB about plants.
 
-**Who will use and maintain the ontology?**
+#### Who will use and maintain the ontology?
 
 1. all the awesome communities that provide the ontology modules we are using,
-    e.g. SPDX
-2. first and foremost: **us**
-3. this ontology is yet to be presented to the Open Know-How Community;
-    they may choose to endorse this approach as Version 2.0.0 of their specification.
+    e.g. [Appropedia]
+2. first and foremost:
+    [IoPA] and [OSEG]
+3. the able and enthusiastic people of the wider Open Know-How community
 
 ### Outlook
 
