@@ -24,3 +24,4 @@ SPDX-License-Identifier: CC0-1.0
 | ![Binoculars](noun_Binoculars_79901.svg) | [Binoculars](https://thenounproject.com/search/?q=79901&i=79901) | Gabriele Malaspina | [CC-BY-3.0](https://creativecommons.org/licenses/by/3.0/us/legalcode) |
 | ![GitLab logo](gitlab-logo.svg) | [GitLab logo](https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/logo/logo.svg) | GitLab | [CC-BY-NC-SA-4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode) |
 | ![GitHub logo](github-logo.svg) | [GitHub logo](https://github-media-downloads.s3.amazonaws.com/GitHub-Mark.zip) | GitHub | NOT FREE <https://github.com/logos> |
+| ![Apache Jena logo](Apache_Jena_logo.svg) | [Apache Jena logo](https://commons.wikimedia.org/wiki/File:Apache_Jena_logo.svg) | The Apache Software Foundation | [Apache-2.0](https://en.wikipedia.org/wiki/Apache_License) |
