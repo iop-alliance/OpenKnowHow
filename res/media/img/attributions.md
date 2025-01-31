@@ -10,6 +10,7 @@ SPDX-License-Identifier: CC0-1.0
 | IMAGE | NAME & SOURCE | AUTHOR | LICENSE |
 |-------|---------------|--------|---------|
 | ![document](noun_Document_1830658.svg)       | [document](https://thenounproject.com/search/?q=1830658&i=1830658)                    | arjuazka       | [CC-BY-3.0](https://creativecommons.org/licenses/by/3.0/us/legalcode) |
+| ![document](noun_git_6901570.svg)       | [git](https://thenounproject.com/icon/git-6901570/)                    | <https://thenounproject.com/creator/sukmaaditia41/>       | [CC-BY-3.0](https://creativecommons.org/licenses/by/3.0/us/legalcode) |
 | ![platform](noun_platform_3097564.svg)       | [platform](https://thenounproject.com/search/?q=3097564&i=3097564)                    | Adrien Coquet  | [CC-BY-3.0](https://creativecommons.org/licenses/by/3.0/us/legalcode) |
 | ![scientist](noun_Scientist_770801.svg)      | [scientist](https://thenounproject.com/search/?q=770801&i=770801)                     | Gregor Cresnar | [CC-BY-3.0](https://creativecommons.org/licenses/by/3.0/us/legalcode) |
 | ![transporter](noun_transporter_745250.svg)  | [transporter](https://thenounproject.com/search/?q=745250&i=745250)                   | Ralf Schmitzer | [CC-BY-3.0](https://creativecommons.org/licenses/by/3.0/us/legalcode) |
