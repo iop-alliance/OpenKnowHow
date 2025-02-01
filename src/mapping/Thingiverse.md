@@ -1,14 +1,16 @@
+---
+title: Ontology Mapping | Thingiverse → OKH-LOSHv1
+---
+
+# Ontology Mapping | Thingiverse → OKH
+
 <!--
 SPDX-FileCopyrightText: 2021 Martin Häuer <martin.haeuer@ose-germany.de>
 
 SPDX-License-Identifier: GPL-3.0-or-later
 -->
 
----
-title: Ontology Mapping | Thingiverse → OKH-LOSHv1
-...
-
-# General
+## General
 
 get only projects with:
 
@@ -20,14 +22,14 @@ get only projects with:
   - "name"
   - "creator":"name"
 
-# Direct Mapping
+## Direct Mapping
 
-```
-"name" = name
-"license" = license [SPDX-ID]
-"creator" = licensor
-"public_url" = repo
-"thumbnail" = image
+```toml
+name = name
+license = license [SPDX-ID]
+creator = licensor
+public_url = repo
+thumbnail = image
 ```
 
 What about:

@@ -6,12 +6,12 @@ SPDX-FileCopyrightText: 2024 Robin Vobruba <hoijui.quaero@gmail.com>
 SPDX-License-Identifier: CC0-1.0
 -->
 
-
 ## Unsorted
 
 ### Julieta
 
-The field that you might be looking for is called "ontology engineering" in the Semantic Web.
+The field that you might be looking for
+is called "ontology engineering" in the Semantic Web.
 Over the past years,
 there have been many methodologies that have been defined
 to specify a methodological framework for developing ontologies/vocabularies
@@ -46,7 +46,8 @@ The pointer I mentioned in the last event
 is a repository with existing ontologies that one can (re-)use --
 like an open data portal,
 but for vocabularies (5) <https://lov.linkeddata.es/dataset/lov/>.\
-It might be useful to get the URIs of classes and/or properties in these ontologies to,
+It might be useful to get the URIs
+of classes and/or properties in these ontologies to,
 for instance, type your entities
 (i.e., add a statement of the shape `entity rdf:type external_type`
 or `entity wdt:p31 external_type`.
@@ -54,7 +55,7 @@ But you can also develop your ontology
 and then map or align it to existing ones.
 The reason why one does that,
 is to integrate your data set and ontology with others,
-hence, weave the linked dataspace.
+hence, weave the linked data-space.
 
 Besides that,
 a book that I would totally recommend is the Linked Data book:
@@ -83,7 +84,7 @@ my2c. :)
 
 ### publishing RDF vocabularies
 
-- http://www.w3.org/TR/swbp-vocab-pub/
+- <http://www.w3.org/TR/swbp-vocab-pub/>
 
 ## Software
 

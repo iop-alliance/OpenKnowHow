@@ -1,3 +1,9 @@
+---
+title: Technology Readiness Levels for Open Source Hardware
+---
+
+# Technology Readiness Levels for Open Source Hardware
+
 <!--
 SPDX-FileCopyrightText: 2021 - 2023 Robin Vobruba <hoijui.quaero@gmail.com>
 SPDX-FileCopyrightText: 2021 Martin Häuer <martin.haeuer@ose-germany.de>
@@ -5,17 +11,11 @@ SPDX-FileCopyrightText: 2021 Martin Häuer <martin.haeuer@ose-germany.de>
 SPDX-License-Identifier: GPL-3.0-or-later
 -->
 
----
-title: Technology Readiness Levels for Open Source Hardware
----
-
-# Notes
-
 - requirements:
-  - rapidly assess suitibility of technology for a certain use case & operation environment
+  - rapidly assess suitability of technology for a certain use case & operation environment
     (& easily monitor progress made by the project in this regard)
   - fast & intuitive assessment
-    → clear criteria, least possible testing / data akquisition possible
+    → clear criteria, least possible testing / data acquisition possible
   - Compare very diverse technologies
     (as stated in [this paper](https://ec.europa.eu/isa2/sites/isa/files/technology_readiness_revisited_-_icegov2020.pdf))
     → high abstraction
@@ -25,7 +25,7 @@ title: Technology Readiness Levels for Open Source Hardware
   - …considering ESA's handbook ([ref](https://artes.esa.int/sites/default/files/TRL_Handbook.pdf))
     and NASA's definitions ([ref](https://www.nasa.gov/pdf/458490main_TRL_Definitions.pdf))
 
-# Principle
+## Principle
 
 Based on a known and widely used concept:
 
@@ -49,7 +49,7 @@ Regardless of the criticism,
 the TRL approach is chosen as it is well tested and simpler,
 thus easier to use.
 That stated, the authors found TRL more suitable for a stable,
-decentralised application in an open source environment than proposed alternatives
+decentralized application in an open source environment than proposed alternatives
 (as e.g. [ref](https://apps.dtic.mil/sti/pdfs/ADA443149.pdf)).
 
 It is a special property of open source hardware
@@ -65,9 +65,9 @@ Hence, two scales are introduced:
 Both will be provided as text and RDF document
 to ensure equally human and machine readability.
 
-# Concept
+## Concept
 
-## OTRL
+### OTRL
 
 Resources:
 
@@ -82,7 +82,7 @@ Resources:
 |OTRL 2|Conception|Mature product concept has been formulated|
 |OTRL 3|Development|Product model is developed|
 |OTRL 4|Prototyping and testing|Full functional prototype is built and tested|
-|OTRL 5|Manufacturing development|Fairly reliable processes identified and characterised|
+|OTRL 5|Manufacturing development|Fairly reliable processes identified and characterized|
 |OTRL 6|Product qualification|Certificate marking conformity assessment or comparable|
 
 <!--
@@ -100,38 +100,38 @@ OTRL 5 → Prusa i3
 basically:
 
 1. defining requirements
-2. conceptionalise the solution
-3. translate solution conecpt into a physical hardware solution
+2. conceptualize the solution
+3. translate solution concept into a physical hardware solution
 4. design a product that a) reliably covers core features and b)
-    can be built, modified and operated by non-contrbutors
+    can be built, modified and operated by non-contributors
 5. finish all relevant tests for CE certification
 
 <!--
 
-### OTRL 1
+#### OTRL 1
 
 `basic principles observed`
 
 Potential has been identified and formulated:
 Knowledge generated underpinning hardware technology concepts/applications.
 
-### OTRL 2
+#### OTRL 2
 
 `technology concept formulated`
 
-Concept and potential usefulness has been ellaborated and formulated:
+Concept and potential usefulness has been elaborated and formulated:
 Invention begins, practical application is identified but is speculative,
 no experimental proof (e.g. a physical prototype) or detailed analysis is available
 yet to support the conjecture.
 
-### OTRL 3
+#### OTRL 3
 
 `experimental proof of concept`
 
 Key functions of the concept are tested & proven in a controlled environment
 (e.g. laboratory or just analytical).
 
-### OTRL 4
+#### OTRL 4
 
 `technology validated in lab`
 
@@ -140,7 +140,7 @@ in a controlled environment (e.g. laboratory)
 demonstrating basic functionality and critical test environments;
 performance predictions are formulated towards the final operating environment.
 
-### OTRL 5
+#### OTRL 5
 
 `technology validated in relevant environment`
 
@@ -148,7 +148,7 @@ A medium fidelity application (prototype) was built and operated
 in a (simulated) realistic operational environment
 demonstrating overall performance in critical areas.
 
-### OTRL 6
+#### OTRL 6
 
 `technology demonstrated in relevant environment`
 
@@ -160,7 +160,7 @@ At this point the OSH can be deemed "ready for manufacturing"
 and the target group can safely exercise the 4 rights of open source
 in the operation environment.
 
-### OTRL 7
+#### OTRL 7
 
 `system prototype demonstration in operational environment`
 
@@ -189,10 +189,10 @@ EXAMPLE:
 A control unit for an open source MRI scanner has been built and tested
 in the MRI scanner to reach OTRL 6,
 but not regarding the influence and feedback from other,
-simultaniously operating modules in the scanner during operation.
+simultaneously operating modules in the scanner during operation.
 This is to be tested to reach OTRL 7.
 
-### OTRL 8
+#### OTRL 8
 
 `system complete and qualified`
 
@@ -201,7 +201,7 @@ has been built and operated in the intended operational environment
 and proven its performance.
 It is (theoretically) ready to be sold as a commercial product in the EU.
 
-### OTRL 9
+#### OTRL 9
 
 `actual system proven in operational environment`
 
@@ -212,14 +212,15 @@ EXAMPLE: Product is sold in the EU.
 
 -->
 
-## ODRL
+### ODRL
 
 It is the complete technical documentation,
 published under a free/open license,
 that differentiates open source hardware from proprietary hardware.
 
-This "completeness" has been divided into the following 5 levels as shown in table @tbl:odrl-overview.
-A detailled description of these levels can be found in the following chapters.
+This "completeness" has been divided into the following 5 levels
+as shown in table @tbl:odrl-overview.
+A detailed description of these levels can be found in the following chapters.
 
 |ODRL|Name|Goal|
 |---|---|---|
@@ -251,11 +252,12 @@ based on that documentation ([ref to chapter](TODO)).
 
 -->
 
-### ODRL 1
+#### ODRL 1
 
 `documentation started & accessible`
 
-**IN SHORT:** By OSHWA-compliant licensing terms, free rights of any use are granted to the general public,\
+**IN SHORT:** By OSHWA-compliant licensing terms,
+free rights of any use are granted to the general public,\
 **BUT** not executable due to missing files and information;
 
 **ENABLING** the (legal) use of published information as free/open source material.
@@ -263,12 +265,15 @@ based on that documentation ([ref to chapter](TODO)).
 **THIS INCLUDES:**
 
 - a free/open license compliant to the OSHWA definition;
-- that all legal information (author(s), title, legal code of the license) is available and
-- distributed with an unambiguous reference to the specific published documentation (e.g. by the use of git tags for releases).
+- that all legal information (author(s), title, legal code of the license)
+  is available and
+- distributed with an unambiguous reference to the specific published documentation
+  (e.g. by the use of git tags for releases).
 
-**EXIT CRITERIUM:**
+**EXIT CRITERIA:**
 
-- design files published in editable file format (e.g. STEP (or better: native CAD files) instead of PDF drawings)
+- design files published in editable file format
+  (e.g. STEP (or better: native CAD files) instead of PDF drawings)
 
 <!--
 
@@ -285,21 +290,33 @@ and hence cannot yet exercise the 4 rights of open source
 
 -->
 
-### ODRL 2
+#### ODRL 2
 
 `documentation under collaborative development`
 
 **IN SHORT:** Source files are published in editable formats,\
-**BUT** documentation is yet under development and non-native file formats may be chosen;
+**BUT**
+documentation is yet under development and non-native file formats may be chosen;
 
-**ENABLING** the _practical execution_ of free rights of any use and by that a collaborative development of the documentation.
+**ENABLING** the _practical execution_ of free rights of, any use by,
+that a collaborative development of the documentation.
 
 **COMMENT:**
 
-- It is recommended, that information shall be provided in such a way that allows for 1) lossless information distribution (compared to the original development) for modification, 2) without raising the need of proprietary software to study the information;
-  - specifically for 3D modelling this means in practice that a CAD file shall be distributed 1) in its native file format 2) alongside with an exported copy in an exchange format (e.g. STEP).
+- It is recommended, that information shall be provided in such a way
+  that allows for
 
-**EXIT CRITERIUM:**
+  1) lossless information distribution
+     (compared to the original development) for modification,
+  2) without raising the need of proprietary software to study the information;
+
+- specifically for 3D modelling,
+  this means in practice that a CAD files shall be distributed
+
+  1) in its native file format
+  2) alongside with an exported copy in an exchange format (e.g. STEP).
+
+**EXIT CRITERIA:**
 
 - stable documentation release published
 
@@ -307,28 +324,33 @@ and hence cannot yet exercise the 4 rights of open source
 
 `drafty documentation`
 
-documentation in progess – aims to describe how the hardware works
+documentation in progress – aims to describe how the hardware works
 and how it is operated, but is partly patchy and/or outdated;
 yet too less to exercise the 4 rights of open source
 
 -->
 
-### ODRL 3
+#### ODRL 3
 
 `full documentation`
 
-**IN SHORT:** Documentation has been completed and deemed fully compliant with DIN SPEC 3105-1,\
+**IN SHORT:**
+Documentation has been completed
+and deemed fully compliant with DIN SPEC 3105-1,\
 **BUT** only by self-assessment by maintainers of the project.
 
-**ENABLING** the full exploitation of the piece of open source hardware, theoretically.
+**ENABLING**
+the full exploitation of the piece of open source hardware, theoretically.
 
 **THIS INCLUDES:**
 
 - a release of the final documentation that is deemed stable.
 
-**EXIT CRITERIUM:**
+**EXIT CRITERIA:**
 
-- attestation from a confirmity assessment body according to DIN SPEC 3105-2 (or equivalent proofs of conformity)
+- attestation from a conformity assessment body
+  according to DIN SPEC 3105-2
+  (or equivalent proofs of conformity)
 
 <!--
 
@@ -340,20 +362,25 @@ since the documentation yet lacks fundamental information
 
 -->
 
-### ODRL 3\*
+#### ODRL 3\*
 
 `audited documentation`
 
-**IN SHORT:** Documentation has been attested to be fully compliant with DIN SPEC 3105-1 in a community-based process according to DIN SPEC 3105-2,\
+**IN SHORT:**
+Documentation has been attested to be fully compliant with DIN SPEC 3105-1
+in a community-based process according to DIN SPEC 3105-2,\
 **BUT** yet documentation relevant for CE certification is missing;
 
 **ENABLING** a trustworthy full exploitation of the piece of open source hardware.
 
 **THIS INCLUDES:**
 
-- an attestation from a confirmity assessment body according to DIN SPEC 3105-2 (or equivalent proofs of conformity as e.g. through an OSHWA certification, a RYF certification or a scientific publication including the technical documentation).
+- an attestation from a conformity assessment body
+  according to DIN SPEC 3105-2
+  (or equivalent proofs of conformity as e.g. through an OSHWA certification,
+  a RYF certification or a scientific publication including the technical documentation).
 
-**EXIT CRITERIUM:**
+**EXIT CRITERIA:**
 
 - CE documentation published
 
@@ -367,13 +394,16 @@ since the documentation yet lacks minor information
 
 -->
 
-### ODRL 4
+#### ODRL 4
 
 `audited documentation including CE certification documents`
 
-**IN SHORT:** Documentation has been attested following DIN SPEC 3105-2 and includes all documentation relevant for CE certification
+**IN SHORT:**
+Documentation has been attested following DIN SPEC 3105-2
+and includes all documentation relevant for CE certification
 
-**ENABLING** decentralised commercial distribution of the piece of open source hardware.
+**ENABLING**
+decentralized commercial distribution of the piece of open source hardware.
 
 **THIS INCLUDES:**
 

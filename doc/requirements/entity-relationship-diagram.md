@@ -1,3 +1,5 @@
+# OKH Entity Relationships
+
 <!--
 SPDX-FileCopyrightText: 2021 Martin Häuer <martin.haeuer@ose-germany.de>
 SPDX-FileCopyrightText: 2021 - 2024 Robin Vobruba <hoijui.quaero@gmail.com>
@@ -5,13 +7,11 @@ SPDX-FileCopyrightText: 2021 - 2024 Robin Vobruba <hoijui.quaero@gmail.com>
 SPDX-License-Identifier: GPL-3.0-or-later
 -->
 
-# OKH Entity Relationships
-
 see a [rendered version](https://md.opensourceecology.de/s/cheq933Dd)
 
 source:
 
-``` mermaid
+```mermaid
 erDiagram
     TOSH ||--|{ MOSH : has
     MOSH ||--|{ sourceFile : has
@@ -64,4 +64,3 @@ erDiagram
     URL release-reference
     }
 ```
-

@@ -199,7 +199,8 @@ we recommend that one repository represents one project.
 2. Manufacturers and other service providers \
     find OSH published under a free/open license
     (we perform quality checks).
-    This way, anyone can modify, replicate and exploit OSH products however they like,
+    This way, anyone can modify, replicate and exploit OSH products
+    however they like,
     e.g. for cases of decentralized (mass-)production,
     maintenance and service provision -
     or just for themselves.

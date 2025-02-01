@@ -1,17 +1,14 @@
 ---
 title: How to fill out the `okh-TEMPLATE.toml`
-date: 17.11.2021
-version: v0.1
 author: Martin Häuer
-...
+---
 
 <!--
 SPDX-FileCopyrightText: 2021 - 2022 Martin Häuer <martin.haeuer@ose-germany.de>
-SPDX-FileCopyrightText: 2022 Robin Vobruba <hoijui.quaero@gmail.com>
+SPDX-FileCopyrightText: 2022 - 2025 Robin Vobruba <hoijui.quaero@gmail.com>
 
 SPDX-License-Identifier: GPL-3.0-or-later
 -->
-
 
 This guide is here to help you when creating a manifest file
 using [okh-TEMPLATE.toml](okh-TEMPLATE.toml).
@@ -26,7 +23,7 @@ and publish it on GitHub
 (e.g. in your project repository
 or via <https://github.com/OPEN-NEXT/LOSH-list/>).
 
-# Data fields
+## Data fields
 
 All fields are linked to their more detailed specification.
 Mandatory fields are bold.
@@ -43,7 +40,7 @@ please remove them from the manifest file.
 - **[version](../../src/spec/okh.md#metadata-fields-for-osh-modules)**
   - version of your hardware project;
     when you change this field,
-    the crawler will recognise this as a new version
+    the crawler will recognize this as a new version
     and upload it to LOSH; **otherwise not**
 - [release](../../src/spec/okh.md#metadata-fields-for-osh-modules)
   - URL to the release package of this version of your hardware project
@@ -59,8 +56,8 @@ please remove them from the manifest file.
   - file path to the README
 
 ```toml
-contribution-guide = "CONTRIBUTING.md" # relative path from the root directory IF the manifest file is _in_ the project's repositoy; use an URL otherwise
-image = "xxx.jpg" # relative path from the root directory IF the manifest file is _in_ the project's repositoy; use an URL otherwise
+contribution-guide = "CONTRIBUTING.md" # relative path from the root directory IF the manifest file is _in_ the project's repository; use an URL otherwise
+image = "xxx.jpg" # relative path from the root directory IF the manifest file is _in_ the project's repository; use an URL otherwise
 documentation-language = "en-GB"
 technology-readiness-level = "OTRL-3" # choose OTRL level from here: <../../src/spec/otrl.md#otrl>
 documentation-readiness-level = "ODRL-3" # choose OTRL level from here: <../../src/spec/otrl.md#odrl>
@@ -70,9 +67,9 @@ publication = "https://doi.org/10.1371/journal.pone.0193087" # Permalink (e.g.) 
 standard-compliance = "DIN EN 1335" # if applicable
 cpc-patent-class = "D03D 35/00" # get CPC-ID from here <https://worldwide.espacenet.com/classification>
 tsdc = "MEC" # defines the manufacturing processes involved for this project; multiple entries possible; get from here: https://gitlab.com/OSEGermany/oh-tsdc/-/blob/master/oh-tsdc.ttl#L97
-bom = "BoM.csv" # relative path from the root directory IF the manifest file is _in_ the project's repositoy; use an URL otherwise
-manufacturing-instructions = "/Documentation/Assembly_Guide/AssemblyGuide.md" # relative path from the root directory IF the manifest file is _in_ the project's repositoy; use an URL otherwise
-user-manual = "/Documentation/User_Guide/UserGuide.md" # relative path from the root directory IF the manifest file is _in_ the project's repositoy; use an URL otherwise
+bom = "BoM.csv" # relative path from the root directory IF the manifest file is _in_ the project's repository; use an URL otherwise
+manufacturing-instructions = "/Documentation/Assembly_Guide/AssemblyGuide.md" # relative path from the root directory IF the manifest file is _in_ the project's repository; use an URL otherwise
+user-manual = "/Documentation/User_Guide/UserGuide.md" # relative path from the root directory IF the manifest file is _in_ the project's repository; use an URL otherwise
 
 [outer-dimensions]
 width = "400"
@@ -81,10 +78,10 @@ height = "150"
 
 [[part]] # section to link essential files for each self-designed component of this project
 name = "your-awesome-part"
-image = "xxx.jpg" # relative path from the root directory IF the manifest file is _in_ the project's repositoy; use an URL otherwise
+image = "xxx.jpg" # relative path from the root directory IF the manifest file is _in_ the project's repository; use an URL otherwise
 tsdc = "3DP"
-source = "xxx.scad" # multiple entries possible; relative path from the root directory IF the manifest file is _in_ the project's repositoy; use an URL otherwise
-export = [ # multiple entries possible; relative path from the root directory IF the manifest file is _in_ the project's repositoy; use an URL otherwise
+source = "xxx.scad" # multiple entries possible; relative path from the root directory IF the manifest file is _in_ the project's repository; use an URL otherwise
+export = [ # multiple entries possible; relative path from the root directory IF the manifest file is _in_ the project's repository; use an URL otherwise
   "xxx.pdf",
   "xxx.stl"
 ]
@@ -100,7 +97,7 @@ release = "https://github.com/arduino/ArduinoCore-mbed/releases/tag/1.3.2"
 installation-guide = "https://github.com/arduino/ArduinoCore-mbed/blob/a2c06d768f5ebb6821ae6505b2032ee58f4ef70d/README.md"
 ```
 
-# General
+## General
 
 - [manifest file name & location](../../src/spec/okh.md#location--naming-convention)
   - name it `okh.toml`
@@ -108,12 +105,12 @@ installation-guide = "https://github.com/arduino/ArduinoCore-mbed/blob/a2c06d768
     NOT in a subfolder or so
 - [file paths](../../src/spec/okh.md#file-path-conventions)
   - use a relative path from the root directory
-    IF the manifest file is _in_ the project's repositoy;
+    IF the manifest file is _in_ the project's repository;
     use an URL otherwise
 - multiple entries in TOML files
   - this applies for all TOML files, just do:
 
-  ```TOML
+  ```toml
   some-data-field = [
   "entry1",
   "entry2"

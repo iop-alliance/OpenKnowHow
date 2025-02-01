@@ -1,3 +1,5 @@
+# Scope of the ontology
+
 <!--
 SPDX-FileCopyrightText: 2020 - 2022 Robin Vobruba <hoijui.quaero@gmail.com>
 SPDX-FileCopyrightText: 2020 Martin Häuer <martin.haeuer@ose-germany.de>
@@ -5,22 +7,24 @@ SPDX-FileCopyrightText: 2020 Martin Häuer <martin.haeuer@ose-germany.de>
 SPDX-License-Identifier: GPL-3.0-or-later
 -->
 
-# Scope of the ontology
-
 ## Hot / shortlist (v1.0)
 
 ### the enduser
 
-1. developers\
-  the whole thing here is first and foremost about **design reuse**
+1. developers \
+    the whole thing here is first and foremost about **design reuse**
 2. manufacturers / service providers\
-  find OSH ready for decentralised (mass) production, maintenance and service provision
+    find OSH ready for decentralized (mass) production,
+    maintenance and service provision
 
 ### use cases / features (unsorted)
 
 **practical stories**
 
-1. A ventilator consists of 4 submodules, one of them is a motor. It turns out that a specific version of this motor is faulty. Which ventilator versions are affected? (results in a fairly simply query)
+1. A ventilator consists of 4 submodules, one of them is a motor.
+    It turns out that a specific version of this motor is faulty.
+    Which ventilator versions are affected?
+    (results in a fairly simply query)
 
 ---
 
@@ -29,7 +33,9 @@ in short:
 - for developers: facilitate re-use of design
 - for users (& developers):
   - increase discoverability of OSH
-  - replace manual packaging; metadata shall enable a download button for: <!--- resource to check: <https://github.com/kanzure/skdb> (**apt-get for hardware**) --->
+  - replace manual packaging; metadata shall enable a download button for:
+    <!--- resource to check: <https://github.com/kanzure/skdb>
+    (**apt-get for hardware**) --->
     - production files (export only)
     - developer files (sources only)
     - complete clone (export + sources)
@@ -39,18 +45,22 @@ in short:
 to be shortened:
 
 - Linked Open Hardware
-  - portable metadata → OSH can be published on various platforms (and is synced to a (multi-)central RDF store)
-  - map of usage, hence compatibility between OSH Modules (this module is also included here and there)
+  - portable metadata → OSH can be published on various platforms
+    (and is synced to a (multi-)central RDF store)
+  - map of usage, hence compatibility between OSH Modules
+    (this module is also included here and there)
   - don't reinvent the wheel, see what others have used in a similar case
   - reduce (electronic) waste; circular economy
-    - represent OSH & proprietary HW by reasonable metadata; see connections, assess compatibility
+    - represent OSH & proprietary HW by reasonable metadata;
+      see connections, assess compatibility
 - link to other DBs
   - Journal of Open Hardware
   - …
 - Find OSH in a specific field
   - e.g. search for corona-related projects
     - add optional field in metadata: related topics/tags
-    - (? maybe not reasonable →) design specific searches (e.g. corona also includes the tags ventilators, face shields etc.)
+    - (? maybe not reasonable →) design specific searches
+      (e.g. corona also includes the tags ventilators, face shields etc.)
 - OSHWA-compliant license?
 - get TsDC
 - filter for 'real' OSH
@@ -73,19 +83,26 @@ to be shortened:
 - Which OSH Modules fulfill are part of this function category x?
 - Are there variants/version of or similar OSH Modules like OSH Module X?
   - to be translated into:\
-  "How 'identical' are two different OSH Modules?" (← focus on self-designed parts rather than standard components) &\
-  "Show me the versions of this OSHM/POSH"
-- Which software is required to modify the technical documetation of this OSH Module/POSH?
-- Has this OSH Module been certfied in any way? Is it using specific standards?
-- What's the development status & version of a given OSH Module or its documentation release?
-- What are the requirements for the technical documentation for a specific piece of OSH?
-  - REMARK 1: this may require translating generic DIN SPEC requirements + TsDC into RDF
-  - REMARK 2: this may enable automated pre-checking of compliance of documentation releases against
+  "How 'identical' are two different OSH Modules?"
+  (← focus on self-designed parts rather than standard components) & \
+  "Show me the versions of this MOSH/POSH"
+- Which software is required to modify the technical documentation of this [MOSH]/[POSH]?
+- Has this OSH Module been certified in any way? Is it using specific standards?
+- What's the development status & version of a given [MOSH]
+  or its documentation release?
+- What are the requirements for the technical documentation
+  for a specific piece of OSH?
+  - REMARK 1:
+    this may require translating generic DIN SPEC requirements + TsDC into RDF
+  - REMARK 2:
+    this may enable automated pre-checking of compliance
+    of documentation releases against:
     - the general requirements of DIN SPEC 3105-1
     - the corresponding TsDC
     - this metadata standard
 - Where are the files (source & export) I need to build/modify this OSH?
-- What are production requiremnts to build a certain piece of OSH? (e.g. tolerances, material,…)
+- What are production requirements to build a certain piece of OSH?
+  (e.g. tolerances, material,…)
 - What's the license?
 - Where can I contribute or find more specific information?
 - In which language is this documentation release available?
@@ -94,12 +111,14 @@ to be shortened:
 
 #### design reuse vs. COVID-19
 
-I am a manufacturer and want to build ventilators for the local hospital. So I'm checking for related OSH projects that
+I am a manufacturer and want to build ventilators for the local hospital.
+So I'm checking for related OSH projects that
 
 - have a complete technical documentation
 - are using specific standards
 - have a CE certification
-- don't create too much subsequent costs (e.g. for software when modifying the design).
+- don't create too much subsequent costs
+  (e.g. for software when modifying the design).
 
 In case I'm not happy with any of the results,
 I may choose to design my own open source ventilator,
@@ -107,8 +126,10 @@ recycling some of the designs I found,
 I'll ask myself/the RDF store:
 
 - Which modules/components have been used in various modules?
-- Which modules/components are available matching my software requirements? (e.g. specific CAD software)
-- How many parts (self-designed, standard, proprietary, total) are involved in a specific OSH Module?
+- Which modules/components are available matching my software requirements?
+  (e.g. specific CAD software)
+- How many parts (self-designed, standard, proprietary, total)
+  are involved in a specific OSH Module?
 - Let's draw a new module into a given assembly:
   - are licenses compatible? Any new legal consequences for me now?
   - any new software required for modifications?
@@ -120,16 +141,23 @@ I'll ask myself/the RDF store:
 
 - library of standards & standard parts
   - unambiguous referencing (even for outdated standards)
-  - find standards in your field of technology; specific use case for newcomers in a certain field (e.g. research institutes), discussed in a meeting between HSU Hamburg & DIN (COVID-19 crisis response)
+  - find standards in your field of technology;
+    specific use case for newcomers in a certain field
+    (e.g. research institutes),
+    discussed in a meeting between HSU Hamburg & DIN
+    (COVID-19 crisis response)
 - library of manufacturers
   - enable a 'buy button' for OSH Modules
-  - Open Know-Where (part of the Open Know-How network) is working on a metadata standard for manufacturers, tools and stock items (materials etc.)
-- library of legal requirements to produce hardware for a certain ambit (e.g. medical stuff)
+  - Open Know-Where (part of the Open Know-How network)
+    is working on a metadata standard for manufacturers,
+    tools and stock items (materials etc.)
+- library of legal requirements to produce hardware
+  for a certain ambit (e.g. medical stuff)
 
 ### project/team/contributors
 
 - How many contributors involved?
-- Which organisations involved?
+- Which organizations involved?
 - Where are contributors located?
 - What other projects contributors contribute to?
 - education/employment details of contributors
@@ -140,7 +168,8 @@ I'll ask myself/the RDF store:
 - How fast is support?
 - accepted ways of support
   - contribution guide existent?\
-    (+ further, yet hardly trackable questions regarding openness of the development)
+    (+ further, as of yet hardly trackable questions
+    regarding openness of the development)
   - Patreon/PayPal/GoFundMe?
 - Who's using this product?
 
@@ -156,8 +185,8 @@ I'll ask myself/the RDF store:
   - → search for manufacturers as for flights
       (price, location, development time, delivery etc.)
   - → combine manufacturers as lego suppliers (see Lars)\
-  …+ optional "trusted supply chain" (verified manufacturers and/or favourites)
-  - → automated templates for procurement (to notify manufatcurers)
+  …+ optional "trusted supply chain" (verified manufacturers and/or favorites)
+  - → automated templates for procurement (to notify manufacturers)
 - certified/'real' OSH? (DIN SPEC 3105 / OSHWA cert)
 - any product certification or CE mark something?
 - manifest file/listed on [OHO.wiki](https://OHO.wiki)?
@@ -168,8 +197,12 @@ I'll ask myself/the RDF store:
   - what does it cost me to enter?
     (so comparing the required with the existent licenses on my side)
 - **define reasonable metadata for self-designed components**
-  - same metadata as standardised semi-finished components & standard parts (material properties, measurements, tolerances, surface, weight etc.)
-  - → full product data is stored as LOD → graph-based assessment of production, static resistance, compatibility with other hardware, change management… bloody fucking everything!
+  - same metadata as standardized semi-finished components & standard parts
+    (material properties, measurements, tolerances, surface, weight etc.)
+  - → full product data is stored as LOD \
+    → graph-based assessment of production, static resistance,
+      compatibility with other hardware, change management… \
+      bloody fucking everything!
 
 #### standard parts library
 
@@ -207,11 +240,11 @@ I'll ask myself/the RDF store:
 
 #### circular economy
 
-- see [OHS 3105-1 issue #7]([https://gitlab.com/OSEGermany/OHS/-/issues/7)
+- see [OHS 3105-1 issue #7](https://gitlab.com/OSEGermany/OHS/-/issues/7)
 - network of modules in use
   - tracking of reproduction as a side effect
   - marketplace for maintenance parts
-- mapping of open/standardised interfaces
+- mapping of open/standardized interfaces
 
 #### guideline extras
 
@@ -224,8 +257,8 @@ I'll ask myself/the RDF store:
 
 ### Problems to solve
 
-- reusage of designs
-- indirect: reusage of sub-assemblies via modular machine design
+- re-usage of designs
+- indirect: re-usage of sub-assemblies via modular machine design
 - avoid having adjusted CAD files, specifications etc. spread over a dozen mails
   when (as a developer) talking with manufacturers
 - quality control
@@ -239,12 +272,15 @@ I'll ask myself/the RDF store:
 **Intro:**
 
 - meant to be easy to read, crawl and use
-- references to all parts and files necessary to build the [OSH-Module](#osh-module) following [TsDC](https://gitlab.com/OSEGermany/oh-tsdc/)-requirements
+- references to all parts and files necessary to build the [OSH-Module][MOSH],
+  following [TsDC](https://gitlab.com/OSEGermany/oh-tsdc/)-requirements
   - column `Reference` includes single entries only which are either
-    - URLs to a [POSH](#piece-of-osh-posh)
-    - unambiguous references to standard or purchased parts (which can be either URLs or designations)
-    - URLs to other [OSH-Modules](#osh-module)
-- subassemblies are _not_ represented as individual modules, but included via structured pos. numbers
+    - URLs to a [POSH][POSH]
+    - unambiguous references to standard or purchased parts
+      (which can be either URLs or designations)
+    - URLs to other [OSH-Modules][MOSH]
+- subassemblies are _not_ represented as individual modules,
+  but included via structured pos. numbers
 
 EXAMPLE:
 
@@ -254,12 +290,17 @@ which makes linking to ASM-specific metadata files obsolete**
 
 | Pos. | Name         | Units | Type            | Reference                                                                           |
 |------|--------------|-------|-----------------|-------------------------------------------------------------------------------------|
-| 1    | casing       | 2     | OSH Component   | link to [POSH file](#piece-of-osh-posh), similar to [this](#mechanical-component-posh-mec) one                                      |
+| 1    | casing       | 2     | OSH Component   | link to [POSH file][POSH], similar to [this][MEC POSH] one                                      |
 | 2    | screw        | 4     | standard part   | standard designation                                                                |
-| 3    | gear box     | 1     | OSH Module      | link to [OSH-Module](#osh-module)                                                   |
+| 3    | gear box     | 1     | OSH Module      | link to [OSH-Module][MOSH]                                                   |
 | 4    | Raspberry Pi | 1     | purchased part  | unambiguous reference (not standardised)                                            |
-| 5    | holder       | 1     | OSH Subassembly | link to [POSH file](#piece-of-osh-posh), similar to [this](#mechanical-component-posh-mec) one                                      |
-| 5.1  | bracket      | 2     | OSH Component   | link to [POSH file](#piece-of-osh-posh), similar to [this](#mechanical-component-posh-mec) one                                      |
+| 5    | holder       | 1     | OSH Subassembly | link to [POSH file][POSH], similar to [this][MEC POSH] one                                      |
+| 5.1  | bracket      | 2     | OSH Component   | link to [POSH file][POSH], similar to [this][MEC POSH] one                                      |
 | 5.2  | screw        | 2     | standard part   | standard designation                                                                |
-| 5.3  | arm          | 2     | OSH Component   | link to [POSH file](#piece-of-osh-posh), similar to [this](#mechanical-component-posh-mec) one                                      |
-| 6    | controller   | 1     | OSH Module      | link to link to [OSH-Module](#osh-module), similar to [this](#pcb-posh-asm-pcb) one |
+| 5.3  | arm          | 2     | OSH Component   | link to [POSH file][POSH], similar to [this][MEC POSH] one                                      |
+| 6    | controller   | 1     | OSH Module      | link to link to [OSH-Module][MOSH], similar to [this][PCB POSH] one |
+
+[POSH]: #standard-parts-library
+[MOSH]: #osh-module-library
+[MEC POSH]: #mechanical-component-posh-mec
+[PCB POSH]: #pcb-posh-asm-pcb

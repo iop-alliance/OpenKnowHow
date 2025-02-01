@@ -1,3 +1,9 @@
+---
+title: Ontology Mapping | OSHWA → OKH-LOSHv1
+---
+
+# OSHWA API mapping to OKH
+
 <!--
 SPDX-FileCopyrightText: 2021 Martin Häuer <martin.haeuer@ose-germany.de>
 SPDX-FileCopyrightText: 2021 Robin Vobruba <hoijui.quaero@gmail.com>
@@ -5,13 +11,8 @@ SPDX-FileCopyrightText: 2021 Robin Vobruba <hoijui.quaero@gmail.com>
 SPDX-License-Identifier: GPL-3.0-or-later
 -->
 
----
-title: Ontology Mapping | OSHWA → OKH-LOSHv1
----
-
-# Notes
-
-The Open Source Hardware Association created the [definition of Open Source Hardware](https://www.oshwa.org/definition)
+The Open Source Hardware Association created the
+[definition of Open Source Hardware](https://www.oshwa.org/definition)
 and launched [the first certification programme for OSH](https://certification.oshwa.org/).
 
 Certified projects are listed here: <https://certification.oshwa.org/list.html>
@@ -20,20 +21,21 @@ Since OSHWA released an [API](https://certificationapi.oshwa.org/)
 making the metadata of certified projects available for the general public
 (plus you can apply for certification directly via this API).
 
-Source for the mapping: token from [here](https://certificationapi.oshwa.org/)
+Source for the mapping:
+[Fetch an API token](https://certificationapi.oshwa.org/)
 (see [issue 9](https://github.com/iop-alliance/OpenKnowHow/issues/9#issuecomment-733939646)
 for details)
 
-# Data fields
+## Data fields
 
-## direct matches
+### direct matches
 
-```
-"projectName" = okh:name
-"projectVersion" = okh:version
-"projectDescription" = okh:function
-"documentationUrl" = okh:repo
-"responsibleParty" = okh:licensor
+```toml
+projectName = okh:name
+projectVersion = okh:version
+projectDescription = okh:function
+documentationUrl = okh:repo
+responsibleParty = okh:licensor
 ```
 
 ## fields with rules
@@ -43,7 +45,7 @@ for details)
 At the moment we'll process `primaryType` only (with 3 exceptions).
 See the following table how OSHWA categories are mapped onto the CPC system.
 
-```
+```pseudo
 "unmappable-categories":[
         "Arts" ,
         "Education" ,
@@ -80,7 +82,7 @@ else
 
 - get `hardwareLicense` only
 
-```
+```pseudo
 if
     "hardwareLicense" = "other" → entry = `alternativeLicense`
 else
@@ -89,7 +91,8 @@ else
 
 ## Custom Data Fields
 
-The following data fields are either ignored or the same way included as custom keys.
+The following data fields are either ignored
+or the same way included as custom keys.
 
 - `certificationDate`
 - `country`

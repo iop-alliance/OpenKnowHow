@@ -69,7 +69,7 @@ for MOSHs:
     - while checking for [OSHWA-compliance](#a01-license-compatibility)
   - `function`
   - `tsdcID`
-  - design files (hence a `sBoM` is a prerequisiste)
+  - design files (hence a `sBoM` is a prerequisite)
     - `name`
     - `quantity`
     - for MOSHs included
@@ -82,7 +82,7 @@ for MOSHs:
       - `stdReference`
     - for BUYs included
       - `buyReference`
-- returns a boolean ("probably complete", "probably uncomplete")
+- returns a boolean ("probably complete", "probably incomplete")
   - add a report of what's missing in case one or more
     of the mentioned data fields are empty
 
@@ -108,11 +108,12 @@ for MOSHs:
 
 ### a04 dissemination
 
-- get number of MOSHs that include a seleted component MOSH/POSH/STD/BUY
+- get number of MOSHs that include a selected component MOSH/POSH/STD/BUY
   in their `sBoM`
 - Option 1: split number by `patentClass` of the MOSHs using the selected component
 - Option 2: add a list
-  (`name`, `version` and internal link to the crawled MOSHs turtle file, using the selected component)
+  (`name`, `version` and internal link to the crawled MOSHs turtle file,
+  using the selected component)
 
 ## \[P\] packaging queries
 

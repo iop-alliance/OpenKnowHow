@@ -1,3 +1,9 @@
+---
+title: Ontology Mapping | OKHv1 → OKH-LOSHv1
+---
+
+# OKH v1 mapping to OKH
+
 <!--
 SPDX-FileCopyrightText: 2021 - 2022 Robin Vobruba <hoijui.quaero@gmail.com>
 SPDX-FileCopyrightText: 2021 Martin Häuer <martin.haeuer@ose-germany.de>
@@ -5,15 +11,9 @@ SPDX-FileCopyrightText: 2021 Martin Häuer <martin.haeuer@ose-germany.de>
 SPDX-License-Identifier: GPL-3.0-or-later
 -->
 
----
-title: Ontology Mapping | OKHv1 → OKH-LOSHv1
----
-
-# Notes
-
 The Open Know-How Manifest Specification Version 1.0
 ([OKHv1](https://standards.internetofproduction.org/pub/okh/release/1))
-gave a first approach to organise open source hardware via representative metadata.
+gave a first approach to organize open source hardware via representative metadata.
 
 Some OSH projects already follow this specification:
 
@@ -22,7 +22,9 @@ Some OSH projects already follow this specification:
 - find a full list of projects here:\
     <https://github.com/OpenKnowHow/okh-search/blob/master/projects_okhs.csv>
 
-Source for the mapping: [OKHv1 Section 4.5 ff](https://standards.internetofproduction.org/pub/okh#manifest-metadata)
+Source for the mapping:
+[OKHv1 Section 4.5 ff](
+https://standards.internetofproduction.org/pub/okh#manifest-metadata)
 
 ## Specification Diff
 
@@ -32,27 +34,27 @@ Source for the mapping: [OKHv1 Section 4.5 ff](https://standards.internetofprodu
 | manifest file name | anything containing "okh" | anything containing "okh", but preferably just `okh.toml` |
 | declaration | via `%Open Know-How Manifest 1.0` in line 1, and 3 dashes in line 2 | specification of the version used in the data field `okhv` |
 
-# Data fields
+## Data fields
 
-## direct matches
+### direct matches
 
+```toml
+title = okh:name
+version = okh:version
+image = okh:image
+documentation-home = okh:repo
+documentation_language = okh:documentationLanguage
+bom = okh:bom
+archive-download = okh:release
 ```
-"title" = okh:name
-"version" = okh:version
-"image" = okh:image
-"documentation-home" = okh:repo
-"documentation_language" = okh:documentationLanguage
-"bom" = okh:bom
-"archive-download" = okh:release
-```
 
-## fields with rules
+### fields with rules
 
-### date
+#### date
 
 `date-created`/`date-updated`
 
-```
+```pseudo
 if
     git-based platform is used
        field is ignored, use git-timestamp from corresponding last commit
@@ -63,12 +65,12 @@ else
     `date-updated` = okh:timestamp
 ```
 
-### derivative of
+#### derivative of
 
 `derivative-of`/`variant-of`,
 see [4.6.15 f. Derivative of](https://standards.internetofproduction.org/pub/okh#derivative-of)
 
-```
+```pseudo
 if
     "manifest" isempty
         "web" = okh:forkOf
@@ -76,21 +78,21 @@ else
     shorten the "manifest" URL to a repo URL and use as okh:repo
 ```
 
-### description
+#### description
 
 `description`/`intended-use`/`health-safety-notice`
 
-```
+```pseudo
 okh:function = "description" + "intended-use" + "health-safety-notice"
 ```
 
-### development-stage
+#### development-stage
 
 `development-stage`/`made`/`made-independently`,
 see [4.6.11-13 Stage of development - Has been made independently](
 https://standards.internetofproduction.org/pub/okh#stage-of-development)
 
-```
+```pseudo
 if
     "made-independently" = true
         okh:technologyReadinessLevel = otrl:OTRL-3
@@ -106,11 +108,11 @@ elseif
 These OKHv1 fields can be included as [custom keys](#custom-keys)
 regardless of how they were processed here.
 
-### license
+#### license
 
 `license`, see [4.7.1 License](https://standards.internetofproduction.org/pub/okh#license)
 
-```
+```pseudo
 if
     "hardware" isnotempty
         if
@@ -130,47 +132,47 @@ else
 ```
 
 remaining fields (`documentation` and `software` or only `software`)
-may be included as [custom keys](#custom-keys).
+may be included as [custom keys](#custom-data-fields).
 
-### licensor
+#### licensor
 
 `licensor`, see [4.7.2 Licensor](https://standards.internetofproduction.org/pub/okh#licensor)
 
-```
-"name" = okh:licensor
+```toml
+name = okh:licensor
 ```
 
-### making instructions
+#### making instructions
 
 `making-instructions`, see [4.8.7 Assembly Instructions](https://standards.internetofproduction.org/pub/okh#assembly-instructions)
 
-```
-"path" = okh:manufacturingInstructions
+```toml
+path = okh:manufacturingInstructions
 ```
 
-### operating instructions
+#### operating instructions
 
 `operating-instructions`, see [4.8.12 Operating Instructions](https://standards.internetofproduction.org/pub/okh#operating-instructions)
 
-```
-"path" = okh:userManual
+```toml
+path = okh:userManual
 ```
 
-### software
+#### software
 
 `software`, see [4.8.15 software](https://standards.internetofproduction.org/pub/okh#software)
 
-```
+```pseudo
 create okh:software
 "title" = label of okh:software
 "path" = okh:release
 ```
 
-### standards-used
+#### standards-used
 
 `standards-used`, see [4.6.14 Standards used](https://standards.internetofproduction.org/pub/okh#standards-used)
 
-```
+```pseudo
 if
     "reference" isnotempty
         "reference" = okh:standard
@@ -179,16 +181,16 @@ elseif
         "standard-title" = okh:standard
 ```
 
-The OKHv1 fields can be included as [custom keys](#custom-keys)
+The OKHv1 fields can be included as [custom keys](#custom-data-fields)
 regardless of how they were processed here.
 
-### Sub-Thing
+#### Sub-Thing
 
 `sub`, see [4.6.17 Sub-thing](https://standards.internetofproduction.org/pub/okh#sub-thing)
 
 indicates another MOSH (subassembly) used in this MOSH
 
-```
+```pseudo
 create sub-MOSH
 "title" = okh:name
 "manifest" = okh:manifestFile
@@ -199,13 +201,14 @@ else
     shorten the "manifest" URL to a repo URL and use as okh:repo
 ```
 
-## Custom Data Fields
+### Custom Data Fields
 
 The following data fields are either ignored or directly included as custom keys.
 
 - `contact`
 - `contributors`
-- `design-files`/ `schematics`/ `manufacturing-files`, see [4.8.3 ff. Design Files](https://standards.internetofproduction.org/pub/okh#design-files)
+- `design-files`/ `schematics`/ `manufacturing-files`,
+  see [4.8.3 ff. Design Files](https://standards.internetofproduction.org/pub/okh#design-files)
   - sadly their definition/use is too vague/messy to map them directly onto OKHv2,
     however these are still valuable fields
 - `development-stage`/`made`/`made-independently` (see [field rules](#development-stage))
@@ -214,7 +217,7 @@ The following data fields are either ignored or directly included as custom keys
 - `keywords`
 - `license` (see [field rules](#license))
   - (`documentation`)
-  - `sofware`
+  - `software`
 - `maintenance-instructions`
 - `manifest-author`
 - `manifest-is-translation`

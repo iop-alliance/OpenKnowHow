@@ -1,3 +1,10 @@
+---
+title: Specification for Production Metadata
+subtitle: Input from WP4/WP5 Partners
+---
+
+# Specification for Production Metadata
+
 <!--
 SPDX-FileCopyrightText: 2021 Case06 <case06@web.de>
 SPDX-FileCopyrightText: 2021 Martin Häuer <martin.haeuer@ose-germany.de>
@@ -11,46 +18,70 @@ SPDX-FileCopyrightText: 2021 legba7 <legba7@hellokitty.com>
 SPDX-License-Identifier: GPL-3.0-or-later
 -->
 
----
-title: Specification for Production Metadata
-subtitle: Input from WP4/WP5 Partners
-history: https://github.com/iop-alliance/OpenKnowHow/commits/36679600facd5b572f012e74cb359ac84eb2d113/MAKER-INPUT-production-metadata.md
-...
+## Intro & Scope
 
-# Intro & Scope
-
-With this document we aim to pin down the metadata that **makers** need to assess whether or not they can (or want) to produce a certain piece of Open Source Hardware with the tools available (e.g. in their makerspace).\
+With this document we aim to pin down the metadata
+that **makers** need to assess whether or not they can (or want)
+to produce a certain piece of Open Source Hardware
+with the tools available (e.g. in their maker-space).\
 More specifically _you_ will write this document.
 But don't worry, you're not alone.
-We contacted numerous people that are willing to share their expertise here.
+We contacted numerous people
+that are willing to share their expertise here.
 
-**What we need from you now:** Imagine you have been searching for an open source solution on LOSH to solve a specific problem, and found it! (yeah)\
+**What we need from you now:**
+Imagine you have been searching for an open source solution on LOSH
+to solve a specific problem, and found it! (yeah)\
 Now, only focussing on the aspect of manufacturing it:
 
-- Let us know **your production category of interest** (e.g. 3D-printed) by opening a new section [below](#content)
-- …and the **corresponding data fields (metadata)** that you'd need to assess whether or not it makes sense for you to produce the corresponding part/module yourself or order it somewhere else (e.g. material, size)
+- Let us know **your production category of interest**
+  (e.g. 3D-printed) by opening a new section [below](#content)
+- …and the **corresponding data fields (metadata)**
+  that you'd need to assess whether or not it makes sense for you
+  to produce the corresponding part/module yourself
+  or order it somewhere else (e.g. material, size)
 
-Following DIN SPEC 3105-1 we believe that parts of the metadata should apply technology-specific.
+Following DIN SPEC 3105-1,
+we believe that parts of the metadata should apply technology-specific.
 
-**NOTE:** Metadata are not meant to replace the documentation. It should rather provide you with enough data so that you know whether or not it makes sense to take a deeper look into the documentation.
+**NOTE:**
+Metadata are not meant to replace the documentation.
+It should rather provide you with enough data
+so that you know whether or not it makes sense
+to take a deeper look into the documentation.
 
 --
 
-**Please consider:** This is a dynamic document.\
+**Please consider:**
+This is a dynamic document.\
 The contributor after you will make changes.
-So to ensure a consistent chain of contributions, please make sure that your input can be understood by someone who also has a maker-background, but has never spoken to you and hence doesn't know what's in your mind besides the details noted down.
-Please be as specific as possible; if you're unsure about certain input/feedback you want to give, just mark it accordingly, so others will know.
+So to ensure a consistent chain of contributions,
+please make sure that your input can be understood
+by someone who also has a maker-background,
+but has never spoken to you and hence doesn't know what's in your mind
+besides the details noted down.
+Please be as specific as possible;
+if you're unsure about certain input/feedback you want to give,
+just mark it accordingly,
+so others will know.
 
-If you find data fields or maybe even production categories that don't make sense in the maker context from your perspective, please make a corresponding note there – I'll process this accordingly.
+If you find data fields or maybe even production categories
+that don't make sense in the maker context from your perspective,
+please make a corresponding note there –
+I'll process this accordingly.
 
-After all willing makers gave their input, I'll tidy up this document and send it back to you (and everyone else), so you can take notice of it's final version.
-If there's anything we forgot, got wrong or any other thoughts you want to share when reading the final version → don't hesitate and let us know in a reply on the mail containing this final version.
+After all willing makers gave their input,
+I'll tidy up this document and send it back to you (and everyone else),
+so you can take notice of it's final version.
+If there's anything we forgot,
+got wrong or any other thoughts you want to share when reading the final version
+→ don't hesitate and let us know in a reply on the mail containing this final version.
 Everything will be documented, nothing will be forgotten.
 Every peace of feedback is valuable and will be read :)
 
-# Content
+## Content
 
-## CNC
+### CNC
 
 - material \[string\]
 - outer dimensions
@@ -64,14 +95,18 @@ Every peace of feedback is valuable and will be read :)
 - number of planes of milling \[int\]
   - comment: setup for production environment → out of scope
 
-## 3DP
+### 3DP
 
 - printing method (FDM, SLA, SLS, MJF, DMLS)
 - material \[string\]
 - material quantity \[g\]/  filament diameter and length \[mm\]
   - comment: included as mass since that's easier to export from CAD software
 - material specific requirements
-  for ABS: enclosure, warm constant room temperature, air circulation, bed temperature
+  for ABS:
+  enclosure,
+  warm constant room temperature,
+  air circulation,
+  bed temperature
   heating bed temperature \[°\]
   extruder temperature \[°\]
   filament brand
@@ -104,7 +139,7 @@ Every peace of feedback is valuable and will be read :)
   - remove request +1
   - comment: setup for production environment → out of scope
 
-## WELDING
+### WELDING
 
 - material (for each part)
   - comment: already defined per part, no extra field needed
@@ -114,7 +149,7 @@ Every peace of feedback is valuable and will be read :)
 - (welder) certification(s) required
 - post-treatments of the weld
 
-## PCB
+### PCB
 
 - size (2D) \[mm, mm\]
 - board-thickness \[mm\]
@@ -129,11 +164,12 @@ Every peace of feedback is valuable and will be read :)
 - solder-mask-sides \[0, 1 or 2\]
 
 For multilayer-pcb:
+
 - layer-count \[int\]
 - copper-thickness \[mm\[\]\]
 - isolator-thickness \[mm\[\]\]
 
-## LASER CUTTER
+### LASER CUTTER
 
 - engraving? \[bool\]
   - comment: redundant when depth of engraving is given
@@ -152,29 +188,30 @@ For multilayer-pcb:
 - cutting speed \[mm/s\]
   - remove request +1
 
-## Post-Processing
+### Post-Processing
 
 - surface finishing (polishing, coating etc.)
   - comment: important for welding seam finishing
 
-# free feedback
+## free feedback
 
-- https://www.hubs.com/ is a great source for productionn metadata (accessible by uploading sample files)
+- <https://www.hubs.com/> is a great source for production metadata
+  (accessible by uploading sample files)
 
-## SOFTWARE
+### SOFTWARE
 
 - hardware requirements (specific board; e.g. software only runs on Arduino)
 - compiler
-- pogramming language
+- programming language
 - connection (special) cable, flashing hardware
 
-## Assembly
+### Assembly
 
 - tools
 - space
 - duration
 
-## environmental conditions
+### environmental conditions
 
 - humidity
 - temperature
@@ -184,9 +221,11 @@ For multilayer-pcb:
 - explosion protection
 - corrosion resistance
 
-## general metadata
+### general metadata
 
 - safety and legal criticality?
-- classifaction badges or levels for overall difficulty to build: e.g. DIY (doable with current desktop 3D printers), professional
-- target group (e.g. Arduino project may be made for researchers and students): children, industrial students, professionals
+- classifaction badges or levels for overall difficulty to build:
+  e.g. DIY (doable with current desktop 3D printers), professional
+- target group (e.g. Arduino project may be made for researchers and students):
+  children, industrial students, professionals
 - variants/alternatives to the solutions specifically described in the documentation
