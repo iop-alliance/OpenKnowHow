@@ -31,12 +31,12 @@ given specific scenarios.
 For example,
 one could only show the classes and properties tagged with "basic",
 when browsing multiple projects at a time.'''@en ;
-  schema:comment '''
+  skos:editorialNote '''
 # SPDX-FileCopyrightText: 2024 Robin Vobruba <hoijui.quaero@gmail.com>
 #
 # SPDX-License-Identifier: GPL-3.0-or-later
 ''' ;
-  schema:comment '''Regarding the use of `schema:domainIncludes`
+  skos:editorialNote '''Regarding the use of `schema:domainIncludes`
 and `schema:rangeIncludes` in this ontology:
 Looking at the definitions for the RDFS version
 of the two, `rdfs:domain` and `rdfs:range`:

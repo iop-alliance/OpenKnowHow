@@ -4,13 +4,14 @@
 @prefix dcat:     <http://www.w3.org/ns/dcat#> .
 @prefix dcterms:  <http://purl.org/dc/terms/> .
 @prefix dctype:   <http://purl.org/dc/dcmitype/> .
+#@prefix doap:     <http://usefulinc.com/ns/doap#> .
 @prefix foaf:     <http://xmlns.com/foaf/0.1/> .
 #@prefix isoprops: <http://w3id.org/isoprops#> .
 @prefix mime:     <http://www.iana.org/assignments/media-types/> .
 @prefix npg:      <http://ns.nature.com/terms/> .
 @prefix obo:      <http://purl.obolibrary.org/obo/> .
 @prefix okhkrawl: <http://w3id.org/oseg/ont/okh-krawler#> .
-@prefix okhmeta:  <http://w3id.org/oseg/ont/okhmeta> .
+@prefix okhmeta:  <http://w3id.org/oseg/ont/okhmeta#> .
 @prefix osegprof: <http://w3id.org/oseg/ont/oseg-profiles#> .
 @prefix otrl:     <http://w3id.org/oseg/ont/otrl#> .
 @prefix owl:      <http://www.w3.org/2002/07/owl#> .
@@ -18,6 +19,7 @@
 @prefix rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs:     <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix schema:   <http://schema.org/> .
+@prefix sh:       <http://www.w3.org/ns/shacl#> .
 @prefix skos:     <http://www.w3.org/2004/02/skos/core#> .
 @prefix spdxl:    <http://spdx.org/licenses/> .
 @prefix spdx:     <http://spdx.org/rdf/terms#> .
@@ -34,17 +36,22 @@
   a dcterms:Standard ;
   vann:preferredNamespacePrefix "okh" ;
   vann:preferredNamespaceUri "http://w3id.org/oseg/ont/okh#"^^xsd:anyURI ;
+  sh:declare [
+    sh:prefix "okh" ;
+    sh:namespace "https://w3id.org/oseg/ont/okh#"^^xsd:anyURI ;
+  ] ;
+  sh:suggestedShapesGraph <https://w3id.org/oseg/ont/okh/shacl#Ontology> ;
   owl:versionInfo "1.1.0" ;
   owl:versionIRI <http://w3id.org/oseg/ont/1.1.0/okh> ;
   dcterms:title "Open Know How (OKH) ontology"@en ;
   dcterms:description "Used for indexing, searching and comparing Open Source Hardware projects"@en ;
-  schema:comment '''
+  skos:editorialNote '''
 # SPDX-FileCopyrightText: 2020 - 2021 Martin Häuer <martin.haeuer@ose-germany.de>
 # SPDX-FileCopyrightText: 2020 - 2024 Robin Vobruba <hoijui.quaero@gmail.com>
 #
 # SPDX-License-Identifier: GPL-3.0-or-later
 ''' ;
-  schema:comment '''Regarding the use of `schema:domainIncludes`
+  skos:editorialNote '''Regarding the use of `schema:domainIncludes`
 and `schema:rangeIncludes` in this ontology:
 Looking at the definitions for the RDFS version
 of the two, `rdfs:domain` and `rdfs:range`:
@@ -58,6 +65,12 @@ not *one of them*.
 You may think of this as an `AND` coupling.
 We want the *one of them* meaning though (`OR`).
 The `schema:*` properties give us just that.'''@en ;
+  skos:editorialNote """We try to follow:
+(Recommendations for Vocabulary_Design](
+https://lov.linkeddata.es/Recommendations_Vocabulary_Design.pdf)""" ;
+  skos:editorialNote """We try to follow:
+[Semantic Web and Linked Data: Best Practices and Standards](
+https://guides.library.ucla.edu/semantic-web/bestpractices#s-lg-page-section-2410777)""" ;
   dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
   dcterms:created "2020-10-02Z"^^xsd:date ;
   dcterms:creator osegprof:martinHaeuer ;
@@ -93,6 +106,7 @@ okh:Component
   a skos:Concept ;
   rdfs:label "component"@en ;
   rdfs:comment "Either a module (MOSH) or Part (POSH); more component types may be added in the future"@en ;
+  # rdfs:subClassOf schema:CreativeWork ; # NOTE Probably better suited for the OSH Ontology
   # rdfs:subClassOf doap:Project ;
   vs:term_status "unstable" ;
   okhmeta:hasMetaTag okhmeta:PartsTag ;
@@ -145,14 +159,6 @@ okh:DataSourcingProcedure
   vs:term_status "unstable" ;
   .
 
-okh:Reference
-  a owl:Class ;
-  rdfs:label "unambiguous reference"@en ;
-  vs:term_status "deprecated" ;
-  owl:deprecated "true"^^xsd:boolean ;
-  cc:deprecatedOn "2024-12-15"^^xsd:date ;
-  .
-
 okh:Publication
   a owl:Class ;
   a skos:Concept ;
@@ -180,31 +186,23 @@ okh:HttpUrl
   rdfs:subClassOf xsd:anyURI ;
   # rdfs:subClassOf schema:URL ;
   rdfs:label "website URL"@en ;
-  rdfs:subClassOf okh:Reference ;
   rdfs:subClassOf schema:URL ;
+  sh:pattern "^https?:.*" ;
   vs:term_status "unstable" ;
-  .
-
-okh:FileUrl
-  a owl:Class ;
-  rdfs:label "permanent URL to file"@en ;
-  rdfs:subClassOf okh:ComponentReference ;
-  rdfs:subClassOf schema:URL ;
-  vs:term_status "deprecated" ;
-  owl:deprecated "true"^^xsd:boolean ;
-  cc:deprecatedOn "2023-07-11"^^xsd:date ;
-  schema:supersededBy okh:File ;
   .
 
 okh:File
   a owl:Class ;
+  #rdfs:subClassOf schema:DigitalDocument ; commented out, because this does not include images, for example
+  #rdfs:subClassOf schema:MediaObject ;
   rdfs:subClassOf schema:CreativeWork ;
+  # rdfs:subClassOf foaf:Document ;
   rdfs:label "file"@en ;
   rdfs:comment "A file that forms part of the project, specified/located either by a URL (okh:url) or a repo-/project-relative path (okh:relativePath)."@en ;
   vs:term_status "unstable" ;
   .
 
-okh:ManifestFile
+okh:ManifestFile # TODO MAYBE! Remove this and use okh:File directly
   a owl:Class ;
   a skos:Concept ;
   rdfs:label "manifest file"@en ;
@@ -243,34 +241,6 @@ can be packed into storage space of known dimensions.'''@en ;
   okhmeta:hasMetaTag okhmeta:TransportationTag ;
   .
 
-okh:Mass
-  a owl:Class ;
-  a skos:Concept ;
-  rdfs:label "mass"@en ;
-  rdfs:comment "… of a module or a part"@en ;
-  vs:term_status "deprecated" ;
-  owl:deprecated "true"^^xsd:boolean ;
-  cc:deprecatedOn "2024-06-16"^^xsd:date ;
-  okhmeta:hasMetaTag okhmeta:PhysicalTag ;
-  okhmeta:hasMetaTag okhmeta:TransportationTag ;
-  .
-
-okh:ComponentReference
-  a owl:Class ;
-  a skos:Concept ;
-  rdfs:subClassOf okh:Reference ;
-  rdfs:label "component reference"@en ;
-  rdfs:comment '''others shall be able to identify/procure this component only by the given reference(s),
-MOSH → URL to corresponding release
-POSH → URL to containing folder
-STD  → standard designation (preferably naming the _latest_ standard)
-BUY  → unambiguous reference'''@en ;
-  vs:term_status "deprecated" ;
-  owl:deprecated "true"^^xsd:boolean ;
-  cc:deprecatedOn "2023-08-19"^^xsd:date ;
-  okhmeta:hasMetaTag okhmeta:PartsTag ;
-  .
-
 okh:TimeStamp # TODO Check
   a rdfs:Datatype ;
   owl:onDatatype xsd:dateTimeStamp ;
@@ -301,6 +271,31 @@ okh:okhv
   rdfs:subPropertyOf schema:version ;
   vs:term_status "unstable" ;
   schema:domainIncludes okh:Dataset ;
+  .
+
+okh:okhvOriginal
+  a owl:DatatypeProperty ;
+  rdfs:label "original OKH version"@en ;
+  rdfs:comment """The version of OKH specification
+the original OSH projects metadata follows;
+whats actually stored locally
+might have been converted to a later version."""@en ;
+  rdfs:subPropertyOf okh:okhv ;
+  rdfs:seeAlso okh:okhvStored ;
+  vs:term_status "unstable" ;
+  owl:cardinality 1 ;
+  .
+
+okh:okhvPresent
+  a owl:DatatypeProperty ;
+  rdfs:label "present OKH version"@en ;
+  rdfs:comment """The version of OKH specification
+the locally present OSH project metadata follows;
+what was originally specified
+might have been an earlier version."""@en ;
+  rdfs:subPropertyOf okh:okhv ;
+  rdfs:seeAlso okh:okhvOrig ;
+  vs:term_status "unstable" ;
   owl:cardinality 1 ;
   .
 
@@ -362,6 +357,7 @@ typically a (git) repository or Wiki page.
 Following this link, people should be able to contribute to the development:
 reporting issues, suggesting changes, connecting to the team etc."""@en;
   rdfs:subPropertyOf schema:codeRepository ;
+  # rdfs:subPropertyOf doap:repository ;
   vs:term_status "unstable" ;
   schema:rangeIncludes okh:HttpUrl ;
   schema:domainIncludes okh:Module ;
@@ -463,6 +459,7 @@ okh:licensor
   a owl:ObjectProperty ;
   a skos:Concept ;
   rdfs:subPropertyOf dcterms:rightsHolder ;
+  # rdfs:subPropertyOf schema:copyrightHolder ; # NOTE Probably better suited for the OSH Ontology
   rdfs:label "licensor"@en ;
   rdfs:comment "organization/individual behind the hardware design (holder of intellectual property)"@en ;
   rdfs:subPropertyOf dcterms:rightsHolder ;
@@ -470,6 +467,7 @@ okh:licensor
   vs:term_status "unstable" ;
   schema:rangeIncludes
     dcterms:Agent ,
+    foaf:Organization ,
     foaf:Person ,
     schema:Organization ,
     schema:Person ;
@@ -534,9 +532,9 @@ for example "LicenseRef-MyVeryOwnLicense-1.3";
 please use the "SPDX identifier" from
 <https://scancode-licensedb.aboutcode.org/>,
 if your license is there but not SPDX registered.
-Use "LicenseRef-NOASSERTION" if no license is specified,
+Use "LicenseRef-NOASSERTION" or
 "LicenseRef-NONE" if no license is specified
-(which usually means: all rights reserved),
+(which usually means: "All Rights Reserved"),
 or "LicenseRef-AllRightsReserved" or similar
 for projects clearly indicating that they are proprietary."""@en ;
   skos:editorialNote """
@@ -599,37 +597,6 @@ just in a different format."""@en ;
   rdfs:seeAlso okh:licenseExpression ;
   vs:term_status "unstable" ;
   schema:domainIncludes okh:Module ;
-  owl:cardinality 1 ;
-  okhmeta:hasMetaTag okhmeta:LegalTag ;
-  .
-
-okh:spdxLicense
-  a owl:ObjectProperty ;
-  a skos:Concept ;
-  rdfs:label "SPDX license identifier"@en ;
-  rdfs:comment "view complete list under https://spdx.org/licenses/"@en ;
-  skos:closeMatch schema:license ;
-  vs:term_status "deprecated" ;
-  owl:deprecated "true"^^xsd:boolean ;
-  cc:deprecatedOn "2024-06-25"^^xsd:date ;
-  schema:supersededBy okh:license ;
-  schema:domainIncludes okh:Module ;
-  schema:rangeIncludes spdx:ListedLicense ; # aka SPDX license identifier for a single, atomar license
-  okhmeta:hasMetaTag okhmeta:LegalTag ;
-  .
-
-okh:alternativeLicense
-  a owl:ObjectProperty ;
-  a skos:Concept ;
-  rdfs:label "non-SPDX license"@en ;
-  rdfs:comment "URL to legal code of a license without SPDX identifier, hence OSHWA-compliance is to be checked manually"@en ;
-  skos:closeMatch schema:license ;
-  vs:term_status "deprecated" ;
-  owl:deprecated "true"^^xsd:boolean ;
-  cc:deprecatedOn "2024-06-25"^^xsd:date ;
-  schema:supersededBy okh:license ;
-  schema:domainIncludes okh:Module ;
-  schema:rangeIncludes okh:File ;
   owl:cardinality 1 ;
   okhmeta:hasMetaTag okhmeta:LegalTag ;
   .
@@ -701,7 +668,7 @@ okh:hasPublication
   a owl:ObjectProperty ;
   a skos:Concept ;
   rdfs:label "has Publication"@en ;
-  rdfs:comment "design files of this OSH module have been peer reviewed in the linked to scientific publication"@en ;
+  rdfs:comment "design files of this OSH module have been peer reviewed in the linked-to scientific publication"@en ;
   vs:term_status "unstable" ;
   rdfs:subPropertyOf npg:hasPublication;
   schema:domainIncludes okh:Module ;
@@ -837,6 +804,7 @@ okh:hasComponent
   a skos:Concept ;
   rdfs:label "has Component"@en ;
   rdfs:comment "Links to sub-components of the Module. In the case of that sub-component being an external Module, it has to refer to a snapshot of the RDF object representing that OKH Module. Each sub-component should also appear in the BoM."@en ;
+  # rdfs:subPropertyOf schema:hasPart ; # NOTE Probably better suited for the OSH Ontology
   vs:term_status "unstable" ;
   schema:rangeIncludes
     okh:Component, # TODO These two are an issue for the SHACL generator, because one is a class and the other a datatype, so it would have to be both OWL property types, but the SHACL generator (owl2shacl) can not handle that one (yet)
@@ -850,6 +818,8 @@ okh:hasImage
   a skos:Concept ;
   rdfs:label "has image"@en ;
   rdfs:comment "links to the corresponding Image"@en ;
+  # rdfs:subPropertyOf foaf:depiction ; # NOTE This would probably be wrong, or at least misleading, because a project logo or a technical drawing of a part would fit for `okh:hasImage`, but not `foaf:depiction`
+  # Somehow related: `foaf:logo`, `doap:screenshot`
   vs:term_status "unstable" ;
   rdfs:subPropertyOf schema:image ;
   schema:rangeIncludes okh:Image ;
@@ -925,27 +895,6 @@ okh:hasMass
   okhmeta:hasMetaTag okhmeta:PhysicalTag ;
   .
 
-okh:openSCAD
-  a owl:DatatypeProperty ;
-  rdfs:label "OpenSCAD code defining a shape"@en ;
-  vs:term_status "deprecated" ;
-  owl:deprecated "true"^^xsd:boolean ;
-  cc:deprecatedOn "2024-06-16"^^xsd:date ;
-  schema:supersededBy okh:width, okh:depth, okh:height;
-  schema:domainIncludes okh:Dimensions ;
-  schema:rangeIncludes xsd:string ;
-  .
-
-okh:openScad
-  a owl:DatatypeProperty ;
-  rdfs:label "OpenSCAD volume"@en ;
-  vs:term_status "deprecated" ;
-  owl:deprecated "true"^^xsd:boolean ;
-  cc:deprecatedOn "2023-07-06"^^xsd:date ;
-  schema:supersededBy okh:openSCAD ;
-  owl:sameAs okh:openSCAD ;
-  .
-
 okh:width
   a owl:DatatypeProperty ;
   a skos:Concept ;
@@ -957,6 +906,7 @@ okh:width
   schema:rangeIncludes xsd:float ;
   vaem:todo "TODO or should the range rather be int?"@en ;
   owl:cardinality 1 ;
+  sh:minExclusive 0 ;
   okhmeta:hasMetaTag okhmeta:PhysicalTag ;
   .
 
@@ -971,6 +921,7 @@ okh:depth
   schema:rangeIncludes xsd:float ;
   vaem:todo "TODO or should the range rather be int?"@en ;
   owl:cardinality 1 ;
+  sh:minExclusive 0 ;
   okhmeta:hasMetaTag okhmeta:PhysicalTag ;
   .
 
@@ -985,31 +936,8 @@ okh:height
   schema:rangeIncludes xsd:float ;
   vaem:todo "TODO or should the range rather be int?"@en ;
   owl:cardinality 1 ;
+  sh:minExclusive 0 ;
   okhmeta:hasMetaTag okhmeta:PhysicalTag ;
-  .
-
-okh:unit
-  a owl:DatatypeProperty ;
-  rdfs:label "unit"@en ;
-  rdfs:comment "mm, cm, m, g, kg"@en ;
-  rdfs:comment "the unit of measurement associated with a property (additionally required okh:value)"@en ;
-  vs:term_status "deprecated" ;
-  owl:deprecated "true"^^xsd:boolean ;
-  cc:deprecatedOn "2024-06-16"^^xsd:date ;
-  schema:domainIncludes
-    okh:Mass,
-    okh:Dimensions ;
-  .
-
-okh:value
-  a owl:DatatypeProperty ;
-  rdfs:label "value"@en ;
-  rdfs:comment "the numerical value associated with a property (additionally required okh:unit)"@en ;
-  vs:term_status "deprecated" ;
-  owl:deprecated "true"^^xsd:boolean ;
-  cc:deprecatedOn "2024-06-16"^^xsd:date ;
-  schema:supersededBy okh:hasMass;
-  schema:domainIncludes okh:Mass ;
   .
 
 okh:smallestToleranceClass
@@ -1077,27 +1005,6 @@ okh:url # TODO Use with okh:HttpUrl as range, and remove "rdfs:subPropertyOf sch
   okhmeta:hasMetaTag okhmeta:DataTag ;
   .
 
-okh:fileUrl
-  a owl:ObjectProperty ;
-  rdfs:label "file URL"@en ;
-  rdfs:subPropertyOf schema:url ;
-  schema:domainIncludes okh:File ;
-  vs:term_status "deprecated" ;
-  owl:deprecated "true"^^xsd:boolean ;
-  cc:deprecatedOn "2023-07-11"^^xsd:date ;
-  schema:supersededBy okh:url ;
-  .
-
-okh:permaURL
-  a owl:ObjectProperty ;
-  rdfs:label "Permanent file URL"@en ;
-  rdfs:comment "It was not 'permanent', but rather 'frozen in time', and it was also used in the Krawler, but badly. Things simply should not be done that way, but rather with a separate manifest file, where either everything is frozen, or nothing is, and the manifest file (internally) itself being marked accordingly."@en ;
-  schema:domainIncludes okh:File ;
-  vs:term_status "deprecated" ;
-  owl:deprecated "true"^^xsd:boolean ;
-  cc:deprecatedOn "2023-07-11"^^xsd:date ;
-  .
-
 okh:fileFormat
   a owl:ObjectProperty ;
   a skos:Concept ;
@@ -1128,6 +1035,8 @@ okh:created
   schema:rangeIncludes okh:TimeStamp ;
   okhmeta:hasMetaTag okhmeta:DataGatheringTag ;
   .
+  # okh:lastRequested "2021-03-26T15:15:46+00:00" ;
+  # okh:lastSeen "2021-03-26T15:15:46+00:00" ;
 
 okh:source
   a owl:ObjectProperty ;
@@ -1232,15 +1141,6 @@ okh:tsdc
   okhmeta:hasMetaTag okhmeta:ExtendedInfoTag ;
   .
 
-okh:relatedTsdc
-  a owl:ObjectProperty ;
-  vs:term_status "deprecated" ;
-  owl:deprecated "true"^^xsd:boolean ;
-  cc:deprecatedOn "2023-07-10"^^xsd:date ;
-  schema:supersededBy okh:tsdc ;
-  owl:sameAs okh:tsdc ;
-  .
-
 okh:hasSoftware
   a owl:ObjectProperty ;
   a skos:Concept ;
@@ -1262,15 +1162,3 @@ okh:release
   schema:rangeIncludes okh:HttpUrl ;
   .
 
-okh:installationGuide
-  a owl:DatatypeProperty ;
-  a skos:Concept ;
-  rdfs:label "installation guide"@en ;
-  rdfs:comment "Instructions for how to install the subject-software"@en ;
-  vaem:todo "TODO We should probably remove this, as this should be part of the software packages README, or be handled by some software-specific ontology instead"@en ;
-#  rdfs:subPropertyOf schema:url ;
-  vs:term_status "deprecated" ;
-  owl:deprecated "true"^^xsd:boolean ;
-  cc:deprecatedOn "2024-12-15"^^xsd:date ;
-  schema:domainIncludes okh:Software ;
-  .
