@@ -377,7 +377,7 @@ okh:organization
   a owl:ObjectProperty ;
   a skos:Concept ;
   rdfs:label "organization"@en ;
-  rdfs:comment "organization of the licensor or that represents (some of) the contributors of to project"@en ;
+  rdfs:comment "organization of the licensor or that represents (some of) the contributors of the project"@en ;
   vs:term_status "unstable" ;
   schema:rangeIncludes schema:Organization ;
   schema:domainIncludes okh:Module ;
