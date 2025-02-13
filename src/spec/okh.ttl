@@ -21,8 +21,8 @@
 @prefix schema:   <http://schema.org/> .
 @prefix sh:       <http://www.w3.org/ns/shacl#> .
 @prefix skos:     <http://www.w3.org/2004/02/skos/core#> .
-@prefix spdxl:    <http://spdx.org/licenses/> .
 @prefix spdx:     <http://spdx.org/rdf/terms#> .
+@prefix spdxl:    <http://spdx.org/licenses/> .
 @prefix tsdc:     <http://w3id.org/oseg/ont/tsdc/core#> .
 @prefix vaem:     <http://www.linkedmodel.org/schema/vaem#> .
 @prefix vann:     <http://purl.org/vocab/vann/> .
@@ -47,7 +47,7 @@
   dcterms:description "Used for indexing, searching and comparing Open Source Hardware projects"@en ;
   skos:editorialNote '''
 # SPDX-FileCopyrightText: 2020 - 2021 Martin Häuer <martin.haeuer@ose-germany.de>
-# SPDX-FileCopyrightText: 2020 - 2024 Robin Vobruba <hoijui.quaero@gmail.com>
+# SPDX-FileCopyrightText: 2020 - 2025 Robin Vobruba <hoijui.quaero@gmail.com>
 #
 # SPDX-License-Identifier: GPL-3.0-or-later
 ''' ;
