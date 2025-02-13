@@ -518,8 +518,8 @@ okh:standardID
   rdfs:comment "document identifier for the technical standard"@en ;
   rdfs:subPropertyOf dcterms:identifier ;
   vs:term_status "unstable" ;
-  schema:rangeIncludes xsd:normalizedString ;
   schema:domainIncludes okh:Standard ;
+  schema:rangeIncludes xsd:normalizedString ;
   okhmeta:hasMetaTag okhmeta:QualityTag ;
   .
 
