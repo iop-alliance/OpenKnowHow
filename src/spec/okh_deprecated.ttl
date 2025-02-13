@@ -1,6 +1,7 @@
 @base             <http://w3id.org/oseg/ont/okh> .
 @prefix okh:      <#> .
 @prefix cc:       <http://creativecommons.org/ns#> .
+@prefix dcam:     <http://purl.org/dc/dcam/> .
 #@prefix doap:     <http://usefulinc.com/ns/doap#> .
 @prefix okhmeta:  <http://w3id.org/oseg/ont/okhmeta> .
 @prefix owl:      <http://www.w3.org/2002/07/owl#> .
@@ -70,8 +71,8 @@ okh:spdxLicense
   owl:deprecated "true"^^xsd:boolean ;
   cc:deprecatedOn "2024-06-25"^^xsd:date ;
   schema:supersededBy okh:license ;
-  schema:domainIncludes okh:Module ;
-  schema:rangeIncludes spdx:ListedLicense ; # aka SPDX license identifier for a single, atomar license
+  dcam:domainIncludes okh:Module ;
+  dcam:rangeIncludes spdx:ListedLicense ; # aka SPDX license identifier for a single, atomar license
   okhmeta:hasMetaTag okhmeta:LegalTag ;
   .
 
@@ -85,8 +86,8 @@ okh:alternativeLicense
   owl:deprecated "true"^^xsd:boolean ;
   cc:deprecatedOn "2024-06-25"^^xsd:date ;
   schema:supersededBy okh:license ;
-  schema:domainIncludes okh:Module ;
-  schema:rangeIncludes okh:File ;
+  dcam:domainIncludes okh:Module ;
+  dcam:rangeIncludes okh:File ;
   owl:cardinality 1 ;
   okhmeta:hasMetaTag okhmeta:LegalTag ;
   .
@@ -98,8 +99,8 @@ okh:openSCAD
   owl:deprecated "true"^^xsd:boolean ;
   cc:deprecatedOn "2024-06-16"^^xsd:date ;
   schema:supersededBy okh:width, okh:depth, okh:height;
-  schema:domainIncludes okh:Dimensions ;
-  schema:rangeIncludes xsd:string ;
+  dcam:domainIncludes okh:Dimensions ;
+  dcam:rangeIncludes xsd:string ;
   .
 
 okh:openScad
@@ -120,7 +121,7 @@ okh:unit
   vs:term_status "deprecated" ;
   owl:deprecated "true"^^xsd:boolean ;
   cc:deprecatedOn "2024-06-16"^^xsd:date ;
-  schema:domainIncludes
+  dcam:domainIncludes
     okh:Mass,
     okh:Dimensions ;
   .
@@ -133,14 +134,14 @@ okh:value
   owl:deprecated "true"^^xsd:boolean ;
   cc:deprecatedOn "2024-06-16"^^xsd:date ;
   schema:supersededBy okh:hasMass;
-  schema:domainIncludes okh:Mass ;
+  dcam:domainIncludes okh:Mass ;
   .
 
 okh:fileUrl
   a owl:ObjectProperty ;
   rdfs:label "file URL"@en ;
   rdfs:subPropertyOf schema:url ;
-  schema:domainIncludes okh:File ;
+  dcam:domainIncludes okh:File ;
   vs:term_status "deprecated" ;
   owl:deprecated "true"^^xsd:boolean ;
   cc:deprecatedOn "2023-07-11"^^xsd:date ;
@@ -151,7 +152,7 @@ okh:permaURL
   a owl:ObjectProperty ;
   rdfs:label "Permanent file URL"@en ;
   rdfs:comment "It was not 'permanent', but rather 'frozen in time', and it was also used in the Krawler, but badly. Things simply should not be done that way, but rather with a separate manifest file, where either everything is frozen, or nothing is, and the manifest file (internally) itself being marked accordingly."@en ;
-  schema:domainIncludes okh:File ;
+  dcam:domainIncludes okh:File ;
   vs:term_status "deprecated" ;
   owl:deprecated "true"^^xsd:boolean ;
   cc:deprecatedOn "2023-07-11"^^xsd:date ;
@@ -176,6 +177,6 @@ okh:installationGuide
   vs:term_status "deprecated" ;
   owl:deprecated "true"^^xsd:boolean ;
   cc:deprecatedOn "2024-12-15"^^xsd:date ;
-  schema:domainIncludes okh:Software ;
+  dcam:domainIncludes okh:Software ;
   .
 

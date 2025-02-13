@@ -1,6 +1,7 @@
 @base             <http://w3id.org/oseg/ont/okhmeta> .
 @prefix okhmeta:  <#> .
 @prefix cc:       <http://creativecommons.org/ns#> .
+@prefix dcam:     <http://purl.org/dc/dcam/> .
 @prefix dcat:     <http://www.w3.org/ns/dcat#> .
 @prefix dcterms:  <http://purl.org/dc/terms/> .
 @prefix osegprof: <http://w3id.org/oseg/ont/oseg-profiles#> .
@@ -36,8 +37,8 @@ when browsing multiple projects at a time.'''@en ;
 #
 # SPDX-License-Identifier: GPL-3.0-or-later
 ''' ;
-  skos:editorialNote '''Regarding the use of `schema:domainIncludes`
-and `schema:rangeIncludes` in this ontology:
+  skos:editorialNote '''Regarding the use of `dcam:domainIncludes`
+and `dcam:rangeIncludes` in this ontology:
 Looking at the definitions for the RDFS version
 of the two, `rdfs:domain` and `rdfs:range`:
 * https://www.w3.org/TR/rdf-schema/#ch_domain
@@ -49,7 +50,12 @@ that *all of them* apply, simultaneously,
 not *one of them*.
 You may think of this as an `AND` coupling.
 We want the *one of them* meaning though (`OR`).
-The `schema:*` properties give us just that.'''@en ;
+The `dcam:*` properties give us just that.
+Though there is an additional,
+very important difference:
+The `*Includes` properties are just suggestions,
+so if they are used, it is left open to use other,
+not mentioned class as domain or range too.'''@en ;
   dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
   dcterms:created "2024-07-01"^^xsd:date ;
   dcterms:creator osegprof:robinVobruba ;
@@ -86,7 +92,7 @@ This might be useful for arranging properties in a GUI,
 or for visualizing only parts of the ontology in a graph,
 among possibly other things.'''@en ;
   vs:term_status "unstable" ;
-  schema:rangeIncludes okhmeta:MetaTag ;
+  dcam:rangeIncludes okhmeta:MetaTag ;
   okhmeta:hasMetaTag okhmeta:MetaTag ;
   .
 
