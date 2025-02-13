@@ -260,7 +260,7 @@ might have been converted to a later version."""@en ;
   owl:cardinality 1 ;
   .
 
-okh:okhvPresent
+okh:okhvPresent # TODO This is somewhat obsolete, because the version should be visible in the `okh:` prefix IRI
   a owl:DatatypeProperty ;
   rdfs:label "present OKH version"@en ;
   rdfs:comment """The version of OKH specification
@@ -752,7 +752,7 @@ okh:smallestToleranceClass
   okhmeta:hasMetaTag okhmeta:MakingTag ;
   .
 
-okh:hasManifestFile
+okh:hasManifestFile # TODO Comment out/remove - This is now ODS territory, though there we use an ods:File now
   a owl:ObjectProperty ;
   a skos:Concept ;
   rdfs:label "has manifest file"@en ;
