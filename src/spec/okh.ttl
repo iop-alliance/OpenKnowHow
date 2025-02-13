@@ -88,6 +88,8 @@ https://guides.library.ucla.edu/semantic-web/bestpractices#s-lg-page-section-241
   schema:codeRepository "https://github.com/iop-alliance/OpenKnowHow/"^^xsd:anyURI ;
   dcat:keyword "OKH", "hardware", "design", "open-source", "open-source-hardware", "project" ;
   dcat:contactPoint "https://github.com/iop-alliance/OpenKnowHow/issues/"^^xsd:anyURI ;
+  void:rootResource okh:Module ;
+  void:rootResource okh:Part ;
   .
 
 # okh:Dataset
