@@ -8255,6 +8255,6 @@ multiple inputs possible (with one entry each)</p>
 </div>
 
     <footer>
-        <p class="generated-by-footer">Generated using <a href="https://github.com/coveooss/json-schema-for-humans">json-schema-for-humans</a> on 2025-02-02 at 12:14:27 +0000</p>
+        <p class="generated-by-footer">Generated using <a href="https://github.com/coveooss/json-schema-for-humans">json-schema-for-humans</a> on 2025-02-14 at 16:10:26 +0000</p>
     </footer></body>
 </html>

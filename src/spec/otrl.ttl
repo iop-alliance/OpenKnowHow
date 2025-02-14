@@ -1,6 +1,7 @@
 @base             <http://w3id.org/oseg/ont/otrl> .
 @prefix otrl:     <#> .
 @prefix cc:       <http://creativecommons.org/ns#> .
+@prefix dcam:     <http://purl.org/dc/dcam/> .
 @prefix dcat:     <http://www.w3.org/ns/dcat#> .
 @prefix dcterms:  <http://purl.org/dc/terms/> .
 @prefix osegprof: <http://w3id.org/oseg/ont/oseg-profiles#> .
@@ -27,12 +28,12 @@
   schema:comment "Descriptions (`rdfs:comment`) from NASA are used under public domain"@en ;
   skos:editorialNote '''
 # SPDX-FileCopyrightText: 2020 - 2021 Martin Häuer <martin.haeuer@ose-germany.de>
-# SPDX-FileCopyrightText: 2020 - 2024 Robin Vobruba <hoijui.quaero@gmail.com>
+# SPDX-FileCopyrightText: 2020 - 2025 Robin Vobruba <hoijui.quaero@gmail.com>
 #
 # SPDX-License-Identifier: GPL-3.0-or-later
 ''' ;
-  skos:editorialNote '''Regarding the use of `schema:domainIncludes`
-and `schema:rangeIncludes` in this ontology:
+  skos:editorialNote '''Regarding the use of `dcam:domainIncludes`
+and `dcam:rangeIncludes` in this ontology:
 Looking at the definitions for the RDFS version
 of the two, `rdfs:domain` and `rdfs:range`:
 * https://www.w3.org/TR/rdf-schema/#ch_domain
@@ -44,7 +45,12 @@ that *all of them* apply, simultaneously,
 not *one of them*.
 You may think of this as an `AND` coupling.
 We want the *one of them* meaning though (`OR`).
-The `schema:*` properties give us just that.'''@en ;
+The `dcam:*` properties give us just that.
+Though there is an additional,
+very important difference:
+The `*Includes` properties are just suggestions,
+so if they are used, it is left open to use other,
+not mentioned class as domain or range too.'''@en ;
   dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
   dcterms:created "2021-02-22"^^xsd:date ;
   dcterms:creator osegprof:martinHaeuer ;
@@ -84,7 +90,7 @@ otrl:goal
   vs:term_status "unstable" ;
   rdfs:range rdf:langString ;
   owl:cardinality 1 ;
-  schema:domainIncludes
+  dcam:domainIncludes
     otrl:OTRL,
     otrl:ODRL ;
   .
@@ -96,7 +102,7 @@ otrl:exitCriteria
   vs:term_status "unstable" ;
   rdfs:range rdf:langString ;
   owl:cardinality 1 ;
-  schema:domainIncludes
+  dcam:domainIncludes
     otrl:OTRL,
     otrl:ODRL ;
   .
