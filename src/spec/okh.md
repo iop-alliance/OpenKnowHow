@@ -231,7 +231,8 @@ Otherwise, no changes will be synced.
 - A repository shall contain exactly one manifest file
 - in the root directory of the repository,
 - named `okh.toml`,
-- using the [TOML file format](https://github.com/toml-lang/toml/releases/tag/1.0.0)\
+- using the [TOML file format](
+  https://github.com/toml-lang/toml/releases/tag/1.0.0) \
   (we may allow more file formats in the future) and
 - and follow the requirements of this specification
   Please see our linked templates for this; they'll make your life easier.
@@ -244,35 +245,34 @@ For file referencing this specification allows relative and absolute paths.
 
 A relative path starts from some directory
 the corresponding manifest file is located in.
-The file reference _never_ starts with a "`/`"
+The file reference _never_ starts with a "`/`". \
+Examples:
 
-##### Example
+1. Given the following folder structure:
 
-Given the following folder structure:
+    `3DParts/ClampRing`
 
-`3DParts/ClampRing`
+    manifest and source file of the POSH `Clamp Ring`
+    are located in the same folder;
+    the file reference would be simply:
 
-manifest and source file of the POSH `Clamp Ring` are located in the same folder;
-the file reference would be simply:
+    `clampring.scad`
 
-`clampring.scad`
+2. Given the alternative folder structure:
 
-Given the alternative folder structure:
+    `3DParts/ClampRing/source`
 
-`3DParts/ClampRing/source`
+    where manifest and other additional files are located in `3DParts/ClampRing`
+    whereby the source lies in in the subfolder `source`,
+    the file reference would be:
 
-where manifest and other additional files are located in `3DParts/ClampRing`
-whereby the source lies in in the subfolder `source`,
-the file reference would be:
-
-`source/clampring.scad`
+    `source/clampring.scad`
 
 #### Absolute Path
 
 An absolute path always starts from the root directory (= repository folder).
-The file reference _always_ starts with an "`/`"
-
-##### Example
+The file reference _always_ starts with an "`/`". \
+Example:
 
 `3DParts/ClampRing/ClampRing.scad`
 
@@ -348,15 +348,19 @@ To summarize: an OSH module must bear reference of:
   - repo-relative path or URL to the contribution guide
   - e.g. `CONTRIBUTING.md`
 - `image` \[file-path\] <!-- INCORPORATED into TTL => Do not change here anymore! -->
-  - repo-relative path or URL to one (!) representative image of the OSH module
+  - repo-relative path or URL to one (!) representative image
+    of the OSH module
 - **`documentation-language`** \[string\] <!-- INCORPORATED into TTL => Do not change here anymore! -->
-  - IETF BCP 47 language tag for the language in which the documentation is written
+  - IETF BCP 47 language tag
+    for the language in which the documentation is written
 - `technology-readiness-level` \[string\] <!-- INCORPORATED into TTL => Do not change here anymore! -->
   - OTRL-ID representing the development stage of the OSH module
-  - get it from here: <https://raw.githubusercontent.com/iop-alliance/OpenKnowHow/master/src/spec/otrl.ttl>
+  - get it from here:
+    <https://raw.githubusercontent.com/iop-alliance/OpenKnowHow/master/src/spec/otrl.ttl>
 - `documentation-readiness-level` \[string\] <!-- INCORPORATED into TTL => Do not change here anymore! -->
   - ODRL-ID representing the development stage of the documentation
-  - get it from here: <https://raw.githubusercontent.com/iop-alliance/OpenKnowHow/master/src/spec/otrl.ttl>
+  - get it from here:
+    <https://raw.githubusercontent.com/iop-alliance/OpenKnowHow/master/src/spec/otrl.ttl>
 - `attestation` \[URL\] <!-- INCORPORATED into TTL => Do not change here anymore! -->
   - reference to a valid attestation that the documentation is complete
     and fully qualifies as open source hardware
@@ -368,7 +372,8 @@ To summarize: an OSH module must bear reference of:
   - functional description, e.g. what it actually does,
     what problem it solves, for whom, under which conditions etc.
     so if you wish that someone finds & uses your OKH specifically,
-    e.g. for COVID-19-crisis response, include relevant keywords in this field\
+    e.g. for COVID-19-crisis response,
+    include relevant keywords in this field \
     optional: description of input, output and interfaces
 - `standard-compliance` \[string\] <!-- INCORPORATED into TTL => Do not change here anymore! -->
   - document-number of the official standard the OSH module complies
@@ -377,12 +382,14 @@ To summarize: an OSH module must bear reference of:
 - `cpc-patent-class` \[CPC-ID\] <!-- INCORPORATED into TTL => Do not change here anymore! -->
   - patent class identifier of the Cooperative Patent Classification
     that describes best the field of technology of the OSH module
-  - get it from here: <https://worldwide.espacenet.com/classification>
+  - get it from here:
+    <https://worldwide.espacenet.com/classification>
   - e.g. `D03D 35/00`
 - `tsdc` \[TsDC-ID\] <!-- INCORPORATED into TTL => Do not change here anymore! -->
   - identifier of the applying Technology-specific Documentation Criteria (TsDC)
     according to DIN SPEC 3105-1
-  - get it from here: <https://gitlab.com/OSEGermany/oh-tsdc/-/blob/master/oh-tsdc.ttl>
+  - get it from here:
+    <https://gitlab.com/OSEGermany/oh-tsdc/-/blob/master/oh-tsdc.ttl>
   - e.g. `MEC`
   - multiple inputs possible (with one entry each)
 - `bom` \[file-path\] <!-- INCORPORATED into TTL => Do not change here anymore! -->
@@ -406,7 +413,8 @@ To summarize: an OSH module must bear reference of:
   - multiple inputs possible (with one entry each)
 - `auxiliary` \[file-path\] <!-- INCORPORATED into TTL => Do not change here anymore! -->
   - repo-relative path or URL to files that are neither source files
-    nor their exports, but still useful in the repository (e.g. KiCAD library files)
+    nor their exports, but still useful in the repository
+    (e.g. KiCAD library files)
   - e.g. `lib/lib1.lib`
   - multiple inputs possible (with one entry each)
 
@@ -419,7 +427,8 @@ To summarize: an OSH module must bear reference of:
 - `tsdc` \[TsDC-ID\] <!-- INCORPORATED into TTL => Do not change here anymore! -->
   - identifier of the applying Technology-specific Documentation Criteria (TsDC)
     according to DIN SPEC 3105-1
-  - get it from here: <https://gitlab.com/OSEGermany/oh-tsdc/-/blob/master/oh-tsdc.ttl>
+  - get it from here:
+    <https://gitlab.com/OSEGermany/oh-tsdc/-/blob/master/oh-tsdc.ttl>
   - e.g. `3DP`
   - multiple inputs possible (with one entry each)
 - **`source`** \[file-path\] <!-- INCORPORATED into TTL => Do not change here anymore! -->
@@ -456,7 +465,8 @@ To summarize: an OSH module must bear reference of:
 general:
 
 - `joining-process` \[string\]
-  - designation of the manufacturing process used to connect the parts to an assembly
+  - designation of the manufacturing process used
+    to connect the parts to an assembly
   - e.g. `hard soldering`
   - multiple inputs possible (with one entry each)
 - `outer-dimensions` \[class\]
@@ -490,7 +500,8 @@ general:
   - not to confuse with `smallest-space-copper-copper-mm`
   - e.g. `0.35`
 - `smallest-space-copper-copper-mm` \[float\]
-  - smallest distance between 2 copper areas (e.g. 2 traces) in the PCB design
+  - smallest distance between 2 copper areas
+    (e.g. 2 traces) in the PCB design
   - e.g. `0.15`
 - `smallest-via-diameter-mm` \[float\]
   - diameter of the smallest via on the PCB in mm
@@ -521,7 +532,9 @@ In case of multilayer PCB:
 `tsdc:WEL`
 
 - `welding-process` \[integer\]
-  - welding process number according to ISO 4063 (e.g. from [here](https://en.wikipedia.org/wiki/List_of_welding_processes))
+  - welding process number according to ISO 4063
+    (e.g. from [Wikipedia/List_of_welding_processes](
+    https://en.wikipedia.org/wiki/List_of_welding_processes))
   - e.g. `111` for "classic" shielded metal arc welding
 - `welder-certification` \[string\]
   - designation of the certification/qualification required for the welder
@@ -536,7 +549,8 @@ general:
 
 - `material` \[string\]
   - reference of material used for this part
-  - e.g. `PLA`, `1.0715` (EN material number for free machining steel 11SMn30)
+  - e.g. `PLA`, `1.0715`
+    (EN material number for free machining steel 11SMn30)
 - `outer-dimensions` \[class\]
   - `width` in mm \[float\]
   - `depth` in mm \[float\]
