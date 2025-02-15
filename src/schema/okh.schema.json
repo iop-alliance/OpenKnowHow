@@ -189,7 +189,7 @@
       "type": "string"
     },
     "image": {
-      "$ref": "#/$defs/image"
+      "$ref": "#/$defs/images"
     },
     "license": {
       "description": "An SPDX license _expression\n(see: <https://spdx.github.io/spdx-spec/v2-draft/SPDX-license-expressions/>),\nusually a single SPDX license ID\n(see complete list: <https://spdx.org/licenses/>),\nor a combination of those,\ncombined with AND or OR.\nIf your license is not SPDX registered (yet),\nuse a custom string prefixed with 'LicenseRef-',\nfor example 'LicenseRef-MyVeryOwnLicense-1.3';\nplease use the 'SPDX identifier' from\n<https://scancode-licensedb.aboutcode.org/>,\nif your license is there but not SPDX registered.\nUse 'LicenseRef-NOASSERTION' if no license is specified,\n'LicenseRef-NONE' if no license is specified\n(which usually means: all rights reserved),\nor 'LicenseRef-AllRightsReserved' or similar\nfor projects clearly indicating that they are proprietary.",
@@ -380,7 +380,7 @@
             "$ref": "#/$defs/export"
           },
           "image": {
-            "$ref": "#/$defs/image"
+            "$ref": "#/$defs/images"
           },
           "mass": {
             "$ref": "#/$defs/mass"
@@ -669,16 +669,153 @@
         }
       ]
     },
+    "lang-text": {
+      "description": "a text and the language it is written in",
+      "type": "object",
+      "required": [
+        "text",
+        "language"
+      ],
+      "properties": {
+        "text": {
+          "description": "the text content",
+          "type": "string"
+        },
+        "language": {
+          "description": "The BCP 47 language tag the content is written in",
+          "$ref": "#/$defs/language"
+        }
+      }
+    },
     "image": {
-      "description": "relative or absolute path to one (!) representative image of the OSH module",
+      "description": "a single image reference (project relative path or absolute URL), optionally with additional meta-data",
+      "type": "object",
+      "examples": [
+        {
+          "location": "res/media/img/logo.svg",
+          "depicts": "This OSH projects logo"
+        },
+        {
+          "location": "res/media/img/liquid-flow.svg",
+          "depicts": "A diagram depicting the flow of the different liquids through the machine in an abstract manner"
+        },
+        {
+          "location": "res/media/img/liquid-flow.svg",
+          "depicts": "A photo of the finished hardware, taken with a white background."
+        },
+        {
+          "location": "res/media/img/liquid-flow.svg",
+          "depicts": {
+            "text": "A photo of the finished hardware, taken with a white background.",
+            "language": "en"
+          }
+        },
+        {
+          "location": "res/media/img/liquid-flow.svg",
+          "depicts": [
+            {
+              "text": "A photo of the finished hardware, taken with a white background.",
+              "language": "en"
+            },
+            {
+              "text": "Ein Foto der fertigen Maschiene, aufgenommen vor einem weissen Hintergrund.",
+              "language": "de"
+            }
+          ]
+        }
+      ],
+      "required": [
+        "location"
+      ],
+      "properties": {
+        "location": {
+          "description": "Project relative path or absolute URL linking to the image file",
+          "$ref": "#/$defs/relPathOrWebUrl"
+        },
+        "depicts": {
+          "description": "Human oriented description of what is visible in the image.\nThis matters for example:\n- for visually impaired or blind people\n- in case the image is for some reason not available\n- to put as a caption next to the image",
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "$ref": "#/$defs/lang-text"
+            },
+            {
+              "type": "array",
+              "items": {
+                "$ref": "#/$defs/lang-text"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "images": {
+      "description": "one or more image references, with or without additional meta-data",
+      "examples": [
+        "res/media/img/logo.svg",
+        "res/media/img/liquid-flow.svg",
+        "res/assets/media/img/hw-photo.png",
+        "https://image-hoster-xzy.net/accounts/our-user/our-project/our-image.png",
+        [
+          "res/media/img/logo.svg",
+          "res/media/img/liquid-flow.svg",
+          "res/assets/media/img/hw-photo.png",
+          "https://image-hoster-xzy.net/accounts/our-user/our-project/our-image.png"
+        ],
+        {
+          "location": "res/media/img/logo.svg",
+          "depicts": "This OSH projects logo"
+        },
+        {
+          "location": "res/media/img/liquid-flow.svg",
+          "depicts": "A diagram depicting the flow of the different liquids through the machine in an abstract manner"
+        },
+        {
+          "location": "res/media/img/liquid-flow.svg",
+          "depicts": "A photo of the finished hardware, taken with a white background"
+        },
+        {
+          "location": "https://image-hoster-xzy.net/accounts/our-user/our-project/our-image.png",
+          "depicts": "Community supplied photo of the underbelly of our machine"
+        },
+        [
+          {
+            "location": "res/media/img/logo.svg",
+            "depicts": "This OSH projects logo"
+          },
+          {
+            "location": "res/media/img/liquid-flow.svg",
+            "depicts": "A diagram depicting the flow of the different liquids through the machine in an abstract manner"
+          },
+          {
+            "location": "res/media/img/liquid-flow.svg",
+            "depicts": "A photo of the finished hardware, taken with a white background."
+          },
+          {
+            "location": "https://image-hoster-xzy.net/accounts/our-user/our-project/our-image.png",
+            "depicts": "Community supplied photo of the underbelly of our machine"
+          }
+        ]
+      ],
       "anyOf": [
         {
           "$ref": "#/$defs/relPathOrWebUrl"
         },
         {
+          "$ref": "#/$defs/image"
+        },
+        {
           "type": "array",
           "items": {
             "$ref": "#/$defs/relPathOrWebUrl"
+          }
+        },
+        {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/image"
           }
         }
       ]

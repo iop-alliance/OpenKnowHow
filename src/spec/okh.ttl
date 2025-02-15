@@ -626,6 +626,28 @@ okh:hasImage
   okhmeta:hasMetaTag okhmeta:BasicTag ;
   .
 
+okh:depicts
+  a owl:DatatypeProperty ;
+  a skos:Concept ;
+  skos:prefLabel "depicts"@en ;
+  skos:altLabel "has abstract"@en ;
+  skos:altLabel "has caption"@en ;
+  skos:altLabel "shows"@en ;
+  rdfs:comment """Human oriented description of what is visible in the image.
+This matters for example:
+
+- for visually impaired or blind people
+- in case the image is not available
+- to be able to put it as a caption next to the image"""@en ;
+  vs:term_status "unstable" ;
+  rdfs:subPropertyOf schema:abstract ;
+  rdfs:subPropertyOf foaf:depicts ;
+  rdfs:subPropertyOf dcterms:description ;
+  dcam:rangeIncludes rdf:langString ;
+  dcam:domainIncludes okh:Image ;
+  okhmeta:hasMetaTag okhmeta:BasicTag ;
+  .
+
 okh:functionalMetadata
   a owl:DatatypeProperty ;
   a skos:Concept ;

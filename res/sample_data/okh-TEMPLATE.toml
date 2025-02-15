@@ -42,12 +42,6 @@ organization = "xxx"
 release = "https://gitlab.com/YOU/your-awesome-project/-/releases/1.0.0"
 readme = "README.md"
 contribution-guide = "CONTRIBUTING.md"
-image = [
-  # logo
-  "imgs/xxx.jpg",
-  # product-photo
-  "imgs/yyy.jpg"
-]
 technology-readiness-level = "OTRL-3"
 documentation-readiness-level = "ODRL-3"
 attestation = "https://certification.oshwa.org/cl000001.html"
@@ -74,9 +68,19 @@ width = 400
 depth = 350.8
 height = 150
 
+[[image]]
+# logo
+location = "res/media/img/logo.svg"
+depicts = "The logo of this OSH project"
+
+[[image]]
+# product-photo
+location = "res/assets/media/img/hw-photo.png"
+depicts = "A photo of the finished hardware, taken with a white background"
+
 [[part]]
 name = "your-awesome-part"
-image = "xxx.jpg"
+image = "res/assets/media/img/part-photo.png"
 tsdc = "3DP"
 source = "xxx.scad"
 export = [
