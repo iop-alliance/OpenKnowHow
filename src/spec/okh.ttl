@@ -79,6 +79,64 @@ https://lov.linkeddata.es/Recommendations_Vocabulary_Design.pdf)""" ;
   skos:editorialNote """We try to follow:
 [Semantic Web and Linked Data: Best Practices and Standards](
 https://guides.library.ucla.edu/semantic-web/bestpractices#s-lg-page-section-2410777)""" ;
+  skos:editorialNote """# Naming Convention
+
+- Classes:
+
+   Guideline:
+
+   - in UpperCamelCase
+   - a single noun or multiple, combined nouns
+
+   Examples:
+
+   - `ex:Person`
+   - `ex:InfillHose`
+
+- Datatypes:
+
+   Guideline:
+
+   - in lowerCamelCase
+   - a single noun or multiple, combined nouns
+
+   Examples:
+
+   - `ex:float`
+   - `ex:emailString`
+
+- Predicates:
+
+   - in lowerCamelCase
+   - if a DatatypeProperty,
+      i.e. one with a literal as range/object,
+      it should be a noun (or a combined noun)
+   - if an (Object)Property,
+     i.e. a relation between non-literals),
+     it should be a verb plus potentially a noun (potentially combined),
+     though an initial 'is' should be omitted.
+
+   Examples:
+
+   - `ex:age 55`
+   - `ex:enrolled true`
+   - `ex:depicts "A plant with a purple flower"@en`
+   - `ex:hasMother ex:albaBach`
+   - `ex:olderThen ex:albaBach`
+   - `ex:likes ex:albaBach`
+
+- Individuals:
+   - in lowerCamelCase
+   - a single noun or multiple, combined nouns
+
+   Examples:
+
+   - `ex:albaBach`
+   - `ex:paris`
+
+See our [naming convention issue](
+https://github.com/iop-alliance/OpenKnowHow/issues/13)
+for more details.""" ;
   dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
   dcterms:created "2020-10-02Z"^^xsd:date ;
   dcterms:creator osegprof:martinHaeuer ;
