@@ -644,8 +644,8 @@ This matters for example:
   rdfs:subPropertyOf schema:abstract ;
   rdfs:subPropertyOf foaf:depicts ;
   rdfs:subPropertyOf dcterms:description ;
-  dcam:rangeIncludes rdf:langString ;
   dcam:domainIncludes okh:Image ;
+  dcam:rangeIncludes rdf:langString ;
   okhmeta:hasMetaTag okhmeta:BasicTag ;
   .
 
