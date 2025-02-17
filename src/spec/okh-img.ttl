@@ -1,0 +1,123 @@
+@base             <http://w3id.org/oseg/ont/okhimg> .
+@prefix okhimg:   <#> .
+@prefix cc:       <http://creativecommons.org/ns#> .
+@prefix dcam:     <http://purl.org/dc/dcam/> .
+@prefix dcat:     <http://www.w3.org/ns/dcat#> .
+@prefix dcterms:  <http://purl.org/dc/terms/> .
+@prefix ods:      <http://w3id.org/oseg/ont/ods#> .
+@prefix osegprof: <http://w3id.org/oseg/ont/oseg-profiles#> .
+@prefix owl:      <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:     <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema:   <http://schema.org/> .
+@prefix skos:     <http://www.w3.org/2004/02/skos/core#> .
+@prefix spdx:     <http://spdx.org/rdf/terms#> .
+@prefix spdxl:    <http://spdx.org/licenses/> .
+@prefix vann:     <http://purl.org/vocab/vann/> .
+@prefix void:     <http://rdfs.org/ns/void#> .
+@prefix vs:       <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
+
+<>
+  a ods:Dataset ;
+  a spdx:SpdxItem ;
+  vann:preferredNamespacePrefix "okhimg" ;
+  vann:preferredNamespaceUri "http://w3id.org/oseg/ont/okhimg#" ;
+  owl:versionInfo "0.1.0" ;
+  owl:versionIRI <http://w3id.org/oseg/ont/0.1.0/okhimg> ;
+  dcterms:title "Open Know How (OKH) - Image Tags & Slots"@en ;
+  dcterms:description """Contains individuals to be used as tag and slot values
+for images in OKH."""@en ;
+  skos:editorialNote """
+# SPDX-FileCopyrightText: 2025 Robin Vobruba <hoijui.quaero@gmail.com>
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later
+""" ;
+  dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
+  dcterms:created "2025-02-15"^^xsd:date ;
+  dcterms:creator osegprof:robinVobruba ;
+  schema:creator osegprof:robinVobruba ;
+  dcterms:publisher osegprof:Iopa ;
+  dcterms:license "https://www.gnu.org/licenses/agpl-3.0.txt" ;
+  cc:license "https://www.gnu.org/licenses/agpl-3.0.txt" ;
+  spdx:licenseDeclared spdxl:AGPL-3.0-or-later ;
+  dcterms:source "https://github.com/iop-alliance/OpenKnowHow/master/src/spec/okh-img.ttl" ;
+  schema:codeRepository "https://github.com/iop-alliance/OpenKnowHow/" ;
+  dcat:keyword "image", "OKH", "tagging", "tags", "grouping", "slots" ;
+  dcat:contactPoint "https://github.com/iop-alliance/OpenKnowHow/" ;
+  void:rootResource okhimg:slots ;
+  void:rootResource okhimg:tags ;
+  .
+
+
+okhimg:slots
+  a schema:DefinedTermSet ;
+  rdfs:label "OKH image slots"@en ;
+  rdfs:comment """This is the closed set
+of officially supported and promoted OKH image slots,
+used to categorize images.
+Only the ones directly referenced from here with `schema:hasDefinedTerm`
+are official OKH image slots,
+though it is possible to use other slots,
+as long as they are of `rdf:type schema:DefinedTerm`,
+feature `schema:inDefinedTermSet okhimg:slots`,
+and take measures that their `schema:termCode` is unique.
+The later can be achieved by using the common 'c_' prefix -
+signifying 'custom' -
+plus an additional prefix after that,
+identifying the organization or individual that defines the slot,
+optimally using a reverse domain notation.
+Assuming a raw term of 'my-slot',
+the result could be:
+`schema:termCode "c_org.save-the-world.water_my-slot"`.
+See `okh:slot` for more info."""@en ;
+  vs:term_status "unstable" ;
+  schema:hasDefinedTerm okhimg:slotIconMain ;
+  .
+
+okhimg:slotIconMain
+  a schema:DefinedTerm ;
+  rdfs:label "Main Icon"@en ;
+  rdfs:comment """The annotated subjects main icon (potentially in color).
+See also [icon vs symbol](
+https://github.com/iop-alliance/OpenKnowHow/issues/35#icon-vs-symbol)."""@en ;
+  schema:termCode "main-icon" ;
+  vs:term_status "unstable" ;
+  .
+
+okhimg:tags
+  a schema:DefinedTermSet ;
+  rdfs:label "OKH image tags"@en ;
+  rdfs:comment """This is the closed set
+of officially supported and promoted OKH image tags,
+used to categorize images.
+Only the ones directly referenced from here with `schema:hasDefinedTerm`
+are official OKH image tags,
+though it is possible to use other tags,
+as long as they are of `rdf:type schema:DefinedTerm`,
+feature `schema:inDefinedTermSet okhimg:tags`,
+and take measures that their `schema:termCode` is unique.
+The later can be achieved by using the common 'c_' prefix -
+signifying 'custom' -
+plus an additional prefix after that,
+identifying the organization or individual that defines the tag,
+optimally using a reverse domain notation.
+Assuming a raw term of 'my-tag',
+the result could be:
+`schema:termCode "c_org.save-the-world.water_my-tag"`.
+See `okh:tag` for more info."""@en ;
+  vs:term_status "unstable" ;
+  schema:hasDefinedTerm okhimg:tagArt ;
+  .
+
+okhimg:tagArt
+  a schema:DefinedTerm ;
+  rdfs:label "Artistic"@en ;
+  rdfs:comment """The annotated subject -
+rather then being of a more scientific, observational,
+direct, plain, rational nature -
+focuses on and employs artistic features,
+likely to convey an underlying feeling."""@en ;
+  schema:termCode "art" ;
+  vs:term_status "unstable" ;
+  .

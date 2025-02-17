@@ -12,6 +12,7 @@
 @prefix npg:      <http://ns.nature.com/terms/> .
 @prefix obo:      <http://purl.obolibrary.org/obo/> .
 @prefix ods:      <http://w3id.org/oseg/ont/ods#> .
+@prefix okhimg:   <http://w3id.org/oseg/ont/okhimg#> .
 @prefix okhkrawl: <http://w3id.org/oseg/ont/okh-krawler#> .
 @prefix okhmeta:  <http://w3id.org/oseg/ont/okhmeta#> .
 @prefix osegprof: <http://w3id.org/oseg/ont/oseg-profiles#> .
@@ -646,6 +647,48 @@ This matters for example:
   dcam:rangeIncludes rdf:langString ;
   dcam:domainIncludes okh:Image ;
   okhmeta:hasMetaTag okhmeta:BasicTag ;
+  .
+
+okh:slot
+  a owl:ObjectProperty ;
+  a skos:Concept ;
+  rdfs:label "fills slot"@en ;
+  rdfs:comment """Denotes the slot the image fills within the subject it belongs to.
+You may also think of it as the 'role' the image plays for its parent.
+The available slots are predefined,
+see the [OKH image slots](http://w3id.org/oseg/ont/okhimg#slots);
+there you will also read about the ability to define custom ones,
+though you might also consider proposing a new common tag
+[in an issue](https://github.com/iop-alliance/OpenKnowHow/issues/new).
+An image can fill multiple slots,
+but each slot can be filled at most once.
+This is useful for things like the projects icon,
+or the left-side view of the 3D model."""@en ;
+  vs:term_status "unstable" ;
+  rdfs:subPropertyOf schema:keywords ;
+  dcam:domainIncludes okh:Image ;
+  dcam:rangeIncludes xsd:string ;
+  skos:example okhimg:slotIconMain ;
+  .
+
+okh:tag
+  a owl:ObjectProperty ;
+  a skos:Concept ;
+  rdfs:label "has tag"@en ;
+  rdfs:comment """Links to a tag fit to describe the image.
+The available tags are predefined,
+see the [OKH image tags](http://w3id.org/oseg/ont/okhimg#tags);
+there you will also read about the ability to define custom ones,
+though you might also consider proposing a new common tag
+[in an issue](https://github.com/iop-alliance/OpenKnowHow/issues/new).
+An image can have multiple tags
+and each tag can be used by multiple images
+even within a single project."""@en ;
+  vs:term_status "unstable" ;
+  rdfs:subPropertyOf schema:keywords ;
+  dcam:domainIncludes okh:Image ;
+  dcam:rangeIncludes schema:DefinedTerm ;
+  skos:example okhimg:tagArt ;
   .
 
 okh:functionalMetadata

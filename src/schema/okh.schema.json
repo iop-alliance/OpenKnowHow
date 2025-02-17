@@ -748,6 +748,67 @@
               }
             }
           ]
+        },
+        "slots": {
+          "description": "Denotes the slot the image fills within the subject it belongs to.\nYou may also think of it as the 'role' the image plays for its parent.\nThe available slots are predefined,\nsee the [OKH image slots](http://w3id.org/oseg/ont/okhimg#slots);\nthere you will also read about the ability to define custom ones,\nthough you might also consider proposing a new common tag\n[in an issue](https://github.com/iop-alliance/OpenKnowHow/issues/new).\nAn image can fill multiple slots,\nbut each slot can be filled at most once.\nThis is useful for things like the projects icon,\nor the left-side view of the 3D model.",
+          "type": "array",
+          "items": {
+            "type": "string",
+            "oneOf": [
+                {
+                  "pattern": "^c_[0-9a-z._-]+$"
+                },
+                {
+                  "enum": [
+                    "icon-main",
+                    "icon-main-bw",
+                    "logo",
+                    "logo-bw",
+                    "model-3d",
+                    "model-from-back",
+                    "model-from-bottom",
+                    "model-from-front",
+                    "model-from-left",
+                    "model-from-right",
+                    "model-from-top",
+                    "model-main",
+                    "organization-logo",
+                    "organization-logo-bw",
+                    "photo-packaging",
+                    "photo-thing-main",
+                    "social",
+                    "symbol"
+                  ]
+                }
+            ]
+          }
+        },
+        "tags": {
+          "description": "Links to a tag fit to describe the image.\nThe available tags are predefined,\nsee the [OKH image tags](http://w3id.org/oseg/ont/okhimg#tags);\nthere you will also read about the ability to define custom ones,\nthough you might also consider proposing a new common tag\n[in an issue](https://github.com/iop-alliance/OpenKnowHow/issues/new).\nAn image can have multiple tags\nand each tag can be used by multiple images\neven within a single project.",
+          "type": "array",
+          "items": {
+            "type": "string",
+            "oneOf": [
+              {
+                "pattern": "^c_[0-9a-z._-]+$"
+              },
+              {
+                "enum": [
+                  "art",
+                  "bw",
+                  "color",
+                  "diagram",
+                  "drawing",
+                  "gray",
+                  "icon",
+                  "logo",
+                  "model",
+                  "photo",
+                  "screenshot"
+                ]
+              }
+            ]
+          }
         }
       }
     },
