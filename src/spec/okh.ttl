@@ -718,7 +718,7 @@ This matters for example:
   okhmeta:hasMetaTag okhmeta:BasicTag ;
   .
 
-okh:slot
+okh:fillsSlot
   a owl:ObjectProperty ;
   a skos:Concept ;
   rdfs:label "fills slot"@en ;
@@ -740,7 +740,7 @@ or the left-side view of the 3D model."""@en ;
   skos:example okhimg:slotIconMain ;
   .
 
-okh:tag
+okh:hasTag
   a owl:ObjectProperty ;
   a skos:Concept ;
   rdfs:label "has tag"@en ;
