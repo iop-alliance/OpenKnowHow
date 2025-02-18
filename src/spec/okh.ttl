@@ -544,7 +544,7 @@ okh:hasPublication
   okhmeta:hasMetaTag okhmeta:DevelopmentTag ;
   .
 
-# okh:certificate
+# okh:hasCertificate
 #   a owl:ObjectProperty ;
 #   a skos:Concept ;
 #   rdfs:label "certificate" ;
