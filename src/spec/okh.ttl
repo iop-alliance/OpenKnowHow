@@ -477,6 +477,12 @@ okh:technologyReadinessLevel
   owl:maxCardinality 1 ;
   dcam:rangeIncludes otrl:OTRL ;
   dcam:domainIncludes okh:Module ;
+  skos:example otrl:OTRL1 ;
+  skos:example otrl:OTRL2 ;
+  skos:example otrl:OTRL3 ;
+  skos:example otrl:OTRL4 ;
+  skos:example otrl:OTRL5 ;
+  skos:example otrl:OTRL6 ;
   okhmeta:hasMetaTag okhmeta:DevelopmentTag ;
   okhmeta:hasMetaTag okhmeta:QualityTag ;
   .
@@ -490,6 +496,11 @@ okh:documentationReadinessLevel
   owl:maxCardinality 1 ;
   dcam:rangeIncludes otrl:ODRL ;
   dcam:domainIncludes okh:Module ;
+  skos:example otrl:ODRL1 ;
+  skos:example otrl:ODRL2 ;
+  skos:example otrl:ODRL3 ;
+  skos:example otrl:ODRL3Star ;
+  skos:example otrl:ODRL4 ;
   okhmeta:hasMetaTag okhmeta:DevelopmentTag ;
   okhmeta:hasMetaTag okhmeta:QualityTag ;
   .
