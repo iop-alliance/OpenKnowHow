@@ -300,36 +300,16 @@ okh:name
 okh:okhv
   a owl:DatatypeProperty ;
   rdfs:label "OKH version"@en ;
-  rdfs:comment "version of OKH specification the OSH projects metadata follows (different version → different data fields in this file)"@en ;
+  rdfs:comment """The version of the OKH specification the OSH projects metadata follows
+(different version → different data fields in this file).
+If the subject is the scraped-dataset,
+this refers to the OKH version the original meta-data at the source adheres to,
+while if the subject is the `okh:Module`,
+it refers to the OKH version the final, locally stored data adheres to."""@en ;
   rdfs:subPropertyOf schema:version ;
   vs:term_status "unstable" ;
   dcam:domainIncludes ods:Dataset ;
-  .
-
-okh:okhvOriginal
-  a owl:DatatypeProperty ;
-  rdfs:label "original OKH version"@en ;
-  rdfs:comment """The version of OKH specification
-the original OSH projects metadata follows;
-whats actually stored locally
-might have been converted to a later version."""@en ;
-  rdfs:subPropertyOf okh:okhv ;
-  rdfs:seeAlso okh:okhvStored ;
-  vs:term_status "unstable" ;
-  owl:cardinality 1 ;
-  .
-
-okh:okhvPresent # TODO This is somewhat obsolete, because the version should be visible in the `okh:` prefix IRI
-  a owl:DatatypeProperty ;
-  rdfs:label "present OKH version"@en ;
-  rdfs:comment """The version of OKH specification
-the locally present OSH project metadata follows;
-what was originally specified
-might have been an earlier version."""@en ;
-  rdfs:subPropertyOf okh:okhv ;
-  rdfs:seeAlso okh:okhvOrig ;
-  vs:term_status "unstable" ;
-  owl:cardinality 1 ;
+  dcam:domainIncludes okh:Module ;
   .
 
 # okh:dataProvider
