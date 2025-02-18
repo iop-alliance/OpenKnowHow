@@ -85,7 +85,7 @@ https://guides.library.ucla.edu/semantic-web/bestpractices#s-lg-page-section-241
 
    Guideline:
 
-   - in UpperCamelCase
+   - in Upper[CamelCase]
    - a single noun or multiple, combined nouns
 
    Examples:
@@ -97,7 +97,7 @@ https://guides.library.ucla.edu/semantic-web/bestpractices#s-lg-page-section-241
 
    Guideline:
 
-   - in lowerCamelCase
+   - in lower[CamelCase]
    - a single noun or multiple, combined nouns
 
    Examples:
@@ -107,7 +107,7 @@ https://guides.library.ucla.edu/semantic-web/bestpractices#s-lg-page-section-241
 
 - Predicates:
 
-   - in lowerCamelCase
+   - in lower[CamelCase]
    - if a DatatypeProperty,
       i.e. one with a literal as range/object,
       it should be a noun (or a combined noun)
@@ -126,7 +126,7 @@ https://guides.library.ucla.edu/semantic-web/bestpractices#s-lg-page-section-241
    - `ex:likes ex:albaBach`
 
 - Individuals:
-   - in lowerCamelCase
+   - in lower[CamelCase]
    - a single noun or multiple, combined nouns
 
    Examples:
@@ -136,7 +136,10 @@ https://guides.library.ucla.edu/semantic-web/bestpractices#s-lg-page-section-241
 
 See our [naming convention issue](
 https://github.com/iop-alliance/OpenKnowHow/issues/13)
-for more details.""" ;
+for more details.
+
+[CamelCase]: https://en.wikipedia.org/wiki/Camel_case
+""" ;
   dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
   dcterms:created "2020-10-02Z"^^xsd:date ;
   dcterms:creator osegprof:martinHaeuer ;
