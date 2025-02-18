@@ -348,7 +348,7 @@ might have been an earlier version."""@en ;
 #   owl:sameAs ods:source ;
 #   .
 #
-# okh:repoSnapshot # TODO No eqivalent in ODS so far, maybe not required?
+# okh:repoSnapshot # TODO No equivalent in ODS so far, maybe not required?
 #   a owl:DatatypeProperty ;
 #   a skos:Concept ;
 #   rdfs:label "repository snapshot"@en ;
