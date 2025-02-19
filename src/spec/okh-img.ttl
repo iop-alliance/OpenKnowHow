@@ -22,7 +22,7 @@
   a ods:Dataset ;
   a spdx:SpdxItem ;
   vann:preferredNamespacePrefix "okhimg" ;
-  vann:preferredNamespaceUri "http://w3id.org/oseg/ont/okhimg#" ;
+  vann:preferredNamespaceUri "http://w3id.org/oseg/ont/okhimg#"^^xsd:anyURI ;
   owl:versionInfo "0.1.0" ;
   owl:versionIRI <http://w3id.org/oseg/ont/0.1.0/okhimg> ;
   dcterms:title "Open Know How (OKH) - Image Tags & Slots"@en ;
