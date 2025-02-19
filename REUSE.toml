@@ -1,0 +1,34 @@
+version = 1
+SPDX-PackageName = "Open Know-How - Library of Open Source Hardware version)"
+SPDX-PackageSupplier = [
+    "Martin Häuer (Open Source Ecology Germany e.V.) <martin.haeuer@ose-germany.de>",
+    "Robin Vobruba (Open Source Ecology Germany e.V.) <hoijui.quaero@gmail.com>"
+    ]
+SPDX-PackageDownloadLocation = "https://github.com/iop-alliance/OpenKnowHow"
+
+[[annotations]]
+path = "res/media/img/github-logo.svg"
+precedence = "aggregate"
+SPDX-FileCopyrightText = "GitHub"
+SPDX-License-Identifier = "LicenseRef-Proprietary"
+
+[[annotations]]
+path = "res/media/img/**.svg"
+precedence = "aggregate"
+SPDX-FileCopyrightText = [
+    "arjuazka",
+    "Adrien Coquet",
+    "Gregor Cresnar",
+    "Ralf Schmitzer",
+    "Cynthia Yosephine",
+    "Mario Köstl",
+    "FayraLovers",
+    "Ayub Irawan",
+    "Gan Khoon Lay",
+    "W3C, Bill Schwappacher",
+    "Blacktc",
+    "un·delivered",
+    "Gabriele Malaspina",
+    "GitLab"
+    ]
+SPDX-License-Identifier = "CC-BY-3.0 AND CC-BY-SA-4.0 AND CC0-1.0"
