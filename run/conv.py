@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText: 2025 Robin Vobruba <hoijui.quaero@gmail.com>
+
+# SPDX-License-Identifier: Unlicense
 
 from rdflib import Graph
 g = Graph()
