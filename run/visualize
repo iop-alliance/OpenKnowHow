@@ -45,7 +45,7 @@ _install_requirements() {
 
 _print_help() {
 
-	echo "Create differently layouted visual (graph-style) representations"
+	echo "Create visual (graph-style) representations using different layouts"
 	echo "of all the RDF files from CWD, recursively."
 	echo "This generates multiple SVG, PNG and a single DOT file"
 	echo "for each TTL file."
