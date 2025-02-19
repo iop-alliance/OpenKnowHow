@@ -1,3 +1,7 @@
+# SPDX-FileCopyrightText: 2021 - 2025 Robin Vobruba <hoijui.quaero@gmail.com>
+#
+# SPDX-License-Identifier: CC0-1.0
+
 version = 1
 SPDX-PackageName = "Open Know-How - Library of Open Source Hardware version)"
 SPDX-PackageSupplier = [
