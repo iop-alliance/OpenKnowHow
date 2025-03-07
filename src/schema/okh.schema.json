@@ -159,6 +159,9 @@
     "export": {
       "$ref": "#/$defs/export"
     },
+    "forkOf": {
+      "$ref": "#/$defs/webUrl"
+    },
     "function": {
       "description": "functional description, e.g. what it actually does, what problem it solves, for whom, under which conditions etc.\\\nSo if you wish that someone finds & uses your OSH specifically e.g. for COVID-19-crisis response, include relevant keywords in this field",
       "examples": [

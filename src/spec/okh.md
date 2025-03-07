@@ -375,6 +375,9 @@ To summarize: an OSH module must bear reference of:
     e.g. for COVID-19-crisis response,
     include relevant keywords in this field \
     optional: description of input, output and interfaces
+- **`fork-of`** \[URL\] <!-- INCORPORATED into TTL => Do not change here anymore! -->
+  - Indicates that this project was split of (aka forked)
+    from an other project at some point in the past
 - `standard-compliance` \[string\] <!-- INCORPORATED into TTL => Do not change here anymore! -->
   - document-number of the official standard the OSH module complies
   - e.g. `DIN EN 1335`
