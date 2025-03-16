@@ -933,6 +933,7 @@
     },
     "organization": {
       "description": "An organization such as a school, NGO, corporation, club, etc.",
+      "type": "object",
       "properties": {
         "email": {
           "description": "E-Mail of the organization",
@@ -974,6 +975,7 @@
     },
     "person": {
       "description": "A person (alive, dead, undead, or fictional)",
+      "type": "object",
       "properties": {
         "email": {
           "description": "E-Mail of the person",
