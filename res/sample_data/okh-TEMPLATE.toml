@@ -70,14 +70,24 @@ depth = 350.8
 height = 150
 
 [[image]]
-# logo
 location = "res/media/img/logo.svg"
 depicts = "The logo of this OSH project"
+slots = [
+  "logo",
+]
+tags = [
+  "logo",
+]
 
 [[image]]
-# product-photo
 location = "res/assets/media/img/hw-photo.png"
 depicts = "A photo of the finished hardware, taken with a white background"
+slots = [
+  "photo-thing-main",
+]
+tags = [
+  "photo",
+]
 
 [[part]]
 name = "your-awesome-part"
