@@ -403,6 +403,30 @@
         }
       }
     },
+    "rdf": {
+      "description": "repo-relative path (or absolute HTTP(S) URL) to to the corresponding ReadMe, which is the (human) entry-point into (the sources of) an OSH project",
+      "type": "object",
+      "required": [
+        "namespace"
+      ],
+      "properties": {
+        "namespace": {
+          "type": "string",
+          "examples": [
+            "http://w3id.org/my-org/projects/proj-x#",
+            "http://w3id.org/my-comp/projects/proj-x#"
+          ]
+        },
+        "prefix": {
+          "type": "string",
+          "examples": [
+            "prjx",
+            "myorg-prjx",
+            "mycomp-prjx"
+          ]
+        }
+      }
+    },
     "readme": {
       "description": "repo-relative path (or absolute HTTP(S) URL) to to the corresponding ReadMe, which is the (human) entry-point into (the sources of) an OSH project",
       "examples": [
