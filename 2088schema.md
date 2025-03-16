@@ -22,7 +22,7 @@
 
     <div class="breadcrumbs"></div> <h1>Manifest</h1><br/>
 <span class="description"><p>This is a JSON-Schema which can validate an 'okh.toml' file, which holds an Open Source Hardware (OSH) projects Open Know-How (OKH) meta-data.</p>
-</span><div class="all-of-value" id="allOf"><h2 class="handle">
+</span> <span class="badge badge-info no-additional">No Additional Properties</span><div class="all-of-value" id="allOf"><h2 class="handle">
   <label>All of</label>
 </h2><ul class="nav nav-tabs" id="tabsallOf_allOf" role="tablist"><li class="nav-item">
             <a class="nav-link active allOf-option"
@@ -758,6 +758,43 @@
         
 
         
+<div class="accordion" id="accordionschema">
+    <div class="card">
+        <div class="card-header" id="headingschema">
+            <h2 class="mb-0">
+                <button class="btn btn-link property-name-button" type="button" data-toggle="collapse" data-target="#schema"
+                        aria-expanded="" aria-controls="schema" onclick="setAnchor('#schema')"><span class="property-name">$schema</span></button>
+            </h2>
+        </div>
+
+        <div id="schema"
+             class="collapse property-definition-div" aria-labelledby="headingschema"
+             data-parent="#accordionschema">
+            <div class="card-body pl-5">
+
+    <div class="breadcrumbs">root
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#schema" onclick="anchorLink('schema')">$schema</a></div><span class="badge badge-dark value-type">Type: enum (of string)</span><br/>
+<span class="description"><p>Link to OKH JSON-Schema</p>
+</span><div class="enum-value" id="schema_enum">
+            <h4>Must be one of:</h4>
+            <ul class="list-group"><li class="list-group-item enum-item">"https://json.schemastore.org/okh.json"</li><li class="list-group-item enum-item">"https://w3id.org/oseg/schema/okh.json"</li></ul>
+            </div>
+        
+
+        
+        
+
+        
+            </div>
+        </div>
+    </div>
+</div>
 <div class="accordion" id="accordionattestation">
     <div class="card">
         <div class="card-header" id="headingattestation">
@@ -3333,7 +3370,7 @@ So if you wish that someone finds &amp; uses your OSH specifically e.g. for COVI
 <span class="description"><p>a single image reference (project relative path or absolute URL), optionally with additional meta-data</p>
 </span>
 
-    
+     <span class="badge badge-info no-additional">No Additional Properties</span>
         
 
         
@@ -3605,7 +3642,7 @@ This matters for example:<br />
 <span class="description"><p>a text and the language it is written in</p>
 </span>
 
-    
+     <span class="badge badge-info no-additional">No Additional Properties</span>
         
 
         
@@ -6152,7 +6189,7 @@ for projects clearly indicating that they are proprietary.</p>
 <span class="description"><p>Outer dimensions of the OSH module or part in mm (millimeters), which completely encompass the product.</p>
 </span>
 
-    
+     <span class="badge badge-info no-additional">No Additional Properties</span>
         
 
         
@@ -6332,110 +6369,21 @@ for projects clearly indicating that they are proprietary.</p>
             />
         </svg>
     <a href="#part_items" onclick="anchorLink('part_items')">part items</a></div><br/>
-<div class="all-of-value" id="part_items_allOf"><h2 class="handle">
-  <label>All of</label>
-</h2><ul class="nav nav-tabs" id="tabspart_items_allOf_allOf" role="tablist"><li class="nav-item">
-            <a class="nav-link active allOf-option"
-               id="part_items_allOf_i0" data-toggle="tab" href="#tab-pane_part_items_allOf_i0" role="tab"
-               onclick="setAnchor('#part_items_allOf_i0')"
-            >Requirement 1</a>
-        </li><li class="nav-item">
-            <a class="nav-link allOf-option"
-               id="part_items_allOf_i1" data-toggle="tab" href="#tab-pane_part_items_allOf_i1" role="tab"
-               onclick="setAnchor('#part_items_allOf_i1')"
-            >Requirement 2</a>
-        </li></ul>
-<div class="tab-content card"><div class="tab-pane fade card-body active show"
-             id="tab-pane_part_items_allOf_i0" role="tabpanel">
-            
-
-    <div class="breadcrumbs">root
-        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path
-                fill-rule="evenodd"
-                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
-            />
-        </svg>
-    <a href="#part" onclick="anchorLink('part')">part</a>
-        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path
-                fill-rule="evenodd"
-                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
-            />
-        </svg>
-    <a href="#part_items" onclick="anchorLink('part_items')">part items</a>
-        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path
-                fill-rule="evenodd"
-                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
-            />
-        </svg>
-    <a href="#part_items_allOf" onclick="anchorLink('part_items_allOf')">allOf</a>
-        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path
-                fill-rule="evenodd"
-                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
-            />
-        </svg>
-    <a href="#part_items_allOf_i0" onclick="anchorLink('part_items_allOf_i0')">item 0</a></div><span class="badge badge-dark value-type">Type: object</span><br/>
-
-        <div class="enum-value">
-    <h4>The following properties are required:</h4>
-    <ul class="list-group"><li class="list-group-item required-property">name</li></ul>
-    </div>
-
-        
-        
-
-        
-        </div><div class="tab-pane fade card-body "
-             id="tab-pane_part_items_allOf_i1" role="tabpanel">
-            
-
-    <div class="breadcrumbs">root
-        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path
-                fill-rule="evenodd"
-                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
-            />
-        </svg>
-    <a href="#part" onclick="anchorLink('part')">part</a>
-        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path
-                fill-rule="evenodd"
-                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
-            />
-        </svg>
-    <a href="#part_items" onclick="anchorLink('part_items')">part items</a>
-        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path
-                fill-rule="evenodd"
-                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
-            />
-        </svg>
-    <a href="#part_items_allOf" onclick="anchorLink('part_items_allOf')">allOf</a>
-        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path
-                fill-rule="evenodd"
-                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
-            />
-        </svg>
-    <a href="#part_items_allOf_i1" onclick="anchorLink('part_items_allOf_i1')">item 1</a></div><br/>
-<div class="any-of-value" id="part_items_allOf_i1_anyOf"><h2 class="handle">
-  <label>Any of</label>
-</h2><ul class="nav nav-tabs" id="tabspart_items_allOf_i1_anyOf_anyOf" role="tablist"><li class="nav-item">
-            <a class="nav-link active anyOf-option"
-               id="part_items_allOf_i1_anyOf_i0" data-toggle="tab" href="#tab-pane_part_items_allOf_i1_anyOf_i0" role="tab"
-               onclick="setAnchor('#part_items_allOf_i1_anyOf_i0')"
+ <span class="badge badge-info no-additional">No Additional Properties</span><div class="one-of-value" id="part_items_oneOf"><h2 class="handle">
+  <label>One of</label>
+</h2><ul class="nav nav-tabs" id="tabspart_items_oneOf_oneOf" role="tablist"><li class="nav-item">
+            <a class="nav-link active oneOf-option"
+               id="part_items_oneOf_i0" data-toggle="tab" href="#tab-pane_part_items_oneOf_i0" role="tab"
+               onclick="setAnchor('#part_items_oneOf_i0')"
             >Option 1</a>
         </li><li class="nav-item">
-            <a class="nav-link anyOf-option"
-               id="part_items_allOf_i1_anyOf_i1" data-toggle="tab" href="#tab-pane_part_items_allOf_i1_anyOf_i1" role="tab"
-               onclick="setAnchor('#part_items_allOf_i1_anyOf_i1')"
+            <a class="nav-link oneOf-option"
+               id="part_items_oneOf_i1" data-toggle="tab" href="#tab-pane_part_items_oneOf_i1" role="tab"
+               onclick="setAnchor('#part_items_oneOf_i1')"
             >Option 2</a>
         </li></ul>
 <div class="tab-content card"><div class="tab-pane fade card-body active show"
-             id="tab-pane_part_items_allOf_i1_anyOf_i0" role="tabpanel">
+             id="tab-pane_part_items_oneOf_i0" role="tabpanel">
             
 
     <div class="breadcrumbs">root
@@ -6459,40 +6407,84 @@ for projects clearly indicating that they are proprietary.</p>
                 d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
             />
         </svg>
-    <a href="#part_items_allOf" onclick="anchorLink('part_items_allOf')">allOf</a>
+    <a href="#part_items_oneOf" onclick="anchorLink('part_items_oneOf')">oneOf</a>
         <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
             <path
                 fill-rule="evenodd"
                 d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
             />
         </svg>
-    <a href="#part_items_allOf_i1" onclick="anchorLink('part_items_allOf_i1')">item 1</a>
-        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path
-                fill-rule="evenodd"
-                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
-            />
-        </svg>
-    <a href="#part_items_allOf_i1_anyOf" onclick="anchorLink('part_items_allOf_i1_anyOf')">anyOf</a>
-        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path
-                fill-rule="evenodd"
-                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
-            />
-        </svg>
-    <a href="#part_items_allOf_i1_anyOf_i0" onclick="anchorLink('part_items_allOf_i1_anyOf_i0')">item 0</a></div><span class="badge badge-dark value-type">Type: object</span><br/>
+    <a href="#part_items_oneOf_i0" onclick="anchorLink('part_items_oneOf_i0')">item 0</a></div><span class="badge badge-dark value-type">Type: object</span><br/>
 
-        <div class="enum-value">
-    <h4>The following properties are required:</h4>
-    <ul class="list-group"><li class="list-group-item required-property">source</li></ul>
+        
+
+        
+        
+
+        
+<div class="accordion" id="accordionpart_items_oneOf_i0_source">
+    <div class="card">
+        <div class="card-header" id="headingpart_items_oneOf_i0_source">
+            <h2 class="mb-0">
+                <button class="btn btn-link property-name-button" type="button" data-toggle="collapse" data-target="#part_items_oneOf_i0_source"
+                        aria-expanded="" aria-controls="part_items_oneOf_i0_source" onclick="setAnchor('#part_items_oneOf_i0_source')"><span class="property-name">source</span> <span class="badge badge-warning required-property">Required</span></button>
+            </h2>
+        </div>
+
+        <div id="part_items_oneOf_i0_source"
+             class="collapse property-definition-div" aria-labelledby="headingpart_items_oneOf_i0_source"
+             data-parent="#accordionpart_items_oneOf_i0_source">
+            <div class="card-body pl-5">
+
+    <div class="breadcrumbs">root
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#part" onclick="anchorLink('part')">part</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#part_items" onclick="anchorLink('part_items')">part items</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#part_items_oneOf" onclick="anchorLink('part_items_oneOf')">oneOf</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#part_items_oneOf_i0" onclick="anchorLink('part_items_oneOf_i0')">item 0</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#part_items_oneOf_i0_source" onclick="anchorLink('part_items_oneOf_i0_source')">source</a></div><span class="badge badge-dark value-type">Type: object</span><br/>
+
+        
+
+        
+        
+
+        
+            </div>
+        </div>
     </div>
-
-        
-        
-
-        
+</div>
         </div><div class="tab-pane fade card-body "
-             id="tab-pane_part_items_allOf_i1_anyOf_i1" role="tabpanel">
+             id="tab-pane_part_items_oneOf_i1" role="tabpanel">
             
 
     <div class="breadcrumbs">root
@@ -6516,45 +6508,82 @@ for projects clearly indicating that they are proprietary.</p>
                 d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
             />
         </svg>
-    <a href="#part_items_allOf" onclick="anchorLink('part_items_allOf')">allOf</a>
+    <a href="#part_items_oneOf" onclick="anchorLink('part_items_oneOf')">oneOf</a>
         <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
             <path
                 fill-rule="evenodd"
                 d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
             />
         </svg>
-    <a href="#part_items_allOf_i1" onclick="anchorLink('part_items_allOf_i1')">item 1</a>
-        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path
-                fill-rule="evenodd"
-                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
-            />
-        </svg>
-    <a href="#part_items_allOf_i1_anyOf" onclick="anchorLink('part_items_allOf_i1_anyOf')">anyOf</a>
-        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path
-                fill-rule="evenodd"
-                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
-            />
-        </svg>
-    <a href="#part_items_allOf_i1_anyOf_i1" onclick="anchorLink('part_items_allOf_i1_anyOf_i1')">item 1</a></div><span class="badge badge-dark value-type">Type: object</span><br/>
+    <a href="#part_items_oneOf_i1" onclick="anchorLink('part_items_oneOf_i1')">item 1</a></div><span class="badge badge-dark value-type">Type: object</span><br/>
 
-        <div class="enum-value">
-    <h4>The following properties are required:</h4>
-    <ul class="list-group"><li class="list-group-item required-property">export</li></ul>
+        
+
+        
+        
+
+        
+<div class="accordion" id="accordionpart_items_oneOf_i1_export">
+    <div class="card">
+        <div class="card-header" id="headingpart_items_oneOf_i1_export">
+            <h2 class="mb-0">
+                <button class="btn btn-link property-name-button" type="button" data-toggle="collapse" data-target="#part_items_oneOf_i1_export"
+                        aria-expanded="" aria-controls="part_items_oneOf_i1_export" onclick="setAnchor('#part_items_oneOf_i1_export')"><span class="property-name">export</span> <span class="badge badge-warning required-property">Required</span></button>
+            </h2>
+        </div>
+
+        <div id="part_items_oneOf_i1_export"
+             class="collapse property-definition-div" aria-labelledby="headingpart_items_oneOf_i1_export"
+             data-parent="#accordionpart_items_oneOf_i1_export">
+            <div class="card-body pl-5">
+
+    <div class="breadcrumbs">root
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#part" onclick="anchorLink('part')">part</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#part_items" onclick="anchorLink('part_items')">part items</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#part_items_oneOf" onclick="anchorLink('part_items_oneOf')">oneOf</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#part_items_oneOf_i1" onclick="anchorLink('part_items_oneOf_i1')">item 1</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#part_items_oneOf_i1_export" onclick="anchorLink('part_items_oneOf_i1_export')">export</a></div><span class="badge badge-dark value-type">Type: object</span><br/>
+
+        
+
+        
+        
+
+        
+            </div>
+        </div>
     </div>
-
-        
-        
-
-        
-        </div></div></div>
-        
-
-        
-        
-
-        
+</div>
         </div></div></div>
         
 
@@ -6737,7 +6766,7 @@ multiple inputs possible (with one entry each)</p>
         <div class="card-header" id="headingpart_items_name">
             <h2 class="mb-0">
                 <button class="btn btn-link property-name-button" type="button" data-toggle="collapse" data-target="#part_items_name"
-                        aria-expanded="" aria-controls="part_items_name" onclick="setAnchor('#part_items_name')"><span class="property-name">name</span></button>
+                        aria-expanded="" aria-controls="part_items_name" onclick="setAnchor('#part_items_name')"><span class="property-name">name</span> <span class="badge badge-warning required-property">Required</span></button>
             </h2>
         </div>
 
@@ -7068,19 +7097,25 @@ multiple inputs possible (with one entry each)</p>
                 d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
             />
         </svg>
-    <a href="#part_items_tsdc" onclick="anchorLink('part_items_tsdc')">tsdc</a></div><span class="badge badge-dark value-type">Type: array of string or string</span><br/>
+    <a href="#part_items_tsdc" onclick="anchorLink('part_items_tsdc')">tsdc</a></div><span class="badge badge-dark value-type">Type: object</span><br/>
 <span class="description"><p>identifier of the applying Technology-specific Documentation Criteria (TsDC) according to DIN SPEC 3105-1 - get it from: <a href="https://w3id.org/oseg/ont/tsdc/core">https://w3id.org/oseg/ont/tsdc/core</a> - multiple inputs possible (with one entry each)</p>
 </span>
 
-    
-        
-
-        
-        
-
-         <span class="badge badge-info no-additional">No Additional Items</span><h4>Each item of this array must be:</h4>
-    <div class="card">
-        <div class="card-body items-definition" id="part_items_tsdc_items">
+    <div class="any-of-value" id="part_items_tsdc_anyOf"><h2 class="handle">
+  <label>Any of</label>
+</h2><ul class="nav nav-tabs" id="tabspart_items_tsdc_anyOf_anyOf" role="tablist"><li class="nav-item">
+            <a class="nav-link active anyOf-option"
+               id="part_items_tsdc_anyOf_i0" data-toggle="tab" href="#tab-pane_part_items_tsdc_anyOf_i0" role="tab"
+               onclick="setAnchor('#part_items_tsdc_anyOf_i0')"
+            >Option 1</a>
+        </li><li class="nav-item">
+            <a class="nav-link anyOf-option"
+               id="part_items_tsdc_anyOf_i1" data-toggle="tab" href="#tab-pane_part_items_tsdc_anyOf_i1" role="tab"
+               onclick="setAnchor('#part_items_tsdc_anyOf_i1')"
+            >Option 2</a>
+        </li></ul>
+<div class="tab-content card"><div class="tab-pane fade card-body active show"
+             id="tab-pane_part_items_tsdc_anyOf_i0" role="tabpanel">
             
 
     <div class="breadcrumbs">root
@@ -7111,7 +7146,115 @@ multiple inputs possible (with one entry each)</p>
                 d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
             />
         </svg>
-    <a href="#part_items_tsdc_items" onclick="anchorLink('part_items_tsdc_items')">tsdc items</a></div><span class="badge badge-dark value-type">Type: string</span><br/>
+    <a href="#part_items_tsdc_anyOf" onclick="anchorLink('part_items_tsdc_anyOf')">anyOf</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#part_items_tsdc_anyOf_i0" onclick="anchorLink('part_items_tsdc_anyOf_i0')">item 0</a></div><span class="badge badge-dark value-type">Type: string</span><br/>
+
+        
+
+        
+        
+
+        
+        </div><div class="tab-pane fade card-body "
+             id="tab-pane_part_items_tsdc_anyOf_i1" role="tabpanel">
+            
+
+    <div class="breadcrumbs">root
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#part" onclick="anchorLink('part')">part</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#part_items" onclick="anchorLink('part_items')">part items</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#part_items_tsdc" onclick="anchorLink('part_items_tsdc')">tsdc</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#part_items_tsdc_anyOf" onclick="anchorLink('part_items_tsdc_anyOf')">anyOf</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#part_items_tsdc_anyOf_i1" onclick="anchorLink('part_items_tsdc_anyOf_i1')">item 1</a></div><span class="badge badge-dark value-type">Type: array of string</span><br/>
+
+        
+
+        
+        
+
+         <span class="badge badge-info no-additional">No Additional Items</span><h4>Each item of this array must be:</h4>
+    <div class="card">
+        <div class="card-body items-definition" id="part_items_tsdc_anyOf_i1_items">
+            
+
+    <div class="breadcrumbs">root
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#part" onclick="anchorLink('part')">part</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#part_items" onclick="anchorLink('part_items')">part items</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#part_items_tsdc" onclick="anchorLink('part_items_tsdc')">tsdc</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#part_items_tsdc_anyOf" onclick="anchorLink('part_items_tsdc_anyOf')">anyOf</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#part_items_tsdc_anyOf_i1" onclick="anchorLink('part_items_tsdc_anyOf_i1')">item 1</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#part_items_tsdc_anyOf_i1_items" onclick="anchorLink('part_items_tsdc_anyOf_i1_items')">item 1 items</a></div><span class="badge badge-dark value-type">Type: string</span><br/>
 
         
 
@@ -7120,7 +7263,14 @@ multiple inputs possible (with one entry each)</p>
 
         
         </div>
-    </div><br/>
+    </div>
+        </div></div></div>
+        
+
+        
+        
+
+        <br/>
 <div class="badge badge-secondary">Examples:</div>
 <br/><div id="part_items_tsdc_ex1" class="jumbotron examples"><div class="highlight"><pre><span></span><span class="s2">&quot;ASM&quot;</span>
 </pre></div>
@@ -7178,7 +7328,7 @@ multiple inputs possible (with one entry each)</p>
         </svg>
     <a href="#rdf" onclick="anchorLink('rdf')">rdf</a></div><span class="badge badge-dark value-type">Type: object</span><br/>
 <span class="description"><p>repo-relative path (or absolute HTTP(S) URL) to to the corresponding ReadMe, which is the (human) entry-point into (the sources of) an OSH project</p>
-</span>
+</span> <span class="badge badge-info no-additional">No Additional Properties</span>
         
 
         
@@ -7830,7 +7980,7 @@ reporting issues, suggesting changes, connecting to the team etc.</p>
             />
         </svg>
     <a href="#software_items" onclick="anchorLink('software_items')">software items</a></div><span class="badge badge-dark value-type">Type: object</span><br/>
-
+ <span class="badge badge-info no-additional">No Additional Properties</span>
         
 
         
@@ -9130,7 +9280,7 @@ multiple inputs possible (with one entry each)</p>
                 d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
             />
         </svg>
-    <a href="#tsdc" onclick="anchorLink('tsdc')">tsdc</a></div><span class="badge badge-dark value-type">Type: array of string or string</span><br/>
+    <a href="#tsdc" onclick="anchorLink('tsdc')">tsdc</a></div><span class="badge badge-dark value-type">Type: object</span><br/>
 <span class="description"><p>identifier of the applying Technology-specific Documentation Criteria (TsDC) according to DIN SPEC 3105-1 - get it from: <a href="https://w3id.org/oseg/ont/tsdc/core">https://w3id.org/oseg/ont/tsdc/core</a> - multiple inputs possible (with one entry each)</p>
 </span><a href="#part_items_tsdc" onclick="anchorLink('part_items_tsdc')" class="ref-link">Same definition as tsdc</a>
             </div>
@@ -9589,7 +9739,7 @@ multiple inputs possible (with one entry each)</p>
                 d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
             />
         </svg>
-    <a href="#version" onclick="anchorLink('version')">version</a></div><span class="badge badge-dark value-type">Type: string or number</span><br/>
+    <a href="#version" onclick="anchorLink('version')">version</a></div><span class="badge badge-dark value-type">Type: string</span><br/>
 <span class="description"><p>version of this Module, preferably following the <a href="https://semver.org/#semantic-versioning-200">semantic versioning-scheme v2.0.0</a></p>
 </span>
         
@@ -9625,8 +9775,6 @@ multiple inputs possible (with one entry each)</p>
 </pre></div>
 </div><div id="version_ex13" class="jumbotron examples"><div class="highlight"><pre><span></span><span class="s2">&quot;baf0e65d8d93e1b64e883dfd2ffc5b838a22ca25&quot;</span>
 </pre></div>
-</div><div id="version_ex14" class="jumbotron examples"><div class="highlight"><pre><span></span><span class="mf">61</span>
-</pre></div>
 </div>
             </div>
         </div>
@@ -9634,6 +9782,6 @@ multiple inputs possible (with one entry each)</p>
 </div>
 
     <footer>
-        <p class="generated-by-footer">Generated using <a href="https://github.com/coveooss/json-schema-for-humans">json-schema-for-humans</a> on 2025-03-16 at 14:17:58 +0000</p>
+        <p class="generated-by-footer">Generated using <a href="https://github.com/coveooss/json-schema-for-humans">json-schema-for-humans</a> on 2025-03-16 at 20:10:17 +0000</p>
     </footer></body>
 </html>
