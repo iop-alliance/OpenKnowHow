@@ -81,7 +81,152 @@ okhimg:slotIconMain
   rdfs:comment """The annotated subjects main icon (potentially in color).
 See also [icon vs symbol](
 https://github.com/iop-alliance/OpenKnowHow/issues/35#icon-vs-symbol)."""@en ;
+  rdfs:seeAlso okhimg:slotIconMainBw ;
   schema:termCode "main-icon" ;
+  vs:term_status "unstable" ;
+  .
+
+okhimg:slotIconMainBw
+  a schema:DefinedTerm ;
+  rdfs:label "Main Icon - black&white"@en ;
+  rdfs:comment """The annotated subjects main icon **in black&white**."""@en ;
+  rdfs:seeAlso okhimg:slotIconMain ;
+  schema:termCode "main-icon-bw" ;
+  vs:term_status "unstable" ;
+  .
+
+okhimg:slotLogo
+  a schema:DefinedTerm ;
+  rdfs:label "Logo"@en ;
+  rdfs:comment """The annotated subjects logo (potentially in color)."""@en ;
+  rdfs:seeAlso okhimg:slotLogoBw ;
+  schema:termCode "logo" ;
+  vs:term_status "unstable" ;
+  .
+
+okhimg:slotLogoBw
+  a schema:DefinedTerm ;
+  rdfs:label "Logo - black&white"@en ;
+  rdfs:comment """The annotated subjects logo **in black&white**."""@en ;
+  rdfs:seeAlso okhimg:slotLogo ;
+  schema:termCode "logo-bw" ;
+  vs:term_status "unstable" ;
+  .
+
+okhimg:slotModel3D
+  a schema:DefinedTerm ;
+  rdfs:label "Model - 3D"@en ;
+  rdfs:comment """The annotated subjects technical drawing/illustration in 3D."""@en ;
+  schema:termCode "model-3d" ;
+  vs:term_status "unstable" ;
+  .
+
+okhimg:slotModelFromBack
+  a schema:DefinedTerm ;
+  rdfs:label "Model - from the back"@en ;
+  rdfs:comment """The annotated subjects technical drawing/illustration in 2D, from the back."""@en ;
+  schema:termCode "model-from-back" ;
+  vs:term_status "unstable" ;
+  .
+
+okhimg:slotModelFromBelow
+  a schema:DefinedTerm ;
+  rdfs:label "Model - from below"@en ;
+  rdfs:comment """The annotated subjects technical drawing/illustration in 2D, from below."""@en ;
+  schema:termCode "model-from-below" ;
+  vs:term_status "unstable" ;
+  .
+
+okhimg:slotModelFromFront
+  a schema:DefinedTerm ;
+  rdfs:label "Model - from the front"@en ;
+  rdfs:comment """The annotated subjects technical drawing/illustration in 2D, from the front."""@en ;
+  schema:termCode "model-from-front" ;
+  vs:term_status "unstable" ;
+  .
+
+okhimg:slotModelFromLeft
+  a schema:DefinedTerm ;
+  rdfs:label "Model - from the left"@en ;
+  rdfs:comment """The annotated subjects technical drawing/illustration in 2D, from the left."""@en ;
+  schema:termCode "model-from-left" ;
+  vs:term_status "unstable" ;
+  .
+
+okhimg:slotModelFromRight
+  a schema:DefinedTerm ;
+  rdfs:label "Model - from the right"@en ;
+  rdfs:comment """The annotated subjects technical drawing/illustration in 2D, from the right."""@en ;
+  schema:termCode "model-from-right" ;
+  vs:term_status "unstable" ;
+  .
+
+okhimg:slotModelFromAbove
+  a schema:DefinedTerm ;
+  rdfs:label "Model - from above"@en ;
+  rdfs:comment """The annotated subjects technical drawing/illustration in 2D, from above."""@en ;
+  schema:termCode "model-from-above" ;
+  vs:term_status "unstable" ;
+  .
+
+okhimg:slotModelMain
+  a schema:DefinedTerm ;
+  rdfs:label "Model - main"@en ;
+  rdfs:comment """The annotated subjects primary technical drawing/illustration, in 2D or 3D.
+This will likely point to the same image like one of the other model-* slots."""@en ;
+  schema:termCode "model-from-main" ;
+  vs:term_status "unstable" ;
+  .
+
+okhimg:slotOrganizationLogo
+  a schema:DefinedTerm ;
+  rdfs:label "Organization Logo"@en ;
+  rdfs:comment """The annotated subjects organizations logo (potentially in color)."""@en ;
+  rdfs:seeAlso okhimg:slotOrganizationLogoBw ;
+  schema:termCode "organization-logo" ;
+  vs:term_status "unstable" ;
+  .
+
+okhimg:slotOrganizationLogoBw
+  a schema:DefinedTerm ;
+  rdfs:label "Organization Logo - black&white"@en ;
+  rdfs:comment """The annotated subjects organizations logo **in black&white**."""@en ;
+  rdfs:seeAlso okhimg:slotOrganizationLogo ;
+  schema:termCode "organization-logo-bw" ;
+  vs:term_status "unstable" ;
+  .
+
+okhimg:slotPhotoPackaging
+  a schema:DefinedTerm ;
+  rdfs:label "Packaging (Photo)"@en ;
+  rdfs:comment """A photo of the annotated subjects packaging."""@en ;
+  schema:termCode "photo-packaging" ;
+  vs:term_status "unstable" ;
+  .
+
+okhimg:slotPhotoThingMain
+  a schema:DefinedTerm ;
+  rdfs:label "Main Photo"@en ;
+  rdfs:comment """A photo of the annotated subjects finished thing/hardware."""@en ;
+  schema:termCode "photo-thing-main" ;
+  vs:term_status "unstable" ;
+  .
+
+okhimg:slotSocial
+  a schema:DefinedTerm ;
+  rdfs:label "Main Photo"@en ;
+  rdfs:comment """The social media preview image for the annotated subject."""@en ;
+  schema:termCode "social" ;
+  vs:term_status "unstable" ;
+  .
+
+okhimg:slotSymbol
+  a schema:DefinedTerm ;
+  rdfs:label "Main Icon"@en ;
+  rdfs:comment """The annotated subjects symbol (potentially in color).
+See also [icon vs symbol](
+https://github.com/iop-alliance/OpenKnowHow/issues/35#icon-vs-symbol)."""@en ;
+  schema:termCode "symbol" ;
   vs:term_status "unstable" ;
   .
 
@@ -119,5 +264,88 @@ direct, plain, rational nature -
 focuses on and employs artistic features,
 likely to convey an underlying feeling."""@en ;
   schema:termCode "art" ;
+  vs:term_status "unstable" ;
+  .
+
+okhimg:tagBw
+  a schema:DefinedTerm ;
+  rdfs:label "black&white"@en ;
+  rdfs:comment """The annotated subject only uses black and white as colors."""@en ;
+  schema:termCode "bw" ;
+  vs:term_status "unstable" ;
+  .
+
+okhimg:tagColor
+  a schema:DefinedTerm ;
+  rdfs:label "Color"@en ;
+  rdfs:comment """The annotated subject may use the full RGB(A) color palette."""@en ;
+  schema:termCode "color" ;
+  vs:term_status "unstable" ;
+  .
+
+okhimg:tagDiagram
+  a schema:DefinedTerm ;
+  rdfs:label "Diagram"@en ;
+  rdfs:comment """The annotated subject depicts a diagram."""@en ;
+  schema:termCode "diagram" ;
+  vs:term_status "unstable" ;
+  .
+
+okhimg:tagDrawing
+  a schema:DefinedTerm ;
+  rdfs:label "Drawing"@en ;
+  rdfs:comment """The annotated subject depicts a drawing,
+meaning something drawn by hand or at least in a similar fashion."""@en ;
+  schema:termCode "drawing" ;
+  vs:term_status "unstable" ;
+  .
+
+okhimg:tagGray
+  a schema:DefinedTerm ;
+  rdfs:label "Gray"@en ;
+  rdfs:comment """The annotated subject may use all grey-scale colors."""@en ;
+  schema:termCode "gray" ;
+  vs:term_status "unstable" ;
+  .
+
+okhimg:tagIcon
+  a schema:DefinedTerm ;
+  rdfs:label "Icon"@en ;
+  rdfs:comment """The annotated subject is an icon.
+See also [icon vs symbol](
+https://github.com/iop-alliance/OpenKnowHow/issues/35#icon-vs-symbol)."""@en ;
+  schema:termCode "icon" ;
+  vs:term_status "unstable" ;
+  .
+
+okhimg:tagLogo
+  a schema:DefinedTerm ;
+  rdfs:label "Logo"@en ;
+  rdfs:comment """The annotated subject is a logo."""@en ;
+  schema:termCode "logo" ;
+  vs:term_status "unstable" ;
+  .
+
+okhimg:tagModel
+  a schema:DefinedTerm ;
+  rdfs:label "Model"@en ;
+  rdfs:comment """The annotated subject is a model of a physical object."""@en ;
+  schema:termCode "model" ;
+  vs:term_status "unstable" ;
+  .
+
+okhimg:tagPhoto
+  a schema:DefinedTerm ;
+  rdfs:label "Photo"@en ;
+  rdfs:comment """The annotated subject is a photo."""@en ;
+  schema:termCode "photo" ;
+  vs:term_status "unstable" ;
+  .
+
+okhimg:tagScreenshot
+  a schema:DefinedTerm ;
+  rdfs:label "Screenshot"@en ;
+  rdfs:comment """The annotated subject is a screenshot."""@en ;
+  schema:termCode "screenshot" ;
   vs:term_status "unstable" ;
   .

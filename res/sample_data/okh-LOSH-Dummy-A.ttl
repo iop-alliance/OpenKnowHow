@@ -1,10 +1,9 @@
 # SPDX-FileCopyrightText: 2021 - 2022 Martin Häuer <martin.haeuer@ose-germany.de>
-# SPDX-FileCopyrightText: 2021 - 2024 Robin Vobruba <hoijui.quaero@gmail.com>
+# SPDX-FileCopyrightText: 2021 - 2025 Robin Vobruba <hoijui.quaero@gmail.com>
 #
 # SPDX-License-Identifier: CC0-1.0
 
-@base             <http://github.com/iop-alliance/OpenKnowHow/raw/master/res/sample_data/okh-sample-LOSH-Dummy-A.ttl> .
-@prefix :         <#> .
+@prefix :         <http://github.com/iop-alliance/OpenKnowHow/raw/master/res/sample_data/okh-sample-LOSH-Dummy-A.ttl#> .
 @prefix dcat:     <http://www.w3.org/ns/dcat#> .
 @prefix dcterms:  <http://purl.org/dc/terms/> .
 @prefix epo:      <http://data.epo.org/linked-data/def/patent/> .

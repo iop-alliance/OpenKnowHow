@@ -3119,6 +3119,33 @@ multiple inputs possible (with one entry each)</p>
         </div>
     </div>
 </div>
+<div class="accordion" id="accordionforkOf">
+    <div class="card">
+        <div class="card-header" id="headingforkOf">
+            <h2 class="mb-0">
+                <button class="btn btn-link property-name-button" type="button" data-toggle="collapse" data-target="#forkOf"
+                        aria-expanded="" aria-controls="forkOf" onclick="setAnchor('#forkOf')"><span class="property-name">forkOf</span></button>
+            </h2>
+        </div>
+
+        <div id="forkOf"
+             class="collapse property-definition-div" aria-labelledby="headingforkOf"
+             data-parent="#accordionforkOf">
+            <div class="card-body pl-5">
+
+    <div class="breadcrumbs">root
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#forkOf" onclick="anchorLink('forkOf')">forkOf</a></div><span class="badge badge-dark value-type">Type: string</span><br/>
+<a href="#attestation_anyOf_i0_anyOf_i0" onclick="anchorLink('attestation_anyOf_i0_anyOf_i0')" class="ref-link">Same definition as attestation_anyOf_i0_anyOf_i0</a>
+            </div>
+        </div>
+    </div>
+</div>
 <div class="accordion" id="accordionfunction">
     <div class="card">
         <div class="card-header" id="headingfunction">
@@ -4092,7 +4119,7 @@ or the left-side view of the 3D model.</p>
     <a href="#image_anyOf_i1_slots_items_oneOf_i1" onclick="anchorLink('image_anyOf_i1_slots_items_oneOf_i1')">item 1</a></div><span class="badge badge-dark value-type">Type: enum (of string)</span><br/>
 <div class="enum-value" id="image_anyOf_i1_slots_items_oneOf_i1_enum">
             <h4>Must be one of:</h4>
-            <ul class="list-group"><li class="list-group-item enum-item">"icon-main"</li><li class="list-group-item enum-item">"icon-main-bw"</li><li class="list-group-item enum-item">"logo"</li><li class="list-group-item enum-item">"logo-bw"</li><li class="list-group-item enum-item">"model-3d"</li><li class="list-group-item enum-item">"model-from-back"</li><li class="list-group-item enum-item">"model-from-bottom"</li><li class="list-group-item enum-item">"model-from-front"</li><li class="list-group-item enum-item">"model-from-left"</li><li class="list-group-item enum-item">"model-from-right"</li><li class="list-group-item enum-item">"model-from-top"</li><li class="list-group-item enum-item">"model-main"</li><li class="list-group-item enum-item">"organization-logo"</li><li class="list-group-item enum-item">"organization-logo-bw"</li><li class="list-group-item enum-item">"photo-packaging"</li><li class="list-group-item enum-item">"photo-thing-main"</li><li class="list-group-item enum-item">"social"</li><li class="list-group-item enum-item">"symbol"</li></ul>
+            <ul class="list-group"><li class="list-group-item enum-item">"icon-main"</li><li class="list-group-item enum-item">"icon-main-bw"</li><li class="list-group-item enum-item">"logo"</li><li class="list-group-item enum-item">"logo-bw"</li><li class="list-group-item enum-item">"model-3d"</li><li class="list-group-item enum-item">"model-from-back"</li><li class="list-group-item enum-item">"model-from-below"</li><li class="list-group-item enum-item">"model-from-front"</li><li class="list-group-item enum-item">"model-from-left"</li><li class="list-group-item enum-item">"model-from-right"</li><li class="list-group-item enum-item">"model-from-above"</li><li class="list-group-item enum-item">"model-main"</li><li class="list-group-item enum-item">"organization-logo"</li><li class="list-group-item enum-item">"organization-logo-bw"</li><li class="list-group-item enum-item">"photo-packaging"</li><li class="list-group-item enum-item">"photo-thing-main"</li><li class="list-group-item enum-item">"social"</li><li class="list-group-item enum-item">"symbol"</li></ul>
             </div>
         
 
@@ -7128,6 +7155,134 @@ multiple inputs possible (with one entry each)</p>
         </div>
     </div>
 </div>
+<div class="accordion" id="accordionrdf">
+    <div class="card">
+        <div class="card-header" id="headingrdf">
+            <h2 class="mb-0">
+                <button class="btn btn-link property-name-button" type="button" data-toggle="collapse" data-target="#rdf"
+                        aria-expanded="" aria-controls="rdf" onclick="setAnchor('#rdf')"><span class="property-name">rdf</span></button>
+            </h2>
+        </div>
+
+        <div id="rdf"
+             class="collapse property-definition-div" aria-labelledby="headingrdf"
+             data-parent="#accordionrdf">
+            <div class="card-body pl-5">
+
+    <div class="breadcrumbs">root
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#rdf" onclick="anchorLink('rdf')">rdf</a></div><span class="badge badge-dark value-type">Type: object</span><br/>
+<span class="description"><p>repo-relative path (or absolute HTTP(S) URL) to to the corresponding ReadMe, which is the (human) entry-point into (the sources of) an OSH project</p>
+</span>
+        
+
+        
+        
+
+        
+<div class="accordion" id="accordionrdf_namespace">
+    <div class="card">
+        <div class="card-header" id="headingrdf_namespace">
+            <h2 class="mb-0">
+                <button class="btn btn-link property-name-button" type="button" data-toggle="collapse" data-target="#rdf_namespace"
+                        aria-expanded="" aria-controls="rdf_namespace" onclick="setAnchor('#rdf_namespace')"><span class="property-name">namespace</span> <span class="badge badge-warning required-property">Required</span></button>
+            </h2>
+        </div>
+
+        <div id="rdf_namespace"
+             class="collapse property-definition-div" aria-labelledby="headingrdf_namespace"
+             data-parent="#accordionrdf_namespace">
+            <div class="card-body pl-5">
+
+    <div class="breadcrumbs">root
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#rdf" onclick="anchorLink('rdf')">rdf</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#rdf_namespace" onclick="anchorLink('rdf_namespace')">namespace</a></div><span class="badge badge-dark value-type">Type: string</span><br/>
+
+        
+
+        
+        
+
+        <br/>
+<div class="badge badge-secondary">Examples:</div>
+<br/><div id="rdf_namespace_ex1" class="jumbotron examples"><div class="highlight"><pre><span></span><span class="s2">&quot;http://w3id.org/my-org/projects/proj-x#&quot;</span>
+</pre></div>
+</div><div id="rdf_namespace_ex2" class="jumbotron examples"><div class="highlight"><pre><span></span><span class="s2">&quot;http://w3id.org/my-comp/projects/proj-x#&quot;</span>
+</pre></div>
+</div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="accordion" id="accordionrdf_prefix">
+    <div class="card">
+        <div class="card-header" id="headingrdf_prefix">
+            <h2 class="mb-0">
+                <button class="btn btn-link property-name-button" type="button" data-toggle="collapse" data-target="#rdf_prefix"
+                        aria-expanded="" aria-controls="rdf_prefix" onclick="setAnchor('#rdf_prefix')"><span class="property-name">prefix</span></button>
+            </h2>
+        </div>
+
+        <div id="rdf_prefix"
+             class="collapse property-definition-div" aria-labelledby="headingrdf_prefix"
+             data-parent="#accordionrdf_prefix">
+            <div class="card-body pl-5">
+
+    <div class="breadcrumbs">root
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#rdf" onclick="anchorLink('rdf')">rdf</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#rdf_prefix" onclick="anchorLink('rdf_prefix')">prefix</a></div><span class="badge badge-dark value-type">Type: string</span><br/>
+
+        
+
+        
+        
+
+        <br/>
+<div class="badge badge-secondary">Examples:</div>
+<br/><div id="rdf_prefix_ex1" class="jumbotron examples"><div class="highlight"><pre><span></span><span class="s2">&quot;prjx&quot;</span>
+</pre></div>
+</div><div id="rdf_prefix_ex2" class="jumbotron examples"><div class="highlight"><pre><span></span><span class="s2">&quot;myorg-prjx&quot;</span>
+</pre></div>
+</div><div id="rdf_prefix_ex3" class="jumbotron examples"><div class="highlight"><pre><span></span><span class="s2">&quot;mycomp-prjx&quot;</span>
+</pre></div>
+</div>
+            </div>
+        </div>
+    </div>
+</div>
+            </div>
+        </div>
+    </div>
+</div>
 <div class="accordion" id="accordionreadme">
     <div class="card">
         <div class="card-header" id="headingreadme">
@@ -9479,6 +9634,6 @@ multiple inputs possible (with one entry each)</p>
 </div>
 
     <footer>
-        <p class="generated-by-footer">Generated using <a href="https://github.com/coveooss/json-schema-for-humans">json-schema-for-humans</a> on 2025-02-19 at 19:26:31 +0000</p>
+        <p class="generated-by-footer">Generated using <a href="https://github.com/coveooss/json-schema-for-humans">json-schema-for-humans</a> on 2025-03-16 at 14:17:58 +0000</p>
     </footer></body>
 </html>
