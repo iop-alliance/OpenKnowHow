@@ -354,25 +354,26 @@
       "type": "array",
       "items": {
         "type": "object",
-        "allOf": [
+        "additionalProperties": false,
+        "required": [
+          "name"
+        ],
+        "oneOf": [
           {
             "required": [
-              "name"
-            ]
+            "source"
+            ],
+            "properties": {
+              "source": {}
+            }
           },
           {
-            "anyOf": [
-              {
-                "required": [
-                  "source"
-                ]
-              },
-              {
-                "required": [
-                  "export"
-                ]
-              }
-            ]
+            "required": [
+              "export"
+            ],
+            "properties": {
+              "export": {}
+            }
           }
         ],
         "properties": {
