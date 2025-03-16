@@ -1088,12 +1088,6 @@
       "format": "uri"
     }
   },
-  "errorMessage": {
-    "required": "This property is required",
-    "properties": {
-      "repo": "Not a valid repo"
-    }
-  },
   "propertiesOrder": [
     ".*",
     "tsdc",
