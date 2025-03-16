@@ -5,6 +5,7 @@
   "description": "This is a JSON-Schema which can validate an 'okh.toml' file, which holds an Open Source Hardware (OSH) projects Open Know-How (OKH) meta-data.",
   "$comment": "NOTE: The properties 'ui-hidden' and 'ui-recommended' used in this schema, are non-standardized, and currently unused. They could be used to create a form, and are here for consistency with <https://git.iostud.io/makernet/iop-cdb/-/blob/dev/server/assets/okh.okhdf>.",
   "type": "object",
+  "additionalProperties": false,
   "allOf": [
     {
       "if": {
@@ -407,6 +408,7 @@
     "rdf": {
       "description": "repo-relative path (or absolute HTTP(S) URL) to to the corresponding ReadMe, which is the (human) entry-point into (the sources of) an OSH project",
       "type": "object",
+      "additionalProperties": false,
       "required": [
         "namespace"
       ],
@@ -452,6 +454,7 @@
       "type": "array",
       "items": {
         "type": "object",
+        "additionalProperties": false,
         "required": [
           "release"
         ],
@@ -696,6 +699,7 @@
     "lang-text": {
       "description": "a text and the language it is written in",
       "type": "object",
+      "additionalProperties": false,
       "required": [
         "text",
         "language"
@@ -714,6 +718,7 @@
     "image": {
       "description": "a single image reference (project relative path or absolute URL), optionally with additional meta-data",
       "type": "object",
+      "additionalProperties": false,
       "examples": [
         {
           "location": "res/media/img/logo.svg",
@@ -946,6 +951,7 @@
     "outerDimensions": {
       "description": "Outer dimensions of the OSH module or part in mm (millimeters), which completely encompass the product.",
       "type": "object",
+      "additionalProperties": false,
       "required": [
         "width",
         "depth",
