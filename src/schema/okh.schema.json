@@ -1087,14 +1087,5 @@
       "pattern": "^https?://",
       "format": "uri"
     }
-  },
-  "propertiesOrder": [
-    ".*",
-    "tsdc",
-    "printing-process",
-    "material",
-    "2d-size-mm",
-    "component-sides",
-    "bom"
-  ]
+  }
 }
