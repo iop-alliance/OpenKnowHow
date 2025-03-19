@@ -370,7 +370,7 @@
         "oneOf": [
           {
             "required": [
-            "source"
+              "source"
             ],
             "properties": {
               "source": {}
