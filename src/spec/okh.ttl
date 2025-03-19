@@ -362,8 +362,7 @@ okh:version
         "0.0.1-24-g6a8a3a7",
         "v0.3.1",
         "6a8a3a7",
-        "baf0e65d8d93e1b64e883dfd2ffc5b838a22ca25",
-        61 ;
+        "baf0e65d8d93e1b64e883dfd2ffc5b838a22ca25" ;
   vs:term_status "unstable" ;
   dcam:domainIncludes okh:Module ;
   owl:cardinality 1 ;
