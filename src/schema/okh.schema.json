@@ -885,14 +885,28 @@
       }
     },
     "readme": {
-      "$ref": "#/$defs/relPathOrWebUrl",
       "description": "repo-relative path (or absolute HTTP(S) URL) to to the corresponding ReadMe, which is the (human) entry-point into (the sources of) an OSH project",
       "examples": [
         "README.md",
         "README.txt",
         "README",
         "README-JP.md",
-        "README-JP"
+        "README-JP",
+        [
+          "README-EN.md",
+          "README-JP.md"
+        ]
+      ],
+      "anyOf": [
+        {
+          "$ref": "#/$defs/relPathOrWebUrl"
+        },
+        {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/relPathOrWebUrl"
+          }
+        }
       ]
     },
     "release": {
