@@ -587,6 +587,60 @@
         
 
         
+<div class="accordion" id="accordionallOf_i1_then_component-sides">
+    <div class="card">
+        <div class="card-header" id="headingallOf_i1_then_component-sides">
+            <h2 class="mb-0">
+                <button class="btn btn-link property-name-button" type="button" data-toggle="collapse" data-target="#allOf_i1_then_component-sides"
+                        aria-expanded="" aria-controls="allOf_i1_then_component-sides" onclick="setAnchor('#allOf_i1_then_component-sides')"><span class="property-name">component-sides</span></button>
+            </h2>
+        </div>
+
+        <div id="allOf_i1_then_component-sides"
+             class="collapse property-definition-div" aria-labelledby="headingallOf_i1_then_component-sides"
+             data-parent="#accordionallOf_i1_then_component-sides">
+            <div class="card-body pl-5">
+
+    <div class="breadcrumbs">root
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#allOf" onclick="anchorLink('allOf')">allOf</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#allOf_i1" onclick="anchorLink('allOf_i1')">item 1</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#allOf_i1_then" onclick="anchorLink('allOf_i1_then')">then</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#allOf_i1_then_component-sides" onclick="anchorLink('allOf_i1_then_component-sides')">component-sides</a></div><span class="badge badge-dark value-type">Type: number</span><br/>
+
+        
+
+        
+        
+
+        
+            </div>
+        </div>
+    </div>
+</div>
 <div class="accordion" id="accordionallOf_i1_then_2d-size-mm">
     <div class="card">
         <div class="card-header" id="headingallOf_i1_then_2d-size-mm">
@@ -686,60 +740,6 @@
         
         </div>
     </div>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="accordion" id="accordionallOf_i1_then_component-sides">
-    <div class="card">
-        <div class="card-header" id="headingallOf_i1_then_component-sides">
-            <h2 class="mb-0">
-                <button class="btn btn-link property-name-button" type="button" data-toggle="collapse" data-target="#allOf_i1_then_component-sides"
-                        aria-expanded="" aria-controls="allOf_i1_then_component-sides" onclick="setAnchor('#allOf_i1_then_component-sides')"><span class="property-name">component-sides</span></button>
-            </h2>
-        </div>
-
-        <div id="allOf_i1_then_component-sides"
-             class="collapse property-definition-div" aria-labelledby="headingallOf_i1_then_component-sides"
-             data-parent="#accordionallOf_i1_then_component-sides">
-            <div class="card-body pl-5">
-
-    <div class="breadcrumbs">root
-        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path
-                fill-rule="evenodd"
-                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
-            />
-        </svg>
-    <a href="#allOf" onclick="anchorLink('allOf')">allOf</a>
-        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path
-                fill-rule="evenodd"
-                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
-            />
-        </svg>
-    <a href="#allOf_i1" onclick="anchorLink('allOf_i1')">item 1</a>
-        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path
-                fill-rule="evenodd"
-                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
-            />
-        </svg>
-    <a href="#allOf_i1_then" onclick="anchorLink('allOf_i1_then')">then</a>
-        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path
-                fill-rule="evenodd"
-                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
-            />
-        </svg>
-    <a href="#allOf_i1_then_component-sides" onclick="anchorLink('allOf_i1_then_component-sides')">component-sides</a></div><span class="badge badge-dark value-type">Type: number</span><br/>
-
-        
-
-        
-        
-
-        
             </div>
         </div>
     </div>
@@ -7454,183 +7454,23 @@ multiple inputs possible (with one entry each)</p>
                 d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
             />
         </svg>
-    <a href="#readme" onclick="anchorLink('readme')">readme</a></div><span class="badge badge-dark value-type">Type: string</span><br/>
+    <a href="#readme" onclick="anchorLink('readme')">readme</a></div><br/>
 <span class="description"><p>repo-relative path (or absolute HTTP(S) URL) to to the corresponding ReadMe, which is the (human) entry-point into (the sources of) an OSH project</p>
-</span>
-
-    <div class="any-of-value" id="attestation_anyOf_i0_anyOf"><h2 class="handle">
+</span><div class="any-of-value" id="readme_anyOf"><h2 class="handle">
   <label>Any of</label>
-</h2><ul class="nav nav-tabs" id="tabsattestation_anyOf_i0_anyOf_anyOf" role="tablist"><li class="nav-item">
+</h2><ul class="nav nav-tabs" id="tabsreadme_anyOf_anyOf" role="tablist"><li class="nav-item">
             <a class="nav-link active anyOf-option"
-               id="attestation_anyOf_i0_anyOf_i0" data-toggle="tab" href="#tab-pane_attestation_anyOf_i0_anyOf_i0" role="tab"
-               onclick="setAnchor('#attestation_anyOf_i0_anyOf_i0')"
-            >webUrl</a>
+               id="readme_anyOf_i0" data-toggle="tab" href="#tab-pane_readme_anyOf_i0" role="tab"
+               onclick="setAnchor('#readme_anyOf_i0')"
+            >relPathOrWebUrl</a>
         </li><li class="nav-item">
             <a class="nav-link anyOf-option"
-               id="attestation_anyOf_i0_anyOf_i1" data-toggle="tab" href="#tab-pane_attestation_anyOf_i0_anyOf_i1" role="tab"
-               onclick="setAnchor('#attestation_anyOf_i0_anyOf_i1')"
-            >relPath</a>
-        </li></ul>
-<div class="tab-content card"><div class="tab-pane fade card-body active show"
-             id="tab-pane_attestation_anyOf_i0_anyOf_i0" role="tabpanel">
-            
-
-    <div class="breadcrumbs">root
-        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path
-                fill-rule="evenodd"
-                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
-            />
-        </svg>
-    <a href="#attestation" onclick="anchorLink('attestation')">attestation</a>
-        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path
-                fill-rule="evenodd"
-                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
-            />
-        </svg>
-    <a href="#attestation_anyOf" onclick="anchorLink('attestation_anyOf')">anyOf</a>
-        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path
-                fill-rule="evenodd"
-                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
-            />
-        </svg>
-    <a href="#attestation_anyOf_i0" onclick="anchorLink('attestation_anyOf_i0')">item 0</a>
-        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path
-                fill-rule="evenodd"
-                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
-            />
-        </svg>
-    <a href="#attestation_anyOf_i0_anyOf" onclick="anchorLink('attestation_anyOf_i0_anyOf')">anyOf</a>
-        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path
-                fill-rule="evenodd"
-                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
-            />
-        </svg>
-    <a href="#attestation_anyOf_i0_anyOf_i0" onclick="anchorLink('attestation_anyOf_i0_anyOf_i0')">webUrl</a></div><span class="badge badge-dark value-type">Type: string</span><br/>
-
-
-    <span class="pattern-value" id="attestation_anyOf_i0_anyOf_i0_pattern">Must match regular expression: <code>^https?://</code></span>
-        
-
-        
-        
-
-        
-        </div><div class="tab-pane fade card-body "
-             id="tab-pane_attestation_anyOf_i0_anyOf_i1" role="tabpanel">
-            
-
-    <div class="breadcrumbs">root
-        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path
-                fill-rule="evenodd"
-                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
-            />
-        </svg>
-    <a href="#attestation" onclick="anchorLink('attestation')">attestation</a>
-        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path
-                fill-rule="evenodd"
-                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
-            />
-        </svg>
-    <a href="#attestation_anyOf" onclick="anchorLink('attestation_anyOf')">anyOf</a>
-        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path
-                fill-rule="evenodd"
-                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
-            />
-        </svg>
-    <a href="#attestation_anyOf_i0" onclick="anchorLink('attestation_anyOf_i0')">item 0</a>
-        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path
-                fill-rule="evenodd"
-                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
-            />
-        </svg>
-    <a href="#attestation_anyOf_i0_anyOf" onclick="anchorLink('attestation_anyOf_i0_anyOf')">anyOf</a>
-        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path
-                fill-rule="evenodd"
-                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
-            />
-        </svg>
-    <a href="#attestation_anyOf_i0_anyOf_i1" onclick="anchorLink('attestation_anyOf_i0_anyOf_i1')">relPath</a></div><span class="badge badge-dark value-type">Type: string</span><br/>
-
-
-    <div class="not-value">
-<h4>Must <strong>not</strong> be:</h4>
-<div class="card">
-    <div class="card-body" id="">
-    
-
-    <div class="breadcrumbs">root
-        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path
-                fill-rule="evenodd"
-                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
-            />
-        </svg>
-    <a href="#attestation" onclick="anchorLink('attestation')">attestation</a>
-        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path
-                fill-rule="evenodd"
-                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
-            />
-        </svg>
-    <a href="#attestation_anyOf" onclick="anchorLink('attestation_anyOf')">anyOf</a>
-        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path
-                fill-rule="evenodd"
-                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
-            />
-        </svg>
-    <a href="#attestation_anyOf_i0" onclick="anchorLink('attestation_anyOf_i0')">item 0</a>
-        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path
-                fill-rule="evenodd"
-                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
-            />
-        </svg>
-    <a href="#attestation_anyOf_i0_anyOf" onclick="anchorLink('attestation_anyOf_i0_anyOf')">anyOf</a>
-        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path
-                fill-rule="evenodd"
-                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
-            />
-        </svg>
-    <a href="#attestation_anyOf_i0_anyOf_i1" onclick="anchorLink('attestation_anyOf_i0_anyOf_i1')">item 1</a>
-        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path
-                fill-rule="evenodd"
-                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
-            />
-        </svg>
-    <a href="#attestation_anyOf_i0_anyOf_i1_not" onclick="anchorLink('attestation_anyOf_i0_anyOf_i1_not')">not</a></div><br/>
-<div class="any-of-value" id="attestation_anyOf_i0_anyOf_i1_not_anyOf"><h2 class="handle">
-  <label>Any of</label>
-</h2><ul class="nav nav-tabs" id="tabsattestation_anyOf_i0_anyOf_i1_not_anyOf_anyOf" role="tablist"><li class="nav-item">
-            <a class="nav-link active anyOf-option"
-               id="attestation_anyOf_i0_anyOf_i1_not_anyOf_i0" data-toggle="tab" href="#tab-pane_attestation_anyOf_i0_anyOf_i1_not_anyOf_i0" role="tab"
-               onclick="setAnchor('#attestation_anyOf_i0_anyOf_i1_not_anyOf_i0')"
-            >Option 1</a>
-        </li><li class="nav-item">
-            <a class="nav-link anyOf-option"
-               id="attestation_anyOf_i0_anyOf_i1_not_anyOf_i1" data-toggle="tab" href="#tab-pane_attestation_anyOf_i0_anyOf_i1_not_anyOf_i1" role="tab"
-               onclick="setAnchor('#attestation_anyOf_i0_anyOf_i1_not_anyOf_i1')"
+               id="readme_anyOf_i1" data-toggle="tab" href="#tab-pane_readme_anyOf_i1" role="tab"
+               onclick="setAnchor('#readme_anyOf_i1')"
             >Option 2</a>
-        </li><li class="nav-item">
-            <a class="nav-link anyOf-option"
-               id="attestation_anyOf_i0_anyOf_i1_not_anyOf_i2" data-toggle="tab" href="#tab-pane_attestation_anyOf_i0_anyOf_i1_not_anyOf_i2" role="tab"
-               onclick="setAnchor('#attestation_anyOf_i0_anyOf_i1_not_anyOf_i2')"
-            >Option 3</a>
         </li></ul>
 <div class="tab-content card"><div class="tab-pane fade card-body active show"
-             id="tab-pane_attestation_anyOf_i0_anyOf_i1_not_anyOf_i0" role="tabpanel">
+             id="tab-pane_readme_anyOf_i0" role="tabpanel">
             
 
     <div class="breadcrumbs">root
@@ -7640,65 +7480,24 @@ multiple inputs possible (with one entry each)</p>
                 d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
             />
         </svg>
-    <a href="#attestation" onclick="anchorLink('attestation')">attestation</a>
+    <a href="#readme" onclick="anchorLink('readme')">readme</a>
         <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
             <path
                 fill-rule="evenodd"
                 d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
             />
         </svg>
-    <a href="#attestation_anyOf" onclick="anchorLink('attestation_anyOf')">anyOf</a>
+    <a href="#readme_anyOf" onclick="anchorLink('readme_anyOf')">anyOf</a>
         <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
             <path
                 fill-rule="evenodd"
                 d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
             />
         </svg>
-    <a href="#attestation_anyOf_i0" onclick="anchorLink('attestation_anyOf_i0')">item 0</a>
-        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path
-                fill-rule="evenodd"
-                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
-            />
-        </svg>
-    <a href="#attestation_anyOf_i0_anyOf" onclick="anchorLink('attestation_anyOf_i0_anyOf')">anyOf</a>
-        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path
-                fill-rule="evenodd"
-                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
-            />
-        </svg>
-    <a href="#attestation_anyOf_i0_anyOf_i1" onclick="anchorLink('attestation_anyOf_i0_anyOf_i1')">item 1</a>
-        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path
-                fill-rule="evenodd"
-                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
-            />
-        </svg>
-    <a href="#attestation_anyOf_i0_anyOf_i1_not" onclick="anchorLink('attestation_anyOf_i0_anyOf_i1_not')">not</a>
-        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path
-                fill-rule="evenodd"
-                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
-            />
-        </svg>
-    <a href="#attestation_anyOf_i0_anyOf_i1_not_anyOf" onclick="anchorLink('attestation_anyOf_i0_anyOf_i1_not_anyOf')">anyOf</a>
-        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path
-                fill-rule="evenodd"
-                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
-            />
-        </svg>
-    <a href="#attestation_anyOf_i0_anyOf_i1_not_anyOf_i0" onclick="anchorLink('attestation_anyOf_i0_anyOf_i1_not_anyOf_i0')">item 0</a></div><span class="badge badge-dark value-type">Type: object</span><br/>
-<span class="pattern-value" id="attestation_anyOf_i0_anyOf_i1_not_anyOf_i0_pattern">Must match regular expression: <code>^[a-z]*:</code></span>
-        
-
-        
-        
-
-        
+    <a href="#readme_anyOf_i0" onclick="anchorLink('readme_anyOf_i0')">relPathOrWebUrl</a></div><span class="badge badge-dark value-type">Type: string</span><br/>
+<a href="#attestation_anyOf_i0" onclick="anchorLink('attestation_anyOf_i0')" class="ref-link">Same definition as attestation_anyOf_i0</a>
         </div><div class="tab-pane fade card-body "
-             id="tab-pane_attestation_anyOf_i0_anyOf_i1_not_anyOf_i1" role="tabpanel">
+             id="tab-pane_readme_anyOf_i1" role="tabpanel">
             
 
     <div class="breadcrumbs">root
@@ -7708,65 +7507,30 @@ multiple inputs possible (with one entry each)</p>
                 d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
             />
         </svg>
-    <a href="#attestation" onclick="anchorLink('attestation')">attestation</a>
+    <a href="#readme" onclick="anchorLink('readme')">readme</a>
         <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
             <path
                 fill-rule="evenodd"
                 d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
             />
         </svg>
-    <a href="#attestation_anyOf" onclick="anchorLink('attestation_anyOf')">anyOf</a>
+    <a href="#readme_anyOf" onclick="anchorLink('readme_anyOf')">anyOf</a>
         <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
             <path
                 fill-rule="evenodd"
                 d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
             />
         </svg>
-    <a href="#attestation_anyOf_i0" onclick="anchorLink('attestation_anyOf_i0')">item 0</a>
-        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path
-                fill-rule="evenodd"
-                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
-            />
-        </svg>
-    <a href="#attestation_anyOf_i0_anyOf" onclick="anchorLink('attestation_anyOf_i0_anyOf')">anyOf</a>
-        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path
-                fill-rule="evenodd"
-                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
-            />
-        </svg>
-    <a href="#attestation_anyOf_i0_anyOf_i1" onclick="anchorLink('attestation_anyOf_i0_anyOf_i1')">item 1</a>
-        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path
-                fill-rule="evenodd"
-                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
-            />
-        </svg>
-    <a href="#attestation_anyOf_i0_anyOf_i1_not" onclick="anchorLink('attestation_anyOf_i0_anyOf_i1_not')">not</a>
-        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path
-                fill-rule="evenodd"
-                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
-            />
-        </svg>
-    <a href="#attestation_anyOf_i0_anyOf_i1_not_anyOf" onclick="anchorLink('attestation_anyOf_i0_anyOf_i1_not_anyOf')">anyOf</a>
-        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path
-                fill-rule="evenodd"
-                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
-            />
-        </svg>
-    <a href="#attestation_anyOf_i0_anyOf_i1_not_anyOf_i1" onclick="anchorLink('attestation_anyOf_i0_anyOf_i1_not_anyOf_i1')">item 1</a></div><span class="badge badge-dark value-type">Type: object</span><br/>
-<span class="pattern-value" id="attestation_anyOf_i0_anyOf_i1_not_anyOf_i1_pattern">Must match regular expression: <code>^//</code></span>
+    <a href="#readme_anyOf_i1" onclick="anchorLink('readme_anyOf_i1')">item 1</a></div><span class="badge badge-dark value-type">Type: array</span><br/>
+
         
 
         
         
 
-        
-        </div><div class="tab-pane fade card-body "
-             id="tab-pane_attestation_anyOf_i0_anyOf_i1_not_anyOf_i2" role="tabpanel">
+         <span class="badge badge-info no-additional">No Additional Items</span><h4>Each item of this array must be:</h4>
+    <div class="card">
+        <div class="card-body items-definition" id="readme_anyOf_i1_items">
             
 
     <div class="breadcrumbs">root
@@ -7776,79 +7540,31 @@ multiple inputs possible (with one entry each)</p>
                 d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
             />
         </svg>
-    <a href="#attestation" onclick="anchorLink('attestation')">attestation</a>
+    <a href="#readme" onclick="anchorLink('readme')">readme</a>
         <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
             <path
                 fill-rule="evenodd"
                 d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
             />
         </svg>
-    <a href="#attestation_anyOf" onclick="anchorLink('attestation_anyOf')">anyOf</a>
+    <a href="#readme_anyOf" onclick="anchorLink('readme_anyOf')">anyOf</a>
         <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
             <path
                 fill-rule="evenodd"
                 d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
             />
         </svg>
-    <a href="#attestation_anyOf_i0" onclick="anchorLink('attestation_anyOf_i0')">item 0</a>
+    <a href="#readme_anyOf_i1" onclick="anchorLink('readme_anyOf_i1')">item 1</a>
         <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
             <path
                 fill-rule="evenodd"
                 d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
             />
         </svg>
-    <a href="#attestation_anyOf_i0_anyOf" onclick="anchorLink('attestation_anyOf_i0_anyOf')">anyOf</a>
-        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path
-                fill-rule="evenodd"
-                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
-            />
-        </svg>
-    <a href="#attestation_anyOf_i0_anyOf_i1" onclick="anchorLink('attestation_anyOf_i0_anyOf_i1')">item 1</a>
-        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path
-                fill-rule="evenodd"
-                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
-            />
-        </svg>
-    <a href="#attestation_anyOf_i0_anyOf_i1_not" onclick="anchorLink('attestation_anyOf_i0_anyOf_i1_not')">not</a>
-        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path
-                fill-rule="evenodd"
-                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
-            />
-        </svg>
-    <a href="#attestation_anyOf_i0_anyOf_i1_not_anyOf" onclick="anchorLink('attestation_anyOf_i0_anyOf_i1_not_anyOf')">anyOf</a>
-        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path
-                fill-rule="evenodd"
-                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
-            />
-        </svg>
-    <a href="#attestation_anyOf_i0_anyOf_i1_not_anyOf_i2" onclick="anchorLink('attestation_anyOf_i0_anyOf_i1_not_anyOf_i2')">item 2</a></div><span class="badge badge-dark value-type">Type: object</span><br/>
-<span class="pattern-value" id="attestation_anyOf_i0_anyOf_i1_not_anyOf_i2_pattern">Must match regular expression: <code>(?:.*/)?\.\.(?:/.*)?</code></span>
-        
-
-        
-        
-
-        
-        </div></div></div>
-        
-
-        
-        
-
-        
+    <a href="#readme_anyOf_i1_items" onclick="anchorLink('readme_anyOf_i1_items')">relPathOrWebUrl</a></div><span class="badge badge-dark value-type">Type: string</span><br/>
+<a href="#attestation_anyOf_i0" onclick="anchorLink('attestation_anyOf_i0')" class="ref-link">Same definition as attestation_anyOf_i0</a>
+        </div>
     </div>
-</div>
-</div>
-        
-
-        
-        
-
-        
         </div></div></div>
         
 
@@ -7857,15 +7573,20 @@ multiple inputs possible (with one entry each)</p>
 
         <br/>
 <div class="badge badge-secondary">Examples:</div>
-<br/><div id="attestation_anyOf_i0_ex1" class="jumbotron examples"><div class="highlight"><pre><span></span><span class="s2">&quot;README.md&quot;</span>
+<br/><div id="readme_ex1" class="jumbotron examples"><div class="highlight"><pre><span></span><span class="s2">&quot;README.md&quot;</span>
 </pre></div>
-</div><div id="attestation_anyOf_i0_ex2" class="jumbotron examples"><div class="highlight"><pre><span></span><span class="s2">&quot;README.txt&quot;</span>
+</div><div id="readme_ex2" class="jumbotron examples"><div class="highlight"><pre><span></span><span class="s2">&quot;README.txt&quot;</span>
 </pre></div>
-</div><div id="attestation_anyOf_i0_ex3" class="jumbotron examples"><div class="highlight"><pre><span></span><span class="s2">&quot;README&quot;</span>
+</div><div id="readme_ex3" class="jumbotron examples"><div class="highlight"><pre><span></span><span class="s2">&quot;README&quot;</span>
 </pre></div>
-</div><div id="attestation_anyOf_i0_ex4" class="jumbotron examples"><div class="highlight"><pre><span></span><span class="s2">&quot;README-JP.md&quot;</span>
+</div><div id="readme_ex4" class="jumbotron examples"><div class="highlight"><pre><span></span><span class="s2">&quot;README-JP.md&quot;</span>
 </pre></div>
-</div><div id="attestation_anyOf_i0_ex5" class="jumbotron examples"><div class="highlight"><pre><span></span><span class="s2">&quot;README-JP&quot;</span>
+</div><div id="readme_ex5" class="jumbotron examples"><div class="highlight"><pre><span></span><span class="s2">&quot;README-JP&quot;</span>
+</pre></div>
+</div><div id="readme_ex6" class="jumbotron examples"><div class="highlight"><pre><span></span><span class="p">[</span>
+<span class="w">    </span><span class="s2">&quot;README-EN.md&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="s2">&quot;README-JP.md&quot;</span>
+<span class="p">]</span>
 </pre></div>
 </div>
             </div>
@@ -8933,18 +8654,24 @@ multiple inputs possible (with one entry each)</p>
                 d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
             />
         </svg>
-    <a href="#standard-compliance" onclick="anchorLink('standard-compliance')">standard-compliance</a></div><span class="badge badge-dark value-type">Type: array of string</span><br/>
+    <a href="#standard-compliance" onclick="anchorLink('standard-compliance')">standard-compliance</a></div><br/>
 <span class="description"><p>document-number of the official standard the OSH module complies;<br />
 multiple inputs possible (with one entry each)</p>
-</span>
-        
-
-        
-        
-
-         <span class="badge badge-info no-additional">No Additional Items</span><h4>Each item of this array must be:</h4>
-    <div class="card">
-        <div class="card-body items-definition" id="standard-compliance_items">
+</span><div class="any-of-value" id="standard-compliance_anyOf"><h2 class="handle">
+  <label>Any of</label>
+</h2><ul class="nav nav-tabs" id="tabsstandard-compliance_anyOf_anyOf" role="tablist"><li class="nav-item">
+            <a class="nav-link active anyOf-option"
+               id="standard-compliance_anyOf_i0" data-toggle="tab" href="#tab-pane_standard-compliance_anyOf_i0" role="tab"
+               onclick="setAnchor('#standard-compliance_anyOf_i0')"
+            >Option 1</a>
+        </li><li class="nav-item">
+            <a class="nav-link anyOf-option"
+               id="standard-compliance_anyOf_i1" data-toggle="tab" href="#tab-pane_standard-compliance_anyOf_i1" role="tab"
+               onclick="setAnchor('#standard-compliance_anyOf_i1')"
+            >Option 2</a>
+        </li></ul>
+<div class="tab-content card"><div class="tab-pane fade card-body active show"
+             id="tab-pane_standard-compliance_anyOf_i0" role="tabpanel">
             
 
     <div class="breadcrumbs">root
@@ -8961,7 +8688,87 @@ multiple inputs possible (with one entry each)</p>
                 d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
             />
         </svg>
-    <a href="#standard-compliance_items" onclick="anchorLink('standard-compliance_items')">standard-compliance items</a></div><span class="badge badge-dark value-type">Type: string</span><br/>
+    <a href="#standard-compliance_anyOf" onclick="anchorLink('standard-compliance_anyOf')">anyOf</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#standard-compliance_anyOf_i0" onclick="anchorLink('standard-compliance_anyOf_i0')">item 0</a></div><span class="badge badge-dark value-type">Type: string</span><br/>
+
+        
+
+        
+        
+
+        
+        </div><div class="tab-pane fade card-body "
+             id="tab-pane_standard-compliance_anyOf_i1" role="tabpanel">
+            
+
+    <div class="breadcrumbs">root
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#standard-compliance" onclick="anchorLink('standard-compliance')">standard-compliance</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#standard-compliance_anyOf" onclick="anchorLink('standard-compliance_anyOf')">anyOf</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#standard-compliance_anyOf_i1" onclick="anchorLink('standard-compliance_anyOf_i1')">item 1</a></div><span class="badge badge-dark value-type">Type: array of string</span><br/>
+
+        
+
+        
+        
+
+         <span class="badge badge-info no-additional">No Additional Items</span><h4>Each item of this array must be:</h4>
+    <div class="card">
+        <div class="card-body items-definition" id="standard-compliance_anyOf_i1_items">
+            
+
+    <div class="breadcrumbs">root
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#standard-compliance" onclick="anchorLink('standard-compliance')">standard-compliance</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#standard-compliance_anyOf" onclick="anchorLink('standard-compliance_anyOf')">anyOf</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#standard-compliance_anyOf_i1" onclick="anchorLink('standard-compliance_anyOf_i1')">item 1</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#standard-compliance_anyOf_i1_items" onclick="anchorLink('standard-compliance_anyOf_i1_items')">item 1 items</a></div><span class="badge badge-dark value-type">Type: string</span><br/>
 
         
 
@@ -8970,7 +8777,14 @@ multiple inputs possible (with one entry each)</p>
 
         
         </div>
-    </div><br/>
+    </div>
+        </div></div></div>
+        
+
+        
+        
+
+        <br/>
 <div class="badge badge-secondary">Examples:</div>
 <br/><div id="standard-compliance_ex1" class="jumbotron examples"><div class="highlight"><pre><span></span><span class="s2">&quot;DIN SPEC 3105&quot;</span>
 </pre></div>
@@ -9782,6 +9596,6 @@ multiple inputs possible (with one entry each)</p>
 </div>
 
     <footer>
-        <p class="generated-by-footer">Generated using <a href="https://github.com/coveooss/json-schema-for-humans">json-schema-for-humans</a> on 2025-03-16 at 20:10:17 +0000</p>
+        <p class="generated-by-footer">Generated using <a href="https://github.com/coveooss/json-schema-for-humans">json-schema-for-humans</a> on 2025-03-20 at 14:00:09 +0000</p>
     </footer></body>
 </html>
