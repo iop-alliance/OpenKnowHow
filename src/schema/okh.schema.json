@@ -953,10 +953,17 @@
         "ISO 1337",
         ["DIN SPEC 3105", "ISO 1337"]
       ],
-      "type": "array",
-      "items": {
-        "type": "string"
-      }
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      ]
     },
     "technology-readiness-level": {
       "description": "OTRL-ID representing the development stage of the OSH module; get it from: <https://w3id.org/oseg/ont/otrl>",
