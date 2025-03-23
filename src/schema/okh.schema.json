@@ -20,7 +20,7 @@
       "examples": ["lib/lib1.lib", ".mdlrc", ["lib/lib1.lib", ".mdlrc"]]
     },
     "bom": {
-      "$ref": "#/$defs/relPathOrWebUrl",
+      "$ref": "#/$defs/relPathOrWebUrlMulti",
       "description": "URL or repo-relative path to the bill of materials",
       "examples": ["sBoM.csv", "BOM.csv", "bom.csv"]
     },
@@ -958,7 +958,7 @@
       "$ref": "#/$defs/tsdc"
     },
     "user-manual": {
-      "$ref": "#/$defs/relPathOrWebUrl",
+      "$ref": "#/$defs/relPathOrWebUrlMulti",
       "description": "URL or repo-relative path to user manual",
       "examples": ["Documentation/User_Guide/UserGuide.md"]
     },
