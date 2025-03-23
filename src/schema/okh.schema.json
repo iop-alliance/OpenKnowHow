@@ -441,7 +441,21 @@
       "description": "A valid SPDX license expression",
       "type": "string"
     },
+    "stringMulti": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      ]
+    },
     "tsdc": {
+      "$ref": "#/$defs/stringMulti",
       "$comment": "autocomplete",
       "description": "identifier of the applying Technology-specific Documentation Criteria (TsDC) according to DIN SPEC 3105-1 - get it from: <https://w3id.org/oseg/ont/tsdc/core> - multiple inputs possible (with one entry each)",
       "examples": [
@@ -454,17 +468,6 @@
         "LAS",
         "CNC",
         ["ASM", "MEC", "CIR"]
-      ],
-      "anyOf": [
-        {
-          "type": "string"
-        },
-        {
-          "type": "array",
-          "items": {
-            "type": "string"
-          }
-        }
       ]
     },
     "webUrl": {
@@ -699,13 +702,7 @@
       ],
       "anyOf": [
         {
-          "type": "array",
-          "items": {
-            "type": "string"
-          }
-        },
-        {
-          "type": "string"
+          "$ref": "#/$defs/stringMulti"
         },
         {
           "type": "array",
@@ -761,13 +758,7 @@
       ],
       "anyOf": [
         {
-          "type": "string"
-        },
-        {
-          "type": "array",
-          "items": {
-            "type": "string"
-          }
+          "$ref": "#/$defs/stringMulti"
         },
         {
           "$ref": "#/$defs/organization"
@@ -918,23 +909,13 @@
       "$ref": "#/$defs/source"
     },
     "standard-compliance": {
+      "$ref": "#/$defs/stringMulti",
       "description": "document-number of the official standard the OSH module complies;\\\nmultiple inputs possible (with one entry each)",
       "examples": [
         "DIN SPEC 3105",
         "DIN EN 1335",
         "ISO 1337",
         ["DIN SPEC 3105", "ISO 1337"]
-      ],
-      "anyOf": [
-        {
-          "type": "string"
-        },
-        {
-          "type": "array",
-          "items": {
-            "type": "string"
-          }
-        }
       ]
     },
     "technology-readiness-level": {
