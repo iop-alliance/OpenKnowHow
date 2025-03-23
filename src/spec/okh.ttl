@@ -917,13 +917,13 @@ okh:doi
 #   owl:sameAs ods:created ;
 #   .
 
-okh:source
+okh:hasSource
   a owl:ObjectProperty ;
   a skos:Concept ;
   rdfs:label "has source file"@en ;
   rdfs:comment "Links to a file that forms part of the sources of the project; meaning, these are the primary files the designers and other contributors of the project are working on."@en ;
-  rdfs:seeAlso okh:export ;
-  rdfs:seeAlso okh:auxiliary ;
+  rdfs:seeAlso okh:hasExport ;
+  rdfs:seeAlso okh:hasAuxiliary ;
   vs:term_status "unstable" ;
   dcam:domainIncludes okh:Component ;
   dcam:rangeIncludes ods:File ;
@@ -937,13 +937,13 @@ okh:source
   okhmeta:hasMetaTag okhmeta:DataTag ;
   .
 
-okh:export
+okh:hasExport
   a owl:ObjectProperty ;
   a skos:Concept ;
   rdfs:label "has exported file"@en ;
   rdfs:comment "Links to a file that was generated/exported from a source file of the project"@en ;
-  rdfs:seeAlso okh:source ;
-  rdfs:seeAlso okh:auxiliary ;
+  rdfs:seeAlso okh:hasSource ;
+  rdfs:seeAlso okh:hasAuxiliary ;
   vs:term_status "unstable" ;
   dcam:domainIncludes okh:Component ;
   dcam:rangeIncludes ods:File ;
@@ -960,13 +960,13 @@ okh:export
   okhmeta:hasMetaTag okhmeta:DataTag ;
   .
 
-okh:auxiliary
+okh:hasAuxiliary
   a owl:ObjectProperty ;
   a skos:Concept ;
   rdfs:label "has auxiliary file"@en ;
   rdfs:comment "This links to files associated with the subject, which classify neither as source nor as export, but are still useful in the repository"@en ;
-  rdfs:seeAlso okh:source ;
-  rdfs:seeAlso okh:export ;
+  rdfs:seeAlso okh:hasSource ;
+  rdfs:seeAlso okh:hasExport ;
   vs:term_status "unstable" ;
   dcam:domainIncludes okh:Component ;
   dcam:rangeIncludes ods:File ;

@@ -167,8 +167,8 @@
   okh:documentationLanguage "en-GB" ;
   okh:relatedTsDC tsdc:3DP ;
   okh:hasManifestFile :ManifestFile ;
-  okh:source :ClampRing_source ;
-  okh:export :ClampRing_export1 , :ClampRing_export2 ;
+  okh:hasSource :ClampRing_source ;
+  okh:hasExport :ClampRing_export1 , :ClampRing_export2 ;
   okh:manufacturingProcess "3D printed" ;
   okh:material "PLA" ;
   okh:hasOuterDimensions :OuterDimensionsClampRing
