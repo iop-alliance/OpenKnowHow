@@ -15,19 +15,9 @@
       ]
     },
     "auxiliary": {
+      "$ref": "#/$defs/relPathOrWebUrlMulti",
       "description": "relative or absolute path to files that are neither source files nor their exports, but still useful in the repository (e.g. KiCAD library files);\\\nmultiple inputs possible (with one entry each)",
-      "examples": ["lib/lib1.lib", ".mdlrc", ["lib/lib1.lib", ".mdlrc"]],
-      "anyOf": [
-        {
-          "$ref": "#/$defs/relPathOrWebUrl"
-        },
-        {
-          "type": "array",
-          "items": {
-            "$ref": "#/$defs/relPathOrWebUrl"
-          }
-        }
-      ]
+      "examples": ["lib/lib1.lib", ".mdlrc", ["lib/lib1.lib", ".mdlrc"]]
     },
     "bom": {
       "$ref": "#/$defs/relPathOrWebUrl",
@@ -108,22 +98,12 @@
       "format": "email"
     },
     "export": {
+      "$ref": "#/$defs/relPathOrWebUrlMulti",
       "description": "relative or absolute path to export file (e.g. STEP export of 3D model or PDF export of drawing);\\\nmultiple inputs possible (with one entry each)",
       "examples": [
         "3D-parts/assembly.stp",
         "public/user-manual.pdf",
         ["3D-parts/assembly.stp", "public/user-manual.pdf"]
-      ],
-      "anyOf": [
-        {
-          "$ref": "#/$defs/relPathOrWebUrl"
-        },
-        {
-          "type": "array",
-          "items": {
-            "$ref": "#/$defs/relPathOrWebUrl"
-          }
-        }
       ]
     },
     "lang-text": {
@@ -316,16 +296,10 @@
       ],
       "anyOf": [
         {
-          "$ref": "#/$defs/relPathOrWebUrl"
+          "$ref": "#/$defs/relPathOrWebUrlMulti"
         },
         {
           "$ref": "#/$defs/image"
-        },
-        {
-          "type": "array",
-          "items": {
-            "$ref": "#/$defs/relPathOrWebUrl"
-          }
         },
         {
           "type": "array",
@@ -438,15 +412,7 @@
         }
       ]
     },
-    "source": {
-      "description": "relative or absolute path to source file (e.g. native CAD file);\\\nmultiple inputs possible (with one entry each)",
-      "examples": [
-        "3D-parts/assembly.asm",
-        "pcb/main.pro",
-        "pcb/main.kicad_pcb",
-        "cad/part-x/model.fcstd",
-        ["pcb/main.kicad_pcb", "cad/part-x/model.fcstd"]
-      ],
+    "relPathOrWebUrlMulti": {
       "anyOf": [
         {
           "$ref": "#/$defs/relPathOrWebUrl"
@@ -457,6 +423,17 @@
             "$ref": "#/$defs/relPathOrWebUrl"
           }
         }
+      ]
+    },
+    "source": {
+      "$ref": "#/$defs/relPathOrWebUrlMulti",
+      "description": "relative or absolute path to source file (e.g. native CAD file);\\\nmultiple inputs possible (with one entry each)",
+      "examples": [
+        "3D-parts/assembly.asm",
+        "pcb/main.pro",
+        "pcb/main.kicad_pcb",
+        "cad/part-x/model.fcstd",
+        ["pcb/main.kicad_pcb", "cad/part-x/model.fcstd"]
       ]
     },
     "spdxLicenseExpression": {
@@ -565,18 +542,8 @@
       ]
     },
     "attestation": {
-      "description": "reference to one or multiple valid attestation(s) that the documentation is complete and fully qualifies as open source hardware;\\\nissuing conformity assessment bodies according to DIN SPEC 3105-2:\\\n- [Open Hardware Observatory](https://en.oho.wiki/wiki/Request_certification_for_your_project)\\\n- [Open Source Ecology Germany](https://gitlab.opensourceecology.de/verein/projekte/cab/CAB)\\\n- [OSHWA certification programme](https://certification.oshwa.org/)",
-      "anyOf": [
-        {
-          "$ref": "#/$defs/relPathOrWebUrl"
-        },
-        {
-          "type": "array",
-          "items": {
-            "$ref": "#/$defs/relPathOrWebUrl"
-          }
-        }
-      ]
+      "$ref": "#/$defs/relPathOrWebUrlMulti",
+      "description": "reference to one or multiple valid attestation(s) that the documentation is complete and fully qualifies as open source hardware;\\\nissuing conformity assessment bodies according to DIN SPEC 3105-2:\\\n- [Open Hardware Observatory](https://en.oho.wiki/wiki/Request_certification_for_your_project)\\\n- [Open Source Ecology Germany](https://gitlab.opensourceecology.de/verein/projekte/cab/CAB)\\\n- [OSHWA certification programme](https://certification.oshwa.org/)"
     },
     "auxiliary": {
       "$ref": "#/$defs/auxiliary"
@@ -752,19 +719,9 @@
       ]
     },
     "manufacturing-instructions": {
+      "$ref": "#/$defs/relPathOrWebUrlMulti",
       "description": "URL or repo-relative path to manufacturing instructions; multiple inputs possible (with one entry each)",
-      "examples": ["Documentation/Assembly_Guide/AssemblyGuide.md"],
-      "anyOf": [
-        {
-          "$ref": "#/$defs/relPathOrWebUrl"
-        },
-        {
-          "type": "array",
-          "items": {
-            "$ref": "#/$defs/relPathOrWebUrl"
-          }
-        }
-      ]
+      "examples": ["Documentation/Assembly_Guide/AssemblyGuide.md"]
     },
     "mass": {
       "$ref": "#/$defs/mass"
@@ -910,6 +867,7 @@
       }
     },
     "readme": {
+      "$ref": "#/$defs/relPathOrWebUrlMulti",
       "description": "repo-relative path (or absolute HTTP(S) URL) to to the corresponding ReadMe, which is the (human) entry-point into (the sources of) an OSH project",
       "examples": [
         "README.md",
@@ -921,17 +879,6 @@
           "README-EN.md",
           "README-JP.md"
         ]
-      ],
-      "anyOf": [
-        {
-          "$ref": "#/$defs/relPathOrWebUrl"
-        },
-        {
-          "type": "array",
-          "items": {
-            "$ref": "#/$defs/relPathOrWebUrl"
-          }
-        }
       ]
     },
     "release": {
