@@ -532,6 +532,7 @@ okh:hasPublication
   vs:term_status "unstable" ;
   rdfs:subPropertyOf npg:hasPublication;
   dcam:domainIncludes okh:Module ;
+  dcam:rangeIncludes okh:Publication ;
   okhmeta:hasMetaTag okhmeta:DevelopmentTag ;
   .
 
