@@ -45,7 +45,7 @@ do
 	esac
 done
 
-find doc res src README.md MEETME.md \
+find doc res src README.md CODE_OF_CONDUCT.md \
 	-name '*.md' \
 	| xargs mdl \
 	--config .mdlrc
