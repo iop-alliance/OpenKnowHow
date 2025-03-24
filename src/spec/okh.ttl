@@ -417,7 +417,8 @@ e.g. "en-GB"'''@en;
   vs:term_status "unstable" ;
   dcam:domainIncludes
     okh:Module,
-    okh:Part ;
+    okh:Part,
+    okh:Software ;
   skos:example "en-GB" ;
   skos:example "en-US" ;
   skos:example "en" ;
