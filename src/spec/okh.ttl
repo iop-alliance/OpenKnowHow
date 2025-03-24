@@ -753,7 +753,7 @@ even within a single project."""@en ;
   .
 
 okh:functionalMetadata
-  a owl:DatatypeProperty ;
+  a rdf:Property ;
   a skos:Concept ;
   rdfs:label "functionality metadata"@en ;
   rdfs:comment "Metadata addressing functionality, such as dimensions, material, weight, RPM,… (not standardized)"@en ;
