@@ -157,8 +157,8 @@
   okh:documentationLanguage "en-GB" ;
   okh:relatedTsDC tsdc:3DP ;
   okh:hasManifestFile :ManifestFile ;
-  okh:source :ClampRing_source ;
-  okh:export :ClampRing_export1 , :ClampRing_export2 ;
+  okh:hasSource :ClampRing_source ;
+  okh:hasExport :ClampRing_export1 , :ClampRing_export2 ;
   okh:manufacturingProcess "3D printed" ;
   okh:material "PLA" ;
   okh:hasOuterDimensions :OuterDimensionsClampRing
@@ -209,8 +209,8 @@
   okh:documentationLanguage "en-GB" ;
   okh:relatedTsDC tsdc:3DP ;
   okh:hasManifestFile :ManifestFile ;
-  okh:source :CombModule_source ;
-  okh:export :CombModule_export1 , :CombModule_export2 ;
+  okh:hasSource :CombModule_source ;
+  okh:hasExport :CombModule_export1 , :CombModule_export2 ;
   okh:manufacturingProcess "3D printed" ;
   okh:material "PLA" ;
   okh:hasOuterDimensions :OuterDimensionsCombModule
@@ -260,8 +260,8 @@
   okh:documentationLanguage "en-GB" ;
   okh:relatedTsDC tsdc:3DP ;
   okh:hasManifestFile :ManifestFile ;
-  okh:source :PoleBase_source ;
-  okh:export :PoleBase_export1 , :PoleBase_export2 ;
+  okh:hasSource :PoleBase_source ;
+  okh:hasExport :PoleBase_export1 , :PoleBase_export2 ;
   okh:manufacturingProcess "3D printed" ;
   okh:material "PLA" ;
   okh:hasOuterDimensions :OuterDimensionsPoleBase
@@ -305,8 +305,8 @@
   okh:documentationLanguage "en-GB" ;
   okh:relatedTsDC tsdc:3DP ;
   okh:hasManifestFile :ManifestFile ;
-  okh:source :RatchetPawl_source ;
-  okh:export :RatchetPawl_export1, :RatchetPawl_export2 ;
+  okh:hasSource :RatchetPawl_source ;
+  okh:hasExport :RatchetPawl_export1, :RatchetPawl_export2 ;
   okh:manufacturingProcess "3D printed" ;
   okh:material "PLA" ;
   okh:hasOuterDimensions :OuterDimensionsRatchetPawl
@@ -357,8 +357,8 @@
   okh:documentationLanguage "en-GB" ;
   okh:relatedTsDC tsdc:3DP ;
   okh:hasManifestFile :ManifestFile ;
-  okh:source :RatchetWheel_source ;
-  okh:export :RatchetWheel_export1 , :RatchetWheel_export2 ;
+  okh:hasSource :RatchetWheel_source ;
+  okh:hasExport :RatchetWheel_export1 , :RatchetWheel_export2 ;
   okh:manufacturingProcess "3D printed" ;
   okh:material "PLA" ;
   okh:hasOuterDimensions :OuterDimensionsRatchetWheel

@@ -816,7 +816,7 @@
                 d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
             />
         </svg>
-    <a href="#attestation" onclick="anchorLink('attestation')">attestation</a></div><br/>
+    <a href="#attestation" onclick="anchorLink('attestation')">attestation</a></div><span class="badge badge-dark value-type">Type: object</span><br/>
 <div class="description collapse" id="collapseDescription_attestation">
             <p>reference to one or multiple valid attestation(s) that the documentation is complete and fully qualifies as open source hardware;<br />
 issuing conformity assessment bodies according to DIN SPEC 3105-2:<br />
@@ -829,7 +829,9 @@ issuing conformity assessment bodies according to DIN SPEC 3105-2:<br />
             <a class="collapse-description-link collapsed" data-toggle="collapse" href="#collapseDescription_attestation"
                aria-expanded="false" aria-controls="collapseDescriptionattestation"
             ></a>
-        </div><div class="any-of-value" id="attestation_anyOf"><h2 class="handle">
+        </div>
+
+    <div class="any-of-value" id="attestation_anyOf"><h2 class="handle">
   <label>Any of</label>
 </h2><ul class="nav nav-tabs" id="tabsattestation_anyOf_anyOf" role="tablist"><li class="nav-item">
             <a class="nav-link active anyOf-option"
@@ -1374,21 +1376,23 @@ issuing conformity assessment bodies according to DIN SPEC 3105-2:<br />
 multiple inputs possible (with one entry each)</p>
 </span>
 
-    <div class="any-of-value" id="auxiliary_anyOf"><h2 class="handle">
+    
+
+    <div class="any-of-value" id="attestation_anyOf"><h2 class="handle">
   <label>Any of</label>
-</h2><ul class="nav nav-tabs" id="tabsauxiliary_anyOf_anyOf" role="tablist"><li class="nav-item">
+</h2><ul class="nav nav-tabs" id="tabsattestation_anyOf_anyOf" role="tablist"><li class="nav-item">
             <a class="nav-link active anyOf-option"
-               id="auxiliary_anyOf_i0" data-toggle="tab" href="#tab-pane_auxiliary_anyOf_i0" role="tab"
-               onclick="setAnchor('#auxiliary_anyOf_i0')"
+               id="attestation_anyOf_i0" data-toggle="tab" href="#tab-pane_attestation_anyOf_i0" role="tab"
+               onclick="setAnchor('#attestation_anyOf_i0')"
             >relPathOrWebUrl</a>
         </li><li class="nav-item">
             <a class="nav-link anyOf-option"
-               id="auxiliary_anyOf_i1" data-toggle="tab" href="#tab-pane_auxiliary_anyOf_i1" role="tab"
-               onclick="setAnchor('#auxiliary_anyOf_i1')"
+               id="attestation_anyOf_i1" data-toggle="tab" href="#tab-pane_attestation_anyOf_i1" role="tab"
+               onclick="setAnchor('#attestation_anyOf_i1')"
             >Option 2</a>
         </li></ul>
 <div class="tab-content card"><div class="tab-pane fade card-body active show"
-             id="tab-pane_auxiliary_anyOf_i0" role="tabpanel">
+             id="tab-pane_attestation_anyOf_i0" role="tabpanel">
             
 
     <div class="breadcrumbs">root
@@ -1398,139 +1402,22 @@ multiple inputs possible (with one entry each)</p>
                 d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
             />
         </svg>
-    <a href="#auxiliary" onclick="anchorLink('auxiliary')">auxiliary</a>
+    <a href="#attestation" onclick="anchorLink('attestation')">attestation</a>
         <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
             <path
                 fill-rule="evenodd"
                 d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
             />
         </svg>
-    <a href="#auxiliary_anyOf" onclick="anchorLink('auxiliary_anyOf')">anyOf</a>
+    <a href="#attestation_anyOf" onclick="anchorLink('attestation_anyOf')">anyOf</a>
         <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
             <path
                 fill-rule="evenodd"
                 d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
             />
         </svg>
-    <a href="#auxiliary_anyOf_i0" onclick="anchorLink('auxiliary_anyOf_i0')">relPathOrWebUrl</a></div><span class="badge badge-dark value-type">Type: string</span><br/>
-<a href="#attestation_anyOf_i0" onclick="anchorLink('attestation_anyOf_i0')" class="ref-link">Same definition as attestation_anyOf_i0</a>
-        </div><div class="tab-pane fade card-body "
-             id="tab-pane_auxiliary_anyOf_i1" role="tabpanel">
-            
+    <a href="#attestation_anyOf_i0" onclick="anchorLink('attestation_anyOf_i0')">relPathOrWebUrl</a></div><span class="badge badge-dark value-type">Type: string</span><br/>
 
-    <div class="breadcrumbs">root
-        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path
-                fill-rule="evenodd"
-                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
-            />
-        </svg>
-    <a href="#auxiliary" onclick="anchorLink('auxiliary')">auxiliary</a>
-        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path
-                fill-rule="evenodd"
-                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
-            />
-        </svg>
-    <a href="#auxiliary_anyOf" onclick="anchorLink('auxiliary_anyOf')">anyOf</a>
-        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path
-                fill-rule="evenodd"
-                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
-            />
-        </svg>
-    <a href="#auxiliary_anyOf_i1" onclick="anchorLink('auxiliary_anyOf_i1')">item 1</a></div><span class="badge badge-dark value-type">Type: array</span><br/>
-
-        
-
-        
-        
-
-         <span class="badge badge-info no-additional">No Additional Items</span><h4>Each item of this array must be:</h4>
-    <div class="card">
-        <div class="card-body items-definition" id="auxiliary_anyOf_i1_items">
-            
-
-    <div class="breadcrumbs">root
-        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path
-                fill-rule="evenodd"
-                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
-            />
-        </svg>
-    <a href="#auxiliary" onclick="anchorLink('auxiliary')">auxiliary</a>
-        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path
-                fill-rule="evenodd"
-                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
-            />
-        </svg>
-    <a href="#auxiliary_anyOf" onclick="anchorLink('auxiliary_anyOf')">anyOf</a>
-        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path
-                fill-rule="evenodd"
-                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
-            />
-        </svg>
-    <a href="#auxiliary_anyOf_i1" onclick="anchorLink('auxiliary_anyOf_i1')">item 1</a>
-        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path
-                fill-rule="evenodd"
-                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
-            />
-        </svg>
-    <a href="#auxiliary_anyOf_i1_items" onclick="anchorLink('auxiliary_anyOf_i1_items')">relPathOrWebUrl</a></div><span class="badge badge-dark value-type">Type: string</span><br/>
-<a href="#attestation_anyOf_i0" onclick="anchorLink('attestation_anyOf_i0')" class="ref-link">Same definition as attestation_anyOf_i0</a>
-        </div>
-    </div>
-        </div></div></div>
-        
-
-        
-        
-
-        <br/>
-<div class="badge badge-secondary">Examples:</div>
-<br/><div id="auxiliary_ex1" class="jumbotron examples"><div class="highlight"><pre><span></span><span class="s2">&quot;lib/lib1.lib&quot;</span>
-</pre></div>
-</div><div id="auxiliary_ex2" class="jumbotron examples"><div class="highlight"><pre><span></span><span class="s2">&quot;.mdlrc&quot;</span>
-</pre></div>
-</div><div id="auxiliary_ex3" class="jumbotron examples"><div class="highlight"><pre><span></span><span class="p">[</span>
-<span class="w">    </span><span class="s2">&quot;lib/lib1.lib&quot;</span><span class="p">,</span>
-<span class="w">    </span><span class="s2">&quot;.mdlrc&quot;</span>
-<span class="p">]</span>
-</pre></div>
-</div>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="accordion" id="accordionbom">
-    <div class="card">
-        <div class="card-header" id="headingbom">
-            <h2 class="mb-0">
-                <button class="btn btn-link property-name-button" type="button" data-toggle="collapse" data-target="#bom"
-                        aria-expanded="" aria-controls="bom" onclick="setAnchor('#bom')"><span class="property-name">bom</span></button>
-            </h2>
-        </div>
-
-        <div id="bom"
-             class="collapse property-definition-div" aria-labelledby="headingbom"
-             data-parent="#accordionbom">
-            <div class="card-body pl-5">
-
-    <div class="breadcrumbs">root
-        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path
-                fill-rule="evenodd"
-                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
-            />
-        </svg>
-    <a href="#bom" onclick="anchorLink('bom')">bom</a></div><span class="badge badge-dark value-type">Type: string</span><br/>
-<span class="description"><p>URL or repo-relative path to the bill of materials</p>
-</span>
-
-    
 
     <div class="any-of-value" id="attestation_anyOf_i0_anyOf"><h2 class="handle">
   <label>Any of</label>
@@ -1929,13 +1816,646 @@ multiple inputs possible (with one entry each)</p>
         
         
 
+        
+        </div><div class="tab-pane fade card-body "
+             id="tab-pane_attestation_anyOf_i1" role="tabpanel">
+            
+
+    <div class="breadcrumbs">root
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation" onclick="anchorLink('attestation')">attestation</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf" onclick="anchorLink('attestation_anyOf')">anyOf</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf_i1" onclick="anchorLink('attestation_anyOf_i1')">item 1</a></div><span class="badge badge-dark value-type">Type: array</span><br/>
+
+        
+
+        
+        
+
+         <span class="badge badge-info no-additional">No Additional Items</span><h4>Each item of this array must be:</h4>
+    <div class="card">
+        <div class="card-body items-definition" id="attestation_anyOf_i1_items">
+            
+
+    <div class="breadcrumbs">root
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation" onclick="anchorLink('attestation')">attestation</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf" onclick="anchorLink('attestation_anyOf')">anyOf</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf_i1" onclick="anchorLink('attestation_anyOf_i1')">item 1</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf_i1_items" onclick="anchorLink('attestation_anyOf_i1_items')">relPathOrWebUrl</a></div><span class="badge badge-dark value-type">Type: string</span><br/>
+<a href="#attestation_anyOf_i0" onclick="anchorLink('attestation_anyOf_i0')" class="ref-link">Same definition as attestation_anyOf_i0</a>
+        </div>
+    </div>
+        </div></div></div>
+        
+
+        
+        
+
         <br/>
 <div class="badge badge-secondary">Examples:</div>
-<br/><div id="attestation_anyOf_i0_ex1" class="jumbotron examples"><div class="highlight"><pre><span></span><span class="s2">&quot;sBoM.csv&quot;</span>
+<br/><div id="attestation_ex1" class="jumbotron examples"><div class="highlight"><pre><span></span><span class="s2">&quot;lib/lib1.lib&quot;</span>
 </pre></div>
-</div><div id="attestation_anyOf_i0_ex2" class="jumbotron examples"><div class="highlight"><pre><span></span><span class="s2">&quot;BOM.csv&quot;</span>
+</div><div id="attestation_ex2" class="jumbotron examples"><div class="highlight"><pre><span></span><span class="s2">&quot;.mdlrc&quot;</span>
 </pre></div>
-</div><div id="attestation_anyOf_i0_ex3" class="jumbotron examples"><div class="highlight"><pre><span></span><span class="s2">&quot;bom.csv&quot;</span>
+</div><div id="attestation_ex3" class="jumbotron examples"><div class="highlight"><pre><span></span><span class="p">[</span>
+<span class="w">    </span><span class="s2">&quot;lib/lib1.lib&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="s2">&quot;.mdlrc&quot;</span>
+<span class="p">]</span>
+</pre></div>
+</div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="accordion" id="accordionbom">
+    <div class="card">
+        <div class="card-header" id="headingbom">
+            <h2 class="mb-0">
+                <button class="btn btn-link property-name-button" type="button" data-toggle="collapse" data-target="#bom"
+                        aria-expanded="" aria-controls="bom" onclick="setAnchor('#bom')"><span class="property-name">bom</span></button>
+            </h2>
+        </div>
+
+        <div id="bom"
+             class="collapse property-definition-div" aria-labelledby="headingbom"
+             data-parent="#accordionbom">
+            <div class="card-body pl-5">
+
+    <div class="breadcrumbs">root
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#bom" onclick="anchorLink('bom')">bom</a></div><span class="badge badge-dark value-type">Type: object</span><br/>
+<span class="description"><p>URL or repo-relative path to the bill of materials</p>
+</span>
+
+    
+
+    <div class="any-of-value" id="attestation_anyOf"><h2 class="handle">
+  <label>Any of</label>
+</h2><ul class="nav nav-tabs" id="tabsattestation_anyOf_anyOf" role="tablist"><li class="nav-item">
+            <a class="nav-link active anyOf-option"
+               id="attestation_anyOf_i0" data-toggle="tab" href="#tab-pane_attestation_anyOf_i0" role="tab"
+               onclick="setAnchor('#attestation_anyOf_i0')"
+            >relPathOrWebUrl</a>
+        </li><li class="nav-item">
+            <a class="nav-link anyOf-option"
+               id="attestation_anyOf_i1" data-toggle="tab" href="#tab-pane_attestation_anyOf_i1" role="tab"
+               onclick="setAnchor('#attestation_anyOf_i1')"
+            >Option 2</a>
+        </li></ul>
+<div class="tab-content card"><div class="tab-pane fade card-body active show"
+             id="tab-pane_attestation_anyOf_i0" role="tabpanel">
+            
+
+    <div class="breadcrumbs">root
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation" onclick="anchorLink('attestation')">attestation</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf" onclick="anchorLink('attestation_anyOf')">anyOf</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf_i0" onclick="anchorLink('attestation_anyOf_i0')">relPathOrWebUrl</a></div><span class="badge badge-dark value-type">Type: string</span><br/>
+
+
+    <div class="any-of-value" id="attestation_anyOf_i0_anyOf"><h2 class="handle">
+  <label>Any of</label>
+</h2><ul class="nav nav-tabs" id="tabsattestation_anyOf_i0_anyOf_anyOf" role="tablist"><li class="nav-item">
+            <a class="nav-link active anyOf-option"
+               id="attestation_anyOf_i0_anyOf_i0" data-toggle="tab" href="#tab-pane_attestation_anyOf_i0_anyOf_i0" role="tab"
+               onclick="setAnchor('#attestation_anyOf_i0_anyOf_i0')"
+            >webUrl</a>
+        </li><li class="nav-item">
+            <a class="nav-link anyOf-option"
+               id="attestation_anyOf_i0_anyOf_i1" data-toggle="tab" href="#tab-pane_attestation_anyOf_i0_anyOf_i1" role="tab"
+               onclick="setAnchor('#attestation_anyOf_i0_anyOf_i1')"
+            >relPath</a>
+        </li></ul>
+<div class="tab-content card"><div class="tab-pane fade card-body active show"
+             id="tab-pane_attestation_anyOf_i0_anyOf_i0" role="tabpanel">
+            
+
+    <div class="breadcrumbs">root
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation" onclick="anchorLink('attestation')">attestation</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf" onclick="anchorLink('attestation_anyOf')">anyOf</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf_i0" onclick="anchorLink('attestation_anyOf_i0')">item 0</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf_i0_anyOf" onclick="anchorLink('attestation_anyOf_i0_anyOf')">anyOf</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf_i0_anyOf_i0" onclick="anchorLink('attestation_anyOf_i0_anyOf_i0')">webUrl</a></div><span class="badge badge-dark value-type">Type: string</span><br/>
+
+
+    <span class="pattern-value" id="attestation_anyOf_i0_anyOf_i0_pattern">Must match regular expression: <code>^https?://</code></span>
+        
+
+        
+        
+
+        
+        </div><div class="tab-pane fade card-body "
+             id="tab-pane_attestation_anyOf_i0_anyOf_i1" role="tabpanel">
+            
+
+    <div class="breadcrumbs">root
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation" onclick="anchorLink('attestation')">attestation</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf" onclick="anchorLink('attestation_anyOf')">anyOf</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf_i0" onclick="anchorLink('attestation_anyOf_i0')">item 0</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf_i0_anyOf" onclick="anchorLink('attestation_anyOf_i0_anyOf')">anyOf</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf_i0_anyOf_i1" onclick="anchorLink('attestation_anyOf_i0_anyOf_i1')">relPath</a></div><span class="badge badge-dark value-type">Type: string</span><br/>
+
+
+    <div class="not-value">
+<h4>Must <strong>not</strong> be:</h4>
+<div class="card">
+    <div class="card-body" id="">
+    
+
+    <div class="breadcrumbs">root
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation" onclick="anchorLink('attestation')">attestation</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf" onclick="anchorLink('attestation_anyOf')">anyOf</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf_i0" onclick="anchorLink('attestation_anyOf_i0')">item 0</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf_i0_anyOf" onclick="anchorLink('attestation_anyOf_i0_anyOf')">anyOf</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf_i0_anyOf_i1" onclick="anchorLink('attestation_anyOf_i0_anyOf_i1')">item 1</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf_i0_anyOf_i1_not" onclick="anchorLink('attestation_anyOf_i0_anyOf_i1_not')">not</a></div><br/>
+<div class="any-of-value" id="attestation_anyOf_i0_anyOf_i1_not_anyOf"><h2 class="handle">
+  <label>Any of</label>
+</h2><ul class="nav nav-tabs" id="tabsattestation_anyOf_i0_anyOf_i1_not_anyOf_anyOf" role="tablist"><li class="nav-item">
+            <a class="nav-link active anyOf-option"
+               id="attestation_anyOf_i0_anyOf_i1_not_anyOf_i0" data-toggle="tab" href="#tab-pane_attestation_anyOf_i0_anyOf_i1_not_anyOf_i0" role="tab"
+               onclick="setAnchor('#attestation_anyOf_i0_anyOf_i1_not_anyOf_i0')"
+            >Option 1</a>
+        </li><li class="nav-item">
+            <a class="nav-link anyOf-option"
+               id="attestation_anyOf_i0_anyOf_i1_not_anyOf_i1" data-toggle="tab" href="#tab-pane_attestation_anyOf_i0_anyOf_i1_not_anyOf_i1" role="tab"
+               onclick="setAnchor('#attestation_anyOf_i0_anyOf_i1_not_anyOf_i1')"
+            >Option 2</a>
+        </li><li class="nav-item">
+            <a class="nav-link anyOf-option"
+               id="attestation_anyOf_i0_anyOf_i1_not_anyOf_i2" data-toggle="tab" href="#tab-pane_attestation_anyOf_i0_anyOf_i1_not_anyOf_i2" role="tab"
+               onclick="setAnchor('#attestation_anyOf_i0_anyOf_i1_not_anyOf_i2')"
+            >Option 3</a>
+        </li></ul>
+<div class="tab-content card"><div class="tab-pane fade card-body active show"
+             id="tab-pane_attestation_anyOf_i0_anyOf_i1_not_anyOf_i0" role="tabpanel">
+            
+
+    <div class="breadcrumbs">root
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation" onclick="anchorLink('attestation')">attestation</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf" onclick="anchorLink('attestation_anyOf')">anyOf</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf_i0" onclick="anchorLink('attestation_anyOf_i0')">item 0</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf_i0_anyOf" onclick="anchorLink('attestation_anyOf_i0_anyOf')">anyOf</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf_i0_anyOf_i1" onclick="anchorLink('attestation_anyOf_i0_anyOf_i1')">item 1</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf_i0_anyOf_i1_not" onclick="anchorLink('attestation_anyOf_i0_anyOf_i1_not')">not</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf_i0_anyOf_i1_not_anyOf" onclick="anchorLink('attestation_anyOf_i0_anyOf_i1_not_anyOf')">anyOf</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf_i0_anyOf_i1_not_anyOf_i0" onclick="anchorLink('attestation_anyOf_i0_anyOf_i1_not_anyOf_i0')">item 0</a></div><span class="badge badge-dark value-type">Type: object</span><br/>
+<span class="pattern-value" id="attestation_anyOf_i0_anyOf_i1_not_anyOf_i0_pattern">Must match regular expression: <code>^[a-z]*:</code></span>
+        
+
+        
+        
+
+        
+        </div><div class="tab-pane fade card-body "
+             id="tab-pane_attestation_anyOf_i0_anyOf_i1_not_anyOf_i1" role="tabpanel">
+            
+
+    <div class="breadcrumbs">root
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation" onclick="anchorLink('attestation')">attestation</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf" onclick="anchorLink('attestation_anyOf')">anyOf</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf_i0" onclick="anchorLink('attestation_anyOf_i0')">item 0</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf_i0_anyOf" onclick="anchorLink('attestation_anyOf_i0_anyOf')">anyOf</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf_i0_anyOf_i1" onclick="anchorLink('attestation_anyOf_i0_anyOf_i1')">item 1</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf_i0_anyOf_i1_not" onclick="anchorLink('attestation_anyOf_i0_anyOf_i1_not')">not</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf_i0_anyOf_i1_not_anyOf" onclick="anchorLink('attestation_anyOf_i0_anyOf_i1_not_anyOf')">anyOf</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf_i0_anyOf_i1_not_anyOf_i1" onclick="anchorLink('attestation_anyOf_i0_anyOf_i1_not_anyOf_i1')">item 1</a></div><span class="badge badge-dark value-type">Type: object</span><br/>
+<span class="pattern-value" id="attestation_anyOf_i0_anyOf_i1_not_anyOf_i1_pattern">Must match regular expression: <code>^//</code></span>
+        
+
+        
+        
+
+        
+        </div><div class="tab-pane fade card-body "
+             id="tab-pane_attestation_anyOf_i0_anyOf_i1_not_anyOf_i2" role="tabpanel">
+            
+
+    <div class="breadcrumbs">root
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation" onclick="anchorLink('attestation')">attestation</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf" onclick="anchorLink('attestation_anyOf')">anyOf</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf_i0" onclick="anchorLink('attestation_anyOf_i0')">item 0</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf_i0_anyOf" onclick="anchorLink('attestation_anyOf_i0_anyOf')">anyOf</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf_i0_anyOf_i1" onclick="anchorLink('attestation_anyOf_i0_anyOf_i1')">item 1</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf_i0_anyOf_i1_not" onclick="anchorLink('attestation_anyOf_i0_anyOf_i1_not')">not</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf_i0_anyOf_i1_not_anyOf" onclick="anchorLink('attestation_anyOf_i0_anyOf_i1_not_anyOf')">anyOf</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf_i0_anyOf_i1_not_anyOf_i2" onclick="anchorLink('attestation_anyOf_i0_anyOf_i1_not_anyOf_i2')">item 2</a></div><span class="badge badge-dark value-type">Type: object</span><br/>
+<span class="pattern-value" id="attestation_anyOf_i0_anyOf_i1_not_anyOf_i2_pattern">Must match regular expression: <code>(?:.*/)?\.\.(?:/.*)?</code></span>
+        
+
+        
+        
+
+        
+        </div></div></div>
+        
+
+        
+        
+
+        
+    </div>
+</div>
+</div>
+        
+
+        
+        
+
+        
+        </div></div></div>
+        
+
+        
+        
+
+        
+        </div><div class="tab-pane fade card-body "
+             id="tab-pane_attestation_anyOf_i1" role="tabpanel">
+            
+
+    <div class="breadcrumbs">root
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation" onclick="anchorLink('attestation')">attestation</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf" onclick="anchorLink('attestation_anyOf')">anyOf</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf_i1" onclick="anchorLink('attestation_anyOf_i1')">item 1</a></div><span class="badge badge-dark value-type">Type: array</span><br/>
+
+        
+
+        
+        
+
+         <span class="badge badge-info no-additional">No Additional Items</span><h4>Each item of this array must be:</h4>
+    <div class="card">
+        <div class="card-body items-definition" id="attestation_anyOf_i1_items">
+            
+
+    <div class="breadcrumbs">root
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation" onclick="anchorLink('attestation')">attestation</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf" onclick="anchorLink('attestation_anyOf')">anyOf</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf_i1" onclick="anchorLink('attestation_anyOf_i1')">item 1</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf_i1_items" onclick="anchorLink('attestation_anyOf_i1_items')">relPathOrWebUrl</a></div><span class="badge badge-dark value-type">Type: string</span><br/>
+<a href="#attestation_anyOf_i0" onclick="anchorLink('attestation_anyOf_i0')" class="ref-link">Same definition as attestation_anyOf_i0</a>
+        </div>
+    </div>
+        </div></div></div>
+        
+
+        
+        
+
+        <br/>
+<div class="badge badge-secondary">Examples:</div>
+<br/><div id="attestation_ex1" class="jumbotron examples"><div class="highlight"><pre><span></span><span class="s2">&quot;sBoM.csv&quot;</span>
+</pre></div>
+</div><div id="attestation_ex2" class="jumbotron examples"><div class="highlight"><pre><span></span><span class="s2">&quot;BOM.csv&quot;</span>
+</pre></div>
+</div><div id="attestation_ex3" class="jumbotron examples"><div class="highlight"><pre><span></span><span class="s2">&quot;bom.csv&quot;</span>
 </pre></div>
 </div>
             </div>
@@ -3025,21 +3545,23 @@ Get it from here: <a href="https://worldwide.espacenet.com/classification">https
 multiple inputs possible (with one entry each)</p>
 </span>
 
-    <div class="any-of-value" id="export_anyOf"><h2 class="handle">
+    
+
+    <div class="any-of-value" id="attestation_anyOf"><h2 class="handle">
   <label>Any of</label>
-</h2><ul class="nav nav-tabs" id="tabsexport_anyOf_anyOf" role="tablist"><li class="nav-item">
+</h2><ul class="nav nav-tabs" id="tabsattestation_anyOf_anyOf" role="tablist"><li class="nav-item">
             <a class="nav-link active anyOf-option"
-               id="export_anyOf_i0" data-toggle="tab" href="#tab-pane_export_anyOf_i0" role="tab"
-               onclick="setAnchor('#export_anyOf_i0')"
+               id="attestation_anyOf_i0" data-toggle="tab" href="#tab-pane_attestation_anyOf_i0" role="tab"
+               onclick="setAnchor('#attestation_anyOf_i0')"
             >relPathOrWebUrl</a>
         </li><li class="nav-item">
             <a class="nav-link anyOf-option"
-               id="export_anyOf_i1" data-toggle="tab" href="#tab-pane_export_anyOf_i1" role="tab"
-               onclick="setAnchor('#export_anyOf_i1')"
+               id="attestation_anyOf_i1" data-toggle="tab" href="#tab-pane_attestation_anyOf_i1" role="tab"
+               onclick="setAnchor('#attestation_anyOf_i1')"
             >Option 2</a>
         </li></ul>
 <div class="tab-content card"><div class="tab-pane fade card-body active show"
-             id="tab-pane_export_anyOf_i0" role="tabpanel">
+             id="tab-pane_attestation_anyOf_i0" role="tabpanel">
             
 
     <div class="breadcrumbs">root
@@ -3049,24 +3571,87 @@ multiple inputs possible (with one entry each)</p>
                 d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
             />
         </svg>
-    <a href="#export" onclick="anchorLink('export')">export</a>
+    <a href="#attestation" onclick="anchorLink('attestation')">attestation</a>
         <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
             <path
                 fill-rule="evenodd"
                 d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
             />
         </svg>
-    <a href="#export_anyOf" onclick="anchorLink('export_anyOf')">anyOf</a>
+    <a href="#attestation_anyOf" onclick="anchorLink('attestation_anyOf')">anyOf</a>
         <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
             <path
                 fill-rule="evenodd"
                 d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
             />
         </svg>
-    <a href="#export_anyOf_i0" onclick="anchorLink('export_anyOf_i0')">relPathOrWebUrl</a></div><span class="badge badge-dark value-type">Type: string</span><br/>
-<a href="#attestation_anyOf_i0" onclick="anchorLink('attestation_anyOf_i0')" class="ref-link">Same definition as attestation_anyOf_i0</a>
+    <a href="#attestation_anyOf_i0" onclick="anchorLink('attestation_anyOf_i0')">relPathOrWebUrl</a></div><span class="badge badge-dark value-type">Type: string</span><br/>
+
+
+    <div class="any-of-value" id="attestation_anyOf_i0_anyOf"><h2 class="handle">
+  <label>Any of</label>
+</h2><ul class="nav nav-tabs" id="tabsattestation_anyOf_i0_anyOf_anyOf" role="tablist"><li class="nav-item">
+            <a class="nav-link active anyOf-option"
+               id="attestation_anyOf_i0_anyOf_i0" data-toggle="tab" href="#tab-pane_attestation_anyOf_i0_anyOf_i0" role="tab"
+               onclick="setAnchor('#attestation_anyOf_i0_anyOf_i0')"
+            >webUrl</a>
+        </li><li class="nav-item">
+            <a class="nav-link anyOf-option"
+               id="attestation_anyOf_i0_anyOf_i1" data-toggle="tab" href="#tab-pane_attestation_anyOf_i0_anyOf_i1" role="tab"
+               onclick="setAnchor('#attestation_anyOf_i0_anyOf_i1')"
+            >relPath</a>
+        </li></ul>
+<div class="tab-content card"><div class="tab-pane fade card-body active show"
+             id="tab-pane_attestation_anyOf_i0_anyOf_i0" role="tabpanel">
+            
+
+    <div class="breadcrumbs">root
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation" onclick="anchorLink('attestation')">attestation</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf" onclick="anchorLink('attestation_anyOf')">anyOf</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf_i0" onclick="anchorLink('attestation_anyOf_i0')">item 0</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf_i0_anyOf" onclick="anchorLink('attestation_anyOf_i0_anyOf')">anyOf</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf_i0_anyOf_i0" onclick="anchorLink('attestation_anyOf_i0_anyOf_i0')">webUrl</a></div><span class="badge badge-dark value-type">Type: string</span><br/>
+
+
+    <span class="pattern-value" id="attestation_anyOf_i0_anyOf_i0_pattern">Must match regular expression: <code>^https?://</code></span>
+        
+
+        
+        
+
+        
         </div><div class="tab-pane fade card-body "
-             id="tab-pane_export_anyOf_i1" role="tabpanel">
+             id="tab-pane_attestation_anyOf_i0_anyOf_i1" role="tabpanel">
             
 
     <div class="breadcrumbs">root
@@ -3076,21 +3661,357 @@ multiple inputs possible (with one entry each)</p>
                 d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
             />
         </svg>
-    <a href="#export" onclick="anchorLink('export')">export</a>
+    <a href="#attestation" onclick="anchorLink('attestation')">attestation</a>
         <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
             <path
                 fill-rule="evenodd"
                 d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
             />
         </svg>
-    <a href="#export_anyOf" onclick="anchorLink('export_anyOf')">anyOf</a>
+    <a href="#attestation_anyOf" onclick="anchorLink('attestation_anyOf')">anyOf</a>
         <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
             <path
                 fill-rule="evenodd"
                 d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
             />
         </svg>
-    <a href="#export_anyOf_i1" onclick="anchorLink('export_anyOf_i1')">item 1</a></div><span class="badge badge-dark value-type">Type: array</span><br/>
+    <a href="#attestation_anyOf_i0" onclick="anchorLink('attestation_anyOf_i0')">item 0</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf_i0_anyOf" onclick="anchorLink('attestation_anyOf_i0_anyOf')">anyOf</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf_i0_anyOf_i1" onclick="anchorLink('attestation_anyOf_i0_anyOf_i1')">relPath</a></div><span class="badge badge-dark value-type">Type: string</span><br/>
+
+
+    <div class="not-value">
+<h4>Must <strong>not</strong> be:</h4>
+<div class="card">
+    <div class="card-body" id="">
+    
+
+    <div class="breadcrumbs">root
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation" onclick="anchorLink('attestation')">attestation</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf" onclick="anchorLink('attestation_anyOf')">anyOf</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf_i0" onclick="anchorLink('attestation_anyOf_i0')">item 0</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf_i0_anyOf" onclick="anchorLink('attestation_anyOf_i0_anyOf')">anyOf</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf_i0_anyOf_i1" onclick="anchorLink('attestation_anyOf_i0_anyOf_i1')">item 1</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf_i0_anyOf_i1_not" onclick="anchorLink('attestation_anyOf_i0_anyOf_i1_not')">not</a></div><br/>
+<div class="any-of-value" id="attestation_anyOf_i0_anyOf_i1_not_anyOf"><h2 class="handle">
+  <label>Any of</label>
+</h2><ul class="nav nav-tabs" id="tabsattestation_anyOf_i0_anyOf_i1_not_anyOf_anyOf" role="tablist"><li class="nav-item">
+            <a class="nav-link active anyOf-option"
+               id="attestation_anyOf_i0_anyOf_i1_not_anyOf_i0" data-toggle="tab" href="#tab-pane_attestation_anyOf_i0_anyOf_i1_not_anyOf_i0" role="tab"
+               onclick="setAnchor('#attestation_anyOf_i0_anyOf_i1_not_anyOf_i0')"
+            >Option 1</a>
+        </li><li class="nav-item">
+            <a class="nav-link anyOf-option"
+               id="attestation_anyOf_i0_anyOf_i1_not_anyOf_i1" data-toggle="tab" href="#tab-pane_attestation_anyOf_i0_anyOf_i1_not_anyOf_i1" role="tab"
+               onclick="setAnchor('#attestation_anyOf_i0_anyOf_i1_not_anyOf_i1')"
+            >Option 2</a>
+        </li><li class="nav-item">
+            <a class="nav-link anyOf-option"
+               id="attestation_anyOf_i0_anyOf_i1_not_anyOf_i2" data-toggle="tab" href="#tab-pane_attestation_anyOf_i0_anyOf_i1_not_anyOf_i2" role="tab"
+               onclick="setAnchor('#attestation_anyOf_i0_anyOf_i1_not_anyOf_i2')"
+            >Option 3</a>
+        </li></ul>
+<div class="tab-content card"><div class="tab-pane fade card-body active show"
+             id="tab-pane_attestation_anyOf_i0_anyOf_i1_not_anyOf_i0" role="tabpanel">
+            
+
+    <div class="breadcrumbs">root
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation" onclick="anchorLink('attestation')">attestation</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf" onclick="anchorLink('attestation_anyOf')">anyOf</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf_i0" onclick="anchorLink('attestation_anyOf_i0')">item 0</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf_i0_anyOf" onclick="anchorLink('attestation_anyOf_i0_anyOf')">anyOf</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf_i0_anyOf_i1" onclick="anchorLink('attestation_anyOf_i0_anyOf_i1')">item 1</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf_i0_anyOf_i1_not" onclick="anchorLink('attestation_anyOf_i0_anyOf_i1_not')">not</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf_i0_anyOf_i1_not_anyOf" onclick="anchorLink('attestation_anyOf_i0_anyOf_i1_not_anyOf')">anyOf</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf_i0_anyOf_i1_not_anyOf_i0" onclick="anchorLink('attestation_anyOf_i0_anyOf_i1_not_anyOf_i0')">item 0</a></div><span class="badge badge-dark value-type">Type: object</span><br/>
+<span class="pattern-value" id="attestation_anyOf_i0_anyOf_i1_not_anyOf_i0_pattern">Must match regular expression: <code>^[a-z]*:</code></span>
+        
+
+        
+        
+
+        
+        </div><div class="tab-pane fade card-body "
+             id="tab-pane_attestation_anyOf_i0_anyOf_i1_not_anyOf_i1" role="tabpanel">
+            
+
+    <div class="breadcrumbs">root
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation" onclick="anchorLink('attestation')">attestation</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf" onclick="anchorLink('attestation_anyOf')">anyOf</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf_i0" onclick="anchorLink('attestation_anyOf_i0')">item 0</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf_i0_anyOf" onclick="anchorLink('attestation_anyOf_i0_anyOf')">anyOf</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf_i0_anyOf_i1" onclick="anchorLink('attestation_anyOf_i0_anyOf_i1')">item 1</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf_i0_anyOf_i1_not" onclick="anchorLink('attestation_anyOf_i0_anyOf_i1_not')">not</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf_i0_anyOf_i1_not_anyOf" onclick="anchorLink('attestation_anyOf_i0_anyOf_i1_not_anyOf')">anyOf</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf_i0_anyOf_i1_not_anyOf_i1" onclick="anchorLink('attestation_anyOf_i0_anyOf_i1_not_anyOf_i1')">item 1</a></div><span class="badge badge-dark value-type">Type: object</span><br/>
+<span class="pattern-value" id="attestation_anyOf_i0_anyOf_i1_not_anyOf_i1_pattern">Must match regular expression: <code>^//</code></span>
+        
+
+        
+        
+
+        
+        </div><div class="tab-pane fade card-body "
+             id="tab-pane_attestation_anyOf_i0_anyOf_i1_not_anyOf_i2" role="tabpanel">
+            
+
+    <div class="breadcrumbs">root
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation" onclick="anchorLink('attestation')">attestation</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf" onclick="anchorLink('attestation_anyOf')">anyOf</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf_i0" onclick="anchorLink('attestation_anyOf_i0')">item 0</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf_i0_anyOf" onclick="anchorLink('attestation_anyOf_i0_anyOf')">anyOf</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf_i0_anyOf_i1" onclick="anchorLink('attestation_anyOf_i0_anyOf_i1')">item 1</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf_i0_anyOf_i1_not" onclick="anchorLink('attestation_anyOf_i0_anyOf_i1_not')">not</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf_i0_anyOf_i1_not_anyOf" onclick="anchorLink('attestation_anyOf_i0_anyOf_i1_not_anyOf')">anyOf</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf_i0_anyOf_i1_not_anyOf_i2" onclick="anchorLink('attestation_anyOf_i0_anyOf_i1_not_anyOf_i2')">item 2</a></div><span class="badge badge-dark value-type">Type: object</span><br/>
+<span class="pattern-value" id="attestation_anyOf_i0_anyOf_i1_not_anyOf_i2_pattern">Must match regular expression: <code>(?:.*/)?\.\.(?:/.*)?</code></span>
+        
+
+        
+        
+
+        
+        </div></div></div>
+        
+
+        
+        
+
+        
+    </div>
+</div>
+</div>
+        
+
+        
+        
+
+        
+        </div></div></div>
+        
+
+        
+        
+
+        
+        </div><div class="tab-pane fade card-body "
+             id="tab-pane_attestation_anyOf_i1" role="tabpanel">
+            
+
+    <div class="breadcrumbs">root
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation" onclick="anchorLink('attestation')">attestation</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf" onclick="anchorLink('attestation_anyOf')">anyOf</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf_i1" onclick="anchorLink('attestation_anyOf_i1')">item 1</a></div><span class="badge badge-dark value-type">Type: array</span><br/>
 
         
 
@@ -3099,7 +4020,7 @@ multiple inputs possible (with one entry each)</p>
 
          <span class="badge badge-info no-additional">No Additional Items</span><h4>Each item of this array must be:</h4>
     <div class="card">
-        <div class="card-body items-definition" id="export_anyOf_i1_items">
+        <div class="card-body items-definition" id="attestation_anyOf_i1_items">
             
 
     <div class="breadcrumbs">root
@@ -3109,28 +4030,28 @@ multiple inputs possible (with one entry each)</p>
                 d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
             />
         </svg>
-    <a href="#export" onclick="anchorLink('export')">export</a>
+    <a href="#attestation" onclick="anchorLink('attestation')">attestation</a>
         <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
             <path
                 fill-rule="evenodd"
                 d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
             />
         </svg>
-    <a href="#export_anyOf" onclick="anchorLink('export_anyOf')">anyOf</a>
+    <a href="#attestation_anyOf" onclick="anchorLink('attestation_anyOf')">anyOf</a>
         <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
             <path
                 fill-rule="evenodd"
                 d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
             />
         </svg>
-    <a href="#export_anyOf_i1" onclick="anchorLink('export_anyOf_i1')">item 1</a>
+    <a href="#attestation_anyOf_i1" onclick="anchorLink('attestation_anyOf_i1')">item 1</a>
         <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
             <path
                 fill-rule="evenodd"
                 d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
             />
         </svg>
-    <a href="#export_anyOf_i1_items" onclick="anchorLink('export_anyOf_i1_items')">relPathOrWebUrl</a></div><span class="badge badge-dark value-type">Type: string</span><br/>
+    <a href="#attestation_anyOf_i1_items" onclick="anchorLink('attestation_anyOf_i1_items')">relPathOrWebUrl</a></div><span class="badge badge-dark value-type">Type: string</span><br/>
 <a href="#attestation_anyOf_i0" onclick="anchorLink('attestation_anyOf_i0')" class="ref-link">Same definition as attestation_anyOf_i0</a>
         </div>
     </div>
@@ -3142,11 +4063,11 @@ multiple inputs possible (with one entry each)</p>
 
         <br/>
 <div class="badge badge-secondary">Examples:</div>
-<br/><div id="export_ex1" class="jumbotron examples"><div class="highlight"><pre><span></span><span class="s2">&quot;3D-parts/assembly.stp&quot;</span>
+<br/><div id="attestation_ex1" class="jumbotron examples"><div class="highlight"><pre><span></span><span class="s2">&quot;3D-parts/assembly.stp&quot;</span>
 </pre></div>
-</div><div id="export_ex2" class="jumbotron examples"><div class="highlight"><pre><span></span><span class="s2">&quot;public/user-manual.pdf&quot;</span>
+</div><div id="attestation_ex2" class="jumbotron examples"><div class="highlight"><pre><span></span><span class="s2">&quot;public/user-manual.pdf&quot;</span>
 </pre></div>
-</div><div id="export_ex3" class="jumbotron examples"><div class="highlight"><pre><span></span><span class="p">[</span>
+</div><div id="attestation_ex3" class="jumbotron examples"><div class="highlight"><pre><span></span><span class="p">[</span>
 <span class="w">    </span><span class="s2">&quot;3D-parts/assembly.stp&quot;</span><span class="p">,</span>
 <span class="w">    </span><span class="s2">&quot;public/user-manual.pdf&quot;</span>
 <span class="p">]</span>
@@ -3297,7 +4218,7 @@ So if you wish that someone finds &amp; uses your OSH specifically e.g. for COVI
             <a class="nav-link active anyOf-option"
                id="image_anyOf_i0" data-toggle="tab" href="#tab-pane_image_anyOf_i0" role="tab"
                onclick="setAnchor('#image_anyOf_i0')"
-            >relPathOrWebUrl</a>
+            >relPathOrWebUrlMulti</a>
         </li><li class="nav-item">
             <a class="nav-link anyOf-option"
                id="image_anyOf_i1" data-toggle="tab" href="#tab-pane_image_anyOf_i1" role="tab"
@@ -3308,11 +4229,6 @@ So if you wish that someone finds &amp; uses your OSH specifically e.g. for COVI
                id="image_anyOf_i2" data-toggle="tab" href="#tab-pane_image_anyOf_i2" role="tab"
                onclick="setAnchor('#image_anyOf_i2')"
             >Option 3</a>
-        </li><li class="nav-item">
-            <a class="nav-link anyOf-option"
-               id="image_anyOf_i3" data-toggle="tab" href="#tab-pane_image_anyOf_i3" role="tab"
-               onclick="setAnchor('#image_anyOf_i3')"
-            >Option 4</a>
         </li></ul>
 <div class="tab-content card"><div class="tab-pane fade card-body active show"
              id="tab-pane_image_anyOf_i0" role="tabpanel">
@@ -3339,8 +4255,8 @@ So if you wish that someone finds &amp; uses your OSH specifically e.g. for COVI
                 d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
             />
         </svg>
-    <a href="#image_anyOf_i0" onclick="anchorLink('image_anyOf_i0')">relPathOrWebUrl</a></div><span class="badge badge-dark value-type">Type: string</span><br/>
-<a href="#attestation_anyOf_i0" onclick="anchorLink('attestation_anyOf_i0')" class="ref-link">Same definition as attestation_anyOf_i0</a>
+    <a href="#image_anyOf_i0" onclick="anchorLink('image_anyOf_i0')">relPathOrWebUrlMulti</a></div><span class="badge badge-dark value-type">Type: object</span><br/>
+<a href="#attestation" onclick="anchorLink('attestation')" class="ref-link">Same definition as attestation</a>
         </div><div class="tab-pane fade card-body "
              id="tab-pane_image_anyOf_i1" role="tabpanel">
             
@@ -4499,76 +5415,7 @@ even within a single project.</p>
                 d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
             />
         </svg>
-    <a href="#image_anyOf_i2_items" onclick="anchorLink('image_anyOf_i2_items')">relPathOrWebUrl</a></div><span class="badge badge-dark value-type">Type: string</span><br/>
-<a href="#attestation_anyOf_i0" onclick="anchorLink('attestation_anyOf_i0')" class="ref-link">Same definition as attestation_anyOf_i0</a>
-        </div>
-    </div>
-        </div><div class="tab-pane fade card-body "
-             id="tab-pane_image_anyOf_i3" role="tabpanel">
-            
-
-    <div class="breadcrumbs">root
-        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path
-                fill-rule="evenodd"
-                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
-            />
-        </svg>
-    <a href="#image" onclick="anchorLink('image')">image</a>
-        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path
-                fill-rule="evenodd"
-                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
-            />
-        </svg>
-    <a href="#image_anyOf" onclick="anchorLink('image_anyOf')">anyOf</a>
-        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path
-                fill-rule="evenodd"
-                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
-            />
-        </svg>
-    <a href="#image_anyOf_i3" onclick="anchorLink('image_anyOf_i3')">item 3</a></div><span class="badge badge-dark value-type">Type: array</span><br/>
-
-        
-
-        
-        
-
-         <span class="badge badge-info no-additional">No Additional Items</span><h4>Each item of this array must be:</h4>
-    <div class="card">
-        <div class="card-body items-definition" id="image_anyOf_i3_items">
-            
-
-    <div class="breadcrumbs">root
-        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path
-                fill-rule="evenodd"
-                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
-            />
-        </svg>
-    <a href="#image" onclick="anchorLink('image')">image</a>
-        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path
-                fill-rule="evenodd"
-                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
-            />
-        </svg>
-    <a href="#image_anyOf" onclick="anchorLink('image_anyOf')">anyOf</a>
-        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path
-                fill-rule="evenodd"
-                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
-            />
-        </svg>
-    <a href="#image_anyOf_i3" onclick="anchorLink('image_anyOf_i3')">item 3</a>
-        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path
-                fill-rule="evenodd"
-                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
-            />
-        </svg>
-    <a href="#image_anyOf_i3_items" onclick="anchorLink('image_anyOf_i3_items')">image</a></div><span class="badge badge-dark value-type">Type: object</span><br/>
+    <a href="#image_anyOf_i2_items" onclick="anchorLink('image_anyOf_i2_items')">image</a></div><span class="badge badge-dark value-type">Type: object</span><br/>
 <span class="description"><p>a single image reference (project relative path or absolute URL), optionally with additional meta-data</p>
 </span><a href="#image_anyOf_i1" onclick="anchorLink('image_anyOf_i1')" class="ref-link">Same definition as image_anyOf_i1</a>
         </div>
@@ -4758,7 +5605,7 @@ for projects clearly indicating that they are proprietary.</p>
             <a class="nav-link active anyOf-option"
                id="licensor_anyOf_i0" data-toggle="tab" href="#tab-pane_licensor_anyOf_i0" role="tab"
                onclick="setAnchor('#licensor_anyOf_i0')"
-            >Option 1</a>
+            >stringMulti</a>
         </li><li class="nav-item">
             <a class="nav-link anyOf-option"
                id="licensor_anyOf_i1" data-toggle="tab" href="#tab-pane_licensor_anyOf_i1" role="tab"
@@ -4768,11 +5615,6 @@ for projects clearly indicating that they are proprietary.</p>
             <a class="nav-link anyOf-option"
                id="licensor_anyOf_i2" data-toggle="tab" href="#tab-pane_licensor_anyOf_i2" role="tab"
                onclick="setAnchor('#licensor_anyOf_i2')"
-            >Option 3</a>
-        </li><li class="nav-item">
-            <a class="nav-link anyOf-option"
-               id="licensor_anyOf_i3" data-toggle="tab" href="#tab-pane_licensor_anyOf_i3" role="tab"
-               onclick="setAnchor('#licensor_anyOf_i3')"
             >agent</a>
         </li></ul>
 <div class="tab-content card"><div class="tab-pane fade card-body active show"
@@ -4800,16 +5642,24 @@ for projects clearly indicating that they are proprietary.</p>
                 d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
             />
         </svg>
-    <a href="#licensor_anyOf_i0" onclick="anchorLink('licensor_anyOf_i0')">item 0</a></div><span class="badge badge-dark value-type">Type: array of string</span><br/>
+    <a href="#licensor_anyOf_i0" onclick="anchorLink('licensor_anyOf_i0')">stringMulti</a></div><span class="badge badge-dark value-type">Type: object</span><br/>
 
-        
 
-        
-        
-
-         <span class="badge badge-info no-additional">No Additional Items</span><h4>Each item of this array must be:</h4>
-    <div class="card">
-        <div class="card-body items-definition" id="licensor_anyOf_i0_items">
+    <div class="any-of-value" id="licensor_anyOf_i0_anyOf"><h2 class="handle">
+  <label>Any of</label>
+</h2><ul class="nav nav-tabs" id="tabslicensor_anyOf_i0_anyOf_anyOf" role="tablist"><li class="nav-item">
+            <a class="nav-link active anyOf-option"
+               id="licensor_anyOf_i0_anyOf_i0" data-toggle="tab" href="#tab-pane_licensor_anyOf_i0_anyOf_i0" role="tab"
+               onclick="setAnchor('#licensor_anyOf_i0_anyOf_i0')"
+            >Option 1</a>
+        </li><li class="nav-item">
+            <a class="nav-link anyOf-option"
+               id="licensor_anyOf_i0_anyOf_i1" data-toggle="tab" href="#tab-pane_licensor_anyOf_i0_anyOf_i1" role="tab"
+               onclick="setAnchor('#licensor_anyOf_i0_anyOf_i1')"
+            >Option 2</a>
+        </li></ul>
+<div class="tab-content card"><div class="tab-pane fade card-body active show"
+             id="tab-pane_licensor_anyOf_i0_anyOf_i0" role="tabpanel">
             
 
     <div class="breadcrumbs">root
@@ -4840,7 +5690,115 @@ for projects clearly indicating that they are proprietary.</p>
                 d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
             />
         </svg>
-    <a href="#licensor_anyOf_i0_items" onclick="anchorLink('licensor_anyOf_i0_items')">item 0 items</a></div><span class="badge badge-dark value-type">Type: string</span><br/>
+    <a href="#licensor_anyOf_i0_anyOf" onclick="anchorLink('licensor_anyOf_i0_anyOf')">anyOf</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#licensor_anyOf_i0_anyOf_i0" onclick="anchorLink('licensor_anyOf_i0_anyOf_i0')">item 0</a></div><span class="badge badge-dark value-type">Type: string</span><br/>
+
+        
+
+        
+        
+
+        
+        </div><div class="tab-pane fade card-body "
+             id="tab-pane_licensor_anyOf_i0_anyOf_i1" role="tabpanel">
+            
+
+    <div class="breadcrumbs">root
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#licensor" onclick="anchorLink('licensor')">licensor</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#licensor_anyOf" onclick="anchorLink('licensor_anyOf')">anyOf</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#licensor_anyOf_i0" onclick="anchorLink('licensor_anyOf_i0')">item 0</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#licensor_anyOf_i0_anyOf" onclick="anchorLink('licensor_anyOf_i0_anyOf')">anyOf</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#licensor_anyOf_i0_anyOf_i1" onclick="anchorLink('licensor_anyOf_i0_anyOf_i1')">item 1</a></div><span class="badge badge-dark value-type">Type: array of string</span><br/>
+
+        
+
+        
+        
+
+         <span class="badge badge-info no-additional">No Additional Items</span><h4>Each item of this array must be:</h4>
+    <div class="card">
+        <div class="card-body items-definition" id="licensor_anyOf_i0_anyOf_i1_items">
+            
+
+    <div class="breadcrumbs">root
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#licensor" onclick="anchorLink('licensor')">licensor</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#licensor_anyOf" onclick="anchorLink('licensor_anyOf')">anyOf</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#licensor_anyOf_i0" onclick="anchorLink('licensor_anyOf_i0')">item 0</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#licensor_anyOf_i0_anyOf" onclick="anchorLink('licensor_anyOf_i0_anyOf')">anyOf</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#licensor_anyOf_i0_anyOf_i1" onclick="anchorLink('licensor_anyOf_i0_anyOf_i1')">item 1</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#licensor_anyOf_i0_anyOf_i1_items" onclick="anchorLink('licensor_anyOf_i0_anyOf_i1_items')">item 1 items</a></div><span class="badge badge-dark value-type">Type: string</span><br/>
 
         
 
@@ -4850,6 +5808,13 @@ for projects clearly indicating that they are proprietary.</p>
         
         </div>
     </div>
+        </div></div></div>
+        
+
+        
+        
+
+        
         </div><div class="tab-pane fade card-body "
              id="tab-pane_licensor_anyOf_i1" role="tabpanel">
             
@@ -4875,14 +5840,634 @@ for projects clearly indicating that they are proprietary.</p>
                 d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
             />
         </svg>
-    <a href="#licensor_anyOf_i1" onclick="anchorLink('licensor_anyOf_i1')">item 1</a></div><span class="badge badge-dark value-type">Type: string</span><br/>
+    <a href="#licensor_anyOf_i1" onclick="anchorLink('licensor_anyOf_i1')">item 1</a></div><span class="badge badge-dark value-type">Type: array</span><br/>
 
         
 
         
         
 
+         <span class="badge badge-info no-additional">No Additional Items</span><h4>Each item of this array must be:</h4>
+    <div class="card">
+        <div class="card-body items-definition" id="licensor_anyOf_i1_items">
+            
+
+    <div class="breadcrumbs">root
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#licensor" onclick="anchorLink('licensor')">licensor</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#licensor_anyOf" onclick="anchorLink('licensor_anyOf')">anyOf</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#licensor_anyOf_i1" onclick="anchorLink('licensor_anyOf_i1')">item 1</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#licensor_anyOf_i1_items" onclick="anchorLink('licensor_anyOf_i1_items')">agent</a></div><span class="badge badge-dark value-type">Type: object</span><br/>
+<span class="description"><p>A person or organization</p>
+</span>
+
+    <div class="any-of-value" id="licensor_anyOf_i1_items_anyOf"><h2 class="handle">
+  <label>Any of</label>
+</h2><ul class="nav nav-tabs" id="tabslicensor_anyOf_i1_items_anyOf_anyOf" role="tablist"><li class="nav-item">
+            <a class="nav-link active anyOf-option"
+               id="licensor_anyOf_i1_items_anyOf_i0" data-toggle="tab" href="#tab-pane_licensor_anyOf_i1_items_anyOf_i0" role="tab"
+               onclick="setAnchor('#licensor_anyOf_i1_items_anyOf_i0')"
+            >person</a>
+        </li><li class="nav-item">
+            <a class="nav-link anyOf-option"
+               id="licensor_anyOf_i1_items_anyOf_i1" data-toggle="tab" href="#tab-pane_licensor_anyOf_i1_items_anyOf_i1" role="tab"
+               onclick="setAnchor('#licensor_anyOf_i1_items_anyOf_i1')"
+            >organization</a>
+        </li></ul>
+<div class="tab-content card"><div class="tab-pane fade card-body active show"
+             id="tab-pane_licensor_anyOf_i1_items_anyOf_i0" role="tabpanel">
+            
+
+    <div class="breadcrumbs">root
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#licensor" onclick="anchorLink('licensor')">licensor</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#licensor_anyOf" onclick="anchorLink('licensor_anyOf')">anyOf</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#licensor_anyOf_i1" onclick="anchorLink('licensor_anyOf_i1')">item 1</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#licensor_anyOf_i1_items" onclick="anchorLink('licensor_anyOf_i1_items')">item 1 items</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#licensor_anyOf_i1_items_anyOf" onclick="anchorLink('licensor_anyOf_i1_items_anyOf')">anyOf</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#licensor_anyOf_i1_items_anyOf_i0" onclick="anchorLink('licensor_anyOf_i1_items_anyOf_i0')">person</a></div><span class="badge badge-dark value-type">Type: object</span><br/>
+<span class="description"><p>A person (alive, dead, undead, or fictional)</p>
+</span>
+
+    
         
+
+        
+        
+
+        
+<div class="accordion" id="accordionlicensor_anyOf_i1_items_anyOf_i0_email">
+    <div class="card">
+        <div class="card-header" id="headinglicensor_anyOf_i1_items_anyOf_i0_email">
+            <h2 class="mb-0">
+                <button class="btn btn-link property-name-button" type="button" data-toggle="collapse" data-target="#licensor_anyOf_i1_items_anyOf_i0_email"
+                        aria-expanded="" aria-controls="licensor_anyOf_i1_items_anyOf_i0_email" onclick="setAnchor('#licensor_anyOf_i1_items_anyOf_i0_email')"><span class="property-name">email</span></button>
+            </h2>
+        </div>
+
+        <div id="licensor_anyOf_i1_items_anyOf_i0_email"
+             class="collapse property-definition-div" aria-labelledby="headinglicensor_anyOf_i1_items_anyOf_i0_email"
+             data-parent="#accordionlicensor_anyOf_i1_items_anyOf_i0_email">
+            <div class="card-body pl-5">
+
+    <div class="breadcrumbs">root
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#licensor" onclick="anchorLink('licensor')">licensor</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#licensor_anyOf" onclick="anchorLink('licensor_anyOf')">anyOf</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#licensor_anyOf_i1" onclick="anchorLink('licensor_anyOf_i1')">item 1</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#licensor_anyOf_i1_items" onclick="anchorLink('licensor_anyOf_i1_items')">item 1 items</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#licensor_anyOf_i1_items_anyOf" onclick="anchorLink('licensor_anyOf_i1_items_anyOf')">anyOf</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#licensor_anyOf_i1_items_anyOf_i0" onclick="anchorLink('licensor_anyOf_i1_items_anyOf_i0')">item 0</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#licensor_anyOf_i1_items_anyOf_i0_email" onclick="anchorLink('licensor_anyOf_i1_items_anyOf_i0_email')">email</a></div><span class="badge badge-dark value-type">Type: string</span><br/>
+<span class="description"><p>E-Mail of the person</p>
+</span>
+
+    
+        
+
+        
+        
+
+        <br/>
+<div class="badge badge-secondary">Examples:</div>
+<br/><div id="licensor_anyOf_i1_items_anyOf_i0_email_ex1" class="jumbotron examples"><div class="highlight"><pre><span></span><span class="s2">&quot;jane.doe@email.com&quot;</span>
+</pre></div>
+</div><div id="licensor_anyOf_i1_items_anyOf_i0_email_ex2" class="jumbotron examples"><div class="highlight"><pre><span></span><span class="s2">&quot;john.doe@email.com&quot;</span>
+</pre></div>
+</div><div id="licensor_anyOf_i1_items_anyOf_i0_email_ex3" class="jumbotron examples"><div class="highlight"><pre><span></span><span class="s2">&quot;ester.something@good.org&quot;</span>
+</pre></div>
+</div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="accordion" id="accordionlicensor_anyOf_i1_items_anyOf_i0_name">
+    <div class="card">
+        <div class="card-header" id="headinglicensor_anyOf_i1_items_anyOf_i0_name">
+            <h2 class="mb-0">
+                <button class="btn btn-link property-name-button" type="button" data-toggle="collapse" data-target="#licensor_anyOf_i1_items_anyOf_i0_name"
+                        aria-expanded="" aria-controls="licensor_anyOf_i1_items_anyOf_i0_name" onclick="setAnchor('#licensor_anyOf_i1_items_anyOf_i0_name')"><span class="property-name">name</span></button>
+            </h2>
+        </div>
+
+        <div id="licensor_anyOf_i1_items_anyOf_i0_name"
+             class="collapse property-definition-div" aria-labelledby="headinglicensor_anyOf_i1_items_anyOf_i0_name"
+             data-parent="#accordionlicensor_anyOf_i1_items_anyOf_i0_name">
+            <div class="card-body pl-5">
+
+    <div class="breadcrumbs">root
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#licensor" onclick="anchorLink('licensor')">licensor</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#licensor_anyOf" onclick="anchorLink('licensor_anyOf')">anyOf</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#licensor_anyOf_i1" onclick="anchorLink('licensor_anyOf_i1')">item 1</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#licensor_anyOf_i1_items" onclick="anchorLink('licensor_anyOf_i1_items')">item 1 items</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#licensor_anyOf_i1_items_anyOf" onclick="anchorLink('licensor_anyOf_i1_items_anyOf')">anyOf</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#licensor_anyOf_i1_items_anyOf_i0" onclick="anchorLink('licensor_anyOf_i1_items_anyOf_i0')">item 0</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#licensor_anyOf_i1_items_anyOf_i0_name" onclick="anchorLink('licensor_anyOf_i1_items_anyOf_i0_name')">name</a></div><span class="badge badge-dark value-type">Type: string</span><br/>
+<span class="description"><p>Full name of the person</p>
+</span>
+        
+
+        
+        
+
+        
+            </div>
+        </div>
+    </div>
+</div>
+<div class="accordion" id="accordionlicensor_anyOf_i1_items_anyOf_i0_url">
+    <div class="card">
+        <div class="card-header" id="headinglicensor_anyOf_i1_items_anyOf_i0_url">
+            <h2 class="mb-0">
+                <button class="btn btn-link property-name-button" type="button" data-toggle="collapse" data-target="#licensor_anyOf_i1_items_anyOf_i0_url"
+                        aria-expanded="" aria-controls="licensor_anyOf_i1_items_anyOf_i0_url" onclick="setAnchor('#licensor_anyOf_i1_items_anyOf_i0_url')"><span class="property-name">url</span></button>
+            </h2>
+        </div>
+
+        <div id="licensor_anyOf_i1_items_anyOf_i0_url"
+             class="collapse property-definition-div" aria-labelledby="headinglicensor_anyOf_i1_items_anyOf_i0_url"
+             data-parent="#accordionlicensor_anyOf_i1_items_anyOf_i0_url">
+            <div class="card-body pl-5">
+
+    <div class="breadcrumbs">root
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#licensor" onclick="anchorLink('licensor')">licensor</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#licensor_anyOf" onclick="anchorLink('licensor_anyOf')">anyOf</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#licensor_anyOf_i1" onclick="anchorLink('licensor_anyOf_i1')">item 1</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#licensor_anyOf_i1_items" onclick="anchorLink('licensor_anyOf_i1_items')">item 1 items</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#licensor_anyOf_i1_items_anyOf" onclick="anchorLink('licensor_anyOf_i1_items_anyOf')">anyOf</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#licensor_anyOf_i1_items_anyOf_i0" onclick="anchorLink('licensor_anyOf_i1_items_anyOf_i0')">item 0</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#licensor_anyOf_i1_items_anyOf_i0_url" onclick="anchorLink('licensor_anyOf_i1_items_anyOf_i0_url')">url</a></div><span class="badge badge-dark value-type">Type: string</span><br/>
+<span class="description"><p>Home-page of the person</p>
+</span><a href="#attestation_anyOf_i0_anyOf_i0" onclick="anchorLink('attestation_anyOf_i0_anyOf_i0')" class="ref-link">Same definition as attestation_anyOf_i0_anyOf_i0</a>
+            </div>
+        </div>
+    </div>
+</div>
+        </div><div class="tab-pane fade card-body "
+             id="tab-pane_licensor_anyOf_i1_items_anyOf_i1" role="tabpanel">
+            
+
+    <div class="breadcrumbs">root
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#licensor" onclick="anchorLink('licensor')">licensor</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#licensor_anyOf" onclick="anchorLink('licensor_anyOf')">anyOf</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#licensor_anyOf_i1" onclick="anchorLink('licensor_anyOf_i1')">item 1</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#licensor_anyOf_i1_items" onclick="anchorLink('licensor_anyOf_i1_items')">item 1 items</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#licensor_anyOf_i1_items_anyOf" onclick="anchorLink('licensor_anyOf_i1_items_anyOf')">anyOf</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#licensor_anyOf_i1_items_anyOf_i1" onclick="anchorLink('licensor_anyOf_i1_items_anyOf_i1')">organization</a></div><span class="badge badge-dark value-type">Type: object</span><br/>
+<span class="description"><p>An organization such as a school, NGO, corporation, club, etc.</p>
+</span>
+
+    
+        
+
+        
+        
+
+        
+<div class="accordion" id="accordionlicensor_anyOf_i1_items_anyOf_i1_email">
+    <div class="card">
+        <div class="card-header" id="headinglicensor_anyOf_i1_items_anyOf_i1_email">
+            <h2 class="mb-0">
+                <button class="btn btn-link property-name-button" type="button" data-toggle="collapse" data-target="#licensor_anyOf_i1_items_anyOf_i1_email"
+                        aria-expanded="" aria-controls="licensor_anyOf_i1_items_anyOf_i1_email" onclick="setAnchor('#licensor_anyOf_i1_items_anyOf_i1_email')"><span class="property-name">email</span></button>
+            </h2>
+        </div>
+
+        <div id="licensor_anyOf_i1_items_anyOf_i1_email"
+             class="collapse property-definition-div" aria-labelledby="headinglicensor_anyOf_i1_items_anyOf_i1_email"
+             data-parent="#accordionlicensor_anyOf_i1_items_anyOf_i1_email">
+            <div class="card-body pl-5">
+
+    <div class="breadcrumbs">root
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#licensor" onclick="anchorLink('licensor')">licensor</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#licensor_anyOf" onclick="anchorLink('licensor_anyOf')">anyOf</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#licensor_anyOf_i1" onclick="anchorLink('licensor_anyOf_i1')">item 1</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#licensor_anyOf_i1_items" onclick="anchorLink('licensor_anyOf_i1_items')">item 1 items</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#licensor_anyOf_i1_items_anyOf" onclick="anchorLink('licensor_anyOf_i1_items_anyOf')">anyOf</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#licensor_anyOf_i1_items_anyOf_i1" onclick="anchorLink('licensor_anyOf_i1_items_anyOf_i1')">item 1</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#licensor_anyOf_i1_items_anyOf_i1_email" onclick="anchorLink('licensor_anyOf_i1_items_anyOf_i1_email')">email</a></div><span class="badge badge-dark value-type">Type: string</span><br/>
+<span class="description"><p>E-Mail of the organization</p>
+</span><a href="#licensor_anyOf_i1_items_anyOf_i0_email" onclick="anchorLink('licensor_anyOf_i1_items_anyOf_i0_email')" class="ref-link">Same definition as email</a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="accordion" id="accordionlicensor_anyOf_i1_items_anyOf_i1_name">
+    <div class="card">
+        <div class="card-header" id="headinglicensor_anyOf_i1_items_anyOf_i1_name">
+            <h2 class="mb-0">
+                <button class="btn btn-link property-name-button" type="button" data-toggle="collapse" data-target="#licensor_anyOf_i1_items_anyOf_i1_name"
+                        aria-expanded="" aria-controls="licensor_anyOf_i1_items_anyOf_i1_name" onclick="setAnchor('#licensor_anyOf_i1_items_anyOf_i1_name')"><span class="property-name">name</span></button>
+            </h2>
+        </div>
+
+        <div id="licensor_anyOf_i1_items_anyOf_i1_name"
+             class="collapse property-definition-div" aria-labelledby="headinglicensor_anyOf_i1_items_anyOf_i1_name"
+             data-parent="#accordionlicensor_anyOf_i1_items_anyOf_i1_name">
+            <div class="card-body pl-5">
+
+    <div class="breadcrumbs">root
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#licensor" onclick="anchorLink('licensor')">licensor</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#licensor_anyOf" onclick="anchorLink('licensor_anyOf')">anyOf</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#licensor_anyOf_i1" onclick="anchorLink('licensor_anyOf_i1')">item 1</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#licensor_anyOf_i1_items" onclick="anchorLink('licensor_anyOf_i1_items')">item 1 items</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#licensor_anyOf_i1_items_anyOf" onclick="anchorLink('licensor_anyOf_i1_items_anyOf')">anyOf</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#licensor_anyOf_i1_items_anyOf_i1" onclick="anchorLink('licensor_anyOf_i1_items_anyOf_i1')">item 1</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#licensor_anyOf_i1_items_anyOf_i1_name" onclick="anchorLink('licensor_anyOf_i1_items_anyOf_i1_name')">name</a></div><span class="badge badge-dark value-type">Type: string</span><br/>
+<span class="description"><p>Name of the organization</p>
+</span>
+        
+
+        
+        
+
+        
+            </div>
+        </div>
+    </div>
+</div>
+<div class="accordion" id="accordionlicensor_anyOf_i1_items_anyOf_i1_url">
+    <div class="card">
+        <div class="card-header" id="headinglicensor_anyOf_i1_items_anyOf_i1_url">
+            <h2 class="mb-0">
+                <button class="btn btn-link property-name-button" type="button" data-toggle="collapse" data-target="#licensor_anyOf_i1_items_anyOf_i1_url"
+                        aria-expanded="" aria-controls="licensor_anyOf_i1_items_anyOf_i1_url" onclick="setAnchor('#licensor_anyOf_i1_items_anyOf_i1_url')"><span class="property-name">url</span></button>
+            </h2>
+        </div>
+
+        <div id="licensor_anyOf_i1_items_anyOf_i1_url"
+             class="collapse property-definition-div" aria-labelledby="headinglicensor_anyOf_i1_items_anyOf_i1_url"
+             data-parent="#accordionlicensor_anyOf_i1_items_anyOf_i1_url">
+            <div class="card-body pl-5">
+
+    <div class="breadcrumbs">root
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#licensor" onclick="anchorLink('licensor')">licensor</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#licensor_anyOf" onclick="anchorLink('licensor_anyOf')">anyOf</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#licensor_anyOf_i1" onclick="anchorLink('licensor_anyOf_i1')">item 1</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#licensor_anyOf_i1_items" onclick="anchorLink('licensor_anyOf_i1_items')">item 1 items</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#licensor_anyOf_i1_items_anyOf" onclick="anchorLink('licensor_anyOf_i1_items_anyOf')">anyOf</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#licensor_anyOf_i1_items_anyOf_i1" onclick="anchorLink('licensor_anyOf_i1_items_anyOf_i1')">item 1</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#licensor_anyOf_i1_items_anyOf_i1_url" onclick="anchorLink('licensor_anyOf_i1_items_anyOf_i1_url')">url</a></div><span class="badge badge-dark value-type">Type: string</span><br/>
+<span class="description"><p>Home-page of the organization</p>
+</span><a href="#attestation_anyOf_i0_anyOf_i0" onclick="anchorLink('attestation_anyOf_i0_anyOf_i0')" class="ref-link">Same definition as attestation_anyOf_i0_anyOf_i0</a>
+            </div>
+        </div>
+    </div>
+</div>
+        </div></div></div>
+        
+
+        
+        
+
+        
+        </div>
+    </div>
         </div><div class="tab-pane fade card-body "
              id="tab-pane_licensor_anyOf_i2" role="tabpanel">
             
@@ -4908,662 +6493,9 @@ for projects clearly indicating that they are proprietary.</p>
                 d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
             />
         </svg>
-    <a href="#licensor_anyOf_i2" onclick="anchorLink('licensor_anyOf_i2')">item 2</a></div><span class="badge badge-dark value-type">Type: array</span><br/>
-
-        
-
-        
-        
-
-         <span class="badge badge-info no-additional">No Additional Items</span><h4>Each item of this array must be:</h4>
-    <div class="card">
-        <div class="card-body items-definition" id="licensor_anyOf_i2_items">
-            
-
-    <div class="breadcrumbs">root
-        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path
-                fill-rule="evenodd"
-                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
-            />
-        </svg>
-    <a href="#licensor" onclick="anchorLink('licensor')">licensor</a>
-        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path
-                fill-rule="evenodd"
-                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
-            />
-        </svg>
-    <a href="#licensor_anyOf" onclick="anchorLink('licensor_anyOf')">anyOf</a>
-        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path
-                fill-rule="evenodd"
-                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
-            />
-        </svg>
-    <a href="#licensor_anyOf_i2" onclick="anchorLink('licensor_anyOf_i2')">item 2</a>
-        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path
-                fill-rule="evenodd"
-                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
-            />
-        </svg>
-    <a href="#licensor_anyOf_i2_items" onclick="anchorLink('licensor_anyOf_i2_items')">agent</a></div><span class="badge badge-dark value-type">Type: object</span><br/>
+    <a href="#licensor_anyOf_i2" onclick="anchorLink('licensor_anyOf_i2')">agent</a></div><span class="badge badge-dark value-type">Type: object</span><br/>
 <span class="description"><p>A person or organization</p>
-</span>
-
-    <div class="any-of-value" id="licensor_anyOf_i2_items_anyOf"><h2 class="handle">
-  <label>Any of</label>
-</h2><ul class="nav nav-tabs" id="tabslicensor_anyOf_i2_items_anyOf_anyOf" role="tablist"><li class="nav-item">
-            <a class="nav-link active anyOf-option"
-               id="licensor_anyOf_i2_items_anyOf_i0" data-toggle="tab" href="#tab-pane_licensor_anyOf_i2_items_anyOf_i0" role="tab"
-               onclick="setAnchor('#licensor_anyOf_i2_items_anyOf_i0')"
-            >person</a>
-        </li><li class="nav-item">
-            <a class="nav-link anyOf-option"
-               id="licensor_anyOf_i2_items_anyOf_i1" data-toggle="tab" href="#tab-pane_licensor_anyOf_i2_items_anyOf_i1" role="tab"
-               onclick="setAnchor('#licensor_anyOf_i2_items_anyOf_i1')"
-            >organization</a>
-        </li></ul>
-<div class="tab-content card"><div class="tab-pane fade card-body active show"
-             id="tab-pane_licensor_anyOf_i2_items_anyOf_i0" role="tabpanel">
-            
-
-    <div class="breadcrumbs">root
-        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path
-                fill-rule="evenodd"
-                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
-            />
-        </svg>
-    <a href="#licensor" onclick="anchorLink('licensor')">licensor</a>
-        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path
-                fill-rule="evenodd"
-                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
-            />
-        </svg>
-    <a href="#licensor_anyOf" onclick="anchorLink('licensor_anyOf')">anyOf</a>
-        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path
-                fill-rule="evenodd"
-                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
-            />
-        </svg>
-    <a href="#licensor_anyOf_i2" onclick="anchorLink('licensor_anyOf_i2')">item 2</a>
-        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path
-                fill-rule="evenodd"
-                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
-            />
-        </svg>
-    <a href="#licensor_anyOf_i2_items" onclick="anchorLink('licensor_anyOf_i2_items')">item 2 items</a>
-        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path
-                fill-rule="evenodd"
-                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
-            />
-        </svg>
-    <a href="#licensor_anyOf_i2_items_anyOf" onclick="anchorLink('licensor_anyOf_i2_items_anyOf')">anyOf</a>
-        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path
-                fill-rule="evenodd"
-                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
-            />
-        </svg>
-    <a href="#licensor_anyOf_i2_items_anyOf_i0" onclick="anchorLink('licensor_anyOf_i2_items_anyOf_i0')">person</a></div><span class="badge badge-dark value-type">Type: object</span><br/>
-<span class="description"><p>A person (alive, dead, undead, or fictional)</p>
-</span>
-
-    
-        
-
-        
-        
-
-        
-<div class="accordion" id="accordionlicensor_anyOf_i2_items_anyOf_i0_email">
-    <div class="card">
-        <div class="card-header" id="headinglicensor_anyOf_i2_items_anyOf_i0_email">
-            <h2 class="mb-0">
-                <button class="btn btn-link property-name-button" type="button" data-toggle="collapse" data-target="#licensor_anyOf_i2_items_anyOf_i0_email"
-                        aria-expanded="" aria-controls="licensor_anyOf_i2_items_anyOf_i0_email" onclick="setAnchor('#licensor_anyOf_i2_items_anyOf_i0_email')"><span class="property-name">email</span></button>
-            </h2>
-        </div>
-
-        <div id="licensor_anyOf_i2_items_anyOf_i0_email"
-             class="collapse property-definition-div" aria-labelledby="headinglicensor_anyOf_i2_items_anyOf_i0_email"
-             data-parent="#accordionlicensor_anyOf_i2_items_anyOf_i0_email">
-            <div class="card-body pl-5">
-
-    <div class="breadcrumbs">root
-        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path
-                fill-rule="evenodd"
-                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
-            />
-        </svg>
-    <a href="#licensor" onclick="anchorLink('licensor')">licensor</a>
-        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path
-                fill-rule="evenodd"
-                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
-            />
-        </svg>
-    <a href="#licensor_anyOf" onclick="anchorLink('licensor_anyOf')">anyOf</a>
-        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path
-                fill-rule="evenodd"
-                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
-            />
-        </svg>
-    <a href="#licensor_anyOf_i2" onclick="anchorLink('licensor_anyOf_i2')">item 2</a>
-        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path
-                fill-rule="evenodd"
-                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
-            />
-        </svg>
-    <a href="#licensor_anyOf_i2_items" onclick="anchorLink('licensor_anyOf_i2_items')">item 2 items</a>
-        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path
-                fill-rule="evenodd"
-                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
-            />
-        </svg>
-    <a href="#licensor_anyOf_i2_items_anyOf" onclick="anchorLink('licensor_anyOf_i2_items_anyOf')">anyOf</a>
-        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path
-                fill-rule="evenodd"
-                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
-            />
-        </svg>
-    <a href="#licensor_anyOf_i2_items_anyOf_i0" onclick="anchorLink('licensor_anyOf_i2_items_anyOf_i0')">item 0</a>
-        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path
-                fill-rule="evenodd"
-                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
-            />
-        </svg>
-    <a href="#licensor_anyOf_i2_items_anyOf_i0_email" onclick="anchorLink('licensor_anyOf_i2_items_anyOf_i0_email')">email</a></div><span class="badge badge-dark value-type">Type: string</span><br/>
-<span class="description"><p>E-Mail of the person</p>
-</span>
-
-    
-        
-
-        
-        
-
-        <br/>
-<div class="badge badge-secondary">Examples:</div>
-<br/><div id="licensor_anyOf_i2_items_anyOf_i0_email_ex1" class="jumbotron examples"><div class="highlight"><pre><span></span><span class="s2">&quot;jane.doe@email.com&quot;</span>
-</pre></div>
-</div><div id="licensor_anyOf_i2_items_anyOf_i0_email_ex2" class="jumbotron examples"><div class="highlight"><pre><span></span><span class="s2">&quot;john.doe@email.com&quot;</span>
-</pre></div>
-</div><div id="licensor_anyOf_i2_items_anyOf_i0_email_ex3" class="jumbotron examples"><div class="highlight"><pre><span></span><span class="s2">&quot;ester.something@good.org&quot;</span>
-</pre></div>
-</div>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="accordion" id="accordionlicensor_anyOf_i2_items_anyOf_i0_name">
-    <div class="card">
-        <div class="card-header" id="headinglicensor_anyOf_i2_items_anyOf_i0_name">
-            <h2 class="mb-0">
-                <button class="btn btn-link property-name-button" type="button" data-toggle="collapse" data-target="#licensor_anyOf_i2_items_anyOf_i0_name"
-                        aria-expanded="" aria-controls="licensor_anyOf_i2_items_anyOf_i0_name" onclick="setAnchor('#licensor_anyOf_i2_items_anyOf_i0_name')"><span class="property-name">name</span></button>
-            </h2>
-        </div>
-
-        <div id="licensor_anyOf_i2_items_anyOf_i0_name"
-             class="collapse property-definition-div" aria-labelledby="headinglicensor_anyOf_i2_items_anyOf_i0_name"
-             data-parent="#accordionlicensor_anyOf_i2_items_anyOf_i0_name">
-            <div class="card-body pl-5">
-
-    <div class="breadcrumbs">root
-        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path
-                fill-rule="evenodd"
-                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
-            />
-        </svg>
-    <a href="#licensor" onclick="anchorLink('licensor')">licensor</a>
-        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path
-                fill-rule="evenodd"
-                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
-            />
-        </svg>
-    <a href="#licensor_anyOf" onclick="anchorLink('licensor_anyOf')">anyOf</a>
-        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path
-                fill-rule="evenodd"
-                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
-            />
-        </svg>
-    <a href="#licensor_anyOf_i2" onclick="anchorLink('licensor_anyOf_i2')">item 2</a>
-        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path
-                fill-rule="evenodd"
-                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
-            />
-        </svg>
-    <a href="#licensor_anyOf_i2_items" onclick="anchorLink('licensor_anyOf_i2_items')">item 2 items</a>
-        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path
-                fill-rule="evenodd"
-                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
-            />
-        </svg>
-    <a href="#licensor_anyOf_i2_items_anyOf" onclick="anchorLink('licensor_anyOf_i2_items_anyOf')">anyOf</a>
-        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path
-                fill-rule="evenodd"
-                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
-            />
-        </svg>
-    <a href="#licensor_anyOf_i2_items_anyOf_i0" onclick="anchorLink('licensor_anyOf_i2_items_anyOf_i0')">item 0</a>
-        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path
-                fill-rule="evenodd"
-                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
-            />
-        </svg>
-    <a href="#licensor_anyOf_i2_items_anyOf_i0_name" onclick="anchorLink('licensor_anyOf_i2_items_anyOf_i0_name')">name</a></div><span class="badge badge-dark value-type">Type: string</span><br/>
-<span class="description"><p>Full name of the person</p>
-</span>
-        
-
-        
-        
-
-        
-            </div>
-        </div>
-    </div>
-</div>
-<div class="accordion" id="accordionlicensor_anyOf_i2_items_anyOf_i0_url">
-    <div class="card">
-        <div class="card-header" id="headinglicensor_anyOf_i2_items_anyOf_i0_url">
-            <h2 class="mb-0">
-                <button class="btn btn-link property-name-button" type="button" data-toggle="collapse" data-target="#licensor_anyOf_i2_items_anyOf_i0_url"
-                        aria-expanded="" aria-controls="licensor_anyOf_i2_items_anyOf_i0_url" onclick="setAnchor('#licensor_anyOf_i2_items_anyOf_i0_url')"><span class="property-name">url</span></button>
-            </h2>
-        </div>
-
-        <div id="licensor_anyOf_i2_items_anyOf_i0_url"
-             class="collapse property-definition-div" aria-labelledby="headinglicensor_anyOf_i2_items_anyOf_i0_url"
-             data-parent="#accordionlicensor_anyOf_i2_items_anyOf_i0_url">
-            <div class="card-body pl-5">
-
-    <div class="breadcrumbs">root
-        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path
-                fill-rule="evenodd"
-                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
-            />
-        </svg>
-    <a href="#licensor" onclick="anchorLink('licensor')">licensor</a>
-        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path
-                fill-rule="evenodd"
-                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
-            />
-        </svg>
-    <a href="#licensor_anyOf" onclick="anchorLink('licensor_anyOf')">anyOf</a>
-        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path
-                fill-rule="evenodd"
-                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
-            />
-        </svg>
-    <a href="#licensor_anyOf_i2" onclick="anchorLink('licensor_anyOf_i2')">item 2</a>
-        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path
-                fill-rule="evenodd"
-                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
-            />
-        </svg>
-    <a href="#licensor_anyOf_i2_items" onclick="anchorLink('licensor_anyOf_i2_items')">item 2 items</a>
-        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path
-                fill-rule="evenodd"
-                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
-            />
-        </svg>
-    <a href="#licensor_anyOf_i2_items_anyOf" onclick="anchorLink('licensor_anyOf_i2_items_anyOf')">anyOf</a>
-        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path
-                fill-rule="evenodd"
-                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
-            />
-        </svg>
-    <a href="#licensor_anyOf_i2_items_anyOf_i0" onclick="anchorLink('licensor_anyOf_i2_items_anyOf_i0')">item 0</a>
-        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path
-                fill-rule="evenodd"
-                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
-            />
-        </svg>
-    <a href="#licensor_anyOf_i2_items_anyOf_i0_url" onclick="anchorLink('licensor_anyOf_i2_items_anyOf_i0_url')">url</a></div><span class="badge badge-dark value-type">Type: string</span><br/>
-<span class="description"><p>Home-page of the person</p>
-</span><a href="#attestation_anyOf_i0_anyOf_i0" onclick="anchorLink('attestation_anyOf_i0_anyOf_i0')" class="ref-link">Same definition as attestation_anyOf_i0_anyOf_i0</a>
-            </div>
-        </div>
-    </div>
-</div>
-        </div><div class="tab-pane fade card-body "
-             id="tab-pane_licensor_anyOf_i2_items_anyOf_i1" role="tabpanel">
-            
-
-    <div class="breadcrumbs">root
-        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path
-                fill-rule="evenodd"
-                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
-            />
-        </svg>
-    <a href="#licensor" onclick="anchorLink('licensor')">licensor</a>
-        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path
-                fill-rule="evenodd"
-                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
-            />
-        </svg>
-    <a href="#licensor_anyOf" onclick="anchorLink('licensor_anyOf')">anyOf</a>
-        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path
-                fill-rule="evenodd"
-                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
-            />
-        </svg>
-    <a href="#licensor_anyOf_i2" onclick="anchorLink('licensor_anyOf_i2')">item 2</a>
-        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path
-                fill-rule="evenodd"
-                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
-            />
-        </svg>
-    <a href="#licensor_anyOf_i2_items" onclick="anchorLink('licensor_anyOf_i2_items')">item 2 items</a>
-        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path
-                fill-rule="evenodd"
-                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
-            />
-        </svg>
-    <a href="#licensor_anyOf_i2_items_anyOf" onclick="anchorLink('licensor_anyOf_i2_items_anyOf')">anyOf</a>
-        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path
-                fill-rule="evenodd"
-                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
-            />
-        </svg>
-    <a href="#licensor_anyOf_i2_items_anyOf_i1" onclick="anchorLink('licensor_anyOf_i2_items_anyOf_i1')">organization</a></div><span class="badge badge-dark value-type">Type: object</span><br/>
-<span class="description"><p>An organization such as a school, NGO, corporation, club, etc.</p>
-</span>
-
-    
-        
-
-        
-        
-
-        
-<div class="accordion" id="accordionlicensor_anyOf_i2_items_anyOf_i1_email">
-    <div class="card">
-        <div class="card-header" id="headinglicensor_anyOf_i2_items_anyOf_i1_email">
-            <h2 class="mb-0">
-                <button class="btn btn-link property-name-button" type="button" data-toggle="collapse" data-target="#licensor_anyOf_i2_items_anyOf_i1_email"
-                        aria-expanded="" aria-controls="licensor_anyOf_i2_items_anyOf_i1_email" onclick="setAnchor('#licensor_anyOf_i2_items_anyOf_i1_email')"><span class="property-name">email</span></button>
-            </h2>
-        </div>
-
-        <div id="licensor_anyOf_i2_items_anyOf_i1_email"
-             class="collapse property-definition-div" aria-labelledby="headinglicensor_anyOf_i2_items_anyOf_i1_email"
-             data-parent="#accordionlicensor_anyOf_i2_items_anyOf_i1_email">
-            <div class="card-body pl-5">
-
-    <div class="breadcrumbs">root
-        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path
-                fill-rule="evenodd"
-                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
-            />
-        </svg>
-    <a href="#licensor" onclick="anchorLink('licensor')">licensor</a>
-        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path
-                fill-rule="evenodd"
-                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
-            />
-        </svg>
-    <a href="#licensor_anyOf" onclick="anchorLink('licensor_anyOf')">anyOf</a>
-        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path
-                fill-rule="evenodd"
-                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
-            />
-        </svg>
-    <a href="#licensor_anyOf_i2" onclick="anchorLink('licensor_anyOf_i2')">item 2</a>
-        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path
-                fill-rule="evenodd"
-                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
-            />
-        </svg>
-    <a href="#licensor_anyOf_i2_items" onclick="anchorLink('licensor_anyOf_i2_items')">item 2 items</a>
-        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path
-                fill-rule="evenodd"
-                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
-            />
-        </svg>
-    <a href="#licensor_anyOf_i2_items_anyOf" onclick="anchorLink('licensor_anyOf_i2_items_anyOf')">anyOf</a>
-        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path
-                fill-rule="evenodd"
-                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
-            />
-        </svg>
-    <a href="#licensor_anyOf_i2_items_anyOf_i1" onclick="anchorLink('licensor_anyOf_i2_items_anyOf_i1')">item 1</a>
-        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path
-                fill-rule="evenodd"
-                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
-            />
-        </svg>
-    <a href="#licensor_anyOf_i2_items_anyOf_i1_email" onclick="anchorLink('licensor_anyOf_i2_items_anyOf_i1_email')">email</a></div><span class="badge badge-dark value-type">Type: string</span><br/>
-<span class="description"><p>E-Mail of the organization</p>
-</span><a href="#licensor_anyOf_i2_items_anyOf_i0_email" onclick="anchorLink('licensor_anyOf_i2_items_anyOf_i0_email')" class="ref-link">Same definition as email</a>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="accordion" id="accordionlicensor_anyOf_i2_items_anyOf_i1_name">
-    <div class="card">
-        <div class="card-header" id="headinglicensor_anyOf_i2_items_anyOf_i1_name">
-            <h2 class="mb-0">
-                <button class="btn btn-link property-name-button" type="button" data-toggle="collapse" data-target="#licensor_anyOf_i2_items_anyOf_i1_name"
-                        aria-expanded="" aria-controls="licensor_anyOf_i2_items_anyOf_i1_name" onclick="setAnchor('#licensor_anyOf_i2_items_anyOf_i1_name')"><span class="property-name">name</span></button>
-            </h2>
-        </div>
-
-        <div id="licensor_anyOf_i2_items_anyOf_i1_name"
-             class="collapse property-definition-div" aria-labelledby="headinglicensor_anyOf_i2_items_anyOf_i1_name"
-             data-parent="#accordionlicensor_anyOf_i2_items_anyOf_i1_name">
-            <div class="card-body pl-5">
-
-    <div class="breadcrumbs">root
-        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path
-                fill-rule="evenodd"
-                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
-            />
-        </svg>
-    <a href="#licensor" onclick="anchorLink('licensor')">licensor</a>
-        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path
-                fill-rule="evenodd"
-                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
-            />
-        </svg>
-    <a href="#licensor_anyOf" onclick="anchorLink('licensor_anyOf')">anyOf</a>
-        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path
-                fill-rule="evenodd"
-                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
-            />
-        </svg>
-    <a href="#licensor_anyOf_i2" onclick="anchorLink('licensor_anyOf_i2')">item 2</a>
-        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path
-                fill-rule="evenodd"
-                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
-            />
-        </svg>
-    <a href="#licensor_anyOf_i2_items" onclick="anchorLink('licensor_anyOf_i2_items')">item 2 items</a>
-        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path
-                fill-rule="evenodd"
-                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
-            />
-        </svg>
-    <a href="#licensor_anyOf_i2_items_anyOf" onclick="anchorLink('licensor_anyOf_i2_items_anyOf')">anyOf</a>
-        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path
-                fill-rule="evenodd"
-                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
-            />
-        </svg>
-    <a href="#licensor_anyOf_i2_items_anyOf_i1" onclick="anchorLink('licensor_anyOf_i2_items_anyOf_i1')">item 1</a>
-        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path
-                fill-rule="evenodd"
-                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
-            />
-        </svg>
-    <a href="#licensor_anyOf_i2_items_anyOf_i1_name" onclick="anchorLink('licensor_anyOf_i2_items_anyOf_i1_name')">name</a></div><span class="badge badge-dark value-type">Type: string</span><br/>
-<span class="description"><p>Name of the organization</p>
-</span>
-        
-
-        
-        
-
-        
-            </div>
-        </div>
-    </div>
-</div>
-<div class="accordion" id="accordionlicensor_anyOf_i2_items_anyOf_i1_url">
-    <div class="card">
-        <div class="card-header" id="headinglicensor_anyOf_i2_items_anyOf_i1_url">
-            <h2 class="mb-0">
-                <button class="btn btn-link property-name-button" type="button" data-toggle="collapse" data-target="#licensor_anyOf_i2_items_anyOf_i1_url"
-                        aria-expanded="" aria-controls="licensor_anyOf_i2_items_anyOf_i1_url" onclick="setAnchor('#licensor_anyOf_i2_items_anyOf_i1_url')"><span class="property-name">url</span></button>
-            </h2>
-        </div>
-
-        <div id="licensor_anyOf_i2_items_anyOf_i1_url"
-             class="collapse property-definition-div" aria-labelledby="headinglicensor_anyOf_i2_items_anyOf_i1_url"
-             data-parent="#accordionlicensor_anyOf_i2_items_anyOf_i1_url">
-            <div class="card-body pl-5">
-
-    <div class="breadcrumbs">root
-        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path
-                fill-rule="evenodd"
-                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
-            />
-        </svg>
-    <a href="#licensor" onclick="anchorLink('licensor')">licensor</a>
-        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path
-                fill-rule="evenodd"
-                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
-            />
-        </svg>
-    <a href="#licensor_anyOf" onclick="anchorLink('licensor_anyOf')">anyOf</a>
-        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path
-                fill-rule="evenodd"
-                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
-            />
-        </svg>
-    <a href="#licensor_anyOf_i2" onclick="anchorLink('licensor_anyOf_i2')">item 2</a>
-        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path
-                fill-rule="evenodd"
-                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
-            />
-        </svg>
-    <a href="#licensor_anyOf_i2_items" onclick="anchorLink('licensor_anyOf_i2_items')">item 2 items</a>
-        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path
-                fill-rule="evenodd"
-                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
-            />
-        </svg>
-    <a href="#licensor_anyOf_i2_items_anyOf" onclick="anchorLink('licensor_anyOf_i2_items_anyOf')">anyOf</a>
-        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path
-                fill-rule="evenodd"
-                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
-            />
-        </svg>
-    <a href="#licensor_anyOf_i2_items_anyOf_i1" onclick="anchorLink('licensor_anyOf_i2_items_anyOf_i1')">item 1</a>
-        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path
-                fill-rule="evenodd"
-                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
-            />
-        </svg>
-    <a href="#licensor_anyOf_i2_items_anyOf_i1_url" onclick="anchorLink('licensor_anyOf_i2_items_anyOf_i1_url')">url</a></div><span class="badge badge-dark value-type">Type: string</span><br/>
-<span class="description"><p>Home-page of the organization</p>
-</span><a href="#attestation_anyOf_i0_anyOf_i0" onclick="anchorLink('attestation_anyOf_i0_anyOf_i0')" class="ref-link">Same definition as attestation_anyOf_i0_anyOf_i0</a>
-            </div>
-        </div>
-    </div>
-</div>
-        </div></div></div>
-        
-
-        
-        
-
-        
-        </div>
-    </div>
-        </div><div class="tab-pane fade card-body "
-             id="tab-pane_licensor_anyOf_i3" role="tabpanel">
-            
-
-    <div class="breadcrumbs">root
-        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path
-                fill-rule="evenodd"
-                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
-            />
-        </svg>
-    <a href="#licensor" onclick="anchorLink('licensor')">licensor</a>
-        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path
-                fill-rule="evenodd"
-                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
-            />
-        </svg>
-    <a href="#licensor_anyOf" onclick="anchorLink('licensor_anyOf')">anyOf</a>
-        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path
-                fill-rule="evenodd"
-                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
-            />
-        </svg>
-    <a href="#licensor_anyOf_i3" onclick="anchorLink('licensor_anyOf_i3')">agent</a></div><span class="badge badge-dark value-type">Type: object</span><br/>
-<span class="description"><p>A person or organization</p>
-</span><a href="#licensor_anyOf_i2_items" onclick="anchorLink('licensor_anyOf_i2_items')" class="ref-link">Same definition as licensor_anyOf_i2_items</a>
+</span><a href="#licensor_anyOf_i1_items" onclick="anchorLink('licensor_anyOf_i1_items')" class="ref-link">Same definition as licensor_anyOf_i1_items</a>
         </div></div></div>
         
 
@@ -5636,23 +6568,25 @@ for projects clearly indicating that they are proprietary.</p>
                 d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
             />
         </svg>
-    <a href="#manufacturing-instructions" onclick="anchorLink('manufacturing-instructions')">manufacturing-instructions</a></div><br/>
+    <a href="#manufacturing-instructions" onclick="anchorLink('manufacturing-instructions')">manufacturing-instructions</a></div><span class="badge badge-dark value-type">Type: object</span><br/>
 <span class="description"><p>URL or repo-relative path to manufacturing instructions; multiple inputs possible (with one entry each)</p>
-</span><div class="any-of-value" id="manufacturing-instructions_anyOf"><h2 class="handle">
+</span>
+
+    <div class="any-of-value" id="attestation_anyOf"><h2 class="handle">
   <label>Any of</label>
-</h2><ul class="nav nav-tabs" id="tabsmanufacturing-instructions_anyOf_anyOf" role="tablist"><li class="nav-item">
+</h2><ul class="nav nav-tabs" id="tabsattestation_anyOf_anyOf" role="tablist"><li class="nav-item">
             <a class="nav-link active anyOf-option"
-               id="manufacturing-instructions_anyOf_i0" data-toggle="tab" href="#tab-pane_manufacturing-instructions_anyOf_i0" role="tab"
-               onclick="setAnchor('#manufacturing-instructions_anyOf_i0')"
+               id="attestation_anyOf_i0" data-toggle="tab" href="#tab-pane_attestation_anyOf_i0" role="tab"
+               onclick="setAnchor('#attestation_anyOf_i0')"
             >relPathOrWebUrl</a>
         </li><li class="nav-item">
             <a class="nav-link anyOf-option"
-               id="manufacturing-instructions_anyOf_i1" data-toggle="tab" href="#tab-pane_manufacturing-instructions_anyOf_i1" role="tab"
-               onclick="setAnchor('#manufacturing-instructions_anyOf_i1')"
+               id="attestation_anyOf_i1" data-toggle="tab" href="#tab-pane_attestation_anyOf_i1" role="tab"
+               onclick="setAnchor('#attestation_anyOf_i1')"
             >Option 2</a>
         </li></ul>
 <div class="tab-content card"><div class="tab-pane fade card-body active show"
-             id="tab-pane_manufacturing-instructions_anyOf_i0" role="tabpanel">
+             id="tab-pane_attestation_anyOf_i0" role="tabpanel">
             
 
     <div class="breadcrumbs">root
@@ -5662,24 +6596,87 @@ for projects clearly indicating that they are proprietary.</p>
                 d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
             />
         </svg>
-    <a href="#manufacturing-instructions" onclick="anchorLink('manufacturing-instructions')">manufacturing-instructions</a>
+    <a href="#attestation" onclick="anchorLink('attestation')">attestation</a>
         <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
             <path
                 fill-rule="evenodd"
                 d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
             />
         </svg>
-    <a href="#manufacturing-instructions_anyOf" onclick="anchorLink('manufacturing-instructions_anyOf')">anyOf</a>
+    <a href="#attestation_anyOf" onclick="anchorLink('attestation_anyOf')">anyOf</a>
         <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
             <path
                 fill-rule="evenodd"
                 d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
             />
         </svg>
-    <a href="#manufacturing-instructions_anyOf_i0" onclick="anchorLink('manufacturing-instructions_anyOf_i0')">relPathOrWebUrl</a></div><span class="badge badge-dark value-type">Type: string</span><br/>
-<a href="#attestation_anyOf_i0" onclick="anchorLink('attestation_anyOf_i0')" class="ref-link">Same definition as attestation_anyOf_i0</a>
+    <a href="#attestation_anyOf_i0" onclick="anchorLink('attestation_anyOf_i0')">relPathOrWebUrl</a></div><span class="badge badge-dark value-type">Type: string</span><br/>
+
+
+    <div class="any-of-value" id="attestation_anyOf_i0_anyOf"><h2 class="handle">
+  <label>Any of</label>
+</h2><ul class="nav nav-tabs" id="tabsattestation_anyOf_i0_anyOf_anyOf" role="tablist"><li class="nav-item">
+            <a class="nav-link active anyOf-option"
+               id="attestation_anyOf_i0_anyOf_i0" data-toggle="tab" href="#tab-pane_attestation_anyOf_i0_anyOf_i0" role="tab"
+               onclick="setAnchor('#attestation_anyOf_i0_anyOf_i0')"
+            >webUrl</a>
+        </li><li class="nav-item">
+            <a class="nav-link anyOf-option"
+               id="attestation_anyOf_i0_anyOf_i1" data-toggle="tab" href="#tab-pane_attestation_anyOf_i0_anyOf_i1" role="tab"
+               onclick="setAnchor('#attestation_anyOf_i0_anyOf_i1')"
+            >relPath</a>
+        </li></ul>
+<div class="tab-content card"><div class="tab-pane fade card-body active show"
+             id="tab-pane_attestation_anyOf_i0_anyOf_i0" role="tabpanel">
+            
+
+    <div class="breadcrumbs">root
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation" onclick="anchorLink('attestation')">attestation</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf" onclick="anchorLink('attestation_anyOf')">anyOf</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf_i0" onclick="anchorLink('attestation_anyOf_i0')">item 0</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf_i0_anyOf" onclick="anchorLink('attestation_anyOf_i0_anyOf')">anyOf</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf_i0_anyOf_i0" onclick="anchorLink('attestation_anyOf_i0_anyOf_i0')">webUrl</a></div><span class="badge badge-dark value-type">Type: string</span><br/>
+
+
+    <span class="pattern-value" id="attestation_anyOf_i0_anyOf_i0_pattern">Must match regular expression: <code>^https?://</code></span>
+        
+
+        
+        
+
+        
         </div><div class="tab-pane fade card-body "
-             id="tab-pane_manufacturing-instructions_anyOf_i1" role="tabpanel">
+             id="tab-pane_attestation_anyOf_i0_anyOf_i1" role="tabpanel">
             
 
     <div class="breadcrumbs">root
@@ -5689,21 +6686,357 @@ for projects clearly indicating that they are proprietary.</p>
                 d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
             />
         </svg>
-    <a href="#manufacturing-instructions" onclick="anchorLink('manufacturing-instructions')">manufacturing-instructions</a>
+    <a href="#attestation" onclick="anchorLink('attestation')">attestation</a>
         <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
             <path
                 fill-rule="evenodd"
                 d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
             />
         </svg>
-    <a href="#manufacturing-instructions_anyOf" onclick="anchorLink('manufacturing-instructions_anyOf')">anyOf</a>
+    <a href="#attestation_anyOf" onclick="anchorLink('attestation_anyOf')">anyOf</a>
         <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
             <path
                 fill-rule="evenodd"
                 d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
             />
         </svg>
-    <a href="#manufacturing-instructions_anyOf_i1" onclick="anchorLink('manufacturing-instructions_anyOf_i1')">item 1</a></div><span class="badge badge-dark value-type">Type: array</span><br/>
+    <a href="#attestation_anyOf_i0" onclick="anchorLink('attestation_anyOf_i0')">item 0</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf_i0_anyOf" onclick="anchorLink('attestation_anyOf_i0_anyOf')">anyOf</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf_i0_anyOf_i1" onclick="anchorLink('attestation_anyOf_i0_anyOf_i1')">relPath</a></div><span class="badge badge-dark value-type">Type: string</span><br/>
+
+
+    <div class="not-value">
+<h4>Must <strong>not</strong> be:</h4>
+<div class="card">
+    <div class="card-body" id="">
+    
+
+    <div class="breadcrumbs">root
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation" onclick="anchorLink('attestation')">attestation</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf" onclick="anchorLink('attestation_anyOf')">anyOf</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf_i0" onclick="anchorLink('attestation_anyOf_i0')">item 0</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf_i0_anyOf" onclick="anchorLink('attestation_anyOf_i0_anyOf')">anyOf</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf_i0_anyOf_i1" onclick="anchorLink('attestation_anyOf_i0_anyOf_i1')">item 1</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf_i0_anyOf_i1_not" onclick="anchorLink('attestation_anyOf_i0_anyOf_i1_not')">not</a></div><br/>
+<div class="any-of-value" id="attestation_anyOf_i0_anyOf_i1_not_anyOf"><h2 class="handle">
+  <label>Any of</label>
+</h2><ul class="nav nav-tabs" id="tabsattestation_anyOf_i0_anyOf_i1_not_anyOf_anyOf" role="tablist"><li class="nav-item">
+            <a class="nav-link active anyOf-option"
+               id="attestation_anyOf_i0_anyOf_i1_not_anyOf_i0" data-toggle="tab" href="#tab-pane_attestation_anyOf_i0_anyOf_i1_not_anyOf_i0" role="tab"
+               onclick="setAnchor('#attestation_anyOf_i0_anyOf_i1_not_anyOf_i0')"
+            >Option 1</a>
+        </li><li class="nav-item">
+            <a class="nav-link anyOf-option"
+               id="attestation_anyOf_i0_anyOf_i1_not_anyOf_i1" data-toggle="tab" href="#tab-pane_attestation_anyOf_i0_anyOf_i1_not_anyOf_i1" role="tab"
+               onclick="setAnchor('#attestation_anyOf_i0_anyOf_i1_not_anyOf_i1')"
+            >Option 2</a>
+        </li><li class="nav-item">
+            <a class="nav-link anyOf-option"
+               id="attestation_anyOf_i0_anyOf_i1_not_anyOf_i2" data-toggle="tab" href="#tab-pane_attestation_anyOf_i0_anyOf_i1_not_anyOf_i2" role="tab"
+               onclick="setAnchor('#attestation_anyOf_i0_anyOf_i1_not_anyOf_i2')"
+            >Option 3</a>
+        </li></ul>
+<div class="tab-content card"><div class="tab-pane fade card-body active show"
+             id="tab-pane_attestation_anyOf_i0_anyOf_i1_not_anyOf_i0" role="tabpanel">
+            
+
+    <div class="breadcrumbs">root
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation" onclick="anchorLink('attestation')">attestation</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf" onclick="anchorLink('attestation_anyOf')">anyOf</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf_i0" onclick="anchorLink('attestation_anyOf_i0')">item 0</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf_i0_anyOf" onclick="anchorLink('attestation_anyOf_i0_anyOf')">anyOf</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf_i0_anyOf_i1" onclick="anchorLink('attestation_anyOf_i0_anyOf_i1')">item 1</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf_i0_anyOf_i1_not" onclick="anchorLink('attestation_anyOf_i0_anyOf_i1_not')">not</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf_i0_anyOf_i1_not_anyOf" onclick="anchorLink('attestation_anyOf_i0_anyOf_i1_not_anyOf')">anyOf</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf_i0_anyOf_i1_not_anyOf_i0" onclick="anchorLink('attestation_anyOf_i0_anyOf_i1_not_anyOf_i0')">item 0</a></div><span class="badge badge-dark value-type">Type: object</span><br/>
+<span class="pattern-value" id="attestation_anyOf_i0_anyOf_i1_not_anyOf_i0_pattern">Must match regular expression: <code>^[a-z]*:</code></span>
+        
+
+        
+        
+
+        
+        </div><div class="tab-pane fade card-body "
+             id="tab-pane_attestation_anyOf_i0_anyOf_i1_not_anyOf_i1" role="tabpanel">
+            
+
+    <div class="breadcrumbs">root
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation" onclick="anchorLink('attestation')">attestation</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf" onclick="anchorLink('attestation_anyOf')">anyOf</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf_i0" onclick="anchorLink('attestation_anyOf_i0')">item 0</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf_i0_anyOf" onclick="anchorLink('attestation_anyOf_i0_anyOf')">anyOf</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf_i0_anyOf_i1" onclick="anchorLink('attestation_anyOf_i0_anyOf_i1')">item 1</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf_i0_anyOf_i1_not" onclick="anchorLink('attestation_anyOf_i0_anyOf_i1_not')">not</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf_i0_anyOf_i1_not_anyOf" onclick="anchorLink('attestation_anyOf_i0_anyOf_i1_not_anyOf')">anyOf</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf_i0_anyOf_i1_not_anyOf_i1" onclick="anchorLink('attestation_anyOf_i0_anyOf_i1_not_anyOf_i1')">item 1</a></div><span class="badge badge-dark value-type">Type: object</span><br/>
+<span class="pattern-value" id="attestation_anyOf_i0_anyOf_i1_not_anyOf_i1_pattern">Must match regular expression: <code>^//</code></span>
+        
+
+        
+        
+
+        
+        </div><div class="tab-pane fade card-body "
+             id="tab-pane_attestation_anyOf_i0_anyOf_i1_not_anyOf_i2" role="tabpanel">
+            
+
+    <div class="breadcrumbs">root
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation" onclick="anchorLink('attestation')">attestation</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf" onclick="anchorLink('attestation_anyOf')">anyOf</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf_i0" onclick="anchorLink('attestation_anyOf_i0')">item 0</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf_i0_anyOf" onclick="anchorLink('attestation_anyOf_i0_anyOf')">anyOf</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf_i0_anyOf_i1" onclick="anchorLink('attestation_anyOf_i0_anyOf_i1')">item 1</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf_i0_anyOf_i1_not" onclick="anchorLink('attestation_anyOf_i0_anyOf_i1_not')">not</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf_i0_anyOf_i1_not_anyOf" onclick="anchorLink('attestation_anyOf_i0_anyOf_i1_not_anyOf')">anyOf</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf_i0_anyOf_i1_not_anyOf_i2" onclick="anchorLink('attestation_anyOf_i0_anyOf_i1_not_anyOf_i2')">item 2</a></div><span class="badge badge-dark value-type">Type: object</span><br/>
+<span class="pattern-value" id="attestation_anyOf_i0_anyOf_i1_not_anyOf_i2_pattern">Must match regular expression: <code>(?:.*/)?\.\.(?:/.*)?</code></span>
+        
+
+        
+        
+
+        
+        </div></div></div>
+        
+
+        
+        
+
+        
+    </div>
+</div>
+</div>
+        
+
+        
+        
+
+        
+        </div></div></div>
+        
+
+        
+        
+
+        
+        </div><div class="tab-pane fade card-body "
+             id="tab-pane_attestation_anyOf_i1" role="tabpanel">
+            
+
+    <div class="breadcrumbs">root
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation" onclick="anchorLink('attestation')">attestation</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf" onclick="anchorLink('attestation_anyOf')">anyOf</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf_i1" onclick="anchorLink('attestation_anyOf_i1')">item 1</a></div><span class="badge badge-dark value-type">Type: array</span><br/>
 
         
 
@@ -5712,7 +7045,7 @@ for projects clearly indicating that they are proprietary.</p>
 
          <span class="badge badge-info no-additional">No Additional Items</span><h4>Each item of this array must be:</h4>
     <div class="card">
-        <div class="card-body items-definition" id="manufacturing-instructions_anyOf_i1_items">
+        <div class="card-body items-definition" id="attestation_anyOf_i1_items">
             
 
     <div class="breadcrumbs">root
@@ -5722,28 +7055,28 @@ for projects clearly indicating that they are proprietary.</p>
                 d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
             />
         </svg>
-    <a href="#manufacturing-instructions" onclick="anchorLink('manufacturing-instructions')">manufacturing-instructions</a>
+    <a href="#attestation" onclick="anchorLink('attestation')">attestation</a>
         <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
             <path
                 fill-rule="evenodd"
                 d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
             />
         </svg>
-    <a href="#manufacturing-instructions_anyOf" onclick="anchorLink('manufacturing-instructions_anyOf')">anyOf</a>
+    <a href="#attestation_anyOf" onclick="anchorLink('attestation_anyOf')">anyOf</a>
         <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
             <path
                 fill-rule="evenodd"
                 d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
             />
         </svg>
-    <a href="#manufacturing-instructions_anyOf_i1" onclick="anchorLink('manufacturing-instructions_anyOf_i1')">item 1</a>
+    <a href="#attestation_anyOf_i1" onclick="anchorLink('attestation_anyOf_i1')">item 1</a>
         <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
             <path
                 fill-rule="evenodd"
                 d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
             />
         </svg>
-    <a href="#manufacturing-instructions_anyOf_i1_items" onclick="anchorLink('manufacturing-instructions_anyOf_i1_items')">relPathOrWebUrl</a></div><span class="badge badge-dark value-type">Type: string</span><br/>
+    <a href="#attestation_anyOf_i1_items" onclick="anchorLink('attestation_anyOf_i1_items')">relPathOrWebUrl</a></div><span class="badge badge-dark value-type">Type: string</span><br/>
 <a href="#attestation_anyOf_i0" onclick="anchorLink('attestation_anyOf_i0')" class="ref-link">Same definition as attestation_anyOf_i0</a>
         </div>
     </div>
@@ -5755,7 +7088,7 @@ for projects clearly indicating that they are proprietary.</p>
 
         <br/>
 <div class="badge badge-secondary">Example:</div>
-<br/><div id="manufacturing-instructions_ex1" class="jumbotron examples"><div class="highlight"><pre><span></span><span class="s2">&quot;Documentation/Assembly_Guide/AssemblyGuide.md&quot;</span>
+<br/><div id="attestation_ex1" class="jumbotron examples"><div class="highlight"><pre><span></span><span class="s2">&quot;Documentation/Assembly_Guide/AssemblyGuide.md&quot;</span>
 </pre></div>
 </div>
             </div>
@@ -5897,22 +7230,17 @@ for projects clearly indicating that they are proprietary.</p>
             <a class="nav-link active anyOf-option"
                id="organization_anyOf_i0" data-toggle="tab" href="#tab-pane_organization_anyOf_i0" role="tab"
                onclick="setAnchor('#organization_anyOf_i0')"
-            >Option 1</a>
+            >stringMulti</a>
         </li><li class="nav-item">
             <a class="nav-link anyOf-option"
                id="organization_anyOf_i1" data-toggle="tab" href="#tab-pane_organization_anyOf_i1" role="tab"
                onclick="setAnchor('#organization_anyOf_i1')"
-            >Option 2</a>
+            >organization</a>
         </li><li class="nav-item">
             <a class="nav-link anyOf-option"
                id="organization_anyOf_i2" data-toggle="tab" href="#tab-pane_organization_anyOf_i2" role="tab"
                onclick="setAnchor('#organization_anyOf_i2')"
-            >organization</a>
-        </li><li class="nav-item">
-            <a class="nav-link anyOf-option"
-               id="organization_anyOf_i3" data-toggle="tab" href="#tab-pane_organization_anyOf_i3" role="tab"
-               onclick="setAnchor('#organization_anyOf_i3')"
-            >Option 4</a>
+            >Option 3</a>
         </li></ul>
 <div class="tab-content card"><div class="tab-pane fade card-body active show"
              id="tab-pane_organization_anyOf_i0" role="tabpanel">
@@ -5939,14 +7267,8 @@ for projects clearly indicating that they are proprietary.</p>
                 d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
             />
         </svg>
-    <a href="#organization_anyOf_i0" onclick="anchorLink('organization_anyOf_i0')">item 0</a></div><span class="badge badge-dark value-type">Type: string</span><br/>
-
-        
-
-        
-        
-
-        
+    <a href="#organization_anyOf_i0" onclick="anchorLink('organization_anyOf_i0')">stringMulti</a></div><span class="badge badge-dark value-type">Type: object</span><br/>
+<a href="#licensor_anyOf_i0" onclick="anchorLink('licensor_anyOf_i0')" class="ref-link">Same definition as licensor_anyOf_i0</a>
         </div><div class="tab-pane fade card-body "
              id="tab-pane_organization_anyOf_i1" role="tabpanel">
             
@@ -5972,56 +7294,9 @@ for projects clearly indicating that they are proprietary.</p>
                 d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
             />
         </svg>
-    <a href="#organization_anyOf_i1" onclick="anchorLink('organization_anyOf_i1')">item 1</a></div><span class="badge badge-dark value-type">Type: array of string</span><br/>
-
-        
-
-        
-        
-
-         <span class="badge badge-info no-additional">No Additional Items</span><h4>Each item of this array must be:</h4>
-    <div class="card">
-        <div class="card-body items-definition" id="organization_anyOf_i1_items">
-            
-
-    <div class="breadcrumbs">root
-        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path
-                fill-rule="evenodd"
-                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
-            />
-        </svg>
-    <a href="#organization" onclick="anchorLink('organization')">organization</a>
-        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path
-                fill-rule="evenodd"
-                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
-            />
-        </svg>
-    <a href="#organization_anyOf" onclick="anchorLink('organization_anyOf')">anyOf</a>
-        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path
-                fill-rule="evenodd"
-                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
-            />
-        </svg>
-    <a href="#organization_anyOf_i1" onclick="anchorLink('organization_anyOf_i1')">item 1</a>
-        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path
-                fill-rule="evenodd"
-                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
-            />
-        </svg>
-    <a href="#organization_anyOf_i1_items" onclick="anchorLink('organization_anyOf_i1_items')">item 1 items</a></div><span class="badge badge-dark value-type">Type: string</span><br/>
-
-        
-
-        
-        
-
-        
-        </div>
-    </div>
+    <a href="#organization_anyOf_i1" onclick="anchorLink('organization_anyOf_i1')">organization</a></div><span class="badge badge-dark value-type">Type: object</span><br/>
+<span class="description"><p>An organization such as a school, NGO, corporation, club, etc.</p>
+</span><a href="#licensor_anyOf_i1_items_anyOf_i1" onclick="anchorLink('licensor_anyOf_i1_items_anyOf_i1')" class="ref-link">Same definition as licensor_anyOf_i1_items_anyOf_i1</a>
         </div><div class="tab-pane fade card-body "
              id="tab-pane_organization_anyOf_i2" role="tabpanel">
             
@@ -6047,35 +7322,7 @@ for projects clearly indicating that they are proprietary.</p>
                 d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
             />
         </svg>
-    <a href="#organization_anyOf_i2" onclick="anchorLink('organization_anyOf_i2')">organization</a></div><span class="badge badge-dark value-type">Type: object</span><br/>
-<span class="description"><p>An organization such as a school, NGO, corporation, club, etc.</p>
-</span><a href="#licensor_anyOf_i2_items_anyOf_i1" onclick="anchorLink('licensor_anyOf_i2_items_anyOf_i1')" class="ref-link">Same definition as licensor_anyOf_i2_items_anyOf_i1</a>
-        </div><div class="tab-pane fade card-body "
-             id="tab-pane_organization_anyOf_i3" role="tabpanel">
-            
-
-    <div class="breadcrumbs">root
-        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path
-                fill-rule="evenodd"
-                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
-            />
-        </svg>
-    <a href="#organization" onclick="anchorLink('organization')">organization</a>
-        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path
-                fill-rule="evenodd"
-                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
-            />
-        </svg>
-    <a href="#organization_anyOf" onclick="anchorLink('organization_anyOf')">anyOf</a>
-        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path
-                fill-rule="evenodd"
-                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
-            />
-        </svg>
-    <a href="#organization_anyOf_i3" onclick="anchorLink('organization_anyOf_i3')">item 3</a></div><span class="badge badge-dark value-type">Type: array</span><br/>
+    <a href="#organization_anyOf_i2" onclick="anchorLink('organization_anyOf_i2')">item 2</a></div><span class="badge badge-dark value-type">Type: array</span><br/>
 
         
 
@@ -6084,7 +7331,7 @@ for projects clearly indicating that they are proprietary.</p>
 
          <span class="badge badge-info no-additional">No Additional Items</span><h4>Each item of this array must be:</h4>
     <div class="card">
-        <div class="card-body items-definition" id="organization_anyOf_i3_items">
+        <div class="card-body items-definition" id="organization_anyOf_i2_items">
             
 
     <div class="breadcrumbs">root
@@ -6108,16 +7355,16 @@ for projects clearly indicating that they are proprietary.</p>
                 d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
             />
         </svg>
-    <a href="#organization_anyOf_i3" onclick="anchorLink('organization_anyOf_i3')">item 3</a>
+    <a href="#organization_anyOf_i2" onclick="anchorLink('organization_anyOf_i2')">item 2</a>
         <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
             <path
                 fill-rule="evenodd"
                 d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
             />
         </svg>
-    <a href="#organization_anyOf_i3_items" onclick="anchorLink('organization_anyOf_i3_items')">organization</a></div><span class="badge badge-dark value-type">Type: object</span><br/>
+    <a href="#organization_anyOf_i2_items" onclick="anchorLink('organization_anyOf_i2_items')">organization</a></div><span class="badge badge-dark value-type">Type: object</span><br/>
 <span class="description"><p>An organization such as a school, NGO, corporation, club, etc.</p>
-</span><a href="#licensor_anyOf_i2_items_anyOf_i1" onclick="anchorLink('licensor_anyOf_i2_items_anyOf_i1')" class="ref-link">Same definition as licensor_anyOf_i2_items_anyOf_i1</a>
+</span><a href="#licensor_anyOf_i1_items_anyOf_i1" onclick="anchorLink('licensor_anyOf_i1_items_anyOf_i1')" class="ref-link">Same definition as licensor_anyOf_i1_items_anyOf_i1</a>
         </div>
     </div>
         </div></div></div>
@@ -6885,21 +8132,23 @@ multiple inputs possible (with one entry each)</p>
 multiple inputs possible (with one entry each)</p>
 </span>
 
-    <div class="any-of-value" id="part_items_source_anyOf"><h2 class="handle">
+    
+
+    <div class="any-of-value" id="attestation_anyOf"><h2 class="handle">
   <label>Any of</label>
-</h2><ul class="nav nav-tabs" id="tabspart_items_source_anyOf_anyOf" role="tablist"><li class="nav-item">
+</h2><ul class="nav nav-tabs" id="tabsattestation_anyOf_anyOf" role="tablist"><li class="nav-item">
             <a class="nav-link active anyOf-option"
-               id="part_items_source_anyOf_i0" data-toggle="tab" href="#tab-pane_part_items_source_anyOf_i0" role="tab"
-               onclick="setAnchor('#part_items_source_anyOf_i0')"
+               id="attestation_anyOf_i0" data-toggle="tab" href="#tab-pane_attestation_anyOf_i0" role="tab"
+               onclick="setAnchor('#attestation_anyOf_i0')"
             >relPathOrWebUrl</a>
         </li><li class="nav-item">
             <a class="nav-link anyOf-option"
-               id="part_items_source_anyOf_i1" data-toggle="tab" href="#tab-pane_part_items_source_anyOf_i1" role="tab"
-               onclick="setAnchor('#part_items_source_anyOf_i1')"
+               id="attestation_anyOf_i1" data-toggle="tab" href="#tab-pane_attestation_anyOf_i1" role="tab"
+               onclick="setAnchor('#attestation_anyOf_i1')"
             >Option 2</a>
         </li></ul>
 <div class="tab-content card"><div class="tab-pane fade card-body active show"
-             id="tab-pane_part_items_source_anyOf_i0" role="tabpanel">
+             id="tab-pane_attestation_anyOf_i0" role="tabpanel">
             
 
     <div class="breadcrumbs">root
@@ -6909,38 +8158,87 @@ multiple inputs possible (with one entry each)</p>
                 d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
             />
         </svg>
-    <a href="#part" onclick="anchorLink('part')">part</a>
+    <a href="#attestation" onclick="anchorLink('attestation')">attestation</a>
         <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
             <path
                 fill-rule="evenodd"
                 d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
             />
         </svg>
-    <a href="#part_items" onclick="anchorLink('part_items')">part items</a>
+    <a href="#attestation_anyOf" onclick="anchorLink('attestation_anyOf')">anyOf</a>
         <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
             <path
                 fill-rule="evenodd"
                 d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
             />
         </svg>
-    <a href="#part_items_source" onclick="anchorLink('part_items_source')">source</a>
+    <a href="#attestation_anyOf_i0" onclick="anchorLink('attestation_anyOf_i0')">relPathOrWebUrl</a></div><span class="badge badge-dark value-type">Type: string</span><br/>
+
+
+    <div class="any-of-value" id="attestation_anyOf_i0_anyOf"><h2 class="handle">
+  <label>Any of</label>
+</h2><ul class="nav nav-tabs" id="tabsattestation_anyOf_i0_anyOf_anyOf" role="tablist"><li class="nav-item">
+            <a class="nav-link active anyOf-option"
+               id="attestation_anyOf_i0_anyOf_i0" data-toggle="tab" href="#tab-pane_attestation_anyOf_i0_anyOf_i0" role="tab"
+               onclick="setAnchor('#attestation_anyOf_i0_anyOf_i0')"
+            >webUrl</a>
+        </li><li class="nav-item">
+            <a class="nav-link anyOf-option"
+               id="attestation_anyOf_i0_anyOf_i1" data-toggle="tab" href="#tab-pane_attestation_anyOf_i0_anyOf_i1" role="tab"
+               onclick="setAnchor('#attestation_anyOf_i0_anyOf_i1')"
+            >relPath</a>
+        </li></ul>
+<div class="tab-content card"><div class="tab-pane fade card-body active show"
+             id="tab-pane_attestation_anyOf_i0_anyOf_i0" role="tabpanel">
+            
+
+    <div class="breadcrumbs">root
         <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
             <path
                 fill-rule="evenodd"
                 d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
             />
         </svg>
-    <a href="#part_items_source_anyOf" onclick="anchorLink('part_items_source_anyOf')">anyOf</a>
+    <a href="#attestation" onclick="anchorLink('attestation')">attestation</a>
         <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
             <path
                 fill-rule="evenodd"
                 d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
             />
         </svg>
-    <a href="#part_items_source_anyOf_i0" onclick="anchorLink('part_items_source_anyOf_i0')">relPathOrWebUrl</a></div><span class="badge badge-dark value-type">Type: string</span><br/>
-<a href="#attestation_anyOf_i0" onclick="anchorLink('attestation_anyOf_i0')" class="ref-link">Same definition as attestation_anyOf_i0</a>
+    <a href="#attestation_anyOf" onclick="anchorLink('attestation_anyOf')">anyOf</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf_i0" onclick="anchorLink('attestation_anyOf_i0')">item 0</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf_i0_anyOf" onclick="anchorLink('attestation_anyOf_i0_anyOf')">anyOf</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf_i0_anyOf_i0" onclick="anchorLink('attestation_anyOf_i0_anyOf_i0')">webUrl</a></div><span class="badge badge-dark value-type">Type: string</span><br/>
+
+
+    <span class="pattern-value" id="attestation_anyOf_i0_anyOf_i0_pattern">Must match regular expression: <code>^https?://</code></span>
+        
+
+        
+        
+
+        
         </div><div class="tab-pane fade card-body "
-             id="tab-pane_part_items_source_anyOf_i1" role="tabpanel">
+             id="tab-pane_attestation_anyOf_i0_anyOf_i1" role="tabpanel">
             
 
     <div class="breadcrumbs">root
@@ -6950,35 +8248,357 @@ multiple inputs possible (with one entry each)</p>
                 d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
             />
         </svg>
-    <a href="#part" onclick="anchorLink('part')">part</a>
+    <a href="#attestation" onclick="anchorLink('attestation')">attestation</a>
         <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
             <path
                 fill-rule="evenodd"
                 d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
             />
         </svg>
-    <a href="#part_items" onclick="anchorLink('part_items')">part items</a>
+    <a href="#attestation_anyOf" onclick="anchorLink('attestation_anyOf')">anyOf</a>
         <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
             <path
                 fill-rule="evenodd"
                 d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
             />
         </svg>
-    <a href="#part_items_source" onclick="anchorLink('part_items_source')">source</a>
+    <a href="#attestation_anyOf_i0" onclick="anchorLink('attestation_anyOf_i0')">item 0</a>
         <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
             <path
                 fill-rule="evenodd"
                 d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
             />
         </svg>
-    <a href="#part_items_source_anyOf" onclick="anchorLink('part_items_source_anyOf')">anyOf</a>
+    <a href="#attestation_anyOf_i0_anyOf" onclick="anchorLink('attestation_anyOf_i0_anyOf')">anyOf</a>
         <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
             <path
                 fill-rule="evenodd"
                 d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
             />
         </svg>
-    <a href="#part_items_source_anyOf_i1" onclick="anchorLink('part_items_source_anyOf_i1')">item 1</a></div><span class="badge badge-dark value-type">Type: array</span><br/>
+    <a href="#attestation_anyOf_i0_anyOf_i1" onclick="anchorLink('attestation_anyOf_i0_anyOf_i1')">relPath</a></div><span class="badge badge-dark value-type">Type: string</span><br/>
+
+
+    <div class="not-value">
+<h4>Must <strong>not</strong> be:</h4>
+<div class="card">
+    <div class="card-body" id="">
+    
+
+    <div class="breadcrumbs">root
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation" onclick="anchorLink('attestation')">attestation</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf" onclick="anchorLink('attestation_anyOf')">anyOf</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf_i0" onclick="anchorLink('attestation_anyOf_i0')">item 0</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf_i0_anyOf" onclick="anchorLink('attestation_anyOf_i0_anyOf')">anyOf</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf_i0_anyOf_i1" onclick="anchorLink('attestation_anyOf_i0_anyOf_i1')">item 1</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf_i0_anyOf_i1_not" onclick="anchorLink('attestation_anyOf_i0_anyOf_i1_not')">not</a></div><br/>
+<div class="any-of-value" id="attestation_anyOf_i0_anyOf_i1_not_anyOf"><h2 class="handle">
+  <label>Any of</label>
+</h2><ul class="nav nav-tabs" id="tabsattestation_anyOf_i0_anyOf_i1_not_anyOf_anyOf" role="tablist"><li class="nav-item">
+            <a class="nav-link active anyOf-option"
+               id="attestation_anyOf_i0_anyOf_i1_not_anyOf_i0" data-toggle="tab" href="#tab-pane_attestation_anyOf_i0_anyOf_i1_not_anyOf_i0" role="tab"
+               onclick="setAnchor('#attestation_anyOf_i0_anyOf_i1_not_anyOf_i0')"
+            >Option 1</a>
+        </li><li class="nav-item">
+            <a class="nav-link anyOf-option"
+               id="attestation_anyOf_i0_anyOf_i1_not_anyOf_i1" data-toggle="tab" href="#tab-pane_attestation_anyOf_i0_anyOf_i1_not_anyOf_i1" role="tab"
+               onclick="setAnchor('#attestation_anyOf_i0_anyOf_i1_not_anyOf_i1')"
+            >Option 2</a>
+        </li><li class="nav-item">
+            <a class="nav-link anyOf-option"
+               id="attestation_anyOf_i0_anyOf_i1_not_anyOf_i2" data-toggle="tab" href="#tab-pane_attestation_anyOf_i0_anyOf_i1_not_anyOf_i2" role="tab"
+               onclick="setAnchor('#attestation_anyOf_i0_anyOf_i1_not_anyOf_i2')"
+            >Option 3</a>
+        </li></ul>
+<div class="tab-content card"><div class="tab-pane fade card-body active show"
+             id="tab-pane_attestation_anyOf_i0_anyOf_i1_not_anyOf_i0" role="tabpanel">
+            
+
+    <div class="breadcrumbs">root
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation" onclick="anchorLink('attestation')">attestation</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf" onclick="anchorLink('attestation_anyOf')">anyOf</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf_i0" onclick="anchorLink('attestation_anyOf_i0')">item 0</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf_i0_anyOf" onclick="anchorLink('attestation_anyOf_i0_anyOf')">anyOf</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf_i0_anyOf_i1" onclick="anchorLink('attestation_anyOf_i0_anyOf_i1')">item 1</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf_i0_anyOf_i1_not" onclick="anchorLink('attestation_anyOf_i0_anyOf_i1_not')">not</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf_i0_anyOf_i1_not_anyOf" onclick="anchorLink('attestation_anyOf_i0_anyOf_i1_not_anyOf')">anyOf</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf_i0_anyOf_i1_not_anyOf_i0" onclick="anchorLink('attestation_anyOf_i0_anyOf_i1_not_anyOf_i0')">item 0</a></div><span class="badge badge-dark value-type">Type: object</span><br/>
+<span class="pattern-value" id="attestation_anyOf_i0_anyOf_i1_not_anyOf_i0_pattern">Must match regular expression: <code>^[a-z]*:</code></span>
+        
+
+        
+        
+
+        
+        </div><div class="tab-pane fade card-body "
+             id="tab-pane_attestation_anyOf_i0_anyOf_i1_not_anyOf_i1" role="tabpanel">
+            
+
+    <div class="breadcrumbs">root
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation" onclick="anchorLink('attestation')">attestation</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf" onclick="anchorLink('attestation_anyOf')">anyOf</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf_i0" onclick="anchorLink('attestation_anyOf_i0')">item 0</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf_i0_anyOf" onclick="anchorLink('attestation_anyOf_i0_anyOf')">anyOf</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf_i0_anyOf_i1" onclick="anchorLink('attestation_anyOf_i0_anyOf_i1')">item 1</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf_i0_anyOf_i1_not" onclick="anchorLink('attestation_anyOf_i0_anyOf_i1_not')">not</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf_i0_anyOf_i1_not_anyOf" onclick="anchorLink('attestation_anyOf_i0_anyOf_i1_not_anyOf')">anyOf</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf_i0_anyOf_i1_not_anyOf_i1" onclick="anchorLink('attestation_anyOf_i0_anyOf_i1_not_anyOf_i1')">item 1</a></div><span class="badge badge-dark value-type">Type: object</span><br/>
+<span class="pattern-value" id="attestation_anyOf_i0_anyOf_i1_not_anyOf_i1_pattern">Must match regular expression: <code>^//</code></span>
+        
+
+        
+        
+
+        
+        </div><div class="tab-pane fade card-body "
+             id="tab-pane_attestation_anyOf_i0_anyOf_i1_not_anyOf_i2" role="tabpanel">
+            
+
+    <div class="breadcrumbs">root
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation" onclick="anchorLink('attestation')">attestation</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf" onclick="anchorLink('attestation_anyOf')">anyOf</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf_i0" onclick="anchorLink('attestation_anyOf_i0')">item 0</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf_i0_anyOf" onclick="anchorLink('attestation_anyOf_i0_anyOf')">anyOf</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf_i0_anyOf_i1" onclick="anchorLink('attestation_anyOf_i0_anyOf_i1')">item 1</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf_i0_anyOf_i1_not" onclick="anchorLink('attestation_anyOf_i0_anyOf_i1_not')">not</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf_i0_anyOf_i1_not_anyOf" onclick="anchorLink('attestation_anyOf_i0_anyOf_i1_not_anyOf')">anyOf</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf_i0_anyOf_i1_not_anyOf_i2" onclick="anchorLink('attestation_anyOf_i0_anyOf_i1_not_anyOf_i2')">item 2</a></div><span class="badge badge-dark value-type">Type: object</span><br/>
+<span class="pattern-value" id="attestation_anyOf_i0_anyOf_i1_not_anyOf_i2_pattern">Must match regular expression: <code>(?:.*/)?\.\.(?:/.*)?</code></span>
+        
+
+        
+        
+
+        
+        </div></div></div>
+        
+
+        
+        
+
+        
+    </div>
+</div>
+</div>
+        
+
+        
+        
+
+        
+        </div></div></div>
+        
+
+        
+        
+
+        
+        </div><div class="tab-pane fade card-body "
+             id="tab-pane_attestation_anyOf_i1" role="tabpanel">
+            
+
+    <div class="breadcrumbs">root
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation" onclick="anchorLink('attestation')">attestation</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf" onclick="anchorLink('attestation_anyOf')">anyOf</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf_i1" onclick="anchorLink('attestation_anyOf_i1')">item 1</a></div><span class="badge badge-dark value-type">Type: array</span><br/>
 
         
 
@@ -6987,7 +8607,7 @@ multiple inputs possible (with one entry each)</p>
 
          <span class="badge badge-info no-additional">No Additional Items</span><h4>Each item of this array must be:</h4>
     <div class="card">
-        <div class="card-body items-definition" id="part_items_source_anyOf_i1_items">
+        <div class="card-body items-definition" id="attestation_anyOf_i1_items">
             
 
     <div class="breadcrumbs">root
@@ -6997,42 +8617,28 @@ multiple inputs possible (with one entry each)</p>
                 d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
             />
         </svg>
-    <a href="#part" onclick="anchorLink('part')">part</a>
+    <a href="#attestation" onclick="anchorLink('attestation')">attestation</a>
         <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
             <path
                 fill-rule="evenodd"
                 d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
             />
         </svg>
-    <a href="#part_items" onclick="anchorLink('part_items')">part items</a>
+    <a href="#attestation_anyOf" onclick="anchorLink('attestation_anyOf')">anyOf</a>
         <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
             <path
                 fill-rule="evenodd"
                 d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
             />
         </svg>
-    <a href="#part_items_source" onclick="anchorLink('part_items_source')">source</a>
+    <a href="#attestation_anyOf_i1" onclick="anchorLink('attestation_anyOf_i1')">item 1</a>
         <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
             <path
                 fill-rule="evenodd"
                 d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
             />
         </svg>
-    <a href="#part_items_source_anyOf" onclick="anchorLink('part_items_source_anyOf')">anyOf</a>
-        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path
-                fill-rule="evenodd"
-                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
-            />
-        </svg>
-    <a href="#part_items_source_anyOf_i1" onclick="anchorLink('part_items_source_anyOf_i1')">item 1</a>
-        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path
-                fill-rule="evenodd"
-                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
-            />
-        </svg>
-    <a href="#part_items_source_anyOf_i1_items" onclick="anchorLink('part_items_source_anyOf_i1_items')">relPathOrWebUrl</a></div><span class="badge badge-dark value-type">Type: string</span><br/>
+    <a href="#attestation_anyOf_i1_items" onclick="anchorLink('attestation_anyOf_i1_items')">relPathOrWebUrl</a></div><span class="badge badge-dark value-type">Type: string</span><br/>
 <a href="#attestation_anyOf_i0" onclick="anchorLink('attestation_anyOf_i0')" class="ref-link">Same definition as attestation_anyOf_i0</a>
         </div>
     </div>
@@ -7044,15 +8650,15 @@ multiple inputs possible (with one entry each)</p>
 
         <br/>
 <div class="badge badge-secondary">Examples:</div>
-<br/><div id="part_items_source_ex1" class="jumbotron examples"><div class="highlight"><pre><span></span><span class="s2">&quot;3D-parts/assembly.asm&quot;</span>
+<br/><div id="attestation_ex1" class="jumbotron examples"><div class="highlight"><pre><span></span><span class="s2">&quot;3D-parts/assembly.asm&quot;</span>
 </pre></div>
-</div><div id="part_items_source_ex2" class="jumbotron examples"><div class="highlight"><pre><span></span><span class="s2">&quot;pcb/main.pro&quot;</span>
+</div><div id="attestation_ex2" class="jumbotron examples"><div class="highlight"><pre><span></span><span class="s2">&quot;pcb/main.pro&quot;</span>
 </pre></div>
-</div><div id="part_items_source_ex3" class="jumbotron examples"><div class="highlight"><pre><span></span><span class="s2">&quot;pcb/main.kicad_pcb&quot;</span>
+</div><div id="attestation_ex3" class="jumbotron examples"><div class="highlight"><pre><span></span><span class="s2">&quot;pcb/main.kicad_pcb&quot;</span>
 </pre></div>
-</div><div id="part_items_source_ex4" class="jumbotron examples"><div class="highlight"><pre><span></span><span class="s2">&quot;cad/part-x/model.fcstd&quot;</span>
+</div><div id="attestation_ex4" class="jumbotron examples"><div class="highlight"><pre><span></span><span class="s2">&quot;cad/part-x/model.fcstd&quot;</span>
 </pre></div>
-</div><div id="part_items_source_ex5" class="jumbotron examples"><div class="highlight"><pre><span></span><span class="p">[</span>
+</div><div id="attestation_ex5" class="jumbotron examples"><div class="highlight"><pre><span></span><span class="p">[</span>
 <span class="w">    </span><span class="s2">&quot;pcb/main.kicad_pcb&quot;</span><span class="p">,</span>
 <span class="w">    </span><span class="s2">&quot;cad/part-x/model.fcstd&quot;</span>
 <span class="p">]</span>
@@ -7101,21 +8707,23 @@ multiple inputs possible (with one entry each)</p>
 <span class="description"><p>identifier of the applying Technology-specific Documentation Criteria (TsDC) according to DIN SPEC 3105-1 - get it from: <a href="https://w3id.org/oseg/ont/tsdc/core">https://w3id.org/oseg/ont/tsdc/core</a> - multiple inputs possible (with one entry each)</p>
 </span>
 
-    <div class="any-of-value" id="part_items_tsdc_anyOf"><h2 class="handle">
+    
+
+    <div class="any-of-value" id="licensor_anyOf_i0_anyOf"><h2 class="handle">
   <label>Any of</label>
-</h2><ul class="nav nav-tabs" id="tabspart_items_tsdc_anyOf_anyOf" role="tablist"><li class="nav-item">
+</h2><ul class="nav nav-tabs" id="tabslicensor_anyOf_i0_anyOf_anyOf" role="tablist"><li class="nav-item">
             <a class="nav-link active anyOf-option"
-               id="part_items_tsdc_anyOf_i0" data-toggle="tab" href="#tab-pane_part_items_tsdc_anyOf_i0" role="tab"
-               onclick="setAnchor('#part_items_tsdc_anyOf_i0')"
+               id="licensor_anyOf_i0_anyOf_i0" data-toggle="tab" href="#tab-pane_licensor_anyOf_i0_anyOf_i0" role="tab"
+               onclick="setAnchor('#licensor_anyOf_i0_anyOf_i0')"
             >Option 1</a>
         </li><li class="nav-item">
             <a class="nav-link anyOf-option"
-               id="part_items_tsdc_anyOf_i1" data-toggle="tab" href="#tab-pane_part_items_tsdc_anyOf_i1" role="tab"
-               onclick="setAnchor('#part_items_tsdc_anyOf_i1')"
+               id="licensor_anyOf_i0_anyOf_i1" data-toggle="tab" href="#tab-pane_licensor_anyOf_i0_anyOf_i1" role="tab"
+               onclick="setAnchor('#licensor_anyOf_i0_anyOf_i1')"
             >Option 2</a>
         </li></ul>
 <div class="tab-content card"><div class="tab-pane fade card-body active show"
-             id="tab-pane_part_items_tsdc_anyOf_i0" role="tabpanel">
+             id="tab-pane_licensor_anyOf_i0_anyOf_i0" role="tabpanel">
             
 
     <div class="breadcrumbs">root
@@ -7125,35 +8733,35 @@ multiple inputs possible (with one entry each)</p>
                 d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
             />
         </svg>
-    <a href="#part" onclick="anchorLink('part')">part</a>
+    <a href="#licensor" onclick="anchorLink('licensor')">licensor</a>
         <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
             <path
                 fill-rule="evenodd"
                 d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
             />
         </svg>
-    <a href="#part_items" onclick="anchorLink('part_items')">part items</a>
+    <a href="#licensor_anyOf" onclick="anchorLink('licensor_anyOf')">anyOf</a>
         <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
             <path
                 fill-rule="evenodd"
                 d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
             />
         </svg>
-    <a href="#part_items_tsdc" onclick="anchorLink('part_items_tsdc')">tsdc</a>
+    <a href="#licensor_anyOf_i0" onclick="anchorLink('licensor_anyOf_i0')">item 0</a>
         <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
             <path
                 fill-rule="evenodd"
                 d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
             />
         </svg>
-    <a href="#part_items_tsdc_anyOf" onclick="anchorLink('part_items_tsdc_anyOf')">anyOf</a>
+    <a href="#licensor_anyOf_i0_anyOf" onclick="anchorLink('licensor_anyOf_i0_anyOf')">anyOf</a>
         <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
             <path
                 fill-rule="evenodd"
                 d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
             />
         </svg>
-    <a href="#part_items_tsdc_anyOf_i0" onclick="anchorLink('part_items_tsdc_anyOf_i0')">item 0</a></div><span class="badge badge-dark value-type">Type: string</span><br/>
+    <a href="#licensor_anyOf_i0_anyOf_i0" onclick="anchorLink('licensor_anyOf_i0_anyOf_i0')">item 0</a></div><span class="badge badge-dark value-type">Type: string</span><br/>
 
         
 
@@ -7162,7 +8770,7 @@ multiple inputs possible (with one entry each)</p>
 
         
         </div><div class="tab-pane fade card-body "
-             id="tab-pane_part_items_tsdc_anyOf_i1" role="tabpanel">
+             id="tab-pane_licensor_anyOf_i0_anyOf_i1" role="tabpanel">
             
 
     <div class="breadcrumbs">root
@@ -7172,35 +8780,35 @@ multiple inputs possible (with one entry each)</p>
                 d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
             />
         </svg>
-    <a href="#part" onclick="anchorLink('part')">part</a>
+    <a href="#licensor" onclick="anchorLink('licensor')">licensor</a>
         <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
             <path
                 fill-rule="evenodd"
                 d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
             />
         </svg>
-    <a href="#part_items" onclick="anchorLink('part_items')">part items</a>
+    <a href="#licensor_anyOf" onclick="anchorLink('licensor_anyOf')">anyOf</a>
         <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
             <path
                 fill-rule="evenodd"
                 d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
             />
         </svg>
-    <a href="#part_items_tsdc" onclick="anchorLink('part_items_tsdc')">tsdc</a>
+    <a href="#licensor_anyOf_i0" onclick="anchorLink('licensor_anyOf_i0')">item 0</a>
         <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
             <path
                 fill-rule="evenodd"
                 d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
             />
         </svg>
-    <a href="#part_items_tsdc_anyOf" onclick="anchorLink('part_items_tsdc_anyOf')">anyOf</a>
+    <a href="#licensor_anyOf_i0_anyOf" onclick="anchorLink('licensor_anyOf_i0_anyOf')">anyOf</a>
         <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
             <path
                 fill-rule="evenodd"
                 d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
             />
         </svg>
-    <a href="#part_items_tsdc_anyOf_i1" onclick="anchorLink('part_items_tsdc_anyOf_i1')">item 1</a></div><span class="badge badge-dark value-type">Type: array of string</span><br/>
+    <a href="#licensor_anyOf_i0_anyOf_i1" onclick="anchorLink('licensor_anyOf_i0_anyOf_i1')">item 1</a></div><span class="badge badge-dark value-type">Type: array of string</span><br/>
 
         
 
@@ -7209,7 +8817,7 @@ multiple inputs possible (with one entry each)</p>
 
          <span class="badge badge-info no-additional">No Additional Items</span><h4>Each item of this array must be:</h4>
     <div class="card">
-        <div class="card-body items-definition" id="part_items_tsdc_anyOf_i1_items">
+        <div class="card-body items-definition" id="licensor_anyOf_i0_anyOf_i1_items">
             
 
     <div class="breadcrumbs">root
@@ -7219,42 +8827,42 @@ multiple inputs possible (with one entry each)</p>
                 d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
             />
         </svg>
-    <a href="#part" onclick="anchorLink('part')">part</a>
+    <a href="#licensor" onclick="anchorLink('licensor')">licensor</a>
         <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
             <path
                 fill-rule="evenodd"
                 d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
             />
         </svg>
-    <a href="#part_items" onclick="anchorLink('part_items')">part items</a>
+    <a href="#licensor_anyOf" onclick="anchorLink('licensor_anyOf')">anyOf</a>
         <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
             <path
                 fill-rule="evenodd"
                 d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
             />
         </svg>
-    <a href="#part_items_tsdc" onclick="anchorLink('part_items_tsdc')">tsdc</a>
+    <a href="#licensor_anyOf_i0" onclick="anchorLink('licensor_anyOf_i0')">item 0</a>
         <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
             <path
                 fill-rule="evenodd"
                 d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
             />
         </svg>
-    <a href="#part_items_tsdc_anyOf" onclick="anchorLink('part_items_tsdc_anyOf')">anyOf</a>
+    <a href="#licensor_anyOf_i0_anyOf" onclick="anchorLink('licensor_anyOf_i0_anyOf')">anyOf</a>
         <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
             <path
                 fill-rule="evenodd"
                 d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
             />
         </svg>
-    <a href="#part_items_tsdc_anyOf_i1" onclick="anchorLink('part_items_tsdc_anyOf_i1')">item 1</a>
+    <a href="#licensor_anyOf_i0_anyOf_i1" onclick="anchorLink('licensor_anyOf_i0_anyOf_i1')">item 1</a>
         <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
             <path
                 fill-rule="evenodd"
                 d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
             />
         </svg>
-    <a href="#part_items_tsdc_anyOf_i1_items" onclick="anchorLink('part_items_tsdc_anyOf_i1_items')">item 1 items</a></div><span class="badge badge-dark value-type">Type: string</span><br/>
+    <a href="#licensor_anyOf_i0_anyOf_i1_items" onclick="anchorLink('licensor_anyOf_i0_anyOf_i1_items')">item 1 items</a></div><span class="badge badge-dark value-type">Type: string</span><br/>
 
         
 
@@ -7272,23 +8880,23 @@ multiple inputs possible (with one entry each)</p>
 
         <br/>
 <div class="badge badge-secondary">Examples:</div>
-<br/><div id="part_items_tsdc_ex1" class="jumbotron examples"><div class="highlight"><pre><span></span><span class="s2">&quot;ASM&quot;</span>
+<br/><div id="licensor_anyOf_i0_ex1" class="jumbotron examples"><div class="highlight"><pre><span></span><span class="s2">&quot;ASM&quot;</span>
 </pre></div>
-</div><div id="part_items_tsdc_ex2" class="jumbotron examples"><div class="highlight"><pre><span></span><span class="s2">&quot;MEC&quot;</span>
+</div><div id="licensor_anyOf_i0_ex2" class="jumbotron examples"><div class="highlight"><pre><span></span><span class="s2">&quot;MEC&quot;</span>
 </pre></div>
-</div><div id="part_items_tsdc_ex3" class="jumbotron examples"><div class="highlight"><pre><span></span><span class="s2">&quot;CIR&quot;</span>
+</div><div id="licensor_anyOf_i0_ex3" class="jumbotron examples"><div class="highlight"><pre><span></span><span class="s2">&quot;CIR&quot;</span>
 </pre></div>
-</div><div id="part_items_tsdc_ex4" class="jumbotron examples"><div class="highlight"><pre><span></span><span class="s2">&quot;PCB&quot;</span>
+</div><div id="licensor_anyOf_i0_ex4" class="jumbotron examples"><div class="highlight"><pre><span></span><span class="s2">&quot;PCB&quot;</span>
 </pre></div>
-</div><div id="part_items_tsdc_ex5" class="jumbotron examples"><div class="highlight"><pre><span></span><span class="s2">&quot;WEL&quot;</span>
+</div><div id="licensor_anyOf_i0_ex5" class="jumbotron examples"><div class="highlight"><pre><span></span><span class="s2">&quot;WEL&quot;</span>
 </pre></div>
-</div><div id="part_items_tsdc_ex6" class="jumbotron examples"><div class="highlight"><pre><span></span><span class="s2">&quot;3DP&quot;</span>
+</div><div id="licensor_anyOf_i0_ex6" class="jumbotron examples"><div class="highlight"><pre><span></span><span class="s2">&quot;3DP&quot;</span>
 </pre></div>
-</div><div id="part_items_tsdc_ex7" class="jumbotron examples"><div class="highlight"><pre><span></span><span class="s2">&quot;LAS&quot;</span>
+</div><div id="licensor_anyOf_i0_ex7" class="jumbotron examples"><div class="highlight"><pre><span></span><span class="s2">&quot;LAS&quot;</span>
 </pre></div>
-</div><div id="part_items_tsdc_ex8" class="jumbotron examples"><div class="highlight"><pre><span></span><span class="s2">&quot;CNC&quot;</span>
+</div><div id="licensor_anyOf_i0_ex8" class="jumbotron examples"><div class="highlight"><pre><span></span><span class="s2">&quot;CNC&quot;</span>
 </pre></div>
-</div><div id="part_items_tsdc_ex9" class="jumbotron examples"><div class="highlight"><pre><span></span><span class="p">[</span>
+</div><div id="licensor_anyOf_i0_ex9" class="jumbotron examples"><div class="highlight"><pre><span></span><span class="p">[</span>
 <span class="w">    </span><span class="s2">&quot;ASM&quot;</span><span class="p">,</span>
 <span class="w">    </span><span class="s2">&quot;MEC&quot;</span><span class="p">,</span>
 <span class="w">    </span><span class="s2">&quot;CIR&quot;</span>
@@ -7615,23 +9223,25 @@ multiple inputs possible (with one entry each)</p>
                 d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
             />
         </svg>
-    <a href="#readme" onclick="anchorLink('readme')">readme</a></div><br/>
+    <a href="#readme" onclick="anchorLink('readme')">readme</a></div><span class="badge badge-dark value-type">Type: object</span><br/>
 <span class="description"><p>repo-relative path (or absolute HTTP(S) URL) to to the corresponding ReadMe, which is the (human) entry-point into (the sources of) an OSH project</p>
-</span><div class="any-of-value" id="readme_anyOf"><h2 class="handle">
+</span>
+
+    <div class="any-of-value" id="attestation_anyOf"><h2 class="handle">
   <label>Any of</label>
-</h2><ul class="nav nav-tabs" id="tabsreadme_anyOf_anyOf" role="tablist"><li class="nav-item">
+</h2><ul class="nav nav-tabs" id="tabsattestation_anyOf_anyOf" role="tablist"><li class="nav-item">
             <a class="nav-link active anyOf-option"
-               id="readme_anyOf_i0" data-toggle="tab" href="#tab-pane_readme_anyOf_i0" role="tab"
-               onclick="setAnchor('#readme_anyOf_i0')"
+               id="attestation_anyOf_i0" data-toggle="tab" href="#tab-pane_attestation_anyOf_i0" role="tab"
+               onclick="setAnchor('#attestation_anyOf_i0')"
             >relPathOrWebUrl</a>
         </li><li class="nav-item">
             <a class="nav-link anyOf-option"
-               id="readme_anyOf_i1" data-toggle="tab" href="#tab-pane_readme_anyOf_i1" role="tab"
-               onclick="setAnchor('#readme_anyOf_i1')"
+               id="attestation_anyOf_i1" data-toggle="tab" href="#tab-pane_attestation_anyOf_i1" role="tab"
+               onclick="setAnchor('#attestation_anyOf_i1')"
             >Option 2</a>
         </li></ul>
 <div class="tab-content card"><div class="tab-pane fade card-body active show"
-             id="tab-pane_readme_anyOf_i0" role="tabpanel">
+             id="tab-pane_attestation_anyOf_i0" role="tabpanel">
             
 
     <div class="breadcrumbs">root
@@ -7641,24 +9251,87 @@ multiple inputs possible (with one entry each)</p>
                 d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
             />
         </svg>
-    <a href="#readme" onclick="anchorLink('readme')">readme</a>
+    <a href="#attestation" onclick="anchorLink('attestation')">attestation</a>
         <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
             <path
                 fill-rule="evenodd"
                 d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
             />
         </svg>
-    <a href="#readme_anyOf" onclick="anchorLink('readme_anyOf')">anyOf</a>
+    <a href="#attestation_anyOf" onclick="anchorLink('attestation_anyOf')">anyOf</a>
         <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
             <path
                 fill-rule="evenodd"
                 d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
             />
         </svg>
-    <a href="#readme_anyOf_i0" onclick="anchorLink('readme_anyOf_i0')">relPathOrWebUrl</a></div><span class="badge badge-dark value-type">Type: string</span><br/>
-<a href="#attestation_anyOf_i0" onclick="anchorLink('attestation_anyOf_i0')" class="ref-link">Same definition as attestation_anyOf_i0</a>
+    <a href="#attestation_anyOf_i0" onclick="anchorLink('attestation_anyOf_i0')">relPathOrWebUrl</a></div><span class="badge badge-dark value-type">Type: string</span><br/>
+
+
+    <div class="any-of-value" id="attestation_anyOf_i0_anyOf"><h2 class="handle">
+  <label>Any of</label>
+</h2><ul class="nav nav-tabs" id="tabsattestation_anyOf_i0_anyOf_anyOf" role="tablist"><li class="nav-item">
+            <a class="nav-link active anyOf-option"
+               id="attestation_anyOf_i0_anyOf_i0" data-toggle="tab" href="#tab-pane_attestation_anyOf_i0_anyOf_i0" role="tab"
+               onclick="setAnchor('#attestation_anyOf_i0_anyOf_i0')"
+            >webUrl</a>
+        </li><li class="nav-item">
+            <a class="nav-link anyOf-option"
+               id="attestation_anyOf_i0_anyOf_i1" data-toggle="tab" href="#tab-pane_attestation_anyOf_i0_anyOf_i1" role="tab"
+               onclick="setAnchor('#attestation_anyOf_i0_anyOf_i1')"
+            >relPath</a>
+        </li></ul>
+<div class="tab-content card"><div class="tab-pane fade card-body active show"
+             id="tab-pane_attestation_anyOf_i0_anyOf_i0" role="tabpanel">
+            
+
+    <div class="breadcrumbs">root
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation" onclick="anchorLink('attestation')">attestation</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf" onclick="anchorLink('attestation_anyOf')">anyOf</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf_i0" onclick="anchorLink('attestation_anyOf_i0')">item 0</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf_i0_anyOf" onclick="anchorLink('attestation_anyOf_i0_anyOf')">anyOf</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf_i0_anyOf_i0" onclick="anchorLink('attestation_anyOf_i0_anyOf_i0')">webUrl</a></div><span class="badge badge-dark value-type">Type: string</span><br/>
+
+
+    <span class="pattern-value" id="attestation_anyOf_i0_anyOf_i0_pattern">Must match regular expression: <code>^https?://</code></span>
+        
+
+        
+        
+
+        
         </div><div class="tab-pane fade card-body "
-             id="tab-pane_readme_anyOf_i1" role="tabpanel">
+             id="tab-pane_attestation_anyOf_i0_anyOf_i1" role="tabpanel">
             
 
     <div class="breadcrumbs">root
@@ -7668,21 +9341,357 @@ multiple inputs possible (with one entry each)</p>
                 d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
             />
         </svg>
-    <a href="#readme" onclick="anchorLink('readme')">readme</a>
+    <a href="#attestation" onclick="anchorLink('attestation')">attestation</a>
         <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
             <path
                 fill-rule="evenodd"
                 d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
             />
         </svg>
-    <a href="#readme_anyOf" onclick="anchorLink('readme_anyOf')">anyOf</a>
+    <a href="#attestation_anyOf" onclick="anchorLink('attestation_anyOf')">anyOf</a>
         <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
             <path
                 fill-rule="evenodd"
                 d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
             />
         </svg>
-    <a href="#readme_anyOf_i1" onclick="anchorLink('readme_anyOf_i1')">item 1</a></div><span class="badge badge-dark value-type">Type: array</span><br/>
+    <a href="#attestation_anyOf_i0" onclick="anchorLink('attestation_anyOf_i0')">item 0</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf_i0_anyOf" onclick="anchorLink('attestation_anyOf_i0_anyOf')">anyOf</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf_i0_anyOf_i1" onclick="anchorLink('attestation_anyOf_i0_anyOf_i1')">relPath</a></div><span class="badge badge-dark value-type">Type: string</span><br/>
+
+
+    <div class="not-value">
+<h4>Must <strong>not</strong> be:</h4>
+<div class="card">
+    <div class="card-body" id="">
+    
+
+    <div class="breadcrumbs">root
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation" onclick="anchorLink('attestation')">attestation</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf" onclick="anchorLink('attestation_anyOf')">anyOf</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf_i0" onclick="anchorLink('attestation_anyOf_i0')">item 0</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf_i0_anyOf" onclick="anchorLink('attestation_anyOf_i0_anyOf')">anyOf</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf_i0_anyOf_i1" onclick="anchorLink('attestation_anyOf_i0_anyOf_i1')">item 1</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf_i0_anyOf_i1_not" onclick="anchorLink('attestation_anyOf_i0_anyOf_i1_not')">not</a></div><br/>
+<div class="any-of-value" id="attestation_anyOf_i0_anyOf_i1_not_anyOf"><h2 class="handle">
+  <label>Any of</label>
+</h2><ul class="nav nav-tabs" id="tabsattestation_anyOf_i0_anyOf_i1_not_anyOf_anyOf" role="tablist"><li class="nav-item">
+            <a class="nav-link active anyOf-option"
+               id="attestation_anyOf_i0_anyOf_i1_not_anyOf_i0" data-toggle="tab" href="#tab-pane_attestation_anyOf_i0_anyOf_i1_not_anyOf_i0" role="tab"
+               onclick="setAnchor('#attestation_anyOf_i0_anyOf_i1_not_anyOf_i0')"
+            >Option 1</a>
+        </li><li class="nav-item">
+            <a class="nav-link anyOf-option"
+               id="attestation_anyOf_i0_anyOf_i1_not_anyOf_i1" data-toggle="tab" href="#tab-pane_attestation_anyOf_i0_anyOf_i1_not_anyOf_i1" role="tab"
+               onclick="setAnchor('#attestation_anyOf_i0_anyOf_i1_not_anyOf_i1')"
+            >Option 2</a>
+        </li><li class="nav-item">
+            <a class="nav-link anyOf-option"
+               id="attestation_anyOf_i0_anyOf_i1_not_anyOf_i2" data-toggle="tab" href="#tab-pane_attestation_anyOf_i0_anyOf_i1_not_anyOf_i2" role="tab"
+               onclick="setAnchor('#attestation_anyOf_i0_anyOf_i1_not_anyOf_i2')"
+            >Option 3</a>
+        </li></ul>
+<div class="tab-content card"><div class="tab-pane fade card-body active show"
+             id="tab-pane_attestation_anyOf_i0_anyOf_i1_not_anyOf_i0" role="tabpanel">
+            
+
+    <div class="breadcrumbs">root
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation" onclick="anchorLink('attestation')">attestation</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf" onclick="anchorLink('attestation_anyOf')">anyOf</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf_i0" onclick="anchorLink('attestation_anyOf_i0')">item 0</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf_i0_anyOf" onclick="anchorLink('attestation_anyOf_i0_anyOf')">anyOf</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf_i0_anyOf_i1" onclick="anchorLink('attestation_anyOf_i0_anyOf_i1')">item 1</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf_i0_anyOf_i1_not" onclick="anchorLink('attestation_anyOf_i0_anyOf_i1_not')">not</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf_i0_anyOf_i1_not_anyOf" onclick="anchorLink('attestation_anyOf_i0_anyOf_i1_not_anyOf')">anyOf</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf_i0_anyOf_i1_not_anyOf_i0" onclick="anchorLink('attestation_anyOf_i0_anyOf_i1_not_anyOf_i0')">item 0</a></div><span class="badge badge-dark value-type">Type: object</span><br/>
+<span class="pattern-value" id="attestation_anyOf_i0_anyOf_i1_not_anyOf_i0_pattern">Must match regular expression: <code>^[a-z]*:</code></span>
+        
+
+        
+        
+
+        
+        </div><div class="tab-pane fade card-body "
+             id="tab-pane_attestation_anyOf_i0_anyOf_i1_not_anyOf_i1" role="tabpanel">
+            
+
+    <div class="breadcrumbs">root
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation" onclick="anchorLink('attestation')">attestation</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf" onclick="anchorLink('attestation_anyOf')">anyOf</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf_i0" onclick="anchorLink('attestation_anyOf_i0')">item 0</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf_i0_anyOf" onclick="anchorLink('attestation_anyOf_i0_anyOf')">anyOf</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf_i0_anyOf_i1" onclick="anchorLink('attestation_anyOf_i0_anyOf_i1')">item 1</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf_i0_anyOf_i1_not" onclick="anchorLink('attestation_anyOf_i0_anyOf_i1_not')">not</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf_i0_anyOf_i1_not_anyOf" onclick="anchorLink('attestation_anyOf_i0_anyOf_i1_not_anyOf')">anyOf</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf_i0_anyOf_i1_not_anyOf_i1" onclick="anchorLink('attestation_anyOf_i0_anyOf_i1_not_anyOf_i1')">item 1</a></div><span class="badge badge-dark value-type">Type: object</span><br/>
+<span class="pattern-value" id="attestation_anyOf_i0_anyOf_i1_not_anyOf_i1_pattern">Must match regular expression: <code>^//</code></span>
+        
+
+        
+        
+
+        
+        </div><div class="tab-pane fade card-body "
+             id="tab-pane_attestation_anyOf_i0_anyOf_i1_not_anyOf_i2" role="tabpanel">
+            
+
+    <div class="breadcrumbs">root
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation" onclick="anchorLink('attestation')">attestation</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf" onclick="anchorLink('attestation_anyOf')">anyOf</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf_i0" onclick="anchorLink('attestation_anyOf_i0')">item 0</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf_i0_anyOf" onclick="anchorLink('attestation_anyOf_i0_anyOf')">anyOf</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf_i0_anyOf_i1" onclick="anchorLink('attestation_anyOf_i0_anyOf_i1')">item 1</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf_i0_anyOf_i1_not" onclick="anchorLink('attestation_anyOf_i0_anyOf_i1_not')">not</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf_i0_anyOf_i1_not_anyOf" onclick="anchorLink('attestation_anyOf_i0_anyOf_i1_not_anyOf')">anyOf</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf_i0_anyOf_i1_not_anyOf_i2" onclick="anchorLink('attestation_anyOf_i0_anyOf_i1_not_anyOf_i2')">item 2</a></div><span class="badge badge-dark value-type">Type: object</span><br/>
+<span class="pattern-value" id="attestation_anyOf_i0_anyOf_i1_not_anyOf_i2_pattern">Must match regular expression: <code>(?:.*/)?\.\.(?:/.*)?</code></span>
+        
+
+        
+        
+
+        
+        </div></div></div>
+        
+
+        
+        
+
+        
+    </div>
+</div>
+</div>
+        
+
+        
+        
+
+        
+        </div></div></div>
+        
+
+        
+        
+
+        
+        </div><div class="tab-pane fade card-body "
+             id="tab-pane_attestation_anyOf_i1" role="tabpanel">
+            
+
+    <div class="breadcrumbs">root
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation" onclick="anchorLink('attestation')">attestation</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf" onclick="anchorLink('attestation_anyOf')">anyOf</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf_i1" onclick="anchorLink('attestation_anyOf_i1')">item 1</a></div><span class="badge badge-dark value-type">Type: array</span><br/>
 
         
 
@@ -7691,7 +9700,7 @@ multiple inputs possible (with one entry each)</p>
 
          <span class="badge badge-info no-additional">No Additional Items</span><h4>Each item of this array must be:</h4>
     <div class="card">
-        <div class="card-body items-definition" id="readme_anyOf_i1_items">
+        <div class="card-body items-definition" id="attestation_anyOf_i1_items">
             
 
     <div class="breadcrumbs">root
@@ -7701,28 +9710,28 @@ multiple inputs possible (with one entry each)</p>
                 d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
             />
         </svg>
-    <a href="#readme" onclick="anchorLink('readme')">readme</a>
+    <a href="#attestation" onclick="anchorLink('attestation')">attestation</a>
         <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
             <path
                 fill-rule="evenodd"
                 d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
             />
         </svg>
-    <a href="#readme_anyOf" onclick="anchorLink('readme_anyOf')">anyOf</a>
+    <a href="#attestation_anyOf" onclick="anchorLink('attestation_anyOf')">anyOf</a>
         <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
             <path
                 fill-rule="evenodd"
                 d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
             />
         </svg>
-    <a href="#readme_anyOf_i1" onclick="anchorLink('readme_anyOf_i1')">item 1</a>
+    <a href="#attestation_anyOf_i1" onclick="anchorLink('attestation_anyOf_i1')">item 1</a>
         <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
             <path
                 fill-rule="evenodd"
                 d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
             />
         </svg>
-    <a href="#readme_anyOf_i1_items" onclick="anchorLink('readme_anyOf_i1_items')">relPathOrWebUrl</a></div><span class="badge badge-dark value-type">Type: string</span><br/>
+    <a href="#attestation_anyOf_i1_items" onclick="anchorLink('attestation_anyOf_i1_items')">relPathOrWebUrl</a></div><span class="badge badge-dark value-type">Type: string</span><br/>
 <a href="#attestation_anyOf_i0" onclick="anchorLink('attestation_anyOf_i0')" class="ref-link">Same definition as attestation_anyOf_i0</a>
         </div>
     </div>
@@ -7734,17 +9743,17 @@ multiple inputs possible (with one entry each)</p>
 
         <br/>
 <div class="badge badge-secondary">Examples:</div>
-<br/><div id="readme_ex1" class="jumbotron examples"><div class="highlight"><pre><span></span><span class="s2">&quot;README.md&quot;</span>
+<br/><div id="attestation_ex1" class="jumbotron examples"><div class="highlight"><pre><span></span><span class="s2">&quot;README.md&quot;</span>
 </pre></div>
-</div><div id="readme_ex2" class="jumbotron examples"><div class="highlight"><pre><span></span><span class="s2">&quot;README.txt&quot;</span>
+</div><div id="attestation_ex2" class="jumbotron examples"><div class="highlight"><pre><span></span><span class="s2">&quot;README.txt&quot;</span>
 </pre></div>
-</div><div id="readme_ex3" class="jumbotron examples"><div class="highlight"><pre><span></span><span class="s2">&quot;README&quot;</span>
+</div><div id="attestation_ex3" class="jumbotron examples"><div class="highlight"><pre><span></span><span class="s2">&quot;README&quot;</span>
 </pre></div>
-</div><div id="readme_ex4" class="jumbotron examples"><div class="highlight"><pre><span></span><span class="s2">&quot;README-JP.md&quot;</span>
+</div><div id="attestation_ex4" class="jumbotron examples"><div class="highlight"><pre><span></span><span class="s2">&quot;README-JP.md&quot;</span>
 </pre></div>
-</div><div id="readme_ex5" class="jumbotron examples"><div class="highlight"><pre><span></span><span class="s2">&quot;README-JP&quot;</span>
+</div><div id="attestation_ex5" class="jumbotron examples"><div class="highlight"><pre><span></span><span class="s2">&quot;README-JP&quot;</span>
 </pre></div>
-</div><div id="readme_ex6" class="jumbotron examples"><div class="highlight"><pre><span></span><span class="p">[</span>
+</div><div id="attestation_ex6" class="jumbotron examples"><div class="highlight"><pre><span></span><span class="p">[</span>
 <span class="w">    </span><span class="s2">&quot;README-EN.md&quot;</span><span class="p">,</span>
 <span class="w">    </span><span class="s2">&quot;README-JP.md&quot;</span>
 <span class="p">]</span>
@@ -8815,24 +10824,26 @@ multiple inputs possible (with one entry each)</p>
                 d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
             />
         </svg>
-    <a href="#standard-compliance" onclick="anchorLink('standard-compliance')">standard-compliance</a></div><br/>
+    <a href="#standard-compliance" onclick="anchorLink('standard-compliance')">standard-compliance</a></div><span class="badge badge-dark value-type">Type: object</span><br/>
 <span class="description"><p>document-number of the official standard the OSH module complies;<br />
 multiple inputs possible (with one entry each)</p>
-</span><div class="any-of-value" id="standard-compliance_anyOf"><h2 class="handle">
+</span>
+
+    <div class="any-of-value" id="licensor_anyOf_i0_anyOf"><h2 class="handle">
   <label>Any of</label>
-</h2><ul class="nav nav-tabs" id="tabsstandard-compliance_anyOf_anyOf" role="tablist"><li class="nav-item">
+</h2><ul class="nav nav-tabs" id="tabslicensor_anyOf_i0_anyOf_anyOf" role="tablist"><li class="nav-item">
             <a class="nav-link active anyOf-option"
-               id="standard-compliance_anyOf_i0" data-toggle="tab" href="#tab-pane_standard-compliance_anyOf_i0" role="tab"
-               onclick="setAnchor('#standard-compliance_anyOf_i0')"
+               id="licensor_anyOf_i0_anyOf_i0" data-toggle="tab" href="#tab-pane_licensor_anyOf_i0_anyOf_i0" role="tab"
+               onclick="setAnchor('#licensor_anyOf_i0_anyOf_i0')"
             >Option 1</a>
         </li><li class="nav-item">
             <a class="nav-link anyOf-option"
-               id="standard-compliance_anyOf_i1" data-toggle="tab" href="#tab-pane_standard-compliance_anyOf_i1" role="tab"
-               onclick="setAnchor('#standard-compliance_anyOf_i1')"
+               id="licensor_anyOf_i0_anyOf_i1" data-toggle="tab" href="#tab-pane_licensor_anyOf_i0_anyOf_i1" role="tab"
+               onclick="setAnchor('#licensor_anyOf_i0_anyOf_i1')"
             >Option 2</a>
         </li></ul>
 <div class="tab-content card"><div class="tab-pane fade card-body active show"
-             id="tab-pane_standard-compliance_anyOf_i0" role="tabpanel">
+             id="tab-pane_licensor_anyOf_i0_anyOf_i0" role="tabpanel">
             
 
     <div class="breadcrumbs">root
@@ -8842,21 +10853,35 @@ multiple inputs possible (with one entry each)</p>
                 d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
             />
         </svg>
-    <a href="#standard-compliance" onclick="anchorLink('standard-compliance')">standard-compliance</a>
+    <a href="#licensor" onclick="anchorLink('licensor')">licensor</a>
         <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
             <path
                 fill-rule="evenodd"
                 d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
             />
         </svg>
-    <a href="#standard-compliance_anyOf" onclick="anchorLink('standard-compliance_anyOf')">anyOf</a>
+    <a href="#licensor_anyOf" onclick="anchorLink('licensor_anyOf')">anyOf</a>
         <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
             <path
                 fill-rule="evenodd"
                 d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
             />
         </svg>
-    <a href="#standard-compliance_anyOf_i0" onclick="anchorLink('standard-compliance_anyOf_i0')">item 0</a></div><span class="badge badge-dark value-type">Type: string</span><br/>
+    <a href="#licensor_anyOf_i0" onclick="anchorLink('licensor_anyOf_i0')">item 0</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#licensor_anyOf_i0_anyOf" onclick="anchorLink('licensor_anyOf_i0_anyOf')">anyOf</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#licensor_anyOf_i0_anyOf_i0" onclick="anchorLink('licensor_anyOf_i0_anyOf_i0')">item 0</a></div><span class="badge badge-dark value-type">Type: string</span><br/>
 
         
 
@@ -8865,7 +10890,7 @@ multiple inputs possible (with one entry each)</p>
 
         
         </div><div class="tab-pane fade card-body "
-             id="tab-pane_standard-compliance_anyOf_i1" role="tabpanel">
+             id="tab-pane_licensor_anyOf_i0_anyOf_i1" role="tabpanel">
             
 
     <div class="breadcrumbs">root
@@ -8875,21 +10900,35 @@ multiple inputs possible (with one entry each)</p>
                 d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
             />
         </svg>
-    <a href="#standard-compliance" onclick="anchorLink('standard-compliance')">standard-compliance</a>
+    <a href="#licensor" onclick="anchorLink('licensor')">licensor</a>
         <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
             <path
                 fill-rule="evenodd"
                 d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
             />
         </svg>
-    <a href="#standard-compliance_anyOf" onclick="anchorLink('standard-compliance_anyOf')">anyOf</a>
+    <a href="#licensor_anyOf" onclick="anchorLink('licensor_anyOf')">anyOf</a>
         <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
             <path
                 fill-rule="evenodd"
                 d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
             />
         </svg>
-    <a href="#standard-compliance_anyOf_i1" onclick="anchorLink('standard-compliance_anyOf_i1')">item 1</a></div><span class="badge badge-dark value-type">Type: array of string</span><br/>
+    <a href="#licensor_anyOf_i0" onclick="anchorLink('licensor_anyOf_i0')">item 0</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#licensor_anyOf_i0_anyOf" onclick="anchorLink('licensor_anyOf_i0_anyOf')">anyOf</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#licensor_anyOf_i0_anyOf_i1" onclick="anchorLink('licensor_anyOf_i0_anyOf_i1')">item 1</a></div><span class="badge badge-dark value-type">Type: array of string</span><br/>
 
         
 
@@ -8898,7 +10937,7 @@ multiple inputs possible (with one entry each)</p>
 
          <span class="badge badge-info no-additional">No Additional Items</span><h4>Each item of this array must be:</h4>
     <div class="card">
-        <div class="card-body items-definition" id="standard-compliance_anyOf_i1_items">
+        <div class="card-body items-definition" id="licensor_anyOf_i0_anyOf_i1_items">
             
 
     <div class="breadcrumbs">root
@@ -8908,28 +10947,42 @@ multiple inputs possible (with one entry each)</p>
                 d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
             />
         </svg>
-    <a href="#standard-compliance" onclick="anchorLink('standard-compliance')">standard-compliance</a>
+    <a href="#licensor" onclick="anchorLink('licensor')">licensor</a>
         <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
             <path
                 fill-rule="evenodd"
                 d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
             />
         </svg>
-    <a href="#standard-compliance_anyOf" onclick="anchorLink('standard-compliance_anyOf')">anyOf</a>
+    <a href="#licensor_anyOf" onclick="anchorLink('licensor_anyOf')">anyOf</a>
         <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
             <path
                 fill-rule="evenodd"
                 d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
             />
         </svg>
-    <a href="#standard-compliance_anyOf_i1" onclick="anchorLink('standard-compliance_anyOf_i1')">item 1</a>
+    <a href="#licensor_anyOf_i0" onclick="anchorLink('licensor_anyOf_i0')">item 0</a>
         <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
             <path
                 fill-rule="evenodd"
                 d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
             />
         </svg>
-    <a href="#standard-compliance_anyOf_i1_items" onclick="anchorLink('standard-compliance_anyOf_i1_items')">item 1 items</a></div><span class="badge badge-dark value-type">Type: string</span><br/>
+    <a href="#licensor_anyOf_i0_anyOf" onclick="anchorLink('licensor_anyOf_i0_anyOf')">anyOf</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#licensor_anyOf_i0_anyOf_i1" onclick="anchorLink('licensor_anyOf_i0_anyOf_i1')">item 1</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#licensor_anyOf_i0_anyOf_i1_items" onclick="anchorLink('licensor_anyOf_i0_anyOf_i1_items')">item 1 items</a></div><span class="badge badge-dark value-type">Type: string</span><br/>
 
         
 
@@ -8947,13 +11000,13 @@ multiple inputs possible (with one entry each)</p>
 
         <br/>
 <div class="badge badge-secondary">Examples:</div>
-<br/><div id="standard-compliance_ex1" class="jumbotron examples"><div class="highlight"><pre><span></span><span class="s2">&quot;DIN SPEC 3105&quot;</span>
+<br/><div id="licensor_anyOf_i0_ex1" class="jumbotron examples"><div class="highlight"><pre><span></span><span class="s2">&quot;DIN SPEC 3105&quot;</span>
 </pre></div>
-</div><div id="standard-compliance_ex2" class="jumbotron examples"><div class="highlight"><pre><span></span><span class="s2">&quot;DIN EN 1335&quot;</span>
+</div><div id="licensor_anyOf_i0_ex2" class="jumbotron examples"><div class="highlight"><pre><span></span><span class="s2">&quot;DIN EN 1335&quot;</span>
 </pre></div>
-</div><div id="standard-compliance_ex3" class="jumbotron examples"><div class="highlight"><pre><span></span><span class="s2">&quot;ISO 1337&quot;</span>
+</div><div id="licensor_anyOf_i0_ex3" class="jumbotron examples"><div class="highlight"><pre><span></span><span class="s2">&quot;ISO 1337&quot;</span>
 </pre></div>
-</div><div id="standard-compliance_ex4" class="jumbotron examples"><div class="highlight"><pre><span></span><span class="p">[</span>
+</div><div id="licensor_anyOf_i0_ex4" class="jumbotron examples"><div class="highlight"><pre><span></span><span class="p">[</span>
 <span class="w">    </span><span class="s2">&quot;DIN SPEC 3105&quot;</span><span class="p">,</span>
 <span class="w">    </span><span class="s2">&quot;ISO 1337&quot;</span>
 <span class="p">]</span>
@@ -9283,9 +11336,50 @@ multiple inputs possible (with one entry each)</p>
                 d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
             />
         </svg>
-    <a href="#user-manual" onclick="anchorLink('user-manual')">user-manual</a></div><span class="badge badge-dark value-type">Type: string</span><br/>
+    <a href="#user-manual" onclick="anchorLink('user-manual')">user-manual</a></div><span class="badge badge-dark value-type">Type: object</span><br/>
 <span class="description"><p>URL or repo-relative path to user manual</p>
 </span>
+
+    <div class="any-of-value" id="attestation_anyOf"><h2 class="handle">
+  <label>Any of</label>
+</h2><ul class="nav nav-tabs" id="tabsattestation_anyOf_anyOf" role="tablist"><li class="nav-item">
+            <a class="nav-link active anyOf-option"
+               id="attestation_anyOf_i0" data-toggle="tab" href="#tab-pane_attestation_anyOf_i0" role="tab"
+               onclick="setAnchor('#attestation_anyOf_i0')"
+            >relPathOrWebUrl</a>
+        </li><li class="nav-item">
+            <a class="nav-link anyOf-option"
+               id="attestation_anyOf_i1" data-toggle="tab" href="#tab-pane_attestation_anyOf_i1" role="tab"
+               onclick="setAnchor('#attestation_anyOf_i1')"
+            >Option 2</a>
+        </li></ul>
+<div class="tab-content card"><div class="tab-pane fade card-body active show"
+             id="tab-pane_attestation_anyOf_i0" role="tabpanel">
+            
+
+    <div class="breadcrumbs">root
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation" onclick="anchorLink('attestation')">attestation</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf" onclick="anchorLink('attestation_anyOf')">anyOf</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf_i0" onclick="anchorLink('attestation_anyOf_i0')">relPathOrWebUrl</a></div><span class="badge badge-dark value-type">Type: string</span><br/>
+
 
     <div class="any-of-value" id="attestation_anyOf_i0_anyOf"><h2 class="handle">
   <label>Any of</label>
@@ -9684,9 +11778,85 @@ multiple inputs possible (with one entry each)</p>
         
         
 
+        
+        </div><div class="tab-pane fade card-body "
+             id="tab-pane_attestation_anyOf_i1" role="tabpanel">
+            
+
+    <div class="breadcrumbs">root
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation" onclick="anchorLink('attestation')">attestation</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf" onclick="anchorLink('attestation_anyOf')">anyOf</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf_i1" onclick="anchorLink('attestation_anyOf_i1')">item 1</a></div><span class="badge badge-dark value-type">Type: array</span><br/>
+
+        
+
+        
+        
+
+         <span class="badge badge-info no-additional">No Additional Items</span><h4>Each item of this array must be:</h4>
+    <div class="card">
+        <div class="card-body items-definition" id="attestation_anyOf_i1_items">
+            
+
+    <div class="breadcrumbs">root
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation" onclick="anchorLink('attestation')">attestation</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf" onclick="anchorLink('attestation_anyOf')">anyOf</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf_i1" onclick="anchorLink('attestation_anyOf_i1')">item 1</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#attestation_anyOf_i1_items" onclick="anchorLink('attestation_anyOf_i1_items')">relPathOrWebUrl</a></div><span class="badge badge-dark value-type">Type: string</span><br/>
+<a href="#attestation_anyOf_i0" onclick="anchorLink('attestation_anyOf_i0')" class="ref-link">Same definition as attestation_anyOf_i0</a>
+        </div>
+    </div>
+        </div></div></div>
+        
+
+        
+        
+
         <br/>
 <div class="badge badge-secondary">Example:</div>
-<br/><div id="attestation_anyOf_i0_ex1" class="jumbotron examples"><div class="highlight"><pre><span></span><span class="s2">&quot;Documentation/User_Guide/UserGuide.md&quot;</span>
+<br/><div id="attestation_ex1" class="jumbotron examples"><div class="highlight"><pre><span></span><span class="s2">&quot;Documentation/User_Guide/UserGuide.md&quot;</span>
 </pre></div>
 </div>
             </div>
@@ -9757,6 +11927,6 @@ multiple inputs possible (with one entry each)</p>
 </div>
 
     <footer>
-        <p class="generated-by-footer">Generated using <a href="https://github.com/coveooss/json-schema-for-humans">json-schema-for-humans</a> on 2025-03-20 at 14:31:25 +0000</p>
+        <p class="generated-by-footer">Generated using <a href="https://github.com/coveooss/json-schema-for-humans">json-schema-for-humans</a> on 2025-03-24 at 16:26:01 +0000</p>
     </footer></body>
 </html>
