@@ -1,0 +1,172 @@
+#!/usr/bin/env sh
+# SPDX-FileCopyrightText: 2025 Robin Vobruba <hoijui.quaero@gmail.com>
+# SPDX-License-Identifier: Unlicense
+
+# Exit immediately on each error and unset variable;
+# see: https://vaneyckt.io/posts/safer_bash_scripts_with_set_euxo_pipefail/
+#set -Eeuo pipefail
+set -eu
+
+script_path="$(readlink -f "$0")"
+script_dir="$(dirname "$script_path")"
+script_name="$(basename "$script_path")"
+
+root_dir="$script_dir/.."
+src_dir_rel="src"
+build_dir_rel="build"
+publish_dir_rel="public"
+src_dir="$root_dir/$src_dir_rel"
+build_dir="$root_dir/$build_dir_rel"
+publish_dir="$root_dir/$publish_dir_rel"
+ROBOT_DL_URL="https://github.com/ontodev/robot/releases/download/v1.9.7/robot.jar"
+ROBOT_SCRIPT_DL_URL="https://raw.githubusercontent.com/ontodev/robot/master/bin/robot"
+remove_temporary=false
+
+_dl() {
+	local url
+	local file
+	url="$1"
+	file="${2:-$(basename "$url")}"
+
+	curl \
+		-L \
+		--output "$file" \
+		"$url"
+}
+
+_install_requirements() {
+
+	sudo apt-get install \
+		ca-certificates \
+		default-jre-headless \
+		podman
+
+	podman pull \
+		linkml/schema-automator
+
+	_dl "$ROBOT_DL_URL"
+	_dl "$ROBOT_SCRIPT_DL_URL"
+	chmod +x robot
+}
+
+_print_help() {
+
+	echo "$script_name - Converts all given (RDF/OWL Turtle) ontology files"
+	echo "into LinkML schemas."
+	echo
+	echo "Usage:"
+	echo "  $script_name [OPTION...] [FILE...]"
+	echo "Options:"
+	echo "  -h, --help"
+	echo "     Show this help message and exit"
+	echo "  -s, --install-requirements"
+	echo "     Install all the requirements for this script to run successfully"
+	echo "     and exit"
+	echo "Examples:"
+	echo "  $script_name"
+	echo "  $script_name --help"
+}
+
+# read command-line args
+i=1
+while [ "$i" -le "$#" ]
+do
+	arg="$(eval "echo \$$i")"
+
+	case "$arg" in
+		-h|--help)
+			shift "$i"
+			_print_help
+			exit 0
+			;;
+		-s|--install-requirements)
+			shift "$i"
+			_install_requirements
+			exit 0
+			;;
+		*) # non-/unknown option
+			i=$((i + 1))
+			;;
+	esac
+done
+
+_conv() {
+	# The original OWL Turtle file
+	owl_ttl_orig="$1"
+
+	# The pre-processed OWL Turtle file
+	owl_ttl_prepped="${3:-$build_dir/${owl_ttl_orig%.ttl}_stricter.ttl}"
+
+	# The Functional RDF syntax version of the pre-processed OWL file
+	owl_ofn_prepped="${4:-${owl_ttl_prepped%.ttl}.ofn}"
+
+	# The LinkML version of the pre-processed OWL file
+	linkml_yaml="${2:-$publish_dir/${owl_ttl_orig%.ttl}.linkml.yml}"
+
+	echo "Converting '$owl_ttl_orig' -> '$linkml_yaml' ..."
+
+	# Extract the base URI as model URI
+	# for the conversion to LinkML with schemauto
+	model_uri_param="$(grep '^@base' "$owl_ttl_orig" | head -n 1 | sed -e 's|.*<|--model-uri |' -e 's|>.*||')"
+
+	# Pre-Processing the OWL Turtle file
+	mkdir -p "$(dirname "$owl_ttl_prepped")"
+	cp "$owl_ttl_orig" "$owl_ttl_prepped"
+	sed -i -e 's/(dcam|schema):domainIncludes/rdfs:domain/' "$owl_ttl_prepped"
+	sed -i -e 's/(dcam|schema):rangeIncludes/rdfs:range/' "$owl_ttl_prepped"
+
+	# Converting: OWL Turtle -> Functional
+	mkdir -p "$(dirname "$owl_ofn_prepped")"
+	robot convert \
+		--input "$owl_ttl_prepped" \
+		--output "$owl_ofn_prepped"
+
+	# Converting: Functional -> LinkML
+	mkdir -p "$(dirname "$linkml_yaml")"
+	podman run \
+		--volume $PWD:/work \
+		--workdir /work \
+		--rm \
+		--tty \
+		linkml/schema-automator \
+		schemauto import-owl \
+			--output "$linkml_yaml" \
+			--schema-name okh \
+			$model_uri_param \
+			"$owl_ofn_prepped"
+
+	if $remove_temporary
+	then
+		rm "$owl_ttl_prepped"
+		rm "$owl_ofn_prepped"
+	fi
+
+	echo "Converting '$owl_ttl_orig' -> '$linkml_yaml' - done."
+}
+
+cd "$root_dir"
+find "$src_dir_rel" -name "*.ttl" | while read -r ont_file
+do
+	echo
+	if [ "$(basename "$ont_file")" = "okh-img.ttl" ]
+	then
+		echo "Skipping Turtle file '$ont_file'!"
+		continue
+	fi
+
+	# The original OWL Turtle file
+	owl_ttl_orig="$(echo "$ont_file" | sed -e 's|^\./||')"
+
+	# The pre-processed OWL Turtle file
+	owl_ttl_prepped="$build_dir_rel/${owl_ttl_orig%.ttl/_stricter.ttl}"
+
+	# The Functional RDF syntax version of the pre-processed OWL file
+	owl_ofn_prepped="${owl_ttl_prepped%.ttl}.ofn"
+
+	# The LinkML version of the pre-processed OWL file
+	linkml_yaml="$publish_dir_rel/${owl_ttl_orig%.ttl}.linkml.yml"
+
+	_conv "$owl_ttl_orig" "$linkml_yaml" "$owl_ttl_prepped" "$owl_ofn_prepped"
+done
+
+echo "done."
