@@ -488,6 +488,19 @@
       "type": "string",
       "pattern": "^https?://",
       "format": "uri"
+    },
+    "webUrlMulti": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/webUrl"
+        },
+        {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/webUrl"
+          }
+        }
+      ]
     }
   },
   "title": "Manifest",
@@ -839,7 +852,14 @@
     "publication": {
       "description": "The DOI(s) of one or multiple associated publication(s)",
       "type": "string",
-      "$ref": "#/$defs/doiMulti"
+      "anyOf": [
+        {
+          "$ref": "#/$defs/webUrlMulti"
+        },
+        {
+          "$ref": "#/$defs/doiMulti"
+        }
+      ]
     },
     "rdf": {
       "description": "repo-relative path (or absolute HTTP(S) URL) to to the corresponding ReadMe, which is the (human) entry-point into (the sources of) an OSH project",
