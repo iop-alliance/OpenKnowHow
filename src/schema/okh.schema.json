@@ -484,7 +484,7 @@
       ]
     },
     "webUrl": {
-      "$comment": "A full web URL",
+      "$comment": "A full web URL, meaning an URL with the schema HTTP or HTTPS",
       "type": "string",
       "pattern": "^https?://",
       "format": "uri"
