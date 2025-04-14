@@ -88,15 +88,25 @@
       "type": "string",
       "pattern": "^(doi: |DOI: |https://doi.org/)?10\\.\\d{4,9}\\/[-._;()/:a-zA-Z0-9]+$"
     },
-    "doiMulti": {
+    "doiOrWebUrl": {
       "anyOf": [
         {
           "$ref": "#/$defs/doi"
         },
         {
+          "$ref": "#/$defs/webUrl"
+        }
+      ]
+    },
+    "doiOrWebUrlMulti": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/doiOrWebUrl"
+        },
+        {
           "type": "array",
           "items": {
-            "$ref": "#/$defs/doi"
+            "$ref": "#/$defs/doiOrWebUrl"
           }
         }
       ]
@@ -850,16 +860,9 @@
       }
     },
     "publication": {
-      "description": "The DOI(s) of one or multiple associated publication(s)",
+      "description": "The DOI(s) or web URL(s) of one or multiple associated publication(s)",
       "type": "string",
-      "anyOf": [
-        {
-          "$ref": "#/$defs/webUrlMulti"
-        },
-        {
-          "$ref": "#/$defs/doiMulti"
-        }
-      ]
+      "$ref": "#/$defs/doiOrWebUrlMulti"
     },
     "rdf": {
       "description": "repo-relative path (or absolute HTTP(S) URL) to to the corresponding ReadMe, which is the (human) entry-point into (the sources of) an OSH project",
