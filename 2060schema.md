@@ -8934,20 +8934,22 @@ multiple inputs possible (with one entry each)</p>
                 d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
             />
         </svg>
-    <a href="#publication" onclick="anchorLink('publication')">publication</a></div><br/>
-<span class="description"><p>The DOI(s) of one or multiple associated publication(s)</p>
-</span><div class="any-of-value" id="publication_anyOf"><h2 class="handle">
+    <a href="#publication" onclick="anchorLink('publication')">publication</a></div><span class="badge badge-dark value-type">Type: string</span><br/>
+<span class="description"><p>The DOI(s) or web URL(s) of one or multiple associated publication(s)</p>
+</span>
+
+    <div class="any-of-value" id="publication_anyOf"><h2 class="handle">
   <label>Any of</label>
 </h2><ul class="nav nav-tabs" id="tabspublication_anyOf_anyOf" role="tablist"><li class="nav-item">
             <a class="nav-link active anyOf-option"
                id="publication_anyOf_i0" data-toggle="tab" href="#tab-pane_publication_anyOf_i0" role="tab"
                onclick="setAnchor('#publication_anyOf_i0')"
-            >webUrlMulti</a>
+            >doiOrWebUrl</a>
         </li><li class="nav-item">
             <a class="nav-link anyOf-option"
                id="publication_anyOf_i1" data-toggle="tab" href="#tab-pane_publication_anyOf_i1" role="tab"
                onclick="setAnchor('#publication_anyOf_i1')"
-            >doiMulti</a>
+            >Option 2</a>
         </li></ul>
 <div class="tab-content card"><div class="tab-pane fade card-body active show"
              id="tab-pane_publication_anyOf_i0" role="tabpanel">
@@ -8974,7 +8976,7 @@ multiple inputs possible (with one entry each)</p>
                 d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
             />
         </svg>
-    <a href="#publication_anyOf_i0" onclick="anchorLink('publication_anyOf_i0')">webUrlMulti</a></div><span class="badge badge-dark value-type">Type: object</span><br/>
+    <a href="#publication_anyOf_i0" onclick="anchorLink('publication_anyOf_i0')">doiOrWebUrl</a></div><span class="badge badge-dark value-type">Type: object</span><br/>
 
 
     <div class="any-of-value" id="publication_anyOf_i0_anyOf"><h2 class="handle">
@@ -8983,12 +8985,12 @@ multiple inputs possible (with one entry each)</p>
             <a class="nav-link active anyOf-option"
                id="publication_anyOf_i0_anyOf_i0" data-toggle="tab" href="#tab-pane_publication_anyOf_i0_anyOf_i0" role="tab"
                onclick="setAnchor('#publication_anyOf_i0_anyOf_i0')"
-            >webUrl</a>
+            >doi</a>
         </li><li class="nav-item">
             <a class="nav-link anyOf-option"
                id="publication_anyOf_i0_anyOf_i1" data-toggle="tab" href="#tab-pane_publication_anyOf_i0_anyOf_i1" role="tab"
                onclick="setAnchor('#publication_anyOf_i0_anyOf_i1')"
-            >Option 2</a>
+            >webUrl</a>
         </li></ul>
 <div class="tab-content card"><div class="tab-pane fade card-body active show"
              id="tab-pane_publication_anyOf_i0_anyOf_i0" role="tabpanel">
@@ -9029,8 +9031,26 @@ multiple inputs possible (with one entry each)</p>
                 d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
             />
         </svg>
-    <a href="#publication_anyOf_i0_anyOf_i0" onclick="anchorLink('publication_anyOf_i0_anyOf_i0')">webUrl</a></div><span class="badge badge-dark value-type">Type: string</span><br/>
-<a href="#attestation_anyOf_i0_anyOf_i0" onclick="anchorLink('attestation_anyOf_i0_anyOf_i0')" class="ref-link">Same definition as attestation_anyOf_i0_anyOf_i0</a>
+    <a href="#publication_anyOf_i0_anyOf_i0" onclick="anchorLink('publication_anyOf_i0_anyOf_i0')">doi</a></div><span class="badge badge-dark value-type">Type: string</span><br/>
+
+
+    <span class="pattern-value" id="publication_anyOf_i0_anyOf_i0_pattern">Must match regular expression: <code>^(doi: |DOI: |https://doi.org/)?10\.\d{4,9}\/[-._;()/:a-zA-Z0-9]+$</code></span>
+        
+
+        
+        
+
+        <br/>
+<div class="badge badge-secondary">Examples:</div>
+<br/><div id="publication_anyOf_i0_anyOf_i0_ex1" class="jumbotron examples"><div class="highlight"><pre><span></span><span class="s2">&quot;https://doi.org/10.1080/10509585.2015.1092083&quot;</span>
+</pre></div>
+</div><div id="publication_anyOf_i0_anyOf_i0_ex2" class="jumbotron examples"><div class="highlight"><pre><span></span><span class="s2">&quot;10.1080/10509585.2015.1092083&quot;</span>
+</pre></div>
+</div><div id="publication_anyOf_i0_anyOf_i0_ex3" class="jumbotron examples"><div class="highlight"><pre><span></span><span class="s2">&quot;doi: 10.1080/10509585.2015.1092083&quot;</span>
+</pre></div>
+</div><div id="publication_anyOf_i0_anyOf_i0_ex4" class="jumbotron examples"><div class="highlight"><pre><span></span><span class="s2">&quot;DOI: 10.1080/10509585.2015.1092083&quot;</span>
+</pre></div>
+</div>
         </div><div class="tab-pane fade card-body "
              id="tab-pane_publication_anyOf_i0_anyOf_i1" role="tabpanel">
             
@@ -9070,64 +9090,8 @@ multiple inputs possible (with one entry each)</p>
                 d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
             />
         </svg>
-    <a href="#publication_anyOf_i0_anyOf_i1" onclick="anchorLink('publication_anyOf_i0_anyOf_i1')">item 1</a></div><span class="badge badge-dark value-type">Type: array</span><br/>
-
-        
-
-        
-        
-
-         <span class="badge badge-info no-additional">No Additional Items</span><h4>Each item of this array must be:</h4>
-    <div class="card">
-        <div class="card-body items-definition" id="publication_anyOf_i0_anyOf_i1_items">
-            
-
-    <div class="breadcrumbs">root
-        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path
-                fill-rule="evenodd"
-                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
-            />
-        </svg>
-    <a href="#publication" onclick="anchorLink('publication')">publication</a>
-        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path
-                fill-rule="evenodd"
-                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
-            />
-        </svg>
-    <a href="#publication_anyOf" onclick="anchorLink('publication_anyOf')">anyOf</a>
-        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path
-                fill-rule="evenodd"
-                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
-            />
-        </svg>
-    <a href="#publication_anyOf_i0" onclick="anchorLink('publication_anyOf_i0')">item 0</a>
-        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path
-                fill-rule="evenodd"
-                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
-            />
-        </svg>
-    <a href="#publication_anyOf_i0_anyOf" onclick="anchorLink('publication_anyOf_i0_anyOf')">anyOf</a>
-        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path
-                fill-rule="evenodd"
-                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
-            />
-        </svg>
-    <a href="#publication_anyOf_i0_anyOf_i1" onclick="anchorLink('publication_anyOf_i0_anyOf_i1')">item 1</a>
-        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path
-                fill-rule="evenodd"
-                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
-            />
-        </svg>
-    <a href="#publication_anyOf_i0_anyOf_i1_items" onclick="anchorLink('publication_anyOf_i0_anyOf_i1_items')">webUrl</a></div><span class="badge badge-dark value-type">Type: string</span><br/>
+    <a href="#publication_anyOf_i0_anyOf_i1" onclick="anchorLink('publication_anyOf_i0_anyOf_i1')">webUrl</a></div><span class="badge badge-dark value-type">Type: string</span><br/>
 <a href="#attestation_anyOf_i0_anyOf_i0" onclick="anchorLink('attestation_anyOf_i0_anyOf_i0')" class="ref-link">Same definition as attestation_anyOf_i0_anyOf_i0</a>
-        </div>
-    </div>
         </div></div></div>
         
 
@@ -9160,121 +9124,7 @@ multiple inputs possible (with one entry each)</p>
                 d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
             />
         </svg>
-    <a href="#publication_anyOf_i1" onclick="anchorLink('publication_anyOf_i1')">doiMulti</a></div><span class="badge badge-dark value-type">Type: object</span><br/>
-
-
-    <div class="any-of-value" id="publication_anyOf_i1_anyOf"><h2 class="handle">
-  <label>Any of</label>
-</h2><ul class="nav nav-tabs" id="tabspublication_anyOf_i1_anyOf_anyOf" role="tablist"><li class="nav-item">
-            <a class="nav-link active anyOf-option"
-               id="publication_anyOf_i1_anyOf_i0" data-toggle="tab" href="#tab-pane_publication_anyOf_i1_anyOf_i0" role="tab"
-               onclick="setAnchor('#publication_anyOf_i1_anyOf_i0')"
-            >doi</a>
-        </li><li class="nav-item">
-            <a class="nav-link anyOf-option"
-               id="publication_anyOf_i1_anyOf_i1" data-toggle="tab" href="#tab-pane_publication_anyOf_i1_anyOf_i1" role="tab"
-               onclick="setAnchor('#publication_anyOf_i1_anyOf_i1')"
-            >Option 2</a>
-        </li></ul>
-<div class="tab-content card"><div class="tab-pane fade card-body active show"
-             id="tab-pane_publication_anyOf_i1_anyOf_i0" role="tabpanel">
-            
-
-    <div class="breadcrumbs">root
-        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path
-                fill-rule="evenodd"
-                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
-            />
-        </svg>
-    <a href="#publication" onclick="anchorLink('publication')">publication</a>
-        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path
-                fill-rule="evenodd"
-                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
-            />
-        </svg>
-    <a href="#publication_anyOf" onclick="anchorLink('publication_anyOf')">anyOf</a>
-        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path
-                fill-rule="evenodd"
-                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
-            />
-        </svg>
-    <a href="#publication_anyOf_i1" onclick="anchorLink('publication_anyOf_i1')">item 1</a>
-        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path
-                fill-rule="evenodd"
-                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
-            />
-        </svg>
-    <a href="#publication_anyOf_i1_anyOf" onclick="anchorLink('publication_anyOf_i1_anyOf')">anyOf</a>
-        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path
-                fill-rule="evenodd"
-                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
-            />
-        </svg>
-    <a href="#publication_anyOf_i1_anyOf_i0" onclick="anchorLink('publication_anyOf_i1_anyOf_i0')">doi</a></div><span class="badge badge-dark value-type">Type: string</span><br/>
-
-
-    <span class="pattern-value" id="publication_anyOf_i1_anyOf_i0_pattern">Must match regular expression: <code>^(doi: |DOI: |https://doi.org/)?10\.\d{4,9}\/[-._;()/:a-zA-Z0-9]+$</code></span>
-        
-
-        
-        
-
-        <br/>
-<div class="badge badge-secondary">Examples:</div>
-<br/><div id="publication_anyOf_i1_anyOf_i0_ex1" class="jumbotron examples"><div class="highlight"><pre><span></span><span class="s2">&quot;https://doi.org/10.1080/10509585.2015.1092083&quot;</span>
-</pre></div>
-</div><div id="publication_anyOf_i1_anyOf_i0_ex2" class="jumbotron examples"><div class="highlight"><pre><span></span><span class="s2">&quot;10.1080/10509585.2015.1092083&quot;</span>
-</pre></div>
-</div><div id="publication_anyOf_i1_anyOf_i0_ex3" class="jumbotron examples"><div class="highlight"><pre><span></span><span class="s2">&quot;doi: 10.1080/10509585.2015.1092083&quot;</span>
-</pre></div>
-</div><div id="publication_anyOf_i1_anyOf_i0_ex4" class="jumbotron examples"><div class="highlight"><pre><span></span><span class="s2">&quot;DOI: 10.1080/10509585.2015.1092083&quot;</span>
-</pre></div>
-</div>
-        </div><div class="tab-pane fade card-body "
-             id="tab-pane_publication_anyOf_i1_anyOf_i1" role="tabpanel">
-            
-
-    <div class="breadcrumbs">root
-        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path
-                fill-rule="evenodd"
-                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
-            />
-        </svg>
-    <a href="#publication" onclick="anchorLink('publication')">publication</a>
-        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path
-                fill-rule="evenodd"
-                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
-            />
-        </svg>
-    <a href="#publication_anyOf" onclick="anchorLink('publication_anyOf')">anyOf</a>
-        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path
-                fill-rule="evenodd"
-                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
-            />
-        </svg>
-    <a href="#publication_anyOf_i1" onclick="anchorLink('publication_anyOf_i1')">item 1</a>
-        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path
-                fill-rule="evenodd"
-                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
-            />
-        </svg>
-    <a href="#publication_anyOf_i1_anyOf" onclick="anchorLink('publication_anyOf_i1_anyOf')">anyOf</a>
-        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path
-                fill-rule="evenodd"
-                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
-            />
-        </svg>
-    <a href="#publication_anyOf_i1_anyOf_i1" onclick="anchorLink('publication_anyOf_i1_anyOf_i1')">item 1</a></div><span class="badge badge-dark value-type">Type: array</span><br/>
+    <a href="#publication_anyOf_i1" onclick="anchorLink('publication_anyOf_i1')">item 1</a></div><span class="badge badge-dark value-type">Type: array</span><br/>
 
         
 
@@ -9283,7 +9133,7 @@ multiple inputs possible (with one entry each)</p>
 
          <span class="badge badge-info no-additional">No Additional Items</span><h4>Each item of this array must be:</h4>
     <div class="card">
-        <div class="card-body items-definition" id="publication_anyOf_i1_anyOf_i1_items">
+        <div class="card-body items-definition" id="publication_anyOf_i1_items">
             
 
     <div class="breadcrumbs">root
@@ -9314,31 +9164,10 @@ multiple inputs possible (with one entry each)</p>
                 d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
             />
         </svg>
-    <a href="#publication_anyOf_i1_anyOf" onclick="anchorLink('publication_anyOf_i1_anyOf')">anyOf</a>
-        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path
-                fill-rule="evenodd"
-                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
-            />
-        </svg>
-    <a href="#publication_anyOf_i1_anyOf_i1" onclick="anchorLink('publication_anyOf_i1_anyOf_i1')">item 1</a>
-        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path
-                fill-rule="evenodd"
-                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
-            />
-        </svg>
-    <a href="#publication_anyOf_i1_anyOf_i1_items" onclick="anchorLink('publication_anyOf_i1_anyOf_i1_items')">doi</a></div><span class="badge badge-dark value-type">Type: string</span><br/>
-<a href="#publication_anyOf_i1_anyOf_i0" onclick="anchorLink('publication_anyOf_i1_anyOf_i0')" class="ref-link">Same definition as publication_anyOf_i1_anyOf_i0</a>
+    <a href="#publication_anyOf_i1_items" onclick="anchorLink('publication_anyOf_i1_items')">doiOrWebUrl</a></div><span class="badge badge-dark value-type">Type: object</span><br/>
+<a href="#publication_anyOf_i0" onclick="anchorLink('publication_anyOf_i0')" class="ref-link">Same definition as publication_anyOf_i0</a>
         </div>
     </div>
-        </div></div></div>
-        
-
-        
-        
-
-        
         </div></div></div>
         
 
@@ -12203,6 +12032,6 @@ multiple inputs possible (with one entry each)</p>
 </div>
 
     <footer>
-        <p class="generated-by-footer">Generated using <a href="https://github.com/coveooss/json-schema-for-humans">json-schema-for-humans</a> on 2025-04-12 at 07:32:23 +0000</p>
+        <p class="generated-by-footer">Generated using <a href="https://github.com/coveooss/json-schema-for-humans">json-schema-for-humans</a> on 2025-04-14 at 14:31:30 +0000</p>
     </footer></body>
 </html>
