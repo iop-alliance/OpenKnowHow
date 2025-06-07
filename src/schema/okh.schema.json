@@ -159,18 +159,18 @@
           "depicts": "A diagram depicting the flow of the different liquids through the machine in an abstract manner"
         },
         {
-          "location": "res/media/img/liquid-flow.svg",
+          "location": "res/assets/media/img/photo-white-bg.png",
           "depicts": "A photo of the finished hardware, taken with a white background."
         },
         {
-          "location": "res/media/img/liquid-flow.svg",
+          "location": "res/assets/media/img/photo-white-bg.png",
           "depicts": {
             "text": "A photo of the finished hardware, taken with a white background.",
             "language": "en"
           }
         },
         {
-          "location": "res/media/img/liquid-flow.svg",
+          "location": "res/assets/media/img/photo-white-bg.png",
           "depicts": [
             {
               "text": "A photo of the finished hardware, taken with a white background.",
