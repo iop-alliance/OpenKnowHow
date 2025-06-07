@@ -146,6 +146,30 @@
       }
     },
     "image": {
+      "$comment": "A single image, either as a simple link (relative path or URL) or as a complex image object",
+      "anyOf": [
+        {
+          "$ref": "#/$defs/relPathOrWebUrl"
+        },
+        {
+          "$ref": "#/$defs/imageObject"
+        }
+      ]
+    },
+    "imageMulti": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/image"
+        },
+        {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/image"
+          }
+        }
+      ]
+    },
+    "imageObject": {
       "description": "a single image reference (project relative path or absolute URL), optionally with additional meta-data",
       "type": "object",
       "additionalProperties": false,
@@ -161,6 +185,10 @@
         {
           "location": "res/assets/media/img/photo-white-bg.png",
           "depicts": "A photo of the finished hardware, taken with a white background."
+        },
+        {
+          "location": "https://image-hoster-xzy.net/accounts/our-user/our-project/our-image.png",
+          "depicts": "Community supplied photo of the underbelly of our machine"
         },
         {
           "location": "res/assets/media/img/photo-white-bg.png",
@@ -268,69 +296,6 @@
           }
         }
       }
-    },
-    "images": {
-      "description": "one or more image references, with or without additional meta-data",
-      "examples": [
-        "res/media/img/logo.svg",
-        "res/media/img/liquid-flow.svg",
-        "res/assets/media/img/hw-photo.png",
-        "https://image-hoster-xzy.net/accounts/our-user/our-project/our-image.png",
-        [
-          "res/media/img/logo.svg",
-          "res/media/img/liquid-flow.svg",
-          "res/assets/media/img/hw-photo.png",
-          "https://image-hoster-xzy.net/accounts/our-user/our-project/our-image.png"
-        ],
-        {
-          "location": "res/media/img/logo.svg",
-          "depicts": "This OSH projects logo"
-        },
-        {
-          "location": "res/media/img/liquid-flow.svg",
-          "depicts": "A diagram depicting the flow of the different liquids through the machine in an abstract manner"
-        },
-        {
-          "location": "res/media/img/liquid-flow.svg",
-          "depicts": "A photo of the finished hardware, taken with a white background"
-        },
-        {
-          "location": "https://image-hoster-xzy.net/accounts/our-user/our-project/our-image.png",
-          "depicts": "Community supplied photo of the underbelly of our machine"
-        },
-        [
-          {
-            "location": "res/media/img/logo.svg",
-            "depicts": "This OSH projects logo"
-          },
-          {
-            "location": "res/media/img/liquid-flow.svg",
-            "depicts": "A diagram depicting the flow of the different liquids through the machine in an abstract manner"
-          },
-          {
-            "location": "res/media/img/liquid-flow.svg",
-            "depicts": "A photo of the finished hardware, taken with a white background."
-          },
-          {
-            "location": "https://image-hoster-xzy.net/accounts/our-user/our-project/our-image.png",
-            "depicts": "Community supplied photo of the underbelly of our machine"
-          }
-        ]
-      ],
-      "anyOf": [
-        {
-          "$ref": "#/$defs/relPathOrWebUrlMulti"
-        },
-        {
-          "$ref": "#/$defs/image"
-        },
-        {
-          "type": "array",
-          "items": {
-            "$ref": "#/$defs/image"
-          }
-        }
-      ]
     },
     "language": {
       "$comment": "autocomplete",
@@ -680,7 +645,7 @@
       "type": "string"
     },
     "image": {
-      "$ref": "#/$defs/images"
+      "$ref": "#/$defs/imageMulti"
     },
     "license": {
       "$comment": "NOTE: When no SPDX key is found by the crawler, metadata might not be indexed on the server until the alternative license has been whitelisted by maintainers. At OKH, we need to make sure that all results indexed by our own server instance are actually open source.",
@@ -839,7 +804,7 @@
             "$ref": "#/$defs/export"
           },
           "image": {
-            "$ref": "#/$defs/images"
+            "$ref": "#/$defs/imageMulti"
           },
           "mass": {
             "$ref": "#/$defs/mass"
