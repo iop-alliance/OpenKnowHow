@@ -267,6 +267,15 @@ likely to convey an underlying feeling."""@en ;
   vs:term_status "unstable" ;
   .
 
+okhimg:tagAssembly
+  a schema:DefinedTerm ;
+  rdfs:label "Assembly"@en ;
+  rdfs:comment """The annotated subject depicts (part of) the assembly process,
+leading to the finnished technology."""@en ;
+  schema:termCode "assembly" ;
+  vs:term_status "unstable" ;
+  .
+
 okhimg:tagBw
   a schema:DefinedTerm ;
   rdfs:label "black&white"@en ;
