@@ -82,7 +82,7 @@ okhimg:slotIconMain
 See also [icon vs symbol](
 https://github.com/iop-alliance/OpenKnowHow/issues/35#icon-vs-symbol)."""@en ;
   rdfs:seeAlso okhimg:slotIconMainBw ;
-  schema:termCode "main-icon" ;
+  schema:termCode "icon-main" ;
   vs:term_status "unstable" ;
   .
 
@@ -91,7 +91,7 @@ okhimg:slotIconMainBw
   rdfs:label "Main Icon - black&white"@en ;
   rdfs:comment """The annotated subjects main icon **in black&white**."""@en ;
   rdfs:seeAlso okhimg:slotIconMain ;
-  schema:termCode "main-icon-bw" ;
+  schema:termCode "icon-main-bw" ;
   vs:term_status "unstable" ;
   .
 
@@ -174,7 +174,7 @@ okhimg:slotModelMain
   rdfs:label "Model - main"@en ;
   rdfs:comment """The annotated subjects primary technical drawing/illustration, in 2D or 3D.
 This will likely point to the same image like one of the other model-* slots."""@en ;
-  schema:termCode "model-from-main" ;
+  schema:termCode "model-main" ;
   vs:term_status "unstable" ;
   .
 
