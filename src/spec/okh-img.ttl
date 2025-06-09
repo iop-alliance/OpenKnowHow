@@ -121,6 +121,14 @@ okhimg:slotModel3D
   vs:term_status "unstable" ;
   .
 
+okhimg:slotModelFromAbove
+  a schema:DefinedTerm ;
+  rdfs:label "Model - from above"@en ;
+  rdfs:comment """The annotated subjects technical drawing/illustration in 2D, from above."""@en ;
+  schema:termCode "model-from-above" ;
+  vs:term_status "unstable" ;
+  .
+
 okhimg:slotModelFromBack
   a schema:DefinedTerm ;
   rdfs:label "Model - from the back"@en ;
@@ -158,14 +166,6 @@ okhimg:slotModelFromRight
   rdfs:label "Model - from the right"@en ;
   rdfs:comment """The annotated subjects technical drawing/illustration in 2D, from the right."""@en ;
   schema:termCode "model-from-right" ;
-  vs:term_status "unstable" ;
-  .
-
-okhimg:slotModelFromAbove
-  a schema:DefinedTerm ;
-  rdfs:label "Model - from above"@en ;
-  rdfs:comment """The annotated subjects technical drawing/illustration in 2D, from above."""@en ;
-  schema:termCode "model-from-above" ;
   vs:term_status "unstable" ;
   .
 
