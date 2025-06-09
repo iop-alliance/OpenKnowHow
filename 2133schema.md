@@ -12273,6 +12273,6 @@ multiple inputs possible (with one entry each)</p>
 </div>
 
     <footer>
-        <p class="generated-by-footer">Generated using <a href="https://github.com/coveooss/json-schema-for-humans">json-schema-for-humans</a> on 2025-06-07 at 20:57:18 +0000</p>
+        <p class="generated-by-footer">Generated using <a href="https://github.com/coveooss/json-schema-for-humans">json-schema-for-humans</a> on 2025-06-09 at 05:56:38 +0000</p>
     </footer></body>
 </html>
