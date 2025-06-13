@@ -44,15 +44,28 @@ in descending order:
 
 1. [src/spec/okh.ttl](src/spec/okh.ttl) -
     The main source file of this Specification
-2. [src/spec/otrl.ttl](src/spec/otrl.ttl) -
-    The source file of the Open Technology&Documentation Readiness Levels Specification
-    (used by _okh.ttl_)
-3. [src/schema/okh.schema.json](src/schema/okh.schema.json) -
+2. [src/schema/okh.schema.json](src/schema/okh.schema.json) -
     The [JSON-Schema] for the ([TOML]) manifests,
     which are commonly used as the source files by the projects or project platforms
     to store/transmit the projects data,
     even though the _real_ data is always the RDF form
     (which can be generated from these manifests).
+3. [src/spec/otrl.ttl](src/spec/otrl.ttl) -
+    The source file of the Open Technology&Documentation Readiness Levels Specification
+    (used by _okh.ttl_)
+4. [src/spec/okh-img.ttl](src/spec/okh-img.ttl) -
+    The source file of the tags and slots data (RDF individuals) for images in OKH
+    (used by _okh.ttl_ and OKH projects RDF data)
+
+Other, crucial files for OKH, outside this repository:
+
+1. [ods.ttl](https://codeberg.org/elevont/open-dataset/src/branch/master/src/ont/ods.ttl) -
+    The Open Dataset Ontology, used in OKH (especially by the scraper)
+    to annotate scraping meta-data, like source of the data and time of the last scrape.
+2. [okh-krawler.ttl](https://github.com/iop-alliance/OKH-krawler/blob/develop/src/ont/okh-krawler.ttl) -
+    RDF individuals to link to in the scraping meta-data,
+    like specific data sources (e.g. `appropedia.org`)
+    or data gathering methods (e.g. `by-manifest` or `by-API`).
 
 ## Intro
 
