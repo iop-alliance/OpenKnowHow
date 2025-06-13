@@ -891,6 +891,25 @@ okh:hasManifestFile # TODO Comment out/remove - This is now ODS territory, thoug
   okhmeta:hasMetaTag okhmeta:DataGatheringTag ;
   .
 
+okh:normalizedManifestContent
+  a owl:DatatypeProperty ;
+  a skos:Concept ;
+  rdfs:label "has normalized manifest content"@en ;
+  rdfs:comment """Points to a string literal containing the normalized (by the scraper)
+content of the (TOML) manifest file, zlib compressed and base64 encoded.
+We provide this,
+so it can be used as a base for a manually curated manifest file for the project,
+for a project that was scraped through a process that does not involve a manifest file,
+like through an API of the hosting platform.
+You should **not** use this as a data-source,
+e.g. for searching the name of the project;
+please use the RDF data for that!"""@en ;
+  vs:term_status "unstable" ;
+  dcam:domainIncludes okh:Dataset ;
+  dcam:rangeIncludes xsd:string ;
+  okhmeta:hasMetaTag okhmeta:DataGatheringTag ;
+  .
+
 okh:doi
   a owl:DatatypeProperty ;
   a skos:Concept ;
