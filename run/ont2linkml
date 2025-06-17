@@ -38,6 +38,7 @@ _install_requirements() {
 
 	sudo apt-get install \
 		ca-certificates \
+		curl \
 		default-jre-headless \
 		podman
 
