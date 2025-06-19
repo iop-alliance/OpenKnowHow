@@ -8,7 +8,7 @@
 #   leave it out by either deleting the line or commenting it out;
 #   do **not** use placeholder values like "N/A" or "xxx.jpg"!
 
-okhv = "OKH-LOSHv1.0" # NOT to be changed
+okhv = "2.4" # NOT to be changed
 name = "your-awesome-OSH"
 repo = "https://gitlab.com/YOU/your-awesome-project/"
 # An SPDX license _expression_

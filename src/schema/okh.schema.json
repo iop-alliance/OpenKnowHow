@@ -859,7 +859,7 @@
     "okhv": {
       "$comment": "ui-hidden",
       "description": "version of OKH specification the OSH projects metadata follows (different version → different data fields in this file)",
-      "const": "OKH-LOSHv1.0"
+      "const": "2.4"
     },
     "organization": {
       "description": "organization of the licensor or that represents (some of) the contributors of to project",

@@ -297,7 +297,7 @@ To summarize: an OSH module must bear reference of:
 
 - **`okhv`** \[string\]
   - version of the OKH standard used
-  - = "OKH-LOSHv1.0" for all manifest files following this specification
+  - = "2.4" for all manifest files following this specification
   - = "OKHv1.0" for all manifest files following [OKHv1.0](https://standards.internetofproduction.org/pub/okh/release/1)
 - **`data-source`** \[string\]
   - origin of metadata collected by the crawler (e.g. GitHub, Wikifactory)
