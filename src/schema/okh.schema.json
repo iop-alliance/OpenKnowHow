@@ -858,8 +858,12 @@
     },
     "okhv": {
       "$comment": "ui-hidden",
-      "description": "version of OKH specification the OSH projects metadata follows (different version → different data fields in this file)",
-      "const": "2.4"
+      "description": "version of OKH specification the OSH projects metadata follows (different version → different data fields in this file). In the past this was 'OKH-LOSHv1.0' for a long time; now it should be a minor version release of the OKH spec, e.g. '2.4'.",
+      "enum": [
+        "OKH-LOSHv1.0",
+        "2.3",
+        "2.4"
+      ]
     },
     "organization": {
       "description": "organization of the licensor or that represents (some of) the contributors of to project",
