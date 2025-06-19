@@ -877,7 +877,6 @@
     },
     "publication": {
       "description": "The DOI(s) or web URL(s) of one or multiple associated publication(s)",
-      "type": "string",
       "$ref": "#/$defs/doiOrWebUrlMulti"
     },
     "rdf": {
