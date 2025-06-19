@@ -703,7 +703,7 @@
       "description": "patent class identifier of the Cooperative Patent Classification that describes best the field of technology of the OSH module.\\\nGet it from here: <https://worldwide.espacenet.com/classification>"
     },
     "documentation-language": {
-      "description": "IETF BCP 47 language tag for the language in which the documentation is written",
+      "description": "IETF BCP 47 language tag(s) for the language(s) in which the documentation is written",
       "$ref": "#/$defs/languageMulti"
     },
     "documentation-readiness-level": {
@@ -869,7 +869,7 @@
       "$ref": "#/$defs/outerDimensions"
     },
     "part": {
-      "description": "physical component of this open source hardware module, for which technical documentation (design files etc.) is available under a free/open license",
+      "description": "physical component(s) of this open source hardware module, for which technical documentation (design files etc.) is available under a free/open license",
       "type": "array",
       "items": {
         "$ref": "#/$defs/part"
@@ -881,7 +881,7 @@
       "$ref": "#/$defs/doiOrWebUrlMulti"
     },
     "rdf": {
-      "description": "repo-relative path (or absolute HTTP(S) URL) to to the corresponding ReadMe, which is the (human) entry-point into (the sources of) an OSH project",
+      "description": "absolute HTTP IRI (ending int '/' or '#') representing the RDF namespace of the triples generated from the manifest, and optionally the name of the prefix",
       "$ref": "#/$defs/rdfNamespace"
     },
     "readme": {
@@ -908,7 +908,7 @@
       "description": "URL to the (human browsable) place where development happens;\ntypically a (git) repository or Wiki page.\nFollowing this link, people should be able to contribute to the development:\nreporting issues, suggesting changes, connecting to the team etc."
     },
     "software": {
-      "description": "associated software package used to operate this piece of open source hardware",
+      "description": "associated software package(s) used to operate this piece of open source hardware",
       "type": "array",
       "items": {
         "$ref": "#/$defs/software"
