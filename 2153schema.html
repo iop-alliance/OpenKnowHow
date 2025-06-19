@@ -3145,9 +3145,11 @@ Get it from here: <a href="https://worldwide.espacenet.com/classification">https
                 d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
             />
         </svg>
-    <a href="#documentation-language" onclick="anchorLink('documentation-language')">documentation-language</a></div><br/>
-<span class="description"><p>IETF BCP 47 language tag for the language in which the documentation is written</p>
-</span><div class="any-of-value" id="documentation-language_anyOf"><h2 class="handle">
+    <a href="#documentation-language" onclick="anchorLink('documentation-language')">documentation-language</a></div><span class="badge badge-dark value-type">Type: object</span><br/>
+<span class="description"><p>IETF BCP 47 language tag(s) for the language(s) in which the documentation is written</p>
+</span>
+
+    <div class="any-of-value" id="documentation-language_anyOf"><h2 class="handle">
   <label>Any of</label>
 </h2><ul class="nav nav-tabs" id="tabsdocumentation-language_anyOf_anyOf" role="tablist"><li class="nav-item">
             <a class="nav-link active anyOf-option"
@@ -7432,7 +7434,7 @@ for projects clearly indicating that they are proprietary.</p>
         </svg>
     <a href="#okhv" onclick="anchorLink('okhv')">okhv</a></div><span class="badge badge-dark value-type">Type: const</span><br/>
 <span class="description"><p>version of OKH specification the OSH projects metadata follows (different version → different data fields in this file)</p>
-</span><span class="const-value" id="okhv_const">Specific value: <code>"OKH-LOSHv1.0"</code></span>
+</span><span class="const-value" id="okhv_const">Specific value: <code>"2.4"</code></span>
         
 
         
@@ -7464,9 +7466,11 @@ for projects clearly indicating that they are proprietary.</p>
                 d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
             />
         </svg>
-    <a href="#organization" onclick="anchorLink('organization')">organization</a></div><br/>
+    <a href="#organization" onclick="anchorLink('organization')">organization</a></div><span class="badge badge-dark value-type">Type: object</span><br/>
 <span class="description"><p>organization of the licensor or that represents (some of) the contributors of to project</p>
-</span><div class="any-of-value" id="organization_anyOf"><h2 class="handle">
+</span>
+
+    <div class="any-of-value" id="organization_anyOf"><h2 class="handle">
   <label>Any of</label>
 </h2><ul class="nav nav-tabs" id="tabsorganization_anyOf_anyOf" role="tablist"><li class="nav-item">
             <a class="nav-link active anyOf-option"
@@ -7830,8 +7834,8 @@ for projects clearly indicating that they are proprietary.</p>
                 d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
             />
         </svg>
-    <a href="#part" onclick="anchorLink('part')">part</a></div><span class="badge badge-dark value-type">Type: array of object</span><br/>
-<span class="description"><p>physical component of this open source hardware module, for which technical documentation (design files etc.) is available under a free/open license</p>
+    <a href="#part" onclick="anchorLink('part')">part</a></div><span class="badge badge-dark value-type">Type: array</span><br/>
+<span class="description"><p>physical component(s) of this open source hardware module, for which technical documentation (design files etc.) is available under a free/open license</p>
 </span>
         
 
@@ -7857,8 +7861,11 @@ for projects clearly indicating that they are proprietary.</p>
                 d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
             />
         </svg>
-    <a href="#part_items" onclick="anchorLink('part_items')">part items</a></div><br/>
- <span class="badge badge-info no-additional">No Additional Properties</span><div class="one-of-value" id="part_items_oneOf"><h2 class="handle">
+    <a href="#part_items" onclick="anchorLink('part_items')">part</a></div><span class="badge badge-dark value-type">Type: object</span><br/>
+<span class="description"><p>a physical component of an open source hardware module, for which technical documentation (design files etc.) is available under a free/open license</p>
+</span>
+
+     <span class="badge badge-info no-additional">No Additional Properties</span><div class="one-of-value" id="part_items_oneOf"><h2 class="handle">
   <label>One of</label>
 </h2><ul class="nav nav-tabs" id="tabspart_items_oneOf_oneOf" role="tablist"><li class="nav-item">
             <a class="nav-link active oneOf-option"
@@ -9175,7 +9182,7 @@ multiple inputs possible (with one entry each)</p>
                 d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
             />
         </svg>
-    <a href="#publication" onclick="anchorLink('publication')">publication</a></div><span class="badge badge-dark value-type">Type: string</span><br/>
+    <a href="#publication" onclick="anchorLink('publication')">publication</a></div><span class="badge badge-dark value-type">Type: object</span><br/>
 <span class="description"><p>The DOI(s) or web URL(s) of one or multiple associated publication(s)</p>
 </span>
 
@@ -9442,8 +9449,10 @@ multiple inputs possible (with one entry each)</p>
             />
         </svg>
     <a href="#rdf" onclick="anchorLink('rdf')">rdf</a></div><span class="badge badge-dark value-type">Type: object</span><br/>
-<span class="description"><p>repo-relative path (or absolute HTTP(S) URL) to to the corresponding ReadMe, which is the (human) entry-point into (the sources of) an OSH project</p>
-</span> <span class="badge badge-info no-additional">No Additional Properties</span>
+<span class="description"><p>absolute HTTP IRI (ending int '/' or '#') representing the RDF namespace of the triples generated from the manifest, and optionally the name of the prefix</p>
+</span>
+
+     <span class="badge badge-info no-additional">No Additional Properties</span>
         
 
         
@@ -10189,8 +10198,8 @@ reporting issues, suggesting changes, connecting to the team etc.</p>
                 d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
             />
         </svg>
-    <a href="#software" onclick="anchorLink('software')">software</a></div><span class="badge badge-dark value-type">Type: array of object</span><br/>
-<span class="description"><p>associated software package used to operate this piece of open source hardware</p>
+    <a href="#software" onclick="anchorLink('software')">software</a></div><span class="badge badge-dark value-type">Type: array</span><br/>
+<span class="description"><p>associated software package(s) used to operate this piece of open source hardware</p>
 </span>
         
 
@@ -10216,8 +10225,10 @@ reporting issues, suggesting changes, connecting to the team etc.</p>
                 d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
             />
         </svg>
-    <a href="#software_items" onclick="anchorLink('software_items')">software items</a></div><span class="badge badge-dark value-type">Type: object</span><br/>
- <span class="badge badge-info no-additional">No Additional Properties</span>
+    <a href="#software_items" onclick="anchorLink('software_items')">software</a></div><span class="badge badge-dark value-type">Type: object</span><br/>
+
+
+     <span class="badge badge-info no-additional">No Additional Properties</span>
         
 
         
@@ -12273,6 +12284,6 @@ multiple inputs possible (with one entry each)</p>
 </div>
 
     <footer>
-        <p class="generated-by-footer">Generated using <a href="https://github.com/coveooss/json-schema-for-humans">json-schema-for-humans</a> on 2025-06-17 at 15:09:28 +0000</p>
+        <p class="generated-by-footer">Generated using <a href="https://github.com/coveooss/json-schema-for-humans">json-schema-for-humans</a> on 2025-06-19 at 06:25:25 +0000</p>
     </footer></body>
 </html>
