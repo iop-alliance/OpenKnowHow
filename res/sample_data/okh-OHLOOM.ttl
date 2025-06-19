@@ -30,7 +30,7 @@
   dcterms:conformsTo okh: ;
   okh:dataProvider okhkrawl:dataProviderGithub ;
   okh:dataSourcingProcedure okhkrawl:dataSourcingProcedureManifest ;
-  okh:okhv "OKH-LOSHv1.0"^^xsd:normalizedString ;
+  okh:okhv "2.4"^^xsd:normalizedString ;
   void:sparqlEndpoint <http://okh.dev.opensourceecology.de/sparql>;
   spdx:licenseDeclared spdxl:CC-BY-SA-4.0 ;
   #okh:licenseExpression "CC-BY-SA-4.0"^^xsd:normalizedString ;
@@ -102,7 +102,7 @@
 :ManifestFile
   a okh:ManifestFile ;
   rdfs:label "Manifest File"@en ;
-  # okh:okhv "OKH-LOSHv1.0"^^xsd:normalizedString ;
+  # okh:okhv "2.4"^^xsd:normalizedString ;
   okh:url <okh.toml> ;
   okh:fileFormat mime:application\/toml ;
   .
