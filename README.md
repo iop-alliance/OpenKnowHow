@@ -32,12 +32,14 @@ Stay tuned!
 
 ---
 
-- ~<https://losh.opennext.eu> -~
+- ~<https://search.tech.opensourceecology.de> -~
   ~browse the collected data~
+
+<!--
+This link is deprecated:
 - ~<https://manifest.opennext.eu> -~
   ~web-UI to create meta-data for a project~
-
-(_the above two links are deprecated_)
+-->
 
 The most important files in this repo,
 in descending order:
@@ -72,8 +74,8 @@ Other, crucial files for OKH, outside this repository:
 ### History
 
 From October 2024 till June 2025 (9 months),
-we are funded by [NGI Search],
-as the _Open Hardware Search_ project.
+the [NGI Search] funded [Hardware Open Search Ecosystem project] project
+was the main contributor to, and driver of OKH.
 
 In May 2024,
 OKH LOSH was re-incorporated by its spiritual mother -
@@ -138,13 +140,13 @@ When put in practice,
 these freedoms could potentially not only reduce proprietary vendor lock-in,
 planned obsolescence, or waste but also stimulate novel -
 even disruptive - business models.
-The SME partners in [OPEN!NEXT] are experimenting
+The [SME](https://opennext.eu/project-team/#sme) partners
+in [OPEN!NEXT] are experimenting
 with producing open source hardware and even opening up the development process
 to wider community participation.
 They produce diverse products ranging from [desks](https://www.stykka.com/),
 [cargo bike modules](http://www.xyzcargo.com/),
-to a [digital scientific instrument platform](https://pslab.io/)
-(and [more](https://opennext.eu/project-team/#sme)).
+to a [digital scientific instrument platform](https://pslab.io/).
 
 The work carried out in this repository was subject to WP3 of [OPEN!NEXT]
 ("Supporting production engineering with ICT infrastructure")
@@ -261,7 +263,7 @@ we recommend that one repository represents one project.
 
 ### Outlook
 
-**We want to organise open source hardware in a graph database.**
+**We want to organize open source hardware in a graph database.**
 
 There's a long list of [cool use cases](doc/requirements/LinkedData_Qs.md)
 of such a knowledge base.
@@ -285,6 +287,10 @@ The future could bring:
 ![data-flow illustration](res/media/img/dataflow-principle.svg)
 
 ## Ecosystem
+
+A General, human-friendly overview explain what we are trying to do
+can be found here:
+<https://stack.opensourceecology.de>
 
 <!--
 TODO Overall narrative
@@ -359,14 +365,8 @@ TODO More!
   and then allows to query that data by code ([SPARQL] queries)
   or through a web interface (also [SPARQL] queries)
   with syntax highlighting and showing the results in a nice table format.
-  Crawled data (from 2022):
-  <https://gitlab.opensourceecology.de/verein/projekte/losh-rdf/-/tree/main/RDF>
-- Crawler:
-  <https://github.com/OPEN-NEXT/LOSH-krawler>
 - Tool to Generate a Report including Data Statistics:
   <https://github.com/OPEN-NEXT/LOSH-Reporter>
-- browsing/searching web-interface for the crawled data:
-  <https://losh.opennext.eu>
 
 ### Standard
 
@@ -401,13 +401,13 @@ the CI will give back an error and no exports will be available.
 
 </details>
 
-### Crawler
+### Scraper
 
-The crawler that collects projects data from different platforms.
+The scraper that collects projects data from different platforms.
 
-- code: <https://github.com/OPEN-NEXT/LOSH-krawler>
+- code: <https://github.com/iop-alliance/OKH-krawler>
 
-It is currently (July 2024) not run periodically.
+It is currently (June 2025) not run periodically.
 
 ### Frontend
 
@@ -417,8 +417,11 @@ is still the easiest way to get an idea
 about what will be possible with this system for end-users.
 It helps you to search the data on our WikiBase instance.
 
-- code: <https://github.com/wmde/LOSH-Frontend/>
-- test-instance: <https://losh.opennext.eu/>
+<!--
+- old (OPEN!NEXT) frontend code: <https://github.com/wmde/LOSH-Frontend/>
+- -->
+
+- test-instance: <https://search.tech.opensourceecology.de>
 
 If you are ready for a more hands-on approach of testing,
 you may also try to use a more up-to-date approach
@@ -449,6 +452,7 @@ cultural geographer (1808-1896)
 [Appropedia]: https://www.appropedia.org/
 [DAPSI]: https://dapsi.ngi.eu/
 [fail-fast]: https://en.wikipedia.org/wiki/Fail-fast_system
+[Hardware Open Search Ecosystem project]: https://www.ngisearch.eu/view/Events/OC5Searchers#HOSE
 [Horizon 2020]: https://research-and-innovation.ec.europa.eu/funding/funding-opportunities/funding-programmes-and-open-calls/horizon-2020_en
 [INTERFACER]: https://www.interfacerproject.eu/
 [IoPA]: https://www.internetofproduction.org/
