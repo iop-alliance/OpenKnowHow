@@ -286,7 +286,9 @@ The future could bring:
 
 ## Ecosystem
 
+<!--
 TODO Overall narrative
+-->
 
 At the core of the OKH ecosystem, we have [the standard](#standard).
 It defines the structure of mandatory and optional fields
@@ -347,7 +349,9 @@ or in the specification (standard),
 they might not have a way to right it,
 if they are lucky enough to even understand what is going wrong.
 
+<!--
 TODO More!
+-->
 
 - Test (has to be run locally): [RDF-DB tester]
   This fetches the crawled data, starts a DB,
