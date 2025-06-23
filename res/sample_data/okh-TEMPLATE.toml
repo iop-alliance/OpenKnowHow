@@ -101,6 +101,20 @@ tags = [
   "photo",
 ]
 
+[[image]]
+location = "res/media/img/diagram-x.svg"
+depicts = "A Diagram indicating the social connections we hope this thing can foster"
+tags = [
+  "color",
+  "diagram",
+]
+
+[[image]]
+location = "res/assets/media/img/random-image-not-fitting-into-any-slot-nor-tag.png"
+
+[[image]]
+location = "https://random.org/image/host/some-x-img.png"
+
 [[part]]
 name = "your-awesome-part"
 tsdc = "3DP"
