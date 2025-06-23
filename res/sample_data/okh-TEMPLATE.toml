@@ -57,7 +57,8 @@ tsdc = "MEC"
 bom = "BoM.csv"
 manufacturing-instructions = "Documentation/Assembly_Guide/AssemblyGuide.md"
 user-manual = "Documentation/User_Guide/UserGuide.md"
-# Any mass always has to be in g (grams)
+# The mass of the finnished thing/product
+# [g (grams)]
 mass = 50330.0
 
 # This allows you to define the RDF namespace and prefix
@@ -73,7 +74,7 @@ namespace = "http://w3id.org/YOUR-ORG/data/your-awesome-project#"
 #prefix = "yaprj"
 
 [outer-dimensions]
-# Any dimension value always has to be in [mm] (millimeters)
+# The outer dimensions (aka bounding box) of the finnished thing/product.
 # NOTE We need all three of these values.
 #      If you don't have them, take a rough estimate,
 #      or remove or comment out the whole `[outer-dimensions]` section.
