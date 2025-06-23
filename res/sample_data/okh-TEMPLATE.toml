@@ -39,14 +39,42 @@ function = "This thing can clean, fly to the moon, keep you warm when its freezi
 documentation-language = "en-GB"
 version = "1.0.0"
 #fork-of = "https://gitlab.com/forefather/his-less-awesome-project/"
+# The organization that maintains this project, if any (else: remove this line)
 organization = "xxx"
 release = "https://gitlab.com/YOU/your-awesome-project/-/releases/1.0.0"
+# File containing an intro to the project.
+# [repo-relative path or absolute URL, single entry or a list]
 readme = "README.md"
+# File containing info about how to contribute to the development of this project.
+# This usually contaisn a mixture of both technical and social guidelines.
+# [repo-relative path or absolute URL, single entry or a list]
 contribution-guide = "CONTRIBUTING.md"
+# How far in its development is this technology;
+# how trustworthy, stable and usable is it?
+# Choose the best fitting category out of the ones available in this file:
+# <https://github.com/iop-alliance/OpenKnowHow/blob/bdd266398ed74c0828aa8795c2add082b8518eae/src/spec/otrl.ttl#L110>
+# (read all the info for the categories, and then copy the value of `rdfs:label` in here)
 technology-readiness-level = "OTRL-3"
+# How far in its development is this technologies documentation;
+# how well tested, how many times reproduced, ...?
+# Choose the best fitting category out of the ones available in this file:
+# <https://github.com/iop-alliance/OpenKnowHow/blob/bdd266398ed74c0828aa8795c2add082b8518eae/src/spec/otrl.ttl#L164>
+# (read all the info for the categories, and then copy the value of `rdfs:label` in here)
 documentation-readiness-level = "ODRL-3"
+# File containing information about an attestation of a certification process for this project.
+# So if some (usually third party) organization found this project
+# to be adhering to a certain set of rules,
+# and there is a document that attests that,
+# you may link it here.
+# [repo-relative path or absolute URL, single entry or a list]
 attestation = "https://certification.oshwa.org/cl000001.html"
+# A publication (e.g. an academic paper) covering (or at elast related to) this project.
+# [repo-relative path or absolute URL, single entry or a list]
 publication = "https://doi.org/10.1371/journal.pone.0193087"
+# standard(s) this proejct complies with.
+# NOTE This is currently underspecified -> help needed!
+#      See <https://github.com/iop-alliance/OpenKnowHow/issues/163>
+# [string, single entry or a list]
 standard-compliance = "DIN EN 1335"
 # A Cooperative Patent Classification-ID,
 # describing this projects hardware;
@@ -54,8 +82,14 @@ standard-compliance = "DIN EN 1335"
 # <https://worldwide.espacenet.com/classification>
 cpc-patent-class = "D03D 35/00"
 tsdc = "MEC"
+# Bill of Materials (BoM) file, prefferably in the CSV format
+# [repo-relative path or absolute URL, single entry or a list]
 bom = "BoM.csv"
+# File with manufacturing instructions
+# [repo-relative path or absolute URL, single entry or a list]
 manufacturing-instructions = "Documentation/Assembly_Guide/AssemblyGuide.md"
+# File containing a user manual
+# [repo-relative path or absolute URL, single entry or a list]
 user-manual = "Documentation/User_Guide/UserGuide.md"
 # The mass of the finnished thing/product
 # [g (grams)]
@@ -78,20 +112,52 @@ namespace = "http://w3id.org/YOUR-ORG/data/your-awesome-project#"
 # NOTE We need all three of these values.
 #      If you don't have them, take a rough estimate,
 #      or remove or comment out the whole `[outer-dimensions]` section.
+# [mm (millimeters)]
 width = 400
 depth = 350.8
 height = 150
 
+# Uff, what is that?
+# -> TOMLs syntax for lists of things!
+# So this [[image]] means:
+# Hereafter follow the properties of *one* of the images for this project.
 [[image]]
+# The repo local path or absoilute URL to the image
 location = "res/media/img/logo.svg"
+# "depicts" contains a text that explains what can be seen on the image.
+# This might be shown in a tooltip or caption.
 depicts = "The logo of this OSH project"
+# Slots are sdimilar to tags.
+# You can annotate this image with multiple slots, chosen from a fixed, predifined set.
+# The special thing about slots is,
+# that each one *can be used at most once* per project.
+# For example, there will be only one primary/main photo
+# of the finished product -> slot: "photo-thing-main"
+#
+# Possible values for slots:
+# <https://github.com/iop-alliance/OpenKnowHow/blob/c4ba79b41f0c87993418a2862c9ad17b246224ee/src/schema/okh.schema.json#L248>
+# (The same info, though in less easily digestible form -
+# can be found in this file:
+# <https://github.com/iop-alliance/OpenKnowHow/blob/c4ba79b41f0c87993418a2862c9ad17b246224ee/src/spec/okh-img.ttl#L78>;
+# see the values for `schema:termCode`)
 slots = [
   "logo",
 ]
+# ... tags on the other hand, can be used multiple times per project.
+# So while the "logo" *slot* annotates the *main* logo,
+# the "logo" *tag* annotates *a* logo of the project.
+#
+# Possible values for tags:
+# <https://github.com/iop-alliance/OpenKnowHow/blob/c4ba79b41f0c87993418a2862c9ad17b246224ee/src/schema/okh.schema.json#L282>
+# (The same info, though in less easily digestible form -
+# can be found in this file:
+# <https://github.com/iop-alliance/OpenKnowHow/blob/c4ba79b41f0c87993418a2862c9ad17b246224ee/src/spec/okh-img.ttl#L258>;
+# see the values for `schema:termCode`)
 tags = [
   "logo",
 ]
 
+# ...and here is where the second image begins
 [[image]]
 location = "res/assets/media/img/hw-photo.png"
 depicts = "A photo of the finished hardware, taken with a white background"
