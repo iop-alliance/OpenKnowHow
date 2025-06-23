@@ -64,7 +64,7 @@ Other, crucial files for OKH, outside this repository:
 1. [ods.ttl](https://codeberg.org/elevont/open-dataset/src/branch/master/src/ont/ods.ttl) -
     The Open Dataset Ontology, used in OKH (especially by the scraper)
     to annotate scraping meta-data, like source of the data and time of the last scrape.
-2. [okh-krawler.ttl](https://github.com/iop-alliance/OKH-krawler/blob/develop/src/ont/okh-krawler.ttl) -
+2. [okh-krawler.ttl](https://github.com/iop-alliance/OKH-krawler/blob/main/src/ont/okh-krawler.ttl) -
     RDF individuals to link to in the scraping meta-data,
     like specific data sources (e.g. `appropedia.org`)
     or data gathering methods (e.g. `by-manifest` or `by-API`).
