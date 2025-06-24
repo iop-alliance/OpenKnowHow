@@ -41,6 +41,7 @@ version = "1.0.0"
 #fork-of = "https://gitlab.com/forefather/his-less-awesome-project/"
 # The organization that maintains this project, if any (else: remove this line)
 organization = "xxx"
+# In the case of no releases, can link to the latest commit.
 release = "https://gitlab.com/YOU/your-awesome-project/-/releases/1.0.0"
 # File containing an intro to the project.
 # [repo-relative path or absolute URL, single entry or a list]
@@ -81,6 +82,10 @@ standard-compliance = "DIN EN 1335"
 # You may want to search for it here:
 # <https://worldwide.espacenet.com/classification>
 cpc-patent-class = "D03D 35/00"
+# Void if there is no valid licence.
+# Possible values for the project listed here:
+# <https://gitlab.com/OSEGermany/oh-tsdc/-/blob/master/OH-TsDC.md?ref_type=heads.>
+# [string, single entry or a list]
 tsdc = "MEC"
 # Bill of Materials (BoM) file, prefferably in the CSV format
 # [repo-relative path or absolute URL, single entry or a list]
