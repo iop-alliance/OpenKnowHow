@@ -1,0 +1,116 @@
+@base             <http://w3id.org/oseg/ont/otrl> .
+@prefix otrl:     <#> .
+@prefix cc:       <http://creativecommons.org/ns#> .
+@prefix dcam:     <http://purl.org/dc/dcam/> .
+@prefix dcat:     <http://www.w3.org/ns/dcat#> .
+@prefix dcterms:  <http://purl.org/dc/terms/> .
+@prefix osegprof: <http://w3id.org/oseg/ont/oseg-profiles#> .
+@prefix owl:      <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:     <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema:   <http://schema.org/> .
+@prefix skos:     <http://www.w3.org/2004/02/skos/core#> .
+@prefix spdx:     <http://spdx.org/rdf/terms#> .
+@prefix spdxl:    <http://spdx.org/licenses/> .
+@prefix vaem:     <http://www.linkedmodel.org/schema/vaem#> .
+@prefix vann:     <http://purl.org/vocab/vann/> .
+@prefix vs:       <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
+
+otrl:Otrl
+  vs:term_status "deprecated" ;
+  owl:deprecated "true"^^xsd:boolean ;
+  cc:deprecatedOn "2022-12-30"^^xsd:date ;
+  schema:supersededBy otrl:OTRL ;
+  .
+
+otrl:Odrl
+  vs:term_status "deprecated" ;
+  owl:deprecated "true"^^xsd:boolean ;
+  cc:deprecatedOn "2022-12-30"^^xsd:date ;
+  schema:supersededBy otrl:ODRL ;
+  .
+
+otrl:Otrl1
+  vs:term_status "deprecated" ;
+  owl:deprecated "true"^^xsd:boolean ;
+  cc:deprecatedOn "2022-12-30"^^xsd:date ;
+  schema:supersededBy otrl:OTRL1 ;
+  .
+
+otrl:Otrl2
+  vs:term_status "deprecated" ;
+  owl:deprecated "true"^^xsd:boolean ;
+  cc:deprecatedOn "2022-12-30"^^xsd:date ;
+  schema:supersededBy otrl:OTRL2 ;
+  .
+
+otrl:Otrl3
+  vs:term_status "deprecated" ;
+  owl:deprecated "true"^^xsd:boolean ;
+  cc:deprecatedOn "2022-12-30"^^xsd:date ;
+  schema:supersededBy otrl:OTRL3 ;
+  .
+
+otrl:Otrl4
+  vs:term_status "deprecated" ;
+  owl:deprecated "true"^^xsd:boolean ;
+  cc:deprecatedOn "2022-12-30"^^xsd:date ;
+  schema:supersededBy otrl:OTRL4 ;
+  .
+
+otrl:Otrl5
+  vs:term_status "deprecated" ;
+  owl:deprecated "true"^^xsd:boolean ;
+  cc:deprecatedOn "2022-12-30"^^xsd:date ;
+  schema:supersededBy otrl:OTRL5 ;
+  .
+
+otrl:Otrl6
+  vs:term_status "deprecated" ;
+  owl:deprecated "true"^^xsd:boolean ;
+  cc:deprecatedOn "2022-12-30"^^xsd:date ;
+  schema:supersededBy otrl:OTRL6 ;
+  .
+
+otrl:Odrl1
+  vs:term_status "deprecated" ;
+  owl:deprecated "true"^^xsd:boolean ;
+  cc:deprecatedOn "2022-12-30"^^xsd:date ;
+  schema:supersededBy otrl:ODRL1 ;
+  .
+
+otrl:Odrl2
+  vs:term_status "deprecated" ;
+  owl:deprecated "true"^^xsd:boolean ;
+  cc:deprecatedOn "2022-12-30"^^xsd:date ;
+  schema:supersededBy otrl:ODRL2 ;
+  .
+
+otrl:Odrl3
+  vs:term_status "deprecated" ;
+  owl:deprecated "true"^^xsd:boolean ;
+  cc:deprecatedOn "2022-12-30"^^xsd:date ;
+  schema:supersededBy otrl:ODRL3 ;
+  .
+
+otrl:Odrl3Star
+  vs:term_status "deprecated" ;
+  owl:deprecated "true"^^xsd:boolean ;
+  cc:deprecatedOn "2022-12-30"^^xsd:date ;
+  schema:supersededBy otrl:ODRL3Star ;
+  .
+
+otrl:Odrl4
+  vs:term_status "deprecated" ;
+  owl:deprecated "true"^^xsd:boolean ;
+  cc:deprecatedOn "2022-12-30"^^xsd:date ;
+  schema:supersededBy otrl:ODRL4 ;
+  .
+
+otrl:Odrl5
+  vs:term_status "deprecated" ;
+  owl:deprecated "true"^^xsd:boolean ;
+  cc:deprecatedOn "2022-01-10"^^xsd:date ;
+  schema:supersededBy otrl:Odrl4 ;
+  .
