@@ -38,6 +38,7 @@ for images in OKH."""@en ;
   dcterms:creator osegprof:robinVobruba ;
   schema:creator osegprof:robinVobruba ;
   dcterms:publisher osegprof:Iopa ;
+  dcterms:issued "2025-02-01T09:03:49Z"^^xsd:dateTimeStamp ;
   dcterms:license "https://www.gnu.org/licenses/agpl-3.0.txt" ;
   cc:license "https://www.gnu.org/licenses/agpl-3.0.txt" ;
   spdx:licenseDeclared spdxl:AGPL-3.0-or-later ;
