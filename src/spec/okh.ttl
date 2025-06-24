@@ -695,7 +695,7 @@ okh:manufacturingProcess
   a owl:DatatypeProperty ;
   a skos:Concept ;
   rdfs:label "manufacturing process"@en ;
-  vaem:todo "TODO Needs more properties: comment, domain and range"@en ;
+  vaem:todo "TODO Needs more properties: comment and range"@en ;
   rdfs:subPropertyOf okh:productionMetadata ;
   vs:term_status "unstable" ;
   okhmeta:hasMetaTag okhmeta:MakingTag ;
