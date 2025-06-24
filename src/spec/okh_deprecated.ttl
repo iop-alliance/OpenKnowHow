@@ -1,17 +1,35 @@
-@base             <http://w3id.org/oseg/ont/okh> .
-@prefix okh:      <#> .
-@prefix cc:       <http://creativecommons.org/ns#> .
-@prefix dcam:     <http://purl.org/dc/dcam/> .
-#@prefix doap:     <http://usefulinc.com/ns/doap#> .
-@prefix okhmeta:  <http://w3id.org/oseg/ont/okhmeta> .
-@prefix owl:      <http://www.w3.org/2002/07/owl#> .
-@prefix rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix rdfs:     <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix schema:   <http://schema.org/> .
-@prefix skos:     <http://www.w3.org/2004/02/skos/core#> .
-@prefix spdx:     <http://spdx.org/rdf/terms#> .
-@prefix vs:       <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
-@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
+@base <http://w3id.org/oseg/ont/okh> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix dcam: <http://purl.org/dc/dcam/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dctype: <http://purl.org/dc/dcmitype/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mime: <http://www.iana.org/assignments/media-types/> .
+@prefix npg: <http://ns.nature.com/terms/> .
+@prefix obo: <http://purl.obolibrary.org/obo/> .
+@prefix ods: <http://w3id.org/oseg/ont/ods#> .
+@prefix okh: <http://w3id.org/oseg/ont/okh#> .
+@prefix okhimg: <http://w3id.org/oseg/ont/okhimg#> .
+@prefix okhkrawl: <http://w3id.org/oseg/ont/okh-krawler#> .
+@prefix okhmeta: <http://w3id.org/oseg/ont/okhmeta#> .
+@prefix osegprof: <http://w3id.org/oseg/ont/oseg-profiles#> .
+@prefix otrl: <http://w3id.org/oseg/ont/otrl#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix patent: <http://data.epo.org/linked-data/def/patent/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix spdx: <http://spdx.org/rdf/terms#> .
+@prefix spdxl: <http://spdx.org/licenses/> .
+@prefix tsdc: <http://w3id.org/oseg/ont/tsdc/core#> .
+@prefix vaem: <http://www.linkedmodel.org/schema/vaem#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix vs: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 # SPDX-FileCopyrightText: 2020 - 2021 Martin Häuer <martin.haeuer@ose-germany.de>
 # SPDX-FileCopyrightText: 2020 - 2025 Robin Vobruba <hoijui.quaero@gmail.com>
@@ -335,4 +353,3 @@ okh:license
   owl:deprecated "true"^^xsd:boolean ;
   cc:deprecatedOn "2025-02-13"^^xsd:date ;
   .
-
