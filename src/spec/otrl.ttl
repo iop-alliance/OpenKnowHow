@@ -12,6 +12,7 @@
 @prefix skos:     <http://www.w3.org/2004/02/skos/core#> .
 @prefix spdx:     <http://spdx.org/rdf/terms#> .
 @prefix spdxl:    <http://spdx.org/licenses/> .
+@prefix vaem:     <http://www.linkedmodel.org/schema/vaem#> .
 @prefix vann:     <http://purl.org/vocab/vann/> .
 @prefix vs:       <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
 @prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
@@ -113,7 +114,7 @@ otrl:OTRL1
   rdfs:comment "Ideation"@en ;
   otrl:goal "Product idea; needs are identified and initial specifications are defined."@en ;
   vs:term_status "unstable" ;
-  otrl:exitCriteria "TODO"@en ; # TODO
+  vaem:todo "TODO `otrl:exitCriteria \"TODO\"@en ;`" ;
   .
 
 otrl:OTRL2
@@ -122,7 +123,7 @@ otrl:OTRL2
   rdfs:comment "Conception"@en ;
   otrl:goal "Mature product concept has been formulated"@en ;
   vs:term_status "unstable" ;
-  otrl:exitCriteria "TODO"@en ; # TODO
+  vaem:todo "TODO `otrl:exitCriteria \"TODO\"@en ;`" ;
   .
 
 otrl:OTRL3
@@ -131,7 +132,7 @@ otrl:OTRL3
   rdfs:comment "Development"@en ;
   otrl:goal "Product model is developed"@en ;
   vs:term_status "unstable" ;
-  otrl:exitCriteria "TODO"@en ; # TODO
+  vaem:todo "TODO `otrl:exitCriteria \"TODO\"@en ;`" ;
   .
 
 otrl:OTRL4
@@ -140,7 +141,7 @@ otrl:OTRL4
   rdfs:comment "Prototyping and testing"@en ;
   otrl:goal "Full functional prototype is built and tested"@en ;
   vs:term_status "unstable" ;
-  otrl:exitCriteria "TODO"@en ; # TODO
+  vaem:todo "TODO `otrl:exitCriteria \"TODO\"@en ;`" ;
   .
 
 otrl:OTRL5
@@ -149,7 +150,7 @@ otrl:OTRL5
   rdfs:comment "Manufacturing development"@en ;
   otrl:goal "Fairly reliable processes identified and characterized"@en ;
   vs:term_status "unstable" ;
-  otrl:exitCriteria "TODO"@en ; # TODO
+  vaem:todo "TODO `otrl:exitCriteria \"TODO\"@en ;`" ;
   .
 
 otrl:OTRL6
@@ -158,7 +159,7 @@ otrl:OTRL6
   rdfs:comment "Product qualification"@en ;
   otrl:goal "Certificate marking conformity assessment or comparable"@en ;
   vs:term_status "unstable" ;
-  otrl:exitCriteria "TODO"@en ; # TODO
+  vaem:todo "TODO `otrl:exitCriteria \"TODO\"@en ;`" ;
   .
 
 otrl:ODRL1
@@ -176,7 +177,7 @@ otrl:ODRL2
   rdfs:comment "Collaborative documentation in progress"@en ;
   otrl:goal "Provision of documentation files and in editable formats enabling collaboration development"@en ;
   vs:term_status "unstable" ;
-  otrl:exitCriteria "TODO"@en ; # TODO
+  vaem:todo "TODO `otrl:exitCriteria \"TODO\"@en ;`" ;
   .
 
 otrl:ODRL3
@@ -203,7 +204,7 @@ otrl:ODRL4
   rdfs:comment "Full documentation for product qualification"@en ;
   otrl:goal "Product qualification documents published enabling decentralized commercial distribution"@en ;
   vs:term_status "unstable" ;
-  otrl:exitCriteria "TODO"@en ; # TODO
+  vaem:todo "TODO `otrl:exitCriteria \"TODO\"@en ;`" ;
   .
 
 otrl:Otrl
