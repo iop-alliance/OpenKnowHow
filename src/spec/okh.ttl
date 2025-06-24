@@ -169,8 +169,7 @@ okh:Component
   a skos:Concept ;
   rdfs:label "component"@en ;
   rdfs:comment "Either a module (MOSH) or Part (POSH); more component types may be added in the future"@en ;
-  # rdfs:subClassOf schema:CreativeWork ; # NOTE Probably better suited for the OSH Ontology
-  # rdfs:subClassOf doap:Project ;
+  vaem:todo "TODO `rdfs:subClassOf schema:CreativeWork ;`? - Probably better suited for the OSH Ontology -- `rdfs:subClassOf schema:CreativeWork ;`?" ;
   vs:term_status "unstable" ;
   okhmeta:hasMetaTag okhmeta:PartsTag ;
   .
@@ -244,7 +243,7 @@ okh:Standard
 #   owl:sameAs ods:File ;
 #   .
 
-okh:ManifestFile # TODO Comment out/remove - This is now ODS territory, though there we use an ods:File now
+okh:ManifestFile
   a owl:Class ;
   a skos:Concept ;
   rdfs:label "manifest file"@en ;
@@ -253,6 +252,7 @@ okh:ManifestFile # TODO Comment out/remove - This is now ODS territory, though t
   rdfs:subClassOf schema:TextDigitalDocument ;
   vs:term_status "unstable" ;
   okhmeta:hasMetaTag okhmeta:DataGatheringTag ;
+  vaem:todo "TODO Comment out/remove this subject - This is now ODS territory, though there we use an ods:File now" ;
   .
 
 okh:Image
@@ -608,7 +608,7 @@ include relevant keywords in this field.
 
 Optional:
 description of input, output and interfaces'''@en ;
-  rdfs:subPropertyOf obo:BFO_0000016 ; # aka function
+  rdfs:subPropertyOf obo:BFO_0000016 ;
   vs:term_status "unstable" ;
   owl:cardinality 1 ;
   dcam:domainIncludes okh:Module ;
@@ -667,10 +667,10 @@ okh:hasComponent
   a skos:Concept ;
   rdfs:label "has Component"@en ;
   rdfs:comment "Links to sub-components of the Module. In the case of that sub-component being an external Module, it has to refer to a snapshot of the RDF object representing that OKH Module. Each sub-component should also appear in the BoM."@en ;
-  # rdfs:subPropertyOf schema:hasPart ; # NOTE Probably better suited for the OSH Ontology
-  vs:term_status "unstable" ;
+  vaem:todo "TODO `rdfs:subPropertyOf schema:hasPart ;`? - Probably better suited for the OSH Ontology" ;
+  vaem:todo "TODO The two range value (see `dcam:rangeIncludes`) are an issue for the SHACL generator, because one is a class and the other a datatype, so it would have to be both OWL property types, but the SHACL generator (owl2shacl) can not handle that one (yet)" ;
   dcam:rangeIncludes
-    okh:Component, # TODO These two are an issue for the SHACL generator, because one is a class and the other a datatype, so it would have to be both OWL property types, but the SHACL generator (owl2shacl) can not handle that one (yet)
+    okh:Component,
     ods:FetchUrl ;
   dcam:domainIncludes okh:Module ;
   okhmeta:hasMetaTag okhmeta:PartsTag ;
@@ -681,8 +681,7 @@ okh:hasImage
   a skos:Concept ;
   rdfs:label "has image"@en ;
   rdfs:comment "links to the corresponding Image"@en ;
-  # rdfs:subPropertyOf foaf:depiction ; # NOTE This would probably be wrong, or at least misleading, because a project logo or a technical drawing of a part would fit for `okh:hasImage`, but not `foaf:depiction`
-  # Somehow related: `foaf:logo`, `doap:screenshot`
+  vaem:todo "TODO `rdfs:subPropertyOf foaf:depiction ;`? - This would probably be wrong, or at least misleading, because a project logo or a technical drawing of a part would fit for `okh:hasImage`, but not `foaf:depiction` -- Somehow related: `foaf:logo`, `doap:screenshot`" ;
   vs:term_status "unstable" ;
   rdfs:subPropertyOf schema:image ;
   dcam:rangeIncludes okh:Image ;
@@ -880,7 +879,7 @@ okh:smallestToleranceClass
   okhmeta:hasMetaTag okhmeta:MakingTag ;
   .
 
-okh:hasManifestFile # TODO Comment out/remove - This is now ODS territory, though there we use an ods:File now
+okh:hasManifestFile
   a owl:ObjectProperty ;
   a skos:Concept ;
   rdfs:label "has manifest file"@en ;
@@ -890,6 +889,7 @@ okh:hasManifestFile # TODO Comment out/remove - This is now ODS territory, thoug
   dcam:domainIncludes okh:Dataset ;
   dcam:rangeIncludes okh:ManifestFile ;
   okhmeta:hasMetaTag okhmeta:DataGatheringTag ;
+  vaem:todo "TODO Comment out/remove this subject - This is now ODS territory, though there we use an ods:File now" ;
   .
 
 okh:normalizedManifestContent
