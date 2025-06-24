@@ -322,6 +322,7 @@ in the RDF version of a projects data."""@en ;
   rdfs:subPropertyOf schema:version ;
   vs:term_status "unstable" ;
   dcam:domainIncludes ods:Dataset ;
+  owl:cardinality 1 ;
   .
 
 # okh:dataProvider
