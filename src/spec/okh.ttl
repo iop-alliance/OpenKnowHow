@@ -299,18 +299,6 @@ in the RDF version of a projects data."""@en ;
   owl:cardinality 1 ;
   .
 
-# okh:repoSnapshot # TODO No equivalent in ODS so far, maybe not required?
-#   a owl:DatatypeProperty ;
-#   a skos:Concept ;
-#   rdfs:label "repository snapshot"@en ;
-#   rdfs:comment "Repository snapshot (=specific version) URL"@en ;
-#   vs:term_status "unstable" ;
-#   dcam:rangeIncludes ods:FetchUrl ;
-#   owl:cardinality 1 ;
-#   dcam:domainIncludes okh:Module ;
-#   okhmeta:hasMetaTag okhmeta:HistoryTag ;
-#   .
-
 okh:version
   a owl:DatatypeProperty ;
   a skos:Concept ;
@@ -398,15 +386,6 @@ okh:organization
   okhmeta:hasMetaTag okhmeta:LegalTag ;
   .
 
-# okh:contributorCount
-#   a owl:DatatypeProperty ;
-#   a skos:Concept ;
-#   rdfs:label "number of contributors participating in the project" ;
-#   vs:term_status "unstable" ;
-#   dcam:domainIncludes okh:Module ;
-#   dcam:rangeIncludes xsd:int ;
-#   .
-
 okh:technologyReadinessLevel
   a owl:ObjectProperty ;
   a skos:Concept ;
@@ -483,17 +462,6 @@ okh:hasPublication
   dcam:rangeIncludes okh:Publication ;
   okhmeta:hasMetaTag okhmeta:DevelopmentTag ;
   .
-
-# okh:hasCertificate
-#   a owl:ObjectProperty ;
-#   a skos:Concept ;
-#   rdfs:label "certificate" ;
-#   rdfs:comment "official certificate, such as CE mark" ;
-# FIXME rdfs:subPropertyOf ;
-#   vs:term_status "unstable" ;
-#   dcam:domainIncludes okh:Module ;
-#   okhmeta:hasMetaTag okhmeta:DevelopmentTag ;
-#   .
 
 okh:cpcPatentClass
   a owl:DatatypeProperty ;
