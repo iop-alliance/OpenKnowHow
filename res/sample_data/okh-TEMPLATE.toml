@@ -91,6 +91,14 @@ manufacturing-instructions = "Documentation/Assembly_Guide/AssemblyGuide.md"
 # File containing a user manual
 # [repo-relative path or absolute URL, single entry or a list]
 user-manual = "Documentation/User_Guide/UserGuide.md"
+# Source files
+# [repo-relative path or absolute URL, a list]
+source = [
+     "main.scad",
+     "part_a.scad",
+     "part_b.scad",
+     "params.csv"
+     ]
 # The mass of the finnished thing/product
 # [g (grams)]
 mass = 50330.0
