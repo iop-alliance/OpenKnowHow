@@ -217,3 +217,122 @@ might have been an earlier version."""@en ;
   cc:deprecatedOn "2025-02-17"^^xsd:date ;
   .
 
+okh:Dataset
+  owl:sameAs ods:Dataset ;
+  vs:term_status "deprecated" ;
+  owl:deprecated "true"^^xsd:boolean ;
+  cc:deprecatedOn "2025-02-13"^^xsd:date ;
+  .
+
+okh:DataProvider
+  owl:sameAs ods:DataProvider ;
+  vs:term_status "deprecated" ;
+  owl:deprecated "true"^^xsd:boolean ;
+  cc:deprecatedOn "2025-02-13"^^xsd:date ;
+  .
+
+okh:DataSourcingProcedure
+  owl:sameAs ods:DataSourcingProcedure ;
+  vs:term_status "deprecated" ;
+  owl:deprecated "true"^^xsd:boolean ;
+  cc:deprecatedOn "2025-02-13"^^xsd:date ;
+  .
+
+okh:HttpUrl
+  owl:sameAs ods:FetchUrl ;
+  vs:term_status "deprecated" ;
+  owl:deprecated "true"^^xsd:boolean ;
+  cc:deprecatedOn "2025-02-13"^^xsd:date ;
+  .
+
+okh:File
+  owl:sameAs ods:File ;
+  vs:term_status "deprecated" ;
+  owl:deprecated "true"^^xsd:boolean ;
+  cc:deprecatedOn "2025-02-13"^^xsd:date ;
+  .
+
+okh:TimeStamp
+  owl:sameAs ods:TimeStamp ;
+  vs:term_status "deprecated" ;
+  owl:deprecated "true"^^xsd:boolean ;
+  cc:deprecatedOn "2025-02-13"^^xsd:date ;
+  .
+
+okh:dataProvider
+  owl:sameAs ods:primaryHost ;
+  vs:term_status "deprecated" ;
+  owl:deprecated "true"^^xsd:boolean ;
+  cc:deprecatedOn "2025-02-13"^^xsd:date ;
+  .
+
+okh:repoHost
+  owl:sameAs ods:host ;
+  vs:term_status "deprecated" ;
+  owl:deprecated "true"^^xsd:boolean ;
+  cc:deprecatedOn "2025-02-13"^^xsd:date ;
+  .
+
+okh:dataSourcingProcedure
+  owl:sameAs ods:dataSourcingProcedure ;
+  vs:term_status "deprecated" ;
+  owl:deprecated "true"^^xsd:boolean ;
+  cc:deprecatedOn "2025-02-13"^^xsd:date ;
+  .
+
+okh:repo
+  owl:sameAs ods:source ;
+  vs:term_status "deprecated" ;
+  owl:deprecated "true"^^xsd:boolean ;
+  cc:deprecatedOn "2025-02-13"^^xsd:date ;
+  .
+
+okh:relativePath
+  owl:sameAs ods:relativePath ;
+  vs:term_status "deprecated" ;
+  owl:deprecated "true"^^xsd:boolean ;
+  cc:deprecatedOn "2025-02-13"^^xsd:date ;
+  .
+
+okh:url
+  owl:sameAs ods:url ;
+  vs:term_status "deprecated" ;
+  owl:deprecated "true"^^xsd:boolean ;
+  cc:deprecatedOn "2025-02-13"^^xsd:date ;
+  .
+
+okh:fileFormat
+  owl:sameAs ods:fileFormat ;
+  vs:term_status "deprecated" ;
+  owl:deprecated "true"^^xsd:boolean ;
+  cc:deprecatedOn "2025-02-13"^^xsd:date ;
+  .
+
+okh:created
+  owl:sameAs ods:created ;
+  vs:term_status "deprecated" ;
+  owl:deprecated "true"^^xsd:boolean ;
+  cc:deprecatedOn "2025-02-13"^^xsd:date ;
+  .
+
+okh:licensor
+  owl:sameAs ods:licensor ;
+  vs:term_status "deprecated" ;
+  owl:deprecated "true"^^xsd:boolean ;
+  cc:deprecatedOn "2025-02-13"^^xsd:date ;
+  .
+
+okh:licenseExpression
+  owl:sameAs ods:licenseExpression ;
+  vs:term_status "deprecated" ;
+  owl:deprecated "true"^^xsd:boolean ;
+  cc:deprecatedOn "2025-02-13"^^xsd:date ;
+  .
+
+okh:license
+  owl:sameAs ods:license ;
+  vs:term_status "deprecated" ;
+  owl:deprecated "true"^^xsd:boolean ;
+  cc:deprecatedOn "2025-02-13"^^xsd:date ;
+  .
+
