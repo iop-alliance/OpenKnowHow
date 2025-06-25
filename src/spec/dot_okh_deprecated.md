@@ -8,17 +8,17 @@
 
 ## [1.1. ComponentReference](http://w3id.org/oseg/ont/okh#ComponentReference)
 
-* [**okhmetahasMetaTag**](http://w3id.org/oseg/ont/okhmetahasMetaTag) [okhmetaPartsTag](http://w3id.org/oseg/ont/okhmetaPartsTag)
+* [**hasMetaTag**](http://w3id.org/oseg/ont/okhmeta#hasMetaTag) [PartsTag](http://w3id.org/oseg/ont/okhmeta#PartsTag)
 * [**deprecatedOn**](http://creativecommons.org/ns#deprecatedOn) 2023-08-19
 * [**deprecated**](http://www.w3.org/2002/07/owl#deprecated) true
 * [**term_status**](http://www.w3.org/2003/06/sw-vocab-status/ns#term_status) "deprecated"
+* [**subClassOf**](http://www.w3.org/2000/01/rdf-schema#subClassOf) [Reference](http://w3id.org/oseg/ont/okh#Reference)
 * [**comment**](http://www.w3.org/2000/01/rdf-schema#comment) "others shall be able to identify/procure this component only by the given reference(s),
 MOSH → URL to corresponding release
 POSH → URL to containing folder
 STD  → standard designation (preferably naming the _latest_ standard)
 BUY  → unambiguous reference"
 * [**label**](http://www.w3.org/2000/01/rdf-schema#label) "component reference"
-* [**subClassOf**](http://www.w3.org/2000/01/rdf-schema#subClassOf) [Reference](http://w3id.org/oseg/ont/okh#Reference)
 * [**type**](http://www.w3.org/1999/02/22-rdf-syntax-ns#type) [Concept](http://www.w3.org/2004/02/skos/core#Concept)
 * [**type**](http://www.w3.org/1999/02/22-rdf-syntax-ns#type) [Class](http://www.w3.org/2002/07/owl#Class)
 

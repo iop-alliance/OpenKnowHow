@@ -1,0 +1,79 @@
+@base <http://w3id.org/oseg/ont/okh> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix dcam: <http://purl.org/dc/dcam/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dctype: <http://purl.org/dc/dcmitype/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mime: <http://www.iana.org/assignments/media-types/> .
+@prefix npg: <http://ns.nature.com/terms/> .
+@prefix obo: <http://purl.obolibrary.org/obo/> .
+@prefix ods: <http://w3id.org/oseg/ont/ods#> .
+@prefix okh: <http://w3id.org/oseg/ont/okh#> .
+@prefix okhimg: <http://w3id.org/oseg/ont/okhimg#> .
+@prefix okhkrawl: <http://w3id.org/oseg/ont/okh-krawler#> .
+@prefix okhmeta: <http://w3id.org/oseg/ont/okhmeta#> .
+@prefix osegprof: <http://w3id.org/oseg/ont/oseg-profiles#> .
+@prefix otrl: <http://w3id.org/oseg/ont/otrl#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix patent: <http://data.epo.org/linked-data/def/patent/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix spdx: <http://spdx.org/rdf/terms#> .
+@prefix spdxl: <http://spdx.org/licenses/> .
+@prefix tsdc: <http://w3id.org/oseg/ont/tsdc/core#> .
+@prefix vaem: <http://www.linkedmodel.org/schema/vaem#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix vs: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<>
+  a owl:Ontology ;
+  skos:editorialNote """
+# SPDX-FileCopyrightText: 2020 - 2021 Martin Häuer <martin.haeuer@ose-germany.de>
+# SPDX-FileCopyrightText: 2020 - 2025 Robin Vobruba <hoijui.quaero@gmail.com>
+#
+# SPDX-License-Identifier: GPL-3.0-or-later
+""" ;
+  spdx:licenseDeclared spdxl:GPL-3.0-or-later ;
+  .
+
+okh:hasCertificate
+  a
+    owl:ObjectProperty ,
+    skos:Concept ;
+  rdfs:label "certificate" ;
+  rdfs:comment "official certificate, such as CE mark" ;
+  dcam:domainIncludes okh:Module ;
+  vs:term_status "unstable" ;
+  okhmeta:hasMetaTag okhmeta:DevelopmentTag ;
+  vaem:todo "TODO FIXME add `rdfs:subPropertyOf`" ;
+  .
+
+okh:contributorCount
+  a
+    owl:DatatypeProperty ,
+    skos:Concept ;
+  rdfs:label "number of contributors participating in the project" ;
+  dcam:domainIncludes okh:Module ;
+  dcam:rangeIncludes xsd:int ;
+  vs:term_status "unstable" ;
+  .
+
+okh:repoSnapshot
+  a
+    owl:DatatypeProperty ,
+    skos:Concept ;
+  rdfs:label "repository snapshot"@en ;
+  rdfs:comment "Repository snapshot (=specific version) URL"@en ;
+  dcam:domainIncludes okh:Module ;
+  dcam:rangeIncludes ods:FetchUrl ;
+  vs:term_status "unstable" ;
+  owl:cardinality 1 ;
+  okhmeta:hasMetaTag okhmeta:HistoryTag ;
+  vaem:todo "TODO No equivalent in ODS so far, maybe not required?" ;
+  .
