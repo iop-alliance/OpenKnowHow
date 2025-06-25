@@ -33,8 +33,7 @@
 
 <>
   a owl:Ontology ;
-  skos:editorialNote
-    """
+  skos:editorialNote """
 # SPDX-FileCopyrightText: 2020 - 2021 Martin Häuer <martin.haeuer@ose-germany.de>
 # SPDX-FileCopyrightText: 2020 - 2025 Robin Vobruba <hoijui.quaero@gmail.com>
 #
@@ -43,129 +42,72 @@
   spdx:licenseDeclared spdxl:GPL-3.0-or-later ;
   .
 
-okh:Reference
-  a owl:Class ;
-  rdfs:label "unambiguous reference"@en ;
+okh:ComponentReference
+  a
+    owl:Class ,
+    skos:Concept ;
+  rdfs:label "component reference"@en ;
+  rdfs:comment """others shall be able to identify/procure this component only by the given reference(s),
+MOSH → URL to corresponding release
+POSH → URL to containing folder
+STD  → standard designation (preferably naming the _latest_ standard)
+BUY  → unambiguous reference"""@en ;
+  rdfs:subClassOf okh:Reference ;
   vs:term_status "deprecated" ;
-  owl:deprecated "true"^^xsd:boolean ;
-  cc:deprecatedOn "2024-12-15"^^xsd:date ;
+  owl:deprecated true ;
+  cc:deprecatedOn "2023-08-19"^^xsd:date ;
+  okhmeta:hasMetaTag okhmeta:PartsTag ;
   .
 
 okh:FileUrl
   a owl:Class ;
   rdfs:label "permanent URL to file"@en ;
-  rdfs:subClassOf okh:ComponentReference ;
-  rdfs:subClassOf schema:URL ;
+  rdfs:subClassOf
+    okh:ComponentReference ,
+    schema:URL ;
   vs:term_status "deprecated" ;
-  owl:deprecated "true"^^xsd:boolean ;
+  owl:deprecated true ;
   cc:deprecatedOn "2023-07-11"^^xsd:date ;
   schema:supersededBy okh:File ;
   .
 
 okh:Mass
-  a owl:Class ;
-  a skos:Concept ;
+  a
+    owl:Class ,
+    skos:Concept ;
   rdfs:label "mass"@en ;
   rdfs:comment "… of a module or a part"@en ;
   vs:term_status "deprecated" ;
-  owl:deprecated "true"^^xsd:boolean ;
+  owl:deprecated true ;
   cc:deprecatedOn "2024-06-16"^^xsd:date ;
-  okhmeta:hasMetaTag okhmeta:PhysicalTag ;
-  okhmeta:hasMetaTag okhmeta:TransportationTag ;
+  okhmeta:hasMetaTag
+    okhmeta:PhysicalTag ,
+    okhmeta:TransportationTag ;
   .
 
-okh:ComponentReference
+okh:Reference
   a owl:Class ;
-  a skos:Concept ;
-  rdfs:subClassOf okh:Reference ;
-  rdfs:label "component reference"@en ;
-  rdfs:comment '''others shall be able to identify/procure this component only by the given reference(s),
-MOSH → URL to corresponding release
-POSH → URL to containing folder
-STD  → standard designation (preferably naming the _latest_ standard)
-BUY  → unambiguous reference'''@en ;
+  rdfs:label "unambiguous reference"@en ;
   vs:term_status "deprecated" ;
-  owl:deprecated "true"^^xsd:boolean ;
-  cc:deprecatedOn "2023-08-19"^^xsd:date ;
-  okhmeta:hasMetaTag okhmeta:PartsTag ;
-  .
-
-okh:spdxLicense
-  a owl:ObjectProperty ;
-  a skos:Concept ;
-  rdfs:label "SPDX license identifier"@en ;
-  rdfs:comment "view complete list under https://spdx.org/licenses/"@en ;
-  skos:closeMatch schema:license ;
-  vs:term_status "deprecated" ;
-  owl:deprecated "true"^^xsd:boolean ;
-  cc:deprecatedOn "2024-06-25"^^xsd:date ;
-  schema:supersededBy okh:license ;
-  dcam:domainIncludes okh:Module ;
-  dcam:rangeIncludes spdx:ListedLicense ;
-  okhmeta:hasMetaTag okhmeta:LegalTag ;
-  skos:editorialNote "Our range (`spdx:ListedLicense`) wants a SPDX license identifier for a single, atomar license" ;
-  vaem:todo "TODO Maybe add `rdfs:subPropertyOf doap:license ;`?" ;
+  owl:deprecated true ;
+  cc:deprecatedOn "2024-12-15"^^xsd:date ;
   .
 
 okh:alternativeLicense
-  a owl:ObjectProperty ;
-  a skos:Concept ;
+  a
+    owl:ObjectProperty ,
+    skos:Concept ;
   rdfs:label "non-SPDX license"@en ;
   rdfs:comment "URL to legal code of a license without SPDX identifier, hence OSHWA-compliance is to be checked manually"@en ;
-  skos:closeMatch schema:license ;
-  vs:term_status "deprecated" ;
-  owl:deprecated "true"^^xsd:boolean ;
-  cc:deprecatedOn "2024-06-25"^^xsd:date ;
-  schema:supersededBy okh:license ;
   dcam:domainIncludes okh:Module ;
   dcam:rangeIncludes okh:File ;
+  vs:term_status "deprecated" ;
+  owl:deprecated true ;
   owl:cardinality 1 ;
+  cc:deprecatedOn "2024-06-25"^^xsd:date ;
   okhmeta:hasMetaTag okhmeta:LegalTag ;
-  .
-
-okh:openSCAD
-  a owl:DatatypeProperty ;
-  rdfs:label "OpenSCAD code defining a shape"@en ;
-  vs:term_status "deprecated" ;
-  owl:deprecated "true"^^xsd:boolean ;
-  cc:deprecatedOn "2024-06-16"^^xsd:date ;
-  schema:supersededBy okh:width, okh:depth, okh:height;
-  dcam:domainIncludes okh:Dimensions ;
-  dcam:rangeIncludes xsd:string ;
-  .
-
-okh:openScad
-  a owl:DatatypeProperty ;
-  rdfs:label "OpenSCAD volume"@en ;
-  vs:term_status "deprecated" ;
-  owl:deprecated "true"^^xsd:boolean ;
-  cc:deprecatedOn "2023-07-06"^^xsd:date ;
-  schema:supersededBy okh:openSCAD ;
-  owl:sameAs okh:openSCAD ;
-  .
-
-okh:unit
-  a owl:DatatypeProperty ;
-  rdfs:label "unit"@en ;
-  rdfs:comment "mm, cm, m, g, kg"@en ;
-  rdfs:comment "the unit of measurement associated with a property (additionally required okh:value)"@en ;
-  vs:term_status "deprecated" ;
-  owl:deprecated "true"^^xsd:boolean ;
-  cc:deprecatedOn "2024-06-16"^^xsd:date ;
-  dcam:domainIncludes
-    okh:Mass,
-    okh:Dimensions ;
-  .
-
-okh:value
-  a owl:DatatypeProperty ;
-  rdfs:label "value"@en ;
-  rdfs:comment "the numerical value associated with a property (additionally required okh:unit)"@en ;
-  vs:term_status "deprecated" ;
-  owl:deprecated "true"^^xsd:boolean ;
-  cc:deprecatedOn "2024-06-16"^^xsd:date ;
-  schema:supersededBy okh:hasMass;
-  dcam:domainIncludes okh:Mass ;
+  schema:supersededBy okh:license ;
+  skos:closeMatch schema:license ;
   .
 
 okh:fileUrl
@@ -174,7 +116,7 @@ okh:fileUrl
   rdfs:subPropertyOf schema:url ;
   dcam:domainIncludes okh:File ;
   vs:term_status "deprecated" ;
-  owl:deprecated "true"^^xsd:boolean ;
+  owl:deprecated true ;
   cc:deprecatedOn "2023-07-11"^^xsd:date ;
   schema:supersededBy okh:url ;
   .
@@ -185,29 +127,48 @@ okh:permaURL
   rdfs:comment "It was not 'permanent', but rather 'frozen in time', and it was also used in the Krawler, but badly. Things simply should not be done that way, but rather with a separate manifest file, where either everything is frozen, or nothing is, and the manifest file (internally) itself being marked accordingly."@en ;
   dcam:domainIncludes okh:File ;
   vs:term_status "deprecated" ;
-  owl:deprecated "true"^^xsd:boolean ;
+  owl:deprecated true ;
   cc:deprecatedOn "2023-07-11"^^xsd:date ;
   .
 
 okh:relatedTsdc
   a owl:ObjectProperty ;
+  owl:sameAs okh:tsdc ;
   vs:term_status "deprecated" ;
-  owl:deprecated "true"^^xsd:boolean ;
+  owl:deprecated true ;
   cc:deprecatedOn "2023-07-10"^^xsd:date ;
   schema:supersededBy okh:tsdc ;
-  owl:sameAs okh:tsdc ;
+  .
+
+okh:spdxLicense
+  a
+    owl:ObjectProperty ,
+    skos:Concept ;
+  rdfs:label "SPDX license identifier"@en ;
+  rdfs:comment "view complete list under https://spdx.org/licenses/"@en ;
+  dcam:domainIncludes okh:Module ;
+  dcam:rangeIncludes spdx:ListedLicense ;
+  vs:term_status "deprecated" ;
+  owl:deprecated true ;
+  cc:deprecatedOn "2024-06-25"^^xsd:date ;
+  okhmeta:hasMetaTag okhmeta:LegalTag ;
+  schema:supersededBy okh:license ;
+  skos:closeMatch schema:license ;
+  skos:editorialNote "Our range (`spdx:ListedLicense`) wants a SPDX license identifier for a single, atomar license" ;
+  vaem:todo "TODO Maybe add `rdfs:subPropertyOf doap:license ;`?" ;
   .
 
 okh:installationGuide
-  a owl:DatatypeProperty ;
-  a skos:Concept ;
+  a
+    owl:DatatypeProperty ,
+    skos:Concept ;
   rdfs:label "installation guide"@en ;
   rdfs:comment "Instructions for how to install the subject-software"@en ;
-  skos:editorialNote "TODO We should probably remove this, as this should be part of the software packages README, or be handled by some software-specific ontology instead"@en ;
-  vs:term_status "deprecated" ;
-  owl:deprecated "true"^^xsd:boolean ;
-  cc:deprecatedOn "2024-12-15"^^xsd:date ;
   dcam:domainIncludes okh:Software ;
+  vs:term_status "deprecated" ;
+  owl:deprecated true ;
+  cc:deprecatedOn "2024-12-15"^^xsd:date ;
+  skos:editorialNote "TODO We should probably remove this, as this should be part of the software packages README, or be handled by some software-specific ontology instead"@en ;
   vaem:todo "TODO Maybe add `rdfs:subPropertyOf schema:url ;`?" ;
   .
 
@@ -220,10 +181,11 @@ whats actually stored locally
 might have been converted to a later version."""@en ;
   rdfs:subPropertyOf okh:okhv ;
   rdfs:seeAlso okh:okhvStored ;
-  vs:term_status "unstable" ;
+  vs:term_status
+    "deprecated" ,
+    "unstable" ;
+  owl:deprecated true ;
   owl:cardinality 1 ;
-  vs:term_status "deprecated" ;
-  owl:deprecated "true"^^xsd:boolean ;
   cc:deprecatedOn "2025-02-17"^^xsd:date ;
   .
 
@@ -236,129 +198,179 @@ what was originally specified
 might have been an earlier version."""@en ;
   rdfs:subPropertyOf okh:okhv ;
   rdfs:seeAlso okh:okhvOrig ;
-  vs:term_status "unstable" ;
+  vs:term_status
+    "deprecated" ,
+    "unstable" ;
+  owl:deprecated true ;
   owl:cardinality 1 ;
-  vs:term_status "deprecated" ;
-  owl:deprecated "true"^^xsd:boolean ;
   cc:deprecatedOn "2025-02-17"^^xsd:date ;
   skos:editorialNote "This is somewhat obsolete, because the version should be visible in the `okh:` prefix IRI" ;
   .
 
-okh:Dataset
-  owl:sameAs ods:Dataset ;
+okh:openSCAD
+  a owl:DatatypeProperty ;
+  rdfs:label "OpenSCAD code defining a shape"@en ;
+  dcam:domainIncludes okh:Dimensions ;
+  dcam:rangeIncludes xsd:string ;
   vs:term_status "deprecated" ;
-  owl:deprecated "true"^^xsd:boolean ;
-  cc:deprecatedOn "2025-02-13"^^xsd:date ;
+  owl:deprecated true ;
+  cc:deprecatedOn "2024-06-16"^^xsd:date ;
+  schema:supersededBy
+    okh:depth ,
+    okh:height ,
+    okh:width ;
+  .
+
+okh:openScad
+  a owl:DatatypeProperty ;
+  rdfs:label "OpenSCAD volume"@en ;
+  owl:sameAs okh:openSCAD ;
+  vs:term_status "deprecated" ;
+  owl:deprecated true ;
+  cc:deprecatedOn "2023-07-06"^^xsd:date ;
+  schema:supersededBy okh:openSCAD ;
+  .
+
+okh:unit
+  a owl:DatatypeProperty ;
+  rdfs:label "unit"@en ;
+  rdfs:comment
+    "mm, cm, m, g, kg"@en ,
+    "the unit of measurement associated with a property (additionally required okh:value)"@en ;
+  dcam:domainIncludes
+    okh:Dimensions ,
+    okh:Mass ;
+  vs:term_status "deprecated" ;
+  owl:deprecated true ;
+  cc:deprecatedOn "2024-06-16"^^xsd:date ;
+  .
+
+okh:value
+  a owl:DatatypeProperty ;
+  rdfs:label "value"@en ;
+  rdfs:comment "the numerical value associated with a property (additionally required okh:unit)"@en ;
+  dcam:domainIncludes okh:Mass ;
+  vs:term_status "deprecated" ;
+  owl:deprecated true ;
+  cc:deprecatedOn "2024-06-16"^^xsd:date ;
+  schema:supersededBy okh:hasMass ;
   .
 
 okh:DataProvider
   owl:sameAs ods:DataProvider ;
   vs:term_status "deprecated" ;
-  owl:deprecated "true"^^xsd:boolean ;
+  owl:deprecated true ;
   cc:deprecatedOn "2025-02-13"^^xsd:date ;
   .
 
 okh:DataSourcingProcedure
   owl:sameAs ods:DataSourcingProcedure ;
   vs:term_status "deprecated" ;
-  owl:deprecated "true"^^xsd:boolean ;
+  owl:deprecated true ;
   cc:deprecatedOn "2025-02-13"^^xsd:date ;
   .
 
-okh:HttpUrl
-  owl:sameAs ods:FetchUrl ;
+okh:Dataset
+  owl:sameAs ods:Dataset ;
   vs:term_status "deprecated" ;
-  owl:deprecated "true"^^xsd:boolean ;
+  owl:deprecated true ;
   cc:deprecatedOn "2025-02-13"^^xsd:date ;
   .
 
 okh:File
   owl:sameAs ods:File ;
   vs:term_status "deprecated" ;
-  owl:deprecated "true"^^xsd:boolean ;
+  owl:deprecated true ;
+  cc:deprecatedOn "2025-02-13"^^xsd:date ;
+  .
+
+okh:HttpUrl
+  owl:sameAs ods:FetchUrl ;
+  vs:term_status "deprecated" ;
+  owl:deprecated true ;
   cc:deprecatedOn "2025-02-13"^^xsd:date ;
   .
 
 okh:TimeStamp
   owl:sameAs ods:TimeStamp ;
   vs:term_status "deprecated" ;
-  owl:deprecated "true"^^xsd:boolean ;
-  cc:deprecatedOn "2025-02-13"^^xsd:date ;
-  .
-
-okh:dataProvider
-  owl:sameAs ods:primaryHost ;
-  vs:term_status "deprecated" ;
-  owl:deprecated "true"^^xsd:boolean ;
-  cc:deprecatedOn "2025-02-13"^^xsd:date ;
-  .
-
-okh:repoHost
-  owl:sameAs ods:host ;
-  vs:term_status "deprecated" ;
-  owl:deprecated "true"^^xsd:boolean ;
-  cc:deprecatedOn "2025-02-13"^^xsd:date ;
-  .
-
-okh:dataSourcingProcedure
-  owl:sameAs ods:dataSourcingProcedure ;
-  vs:term_status "deprecated" ;
-  owl:deprecated "true"^^xsd:boolean ;
-  cc:deprecatedOn "2025-02-13"^^xsd:date ;
-  .
-
-okh:repo
-  owl:sameAs ods:source ;
-  vs:term_status "deprecated" ;
-  owl:deprecated "true"^^xsd:boolean ;
-  cc:deprecatedOn "2025-02-13"^^xsd:date ;
-  .
-
-okh:relativePath
-  owl:sameAs ods:relativePath ;
-  vs:term_status "deprecated" ;
-  owl:deprecated "true"^^xsd:boolean ;
-  cc:deprecatedOn "2025-02-13"^^xsd:date ;
-  .
-
-okh:url
-  owl:sameAs ods:url ;
-  vs:term_status "deprecated" ;
-  owl:deprecated "true"^^xsd:boolean ;
-  cc:deprecatedOn "2025-02-13"^^xsd:date ;
-  .
-
-okh:fileFormat
-  owl:sameAs ods:fileFormat ;
-  vs:term_status "deprecated" ;
-  owl:deprecated "true"^^xsd:boolean ;
+  owl:deprecated true ;
   cc:deprecatedOn "2025-02-13"^^xsd:date ;
   .
 
 okh:created
   owl:sameAs ods:created ;
   vs:term_status "deprecated" ;
-  owl:deprecated "true"^^xsd:boolean ;
+  owl:deprecated true ;
   cc:deprecatedOn "2025-02-13"^^xsd:date ;
   .
 
-okh:licensor
-  owl:sameAs ods:licensor ;
+okh:dataProvider
+  owl:sameAs ods:primaryHost ;
   vs:term_status "deprecated" ;
-  owl:deprecated "true"^^xsd:boolean ;
+  owl:deprecated true ;
   cc:deprecatedOn "2025-02-13"^^xsd:date ;
   .
 
-okh:licenseExpression
-  owl:sameAs ods:licenseExpression ;
+okh:dataSourcingProcedure
+  owl:sameAs ods:dataSourcingProcedure ;
   vs:term_status "deprecated" ;
-  owl:deprecated "true"^^xsd:boolean ;
+  owl:deprecated true ;
+  cc:deprecatedOn "2025-02-13"^^xsd:date ;
+  .
+
+okh:fileFormat
+  owl:sameAs ods:fileFormat ;
+  vs:term_status "deprecated" ;
+  owl:deprecated true ;
   cc:deprecatedOn "2025-02-13"^^xsd:date ;
   .
 
 okh:license
   owl:sameAs ods:license ;
   vs:term_status "deprecated" ;
-  owl:deprecated "true"^^xsd:boolean ;
+  owl:deprecated true ;
+  cc:deprecatedOn "2025-02-13"^^xsd:date ;
+  .
+
+okh:licenseExpression
+  owl:sameAs ods:licenseExpression ;
+  vs:term_status "deprecated" ;
+  owl:deprecated true ;
+  cc:deprecatedOn "2025-02-13"^^xsd:date ;
+  .
+
+okh:licensor
+  owl:sameAs ods:licensor ;
+  vs:term_status "deprecated" ;
+  owl:deprecated true ;
+  cc:deprecatedOn "2025-02-13"^^xsd:date ;
+  .
+
+okh:relativePath
+  owl:sameAs ods:relativePath ;
+  vs:term_status "deprecated" ;
+  owl:deprecated true ;
+  cc:deprecatedOn "2025-02-13"^^xsd:date ;
+  .
+
+okh:repo
+  owl:sameAs ods:source ;
+  vs:term_status "deprecated" ;
+  owl:deprecated true ;
+  cc:deprecatedOn "2025-02-13"^^xsd:date ;
+  .
+
+okh:repoHost
+  owl:sameAs ods:host ;
+  vs:term_status "deprecated" ;
+  owl:deprecated true ;
+  cc:deprecatedOn "2025-02-13"^^xsd:date ;
+  .
+
+okh:url
+  owl:sameAs ods:url ;
+  vs:term_status "deprecated" ;
+  owl:deprecated true ;
   cc:deprecatedOn "2025-02-13"^^xsd:date ;
   .

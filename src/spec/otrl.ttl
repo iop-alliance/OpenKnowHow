@@ -1,39 +1,57 @@
-@base             <http://w3id.org/oseg/ont/otrl> .
-@prefix otrl:     <#> .
-@prefix cc:       <http://creativecommons.org/ns#> .
-@prefix dcam:     <http://purl.org/dc/dcam/> .
-@prefix dcat:     <http://www.w3.org/ns/dcat#> .
-@prefix dcterms:  <http://purl.org/dc/terms/> .
+@base <http://w3id.org/oseg/ont/otrl> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix dcam: <http://purl.org/dc/dcam/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix osegprof: <http://w3id.org/oseg/ont/oseg-profiles#> .
-@prefix owl:      <http://www.w3.org/2002/07/owl#> .
-@prefix rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix rdfs:     <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix schema:   <http://schema.org/> .
-@prefix skos:     <http://www.w3.org/2004/02/skos/core#> .
-@prefix spdx:     <http://spdx.org/rdf/terms#> .
-@prefix spdxl:    <http://spdx.org/licenses/> .
-@prefix vaem:     <http://www.linkedmodel.org/schema/vaem#> .
-@prefix vann:     <http://purl.org/vocab/vann/> .
-@prefix vs:       <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
-@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
+@prefix otrl: <http://w3id.org/oseg/ont/otrl#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix spdx: <http://spdx.org/rdf/terms#> .
+@prefix spdxl: <http://spdx.org/licenses/> .
+@prefix vaem: <http://www.linkedmodel.org/schema/vaem#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix vs: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <>
-  a owl:Ontology ;
-  a spdx:SpdxItem ;
-  vann:preferredNamespacePrefix "otrl" ;
-  vann:preferredNamespaceUri "http://w3id.org/oseg/ont/otrl#"^^xsd:anyURI ;
+  a
+    owl:Ontology ,
+    spdx:SpdxItem ;
   owl:versionInfo "1.1.0" ;
   owl:versionIRI <http://w3id.org/oseg/ont/1.1.0/otrl> ;
-  dcterms:title "Open Technology & Documentation Readiness Level (OTRL) ontology"@en ;
+  cc:license "https://www.gnu.org/licenses/gpl-3.0.txt" ;
+  dcat:contactPoint "https://github.com/iop-alliance/OpenKnowHow/" ;
+  dcat:keyword
+    "OTRL" ,
+    "category" ,
+    "design" ,
+    "hardware" ,
+    "open-source" ,
+    "open-source-hardware" ,
+    "project" ;
+  dcterms:created "2021-02-22"^^xsd:date ;
+  dcterms:creator
+    osegprof:martinHaeuer ,
+    osegprof:robinVobruba ;
   dcterms:description "This can be used to assess an Open Source Hardware projects stage of technical development and its documentation."@en ;
+  dcterms:issued "2021-08-24T16:32:33Z"^^xsd:dateTimeStamp ;
+  dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
+  dcterms:license "https://www.gnu.org/licenses/gpl-3.0.txt" ;
+  dcterms:modified "2022-02-22T12:01:28Z"^^xsd:dateTimeStamp ;
+  dcterms:publisher osegprof:Iopa ;
+  dcterms:source "https://github.com/iop-alliance/OpenKnowHow/master/src/spec/otrl.ttl" ;
+  dcterms:title "Open Technology & Documentation Readiness Level (OTRL) ontology"@en ;
+  schema:codeRepository "https://github.com/iop-alliance/OpenKnowHow/" ;
   schema:comment "Descriptions (`rdfs:comment`) from NASA are used under public domain"@en ;
-  skos:editorialNote '''
-# SPDX-FileCopyrightText: 2020 - 2021 Martin Häuer <martin.haeuer@ose-germany.de>
-# SPDX-FileCopyrightText: 2020 - 2025 Robin Vobruba <hoijui.quaero@gmail.com>
-#
-# SPDX-License-Identifier: GPL-3.0-or-later
-''' ;
-  skos:editorialNote '''Regarding the use of `dcam:domainIncludes`
+  schema:creator
+    osegprof:martinHaeuer ,
+    osegprof:robinVobruba ;
+  skos:editorialNote
+    """Regarding the use of `dcam:domainIncludes`
 and `dcam:rangeIncludes` in this ontology:
 Looking at the definitions for the RDFS version
 of the two, `rdfs:domain` and `rdfs:range`:
@@ -51,30 +69,16 @@ Though there is an additional,
 very important difference:
 The `*Includes` properties are just suggestions,
 so if they are used, it is left open to use other,
-not mentioned class as domain or range too.'''@en ;
-  dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
-  dcterms:created "2021-02-22"^^xsd:date ;
-  dcterms:creator osegprof:martinHaeuer ;
-  schema:creator osegprof:martinHaeuer ;
-  dcterms:creator osegprof:robinVobruba ;
-  schema:creator osegprof:robinVobruba ;
-  dcterms:publisher osegprof:Iopa ;
-  dcterms:issued "2021-08-24T16:32:33Z"^^xsd:dateTimeStamp ;
-  dcterms:modified "2022-02-22T12:01:28Z"^^xsd:dateTimeStamp ;
-  dcterms:license "https://www.gnu.org/licenses/gpl-3.0.txt" ;
-  cc:license "https://www.gnu.org/licenses/gpl-3.0.txt" ;
+not mentioned class as domain or range too."""@en ,
+    """
+# SPDX-FileCopyrightText: 2020 - 2021 Martin Häuer <martin.haeuer@ose-germany.de>
+# SPDX-FileCopyrightText: 2020 - 2025 Robin Vobruba <hoijui.quaero@gmail.com>
+#
+# SPDX-License-Identifier: GPL-3.0-or-later
+""" ;
   spdx:licenseDeclared spdxl:GPL-3.0-or-later ;
-  dcterms:source "https://github.com/iop-alliance/OpenKnowHow/master/src/spec/otrl.ttl" ;
-  schema:codeRepository "https://github.com/iop-alliance/OpenKnowHow/" ;
-  dcat:keyword "OTRL", "hardware", "design", "open-source", "open-source-hardware", "project", "category" ;
-  dcat:contactPoint "https://github.com/iop-alliance/OpenKnowHow/" ;
-  .
-
-otrl:OTRL
-  a owl:Class ;
-  rdfs:label "Open Technology Readiness Level"@en ;
-  rdfs:comment "Technology Readiness Level for open source hardware"@en ;
-  vs:term_status "unstable" ;
+  vann:preferredNamespacePrefix "otrl" ;
+  vann:preferredNamespaceUri "http://w3id.org/oseg/ont/otrl#"^^xsd:anyURI ;
   .
 
 otrl:ODRL
@@ -84,99 +88,52 @@ otrl:ODRL
   vs:term_status "unstable" ;
   .
 
-otrl:goal
-  a owl:DatatypeProperty ;
-  rdfs:label "goal"@en ;
-  rdfs:comment "Goal or purpose of this OTRL/ODRL"@en ;
+otrl:OTRL
+  a owl:Class ;
+  rdfs:label "Open Technology Readiness Level"@en ;
+  rdfs:comment "Technology Readiness Level for open source hardware"@en ;
   vs:term_status "unstable" ;
-  rdfs:range rdf:langString ;
-  owl:cardinality 1 ;
-  dcam:domainIncludes
-    otrl:OTRL,
-    otrl:ODRL ;
   .
 
 otrl:exitCriteria
   a owl:DatatypeProperty ;
   rdfs:label "exit criteria"@en ;
   rdfs:comment "Criteria to exit this OTRL/ODRL for the next higher one; inspired by: https://www.nasa.gov/pdf/458490main_TRL_Definitions.pdf"@en ;
-  vs:term_status "unstable" ;
-  rdfs:range rdf:langString ;
-  owl:cardinality 1 ;
   dcam:domainIncludes
-    otrl:OTRL,
-    otrl:ODRL ;
+    otrl:ODRL ,
+    otrl:OTRL ;
+  rdfs:range rdf:langString ;
+  vs:term_status "unstable" ;
+  owl:cardinality 1 ;
   .
 
-otrl:OTRL1
-  a otrl:OTRL ;
-  rdfs:label "OTRL-1"@en ;
-  rdfs:comment "Ideation"@en ;
-  otrl:goal "Product idea; needs are identified and initial specifications are defined."@en ;
+otrl:goal
+  a owl:DatatypeProperty ;
+  rdfs:label "goal"@en ;
+  rdfs:comment "Goal or purpose of this OTRL/ODRL"@en ;
+  dcam:domainIncludes
+    otrl:ODRL ,
+    otrl:OTRL ;
+  rdfs:range rdf:langString ;
   vs:term_status "unstable" ;
-  vaem:todo "TODO `otrl:exitCriteria \"TODO\"@en ;`" ;
-  .
-
-otrl:OTRL2
-  a otrl:OTRL ;
-  rdfs:label "OTRL-2"@en ;
-  rdfs:comment "Conception"@en ;
-  otrl:goal "Mature product concept has been formulated"@en ;
-  vs:term_status "unstable" ;
-  vaem:todo "TODO `otrl:exitCriteria \"TODO\"@en ;`" ;
-  .
-
-otrl:OTRL3
-  a otrl:OTRL ;
-  rdfs:label "OTRL-3"@en ;
-  rdfs:comment "Development"@en ;
-  otrl:goal "Product model is developed"@en ;
-  vs:term_status "unstable" ;
-  vaem:todo "TODO `otrl:exitCriteria \"TODO\"@en ;`" ;
-  .
-
-otrl:OTRL4
-  a otrl:OTRL ;
-  rdfs:label "OTRL-4"@en ;
-  rdfs:comment "Prototyping and testing"@en ;
-  otrl:goal "Full functional prototype is built and tested"@en ;
-  vs:term_status "unstable" ;
-  vaem:todo "TODO `otrl:exitCriteria \"TODO\"@en ;`" ;
-  .
-
-otrl:OTRL5
-  a otrl:OTRL ;
-  rdfs:label "OTRL-5"@en ;
-  rdfs:comment "Manufacturing development"@en ;
-  otrl:goal "Fairly reliable processes identified and characterized"@en ;
-  vs:term_status "unstable" ;
-  vaem:todo "TODO `otrl:exitCriteria \"TODO\"@en ;`" ;
-  .
-
-otrl:OTRL6
-  a otrl:OTRL ;
-  rdfs:label "OTRL-6"@en ;
-  rdfs:comment "Product qualification"@en ;
-  otrl:goal "Certificate marking conformity assessment or comparable"@en ;
-  vs:term_status "unstable" ;
-  vaem:todo "TODO `otrl:exitCriteria \"TODO\"@en ;`" ;
+  owl:cardinality 1 ;
   .
 
 otrl:ODRL1
   a otrl:ODRL ;
   rdfs:label "ODRL-1"@en ;
   rdfs:comment "Documentation process commenced"@en ;
-  otrl:goal "Published information under free open source license"@en ;
   vs:term_status "unstable" ;
   otrl:exitCriteria "(OSHWA-compliant) free/open license applied on published material"@en ;
+  otrl:goal "Published information under free open source license"@en ;
   .
 
 otrl:ODRL2
   a otrl:ODRL ;
   rdfs:label "ODRL-2"@en ;
   rdfs:comment "Collaborative documentation in progress"@en ;
-  otrl:goal "Provision of documentation files and in editable formats enabling collaboration development"@en ;
   vs:term_status "unstable" ;
+  otrl:goal "Provision of documentation files and in editable formats enabling collaboration development"@en ;
   vaem:todo "TODO `otrl:exitCriteria \"TODO\"@en ;`" ;
   .
 
@@ -184,25 +141,79 @@ otrl:ODRL3
   a otrl:ODRL ;
   rdfs:label "ODRL-3"@en ;
   rdfs:comment "Full documentation published"@en ;
-  otrl:goal "Complete documentation as per DIN SPEC 3105-1"@en ;
   vs:term_status "unstable" ;
   otrl:exitCriteria "stable release"@en ;
+  otrl:goal "Complete documentation as per DIN SPEC 3105-1"@en ;
   .
 
 otrl:ODRL3Star
   a otrl:ODRL ;
   rdfs:label "ODRL-3*"@en ;
   rdfs:comment "Full documentation published & audited"@en ;
-  otrl:goal "Public evidence of documentation maturity"@en ;
   vs:term_status "unstable" ;
   otrl:exitCriteria "proof of compliance after DIN SPEC 3105-2 or equivalent (such as a scientific publication, OSHWA certification, RYF certification)"@en ;
+  otrl:goal "Public evidence of documentation maturity"@en ;
   .
 
 otrl:ODRL4
   a otrl:ODRL ;
   rdfs:label "ODRL-4"@en ;
   rdfs:comment "Full documentation for product qualification"@en ;
-  otrl:goal "Product qualification documents published enabling decentralized commercial distribution"@en ;
   vs:term_status "unstable" ;
+  otrl:goal "Product qualification documents published enabling decentralized commercial distribution"@en ;
+  vaem:todo "TODO `otrl:exitCriteria \"TODO\"@en ;`" ;
+  .
+
+otrl:OTRL1
+  a otrl:OTRL ;
+  rdfs:label "OTRL-1"@en ;
+  rdfs:comment "Ideation"@en ;
+  vs:term_status "unstable" ;
+  otrl:goal "Product idea; needs are identified and initial specifications are defined."@en ;
+  vaem:todo "TODO `otrl:exitCriteria \"TODO\"@en ;`" ;
+  .
+
+otrl:OTRL2
+  a otrl:OTRL ;
+  rdfs:label "OTRL-2"@en ;
+  rdfs:comment "Conception"@en ;
+  vs:term_status "unstable" ;
+  otrl:goal "Mature product concept has been formulated"@en ;
+  vaem:todo "TODO `otrl:exitCriteria \"TODO\"@en ;`" ;
+  .
+
+otrl:OTRL3
+  a otrl:OTRL ;
+  rdfs:label "OTRL-3"@en ;
+  rdfs:comment "Development"@en ;
+  vs:term_status "unstable" ;
+  otrl:goal "Product model is developed"@en ;
+  vaem:todo "TODO `otrl:exitCriteria \"TODO\"@en ;`" ;
+  .
+
+otrl:OTRL4
+  a otrl:OTRL ;
+  rdfs:label "OTRL-4"@en ;
+  rdfs:comment "Prototyping and testing"@en ;
+  vs:term_status "unstable" ;
+  otrl:goal "Full functional prototype is built and tested"@en ;
+  vaem:todo "TODO `otrl:exitCriteria \"TODO\"@en ;`" ;
+  .
+
+otrl:OTRL5
+  a otrl:OTRL ;
+  rdfs:label "OTRL-5"@en ;
+  rdfs:comment "Manufacturing development"@en ;
+  vs:term_status "unstable" ;
+  otrl:goal "Fairly reliable processes identified and characterized"@en ;
+  vaem:todo "TODO `otrl:exitCriteria \"TODO\"@en ;`" ;
+  .
+
+otrl:OTRL6
+  a otrl:OTRL ;
+  rdfs:label "OTRL-6"@en ;
+  rdfs:comment "Product qualification"@en ;
+  vs:term_status "unstable" ;
+  otrl:goal "Certificate marking conformity assessment or comparable"@en ;
   vaem:todo "TODO `otrl:exitCriteria \"TODO\"@en ;`" ;
   .

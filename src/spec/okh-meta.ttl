@@ -1,43 +1,55 @@
-@base             <http://w3id.org/oseg/ont/okhmeta> .
-@prefix okhmeta:  <#> .
-@prefix cc:       <http://creativecommons.org/ns#> .
-@prefix dcam:     <http://purl.org/dc/dcam/> .
-@prefix dcat:     <http://www.w3.org/ns/dcat#> .
-@prefix dcterms:  <http://purl.org/dc/terms/> .
+@base <http://w3id.org/oseg/ont/okhmeta> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix dcam: <http://purl.org/dc/dcam/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix okhmeta: <http://w3id.org/oseg/ont/okhmeta#> .
 @prefix osegprof: <http://w3id.org/oseg/ont/oseg-profiles#> .
-@prefix owl:      <http://www.w3.org/2002/07/owl#> .
-@prefix rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix rdfs:     <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix schema:   <http://schema.org/> .
-@prefix skos:     <http://www.w3.org/2004/02/skos/core#> .
-@prefix spdx:     <http://spdx.org/rdf/terms#> .
-@prefix spdxl:    <http://spdx.org/licenses/> .
-@prefix vaem:     <http://www.linkedmodel.org/schema/vaem#> .
-@prefix vann:     <http://purl.org/vocab/vann/> .
-@prefix vs:       <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
-@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix spdx: <http://spdx.org/rdf/terms#> .
+@prefix spdxl: <http://spdx.org/licenses/> .
+@prefix vaem: <http://www.linkedmodel.org/schema/vaem#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix vs: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <>
-  a owl:Ontology ;
-  a spdx:SpdxItem ;
-  vann:preferredNamespacePrefix "okhmeta" ;
-  vann:preferredNamespaceUri "http://w3id.org/oseg/ont/okh-meta#" ;
+  a
+    owl:Ontology ,
+    spdx:SpdxItem ;
   owl:versionInfo "1.1.0" ;
   owl:versionIRI <http://w3id.org/oseg/ont/1.1.0/okh-meta> ;
-  dcterms:title "Open Know How (OKH) - Meta"@en ;
-  dcterms:description '''Used for tagging/grouping classes and properties in the OKH ontology.
+  cc:license "https://www.gnu.org/licenses/gpl-3.0.txt" ;
+  dcat:contactPoint "https://github.com/iop-alliance/OpenKnowHow/" ;
+  dcat:keyword
+    "OKH" ,
+    "grouping" ,
+    "meta" ,
+    "tagging" ;
+  dcterms:created "2024-07-01"^^xsd:date ;
+  dcterms:creator osegprof:robinVobruba ;
+  dcterms:description """Used for tagging/grouping classes and properties in the OKH ontology.
 This hopefully allows to filter and visualize only (relevant) parts
 of the ontology/data,
 given specific scenarios.
 For example,
 one could only show the classes and properties tagged with "basic",
-when browsing multiple projects at a time.'''@en ;
-  skos:editorialNote '''
-# SPDX-FileCopyrightText: 2024 Robin Vobruba <hoijui.quaero@gmail.com>
-#
-# SPDX-License-Identifier: GPL-3.0-or-later
-''' ;
-  skos:editorialNote '''Regarding the use of `dcam:domainIncludes`
+when browsing multiple projects at a time."""@en ;
+  dcterms:issued "2024-07-01T09:03:49Z"^^xsd:dateTimeStamp ;
+  dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
+  dcterms:license "https://www.gnu.org/licenses/gpl-3.0.txt" ;
+  dcterms:modified "2024-07-01T09:03:49Z"^^xsd:dateTimeStamp ;
+  dcterms:publisher osegprof:Iopa ;
+  dcterms:source "https://github.com/iop-alliance/OpenKnowHow/master/src/spec/okh-meta.ttl" ;
+  dcterms:title "Open Know How (OKH) - Meta"@en ;
+  schema:codeRepository "https://github.com/iop-alliance/OpenKnowHow/" ;
+  schema:creator osegprof:robinVobruba ;
+  skos:editorialNote
+    """Regarding the use of `dcam:domainIncludes`
 and `dcam:rangeIncludes` in this ontology:
 Looking at the definitions for the RDFS version
 of the two, `rdfs:domain` and `rdfs:range`:
@@ -55,44 +67,40 @@ Though there is an additional,
 very important difference:
 The `*Includes` properties are just suggestions,
 so if they are used, it is left open to use other,
-not mentioned class as domain or range too.'''@en ;
-  dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
-  dcterms:created "2024-07-01"^^xsd:date ;
-  dcterms:creator osegprof:robinVobruba ;
-  schema:creator osegprof:robinVobruba ;
-  dcterms:publisher osegprof:Iopa ;
-  dcterms:issued "2024-07-01T09:03:49Z"^^xsd:dateTimeStamp ;
-  dcterms:modified "2024-07-01T09:03:49Z"^^xsd:dateTimeStamp ;
-  dcterms:license "https://www.gnu.org/licenses/gpl-3.0.txt" ;
-  cc:license "https://www.gnu.org/licenses/gpl-3.0.txt" ;
+not mentioned class as domain or range too."""@en ,
+    """
+# SPDX-FileCopyrightText: 2024 Robin Vobruba <hoijui.quaero@gmail.com>
+#
+# SPDX-License-Identifier: GPL-3.0-or-later
+""" ;
   spdx:licenseDeclared spdxl:GPL-3.0-or-later ;
-  dcterms:source "https://github.com/iop-alliance/OpenKnowHow/master/src/spec/okh-meta.ttl" ;
-  schema:codeRepository "https://github.com/iop-alliance/OpenKnowHow/" ;
-  dcat:keyword "meta", "OKH", "tagging", "grouping" ;
-  dcat:contactPoint "https://github.com/iop-alliance/OpenKnowHow/" ;
+  vann:preferredNamespacePrefix "okhmeta" ;
+  vann:preferredNamespaceUri "http://w3id.org/oseg/ont/okh-meta#" ;
   .
 
 okhmeta:Tag
-  a owl:Class ;
-  a skos:Concept ;
-  rdfs:subClassOf skos:Collection ;
+  a
+    owl:Class ,
+    skos:Concept ;
   rdfs:label "meta tag"@en ;
   rdfs:comment "see property okhmeta:hasMetaTag"@en ;
+  rdfs:subClassOf skos:Collection ;
   vs:term_status "unstable" ;
   okhmeta:hasMetaTag okhmeta:MetaTag ;
   .
 
 okhmeta:hasMetaTag
-  a owl:ObjectProperty ;
-  a skos:Concept ;
-  rdfs:subPropertyOf skos:member ;
+  a
+    owl:ObjectProperty ,
+    skos:Concept ;
   rdfs:label "has meta tag"@en ;
-  rdfs:comment '''Tags any part of the ontology with a meta-tag.
+  rdfs:comment """Tags any part of the ontology with a meta-tag.
 This might be useful for arranging properties in a GUI,
 or for visualizing only parts of the ontology in a graph,
-among possibly other things.'''@en ;
-  vs:term_status "unstable" ;
+among possibly other things."""@en ;
+  rdfs:subPropertyOf skos:member ;
   dcam:rangeIncludes okhmeta:MetaTag ;
+  vs:term_status "unstable" ;
   okhmeta:hasMetaTag okhmeta:MetaTag ;
   .
 
@@ -212,9 +220,9 @@ okhmeta:QualityTag
   a okhmeta:Tag ;
   rdfs:label "quality"@en ;
   rdfs:comment "The annotated subject deals with quality indication (and later also assurance), both of the documentation and the physical product(s) of the project."@en ;
-  vaem:todo "TODO Should this really be both about the docu and the physical project?"@en ;
   vs:term_status "unstable" ;
   okhmeta:hasMetaTag okhmeta:MetaTag ;
+  vaem:todo "TODO Should this really be both about the docu and the physical project?"@en ;
   .
 
 okhmeta:TransportationTag
