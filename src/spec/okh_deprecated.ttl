@@ -95,15 +95,16 @@ okh:spdxLicense
   a skos:Concept ;
   rdfs:label "SPDX license identifier"@en ;
   rdfs:comment "view complete list under https://spdx.org/licenses/"@en ;
-  # rdfs:subPropertyOf doap:license ;
   skos:closeMatch schema:license ;
   vs:term_status "deprecated" ;
   owl:deprecated "true"^^xsd:boolean ;
   cc:deprecatedOn "2024-06-25"^^xsd:date ;
   schema:supersededBy okh:license ;
   dcam:domainIncludes okh:Module ;
-  dcam:rangeIncludes spdx:ListedLicense ; # aka SPDX license identifier for a single, atomar license
+  dcam:rangeIncludes spdx:ListedLicense ;
   okhmeta:hasMetaTag okhmeta:LegalTag ;
+  skos:editorialNote "Our range (`spdx:ListedLicense`) wants a SPDX license identifier for a single, atomar license" ;
+  vaem:todo "TODO Maybe add `rdfs:subPropertyOf doap:license ;`?" ;
   .
 
 okh:alternativeLicense
@@ -203,11 +204,11 @@ okh:installationGuide
   rdfs:label "installation guide"@en ;
   rdfs:comment "Instructions for how to install the subject-software"@en ;
   skos:editorialNote "TODO We should probably remove this, as this should be part of the software packages README, or be handled by some software-specific ontology instead"@en ;
-#  rdfs:subPropertyOf schema:url ;
   vs:term_status "deprecated" ;
   owl:deprecated "true"^^xsd:boolean ;
   cc:deprecatedOn "2024-12-15"^^xsd:date ;
   dcam:domainIncludes okh:Software ;
+  vaem:todo "TODO Maybe add `rdfs:subPropertyOf schema:url ;`?" ;
   .
 
 okh:okhvOriginal
@@ -226,7 +227,7 @@ might have been converted to a later version."""@en ;
   cc:deprecatedOn "2025-02-17"^^xsd:date ;
   .
 
-okh:okhvPresent # TODO This is somewhat obsolete, because the version should be visible in the `okh:` prefix IRI
+okh:okhvPresent
   a owl:DatatypeProperty ;
   rdfs:label "present OKH version"@en ;
   rdfs:comment """The version of OKH specification
@@ -240,6 +241,7 @@ might have been an earlier version."""@en ;
   vs:term_status "deprecated" ;
   owl:deprecated "true"^^xsd:boolean ;
   cc:deprecatedOn "2025-02-17"^^xsd:date ;
+  skos:editorialNote "This is somewhat obsolete, because the version should be visible in the `okh:` prefix IRI" ;
   .
 
 okh:Dataset
