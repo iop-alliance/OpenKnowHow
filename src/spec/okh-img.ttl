@@ -22,6 +22,11 @@
   a
     ods:Dataset ,
     spdx:SpdxItem ;
+  rdfs:comment """
+# SPDX-FileCopyrightText: 2025 Robin Vobruba <hoijui.quaero@gmail.com>
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later
+""" ;
   owl:versionInfo "0.1.0" ;
   owl:versionIRI <http://w3id.org/oseg/ont/0.1.0/okhimg> ;
   cc:license "https://www.gnu.org/licenses/agpl-3.0.txt" ;
@@ -45,11 +50,6 @@ for images in OKH."""@en ;
   dcterms:title "Open Know How (OKH) - Image Tags & Slots"@en ;
   schema:codeRepository "https://github.com/iop-alliance/OpenKnowHow/" ;
   schema:creator osegprof:robinVobruba ;
-  skos:editorialNote """
-# SPDX-FileCopyrightText: 2025 Robin Vobruba <hoijui.quaero@gmail.com>
-#
-# SPDX-License-Identifier: AGPL-3.0-or-later
-""" ;
   spdx:licenseDeclared spdxl:AGPL-3.0-or-later ;
   vann:preferredNamespacePrefix "okhimg" ;
   vann:preferredNamespaceUri "http://w3id.org/oseg/ont/okhimg#"^^xsd:anyURI ;

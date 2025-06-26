@@ -21,6 +21,11 @@
   a
     owl:Ontology ,
     spdx:SpdxItem ;
+  rdfs:comment """
+# SPDX-FileCopyrightText: 2024 Robin Vobruba <hoijui.quaero@gmail.com>
+#
+# SPDX-License-Identifier: GPL-3.0-or-later
+""" ;
   owl:versionInfo "1.1.0" ;
   owl:versionIRI <http://w3id.org/oseg/ont/1.1.0/okh-meta> ;
   cc:license "https://www.gnu.org/licenses/gpl-3.0.txt" ;
@@ -48,8 +53,7 @@ when browsing multiple projects at a time."""@en ;
   dcterms:title "Open Know How (OKH) - Meta"@en ;
   schema:codeRepository "https://github.com/iop-alliance/OpenKnowHow/" ;
   schema:creator osegprof:robinVobruba ;
-  skos:editorialNote
-    """Regarding the use of `dcam:domainIncludes`
+  skos:editorialNote """Regarding the use of `dcam:domainIncludes`
 and `dcam:rangeIncludes` in this ontology:
 Looking at the definitions for the RDFS version
 of the two, `rdfs:domain` and `rdfs:range`:
@@ -67,12 +71,7 @@ Though there is an additional,
 very important difference:
 The `*Includes` properties are just suggestions,
 so if they are used, it is left open to use other,
-not mentioned class as domain or range too."""@en ,
-    """
-# SPDX-FileCopyrightText: 2024 Robin Vobruba <hoijui.quaero@gmail.com>
-#
-# SPDX-License-Identifier: GPL-3.0-or-later
-""" ;
+not mentioned class as domain or range too."""@en ;
   spdx:licenseDeclared spdxl:GPL-3.0-or-later ;
   vann:preferredNamespacePrefix "okhmeta" ;
   vann:preferredNamespaceUri "http://w3id.org/oseg/ont/okh-meta#" ;

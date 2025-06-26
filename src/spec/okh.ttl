@@ -36,6 +36,12 @@
     dcterms:Standard ,
     owl:Ontology ,
     spdx:SpdxItem ;
+  rdfs:comment """
+# SPDX-FileCopyrightText: 2020 - 2021 Martin Häuer <martin.haeuer@ose-germany.de>
+# SPDX-FileCopyrightText: 2020 - 2025 Robin Vobruba <hoijui.quaero@gmail.com>
+#
+# SPDX-License-Identifier: GPL-3.0-or-later
+""" ;
   owl:versionInfo "1.1.0" ;
   owl:versionIRI <http://w3id.org/oseg/ont/1.1.0/okh> ;
   cc:license "https://www.gnu.org/licenses/gpl-3.0.txt"^^xsd:anyURI ;
@@ -89,12 +95,6 @@ very important difference:
 The `*Includes` properties are just suggestions,
 so if they are used, it is left open to use other,
 not mentioned class as domain or range too."""@en ,
-    """
-# SPDX-FileCopyrightText: 2020 - 2021 Martin Häuer <martin.haeuer@ose-germany.de>
-# SPDX-FileCopyrightText: 2020 - 2025 Robin Vobruba <hoijui.quaero@gmail.com>
-#
-# SPDX-License-Identifier: GPL-3.0-or-later
-""" ,
     """# Naming Convention
 
 - Classes:
