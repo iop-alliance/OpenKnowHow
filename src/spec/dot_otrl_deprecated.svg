@@ -15,275 +15,275 @@
 <ellipse fill="none" stroke="#1f77b4" cx="731.99" cy="-67.26" rx="77.56" ry="16.03"/>
 <text text-anchor="middle" x="731.99" y="-63.56" font-family="Times,serif" font-size="14.00">owl:Ontology</text>
 </g>
-<!-- http://w3id.org/oseg/ont/otrl#OTRL1 -->
+<!-- http://w3id.org/oseg/ont/otrl#OTRL -->
 <g id="node2" class="node">
-<title>http://w3id.org/oseg/ont/otrl#OTRL1</title>
-<ellipse fill="none" stroke="#e377c2" cx="731.99" cy="-118.26" rx="67.35" ry="16.03"/>
-<text text-anchor="middle" x="731.99" y="-114.56" font-family="Times,serif" font-size="14.00">otrl:OTRL1</text>
-</g>
-<!-- http://w3id.org/oseg/ont/otrl#OTRL4 -->
-<g id="node3" class="node">
-<title>http://w3id.org/oseg/ont/otrl#OTRL4</title>
-<ellipse fill="none" stroke="#e377c2" cx="731.99" cy="-169.26" rx="67.35" ry="16.03"/>
-<text text-anchor="middle" x="731.99" y="-165.56" font-family="Times,serif" font-size="14.00">otrl:OTRL4</text>
-</g>
-<!-- http://w3id.org/oseg/ont/otrl#ODRL4 -->
-<g id="node4" class="node">
-<title>http://w3id.org/oseg/ont/otrl#ODRL4</title>
-<ellipse fill="none" stroke="#e377c2" cx="1106.18" cy="-220.26" rx="69.09" ry="16.03"/>
-<text text-anchor="middle" x="1106.18" y="-216.56" font-family="Times,serif" font-size="14.00">otrl:ODRL4</text>
+<title>http://w3id.org/oseg/ont/otrl#OTRL</title>
+<ellipse fill="none" stroke="#e377c2" cx="731.99" cy="-118.26" rx="60.62" ry="16.03"/>
+<text text-anchor="middle" x="731.99" y="-114.56" font-family="Times,serif" font-size="14.00">otrl:OTRL</text>
 </g>
 <!-- http://spdx.org/licenses/GPL&#45;3.0&#45;or&#45;later -->
-<g id="node5" class="node">
+<g id="node3" class="node">
 <title>http://spdx.org/licenses/GPL&#45;3.0&#45;or&#45;later</title>
 <ellipse fill="none" stroke="#e377c2" cx="731.99" cy="-16.26" rx="108.79" ry="16.03"/>
 <text text-anchor="middle" x="731.99" y="-12.56" font-family="Times,serif" font-size="14.00">spdxl:GPL&#45;3.0&#45;or&#45;...</text>
 </g>
-<!-- http://w3id.org/oseg/ont/otrl#ODRL3 -->
-<g id="node6" class="node">
-<title>http://w3id.org/oseg/ont/otrl#ODRL3</title>
-<ellipse fill="none" stroke="#e377c2" cx="731.99" cy="-271.26" rx="69.09" ry="16.03"/>
-<text text-anchor="middle" x="731.99" y="-267.56" font-family="Times,serif" font-size="14.00">otrl:ODRL3</text>
-</g>
-<!-- http://w3id.org/oseg/ont/otrl#ODRL -->
-<g id="node7" class="node">
-<title>http://w3id.org/oseg/ont/otrl#ODRL</title>
-<ellipse fill="none" stroke="#e377c2" cx="731.99" cy="-322.26" rx="62.87" ry="16.03"/>
-<text text-anchor="middle" x="731.99" y="-318.56" font-family="Times,serif" font-size="14.00">otrl:ODRL</text>
-</g>
-<!-- http://w3id.org/oseg/ont/otrl#OTRL -->
-<g id="node8" class="node">
-<title>http://w3id.org/oseg/ont/otrl#OTRL</title>
-<ellipse fill="none" stroke="#e377c2" cx="731.99" cy="-373.26" rx="60.62" ry="16.03"/>
-<text text-anchor="middle" x="731.99" y="-369.56" font-family="Times,serif" font-size="14.00">otrl:OTRL</text>
-</g>
 <!-- http://w3id.org/oseg/ont/otrl#ODRL1 -->
-<g id="node9" class="node">
+<g id="node4" class="node">
 <title>http://w3id.org/oseg/ont/otrl#ODRL1</title>
-<ellipse fill="none" stroke="#e377c2" cx="731.99" cy="-424.26" rx="69.09" ry="16.03"/>
-<text text-anchor="middle" x="731.99" y="-420.56" font-family="Times,serif" font-size="14.00">otrl:ODRL1</text>
+<ellipse fill="none" stroke="#e377c2" cx="731.99" cy="-169.26" rx="69.09" ry="16.03"/>
+<text text-anchor="middle" x="731.99" y="-165.56" font-family="Times,serif" font-size="14.00">otrl:ODRL1</text>
 </g>
-<!-- http://w3id.org/oseg/ont/otrl#Odrl4 -->
-<g id="node10" class="node">
-<title>http://w3id.org/oseg/ont/otrl#Odrl4</title>
-<ellipse fill="none" stroke="#e377c2" cx="731.99" cy="-220.26" rx="61.54" ry="16.03"/>
-<text text-anchor="middle" x="731.99" y="-216.56" font-family="Times,serif" font-size="14.00">otrl:Odrl4</text>
+<!-- http://w3id.org/oseg/ont/otrl#ODRL3 -->
+<g id="node5" class="node">
+<title>http://w3id.org/oseg/ont/otrl#ODRL3</title>
+<ellipse fill="none" stroke="#e377c2" cx="731.99" cy="-220.26" rx="69.09" ry="16.03"/>
+<text text-anchor="middle" x="731.99" y="-216.56" font-family="Times,serif" font-size="14.00">otrl:ODRL3</text>
 </g>
-<!-- http://w3id.org/oseg/ont/otrl#Odrl4&#45;&gt;http://w3id.org/oseg/ont/otrl#ODRL4 -->
-<g id="edge3" class="edge">
-<title>http://w3id.org/oseg/ont/otrl#Odrl4&#45;&gt;http://w3id.org/oseg/ont/otrl#ODRL4</title>
-<path fill="none" stroke="black" d="M793.61,-220.26C857.13,-220.26 957.14,-220.26 1026.65,-220.26"/>
-<polygon fill="black" stroke="black" points="1026.68,-223.76 1036.68,-220.26 1026.68,-216.76 1026.68,-223.76"/>
-<text text-anchor="middle" x="938.88" y="-224.06" font-family="Times,serif" font-size="14.00">schema:supersededBy</text>
-</g>
-<!-- http://w3id.org/oseg/ont/otrl#ODRL2 -->
-<g id="node11" class="node">
-<title>http://w3id.org/oseg/ont/otrl#ODRL2</title>
-<ellipse fill="none" stroke="#e377c2" cx="731.99" cy="-475.26" rx="69.09" ry="16.03"/>
-<text text-anchor="middle" x="731.99" y="-471.56" font-family="Times,serif" font-size="14.00">otrl:ODRL2</text>
+<!-- http://w3id.org/oseg/ont/otrl#OTRL4 -->
+<g id="node6" class="node">
+<title>http://w3id.org/oseg/ont/otrl#OTRL4</title>
+<ellipse fill="none" stroke="#e377c2" cx="731.99" cy="-271.26" rx="67.35" ry="16.03"/>
+<text text-anchor="middle" x="731.99" y="-267.56" font-family="Times,serif" font-size="14.00">otrl:OTRL4</text>
 </g>
 <!-- http://w3id.org/oseg/ont/otrl#OTRL6 -->
-<g id="node12" class="node">
+<g id="node7" class="node">
 <title>http://w3id.org/oseg/ont/otrl#OTRL6</title>
-<ellipse fill="none" stroke="#e377c2" cx="731.99" cy="-526.26" rx="67.35" ry="16.03"/>
-<text text-anchor="middle" x="731.99" y="-522.56" font-family="Times,serif" font-size="14.00">otrl:OTRL6</text>
+<ellipse fill="none" stroke="#e377c2" cx="731.99" cy="-322.26" rx="67.35" ry="16.03"/>
+<text text-anchor="middle" x="731.99" y="-318.56" font-family="Times,serif" font-size="14.00">otrl:OTRL6</text>
 </g>
 <!-- http://w3id.org/oseg/ont/otrl#OTRL2 -->
-<g id="node13" class="node">
+<g id="node8" class="node">
 <title>http://w3id.org/oseg/ont/otrl#OTRL2</title>
-<ellipse fill="none" stroke="#e377c2" cx="731.99" cy="-577.26" rx="67.35" ry="16.03"/>
-<text text-anchor="middle" x="731.99" y="-573.56" font-family="Times,serif" font-size="14.00">otrl:OTRL2</text>
+<ellipse fill="none" stroke="#e377c2" cx="731.99" cy="-373.26" rx="67.35" ry="16.03"/>
+<text text-anchor="middle" x="731.99" y="-369.56" font-family="Times,serif" font-size="14.00">otrl:OTRL2</text>
 </g>
 <!-- http://w3id.org/oseg/ont/otrl#ODRL3Star -->
-<g id="node14" class="node">
+<g id="node9" class="node">
 <title>http://w3id.org/oseg/ont/otrl#ODRL3Star</title>
-<ellipse fill="none" stroke="#e377c2" cx="731.99" cy="-628.26" rx="90.52" ry="16.03"/>
-<text text-anchor="middle" x="731.99" y="-624.56" font-family="Times,serif" font-size="14.00">otrl:ODRL3Star</text>
+<ellipse fill="none" stroke="#e377c2" cx="731.99" cy="-424.26" rx="90.52" ry="16.03"/>
+<text text-anchor="middle" x="731.99" y="-420.56" font-family="Times,serif" font-size="14.00">otrl:ODRL3Star</text>
+</g>
+<!-- http://w3id.org/oseg/ont/otrl#ODRL4 -->
+<g id="node10" class="node">
+<title>http://w3id.org/oseg/ont/otrl#ODRL4</title>
+<ellipse fill="none" stroke="#e377c2" cx="1106.18" cy="-475.26" rx="69.09" ry="16.03"/>
+<text text-anchor="middle" x="1106.18" y="-471.56" font-family="Times,serif" font-size="14.00">otrl:ODRL4</text>
+</g>
+<!-- http://w3id.org/oseg/ont/otrl#ODRL -->
+<g id="node11" class="node">
+<title>http://w3id.org/oseg/ont/otrl#ODRL</title>
+<ellipse fill="none" stroke="#e377c2" cx="731.99" cy="-526.26" rx="62.87" ry="16.03"/>
+<text text-anchor="middle" x="731.99" y="-522.56" font-family="Times,serif" font-size="14.00">otrl:ODRL</text>
+</g>
+<!-- http://w3id.org/oseg/ont/otrl#ODRL2 -->
+<g id="node12" class="node">
+<title>http://w3id.org/oseg/ont/otrl#ODRL2</title>
+<ellipse fill="none" stroke="#e377c2" cx="731.99" cy="-577.26" rx="69.09" ry="16.03"/>
+<text text-anchor="middle" x="731.99" y="-573.56" font-family="Times,serif" font-size="14.00">otrl:ODRL2</text>
+</g>
+<!-- http://w3id.org/oseg/ont/otrl#Odrl4 -->
+<g id="node13" class="node">
+<title>http://w3id.org/oseg/ont/otrl#Odrl4</title>
+<ellipse fill="none" stroke="#e377c2" cx="731.99" cy="-475.26" rx="61.54" ry="16.03"/>
+<text text-anchor="middle" x="731.99" y="-471.56" font-family="Times,serif" font-size="14.00">otrl:Odrl4</text>
+</g>
+<!-- http://w3id.org/oseg/ont/otrl#Odrl4&#45;&gt;http://w3id.org/oseg/ont/otrl#ODRL4 -->
+<g id="edge9" class="edge">
+<title>http://w3id.org/oseg/ont/otrl#Odrl4&#45;&gt;http://w3id.org/oseg/ont/otrl#ODRL4</title>
+<path fill="none" stroke="black" d="M793.61,-475.26C857.13,-475.26 957.14,-475.26 1026.65,-475.26"/>
+<polygon fill="black" stroke="black" points="1026.68,-478.76 1036.68,-475.26 1026.68,-471.76 1026.68,-478.76"/>
+<text text-anchor="middle" x="938.88" y="-479.06" font-family="Times,serif" font-size="14.00">schema:supersededBy</text>
+</g>
+<!-- http://w3id.org/oseg/ont/otrl#OTRL3 -->
+<g id="node14" class="node">
+<title>http://w3id.org/oseg/ont/otrl#OTRL3</title>
+<ellipse fill="none" stroke="#e377c2" cx="731.99" cy="-628.26" rx="67.35" ry="16.03"/>
+<text text-anchor="middle" x="731.99" y="-624.56" font-family="Times,serif" font-size="14.00">otrl:OTRL3</text>
+</g>
+<!-- http://w3id.org/oseg/ont/otrl#OTRL1 -->
+<g id="node15" class="node">
+<title>http://w3id.org/oseg/ont/otrl#OTRL1</title>
+<ellipse fill="none" stroke="#e377c2" cx="731.99" cy="-679.26" rx="67.35" ry="16.03"/>
+<text text-anchor="middle" x="731.99" y="-675.56" font-family="Times,serif" font-size="14.00">otrl:OTRL1</text>
+</g>
+<!-- http://w3id.org/oseg/ont/otrl#OTRL5 -->
+<g id="node16" class="node">
+<title>http://w3id.org/oseg/ont/otrl#OTRL5</title>
+<ellipse fill="none" stroke="#e377c2" cx="731.99" cy="-730.26" rx="67.35" ry="16.03"/>
+<text text-anchor="middle" x="731.99" y="-726.56" font-family="Times,serif" font-size="14.00">otrl:OTRL5</text>
 </g>
 <!-- http://w3id.org/oseg/ont/otrl -->
-<g id="node15" class="node">
+<g id="node17" class="node">
 <title>http://w3id.org/oseg/ont/otrl</title>
 <ellipse fill="none" stroke="#e377c2" cx="213.55" cy="-42.26" rx="50.82" ry="16.03"/>
 <text text-anchor="middle" x="213.55" y="-38.56" font-family="Times,serif" font-size="14.00">ns1:otrl</text>
 </g>
 <!-- http://w3id.org/oseg/ont/otrl&#45;&gt;http://www.w3.org/2002/07/owl#Ontology -->
-<g id="edge14" class="edge">
+<g id="edge16" class="edge">
 <title>http://w3id.org/oseg/ont/otrl&#45;&gt;http://www.w3.org/2002/07/owl#Ontology</title>
 <path fill="none" stroke="black" d="M264.06,-44.66C352.11,-48.92 536.85,-57.87 645.7,-63.14"/>
 <polygon fill="black" stroke="black" points="645.84,-66.65 656,-63.63 646.18,-59.65 645.84,-66.65"/>
 <text text-anchor="middle" x="525.09" y="-65.06" font-family="Times,serif" font-size="14.00">a</text>
 </g>
 <!-- http://w3id.org/oseg/ont/otrl&#45;&gt;http://spdx.org/licenses/GPL&#45;3.0&#45;or&#45;later -->
-<g id="edge4" class="edge">
+<g id="edge2" class="edge">
 <title>http://w3id.org/oseg/ont/otrl&#45;&gt;http://spdx.org/licenses/GPL&#45;3.0&#45;or&#45;later</title>
 <path fill="none" stroke="black" d="M264.06,-39.77C345.1,-35.69 508.04,-27.49 618.34,-21.93"/>
 <polygon fill="black" stroke="black" points="618.7,-25.42 628.52,-21.42 618.35,-18.43 618.7,-25.42"/>
 <text text-anchor="middle" x="525.09" y="-34.06" font-family="Times,serif" font-size="14.00">spdx:licenseDeclared</text>
 </g>
-<!-- http://w3id.org/oseg/ont/otrl#OTRL3 -->
-<g id="node16" class="node">
-<title>http://w3id.org/oseg/ont/otrl#OTRL3</title>
-<ellipse fill="none" stroke="#e377c2" cx="731.99" cy="-679.26" rx="67.35" ry="16.03"/>
-<text text-anchor="middle" x="731.99" y="-675.56" font-family="Times,serif" font-size="14.00">otrl:OTRL3</text>
-</g>
-<!-- http://w3id.org/oseg/ont/otrl#OTRL5 -->
-<g id="node17" class="node">
-<title>http://w3id.org/oseg/ont/otrl#OTRL5</title>
-<ellipse fill="none" stroke="#e377c2" cx="731.99" cy="-730.26" rx="67.35" ry="16.03"/>
-<text text-anchor="middle" x="731.99" y="-726.56" font-family="Times,serif" font-size="14.00">otrl:OTRL5</text>
-</g>
-<!-- http://w3id.org/oseg/ont/otrl#Otrl1 -->
+<!-- http://w3id.org/oseg/ont/otrl#Otrl -->
 <g id="node18" class="node">
-<title>http://w3id.org/oseg/ont/otrl#Otrl1</title>
-<ellipse fill="none" stroke="black" cx="213.55" cy="-118.26" rx="189.51" ry="16.03"/>
-<text text-anchor="middle" x="213.55" y="-114.56" font-family="Times,serif" font-size="14.00">http://w3id.org/oseg/ont/otrl#Otrl1</text>
+<title>http://w3id.org/oseg/ont/otrl#Otrl</title>
+<ellipse fill="none" stroke="black" cx="213.55" cy="-118.26" rx="183.28" ry="16.03"/>
+<text text-anchor="middle" x="213.55" y="-114.56" font-family="Times,serif" font-size="14.00">http://w3id.org/oseg/ont/otrl#Otrl</text>
 </g>
-<!-- http://w3id.org/oseg/ont/otrl#Otrl1&#45;&gt;http://w3id.org/oseg/ont/otrl#OTRL1 -->
+<!-- http://w3id.org/oseg/ont/otrl#Otrl&#45;&gt;http://w3id.org/oseg/ont/otrl#OTRL -->
 <g id="edge1" class="edge">
-<title>http://w3id.org/oseg/ont/otrl#Otrl1&#45;&gt;http://w3id.org/oseg/ont/otrl#OTRL1</title>
-<path fill="none" stroke="black" d="M403.19,-118.26C490.02,-118.26 588.21,-118.26 654.29,-118.26"/>
-<polygon fill="black" stroke="black" points="654.62,-121.76 664.62,-118.26 654.62,-114.76 654.62,-121.76"/>
+<title>http://w3id.org/oseg/ont/otrl#Otrl&#45;&gt;http://w3id.org/oseg/ont/otrl#OTRL</title>
+<path fill="none" stroke="black" d="M396.99,-118.26C488.24,-118.26 593.35,-118.26 660.9,-118.26"/>
+<polygon fill="black" stroke="black" points="661,-121.76 671,-118.26 661,-114.76 661,-121.76"/>
 <text text-anchor="middle" x="525.09" y="-122.06" font-family="Times,serif" font-size="14.00">schema:supersededBy</text>
 </g>
-<!-- http://w3id.org/oseg/ont/otrl#Otrl4 -->
+<!-- http://w3id.org/oseg/ont/otrl#Odrl1 -->
 <g id="node19" class="node">
-<title>http://w3id.org/oseg/ont/otrl#Otrl4</title>
-<ellipse fill="none" stroke="black" cx="213.55" cy="-169.26" rx="189.51" ry="16.03"/>
-<text text-anchor="middle" x="213.55" y="-165.56" font-family="Times,serif" font-size="14.00">http://w3id.org/oseg/ont/otrl#Otrl4</text>
+<title>http://w3id.org/oseg/ont/otrl#Odrl1</title>
+<ellipse fill="none" stroke="black" cx="213.55" cy="-169.26" rx="191.75" ry="16.03"/>
+<text text-anchor="middle" x="213.55" y="-165.56" font-family="Times,serif" font-size="14.00">http://w3id.org/oseg/ont/otrl#Odrl1</text>
 </g>
-<!-- http://w3id.org/oseg/ont/otrl#Otrl4&#45;&gt;http://w3id.org/oseg/ont/otrl#OTRL4 -->
-<g id="edge2" class="edge">
-<title>http://w3id.org/oseg/ont/otrl#Otrl4&#45;&gt;http://w3id.org/oseg/ont/otrl#OTRL4</title>
-<path fill="none" stroke="black" d="M403.19,-169.26C490.02,-169.26 588.21,-169.26 654.29,-169.26"/>
-<polygon fill="black" stroke="black" points="654.62,-172.76 664.62,-169.26 654.62,-165.76 654.62,-172.76"/>
+<!-- http://w3id.org/oseg/ont/otrl#Odrl1&#45;&gt;http://w3id.org/oseg/ont/otrl#ODRL1 -->
+<g id="edge3" class="edge">
+<title>http://w3id.org/oseg/ont/otrl#Odrl1&#45;&gt;http://w3id.org/oseg/ont/otrl#ODRL1</title>
+<path fill="none" stroke="black" d="M405.38,-169.26C490.75,-169.26 586.68,-169.26 652.17,-169.26"/>
+<polygon fill="black" stroke="black" points="652.42,-172.76 662.42,-169.26 652.42,-165.76 652.42,-172.76"/>
 <text text-anchor="middle" x="525.09" y="-173.06" font-family="Times,serif" font-size="14.00">schema:supersededBy</text>
 </g>
-<!-- http://w3id.org/oseg/ont/otrl#Odrl3 -->
+<!-- http://w3id.org/oseg/ont/otrl#Otrl4 -->
 <g id="node20" class="node">
+<title>http://w3id.org/oseg/ont/otrl#Otrl4</title>
+<ellipse fill="none" stroke="black" cx="213.55" cy="-271.26" rx="189.51" ry="16.03"/>
+<text text-anchor="middle" x="213.55" y="-267.56" font-family="Times,serif" font-size="14.00">http://w3id.org/oseg/ont/otrl#Otrl4</text>
+</g>
+<!-- http://w3id.org/oseg/ont/otrl#Otrl4&#45;&gt;http://w3id.org/oseg/ont/otrl#OTRL4 -->
+<g id="edge4" class="edge">
+<title>http://w3id.org/oseg/ont/otrl#Otrl4&#45;&gt;http://w3id.org/oseg/ont/otrl#OTRL4</title>
+<path fill="none" stroke="black" d="M403.19,-271.26C490.02,-271.26 588.21,-271.26 654.29,-271.26"/>
+<polygon fill="black" stroke="black" points="654.62,-274.76 664.62,-271.26 654.62,-267.76 654.62,-274.76"/>
+<text text-anchor="middle" x="525.09" y="-275.06" font-family="Times,serif" font-size="14.00">schema:supersededBy</text>
+</g>
+<!-- http://w3id.org/oseg/ont/otrl#Odrl3 -->
+<g id="node21" class="node">
 <title>http://w3id.org/oseg/ont/otrl#Odrl3</title>
-<ellipse fill="none" stroke="black" cx="213.55" cy="-271.26" rx="191.75" ry="16.03"/>
-<text text-anchor="middle" x="213.55" y="-267.56" font-family="Times,serif" font-size="14.00">http://w3id.org/oseg/ont/otrl#Odrl3</text>
+<ellipse fill="none" stroke="black" cx="213.55" cy="-220.26" rx="191.75" ry="16.03"/>
+<text text-anchor="middle" x="213.55" y="-216.56" font-family="Times,serif" font-size="14.00">http://w3id.org/oseg/ont/otrl#Odrl3</text>
 </g>
 <!-- http://w3id.org/oseg/ont/otrl#Odrl3&#45;&gt;http://w3id.org/oseg/ont/otrl#ODRL3 -->
 <g id="edge5" class="edge">
 <title>http://w3id.org/oseg/ont/otrl#Odrl3&#45;&gt;http://w3id.org/oseg/ont/otrl#ODRL3</title>
-<path fill="none" stroke="black" d="M405.38,-271.26C490.75,-271.26 586.68,-271.26 652.17,-271.26"/>
-<polygon fill="black" stroke="black" points="652.42,-274.76 662.42,-271.26 652.42,-267.76 652.42,-274.76"/>
-<text text-anchor="middle" x="525.09" y="-275.06" font-family="Times,serif" font-size="14.00">schema:supersededBy</text>
-</g>
-<!-- http://w3id.org/oseg/ont/otrl#Odrl -->
-<g id="node21" class="node">
-<title>http://w3id.org/oseg/ont/otrl#Odrl</title>
-<ellipse fill="none" stroke="black" cx="213.55" cy="-322.26" rx="185.02" ry="16.03"/>
-<text text-anchor="middle" x="213.55" y="-318.56" font-family="Times,serif" font-size="14.00">http://w3id.org/oseg/ont/otrl#Odrl</text>
-</g>
-<!-- http://w3id.org/oseg/ont/otrl#Odrl&#45;&gt;http://w3id.org/oseg/ont/otrl#ODRL -->
-<g id="edge6" class="edge">
-<title>http://w3id.org/oseg/ont/otrl#Odrl&#45;&gt;http://w3id.org/oseg/ont/otrl#ODRL</title>
-<path fill="none" stroke="black" d="M399.17,-322.26C488.96,-322.26 591.69,-322.26 658.76,-322.26"/>
-<polygon fill="black" stroke="black" points="658.8,-325.76 668.8,-322.26 658.8,-318.76 658.8,-325.76"/>
-<text text-anchor="middle" x="525.09" y="-326.06" font-family="Times,serif" font-size="14.00">schema:supersededBy</text>
-</g>
-<!-- http://w3id.org/oseg/ont/otrl#Otrl -->
-<g id="node22" class="node">
-<title>http://w3id.org/oseg/ont/otrl#Otrl</title>
-<ellipse fill="none" stroke="black" cx="213.55" cy="-373.26" rx="183.28" ry="16.03"/>
-<text text-anchor="middle" x="213.55" y="-369.56" font-family="Times,serif" font-size="14.00">http://w3id.org/oseg/ont/otrl#Otrl</text>
-</g>
-<!-- http://w3id.org/oseg/ont/otrl#Otrl&#45;&gt;http://w3id.org/oseg/ont/otrl#OTRL -->
-<g id="edge7" class="edge">
-<title>http://w3id.org/oseg/ont/otrl#Otrl&#45;&gt;http://w3id.org/oseg/ont/otrl#OTRL</title>
-<path fill="none" stroke="black" d="M396.99,-373.26C488.24,-373.26 593.35,-373.26 660.9,-373.26"/>
-<polygon fill="black" stroke="black" points="661,-376.76 671,-373.26 661,-369.76 661,-376.76"/>
-<text text-anchor="middle" x="525.09" y="-377.06" font-family="Times,serif" font-size="14.00">schema:supersededBy</text>
-</g>
-<!-- http://w3id.org/oseg/ont/otrl#Odrl1 -->
-<g id="node23" class="node">
-<title>http://w3id.org/oseg/ont/otrl#Odrl1</title>
-<ellipse fill="none" stroke="black" cx="213.55" cy="-424.26" rx="191.75" ry="16.03"/>
-<text text-anchor="middle" x="213.55" y="-420.56" font-family="Times,serif" font-size="14.00">http://w3id.org/oseg/ont/otrl#Odrl1</text>
-</g>
-<!-- http://w3id.org/oseg/ont/otrl#Odrl1&#45;&gt;http://w3id.org/oseg/ont/otrl#ODRL1 -->
-<g id="edge8" class="edge">
-<title>http://w3id.org/oseg/ont/otrl#Odrl1&#45;&gt;http://w3id.org/oseg/ont/otrl#ODRL1</title>
-<path fill="none" stroke="black" d="M405.38,-424.26C490.75,-424.26 586.68,-424.26 652.17,-424.26"/>
-<polygon fill="black" stroke="black" points="652.42,-427.76 662.42,-424.26 652.42,-420.76 652.42,-427.76"/>
-<text text-anchor="middle" x="525.09" y="-428.06" font-family="Times,serif" font-size="14.00">schema:supersededBy</text>
-</g>
-<!-- http://w3id.org/oseg/ont/otrl#Odrl5 -->
-<g id="node24" class="node">
-<title>http://w3id.org/oseg/ont/otrl#Odrl5</title>
-<ellipse fill="none" stroke="black" cx="213.55" cy="-220.26" rx="191.75" ry="16.03"/>
-<text text-anchor="middle" x="213.55" y="-216.56" font-family="Times,serif" font-size="14.00">http://w3id.org/oseg/ont/otrl#Odrl5</text>
-</g>
-<!-- http://w3id.org/oseg/ont/otrl#Odrl5&#45;&gt;http://w3id.org/oseg/ont/otrl#Odrl4 -->
-<g id="edge9" class="edge">
-<title>http://w3id.org/oseg/ont/otrl#Odrl5&#45;&gt;http://w3id.org/oseg/ont/otrl#Odrl4</title>
-<path fill="none" stroke="black" d="M405.38,-220.26C494.3,-220.26 594.67,-220.26 660.17,-220.26"/>
-<polygon fill="black" stroke="black" points="660.38,-223.76 670.38,-220.26 660.38,-216.76 660.38,-223.76"/>
+<path fill="none" stroke="black" d="M405.38,-220.26C490.75,-220.26 586.68,-220.26 652.17,-220.26"/>
+<polygon fill="black" stroke="black" points="652.42,-223.76 662.42,-220.26 652.42,-216.76 652.42,-223.76"/>
 <text text-anchor="middle" x="525.09" y="-224.06" font-family="Times,serif" font-size="14.00">schema:supersededBy</text>
 </g>
-<!-- http://w3id.org/oseg/ont/otrl#Odrl2 -->
-<g id="node25" class="node">
-<title>http://w3id.org/oseg/ont/otrl#Odrl2</title>
-<ellipse fill="none" stroke="black" cx="213.55" cy="-475.26" rx="191.75" ry="16.03"/>
-<text text-anchor="middle" x="213.55" y="-471.56" font-family="Times,serif" font-size="14.00">http://w3id.org/oseg/ont/otrl#Odrl2</text>
-</g>
-<!-- http://w3id.org/oseg/ont/otrl#Odrl2&#45;&gt;http://w3id.org/oseg/ont/otrl#ODRL2 -->
-<g id="edge10" class="edge">
-<title>http://w3id.org/oseg/ont/otrl#Odrl2&#45;&gt;http://w3id.org/oseg/ont/otrl#ODRL2</title>
-<path fill="none" stroke="black" d="M405.38,-475.26C490.75,-475.26 586.68,-475.26 652.17,-475.26"/>
-<polygon fill="black" stroke="black" points="652.42,-478.76 662.42,-475.26 652.42,-471.76 652.42,-478.76"/>
-<text text-anchor="middle" x="525.09" y="-479.06" font-family="Times,serif" font-size="14.00">schema:supersededBy</text>
-</g>
 <!-- http://w3id.org/oseg/ont/otrl#Otrl6 -->
-<g id="node26" class="node">
+<g id="node22" class="node">
 <title>http://w3id.org/oseg/ont/otrl#Otrl6</title>
-<ellipse fill="none" stroke="black" cx="213.55" cy="-526.26" rx="189.51" ry="16.03"/>
-<text text-anchor="middle" x="213.55" y="-522.56" font-family="Times,serif" font-size="14.00">http://w3id.org/oseg/ont/otrl#Otrl6</text>
+<ellipse fill="none" stroke="black" cx="213.55" cy="-322.26" rx="189.51" ry="16.03"/>
+<text text-anchor="middle" x="213.55" y="-318.56" font-family="Times,serif" font-size="14.00">http://w3id.org/oseg/ont/otrl#Otrl6</text>
 </g>
 <!-- http://w3id.org/oseg/ont/otrl#Otrl6&#45;&gt;http://w3id.org/oseg/ont/otrl#OTRL6 -->
-<g id="edge11" class="edge">
+<g id="edge6" class="edge">
 <title>http://w3id.org/oseg/ont/otrl#Otrl6&#45;&gt;http://w3id.org/oseg/ont/otrl#OTRL6</title>
-<path fill="none" stroke="black" d="M403.19,-526.26C490.02,-526.26 588.21,-526.26 654.29,-526.26"/>
-<polygon fill="black" stroke="black" points="654.62,-529.76 664.62,-526.26 654.62,-522.76 654.62,-529.76"/>
-<text text-anchor="middle" x="525.09" y="-530.06" font-family="Times,serif" font-size="14.00">schema:supersededBy</text>
+<path fill="none" stroke="black" d="M403.19,-322.26C490.02,-322.26 588.21,-322.26 654.29,-322.26"/>
+<polygon fill="black" stroke="black" points="654.62,-325.76 664.62,-322.26 654.62,-318.76 654.62,-325.76"/>
+<text text-anchor="middle" x="525.09" y="-326.06" font-family="Times,serif" font-size="14.00">schema:supersededBy</text>
 </g>
 <!-- http://w3id.org/oseg/ont/otrl#Otrl2 -->
-<g id="node27" class="node">
+<g id="node23" class="node">
 <title>http://w3id.org/oseg/ont/otrl#Otrl2</title>
-<ellipse fill="none" stroke="black" cx="213.55" cy="-577.26" rx="189.51" ry="16.03"/>
-<text text-anchor="middle" x="213.55" y="-573.56" font-family="Times,serif" font-size="14.00">http://w3id.org/oseg/ont/otrl#Otrl2</text>
+<ellipse fill="none" stroke="black" cx="213.55" cy="-373.26" rx="189.51" ry="16.03"/>
+<text text-anchor="middle" x="213.55" y="-369.56" font-family="Times,serif" font-size="14.00">http://w3id.org/oseg/ont/otrl#Otrl2</text>
 </g>
 <!-- http://w3id.org/oseg/ont/otrl#Otrl2&#45;&gt;http://w3id.org/oseg/ont/otrl#OTRL2 -->
-<g id="edge12" class="edge">
+<g id="edge7" class="edge">
 <title>http://w3id.org/oseg/ont/otrl#Otrl2&#45;&gt;http://w3id.org/oseg/ont/otrl#OTRL2</title>
-<path fill="none" stroke="black" d="M403.19,-577.26C490.02,-577.26 588.21,-577.26 654.29,-577.26"/>
-<polygon fill="black" stroke="black" points="654.62,-580.76 664.62,-577.26 654.62,-573.76 654.62,-580.76"/>
-<text text-anchor="middle" x="525.09" y="-581.06" font-family="Times,serif" font-size="14.00">schema:supersededBy</text>
+<path fill="none" stroke="black" d="M403.19,-373.26C490.02,-373.26 588.21,-373.26 654.29,-373.26"/>
+<polygon fill="black" stroke="black" points="654.62,-376.76 664.62,-373.26 654.62,-369.76 654.62,-376.76"/>
+<text text-anchor="middle" x="525.09" y="-377.06" font-family="Times,serif" font-size="14.00">schema:supersededBy</text>
 </g>
 <!-- http://w3id.org/oseg/ont/otrl#Odrl3Star -->
-<g id="node28" class="node">
+<g id="node24" class="node">
 <title>http://w3id.org/oseg/ont/otrl#Odrl3Star</title>
-<ellipse fill="none" stroke="black" cx="213.55" cy="-628.26" rx="213.59" ry="16.03"/>
-<text text-anchor="middle" x="213.55" y="-624.56" font-family="Times,serif" font-size="14.00">http://w3id.org/oseg/ont/otrl#Odrl3Star</text>
+<ellipse fill="none" stroke="black" cx="213.55" cy="-424.26" rx="213.59" ry="16.03"/>
+<text text-anchor="middle" x="213.55" y="-420.56" font-family="Times,serif" font-size="14.00">http://w3id.org/oseg/ont/otrl#Odrl3Star</text>
 </g>
 <!-- http://w3id.org/oseg/ont/otrl#Odrl3Star&#45;&gt;http://w3id.org/oseg/ont/otrl#ODRL3Star -->
-<g id="edge13" class="edge">
+<g id="edge8" class="edge">
 <title>http://w3id.org/oseg/ont/otrl#Odrl3Star&#45;&gt;http://w3id.org/oseg/ont/otrl#ODRL3Star</title>
-<path fill="none" stroke="black" d="M427.21,-628.26C497.76,-628.26 573,-628.26 630.95,-628.26"/>
-<polygon fill="black" stroke="black" points="631.2,-631.76 641.2,-628.26 631.2,-624.76 631.2,-631.76"/>
-<text text-anchor="middle" x="525.09" y="-632.06" font-family="Times,serif" font-size="14.00">schema:supersededBy</text>
+<path fill="none" stroke="black" d="M427.21,-424.26C497.76,-424.26 573,-424.26 630.95,-424.26"/>
+<polygon fill="black" stroke="black" points="631.2,-427.76 641.2,-424.26 631.2,-420.76 631.2,-427.76"/>
+<text text-anchor="middle" x="525.09" y="-428.06" font-family="Times,serif" font-size="14.00">schema:supersededBy</text>
+</g>
+<!-- http://w3id.org/oseg/ont/otrl#Odrl -->
+<g id="node25" class="node">
+<title>http://w3id.org/oseg/ont/otrl#Odrl</title>
+<ellipse fill="none" stroke="black" cx="213.55" cy="-526.26" rx="185.02" ry="16.03"/>
+<text text-anchor="middle" x="213.55" y="-522.56" font-family="Times,serif" font-size="14.00">http://w3id.org/oseg/ont/otrl#Odrl</text>
+</g>
+<!-- http://w3id.org/oseg/ont/otrl#Odrl&#45;&gt;http://w3id.org/oseg/ont/otrl#ODRL -->
+<g id="edge10" class="edge">
+<title>http://w3id.org/oseg/ont/otrl#Odrl&#45;&gt;http://w3id.org/oseg/ont/otrl#ODRL</title>
+<path fill="none" stroke="black" d="M399.17,-526.26C488.96,-526.26 591.69,-526.26 658.76,-526.26"/>
+<polygon fill="black" stroke="black" points="658.8,-529.76 668.8,-526.26 658.8,-522.76 658.8,-529.76"/>
+<text text-anchor="middle" x="525.09" y="-530.06" font-family="Times,serif" font-size="14.00">schema:supersededBy</text>
+</g>
+<!-- http://w3id.org/oseg/ont/otrl#Odrl2 -->
+<g id="node26" class="node">
+<title>http://w3id.org/oseg/ont/otrl#Odrl2</title>
+<ellipse fill="none" stroke="black" cx="213.55" cy="-577.26" rx="191.75" ry="16.03"/>
+<text text-anchor="middle" x="213.55" y="-573.56" font-family="Times,serif" font-size="14.00">http://w3id.org/oseg/ont/otrl#Odrl2</text>
+</g>
+<!-- http://w3id.org/oseg/ont/otrl#Odrl2&#45;&gt;http://w3id.org/oseg/ont/otrl#ODRL2 -->
+<g id="edge11" class="edge">
+<title>http://w3id.org/oseg/ont/otrl#Odrl2&#45;&gt;http://w3id.org/oseg/ont/otrl#ODRL2</title>
+<path fill="none" stroke="black" d="M405.38,-577.26C490.75,-577.26 586.68,-577.26 652.17,-577.26"/>
+<polygon fill="black" stroke="black" points="652.42,-580.76 662.42,-577.26 652.42,-573.76 652.42,-580.76"/>
+<text text-anchor="middle" x="525.09" y="-581.06" font-family="Times,serif" font-size="14.00">schema:supersededBy</text>
 </g>
 <!-- http://w3id.org/oseg/ont/otrl#Otrl3 -->
-<g id="node29" class="node">
+<g id="node27" class="node">
 <title>http://w3id.org/oseg/ont/otrl#Otrl3</title>
-<ellipse fill="none" stroke="black" cx="213.55" cy="-679.26" rx="189.51" ry="16.03"/>
-<text text-anchor="middle" x="213.55" y="-675.56" font-family="Times,serif" font-size="14.00">http://w3id.org/oseg/ont/otrl#Otrl3</text>
+<ellipse fill="none" stroke="black" cx="213.55" cy="-628.26" rx="189.51" ry="16.03"/>
+<text text-anchor="middle" x="213.55" y="-624.56" font-family="Times,serif" font-size="14.00">http://w3id.org/oseg/ont/otrl#Otrl3</text>
 </g>
 <!-- http://w3id.org/oseg/ont/otrl#Otrl3&#45;&gt;http://w3id.org/oseg/ont/otrl#OTRL3 -->
-<g id="edge15" class="edge">
+<g id="edge12" class="edge">
 <title>http://w3id.org/oseg/ont/otrl#Otrl3&#45;&gt;http://w3id.org/oseg/ont/otrl#OTRL3</title>
+<path fill="none" stroke="black" d="M403.19,-628.26C490.02,-628.26 588.21,-628.26 654.29,-628.26"/>
+<polygon fill="black" stroke="black" points="654.62,-631.76 664.62,-628.26 654.62,-624.76 654.62,-631.76"/>
+<text text-anchor="middle" x="525.09" y="-632.06" font-family="Times,serif" font-size="14.00">schema:supersededBy</text>
+</g>
+<!-- http://w3id.org/oseg/ont/otrl#Odrl5 -->
+<g id="node28" class="node">
+<title>http://w3id.org/oseg/ont/otrl#Odrl5</title>
+<ellipse fill="none" stroke="black" cx="213.55" cy="-475.26" rx="191.75" ry="16.03"/>
+<text text-anchor="middle" x="213.55" y="-471.56" font-family="Times,serif" font-size="14.00">http://w3id.org/oseg/ont/otrl#Odrl5</text>
+</g>
+<!-- http://w3id.org/oseg/ont/otrl#Odrl5&#45;&gt;http://w3id.org/oseg/ont/otrl#Odrl4 -->
+<g id="edge13" class="edge">
+<title>http://w3id.org/oseg/ont/otrl#Odrl5&#45;&gt;http://w3id.org/oseg/ont/otrl#Odrl4</title>
+<path fill="none" stroke="black" d="M405.38,-475.26C494.3,-475.26 594.67,-475.26 660.17,-475.26"/>
+<polygon fill="black" stroke="black" points="660.38,-478.76 670.38,-475.26 660.38,-471.76 660.38,-478.76"/>
+<text text-anchor="middle" x="525.09" y="-479.06" font-family="Times,serif" font-size="14.00">schema:supersededBy</text>
+</g>
+<!-- http://w3id.org/oseg/ont/otrl#Otrl1 -->
+<g id="node29" class="node">
+<title>http://w3id.org/oseg/ont/otrl#Otrl1</title>
+<ellipse fill="none" stroke="black" cx="213.55" cy="-679.26" rx="189.51" ry="16.03"/>
+<text text-anchor="middle" x="213.55" y="-675.56" font-family="Times,serif" font-size="14.00">http://w3id.org/oseg/ont/otrl#Otrl1</text>
+</g>
+<!-- http://w3id.org/oseg/ont/otrl#Otrl1&#45;&gt;http://w3id.org/oseg/ont/otrl#OTRL1 -->
+<g id="edge14" class="edge">
+<title>http://w3id.org/oseg/ont/otrl#Otrl1&#45;&gt;http://w3id.org/oseg/ont/otrl#OTRL1</title>
 <path fill="none" stroke="black" d="M403.19,-679.26C490.02,-679.26 588.21,-679.26 654.29,-679.26"/>
 <polygon fill="black" stroke="black" points="654.62,-682.76 664.62,-679.26 654.62,-675.76 654.62,-682.76"/>
 <text text-anchor="middle" x="525.09" y="-683.06" font-family="Times,serif" font-size="14.00">schema:supersededBy</text>
@@ -295,7 +295,7 @@
 <text text-anchor="middle" x="213.55" y="-726.56" font-family="Times,serif" font-size="14.00">http://w3id.org/oseg/ont/otrl#Otrl5</text>
 </g>
 <!-- http://w3id.org/oseg/ont/otrl#Otrl5&#45;&gt;http://w3id.org/oseg/ont/otrl#OTRL5 -->
-<g id="edge16" class="edge">
+<g id="edge15" class="edge">
 <title>http://w3id.org/oseg/ont/otrl#Otrl5&#45;&gt;http://w3id.org/oseg/ont/otrl#OTRL5</title>
 <path fill="none" stroke="black" d="M403.19,-730.26C490.02,-730.26 588.21,-730.26 654.29,-730.26"/>
 <polygon fill="black" stroke="black" points="654.62,-733.76 664.62,-730.26 654.62,-726.76 654.62,-733.76"/>

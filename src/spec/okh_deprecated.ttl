@@ -33,7 +33,7 @@
 
 <>
   a owl:Ontology ;
-  skos:editorialNote """
+  rdfs:comment """
 # SPDX-FileCopyrightText: 2020 - 2021 Martin Häuer <martin.haeuer@ose-germany.de>
 # SPDX-FileCopyrightText: 2020 - 2025 Robin Vobruba <hoijui.quaero@gmail.com>
 #
