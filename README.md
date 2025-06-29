@@ -8,7 +8,7 @@ SPDX-License-Identifier: CC0-1.0
 -->
 
 **[Open Source Hardware][OSH] technical documentation standard,
-based on [Linked Open Data][LOD].**
+based on [Linked Open Data].**
 
 [![DOI](
     https://zenodo.org/badge/259683880.svg)](
@@ -127,7 +127,7 @@ Funded by the [European Union](https://europa.eu/)'s [Horizon 2020] program,
 this project seeks to enable small and medium enterprises (SMEs)
 to work with consumers, makers, and other communities in rethinking
 how products are designed and produced.
-[Open Source Hardware](https://www.oshwa.org/definition/)
+[Open Source Hardware](https://oshwa.org/resources/open-source-hardware-definition/)
 is a key enabler of this goal
 where the design of a physical product is released with the freedoms
 for anyone to study, modify, share, and redistribute copies.
@@ -165,12 +165,12 @@ by a consortium of 10 organizations:
 - [Careables](https://www.careables.org/)
 - [Docubricks](http://docubricks.com/)
 - [e-NABLE](https://enablingthefuture.org/)
-- [Humanitarian Makers](https://www.humanitarianmakers.org/)
+- [Humanitarian Makers](https://humanitarianmaking.org/)
 - _MakerNet Alliance_ (now [IoPA])
 - [Open Source Ecology Germany e.V.][OSEG]
 - [Open Source Hardware Association][OSHWA]
 - [Wevolver](https://www.wevolver.com/)
-- [WikiFactory](https://wikifactory.com/)
+- [WikiFactory](https://wikifactory.com/platform/)
 
 lead by the _MakerNet Alliance_,
 under a grant from the [The Shuttleworth Foundation](
@@ -457,15 +457,15 @@ cultural geographer (1808-1896)
 [INTERFACER]: https://www.interfacerproject.eu/
 [IoPA]: https://www.internetofproduction.org/
 [JSON-Schema]: https://json-schema.org/
-[LOD]: https://de.wikipedia.org/wiki/Linked_Open_Data
+[Linked Open Data]: https://de.wikipedia.org/wiki/Linked_Open_Data
 [Markdown]: https://en.wikipedia.org/wiki/Markdown
 [NGI Search]: https://www.ngisearch.eu/
 [OKHv1]: https://standards.internetofproduction.org/pub/okh/release/1
 [OPEN!NEXT]: https://opennext.eu/
 [OSEG]: https://www.ose-germany.de/
 [OSH]: https://en.wikipedia.org/wiki/Open-source_hardware
-[OSHWA]: https://www.oshwa.org/
-[RDF-DB tester]: https://github.com/OPEN-NEXT/LOSH-RDF-DB-tester/
+[OSHWA]: https://oshwa.org/
+[RDF-DB tester]: https://github.com/osegermany/OKH-RDF-DB/
 [SHACL]: https://en.wikipedia.org/wiki/SHACL
 [SPARQL]: https://en.wikipedia.org/wiki/SPARQL
 [TOML]: https://toml.io/en/
