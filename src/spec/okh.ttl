@@ -61,7 +61,6 @@
   dcterms:issued "2021-08-24T16:32:33Z"^^xsd:dateTimeStamp ;
   dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
   dcterms:license "https://www.gnu.org/licenses/gpl-3.0.txt"^^xsd:anyURI ;
-  dcterms:modified "2022-02-22T12:01:28Z"^^xsd:dateTimeStamp ;
   dcterms:publisher osegprof:Iopa ;
   dcterms:source "https://github.com/iop-alliance/OpenKnowHow/master/src/spec/okh.ttl"^^xsd:anyURI ;
   dcterms:title "Open Know How (OKH) ontology"@en ;
