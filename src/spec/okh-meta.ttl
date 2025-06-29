@@ -47,7 +47,6 @@ when browsing multiple projects at a time."""@en ;
   dcterms:issued "2024-07-01T09:03:49Z"^^xsd:dateTimeStamp ;
   dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
   dcterms:license "https://www.gnu.org/licenses/gpl-3.0.txt" ;
-  dcterms:modified "2024-07-01T09:03:49Z"^^xsd:dateTimeStamp ;
   dcterms:publisher osegprof:Iopa ;
   dcterms:source "https://github.com/iop-alliance/OpenKnowHow/master/src/spec/okh-meta.ttl" ;
   dcterms:title "Open Know How (OKH) - Meta"@en ;
