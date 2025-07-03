@@ -206,24 +206,32 @@ the Internet of Open Hardware.
 
 #### What is the domain that the ontology will cover?
 
-Open Source Hardware documentation-/design-projects. \
-These are assemblies with a defined purpose.
-This is not limited to the fields of electronics and mechanical machines,
-like a tractor or a coffee machine,
+Free Technology aka Open Source Hardware documentation-/design-projects. \
+These are human-made, physical objects with a defined purpose.
+It is explicitly not limited to the fields of electronics and mechanical machines,
+which is classically understood as OSH.
+It includes things like a tractor or a coffee machine,
 but extends to clothing,
 simple things like pots, tables and chairs,
 and even chemical mixtures.
 In short, "hardware" here really refers to a physical object:
 An inanimate, three-dimensional object or substance.
 
+<!--
 On git-based systems,
 we recommend that one repository represents one project.
+-->
 
-#### Who's the end-user you have in mind?
+#### Who are the targeted end-users?
 
-1. Project developers, \
-    as the whole thing here is first and foremost about **design reuse**
-2. Manufacturers and other service providers \
+If we define the end-user as whom directly,
+counciously interacts with this standard
+(or data governed by it),
+then it would be:
+
+1. Technology project **developers**, \
+    as the whole thing here is first and foremost about _**design reuse**_
+2. **Manufacturers** and other service providers \
     find OSH published under a free/open license
     (we perform quality checks).
     This way, anyone can modify, replicate and exploit OSH products
@@ -290,7 +298,6 @@ The future could bring:
 - unambiguous reference of all parts
   (e.g. to a library of standard components or to other OSH)
 - automated match-making to manufacturers based on production metadata
-- automated match-making with suitable finding opportunities
 
 ## Technical details
 
@@ -300,7 +307,7 @@ The future could bring:
 
 ## Ecosystem
 
-A General, human-friendly overview explain what we are trying to do
+A General, human-friendly overview explaining what we are trying to do
 can be found here:
 <https://stack.opensourceecology.de>
 
