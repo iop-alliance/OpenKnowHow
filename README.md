@@ -33,6 +33,26 @@ This link is deprecated:
   ~web-UI to create meta-data for a project~
 -->
 
+## Intro
+
+Open Know-How (OKH) is primarily a specification (~= a standard)
+for how to structure meta-data about Free Technology
+(aka [Open Source Hardware][OSH]) projects.
+
+A simplified example of such data,
+just so you have an idea:
+
+```toml
+name = "Pallets Based Comfy Couch"
+license = "CERN-OHL-S-2.0"
+repo = "https://codeberg.org/the-comfortables/pallets-based-comfy-couch/"
+state = "reproduced many times"
+```
+
+Now that you have a basic idea of what this is,
+and you are still here ...
+just follow the rabbit.
+
 ## Sitemap
 
 The most important files in this repo,
@@ -180,7 +200,7 @@ Standards are the backbone for this approach.
 We are aiming to build the (real) Internet of Things -
 the Internet of Open Hardware.
 
-## Scope
+## Scope (🐇)
 
 ### Q&A
 
