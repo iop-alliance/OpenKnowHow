@@ -33,6 +33,8 @@ This link is deprecated:
   ~web-UI to create meta-data for a project~
 -->
 
+## Sitemap
+
 The most important files in this repo,
 in descending order:
 
@@ -61,9 +63,7 @@ Other, crucial files for OKH, outside this repository:
     like specific data sources (e.g. `appropedia.org`)
     or data gathering methods (e.g. `by-manifest` or `by-API`).
 
-## Intro
-
-### History
+## History
 
 From October 2024 till June 2025 (9 months),
 the [NGI Search] funded [Hardware Open Search Ecosystem project] project
@@ -168,14 +168,14 @@ lead by the _MakerNet Alliance_,
 under a grant from the [The Shuttleworth Foundation](
 https://www.shuttleworthfoundation.org/).
 
-### tl;dr
+## tl;dr
 
 a distributed database for OSH modules:
 a demonstrator for a piece of ICT infrastructure to support design reuse
 
 Standards are the backbone for this approach.
 
-### short & crisp
+## short & crisp
 
 We are aiming to build the (real) Internet of Things -
 the Internet of Open Hardware.
