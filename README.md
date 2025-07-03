@@ -7,7 +7,7 @@ SPDX-FileCopyrightText: 2021 Martin Häuer <martin.haeuer@ose-germany.de>
 SPDX-License-Identifier: CC0-1.0
 -->
 
-**[Open Source Hardware][OSH] technical documentation standard,
+**[Open Source Hardware][OSH] (OSH) technical documentation standard,
 based on [Linked Open Data].**
 
 [![DOI](
