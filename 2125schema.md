@@ -7936,21 +7936,21 @@ for projects clearly indicating that they are proprietary.</p>
 <span class="description"><p>a physical component of an open source hardware module, for which technical documentation (design files etc.) is available under a free/open license</p>
 </span>
 
-    <div class="one-of-value" id="part_items_oneOf"><h2 class="handle">
-  <label>One of</label>
-</h2><ul class="nav nav-tabs" id="tabspart_items_oneOf_oneOf" role="tablist"><li class="nav-item">
-            <a class="nav-link active oneOf-option"
-               id="part_items_oneOf_i0" data-toggle="tab" href="#tab-pane_part_items_oneOf_i0" role="tab"
-               onclick="setAnchor('#part_items_oneOf_i0')"
+    <div class="any-of-value" id="part_items_anyOf"><h2 class="handle">
+  <label>Any of</label>
+</h2><ul class="nav nav-tabs" id="tabspart_items_anyOf_anyOf" role="tablist"><li class="nav-item">
+            <a class="nav-link active anyOf-option"
+               id="part_items_anyOf_i0" data-toggle="tab" href="#tab-pane_part_items_anyOf_i0" role="tab"
+               onclick="setAnchor('#part_items_anyOf_i0')"
             >Option 1</a>
         </li><li class="nav-item">
-            <a class="nav-link oneOf-option"
-               id="part_items_oneOf_i1" data-toggle="tab" href="#tab-pane_part_items_oneOf_i1" role="tab"
-               onclick="setAnchor('#part_items_oneOf_i1')"
+            <a class="nav-link anyOf-option"
+               id="part_items_anyOf_i1" data-toggle="tab" href="#tab-pane_part_items_anyOf_i1" role="tab"
+               onclick="setAnchor('#part_items_anyOf_i1')"
             >Option 2</a>
         </li></ul>
 <div class="tab-content card"><div class="tab-pane fade card-body active show"
-             id="tab-pane_part_items_oneOf_i0" role="tabpanel">
+             id="tab-pane_part_items_anyOf_i0" role="tabpanel">
             
 
     <div class="breadcrumbs">root
@@ -7974,14 +7974,14 @@ for projects clearly indicating that they are proprietary.</p>
                 d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
             />
         </svg>
-    <a href="#part_items_oneOf" onclick="anchorLink('part_items_oneOf')">oneOf</a>
+    <a href="#part_items_anyOf" onclick="anchorLink('part_items_anyOf')">anyOf</a>
         <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
             <path
                 fill-rule="evenodd"
                 d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
             />
         </svg>
-    <a href="#part_items_oneOf_i0" onclick="anchorLink('part_items_oneOf_i0')">item 0</a></div><span class="badge badge-dark value-type">Type: object</span><br/>
+    <a href="#part_items_anyOf_i0" onclick="anchorLink('part_items_anyOf_i0')">item 0</a></div><span class="badge badge-dark value-type">Type: object</span><br/>
 
         
 
@@ -7989,18 +7989,18 @@ for projects clearly indicating that they are proprietary.</p>
         
 
         
-<div class="accordion" id="accordionpart_items_oneOf_i0_source">
+<div class="accordion" id="accordionpart_items_anyOf_i0_source">
     <div class="card">
-        <div class="card-header" id="headingpart_items_oneOf_i0_source">
+        <div class="card-header" id="headingpart_items_anyOf_i0_source">
             <h2 class="mb-0">
-                <button class="btn btn-link property-name-button" type="button" data-toggle="collapse" data-target="#part_items_oneOf_i0_source"
-                        aria-expanded="" aria-controls="part_items_oneOf_i0_source" onclick="setAnchor('#part_items_oneOf_i0_source')"><span class="property-name">source</span> <span class="badge badge-warning required-property">Required</span></button>
+                <button class="btn btn-link property-name-button" type="button" data-toggle="collapse" data-target="#part_items_anyOf_i0_source"
+                        aria-expanded="" aria-controls="part_items_anyOf_i0_source" onclick="setAnchor('#part_items_anyOf_i0_source')"><span class="property-name">source</span> <span class="badge badge-warning required-property">Required</span></button>
             </h2>
         </div>
 
-        <div id="part_items_oneOf_i0_source"
-             class="collapse property-definition-div" aria-labelledby="headingpart_items_oneOf_i0_source"
-             data-parent="#accordionpart_items_oneOf_i0_source">
+        <div id="part_items_anyOf_i0_source"
+             class="collapse property-definition-div" aria-labelledby="headingpart_items_anyOf_i0_source"
+             data-parent="#accordionpart_items_anyOf_i0_source">
             <div class="card-body pl-5">
 
     <div class="breadcrumbs">root
@@ -8024,21 +8024,21 @@ for projects clearly indicating that they are proprietary.</p>
                 d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
             />
         </svg>
-    <a href="#part_items_oneOf" onclick="anchorLink('part_items_oneOf')">oneOf</a>
+    <a href="#part_items_anyOf" onclick="anchorLink('part_items_anyOf')">anyOf</a>
         <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
             <path
                 fill-rule="evenodd"
                 d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
             />
         </svg>
-    <a href="#part_items_oneOf_i0" onclick="anchorLink('part_items_oneOf_i0')">item 0</a>
+    <a href="#part_items_anyOf_i0" onclick="anchorLink('part_items_anyOf_i0')">item 0</a>
         <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
             <path
                 fill-rule="evenodd"
                 d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
             />
         </svg>
-    <a href="#part_items_oneOf_i0_source" onclick="anchorLink('part_items_oneOf_i0_source')">source</a></div><span class="badge badge-dark value-type">Type: object</span><br/>
+    <a href="#part_items_anyOf_i0_source" onclick="anchorLink('part_items_anyOf_i0_source')">source</a></div><span class="badge badge-dark value-type">Type: object</span><br/>
 
         
 
@@ -8051,7 +8051,7 @@ for projects clearly indicating that they are proprietary.</p>
     </div>
 </div>
         </div><div class="tab-pane fade card-body "
-             id="tab-pane_part_items_oneOf_i1" role="tabpanel">
+             id="tab-pane_part_items_anyOf_i1" role="tabpanel">
             
 
     <div class="breadcrumbs">root
@@ -8075,14 +8075,14 @@ for projects clearly indicating that they are proprietary.</p>
                 d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
             />
         </svg>
-    <a href="#part_items_oneOf" onclick="anchorLink('part_items_oneOf')">oneOf</a>
+    <a href="#part_items_anyOf" onclick="anchorLink('part_items_anyOf')">anyOf</a>
         <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
             <path
                 fill-rule="evenodd"
                 d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
             />
         </svg>
-    <a href="#part_items_oneOf_i1" onclick="anchorLink('part_items_oneOf_i1')">item 1</a></div><span class="badge badge-dark value-type">Type: object</span><br/>
+    <a href="#part_items_anyOf_i1" onclick="anchorLink('part_items_anyOf_i1')">item 1</a></div><span class="badge badge-dark value-type">Type: object</span><br/>
 
         
 
@@ -8090,18 +8090,18 @@ for projects clearly indicating that they are proprietary.</p>
         
 
         
-<div class="accordion" id="accordionpart_items_oneOf_i1_export">
+<div class="accordion" id="accordionpart_items_anyOf_i1_export">
     <div class="card">
-        <div class="card-header" id="headingpart_items_oneOf_i1_export">
+        <div class="card-header" id="headingpart_items_anyOf_i1_export">
             <h2 class="mb-0">
-                <button class="btn btn-link property-name-button" type="button" data-toggle="collapse" data-target="#part_items_oneOf_i1_export"
-                        aria-expanded="" aria-controls="part_items_oneOf_i1_export" onclick="setAnchor('#part_items_oneOf_i1_export')"><span class="property-name">export</span> <span class="badge badge-warning required-property">Required</span></button>
+                <button class="btn btn-link property-name-button" type="button" data-toggle="collapse" data-target="#part_items_anyOf_i1_export"
+                        aria-expanded="" aria-controls="part_items_anyOf_i1_export" onclick="setAnchor('#part_items_anyOf_i1_export')"><span class="property-name">export</span> <span class="badge badge-warning required-property">Required</span></button>
             </h2>
         </div>
 
-        <div id="part_items_oneOf_i1_export"
-             class="collapse property-definition-div" aria-labelledby="headingpart_items_oneOf_i1_export"
-             data-parent="#accordionpart_items_oneOf_i1_export">
+        <div id="part_items_anyOf_i1_export"
+             class="collapse property-definition-div" aria-labelledby="headingpart_items_anyOf_i1_export"
+             data-parent="#accordionpart_items_anyOf_i1_export">
             <div class="card-body pl-5">
 
     <div class="breadcrumbs">root
@@ -8125,21 +8125,21 @@ for projects clearly indicating that they are proprietary.</p>
                 d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
             />
         </svg>
-    <a href="#part_items_oneOf" onclick="anchorLink('part_items_oneOf')">oneOf</a>
+    <a href="#part_items_anyOf" onclick="anchorLink('part_items_anyOf')">anyOf</a>
         <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
             <path
                 fill-rule="evenodd"
                 d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
             />
         </svg>
-    <a href="#part_items_oneOf_i1" onclick="anchorLink('part_items_oneOf_i1')">item 1</a>
+    <a href="#part_items_anyOf_i1" onclick="anchorLink('part_items_anyOf_i1')">item 1</a>
         <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
             <path
                 fill-rule="evenodd"
                 d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
             />
         </svg>
-    <a href="#part_items_oneOf_i1_export" onclick="anchorLink('part_items_oneOf_i1_export')">export</a></div><span class="badge badge-dark value-type">Type: object</span><br/>
+    <a href="#part_items_anyOf_i1_export" onclick="anchorLink('part_items_anyOf_i1_export')">export</a></div><span class="badge badge-dark value-type">Type: object</span><br/>
 
         
 
@@ -12482,6 +12482,6 @@ multiple inputs possible (with one entry each)</p>
 </div>
 
     <footer>
-        <p class="generated-by-footer">Generated using <a href="https://github.com/coveooss/json-schema-for-humans">json-schema-for-humans</a> on 2025-07-04 at 06:12:30 +0000</p>
+        <p class="generated-by-footer">Generated using <a href="https://github.com/coveooss/json-schema-for-humans">json-schema-for-humans</a> on 2025-07-04 at 06:33:05 +0000</p>
     </footer></body>
 </html>

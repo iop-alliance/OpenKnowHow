@@ -12,191 +12,191 @@
 <!-- http://www.w3.org/2002/07/owl#DatatypeProperty -->
 <g id="node1" class="node">
 <title>http://www.w3.org/2002/07/owl#DatatypeProperty</title>
-<ellipse fill="none" stroke="#1f77b4" cx="556.87" cy="-346.26" rx="123.07" ry="16.03"/>
-<text text-anchor="middle" x="556.87" y="-342.56" font-family="Times,serif" font-size="14.00">owl:DatatypeProperty</text>
+<ellipse fill="none" stroke="#1f77b4" cx="556.87" cy="-409.26" rx="123.07" ry="16.03"/>
+<text text-anchor="middle" x="556.87" y="-405.56" font-family="Times,serif" font-size="14.00">owl:DatatypeProperty</text>
 </g>
 <!-- http://www.w3.org/2002/07/owl#ObjectProperty -->
 <g id="node2" class="node">
 <title>http://www.w3.org/2002/07/owl#ObjectProperty</title>
-<ellipse fill="none" stroke="#1f77b4" cx="556.87" cy="-244.26" rx="109.7" ry="16.03"/>
-<text text-anchor="middle" x="556.87" y="-240.56" font-family="Times,serif" font-size="14.00">owl:ObjectProperty</text>
-</g>
-<!-- http://www.w3.org/2002/07/owl#Ontology -->
-<g id="node3" class="node">
-<title>http://www.w3.org/2002/07/owl#Ontology</title>
-<ellipse fill="none" stroke="#1f77b4" cx="556.87" cy="-587.26" rx="77.56" ry="16.03"/>
-<text text-anchor="middle" x="556.87" y="-583.56" font-family="Times,serif" font-size="14.00">owl:Ontology</text>
+<ellipse fill="none" stroke="#1f77b4" cx="556.87" cy="-67.26" rx="109.7" ry="16.03"/>
+<text text-anchor="middle" x="556.87" y="-63.56" font-family="Times,serif" font-size="14.00">owl:ObjectProperty</text>
 </g>
 <!-- http://www.w3.org/2004/02/skos/core#Concept -->
-<g id="node4" class="node">
+<g id="node3" class="node">
 <title>http://www.w3.org/2004/02/skos/core#Concept</title>
 <ellipse fill="none" stroke="#1f77b4" cx="556.87" cy="-143.26" rx="78.48" ry="16.03"/>
 <text text-anchor="middle" x="556.87" y="-139.56" font-family="Times,serif" font-size="14.00">skos:Concept</text>
 </g>
-<!-- http://w3id.org/oseg/ont/okh#Module -->
-<g id="node5" class="node">
-<title>http://w3id.org/oseg/ont/okh#Module</title>
-<ellipse fill="none" stroke="#e377c2" cx="556.87" cy="-397.26" rx="70.92" ry="16.03"/>
-<text text-anchor="middle" x="556.87" y="-393.56" font-family="Times,serif" font-size="14.00">okh:Module</text>
+<!-- http://www.w3.org/2002/07/owl#Ontology -->
+<g id="node4" class="node">
+<title>http://www.w3.org/2002/07/owl#Ontology</title>
+<ellipse fill="none" stroke="#1f77b4" cx="556.87" cy="-587.26" rx="77.56" ry="16.03"/>
+<text text-anchor="middle" x="556.87" y="-583.56" font-family="Times,serif" font-size="14.00">owl:Ontology</text>
 </g>
 <!-- http://w3id.org/oseg/ont/okh -->
-<g id="node6" class="node">
+<g id="node5" class="node">
 <title>http://w3id.org/oseg/ont/okh</title>
 <ellipse fill="none" stroke="#e377c2" cx="120.21" cy="-561.26" rx="50.82" ry="16.03"/>
 <text text-anchor="middle" x="120.21" y="-557.56" font-family="Times,serif" font-size="14.00">ns1:okh</text>
 </g>
 <!-- http://w3id.org/oseg/ont/okh&#45;&gt;http://www.w3.org/2002/07/owl#Ontology -->
-<g id="edge12" class="edge">
+<g id="edge1" class="edge">
 <title>http://w3id.org/oseg/ont/okh&#45;&gt;http://www.w3.org/2002/07/owl#Ontology</title>
 <path fill="none" stroke="black" d="M170.65,-564.22C243.92,-568.6 382.3,-576.88 471.72,-582.23"/>
 <polygon fill="black" stroke="black" points="471.64,-585.73 481.83,-582.83 472.06,-578.74 471.64,-585.73"/>
 <text text-anchor="middle" x="336.42" y="-581.06" font-family="Times,serif" font-size="14.00">a</text>
 </g>
 <!-- http://spdx.org/licenses/GPL&#45;3.0&#45;or&#45;later -->
-<g id="node7" class="node">
+<g id="node10" class="node">
 <title>http://spdx.org/licenses/GPL&#45;3.0&#45;or&#45;later</title>
 <ellipse fill="none" stroke="#e377c2" cx="556.87" cy="-536.26" rx="108.79" ry="16.03"/>
 <text text-anchor="middle" x="556.87" y="-532.56" font-family="Times,serif" font-size="14.00">spdxl:GPL&#45;3.0&#45;or&#45;...</text>
 </g>
 <!-- http://w3id.org/oseg/ont/okh&#45;&gt;http://spdx.org/licenses/GPL&#45;3.0&#45;or&#45;later -->
-<g id="edge1" class="edge">
+<g id="edge10" class="edge">
 <title>http://w3id.org/oseg/ont/okh&#45;&gt;http://spdx.org/licenses/GPL&#45;3.0&#45;or&#45;later</title>
 <path fill="none" stroke="black" d="M169.44,-557.01C195.73,-554.78 228.84,-552.14 258.42,-550.26 318.64,-546.43 385.79,-543.18 441.03,-540.78"/>
 <polygon fill="black" stroke="black" points="441.36,-544.27 451.2,-540.35 441.06,-537.28 441.36,-544.27"/>
 <text text-anchor="middle" x="336.42" y="-554.06" font-family="Times,serif" font-size="14.00">spdx:licenseDeclared</text>
 </g>
-<!-- http://w3id.org/oseg/ont/ods#FetchUrl -->
-<g id="node8" class="node">
-<title>http://w3id.org/oseg/ont/ods#FetchUrl</title>
-<ellipse fill="none" stroke="#e377c2" cx="556.87" cy="-67.26" rx="77.15" ry="16.03"/>
-<text text-anchor="middle" x="556.87" y="-63.56" font-family="Times,serif" font-size="14.00">ods:FetchUrl</text>
+<!-- http://w3id.org/oseg/ont/okh#Module -->
+<g id="node6" class="node">
+<title>http://w3id.org/oseg/ont/okh#Module</title>
+<ellipse fill="none" stroke="#e377c2" cx="556.87" cy="-219.26" rx="70.92" ry="16.03"/>
+<text text-anchor="middle" x="556.87" y="-215.56" font-family="Times,serif" font-size="14.00">okh:Module</text>
 </g>
 <!-- http://w3id.org/oseg/ont/okh#hasCertificate -->
-<g id="node9" class="node">
+<g id="node7" class="node">
 <title>http://w3id.org/oseg/ont/okh#hasCertificate</title>
-<ellipse fill="none" stroke="#e377c2" cx="120.21" cy="-276.26" rx="103.48" ry="16.03"/>
-<text text-anchor="middle" x="120.21" y="-272.56" font-family="Times,serif" font-size="14.00">okh:hasCertificate</text>
+<ellipse fill="none" stroke="#e377c2" cx="120.21" cy="-86.26" rx="103.48" ry="16.03"/>
+<text text-anchor="middle" x="120.21" y="-82.56" font-family="Times,serif" font-size="14.00">okh:hasCertificate</text>
 </g>
 <!-- http://w3id.org/oseg/ont/okh#hasCertificate&#45;&gt;http://www.w3.org/2002/07/owl#ObjectProperty -->
-<g id="edge4" class="edge">
+<g id="edge12" class="edge">
 <title>http://w3id.org/oseg/ont/okh#hasCertificate&#45;&gt;http://www.w3.org/2002/07/owl#ObjectProperty</title>
-<path fill="none" stroke="black" d="M207.91,-267.64C224.66,-266.09 242.08,-264.56 258.42,-263.26 319.6,-258.41 387.95,-253.98 443.68,-250.61"/>
-<polygon fill="black" stroke="black" points="444.17,-254.09 453.94,-250 443.75,-247.1 444.17,-254.09"/>
-<text text-anchor="middle" x="336.42" y="-267.06" font-family="Times,serif" font-size="14.00">a</text>
+<path fill="none" stroke="black" d="M194.38,-74.91C215.03,-72.19 237.56,-69.66 258.42,-68.26 317.72,-64.29 383.81,-63.69 438.61,-64.23"/>
+<polygon fill="black" stroke="black" points="438.67,-67.73 448.71,-64.34 438.75,-60.73 438.67,-67.73"/>
+<text text-anchor="middle" x="336.42" y="-72.06" font-family="Times,serif" font-size="14.00">a</text>
 </g>
 <!-- http://w3id.org/oseg/ont/okh#hasCertificate&#45;&gt;http://www.w3.org/2004/02/skos/core#Concept -->
-<g id="edge3" class="edge">
+<g id="edge7" class="edge">
 <title>http://w3id.org/oseg/ont/okh#hasCertificate&#45;&gt;http://www.w3.org/2004/02/skos/core#Concept</title>
-<path fill="none" stroke="black" d="M131.94,-259.64C152.32,-229.77 199.9,-167.96 258.42,-144.26 333.91,-113.7 429.29,-120.41 491.39,-130.08"/>
-<polygon fill="black" stroke="black" points="491.01,-133.56 501.44,-131.71 492.13,-126.65 491.01,-133.56"/>
-<text text-anchor="middle" x="336.42" y="-148.06" font-family="Times,serif" font-size="14.00">a</text>
-</g>
-<!-- http://w3id.org/oseg/ont/okh#hasCertificate&#45;&gt;http://w3id.org/oseg/ont/okh#Module -->
-<g id="edge11" class="edge">
-<title>http://w3id.org/oseg/ont/okh#hasCertificate&#45;&gt;http://w3id.org/oseg/ont/okh#Module</title>
-<path fill="none" stroke="black" d="M144.8,-292.31C171.23,-309.43 215.95,-335.89 258.42,-349.26 325.04,-370.24 345.48,-357.02 414.42,-368.26 441.16,-372.63 470.54,-378.48 495.57,-383.78"/>
-<polygon fill="black" stroke="black" points="495.13,-387.26 505.64,-385.93 496.59,-380.42 495.13,-387.26"/>
-<text text-anchor="middle" x="336.42" y="-372.06" font-family="Times,serif" font-size="14.00">dcam:domainIncludes</text>
-</g>
-<!-- http://w3id.org/oseg/ont/okhmeta#DevelopmentTag -->
-<g id="node10" class="node">
-<title>http://w3id.org/oseg/ont/okhmeta#DevelopmentTag</title>
-<ellipse fill="none" stroke="#e377c2" cx="556.87" cy="-295.26" rx="124.4" ry="16.03"/>
-<text text-anchor="middle" x="556.87" y="-291.56" font-family="Times,serif" font-size="14.00">okhmeta:Developme...</text>
-</g>
-<!-- http://w3id.org/oseg/ont/okh#hasCertificate&#45;&gt;http://w3id.org/oseg/ont/okhmeta#DevelopmentTag -->
-<g id="edge13" class="edge">
-<title>http://w3id.org/oseg/ont/okh#hasCertificate&#45;&gt;http://w3id.org/oseg/ont/okhmeta#DevelopmentTag</title>
-<path fill="none" stroke="black" d="M219.84,-280.57C281.66,-283.28 361.97,-286.79 428.58,-289.7"/>
-<polygon fill="black" stroke="black" points="428.58,-293.2 438.72,-290.14 428.89,-286.21 428.58,-293.2"/>
-<text text-anchor="middle" x="336.42" y="-292.06" font-family="Times,serif" font-size="14.00">okhmeta:hasMetaTag</text>
-</g>
-<!-- http://w3id.org/oseg/ont/okh#repoSnapshot -->
-<g id="node11" class="node">
-<title>http://w3id.org/oseg/ont/okh#repoSnapshot</title>
-<ellipse fill="none" stroke="#e377c2" cx="120.21" cy="-105.26" rx="103.48" ry="16.03"/>
-<text text-anchor="middle" x="120.21" y="-101.56" font-family="Times,serif" font-size="14.00">okh:repoSnapshot</text>
-</g>
-<!-- http://w3id.org/oseg/ont/okh#repoSnapshot&#45;&gt;http://www.w3.org/2002/07/owl#DatatypeProperty -->
-<g id="edge5" class="edge">
-<title>http://w3id.org/oseg/ont/okh#repoSnapshot&#45;&gt;http://www.w3.org/2002/07/owl#DatatypeProperty</title>
-<path fill="none" stroke="black" d="M154.04,-120.65C181.4,-132.86 221.69,-149.47 258.42,-159.26 292.27,-168.29 389.85,-157.28 414.42,-182.26 457.79,-226.36 390.42,-274.86 432.42,-320.26 436.61,-324.8 441.37,-328.64 446.54,-331.91"/>
-<polygon fill="black" stroke="black" points="445.12,-335.12 455.57,-336.86 448.48,-328.98 445.12,-335.12"/>
-<text text-anchor="middle" x="336.42" y="-186.06" font-family="Times,serif" font-size="14.00">a</text>
-</g>
-<!-- http://w3id.org/oseg/ont/okh#repoSnapshot&#45;&gt;http://www.w3.org/2004/02/skos/core#Concept -->
-<g id="edge6" class="edge">
-<title>http://w3id.org/oseg/ont/okh#repoSnapshot&#45;&gt;http://www.w3.org/2004/02/skos/core#Concept</title>
-<path fill="none" stroke="black" d="M217.02,-99.52C274.5,-97.59 348.92,-97.73 414.42,-106.26 444.88,-110.23 478.16,-118.72 504.78,-126.57"/>
-<polygon fill="black" stroke="black" points="504.05,-130 514.64,-129.53 506.07,-123.3 504.05,-130"/>
+<path fill="none" stroke="black" d="M222.5,-88.49C279.23,-90.91 351.1,-95.92 414.42,-106.26 444.07,-111.11 476.55,-119.39 502.89,-126.88"/>
+<polygon fill="black" stroke="black" points="502.09,-130.29 512.67,-129.71 504.04,-123.57 502.09,-130.29"/>
 <text text-anchor="middle" x="336.42" y="-110.06" font-family="Times,serif" font-size="14.00">a</text>
 </g>
-<!-- http://w3id.org/oseg/ont/okh#repoSnapshot&#45;&gt;http://w3id.org/oseg/ont/okh#Module -->
-<g id="edge14" class="edge">
-<title>http://w3id.org/oseg/ont/okh#repoSnapshot&#45;&gt;http://w3id.org/oseg/ont/okh#Module</title>
-<path fill="none" stroke="black" d="M138.2,-121.69C163.72,-147.22 211.98,-198.94 240.42,-251.26 252.9,-274.23 238.47,-290.36 258.42,-307.26 311.88,-352.58 358.7,-287.75 414.42,-330.26 430.24,-342.33 416.97,-358.71 432.42,-371.26 445.16,-381.61 461.02,-388.13 477.08,-392.18"/>
-<polygon fill="black" stroke="black" points="476.56,-395.65 487.08,-394.39 478.07,-388.81 476.56,-395.65"/>
-<text text-anchor="middle" x="336.42" y="-334.06" font-family="Times,serif" font-size="14.00">dcam:domainIncludes</text>
-</g>
-<!-- http://w3id.org/oseg/ont/okh#repoSnapshot&#45;&gt;http://w3id.org/oseg/ont/ods#FetchUrl -->
+<!-- http://w3id.org/oseg/ont/okh#hasCertificate&#45;&gt;http://w3id.org/oseg/ont/okh#Module -->
 <g id="edge2" class="edge">
-<title>http://w3id.org/oseg/ont/okh#repoSnapshot&#45;&gt;http://w3id.org/oseg/ont/ods#FetchUrl</title>
-<path fill="none" stroke="black" d="M164.49,-90.49C191.21,-82.15 226.38,-72.56 258.42,-68.26 330.51,-58.59 413.31,-59.26 473.22,-61.82"/>
-<polygon fill="black" stroke="black" points="473.23,-65.32 483.38,-62.28 473.55,-58.33 473.23,-65.32"/>
-<text text-anchor="middle" x="336.42" y="-72.06" font-family="Times,serif" font-size="14.00">dcam:rangeIncludes</text>
+<title>http://w3id.org/oseg/ont/okh#hasCertificate&#45;&gt;http://w3id.org/oseg/ont/okh#Module</title>
+<path fill="none" stroke="black" d="M145.43,-102.16C172.05,-118.9 216.6,-144.79 258.42,-159.26 324.98,-182.31 345.38,-173.27 414.42,-187.26 441.65,-192.78 471.68,-199.49 497.05,-205.34"/>
+<polygon fill="black" stroke="black" points="496.35,-208.77 506.89,-207.61 497.93,-201.95 496.35,-208.77"/>
+<text text-anchor="middle" x="336.42" y="-191.06" font-family="Times,serif" font-size="14.00">dcam:domainIncludes</text>
+</g>
+<!-- http://w3id.org/oseg/ont/okhmeta#DevelopmentTag -->
+<g id="node8" class="node">
+<title>http://w3id.org/oseg/ont/okhmeta#DevelopmentTag</title>
+<ellipse fill="none" stroke="#e377c2" cx="556.87" cy="-16.26" rx="124.4" ry="16.03"/>
+<text text-anchor="middle" x="556.87" y="-12.56" font-family="Times,serif" font-size="14.00">okhmeta:Developme...</text>
+</g>
+<!-- http://w3id.org/oseg/ont/okh#hasCertificate&#45;&gt;http://w3id.org/oseg/ont/okhmeta#DevelopmentTag -->
+<g id="edge8" class="edge">
+<title>http://w3id.org/oseg/ont/okh#hasCertificate&#45;&gt;http://w3id.org/oseg/ont/okhmeta#DevelopmentTag</title>
+<path fill="none" stroke="black" d="M163.32,-71.37C190.2,-62.45 225.97,-51.63 258.42,-45.26 314.5,-34.26 377.39,-27.35 430.85,-23.06"/>
+<polygon fill="black" stroke="black" points="431.36,-26.53 441.06,-22.26 430.82,-19.55 431.36,-26.53"/>
+<text text-anchor="middle" x="336.42" y="-49.06" font-family="Times,serif" font-size="14.00">okhmeta:hasMetaTag</text>
 </g>
 <!-- http://w3id.org/oseg/ont/okhmeta#HistoryTag -->
-<g id="node12" class="node">
+<g id="node9" class="node">
 <title>http://w3id.org/oseg/ont/okhmeta#HistoryTag</title>
-<ellipse fill="none" stroke="#e377c2" cx="556.87" cy="-16.26" rx="113.69" ry="16.03"/>
-<text text-anchor="middle" x="556.87" y="-12.56" font-family="Times,serif" font-size="14.00">okhmeta:HistoryTag</text>
-</g>
-<!-- http://w3id.org/oseg/ont/okh#repoSnapshot&#45;&gt;http://w3id.org/oseg/ont/okhmeta#HistoryTag -->
-<g id="edge7" class="edge">
-<title>http://w3id.org/oseg/ont/okh#repoSnapshot&#45;&gt;http://w3id.org/oseg/ont/okhmeta#HistoryTag</title>
-<path fill="none" stroke="black" d="M147.48,-89.58C174.34,-74.38 217.78,-52.08 258.42,-41.26 314.52,-26.33 378.48,-19.68 432.68,-16.92"/>
-<polygon fill="black" stroke="black" points="432.86,-20.42 442.68,-16.45 432.53,-13.42 432.86,-20.42"/>
-<text text-anchor="middle" x="336.42" y="-45.06" font-family="Times,serif" font-size="14.00">okhmeta:hasMetaTag</text>
-</g>
-<!-- http://www.w3.org/2001/XMLSchema#int -->
-<g id="node13" class="node">
-<title>http://www.w3.org/2001/XMLSchema#int</title>
-<ellipse fill="none" stroke="#e377c2" cx="556.87" cy="-485.26" rx="45.92" ry="16.03"/>
-<text text-anchor="middle" x="556.87" y="-481.56" font-family="Times,serif" font-size="14.00">xsd:int</text>
+<ellipse fill="none" stroke="#e377c2" cx="556.87" cy="-288.26" rx="113.69" ry="16.03"/>
+<text text-anchor="middle" x="556.87" y="-284.56" font-family="Times,serif" font-size="14.00">okhmeta:HistoryTag</text>
 </g>
 <!-- http://w3id.org/oseg/ont/okh#contributorCount -->
-<g id="node14" class="node">
+<g id="node11" class="node">
 <title>http://w3id.org/oseg/ont/okh#contributorCount</title>
 <ellipse fill="none" stroke="#e377c2" cx="120.21" cy="-428.26" rx="120.42" ry="16.03"/>
 <text text-anchor="middle" x="120.21" y="-424.56" font-family="Times,serif" font-size="14.00">okh:contributorCount</text>
 </g>
 <!-- http://w3id.org/oseg/ont/okh#contributorCount&#45;&gt;http://www.w3.org/2002/07/owl#DatatypeProperty -->
-<g id="edge9" class="edge">
+<g id="edge14" class="edge">
 <title>http://w3id.org/oseg/ont/okh#contributorCount&#45;&gt;http://www.w3.org/2002/07/owl#DatatypeProperty</title>
-<path fill="none" stroke="black" d="M196.62,-415.65C216.68,-412.43 238.35,-409.09 258.42,-406.26 327.58,-396.51 350.3,-414.97 414.42,-387.26 423.98,-383.13 423.04,-376.8 432.42,-372.26 441.75,-367.74 451.86,-364 462.13,-360.91"/>
-<polygon fill="black" stroke="black" points="463.33,-364.21 472.01,-358.14 461.44,-357.47 463.33,-364.21"/>
-<text text-anchor="middle" x="336.42" y="-410.06" font-family="Times,serif" font-size="14.00">a</text>
+<path fill="none" stroke="black" d="M240.07,-429.81C293.43,-429.79 357.13,-428.79 414.42,-425.26 428.55,-424.39 443.43,-423.11 458.03,-421.65"/>
+<polygon fill="black" stroke="black" points="458.5,-425.12 468.08,-420.61 457.78,-418.16 458.5,-425.12"/>
+<text text-anchor="middle" x="336.42" y="-433.06" font-family="Times,serif" font-size="14.00">a</text>
 </g>
 <!-- http://w3id.org/oseg/ont/okh#contributorCount&#45;&gt;http://www.w3.org/2004/02/skos/core#Concept -->
-<g id="edge10" class="edge">
+<g id="edge11" class="edge">
 <title>http://w3id.org/oseg/ont/okh#contributorCount&#45;&gt;http://www.w3.org/2004/02/skos/core#Concept</title>
-<path fill="none" stroke="black" d="M141.73,-412.05C168.42,-389.87 214.67,-347.5 240.42,-301.26 255.42,-274.33 236.29,-255.74 258.42,-234.26 309.54,-184.63 346.32,-218.24 414.42,-197.26 447.67,-187.02 484.36,-172.93 512.04,-161.71"/>
-<polygon fill="black" stroke="black" points="513.5,-164.89 521.43,-157.87 510.85,-158.41 513.5,-164.89"/>
-<text text-anchor="middle" x="336.42" y="-238.06" font-family="Times,serif" font-size="14.00">a</text>
+<path fill="none" stroke="black" d="M144.96,-412.2C171.56,-393.11 214.34,-358.93 240.42,-320.26 253.39,-301.03 241.02,-286.61 258.42,-271.26 311.78,-224.2 359.63,-280.66 414.42,-235.26 429.74,-222.57 418.19,-208.18 432.42,-194.26 449.23,-177.81 472.11,-166.39 493.61,-158.59"/>
+<polygon fill="black" stroke="black" points="495.03,-161.81 503.36,-155.26 492.76,-155.18 495.03,-161.81"/>
+<text text-anchor="middle" x="336.42" y="-275.06" font-family="Times,serif" font-size="14.00">a</text>
 </g>
 <!-- http://w3id.org/oseg/ont/okh#contributorCount&#45;&gt;http://w3id.org/oseg/ont/okh#Module -->
-<g id="edge15" class="edge">
+<g id="edge3" class="edge">
 <title>http://w3id.org/oseg/ont/okh#contributorCount&#45;&gt;http://w3id.org/oseg/ont/okh#Module</title>
-<path fill="none" stroke="black" d="M237.42,-432.01C291.38,-432.48 356.31,-431.26 414.42,-425.26 442.12,-422.41 472.45,-416.74 497.9,-411.26"/>
-<polygon fill="black" stroke="black" points="498.74,-414.65 507.76,-409.09 497.24,-407.82 498.74,-414.65"/>
-<text text-anchor="middle" x="336.42" y="-435.06" font-family="Times,serif" font-size="14.00">dcam:domainIncludes</text>
+<path fill="none" stroke="black" d="M196.62,-415.65C216.68,-412.43 238.35,-409.09 258.42,-406.26 293,-401.39 389.44,-411.67 414.42,-387.26 454.24,-348.34 397.13,-306.34 432.42,-263.26 445.8,-246.93 465.7,-236.65 485.64,-230.19"/>
+<polygon fill="black" stroke="black" points="486.8,-233.5 495.41,-227.32 484.82,-226.78 486.8,-233.5"/>
+<text text-anchor="middle" x="336.42" y="-410.06" font-family="Times,serif" font-size="14.00">dcam:domainIncludes</text>
+</g>
+<!-- http://www.w3.org/2001/XMLSchema#int -->
+<g id="node14" class="node">
+<title>http://www.w3.org/2001/XMLSchema#int</title>
+<ellipse fill="none" stroke="#e377c2" cx="556.87" cy="-485.26" rx="45.92" ry="16.03"/>
+<text text-anchor="middle" x="556.87" y="-481.56" font-family="Times,serif" font-size="14.00">xsd:int</text>
 </g>
 <!-- http://w3id.org/oseg/ont/okh#contributorCount&#45;&gt;http://www.w3.org/2001/XMLSchema#int -->
-<g id="edge8" class="edge">
+<g id="edge6" class="edge">
 <title>http://w3id.org/oseg/ont/okh#contributorCount&#45;&gt;http://www.w3.org/2001/XMLSchema#int</title>
-<path fill="none" stroke="black" d="M196.25,-440.88C216.41,-444.11 238.22,-447.46 258.42,-450.26 343.44,-462.08 442.5,-473.21 502.14,-479.63"/>
-<polygon fill="black" stroke="black" points="502.13,-483.14 512.44,-480.73 502.87,-476.18 502.13,-483.14"/>
-<text text-anchor="middle" x="336.42" y="-473.06" font-family="Times,serif" font-size="14.00">dcam:rangeIncludes</text>
+<path fill="none" stroke="black" d="M201.7,-440.28C220.32,-442.98 240.05,-445.78 258.42,-448.26 343.8,-459.8 443.15,-471.89 502.69,-478.99"/>
+<polygon fill="black" stroke="black" points="502.63,-482.51 512.98,-480.21 503.46,-475.56 502.63,-482.51"/>
+<text text-anchor="middle" x="336.42" y="-471.06" font-family="Times,serif" font-size="14.00">dcam:rangeIncludes</text>
+</g>
+<!-- http://w3id.org/oseg/ont/okh#repoSnapshot -->
+<g id="node12" class="node">
+<title>http://w3id.org/oseg/ont/okh#repoSnapshot</title>
+<ellipse fill="none" stroke="#e377c2" cx="120.21" cy="-295.26" rx="103.48" ry="16.03"/>
+<text text-anchor="middle" x="120.21" y="-291.56" font-family="Times,serif" font-size="14.00">okh:repoSnapshot</text>
+</g>
+<!-- http://w3id.org/oseg/ont/okh#repoSnapshot&#45;&gt;http://www.w3.org/2002/07/owl#DatatypeProperty -->
+<g id="edge15" class="edge">
+<title>http://w3id.org/oseg/ont/okh#repoSnapshot&#45;&gt;http://www.w3.org/2002/07/owl#DatatypeProperty</title>
+<path fill="none" stroke="black" d="M157.62,-310.55C184.95,-321.52 223.51,-335.96 258.42,-345.26 326.41,-363.38 345.65,-357.35 414.42,-372.26 440.58,-377.94 469.19,-385.22 493.8,-391.82"/>
+<polygon fill="black" stroke="black" points="493.16,-395.27 503.72,-394.5 494.98,-388.51 493.16,-395.27"/>
+<text text-anchor="middle" x="336.42" y="-376.06" font-family="Times,serif" font-size="14.00">a</text>
+</g>
+<!-- http://w3id.org/oseg/ont/okh#repoSnapshot&#45;&gt;http://www.w3.org/2004/02/skos/core#Concept -->
+<g id="edge13" class="edge">
+<title>http://w3id.org/oseg/ont/okh#repoSnapshot&#45;&gt;http://www.w3.org/2004/02/skos/core#Concept</title>
+<path fill="none" stroke="black" d="M129.43,-278.99C147.41,-245.45 193.86,-169.33 258.42,-140.26 295.86,-123.4 401.56,-128.65 476.27,-135.04"/>
+<polygon fill="black" stroke="black" points="476.33,-138.56 486.59,-135.95 476.94,-131.58 476.33,-138.56"/>
+<text text-anchor="middle" x="336.42" y="-144.06" font-family="Times,serif" font-size="14.00">a</text>
+</g>
+<!-- http://w3id.org/oseg/ont/okh#repoSnapshot&#45;&gt;http://w3id.org/oseg/ont/okh#Module -->
+<g id="edge4" class="edge">
+<title>http://w3id.org/oseg/ont/okh#repoSnapshot&#45;&gt;http://w3id.org/oseg/ont/okh#Module</title>
+<path fill="none" stroke="black" d="M142.58,-279.13C168.42,-260.72 213.98,-231.69 258.42,-220.26 334.18,-200.77 424.43,-204 485.5,-209.88"/>
+<polygon fill="black" stroke="black" points="485.49,-213.4 495.8,-210.93 486.2,-206.43 485.49,-213.4"/>
+<text text-anchor="middle" x="336.42" y="-224.06" font-family="Times,serif" font-size="14.00">dcam:domainIncludes</text>
+</g>
+<!-- http://w3id.org/oseg/ont/okh#repoSnapshot&#45;&gt;http://w3id.org/oseg/ont/okhmeta#HistoryTag -->
+<g id="edge9" class="edge">
+<title>http://w3id.org/oseg/ont/okh#repoSnapshot&#45;&gt;http://w3id.org/oseg/ont/okhmeta#HistoryTag</title>
+<path fill="none" stroke="black" d="M223.12,-293.62C286.01,-292.61 367.06,-291.3 433.43,-290.24"/>
+<polygon fill="black" stroke="black" points="433.58,-293.73 443.53,-290.07 433.47,-286.73 433.58,-293.73"/>
+<text text-anchor="middle" x="336.42" y="-296.06" font-family="Times,serif" font-size="14.00">okhmeta:hasMetaTag</text>
+</g>
+<!-- http://w3id.org/oseg/ont/ods#FetchUrl -->
+<g id="node13" class="node">
+<title>http://w3id.org/oseg/ont/ods#FetchUrl</title>
+<ellipse fill="none" stroke="#e377c2" cx="556.87" cy="-339.26" rx="77.15" ry="16.03"/>
+<text text-anchor="middle" x="556.87" y="-335.56" font-family="Times,serif" font-size="14.00">ods:FetchUrl</text>
+</g>
+<!-- http://w3id.org/oseg/ont/okh#repoSnapshot&#45;&gt;http://w3id.org/oseg/ont/ods#FetchUrl -->
+<g id="edge5" class="edge">
+<title>http://w3id.org/oseg/ont/okh#repoSnapshot&#45;&gt;http://w3id.org/oseg/ont/ods#FetchUrl</title>
+<path fill="none" stroke="black" d="M202.8,-305.08C221.09,-307.2 240.41,-309.37 258.42,-311.26 331.8,-319 415.49,-326.78 475.36,-332.17"/>
+<polygon fill="black" stroke="black" points="475.23,-335.68 485.51,-333.08 475.86,-328.7 475.23,-335.68"/>
+<text text-anchor="middle" x="336.42" y="-330.06" font-family="Times,serif" font-size="14.00">dcam:rangeIncludes</text>
 </g>
 </g>
 </svg>
