@@ -449,7 +449,7 @@
       "required": [
         "name"
       ],
-      "oneOf": [
+      "anyOf": [
         {
           "required": [
             "source"
