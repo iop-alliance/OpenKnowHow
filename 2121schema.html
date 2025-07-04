@@ -22,7 +22,7 @@
 
     <div class="breadcrumbs"></div> <h1>Manifest</h1><br/>
 <span class="description"><p>This is a JSON-Schema which can validate an 'okh.toml' file, which holds an Open Source Hardware (OSH) projects Open Know-How (OKH) meta-data.</p>
-</span> <span class="badge badge-info no-additional">No Additional Properties</span><div class="all-of-value" id="allOf"><h2 class="handle">
+</span><div class="all-of-value" id="allOf"><h2 class="handle">
   <label>All of</label>
 </h2><ul class="nav nav-tabs" id="tabsallOf_allOf" role="tablist"><li class="nav-item">
             <a class="nav-link active allOf-option"
@@ -783,7 +783,7 @@
 <span class="description"><p>Link to OKH JSON-Schema</p>
 </span><div class="enum-value" id="schema_enum">
             <h4>Must be one of:</h4>
-            <ul class="list-group"><li class="list-group-item enum-item">"https://json.schemastore.org/okh.json"</li><li class="list-group-item enum-item">"https://w3id.org/oseg/schema/okh.json"</li></ul>
+            <ul class="list-group"><li class="list-group-item enum-item">"https://json.schemastore.org/okh.json"</li><li class="list-group-item enum-item">"https://w3id.org/oseg/schema/okh.schema.json"</li></ul>
             </div>
         
 
@@ -4351,7 +4351,7 @@ So if you wish that someone finds &amp; uses your OSH specifically e.g. for COVI
 <span class="description"><p>a single image reference (project relative path or absolute URL), optionally with additional meta-data</p>
 </span>
 
-     <span class="badge badge-info no-additional">No Additional Properties</span>
+    
         
 
         
@@ -5640,6 +5640,74 @@ even within a single project.</p>
         
         </div>
     </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="accordion" id="accordionimage_anyOf_i0_anyOf_i1_additionalProperties">
+    <div class="card">
+        <div class="card-header" id="headingimage_anyOf_i0_anyOf_i1_additionalProperties">
+            <h2 class="mb-0">
+                <button class="btn btn-link property-name-button" type="button" data-toggle="collapse" data-target="#image_anyOf_i0_anyOf_i1_additionalProperties"
+                        aria-expanded="" aria-controls="image_anyOf_i0_anyOf_i1_additionalProperties" onclick="setAnchor('#image_anyOf_i0_anyOf_i1_additionalProperties')"><em><span class="property-name">Additional Properties</span></em></button>
+            </h2>
+        </div>
+
+        <div id="image_anyOf_i0_anyOf_i1_additionalProperties"
+             class="collapse property-definition-div" aria-labelledby="headingimage_anyOf_i0_anyOf_i1_additionalProperties"
+             data-parent="#accordionimage_anyOf_i0_anyOf_i1_additionalProperties">
+            <div class="card-body pl-5"><p class="additional-properties">Additional Properties of any type are allowed.</p>
+
+    <div class="breadcrumbs">root
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#image" onclick="anchorLink('image')">image</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#image_anyOf" onclick="anchorLink('image_anyOf')">anyOf</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#image_anyOf_i0" onclick="anchorLink('image_anyOf_i0')">item 0</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#image_anyOf_i0_anyOf" onclick="anchorLink('image_anyOf_i0_anyOf')">anyOf</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#image_anyOf_i0_anyOf_i1" onclick="anchorLink('image_anyOf_i0_anyOf_i1')">item 1</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#image_anyOf_i0_anyOf_i1_additionalProperties" onclick="anchorLink('image_anyOf_i0_anyOf_i1_additionalProperties')">additionalProperties</a></div><span class="badge badge-dark value-type">Type: object</span><br/>
+
+        
+
+        
+        
+
+        
             </div>
         </div>
     </div>
@@ -7868,7 +7936,7 @@ for projects clearly indicating that they are proprietary.</p>
 <span class="description"><p>a physical component of an open source hardware module, for which technical documentation (design files etc.) is available under a free/open license</p>
 </span>
 
-     <span class="badge badge-info no-additional">No Additional Properties</span><div class="one-of-value" id="part_items_oneOf"><h2 class="handle">
+    <div class="one-of-value" id="part_items_oneOf"><h2 class="handle">
   <label>One of</label>
 </h2><ul class="nav nav-tabs" id="tabspart_items_oneOf_oneOf" role="tablist"><li class="nav-item">
             <a class="nav-link active oneOf-option"
@@ -9158,6 +9226,53 @@ multiple inputs possible (with one entry each)</p>
         </div>
     </div>
 </div>
+<div class="accordion" id="accordionpart_items_additionalProperties">
+    <div class="card">
+        <div class="card-header" id="headingpart_items_additionalProperties">
+            <h2 class="mb-0">
+                <button class="btn btn-link property-name-button" type="button" data-toggle="collapse" data-target="#part_items_additionalProperties"
+                        aria-expanded="" aria-controls="part_items_additionalProperties" onclick="setAnchor('#part_items_additionalProperties')"><em><span class="property-name">Additional Properties</span></em></button>
+            </h2>
+        </div>
+
+        <div id="part_items_additionalProperties"
+             class="collapse property-definition-div" aria-labelledby="headingpart_items_additionalProperties"
+             data-parent="#accordionpart_items_additionalProperties">
+            <div class="card-body pl-5"><p class="additional-properties">Additional Properties of any type are allowed.</p>
+
+    <div class="breadcrumbs">root
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#part" onclick="anchorLink('part')">part</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#part_items" onclick="anchorLink('part_items')">part items</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#part_items_additionalProperties" onclick="anchorLink('part_items_additionalProperties')">additionalProperties</a></div><span class="badge badge-dark value-type">Type: object</span><br/>
+
+        
+
+        
+        
+
+        
+            </div>
+        </div>
+    </div>
+</div>
         </div>
     </div>
             </div>
@@ -10231,7 +10346,7 @@ reporting issues, suggesting changes, connecting to the team etc.</p>
     <a href="#software_items" onclick="anchorLink('software_items')">software</a></div><span class="badge badge-dark value-type">Type: object</span><br/>
 
 
-     <span class="badge badge-info no-additional">No Additional Properties</span>
+    
         
 
         
@@ -11124,6 +11239,53 @@ reporting issues, suggesting changes, connecting to the team etc.</p>
 <br/><div id="attestation_anyOf_i0_ex1" class="jumbotron examples"><div class="highlight"><pre><span></span><span class="s2">&quot;https://github.com/arduino/ArduinoCore-mbed/releases/tag/1.3.2&quot;</span>
 </pre></div>
 </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="accordion" id="accordionsoftware_items_additionalProperties">
+    <div class="card">
+        <div class="card-header" id="headingsoftware_items_additionalProperties">
+            <h2 class="mb-0">
+                <button class="btn btn-link property-name-button" type="button" data-toggle="collapse" data-target="#software_items_additionalProperties"
+                        aria-expanded="" aria-controls="software_items_additionalProperties" onclick="setAnchor('#software_items_additionalProperties')"><em><span class="property-name">Additional Properties</span></em></button>
+            </h2>
+        </div>
+
+        <div id="software_items_additionalProperties"
+             class="collapse property-definition-div" aria-labelledby="headingsoftware_items_additionalProperties"
+             data-parent="#accordionsoftware_items_additionalProperties">
+            <div class="card-body pl-5"><p class="additional-properties">Additional Properties of any type are allowed.</p>
+
+    <div class="breadcrumbs">root
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#software" onclick="anchorLink('software')">software</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#software_items" onclick="anchorLink('software_items')">software items</a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#software_items_additionalProperties" onclick="anchorLink('software_items_additionalProperties')">additionalProperties</a></div><span class="badge badge-dark value-type">Type: object</span><br/>
+
+        
+
+        
+        
+
+        
             </div>
         </div>
     </div>
@@ -12285,8 +12447,41 @@ multiple inputs possible (with one entry each)</p>
         </div>
     </div>
 </div>
+<div class="accordion" id="accordionadditionalProperties">
+    <div class="card">
+        <div class="card-header" id="headingadditionalProperties">
+            <h2 class="mb-0">
+                <button class="btn btn-link property-name-button" type="button" data-toggle="collapse" data-target="#additionalProperties"
+                        aria-expanded="" aria-controls="additionalProperties" onclick="setAnchor('#additionalProperties')"><em><span class="property-name">Additional Properties</span></em></button>
+            </h2>
+        </div>
+
+        <div id="additionalProperties"
+             class="collapse property-definition-div" aria-labelledby="headingadditionalProperties"
+             data-parent="#accordionadditionalProperties">
+            <div class="card-body pl-5"><p class="additional-properties">Additional Properties of any type are allowed.</p>
+
+    <div class="breadcrumbs">root
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+            />
+        </svg>
+    <a href="#additionalProperties" onclick="anchorLink('additionalProperties')">additionalProperties</a></div><span class="badge badge-dark value-type">Type: object</span><br/>
+
+        
+
+        
+        
+
+        
+            </div>
+        </div>
+    </div>
+</div>
 
     <footer>
-        <p class="generated-by-footer">Generated using <a href="https://github.com/coveooss/json-schema-for-humans">json-schema-for-humans</a> on 2025-07-03 at 17:00:46 +0000</p>
+        <p class="generated-by-footer">Generated using <a href="https://github.com/coveooss/json-schema-for-humans">json-schema-for-humans</a> on 2025-07-04 at 06:12:30 +0000</p>
     </footer></body>
 </html>
