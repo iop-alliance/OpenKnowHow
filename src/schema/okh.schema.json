@@ -196,7 +196,7 @@
     "imageObject": {
       "description": "a single image reference (project relative path or absolute URL), optionally with additional meta-data",
       "type": "object",
-      "additionalProperties": false,
+      "additionalProperties": true,
       "examples": [
         {
           "location": "res/media/img/logo.svg",
@@ -445,7 +445,7 @@
     "part": {
       "description": "a physical component of an open source hardware module, for which technical documentation (design files etc.) is available under a free/open license",
       "type": "object",
-      "additionalProperties": false,
+      "additionalProperties": true,
       "required": [
         "name"
       ],
@@ -582,7 +582,7 @@
     },
     "software": {
       "type": "object",
-      "additionalProperties": false,
+      "additionalProperties": true,
       "required": [
         "release"
       ],
@@ -678,7 +678,7 @@
   "title": "Manifest",
   "description": "This is a JSON-Schema which can validate an 'okh.toml' file, which holds an Open Source Hardware (OSH) projects Open Know-How (OKH) meta-data.",
   "type": "object",
-  "additionalProperties": false,
+  "additionalProperties": true,
   "allOf": [
     {
       "if": {
