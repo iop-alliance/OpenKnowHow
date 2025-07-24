@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://w3id.org/oseg/schema/okh.schema.json",
-  "$comment": "NOTE: The properties 'ui-hidden' and 'ui-recommended' used in this schema, are non-standardized, and currently unused. They could be used to create a form, and are here for consistency with <https://git.iostud.io/makernet/iop-cdb/-/blob/dev/server/assets/okh.okhdf>.",
+  "$comment": "NOTE:\n1. When editing this file, think about doing it within this tool, which shows an on-the-fly generated version of a form for the data: < \n2. The properties 'ui-hidden' and 'ui-recommended' used in this schema, are non-standardized, and currently unused. They could be used to create a form, and are here for consistency with <https://git.iostud.io/makernet/iop-cdb/-/blob/dev/server/assets/okh.okhdf>.",
   "$defs": {
     "agent": {
       "description": "A person or organization",
