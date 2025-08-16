@@ -1,5 +1,5 @@
 # SPDX-FileCopyrightText: 2021 Martin Häuer <martin.haeuer@ose-germany.de>
-# SPDX-FileCopyrightText: 2021 - 2024 Robin Vobruba <hoijui.quaero@gmail.com>
+# SPDX-FileCopyrightText: 2021 - 2025 Robin Vobruba <hoijui.quaero@gmail.com>
 #
 # SPDX-License-Identifier: CC0-1.0
 
@@ -55,13 +55,13 @@ contribution-guide = "CONTRIBUTING.md"
 # Choose the best fitting category out of the ones available in this file:
 # <https://github.com/iop-alliance/OpenKnowHow/blob/bdd266398ed74c0828aa8795c2add082b8518eae/src/spec/otrl.ttl#L110>
 # (read all the info for the categories, and then copy the value of `rdfs:label` in here)
-technology-readiness-level = "OTRL-3"
+technology-readiness-level = "OTRL-1"
 # How far in its development is this technologies documentation;
 # how well tested, how many times reproduced, ...?
 # Choose the best fitting category out of the ones available in this file:
 # <https://github.com/iop-alliance/OpenKnowHow/blob/bdd266398ed74c0828aa8795c2add082b8518eae/src/spec/otrl.ttl#L164>
 # (read all the info for the categories, and then copy the value of `rdfs:label` in here)
-documentation-readiness-level = "ODRL-3"
+documentation-readiness-level = "ODRL-1"
 # File containing information about an attestation of a certification process for this project.
 # So if some (usually third party) organization found this project
 # to be adhering to a certain set of rules,
