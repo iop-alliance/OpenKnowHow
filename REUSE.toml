@@ -3,7 +3,7 @@
 # SPDX-License-Identifier: CC0-1.0
 
 version = 1
-SPDX-PackageName = "Open Know-How - Library of Open Source Hardware version)"
+SPDX-PackageName = "Open Know-How - Library of Open Source Hardware version"
 SPDX-PackageSupplier = [
     "Martin Häuer (Open Source Ecology Germany e.V.) <martin.haeuer@ose-germany.de>",
     "Robin Vobruba (Open Source Ecology Germany e.V.) <hoijui.quaero@gmail.com>"
