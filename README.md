@@ -64,14 +64,14 @@ in descending order:
     The [JSON-Schema] for the ([TOML]) manifests,
     which are commonly used as the source files by the projects or project platforms
     to store/transmit the projects data,
-    even though the _real_ data is always the RDF form
+    even though the _real_ data is always the [RDF] form
     (which can be generated from these manifests).
 3. [src/spec/otrl.ttl](src/spec/otrl.ttl) -
     The source file of the Open Technology&Documentation Readiness Levels Specification
     (used by _okh.ttl_)
 4. [src/spec/okh-img.ttl](src/spec/okh-img.ttl) -
     The source file of the tags and slots data (RDF individuals) for images in OKH
-    (used by _okh.ttl_ and OKH projects RDF data)
+    (used by _okh.ttl_ and OKH projects [RDF] data)
 
 Other, crucial files for OKH, outside this repository:
 
@@ -267,7 +267,7 @@ then it would be:
   so:
   - we can run periodic tests to see whether files are still online,
   - you can download those files directly from an OKH web front-end
-- RDF enables custom use cases
+  [RDF] enables custom use cases
   (e.g. for researchers or other OSH platforms)
   for example by writing custom queries ([SPARQL])
   or by linking to other data/knowledge bases,
@@ -484,6 +484,7 @@ cultural geographer (1808-1896)
 [OSEG]: https://www.ose-germany.de/
 [OSH]: https://en.wikipedia.org/wiki/Open-source_hardware
 [OSHWA]: https://oshwa.org/
+[RDF]: https://www.w3.org/RDF/
 [RDF-DB tester]: https://github.com/osegermany/OKH-RDF-DB/
 [SHACL]: https://en.wikipedia.org/wiki/SHACL
 [SPARQL]: https://en.wikipedia.org/wiki/SPARQL
