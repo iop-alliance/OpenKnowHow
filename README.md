@@ -7,9 +7,6 @@ SPDX-FileCopyrightText: 2021 Martin Häuer <martin.haeuer@ose-germany.de>
 SPDX-License-Identifier: CC0-1.0
 -->
 
-**[Open Source Hardware][OSH] (OSH) technical documentation standard,
-based on [Linked Open Data].**
-
 [![DOI](
     https://zenodo.org/badge/259683880.svg)](
     https://doi.org/10.5281/zenodo.5336680)
@@ -24,22 +21,16 @@ based on [Linked Open Data].**
     https://raw.githubusercontent.com/osegermany/tiny-files/master/res/media/img/badge-oseg.svg)](
     https://www.ose-germany.de/die-bewegung/)
 
-- <https://search.tech.opensourceecology.de> -
-  browse the collected data
-
-<!--
-This link is deprecated:
-- ~<https://manifest.opennext.eu> -~
-  ~web-UI to create meta-data for a project~
--->
-
 ## Intro
 
-Open Know-How (OKH) is primarily a specification (~= a standard)
-for how to structure meta-data about Free Technology
-(aka [Open Source Hardware][OSH]) projects.
+Open Know-How (OKH) is primarily a specification
+(something similar to a standard)
+for metadata of technology designs
+that belong to the people
+(aka Free Technology, aka [Open Source Hardware][OSH]).
+It provides the base for indexing and searching such projects.
 
-A simplified example of such data,
+See a simplified example of such data for a single project,
 just so you have an idea:
 
 ```toml
@@ -49,9 +40,21 @@ repo = "https://codeberg.org/the-comfortables/pallets-based-comfy-couch/"
 state = "reproduced many times"
 ```
 
-Now that you have a basic idea of what this is,
-and you are still here ...
-just follow the rabbit.
+The natural form of this data -
+which is also how we keep it in the index -
+is [Linked Open Data],
+more specifically [RDF].
+
+A sample of such an index -
+a database listing projects -
+can be browsed on
+<https://search.tech.opensourceecology.de>
+
+<!--
+This link is deprecated:
+- ~<https://manifest.opennext.eu> -~
+  ~web-UI to create meta-data for a project~
+-->
 
 ## Sitemap
 
