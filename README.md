@@ -1,7 +1,7 @@
 # Open Know-How (OKH)
 
 <!--
-SPDX-FileCopyrightText: 2021 - 2025 Robin Vobruba <hoijui.quaero@gmail.com>
+SPDX-FileCopyrightText: 2021 - 2026 Robin Vobruba <hoijui.quaero@gmail.com>
 SPDX-FileCopyrightText: 2021 Martin Häuer <martin.haeuer@ose-germany.de>
 
 SPDX-License-Identifier: CC0-1.0
@@ -12,7 +12,7 @@ based on [Linked Open Data].**
 
 [![DOI](
     https://zenodo.org/badge/259683880.svg)](
-    https://zenodo.org/badge/latestdoi/259683880)
+    https://doi.org/10.5281/zenodo.5336680)
 [![License](
     https://img.shields.io/github/license/iop-alliance/OpenKnowHow.svg?style=flat)](
     LICENSE)
